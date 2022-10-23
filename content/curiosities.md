@@ -10,7 +10,7 @@ I'm a thoroughly [miriscient](https://www.miriscient.org) chap, and this often e
 
 ## Words and writing
 
-* I created a word to fill a hole in the vocabulary I had to describe my _miriscient_ friends. Read or listen to 📖[the story on medium](https://medium.com/miriscient/miriscience-5e342ff198f5).
+* I created a word to fill a hole in the vocabulary I had to describe my _miriscient_ friends. Read or listen to 📖[the story right here](/posts/miriscience).
 * During the pandemic I built 🐌[slow.fyi](https://slow.fyi) so I could write to friends old and new without pressuring them to reply or be rude.
 * I published a book, 📔[A lighter side of Africa](https://www.amazon.co.uk/Lighter-Side-Africa-Paintings-Michael/dp/0993324908/), with my brother and Dad which showcases the artwork of a now sadly deceased Zimbabwean family friend, Michael J. Allard.
 
