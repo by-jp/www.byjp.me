@@ -17,7 +17,7 @@ I'm a thoroughly [miriscient](https://www.miriscient.org) chap, and this often e
 ## Art and Creativity
 
 * As I travel I like to take 30 second video clips of the peaceful places. I visit the 🧘‍♂️[site I made for them](http://30s.byjp.me/) when I want to relax for a moment.
-* My friend created a beautiful alphabet, I turned it into a font and 👨‍🎤[performance microsite](https://caspian.byjp.me). Read or listen to 📖[the story on medium](https://medium.com/miriscient/the-beauty-of-type-29ab1000e9e4).
+* My friend created a beautiful alphabet, I turned it into a font and 👨‍🎤[performance microsite](https://caspian.byjp.me). Read or listen to 📖[the story right here](/posts/the-beauty-of-type).
 * I once studied biomedical physics, so when I had an MRI of my head I jumped at the opportunity to extract a 3D model of my brain and 🧠[render it in WebGL online](https://brain.byjp.me/).
 * I built a clockface that counts 🕰[the seconds since I was born](https://tictoc.byjp.me/). In binary.
 * I helped by friend learn about website infrastructure by building a microsite of her favourite moment in film… 🐶[wanna hear the most annoying sound in the world?](https://wannahearthemostannoyingsoundintheworld.byjp.me).
