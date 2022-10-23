@@ -1,0 +1,92 @@
+relativeURLs = true
+languageCode = "en-gb"
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+disableRSS      = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[author]
+  name = "JP Hastings-Spital"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "JP Hastings-Spital: Software Engineer"
+  keywords = "homepage, blog, science, software, miriscient, programming"
+  images = [""]
+
+  justifyContent = true
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+[languages]
+  [languages.en]
+    title = "byJP"
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoHomeLink = "/"
+      # path = "safari-pinned-tab.svg"
+      # alt = "by JP"
+
+    [[languages.en.params.social]]
+      name = "twitter"
+      url  = "https://twitter.com/jphastings"
+
+    [[languages.en.params.social]]
+      name = "email"
+      url  = "mailto:hello@byjp.me"
+
+    [[languages.en.params.social]]
+      name = "instagram"
+      url  = "https://instagram.com/jphastings"
+
+    [[languages.en.params.social]]
+      name = "github"
+      url  = "https://github.com/jphastings"
+
+    [[languages.en.params.social]]
+      name = "linkedin"
+      url  = "https://www.linkedin.com/in/jphastings/"
+
+  # You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "curiosities"
+        name = "Curiosities"
+        url = "/curiosities"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+      [[languages.en.menu.main]]
+        identifier = "mail"
+        name = ":postbox:"
+        url = "/standing-invitation"
