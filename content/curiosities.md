@@ -6,7 +6,7 @@ draft: false
 
 I'm a thoroughly [miriscient](https://www.miriscient.org) chap, and this often ends up in me creating toys, trinkets, projects and other artistic things. I've listed some out below.
 
-<style>li a { margin-left: 0.2em;}</style>
+<style>li a { margin-left: 0.2em; }</style>
 
 ## Words and writing
 

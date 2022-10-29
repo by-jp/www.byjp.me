@@ -17,6 +17,8 @@ disableRSS      = false
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.extensions]
+      typographer = false
     [markup.goldmark.renderer]
       unsafe = true
 
