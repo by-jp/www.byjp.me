@@ -33,8 +33,9 @@ disableRSS      = false
 
   # Metadata mostly used in document's head
   description = "JP Hastings-Spital: Software Engineer"
-  keywords = "homepage, blog, science, software, miriscient, programming"
-  images = [""]
+  keywords    = "homepage, blog, science, software, miriscient, programming"
+  images      = [""]
+  customJS    = ["/js/postcards-html.js"]
 
   justifyContent = true
   contentTypeName = "posts"
