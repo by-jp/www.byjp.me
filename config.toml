@@ -51,25 +51,23 @@ disableRSS      = false
   [languages.en]
     title = "byJP"
     keywords = ""
-    copyright = ""
+    copyright = "CC BY-NC-SA 4.0"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
       logoHomeLink = "/"
-      # path = "safari-pinned-tab.svg"
-      # alt = "by JP"
 
     [[languages.en.params.social]]
-      name = "twitter"
-      url  = "https://twitter.com/jphastings"
+      name = "mastodon"
+      url  = "https://mastodon.social/@jphastings"
 
+    [[languages.en.params.social]]
+      name = "pixelfed"
+      url  = "https://pixelfed.social/jphastings"
+    
     [[languages.en.params.social]]
       name = "email"
       url  = "mailto:hello@byjp.me"
-
-    [[languages.en.params.social]]
-      name = "instagram"
-      url  = "https://instagram.com/jphastings"
 
     [[languages.en.params.social]]
       name = "github"
