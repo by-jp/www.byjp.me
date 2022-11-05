@@ -58,16 +58,16 @@ disableRSS      = false
       logoHomeLink = "/"
 
     [[languages.en.params.social]]
+      name = "email"
+      url  = "mailto:hello@byjp.me"
+
+    [[languages.en.params.social]]
       name = "mastodon"
       url  = "https://mastodon.social/@jphastings"
 
     [[languages.en.params.social]]
       name = "pixelfed"
       url  = "https://pixelfed.social/jphastings"
-    
-    [[languages.en.params.social]]
-      name = "email"
-      url  = "mailto:hello@byjp.me"
 
     [[languages.en.params.social]]
       name = "github"
