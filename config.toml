@@ -63,7 +63,7 @@ disableRSS      = false
 
     [[languages.en.params.social]]
       name = "mastodon"
-      url  = "https://mastodon.social/@jphastings"
+      url  = "https://hachyderm.io/@byjp"
 
     [[languages.en.params.social]]
       name = "pixelfed"
