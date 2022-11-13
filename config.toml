@@ -76,6 +76,10 @@ disableRSS      = false
     [[languages.en.params.social]]
       name = "linkedin"
       url  = "https://www.linkedin.com/in/jphastings/"
+    
+    [[languages.en.params.social]]
+      name = "gpg"
+      url  = "https://id.byjp.me/"
 
   # You can create a language based menu
     [languages.en.menu]
