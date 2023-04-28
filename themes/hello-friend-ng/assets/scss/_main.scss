@@ -123,8 +123,9 @@ a {
   color: inherit;
 }
 
-.always-accented {
+.always-accented, .always a {
   color: var(--accent);
+  text-decoration: none;
 }
 
 main p a, main li a, nav a, .social a, section a, .accented {

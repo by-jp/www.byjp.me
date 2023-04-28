@@ -3,6 +3,7 @@ title: "Standing Invitation"
 emoji: 📮
 date: 2022-10-20T11:25:37Z
 draft: false
+type: timeless
 ---
 
 This is a standing invitation to write to me about anything that's on your mind!
