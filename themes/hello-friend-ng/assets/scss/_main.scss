@@ -123,7 +123,11 @@ a {
   color: inherit;
 }
 
-main p a, main li a, nav a, .social a {
+.always-accented {
+  color: var(--accent);
+}
+
+main p a, main li a, nav a, .social a, section a, .accented {
   &:hover {
     color: var(--accent);
   }  

@@ -75,7 +75,7 @@ disableRSS      = false
 
     [[languages.en.params.social]]
       name = "keyoxide"
-      url  = "https://id.byjp.me/"
+      url  = "https://id.byjp.me"
     
     [[languages.en.params.social]]
       name = "gpg"

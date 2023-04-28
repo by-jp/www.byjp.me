@@ -9,7 +9,7 @@
                <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
             {{ end }}
 
-            <h1>{{ .Site.Title }}</h1>
+            <h1 class="accented">{{ .Site.Title }}</h1>
 
             {{ partial "subtitle.html" . }}
 
@@ -19,5 +19,10 @@
                 </div>
             {{- end }}
         </div>
+        <br />
+        <hr />
+        <section class="posts" style="text-align:center">
+            {{ partial "about-me.html" .}}
+        </section>
     </main>
 {{ end }}
