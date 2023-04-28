@@ -22,6 +22,6 @@ I joined Facebook in 2005, excited at the technical and societal marvel that was
 
 Sadly, by removing my accounts, I'll lose my ability to reach out to long-lost friends whose numbers and emails I no longer have. But I don't like being held hostage, so I've written this post on my own site (its [homepage](https://byjp.me) has all the best ways to get in touch with me), and I'll be sending messages to as many people as I can to reconnect and point them there.
 
-**I'll be leaving just after my birthday this year, June 16th** (as anyone inclined to wish me well then is someone who may want to know where I've gone to!) but you can find me online in a host of other places already (check the [byJP.me homepage](https://byjp.me) for the up-to-date ones).
+**I'll be leaving just after my birthday this year, June 16th** (as anyone inclined to wish me well then is someone who may want to know where I've gone to!) but you can find me online in a host of other, more friendly and sedate, places already (check the [byJP.me homepage](https://byjp.me) for the up-to-date ones).
 
 You can also [send me a postcard](posts/thoughts-on-postcards/), or message me on _[Signal](https://signal.org/)_, _iMessage_, and (if you twist my arm) _WhatsApp_. For my address or my phone number, being more sensitive, just say hello [by email](mailto:hello@byjp.me), and I'll excitedly share with you!
