@@ -74,12 +74,13 @@ disableRSS      = false
       url  = "https://github.com/jphastings"
 
     [[languages.en.params.social]]
-      name = "linkedin"
-      url  = "https://www.linkedin.com/in/jphastings/"
+      name = "keyoxide"
+      url  = "https://id.byjp.me/"
     
     [[languages.en.params.social]]
       name = "gpg"
-      url  = "https://id.byjp.me/"
+      url  = "https://openpgpkey.byjp.me/.well-known/openpgpkey/byjp.me/hu/im4cc8qhazwkfsi65a8us1bc5gzk1o4p"
+      rel  = "pgpkey authn"
 
   # You can create a language based menu
     [languages.en.menu]
