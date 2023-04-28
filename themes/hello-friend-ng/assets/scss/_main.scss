@@ -137,6 +137,21 @@ main p a, main li a, nav a, .social a, section a, .accented {
   transition-timing-function: ease-in;
 }
 
+img.profile {
+  float: left;
+  height: 3em;
+  border-radius: 1em;
+
+  filter: grayscale(1);
+  transition-property: color, filter;
+  transition-duration: .2s;
+  transition-timing-function: ease-in;
+
+  &:hover {
+    filter: none;
+  }
+}
+
 img, postcard-display {
   display: block;
   max-width: 100%;

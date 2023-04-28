@@ -1,1 +1,1 @@
-I [write](./posts) on this site infrequently about things I've created or care about. You're welcome to write to me if you'd like, read my [standing invitation](./standing-invitation) for more information.
+I [post](./posts) on this site infrequently about things I've created or care about. You're welcome to write to me if you'd like, read my [standing invitation](./standing-invitation) for more information.
