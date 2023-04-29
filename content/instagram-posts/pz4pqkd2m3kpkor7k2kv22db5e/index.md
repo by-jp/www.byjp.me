@@ -1,0 +1,9 @@
+---
+title: 'Team takeout: Hyderabad Biriani!'
+media:
+- media-0.jpg
+date: "2011-10-25T07:38:05Z"
+draft: false
+tags: []
+---
+Team takeout: Hyderabad Biriani\!
