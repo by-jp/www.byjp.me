@@ -14,3 +14,5 @@ I spent a little time this weekend reminding myself of what writing code is like
 You can find it at [/instagram-posts](/instagram-posts) — I'll figure out a good place to leave a permanent link soon!
 
 {{< figure src="instgram-posts.webp" title="A screenshot of the new archival page on this blog; tiled photos from my instagram feed." >}}
+
+If this incredibly specific challenge is something you also face, you can find the (slap-dash) code I wrote in the [repo that contains this blog](https://github.com/jphastings/www.byjp.me/tree/main/tools/archive/instagram).
