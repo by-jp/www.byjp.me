@@ -153,6 +153,40 @@ img.profile {
   }
 }
 
+.instagram {
+  .posts-list {
+    li {
+      border: 0;
+      display: inline;
+
+      a {
+        display: inline;
+
+        figure, img, video {
+          display: inline;
+          object-fit: cover;
+          object-position: center;
+          height: 200px;
+          width: 200px;
+        }
+      }
+    }
+    
+  }
+}
+
+.instagram-media {
+  figure {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  video, img {
+    max-width: 100%;
+    max-height: 75vh;
+  }
+}
+
 img, postcard-display {
   display: block;
   max-width: 100%;

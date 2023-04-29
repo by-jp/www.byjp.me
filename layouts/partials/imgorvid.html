@@ -1,0 +1,11 @@
+<figure>
+  {{ if hasSuffix . ".mp4" }}
+      <video controls loop>
+          <source src="{{.}}" type="video/mp4">
+          <img src="{{ . }}.jpg" />
+          (Your browser can't play videos. <a href="{{.}}">Download instead</a>.)
+      </video>
+  {{ else }}
+      <img src="{{ . }}" />
+  {{ end }}
+</figure>

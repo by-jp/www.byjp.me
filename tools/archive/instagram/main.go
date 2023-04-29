@@ -9,6 +9,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"os/exec"
 	"path"
 	"regexp"
 	"strings"
@@ -69,12 +70,11 @@ type location struct {
 }
 
 type frontMatter struct {
-	Title     string
-	Media     []string
-	Date      string
-	Draft     bool
-	Tags      []string
-	Locations []location
+	Title string
+	Media []string
+	Date  string
+	Draft bool
+	Tags  []string
 }
 
 type post struct {
@@ -87,7 +87,6 @@ type media struct {
 	URI               string
 	CreationTimestamp int64 `json:"creation_timestamp"`
 	Title             string
-	MediaMetadata     map[string]interface{}
 }
 
 func main() {
@@ -295,6 +294,16 @@ func copyMedia(zf *zip.ReadCloser, mediaMap map[string]string) error {
 		defer doClose(mediaFile, "Unable to close media file in blog archive")
 
 		io.Copy(mediaFile, mf)
+
+		if strings.HasSuffix(dst, ".mp4") {
+			makeThumbnail(dst, dst+".jpg")
+		}
 	}
 	return nil
+}
+
+func makeThumbnail(video, output string) error {
+	cmd := exec.Command("ffmpeg", "-y", "-i", video, "-vf", "select=eq(n\\,0)", "-q:v", "3", output)
+	fmt.Println(cmd.String())
+	return cmd.Run()
 }
