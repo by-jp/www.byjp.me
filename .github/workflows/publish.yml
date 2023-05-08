@@ -43,8 +43,9 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --minify
+        # Don't force a base URL, so relative links work everywhere
+        # --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
