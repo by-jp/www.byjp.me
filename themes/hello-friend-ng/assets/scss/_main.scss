@@ -292,7 +292,7 @@ figure {
   }
 }
 
-em, i, strong {
+em, strong {
   // Default
   color: $light-color-variant;
 
@@ -535,4 +535,8 @@ hr {
 // Prism JS Additionals
 .highlight {
   margin: 30px auto;
+}
+
+sup[id^="fnref:"] a {
+  text-decoration: none;
 }
