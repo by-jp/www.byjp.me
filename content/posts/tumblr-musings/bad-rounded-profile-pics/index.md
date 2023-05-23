@@ -23,6 +23,8 @@ Are you pissed off with the rounded profile pics that Facebook has decided to us
 
 ## How to install:
 
-All you need to do is go into the GlimmerBlocker Preference pane, go into filters, hit the little cog next to + and - under _filters_ and subscribe to my filter using the following address: http://dropbox.kedakai.co.uk/GlimmerBlocker/Facebook.xml
+All you need to do is go into the GlimmerBlocker Preference pane, go into filters, hit the little cog next to + and - under _filters_ and subscribe to my filter using the following address: [http://dropbox.kedakai.co.uk/GlimmerBlocker/Facebook.xml](http://dropbox.kedakai.co.uk/GlimmerBlocker/Facebook.xml)[^1]
 
 Let me know if there are any other annoyances I could add to this filter!
+
+[^1]: This URL (of mine) no longer works. I wonder if this GlimmerBlocker filter is still on one of my backups somewhere?
