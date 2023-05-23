@@ -1,6 +1,6 @@
 ---
 title: Trash files in Ruby
-date: 2009-03-25
+date: 2009-03-25T22:42:00+00:00
 draft: false
 emoji: 🗑️
 images:

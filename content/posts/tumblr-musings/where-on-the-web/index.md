@@ -1,6 +1,6 @@
 ---
 title: Where on the Web
-date: 2009-04-21
+date: 2009-04-21T02:55:00+01:00
 draft: false
 emoji: 🌍
 tags:
@@ -19,7 +19,7 @@ tags:
 
 Where On The Web is aliiiiive!
 
-I built it, and it appears to work averagely well. You can see the code in [the gist on github](https://gist.github.com/98878) and soon there will be a mini-video online showing you how it all works. In the meanwhile, just enjoy the pretty colours :D
+I built it, and it appears to work averagely well. You can see the code in [the gist on github](https://gist.github.com/jphastings/98878) and soon there will be a mini-video online showing you how it all works. In the meanwhile, just enjoy the pretty colours :D
 
 I’ve uploaded a snapshot[^1] of the whole window for you to ogle at too.
 

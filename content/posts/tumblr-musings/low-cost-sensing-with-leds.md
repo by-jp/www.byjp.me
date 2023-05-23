@@ -1,6 +1,6 @@
 ---
 title: Low-cost sensing with LEDs
-date: 2009-04-15
+date: 2009-04-15T09:44:00+01:00
 draft: false
 emoji: 💡
 tags:

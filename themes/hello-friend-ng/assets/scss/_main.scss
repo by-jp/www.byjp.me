@@ -539,4 +539,29 @@ hr {
 
 sup[id^="fnref:"] a {
   text-decoration: none;
+  color: var(--accent);
+}
+
+.footnotes {
+  font-size: small;
+
+  ol {
+    list-style: none;
+    counter-reset: li;
+
+    li::before {
+      content: counter(li) '.';
+      color: var(--accent);
+      width: 1em;
+      margin-left: -2em;
+      margin-right: 0.5em;
+      text-align: right;
+      position: absolute;
+    }
+
+    li {
+      position: relative;
+      counter-increment: li;
+    }
+  }
 }

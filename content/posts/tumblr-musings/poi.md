@@ -1,6 +1,6 @@
 ---
 title: Fire poi
-date: 2009-04-19
+date: 2009-04-19T14:45:00+01:00
 draft: false
 emoji: 🔥
 tags:
