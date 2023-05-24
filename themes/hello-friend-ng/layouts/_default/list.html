@@ -16,6 +16,7 @@
                     {{ range .Pages }}
                         <li class="post-item">
                             <a href="{{.Permalink}}">
+                                {{ if .Params.emoji }}<span class="post-emoji">{{ .Params.emoji }}</span>{{ end }}
                                 <span class="post-title">{{ if .Title }}{{.Title}}{{ else }}<i>Untitled post</i>{{ end }}</span>
                                 <span class="post-day">
                                     {{ if .Site.Params.dateformShort }}

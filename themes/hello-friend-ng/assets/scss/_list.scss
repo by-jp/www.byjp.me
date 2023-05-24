@@ -73,6 +73,11 @@
         align-items: baseline;
         padding: 12px 0;
         text-decoration: none;
+        position: relative;
+
+        &:hover .post-emoji {
+          opacity: 1;
+        }
       }
     }
 
@@ -80,6 +85,14 @@
       flex-shrink: 0;
       margin-left: 1em;
       @include dimmed;
+    }
+
+    &-emoji {
+      position: absolute;
+      left: -1.5em;
+      line-height: 1.8em;
+      opacity: 0;
+      transition: opacity 0.2s ease-in-out;
     }
   }
 }
