@@ -16,12 +16,12 @@ tags:
 
 Are you pissed off with the rounded profile pics that Facebook has decided to use? If so, just install this glimmer blocker filter and they'll be gone the next time you force-refresh your pages - forever!
 
-## The catches:
+## The catches
 
 * **You need a [Mac](http://apple.com/getamac/ads/).** I might build a firefox greasemonkey script sometime soon tho.
 * **You need [GlimmerBlocker](http://glimmerblocker.org/).** I'd highly recommend it, its essentially a proxy that removes all the irritating ads on websites for you automatically :) It'll work with every application you use, and you can even make your own rules as to what gets blocked (like this...)
 
-## How to install:
+## How to install
 
 All you need to do is go into the GlimmerBlocker Preference pane, go into filters, hit the little cog next to + and - under _filters_ and subscribe to my filter using the following address: [http://dropbox.kedakai.co.uk/GlimmerBlocker/Facebook.xml](http://dropbox.kedakai.co.uk/GlimmerBlocker/Facebook.xml)[^1]
 
