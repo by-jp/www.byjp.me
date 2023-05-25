@@ -10,8 +10,8 @@ tags:
   - from-tumblr
 ---
 
-[kedakai.co.uk](https://poetry.kedakai.co.uk/poem:bygone/)[^1]
+[bygone](/poetry/bygone)[^1] by Cy Densham
 
 I continue to write small chunks of poetry, under my pen name _Cyrus Densham_. I’ve not really had any literary training (wooh, English GCSE) so they really are just what I think sounds nice. Still, feel free to deconstruct and criticise, but they’re genuinely not written to impress anyone (isn’t that the point?).
 
-[^1]: Import note: I'm working on recovering my old poetry site from backups. This isn't Shakespeare, but I do hope I find it (and that I'm not too embarassed by what I find!)
+[^1]: Import note: I've recovered my old poetry site from backups and stored it in this blog. This isn't Shakespeare, but I hope you like it!
