@@ -537,7 +537,7 @@ hr {
   margin: 30px auto;
 }
 
-sup[id^="fnref:"] a {
+a[href^="#fn:"] {
   text-decoration: none;
   color: var(--accent);
 }
