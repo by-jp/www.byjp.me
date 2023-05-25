@@ -1,0 +1,45 @@
+{{ define "main" }}
+  <main class="post poetry">
+
+    <article class="poem-{{ .Params.align }}">
+        <h2 class="post-title"{{ with .Params.emoji }} data-emoji="{{.}}"{{end}}><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+
+        <div class="post-content">
+          {{ if eq .Params.align "monospace" }}
+            <pre>{{.RawContent}}</pre>
+          {{ else }}
+            {{ .Content }}
+          {{ end }}
+        </div>
+    </article>
+
+    <div class="post-info">
+      <p><date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date.Local }}">{{ dateFormat "Jan 2, 2006" .Date.Local }}</date></p>
+      <p><a href="../">back</a></p>
+    </div>
+
+  </main>
+  {{ if or .Params.prev .Params.next }}
+    <div class="pagination">
+        <div class="pagination__buttons">
+            {{ if .Params.prev }}{{ with .Site.GetPage .Params.prev }}
+            <span class="button previous">
+                <a href="{{ .RelPermalink }}">
+                    <span class="button__icon">←</span>
+                    <span class="button__text">{{ .Title }}</span>
+                </a>
+            </span>
+            {{ end }}{{ end }}
+
+            {{ if .Params.next }}{{ with .Site.GetPage .Params.next }} 
+            <span class="button next">
+                <a href="{{ .RelPermalink }}">
+                    <span class="button__text">{{ .Title }}</span>
+                    <span class="button__icon">→</span>
+                </a>
+            </span>
+            {{ end }}{{ end }}
+        </div>
+    </div>
+  {{ end }}
+{{ end }}

@@ -565,3 +565,31 @@ a[href^="#fn:"] {
     }
   }
 }
+
+.post.poetry {
+  width: auto;
+
+  article {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  h2 {
+    font-size: 1.375em;
+    a {
+      margin: auto
+    }
+  }
+
+  .poem {
+    &-left { text-align: left; }
+    &-center { text-align: center; }
+    &-right { text-align: right; }
+    &-monospace { text-align: center; }
+  }
+
+  .post-info {
+    text-align: center;
+    margin-top: 60px;
+  }
+}
