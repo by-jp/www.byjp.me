@@ -4,7 +4,7 @@ title: Chapter I
 author: Cy Densham
 date: 2009-08-13T12:00:01+01:00
 draft: false
-align: centre
+align: center
 next: chapter-ii
 ---
 

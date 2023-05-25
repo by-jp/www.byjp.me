@@ -1,0 +1,95 @@
+#content {
+	width:860px;
+}
+
+h2 {
+	text-align:center;
+	font-weight:normal;
+}
+
+#comments {
+	position:relative;
+	font-family:georgia;
+	margin:25px 2px;
+}
+
+#info {
+	font-size:15px;
+	color:#999;
+	font-style:italic;
+	margin-left:80px;
+}
+
+#info small {
+	color:#aaa;
+}
+
+#comment {
+	height:30px;
+	font-size:20px;
+	color:#000;
+	font-style:normal;
+}
+
+#comment em {
+	color:#bbb;
+}
+
+#numberbox {
+	background-color:#fff;
+	width:75px;
+	min-height:75px;
+	position:relative;
+	float:left;
+}
+
+#numbercont {
+	background-color: #fff;
+	color: #000;
+	font-size:15px;
+	padding:3px;
+	display:inline;
+	position:absolute;
+	height:20px;
+	min-width:20px;
+	right:1px;
+	top:1px;
+	text-align:center;
+}
+
+#a {
+	position:absolute;
+	top:1px;
+	left:48px;
+	right:27px;
+	height:6px;
+	background-color:#eee;
+	border-left:1px solid black;
+}
+#r {
+	position:absolute;
+	top:7px;
+	left:48px;
+	right:27px;
+	height:6px;
+	background-color:#f00;
+	border-left:1px solid black;
+}
+#g {
+	position:absolute;
+	top:13px;
+	left:48px;
+	right:27px;
+	height:6px;
+	background-color:#3aab40;
+	border-left:1px solid black;
+}
+#b {
+	position:absolute;
+	top:19px;
+	left:48px;
+	right:27px;
+	height:6px;
+	background-color:#2f2fff;
+	border-left:1px solid black;
+}

@@ -1,0 +1,166 @@
+body {
+	color: #333;
+	font-family:verdana,arial,sans-serif;
+	font-size:0.7em;
+	margin:0 0 0 1em;
+}
+
+#content {
+	width:43em;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:4em;
+}
+
+a {
+	text-decoration: none;
+	color:#08927a;
+}
+
+h3 a {
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+	color:#19a39b;
+}
+
+p {
+	text-align:justify;
+}
+
+#clue {
+	padding:0.4em;
+	text-align:center;
+	font-size:1.2em;
+	border-top:0.2em solid #000;
+	border-bottom:0.2em solid #000;
+}
+
+p.important {
+	font-style:italic;
+	background-color:#ffffef;
+	border:1px dashed #aaa;
+	padding:0.2em;
+	text-align:center;
+}
+
+p.important em {
+	font-style:normal;
+}
+
+p.why {
+	padding-left:1em;
+	border-left:0.5em solid #eee;
+	padding-right:1em;
+	border-right:0.5em solid #eee;
+}
+
+#quiz {
+	min-width:30em;
+	width:42%;
+}
+
+div.input {
+	text-align:center;
+	margin-bottom:1.5em;
+	position:relative;
+}
+div.input input,div.input select {
+	border:1px solid #ddd;
+	text-align:center;
+	font-size:1.5em;
+	background-color:#fafaff;
+}
+
+div.input option {
+	background-color:#fafaff;
+}
+
+#counter {
+	position:absolute;
+	top:0.6em;
+	right:1.2em;
+}
+
+div.slider .knob {
+	background-color:#eee;
+	border:1px solid #aaa;
+	height:2em;
+	width:1.2em;
+	top:-1em;
+	line-height:1.8em;
+	text-align:center;
+	font-family:tahoma;
+	color:#777;
+}
+
+div.slider {
+	position:relative;
+	border:1px solid #eee;
+	height:0.2em;
+	top:0.4em;
+	cursor:pointer;
+}
+
+h1 {
+	text-align:center;
+	margin-top:2em;
+}
+
+.ie {
+	background-color:#efefff;
+	border:1px dashed #aaa;
+	padding:0.2em;
+	text-align:center;
+}
+
+#share {
+	position:fixed;
+	right:10px;
+	top:10px;
+}
+
+#sofarcont {
+	position:fixed;
+	text-align:center;
+	bottom:4px;
+	left:0px;
+	right:0px;
+}
+
+#sofar {
+	padding:0.40em;
+	color:#ccc;
+	font-family:georgia;
+	border-left:3px solid;
+	border-right:3px solid;
+	background-color:#fff;
+	padding:5px 10px;
+}
+
+#sofar em {
+	color:#888;
+}
+#sofar strong {
+	color:#aaa;
+}
+
+#sofar em:before {
+	content:'“';
+	font-size:4em;
+	position:relative;
+	top:0.5em;
+	font-style:normal;
+	color:#eee;
+}
+
+#sofar em:after {
+	content:'”';
+	font-size:4em;
+	position:relative;
+	top:0.5em;
+	font-style:normal;
+	color:#eee;
+}

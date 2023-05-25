@@ -4,7 +4,9 @@ title: Chapter III
 author: Cy Densham
 date: 2009-08-13T12:00:03+01:00
 draft: false
-align: centre
+align: center
+prev: chapter-ii
+next: chapter-iv
 ---
 
 Trapped within the blues\

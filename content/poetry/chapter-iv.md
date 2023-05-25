@@ -4,7 +4,8 @@ title: Chapter IV
 author: Cy Densham
 date: 2009-08-13T12:00:04+01:00
 draft: false
-align: centre
+align: center
+prev: chapter-iii
 ---
 
 Shadows in the fading blue -\

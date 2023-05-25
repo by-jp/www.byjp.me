@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="no"?>
+<svg onload="startup()" viewBox = "0 0 860 500" version = "1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="500">
+<script>var counter = 0;function startup() {animate()}; function animate() {var is;var mult;var cells = document.getElementsByTagName('polygon');for (cell in cells) {if (cell >= 0) {is = cells[cell].getAttribute('rel');mult = Math.cos((1 - is) * counter * 0.05);cells[cell].setAttribute('fill-opacity',1- mult*mult*(1 - is));}}counter++;setTimeout('animate()',60)}</script>
+  <polygon id="cell-1" points = " 443,500 769,500 631,419 622,415 458,444" rel="0.11" fill-opacity="0.11" style="fill:rgb(217,245,168);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-2" points = " 358,500 358,500 443,500 458,444 409,430" rel="0.84" fill-opacity="0.84" style="fill:rgb(134,54,91);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-3" points = " 287,500 358,500 409,430 382,374 321,408" rel="0.22" fill-opacity="0.22" style="fill:rgb(163,143,130);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-4" points = " 0,500 204,500 201,462 144,393 0,410" rel="0.46" fill-opacity="0.46" style="fill:rgb(163,186,167);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-5" points = " 201,462 204,500 287,500 321,408 246,348" rel="0.44" fill-opacity="0.44" style="fill:rgb(167,218,242);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-6" points = " 382,370 382,374 409,430 458,444 622,415 527,331 444,316 439,316 423,317" rel="0.33" fill-opacity="0.33" style="fill:rgb(93,129,205);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-7" points = " 144,393 201,462 246,348 246,326 154,274 145,278" rel="0.61" fill-opacity="0.61" style="fill:rgb(156,182,160);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-8" points = " 0,343 0,410 144,393 145,278 72,287" rel="0.65" fill-opacity="0.65" style="fill:rgb(120,136,195);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-9" points = " 321,408 382,374 382,370 281,307 246,326 246,348" rel="0.04" fill-opacity="0.04" style="fill:rgb(213,186,231);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-10" points = " 382,370 423,317 422,316 360,276 334,270 286,299 281,307" rel="0.32" fill-opacity="0.32" style="fill:rgb(154,255,221);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-11" points = " 360,276 422,316 412,252 409,240 399,230 383,231" rel="0.40" fill-opacity="0.40" style="fill:rgb(107,143,115);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-12" points = " 444,316 527,331 523,237 473,232" rel="0.40" fill-opacity="0.40" style="fill:rgb(168,225,213);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-13" points = " 439,316 444,316 473,232 467,229 461,228 451,236" rel="0.30" fill-opacity="0.30" style="fill:rgb(98,146,108);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-14" points = " 154,274 246,326 281,307 286,299 273,211 248,197 247,197 170,218" rel="0.46" fill-opacity="0.46" style="fill:rgb(136,131,141);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-15" points = " 527,331 622,415 631,419 586,165 536,201 523,237" rel="0.26" fill-opacity="0.26" style="fill:rgb(189,192,194);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-16" points = " 422,316 423,317 439,316 451,236 450,236 412,252" rel="0.19" fill-opacity="0.19" style="fill:rgb(174,132,108);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-17" points = " 334,270 360,276 383,231 355,215 336,221" rel="0.19" fill-opacity="0.19" style="fill:rgb(140,232,173);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-18" points = " 286,299 334,270 336,221 312,202 273,211" rel="0.31" fill-opacity="0.31" style="fill:rgb(140,215,156);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-19" points = " 409,240 412,252 450,236 427,227" rel="0.44" fill-opacity="0.44" style="fill:rgb(119,132,142);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-20" points = " 631,419 769,500 773,500 717,0 714,0 586,165" rel="0.00" fill-opacity="0.00" style="fill:rgb(207,235,241);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-21" points = " 0,343 72,287 0,102" rel="0.19" fill-opacity="0.19" style="fill:rgb(171,185,151);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-22" points = " 427,227 450,236 451,236 461,228 448,206 436,206" rel="0.82" fill-opacity="0.82" style="fill:rgb(182,182,107);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-23" points = " 399,230 409,240 427,227 436,206 431,201 402,208" rel="0.14" fill-opacity="0.14" style="fill:rgb(181,207,226);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-24" points = " 467,229 473,232 523,237 536,201 481,176" rel="0.31" fill-opacity="0.31" style="fill:rgb(165,87,141);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-25" points = " 773,500 860,500 860,0 717,0" rel="0.39" fill-opacity="0.39" style="fill:rgb(172,212,136);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-26" points = " 355,215 383,231 399,230 402,208 382,168" rel="0.45" fill-opacity="0.45" style="fill:rgb(150,163,124);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-27" points = " 448,206 461,228 467,229 481,176 477,173" rel="0.37" fill-opacity="0.37" style="fill:rgb(139,165,113);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-28" points = " 72,287 145,278 154,274 170,218 139,128 0,8 0,102" rel="0.39" fill-opacity="0.39" style="fill:rgb(137,147,120);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-29" points = " 382,168 402,208 431,201 417,145 407,140 384,149" rel="0.08" fill-opacity="0.08" style="fill:rgb(61,130,61);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-30" points = " 431,201 436,206 448,206 477,173 464,151 417,145" rel="0.45" fill-opacity="0.45" style="fill:rgb(104,161,93);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-31" points = " 312,202 336,221 355,215 382,168 384,149 333,132 333,133" rel="0.41" fill-opacity="0.41" style="fill:rgb(138,215,187);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-32" points = " 248,197 273,211 312,202 333,133 300,140" rel="0.46" fill-opacity="0.46" style="fill:rgb(178,154,168);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-33" points = " 170,218 247,197 245,125 243,121 193,114 139,128" rel="0.00" fill-opacity="0.00" style="fill:rgb(114,215,175);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-34" points = " 247,197 248,197 300,140 245,125" rel="1.00" fill-opacity="1.00" style="fill:rgb(15,12,9);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-35" points = " 478,131 464,151 477,173 481,176 536,201 586,165 714,0 708,0" rel="0.19" fill-opacity="0.19" style="fill:rgb(228,61,0);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-36" points = " 243,121 245,125 300,140 333,133 333,132 330,118 275,69" rel="0.17" fill-opacity="0.17" style="fill:rgb(109,171,42);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-37" points = " 407,140 417,145 464,151 478,131 432,57 424,58" rel="0.00" fill-opacity="0.00" style="fill:rgb(217,217,221);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-38" points = " 432,57 478,131 708,0 605,0" rel="0.21" fill-opacity="0.21" style="fill:rgb(17,108,57);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-39" points = " 330,118 333,132 384,149 407,140 424,58 417,54 341,96" rel="0.24" fill-opacity="0.24" style="fill:rgb(94,55,190);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-40" points = " 193,114 243,121 275,69 261,7" rel="0.39" fill-opacity="0.39" style="fill:rgb(152,255,255);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-41" points = " 275,69 330,118 341,96 339,0 261,0 261,7" rel="0.49" fill-opacity="0.49" style="fill:rgb(144,186,170);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-42" points = " 139,128 193,114 261,7 261,0 0,0 0,8" rel="0.14" fill-opacity="0.14" style="fill:rgb(0,145,142);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-43" points = " 341,96 417,54 371,0 339,0" rel="1.00" fill-opacity="1.00" style="fill:rgb(33,129,190);" stroke = "black" stroke-width = "1"/>
+  <polygon id="cell-44" points = " 417,54 424,58 432,57 605,0 371,0" rel="0.27" fill-opacity="0.27" style="fill:rgb(115,150,171);" stroke = "black" stroke-width = "1"/>
+</svg>

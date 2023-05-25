@@ -4,7 +4,7 @@ title: Chapter II
 author: Cy Densham
 date: 2009-08-13T12:00:02+01:00
 draft: false
-align: centre
+align: center
 prev: chapter-i
 next: chapter-iii
 ---
