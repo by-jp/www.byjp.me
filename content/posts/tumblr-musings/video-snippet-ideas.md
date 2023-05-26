@@ -1,4 +1,5 @@
 ---
+title: Video snippet ideas
 date: 2009-03-31T00:32:00+01:00
 draft: false
 emoji: 🎥

@@ -14,7 +14,7 @@
     </article>
 
     <div class="post-info">
-      <p><date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date.Local }}">{{ dateFormat "Jan 2, 2006" .Date.Local }}</date></p>
+      <p><date datetime="{{ dateFormat .Site.Params.dateformHTML .Date }}">{{ dateFormat .Site.Params.dateform .Date }}</date></p>
       <p><a href="../">back</a></p>
     </div>
 

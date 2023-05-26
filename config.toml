@@ -31,7 +31,8 @@ paginate = 36
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  dateformNumTime = "2006-01-02 15:04 MST"
+  dateformHTML    = "2006-01-02T15:04:05-0700"
 
   # Metadata mostly used in document's head
   description = "JP Hastings-Spital: Software Engineer"

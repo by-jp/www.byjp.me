@@ -1,7 +1,8 @@
 ---
+title: It's Okay
 date: 2009-07-17T15:20:00+01:00
 draft: false
-emoji: 📺
+emoji: 🎸
 images:
 tags:
   - plug

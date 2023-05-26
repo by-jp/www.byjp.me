@@ -17,7 +17,7 @@
         <div class="post-info">
             <p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
-                From <a href="../">Instagram archive</a>
+                From <a href="../">instagram archive</a>
             </p>
             {{ partial "tags.html" .Params.tags }}
             {{ partial "categories.html" . }}
@@ -33,11 +33,11 @@
                   <line x1="8" y1="2" x2="8" y2="6"></line>
                   <line x1="3" y1="10" x2="21" y2="10"></line>
                 </svg>
-                <date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date.Local }}">
+                <date datetime="{{ dateFormat "2006-01-02 15:04:05 MST" .Date }}">
                 {{ if .Site.Params.dateformNumTime }}
-                  {{ dateFormat .Site.Params.dateformNumTime .Date.Local }}
+                  {{ dateFormat .Site.Params.dateformNumTime .Date }}
                 {{ else }}
-                  {{ dateFormat "2006-01-02 15:04" .Date.Local }}
+                  {{ dateFormat "2006-01-02 15:04 MST" .Date }}
                 {{ end }}
                 </date>
         
