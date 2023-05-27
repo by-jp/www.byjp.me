@@ -16,11 +16,7 @@ The Torii (as far as I know and I may be wrong) are bought by businesses to prom
 We spent a couple of hours there before heading home.  On our way back we stopped at this rather delightfull little cafe/restaurant place that was mainly an antiques store.  The owner came over to us and started spewing rapid Japanese at us that could have been either:
 
 1.  "We stopped serving at 6. Get Out!!!"
-
-2.  "Would you like the starter and the main course or just the main course?"
-
-or
-
+2.  "Would you like the starter and the main course or just the main course?", or
 3. "How do you like your toast?"
 
 We both really hoped that it was the second one.  We stayed and stressed that we didn`t understand until she brought us food -- and the food we wanted, to say the least it was delicious.  While we were eating people started appearing that either lived with her or were local friends because the place turned into her front room, with what looked like her son (walking around in a heavy metal T-shirt) looking completely out of place.  The whole experience made it feel like we were eating in her living room.

@@ -5,6 +5,7 @@ tags:
   - from-tumblr
   - japan
 ---
-![](../img/34fa17833aa86b622cad248265eabf93e395e5cf5daecb3c4aee6bc686de8e30.jpg)
+
+![The door of a subway carriage saying "women only" in Japanese and English](../img/34fa17833aa86b622cad248265eabf93e395e5cf5daecb3c4aee6bc686de8e30.jpg)
 
 Women Only subway carriages, presumably for nighttime trains? I'm told Osaka has a bit of a problem with women disappearing.
