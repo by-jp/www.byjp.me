@@ -13,6 +13,7 @@ I'm getting older, and sites I've been creative on are dying or becoming marketi
 
 * I'm [no fan of instagram](/posts/goodbye-big-social) these days, but all my 📸&nbsp;[archived insta posts](/instagram-posts) are right here.
 * For a good few years I wrote 📝&nbsp;[poetry](/poetry) and kept it online — now stored here for your giggles and my cringe.
+* In 2009 I 🇯🇵&nbsp;[blogged my visit to Japan](/tags/japan-with-jk) with my friend JK. I've loved reading through my thoughts after my recent return there!
 
 ## Words and writing
 
