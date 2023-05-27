@@ -15,7 +15,7 @@ She didn't know what the shapes meant, but they felt like home.
 
 A sharp tug on the chains dragged her through the door, her red hair thrown into her face.
 
-She knew this was the end - even if the clang of machinery and misery of cold laughter woven together hadn't destroyed all hope, she knew at her core that fate's plans for her ended here. Despite this her head was high and her chest proud -- she would face this with honour and dignity.
+She knew this was the end - even if the clang of machinery and misery of cold laughter woven together hadn't destroyed all hope, she knew at her core that fate's plans for her ended here. Despite this her head was high and her chest proud — she would face this with honour and dignity.
 
 She stood and stared at the distant figures in front of her as the chains slackened around her waist. One looked at her briefly, paused, and continued working, head hung. The other didn't seem to notice her.
 

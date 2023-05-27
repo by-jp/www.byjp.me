@@ -15,4 +15,4 @@ tags:
 
 If he doesn't get on it soon I certainly will![^1] URLs can be a real pain to speak.
 
-[^1]: Import note: I did! iconic.im existed for a fair while, the code still [sits on github](https://github.com/jphastings/iconic).
+[^1]: Import note: I did! iconic.im existed for a fair while, the code still [sits on github](https://github.com/jphastings/iconic). I actually [posted about it](/posts/speakable-web-links) on this same tumblr 2 years later!

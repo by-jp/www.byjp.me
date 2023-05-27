@@ -33,12 +33,8 @@
                   <line x1="8" y1="2" x2="8" y2="6"></line>
                   <line x1="3" y1="10" x2="21" y2="10"></line>
                 </svg>
-                <date datetime="{{ dateFormat "2006-01-02 15:04:05 MST" .Date }}">
-                {{ if .Site.Params.dateformNumTime }}
-                  {{ dateFormat .Site.Params.dateformNumTime .Date }}
-                {{ else }}
-                  {{ dateFormat "2006-01-02 15:04 MST" .Date }}
-                {{ end }}
+                <date datetime="{{ dateFormat .Site.Params.dateformHTML .Date }}">
+                {{ dateFormat .Site.Params.dateformNumTime .Date }}
                 </date>
         
                 {{ if .Lastmod }} 

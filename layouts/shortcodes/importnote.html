@@ -1,0 +1,5 @@
+{{ $date := .Get 0 | time }}
+<section class="import-note">
+  <p class="date">Some context, from <date datetime="{{ dateFormat .Site.Params.dateformHTML $date }}">{{ sub $date.Year .Page.Date.Year }} years later</date>:</p>
+  {{ .Inner }}
+</section>

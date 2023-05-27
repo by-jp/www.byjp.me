@@ -19,4 +19,4 @@ Though these are, perhaps, uninspiring names they were chosen to allow readers (
 
 Each person is represented in the artwork below by a coloured shape. Each shape's centre is placed on the canvas according to their age, with older people towards the right, and the first people to collaborate nearer the bottom. The colour of the shape shows their preference towards each poem the stronger the primary colour the more they liked that poem; red for Chapter II, green for Chapter III and blue for Chapter IV. Chapter I has is preference shown by transparency, the faster a shape pulses the more it was liked by the person it represents.
 
-If you're interested in the code I used to generate the work, you can see it [in a gist on github](https://gist.github.com/jphastings/362995) -- I hope you enjoy it!
+If you're interested in the code I used to generate the work, you can see it [in a gist on github](https://gist.github.com/jphastings/362995) — I hope you enjoy it!

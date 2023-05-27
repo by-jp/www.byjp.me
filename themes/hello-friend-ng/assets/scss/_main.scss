@@ -123,6 +123,19 @@ a {
   color: inherit;
 }
 
+a[href^="https://web.archive.org/"] {
+  &::after {
+    position: absolute;
+    content: "🏛️";
+    margin-left: 0.25em;
+    vertical-align: super;
+    font-size: x-small;
+    text-decoration: none;
+  }
+
+  margin-right: 1em;
+}
+
 .always-accented, .always a {
   color: var(--accent);
   text-decoration: none;
@@ -387,7 +400,7 @@ pre {
 }
 
 blockquote {
-  border-left: 3px solid #3eb0ef;
+  border-left: 3px solid var(--accent);
   margin: 40px;
   padding: 10px 20px;
 
@@ -591,5 +604,27 @@ a[href^="#fn:"] {
   .post-info {
     text-align: center;
     margin-top: 60px;
+  }
+}
+
+.import-note {
+  font-style: italic;
+  
+  border-left: 3px solid var(--accent);
+  opacity: 0.6;
+  margin: 20px;
+  padding: 10px 20px;
+
+  @media #{$media-size-phone} {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  p:first-of-type {
+    margin-top: 0;
+  }
+
+  p:last-of-type {
+    margin-bottom: 0;
   }
 }
