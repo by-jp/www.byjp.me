@@ -4,6 +4,7 @@ title: He knows the score
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
 ---
 
 > **PA:** The doors to the left will open in just a moment.

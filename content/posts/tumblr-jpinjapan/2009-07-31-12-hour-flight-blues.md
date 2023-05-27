@@ -3,6 +3,7 @@ date: 2009-07-31T12:03:00Z
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
 location: 51.7296,0.4761
 title: "12 Hour Flight Blues"
 ---

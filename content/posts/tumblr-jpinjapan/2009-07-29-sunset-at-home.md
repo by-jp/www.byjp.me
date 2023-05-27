@@ -4,6 +4,7 @@ date: 2009-07-29T19:58:00Z
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
   - sunset
 location: 51.72318,-1.971214
 ---

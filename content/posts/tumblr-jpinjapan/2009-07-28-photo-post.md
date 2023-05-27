@@ -4,6 +4,7 @@ date: 2009-07-28T18:48:00Z
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
   - currency
   - preparation
 location: 51.716806,-1.968162

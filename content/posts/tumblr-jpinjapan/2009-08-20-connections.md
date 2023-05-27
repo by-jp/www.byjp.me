@@ -3,6 +3,7 @@ date: 2009-08-20T01:36:00Z
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
 location: 34.791336,135.440902
 title: "Connections"
 ---

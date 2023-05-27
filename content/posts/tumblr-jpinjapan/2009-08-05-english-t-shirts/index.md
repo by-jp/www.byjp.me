@@ -5,6 +5,7 @@ audio: t-shirts.mp3
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
 ---
 
 I love staring at the t-shirts they have here, written in English, but obviously have very little meaning. I can only imagine what it's like for Eastern people in Britain![^1]

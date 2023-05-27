@@ -3,6 +3,7 @@ date: 2009-08-15T00:41:44Z
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
   - night bus
 title: "Night Buses Are Stupid (but actually really clever)"
 ---

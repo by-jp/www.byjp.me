@@ -4,6 +4,7 @@ title: "[All!] Photos being uploaded"
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
 ---
 
 [flickr.com](https://flickr.com/photos/jphastings)

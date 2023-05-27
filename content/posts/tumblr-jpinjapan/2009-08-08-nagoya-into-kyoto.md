@@ -4,6 +4,7 @@ title: "Nagoya & into Kyoto"
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
 ---
 
 Ha ha! So, the chef at our restaurant (the same from last night) told us the 'well-be' capsule hotel we're staying at is 'homo'. No that's not Japanese... I'm not sure how much of that is rumour (it's men only and the guy sitting next to me is reading a very boob-oriented porn mag :P) but it's still hilarious to be told that by the chef at a local restaurant!

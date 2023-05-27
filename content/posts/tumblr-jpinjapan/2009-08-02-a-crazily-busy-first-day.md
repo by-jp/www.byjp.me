@@ -4,6 +4,7 @@ title: "A Crazily Busy First Day!"
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
 ---
 Oh. My. God.
 

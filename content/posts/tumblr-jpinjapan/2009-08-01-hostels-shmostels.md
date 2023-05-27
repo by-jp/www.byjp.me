@@ -4,10 +4,11 @@ date: 2009-08-01T12:15:57Z
 tags:
   - from-tumblr
   - japan
-location: 35.5731,139.6922
+  - japan-with-jk
   - ryokan
   - Tokyo
   - arrival
+location: 35.5731,139.6922
 ---
 やった！ We've arrived!
 

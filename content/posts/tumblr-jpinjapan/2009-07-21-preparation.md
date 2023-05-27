@@ -5,6 +5,7 @@ emoji: 🇯🇵
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
   - preparation
 location: 51.72318,-1.971214
 ---

@@ -5,6 +5,7 @@ author: James Kelly
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
 ---
 
 Hi all this is JK writing.

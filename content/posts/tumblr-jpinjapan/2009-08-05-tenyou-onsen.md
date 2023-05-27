@@ -3,6 +3,7 @@ date: 2009-08-05T14:30:00Z
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
   - onsen
   - public bath
 title: "てのゆ おんせん"

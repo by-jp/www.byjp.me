@@ -3,6 +3,7 @@ date: 2009-08-05T08:00:00Z
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
 location: 35.245028,139.057335
 title: JK in the massage chair
 ---

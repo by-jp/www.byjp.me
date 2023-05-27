@@ -4,6 +4,7 @@ title: "The Longest Day"
 tags:
   - from-tumblr
   - japan
+  - japan-with-jk
 ---
 
 As I previously wrote, the 5th ended with us a couple of thousand meters up the side of Mt. Fuji, leaving us with a lot more to do before we could get some sleep! It turns out it was even more than we'd imagined...
