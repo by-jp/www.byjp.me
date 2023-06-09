@@ -1,6 +1,7 @@
 ---
 title: "Arc: a new browser"
 date: 2023-06-09T10:27:44+01:00
+emoji: 🖱️
 draft: false
 images:
 tags:
