@@ -28,7 +28,7 @@ Writing this got me reminiscing; it's not a lens I thought I'd ever use to look 
 
 I started on the world wide web with [Netscape](https://en.wikipedia.org/wiki/Netscape_(web_browser)#/media/File:Apple_Unix_with_Netscape.png). It sat on my school's Apple Macintoshes and you could find me, too frequently, seeking the arcane knowledge of the world. I remember my first HTML(3) was written on one of those macs, I _think_ I also had a Geocities site (I've never been able to find it in the archives though). Doors opened, potential oozed everywhere — I'm pretty sure that's where all this started for me!
 
-{{< figure caption="Who could forget how _everything_ you installed also required you add a new IE browser toolbar." alt="A very old version of Internet Explorer with so many toolbar browser extensions the web page is only a few pixels high." src="ie-browser-extensions.jpg" >}}
+{{< figure caption="Who could forget how _everything_ you installed also required you add a new IE browser toolbar." alt="A very old version of Internet Explorer with so many toolbar browser extensions the web page is only a few pixels high." src="ie-browser-extensions.png" >}}
 
 I switched [Internet Explorer](https://en.wikipedia.org/wiki/Internet_Explorer#/media/File:Internet_Explorer_1.0.png) when Windows 95 came to my family home, and the school library gained three new computers. I was building web 1.0 sites fairly often by this point, I cringe at the thought of most of them (for the content and at my lack of awareness), but the notepad.exe written HTML was glorious.
 
