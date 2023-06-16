@@ -1,10 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+emoji: ❓
 date: {{ .Date }}
 draft: true
-toc: false
-images:
 tags:
-  - untagged
 ---
 
