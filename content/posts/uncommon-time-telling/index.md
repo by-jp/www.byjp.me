@@ -60,7 +60,7 @@ This way of writing time, proposed by the [Swatch](https://en.wikipedia.org/wiki
 
 Right now it is @395, [.beat time](https://en.wikipedia.org/wiki/Swatch_Internet_Time).
 
-Simply enough, there are 1,000 ".beats" in a day, written as a three digit whole number preceded by an `@` symbol. @0 occurrs at midnight in the UTC+1 timezone, which is the same timezone used by Swatch's headquarters in Biel, Switzerland uses (when it's not in daylight saving's time).
+Simply enough, there are 1,000 ".beats" in a day, written as a three digit whole number preceded by an `@` symbol. @0 occurrs at midnight in the UTC+1 timezone, which is the same timezone used by Swatch's headquarters in Biel, Switzerland (when it's not in daylight saving's time).
 
 Though it's not my favourite of these uncommon date/time-writing methods, I find it fascinating that it effectively used French revolutionary decimal time, and expressed a belief of what the internet would become that's so much more futuristic than the almost invisible mundanity it is today, 25 years later.
 
@@ -68,4 +68,4 @@ Though it's not my favourite of these uncommon date/time-writing methods, I find
 
 ---
 
-That's enough weird ways of writing time for now. One of these days I'll figure out how to bend the software I use to build this blog to my will, and have it (optionally 😅) display the dates and times with these weird writing systems!
+That's enough weird ways of writing time for now. One of these days I'll figure out how to bend the software I use to build this blog to my will, and have it (optionally 😅) display the dates and times with these uncommon writing systems!
