@@ -49,6 +49,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
+          name: site
           path: ./public
 
   # Deployment job
@@ -67,6 +68,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: site
+          path: ./public
       - name: Publish to IPFS
         id: Publish
         uses: aquiladev/ipfs-action@master
