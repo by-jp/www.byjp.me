@@ -75,7 +75,7 @@ jobs:
           name: site
           path: ./public
       - name: Extract Github Pages artifact
-        run: (cd ./public && tar - xf ./public.tar)
+        run: (cd ./public && tar -xf ./public.tar)
       - name: Publish to IPFS
         id: Publish
         uses: aquiladev/ipfs-action@master
