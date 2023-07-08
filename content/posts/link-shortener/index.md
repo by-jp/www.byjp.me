@@ -95,9 +95,14 @@ If you'd also like an API to add a new shortlink, you'll need a [val.town](https
 
 ## Caveats & thoughts
 
-- I'd like to build a [Raycast](raycast.com) extension for making new shortlinks. It's stopped raining now, so maybe later!
-- If you try to post new shortlinks with the val.town API faster than the deploy time for the repo then your API call will be rejected, and you'll have to try again. I'd like to get some auto-retries in there.
-- With val town and Raycast being drivable by Typescript I'd like to release this as a package, so it's mega easy to use. Perhaps it'll even have tests 😲
-- I'd _really_ like to be able to publish this blog with "other things I'd like to be included in the root hash", so I could say "resolve `/ipns/byjp.fyi/` and include that IPFS data here", so this blog always includes a 'backup' of the shortlinks. This feels like it's the tip of a bigger feature IPFS might include around deeper archival support.
-- Removing shortlinks is still a manual edit of the Github repo away. I don't see much value in allowing that to be automated any time soon.
-- I do need to trust val.town with write access to my shortlinks repo — if something leaked out of that part of the flow then back folks could hijack links folks may trust are mine isn't great. I should probably check the shortlinks every now and again.
+I'd like to build a [Raycast](raycast.com) extension for making new shortlinks. It's stopped raining now, so maybe later!
+
+If you try to post new shortlinks with the val.town API faster than the deploy time for the repo then your API call will be rejected, and you'll have to try again. I'd like to get some auto-retries in there.
+
+With val town and Raycast being drivable by Typescript I'd like to release this as a package, so it's mega easy to use. Perhaps it'll even have tests 😲
+
+I'd _really_ like to be able to publish this blog with "other things I'd like to be included in the root hash", so I could say "resolve `/ipns/byjp.fyi/` and include that IPFS data here", so this blog always includes a 'backup' of the shortlinks. This feels like it's the tip of a bigger feature IPFS might include around deeper archival support.
+
+Removing shortlinks is still a manual edit of the Github repo away. I don't see much value in allowing that to be automated any time soon.
+
+I do need to trust val.town with write access to my shortlinks repo — if something leaked out of that part of the flow then back folks could hijack links folks may trust are mine isn't great. I should probably check the shortlinks every now and again.
