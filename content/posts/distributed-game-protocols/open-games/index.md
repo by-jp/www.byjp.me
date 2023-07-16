@@ -110,6 +110,6 @@ You can try out what happens if there's an error; if you put a 6 instead of that
 
 Credit card manufacturers take their _actual_ credit card number (one digit too short) and follow the same process above, with one final twist to calculate the last digit.
 
-Put an `X` for the last digit of your card; In my example the final sum in step 4 would be `31`. I can see `40` is the nearest divisible-by-ten number above `31`, and `40 - 31 = 9`, so `9` must be the last digit of my fake-card for it to be valid.
+Put an `X` for the last digit of your card (removing the last column of working), and find the new sum in Step 4 — in my example that would be `31`. I note that `40` is the next divisible-by-ten number above `31`, and calculate `40 - 31 = 9`. This means `9` must be the last digit of my fake-card for it to be valid.
 
 This is a (very simple) consistent hashing algorithm — a way to consistently turn larger data into a smaller number which represents that data. We'll need more of them as we look at **Distributed game protocols: Randomness** in the next post! (Coming soon!)
