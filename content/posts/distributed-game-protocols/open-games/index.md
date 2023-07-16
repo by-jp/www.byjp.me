@@ -43,11 +43,11 @@ _These_ are the problems that distributed game protocols address, and I'll cover
 
 ## Open games
 
-I call the set of games that has no chance, fate, or secrecy "open" because literally all parts of it are open and visible at all times. The difficulty of the game is in the breadth of possible choices, and (un)predictability of the effect those choices have.
+I call the set of games that has no chance, fate, or secrecy "open" because literally all parts of it are open and visible at all times. The difficulty of the game is in the breadth of possible choices by the players, and the (un)predictability of the effect those choices have.
 
-Games like [Chess](https://en.wikipedia.org/wiki/Chess) and [Go](https://en.wikipedia.org/wiki/Go_(game)) are great examples here, and playing them with a distributed protocol is practically as old as history, we use a standard to communicate moves to each other — for example, one of the different [chess notations](https://en.wikipedia.org/wiki/Chess_notation), as used in [correspondance chess by post](https://en.wikipedia.org/wiki/Correspondence_chess).
+Games like [Chess](https://en.wikipedia.org/wiki/Chess) and [Go](https://en.wikipedia.org/wiki/Go_(game)) are great examples here, and playing them with a distributed protocol is far older than the internet. Game geeks have a [long history](https://en.wikipedia.org/wiki/History_of_chess) of playing chess remotely, using a [standard notation](https://en.wikipedia.org/wiki/Chess_notation) of some kind to communicate moves to each other — [correspondance chess](https://en.wikipedia.org/wiki/Correspondence_chess), as it's still called.
 
-Below is a sequence diagram I've put together to show how simple a game of remote chess can be played. It's so simple it feels weird to make a fancy diagram for it!
+Below is a sequence diagram I've put together to show how simple a game of remote chess can be played. It's so simple it feels a little strange to spend time documenting and diagramming it!
 
 ```mermaid
 %% My apologies, I can only render sequence diagrams in Javascript at the moment!
@@ -79,7 +79,7 @@ In the case of _noticable_ incorrectness (bad kitty!) a player can request a des
 
 ### Consistent hashing algorithms
 
-Naturally, a very simple way of detecting errors here would be to scribble down the full layout of the new chessboard on the postcard containing your move as you make your correspondance chess play; but for more complex boards, or where the amount of space you have for transmitting your move is small, we'd need something more sophisticated.
+Naturally, a very simple way of detecting errors here would be to scribble down the full layout of the new chessboard on the postcard containing your move as you make your correspondance chess play; but for more complex games, or where the amount of space you have for transmitting your move is small, we'd need something more sophisticated.
 
 In computing, [error detection and correction codes](https://en.wikipedia.org/wiki/Error_detection_and_correction) are used _literally everywhere_ to be able to detect (and optionally correct) exactly these kinds of otherwise invisible errors. In modern digital systems the components that store the 1s and 0s at the foundation of your machine are so small that an errant particle from the sun can (and do!) flip a zero to a one, or vice versa, at any moment — error correction codes are how we get around this.
 
