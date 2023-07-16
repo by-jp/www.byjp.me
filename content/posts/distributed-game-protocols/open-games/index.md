@@ -83,11 +83,11 @@ Naturally, a very simple way of detecting errors here would be to scribble down 
 
 In computing, [error detection and correction codes](https://en.wikipedia.org/wiki/Error_detection_and_correction) are used _literally everywhere_ to be able to detect (and optionally correct) exactly these kinds of otherwise invisible errors. In modern digital systems the components that store the 1s and 0s at the foundation of your machine are so small that an errant particle from the sun can (and do!) flip a zero to a one, or vice versa, at any moment — error correction codes are how we get around this.
 
-A distributed game protocol can use similar techniques to protect your game of Go from subtle errors too. The one method I want to introduce before the next post is [hashing algorithms](https://en.wikipedia.org/wiki/Hash_function). These are themselves protocols for turning an arbitrarily large amount of data into a number that changes a lot when the data changes a little.
+A distributed game protocol can use similar techniques to protect your game from subtle errors too. The one method I want to introduce before the next post is [hashing algorithms](https://en.wikipedia.org/wiki/Hash_function). These are processes for turning an arbitrarily large amount of data into a small(ish) number that changes a lot, even when the data changes only a little.
 
-You probably have a perfect example of this close at hand: your credit card number. The last digit of that long number on your card _isn't a part of your card number_, it's a "check digit". If you type one of your digits incorrectly, the check digit will be off, and a computer can ask you to check your working.
+You probably have a perfect example of this close at hand: your credit card number. The last digit of that long number on your card _isn't a part of your card number_, it's a "check digit". If you type one of your digits incorrectly, the check digit will be off, and a computer can know to ask you to check your typing.
 
-This uses the [Luhn alogorithm](https://en.wikipedia.org/wiki/Luhn_algorithm), and you can check your credit card number is correct right now:
+They use the [Luhn alogorithm](https://en.wikipedia.org/wiki/Luhn_algorithm), and you can check your credit card number is correct right now:
 
 1. Write your credit card number out on a piece of paper, with some space between each digit (a piece you can destroy afterwards!)
 2. Double every other digit
@@ -95,7 +95,7 @@ This uses the [Luhn alogorithm](https://en.wikipedia.org/wiki/Luhn_algorithm), a
 4. Sum all the numbers
 5. If the final number is divisible by 10 (ie. ends in a zero) then the card number is valid.
 
-Here's a worked example with short example (not a) credit card number:
+Here's a worked example with short (not a) credit card number:
 
 ```plain The Luhn algorithm
 Step 1:   4   4   1   7   8   2   5   9
