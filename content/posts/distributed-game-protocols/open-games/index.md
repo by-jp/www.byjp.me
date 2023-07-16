@@ -95,7 +95,7 @@ They use the [Luhn alogorithm](https://en.wikipedia.org/wiki/Luhn_algorithm), an
 4. Sum all the numbers
 5. If the final number is divisible by 10 (ie. ends in a zero) then the card number is valid.
 
-Here's a worked example with short (not a) credit card number:
+Here's a worked example with short (not a) credit card number: 4417 8259
 
 ```plain The Luhn algorithm
 Step 1:   4   4   1   7   8   2   5   9
