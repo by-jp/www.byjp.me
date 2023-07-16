@@ -50,6 +50,9 @@ Games like [Chess](https://en.wikipedia.org/wiki/Chess) and [Go](https://en.wiki
 Below is a sequence diagram I've put together to show how simple a game of remote chess can be played. It's so simple it feels weird to make a fancy diagram for it!
 
 ```mermaid
+%% My apologies, I can only render sequence diagrams in Javascript at the moment!
+%% Please visit the site in a Javascript enabled browser to see this.
+
 sequenceDiagram
     participant A as Alice
     participant B as Bob
