@@ -4,6 +4,8 @@ media:
 - media-0.jpg
 date: "2011-08-21T15:51:14Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 Hanuman, the monkey god.

@@ -10,6 +10,8 @@ media:
 - media-6.jpg
 date: "2019-07-13T14:54:21Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 I'm sorry, we haven't a Cluedo.

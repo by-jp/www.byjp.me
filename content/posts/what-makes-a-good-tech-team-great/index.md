@@ -8,6 +8,7 @@ tags:
   - engineering
   - team
   - deliveroo
+summary: "Communication, shared context, pride, and responsibility are key factors for Deliveroo's Engineering culture."
 ---
 
 > The Deliveroo Engineering team has come a long way incredibly fast and is growing even faster. Our Analytics team is undergoing similarly explosive growth, so I thought I’d talk to the newest members of that team and share why we’re so proud of our Engineering culture and how it’s grown with us. Here’s what we spoke about.

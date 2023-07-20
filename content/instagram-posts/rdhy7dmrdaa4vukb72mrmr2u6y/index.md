@@ -4,6 +4,8 @@ media:
 - media-0.jpg
 date: "2011-07-23T04:59:45Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 Dave buys a coconut

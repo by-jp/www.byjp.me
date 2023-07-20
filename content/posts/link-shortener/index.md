@@ -10,6 +10,7 @@ tags:
   - shortlinks
   - val.town
   - indieweb
+summary: Using IPFS to build a trivial link shortener that doesn't hide & hoard the destination from the world.
 ---
 
 Link shorteners are superbly useful, but _really bad_ for the longevity of the world wide web. Every time you use tinyurl.com, bit.ly, or similar you are taking something open and direct (the web address of the think you're pointing people to) and hiding it within the black box that is the company behind that site.

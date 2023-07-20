@@ -4,7 +4,9 @@ media:
 - media-0.jpg
 date: "2019-03-07T22:27:59Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 Like a kid at Universal Studios 😁 It's surprisingly awesome\!
 

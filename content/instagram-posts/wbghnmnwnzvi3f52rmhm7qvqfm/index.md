@@ -4,7 +4,9 @@ media:
 - media-0.jpg
 date: "2019-01-08T22:54:02Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 I ate an odd chocolate today.
 

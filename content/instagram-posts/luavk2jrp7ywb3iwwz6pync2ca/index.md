@@ -6,6 +6,8 @@ media:
 - media-2.jpg
 date: "2020-12-14T08:57:14Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 Well this is a lovely spot, eh?

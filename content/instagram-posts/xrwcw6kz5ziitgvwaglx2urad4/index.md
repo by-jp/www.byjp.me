@@ -4,6 +4,8 @@ media:
 - media-0.jpg
 date: "2014-06-19T20:08:34Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 blinkbox summer party times.

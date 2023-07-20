@@ -8,6 +8,7 @@ tags:
   - web
   - browser
   - 90s
+summary: A new web-browser that really is helping me fall in love with the internet again.
 ---
 
 It seems to me like new browsers are very popular at the moment. I love that this means a _Change_ is probably coming, it's about time.

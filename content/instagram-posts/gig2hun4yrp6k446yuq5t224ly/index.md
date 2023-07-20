@@ -4,7 +4,9 @@ media:
 - media-0.jpg
 date: "2017-03-18T15:39:45Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 Would you look at that, I'm a Southerner now 😜
 

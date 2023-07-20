@@ -4,6 +4,8 @@ media:
 - media-0.jpg
 date: "2019-05-06T18:06:03Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 Fifi really enjoys gelato.

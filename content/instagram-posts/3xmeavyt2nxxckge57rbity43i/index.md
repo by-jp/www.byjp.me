@@ -6,7 +6,9 @@ media:
 - media-2.jpg
 date: "2017-12-10T23:43:21Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 I continue to enjoy reading Atkins & Johnson's "A Dodo at Oxford"; it is at least as whimsical and enjoyable as the reviews make it out to be — definitely one for those with a curious mind and miriscient soul\!
 

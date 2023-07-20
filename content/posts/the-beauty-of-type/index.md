@@ -7,6 +7,7 @@ draft: false
 tags:
   - typography
   - postcards
+summary: I created a font from a piece of art made for me by a friend.
 ---
 
 Back in July, while recovering from a nasty cold, I received a beautiful postcard from my friend [Richard](https://www.facebook.com/richardjj). It displayed an alphabet he created, each letter inspired by a different writing system of the world.

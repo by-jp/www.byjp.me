@@ -9,6 +9,7 @@ tags:
 - human-era
 - ifc
 - beat
+summary: "The Human Era, International Fixed Calendar, and .beat time: Weird and wonderful ways of telling time that I adore."
 ---
 
 Recently I've become a little obsessed by a handful of uncommon methods of transcribing the date and time. Perhaps it's because I bought myself an Apple watch recently (so I can play with how I read the time), but I've always enjoyed learning about time, and how we humans love to try and parcel it up.

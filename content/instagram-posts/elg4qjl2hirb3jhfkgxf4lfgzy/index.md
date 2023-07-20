@@ -9,7 +9,9 @@ media:
 - media-5.jpg
 date: "2018-06-15T08:12:44Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 5 years ago today I joined my Dad in the Serengeti National Park for part of his four month cross-Africa adventure and had almost unforgettable birthday.
 

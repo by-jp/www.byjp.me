@@ -6,7 +6,9 @@ media:
 - media-2.jpg
 date: "2019-09-07T12:38:01Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 Doing a first \(holi\)day wonder about the city — it's extremely pretty\!
 

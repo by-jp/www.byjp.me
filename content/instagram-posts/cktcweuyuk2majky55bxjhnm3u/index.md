@@ -9,7 +9,9 @@ media:
 - media-5.jpg
 date: "2020-12-18T17:38:53Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 Come on a journey around El Teide National Park with us\!
 

@@ -4,6 +4,8 @@ media:
 - media-0.jpg
 date: "2019-03-29T18:42:01Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 Sunny & pretty finish to the work week ☺️

@@ -6,6 +6,8 @@ media:
 - media-2.jpg
 date: "2023-01-02T21:22:07Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 And we’re off\! 👋🛫🇨🇴

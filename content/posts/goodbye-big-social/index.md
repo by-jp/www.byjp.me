@@ -6,6 +6,7 @@ emoji: 🌊
 tags:
 - social-media
 - friends
+summary: Why I'm leaving 'big' social media.
 ---
 
 <small>_**TL;DR**: I'm going to leave Meta's social networking platforms (Facebook, Instagram) on June 16th, 2023. This website, [byJP.me](https://byjp.me), will always show good ways to reach me and find out what I'm up to — please say hello if we haven't chatted in a while!_</small>

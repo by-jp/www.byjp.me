@@ -4,6 +4,8 @@ media:
 - media-0.jpg
 date: "2011-10-25T07:38:05Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 Team takeout: Hyderabad Biriani\!

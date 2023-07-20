@@ -7,6 +7,7 @@ images:
 tags:
   - instagram
   - social
+summary: Archiving my Instagram account, and releasing the code that imported it to this Hugo-driven site.
 ---
 
 I spent a little time this weekend reminding myself of what writing code is like (before I start work again on Tuesday, after [4 months travelling](https://adventure.awaits.us)). After my recent post on [leaving Meta's social networks](/posts/goodbye-big-social) I decided to create a script to convert the GDPR-provided archive of all my activity on Instagram into this blog.

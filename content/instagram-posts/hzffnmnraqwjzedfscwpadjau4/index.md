@@ -6,6 +6,8 @@ media:
 - media-2.jpg
 date: "2021-02-14T18:45:05Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 Success\! Dumplings from scratch together for Valentine's ☺️ \(To be fair, ain't much would have counted as "not success" 😁😘\)

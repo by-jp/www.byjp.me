@@ -4,7 +4,9 @@ media:
 - media-0.jpg
 date: "2019-03-16T04:21:21Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 My new friend Ed sings in the "Live Band Karaoke" at Copper Blues, the awesome bar I got to spend my last night in the US at\! Maybe I should have had one less drink, my flights have been a little testing 😅
 

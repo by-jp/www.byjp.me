@@ -4,6 +4,8 @@ media:
 - media-0.jpg
 date: "2019-05-07T19:20:34Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 Hungry cyclists hunting for wild gelato 👀🍨

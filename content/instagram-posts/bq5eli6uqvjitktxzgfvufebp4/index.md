@@ -4,6 +4,8 @@ media:
 - media-0.jpg
 date: "2016-06-26T11:13:29Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 My friend's house is an old windmill and it's beautiful\!

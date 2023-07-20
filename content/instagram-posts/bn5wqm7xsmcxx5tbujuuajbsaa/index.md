@@ -4,7 +4,9 @@ media:
 - media-0.webp
 date: "2022-01-24T09:30:42Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 My clock project is complete\! 🌈🕦
 

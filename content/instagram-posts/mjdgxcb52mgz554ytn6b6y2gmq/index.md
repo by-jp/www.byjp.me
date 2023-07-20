@@ -4,6 +4,8 @@ media:
 - media-0.jpg
 date: "2011-03-25T11:30:26Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 Thai times

@@ -8,6 +8,8 @@ media:
 - media-4.webp
 date: "2022-03-18T17:12:36Z"
 draft: false
-tags: []
+tags:
+- imported
+- from-instagram
 ---
 What a week\! Last day of skiing today, now relaxing my battered thighs with these lovely folks ☺️
