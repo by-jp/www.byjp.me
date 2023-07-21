@@ -623,6 +623,9 @@ input {
   border: 1px solid $light-color-secondary;
   background-color: $light-background;
   color: $light-color;
+  margin: 2px;
+  padding: 2px 4px;
+  border-radius: 0;
 
   @media (prefers-color-scheme: dark) {
     border: 1px solid $dark-color-secondary;
@@ -653,8 +656,6 @@ select {
   appearance: none;
   background-color: transparent;
   border: none;
-  padding: 0 1em 0 0;
-  margin: 2px 2px 2px;
   width: 100%;
   font-family: inherit;
   font-size: inherit;
@@ -689,8 +690,9 @@ select {
   grid-template-areas: "select";
   align-items: center;
   position: relative;
-  padding: 0 0.3em 0 0;
-  margin: 2px;
+  padding: 3px 4px;
+  border-radius: 0;
+  margin: 2px 2px 2px;
 
   select,
   &::after {
