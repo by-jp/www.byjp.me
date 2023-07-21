@@ -131,10 +131,10 @@ a[href^="https://web.archive.org/"] {
   text-decoration: none;
 }
 
-main p a, main li a, nav a, .social a, section a, .accented {
+main p a, main li a, nav a, .social a, section a, .accented, .banner-404 a {
   &:hover {
     color: var(--accent);
-  }  
+  }
 
   transition-property: color, filter;
   transition-duration: .2s;
