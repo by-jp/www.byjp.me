@@ -27,6 +27,11 @@ paginate = 36
 [author]
   name = "JP Hastings-Spital"
 
+[taxonomies]
+  series = 'series'
+  tag = 'tags'
+
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"

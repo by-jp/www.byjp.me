@@ -10,6 +10,8 @@ tags:
   - games
   - protocol
 summary: How can people play (board/card) games without a trusted third party, and without cheating? (Part 1 of 3)
+series:
+- Distributed game protocols
 ---
 
 Yesterday I wrote a behemoth of a blog post about why I'm excited about distributed protocols, with not-really-that-short descriptions of 4 different projects that are gently ticking over in my head. It was a mess 😂
@@ -20,9 +22,9 @@ This is the first in the distributed game protocols series, covering what they a
 
 This post series:
 
-- [Open Games](./) (this post)
-- Games with Randomness (Coming soon!)
-- Games with Fate and Secrets (Coming soon!)
+- [Open games](./) (this post)
+- [Games with randomness](../randomness/)
+- Games with fate and secrets (Coming soon!)
 
 ## What and why?
 
@@ -113,4 +115,4 @@ Credit card manufacturers take their _actual_ credit card number (one digit too 
 
 Put an `X` for the last digit of your card (removing the last column of working), and find the new sum in Step 4 — in my example that would be `31`. I note that `40` is the next divisible-by-ten number above `31`, and calculate `40 - 31 = 9`. This means `9` must be the last digit of my fake-card for it to be valid.
 
-This is a (very simple) consistent hashing algorithm — a way to consistently turn larger data into a smaller number which represents that data. We'll need more of them as we look at **Distributed game protocols: Randomness** in the next post! (Coming soon!)
+This is a (very simple) consistent hashing algorithm — a way to consistently turn larger data into a smaller number which represents that data. We'll need more of them as we look at [Games with Randomness](../randomness/) in the next post!
