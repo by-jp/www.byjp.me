@@ -137,7 +137,7 @@
         // TODO: Render mermaid server side
         function initMermaid() {
           const dark = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
-          mermaid.initialize({ startOnLoad: true, theme: dark ? 'dark' : 'default' });
+          mermaid.initialize({ startOnLoad: true, theme: dark ? 'dark' : 'neutral' });
         }
         // https://github.com/mermaid-js/mermaid/issues/1945
         // window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', initMermaid);

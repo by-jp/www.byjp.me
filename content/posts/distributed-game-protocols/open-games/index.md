@@ -11,7 +11,7 @@ tags:
   - protocol
 summary: How can people play (board/card) games without a trusted third party, and without cheating? (Part 1 of 3)
 series:
-- Distributed game protocols
+- Mental poker
 ---
 
 Yesterday I wrote a behemoth of a blog post about why I'm excited about distributed protocols, with not-really-that-short descriptions of 4 different projects that are gently ticking over in my head. It was a mess 😂

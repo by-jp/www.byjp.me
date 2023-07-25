@@ -13,7 +13,7 @@
           {{ $numInSeries = add $num 1 }}
         {{ end }}
       {{ end }}
-      <span class="series">{{$numInSeries}} of {{ $seriesCount }} in <a href="{{ "/series/" | absLangURL }}{{ . | urlize }}/">{{.}}</a> series</span>
+      <span class="series">{{$numInSeries}} of {{ $seriesCount }} in the <a href="{{ "/series/" | absLangURL }}{{ . | urlize }}/">{{.}}</a> series</span>
     {{ end }}
   </p>
 {{ end }}
