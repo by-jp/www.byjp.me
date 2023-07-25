@@ -1,5 +1,5 @@
 ---
-title: "Trusting random at a distance"
+title: "Trusting randomness at a distance"
 emoji: 🎲
 date: 2023-07-25T19:25:00+01:00
 draft: false
@@ -10,7 +10,7 @@ tags:
   - games
   - protocol
   - randomness
-summary: How can people in different places trust the other's dice-rolls? (Part 2 of 3)
+summary: How can people in different places trust the other's dice-rolls?
 series:
 - Mental poker
 ---

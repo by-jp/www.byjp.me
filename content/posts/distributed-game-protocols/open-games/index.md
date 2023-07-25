@@ -9,7 +9,7 @@ tags:
   - trustless
   - games
   - protocol
-summary: How can people play (board/card) games without a trusted third party, and without cheating? (Part 1 of 3)
+summary: How can people play (board/card) games without a trusted third party, and without cheating?
 series:
 - Mental poker
 ---
