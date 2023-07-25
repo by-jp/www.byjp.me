@@ -17,8 +17,8 @@
       </p>
     </div>
 
-    <article>
-      <h1 class="post-title"{{ with .Params.emoji }} data-emoji="{{.}}"{{end}}>
+    <article class="e-content">
+      <h1 class="post-title p-name"{{ with .Params.emoji }} data-emoji="{{.}}"{{end}}>
         <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
       </h1>
 
@@ -89,7 +89,7 @@
           <line x1="8" y1="2" x2="8" y2="6"></line>
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
-        <date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}">
+        <date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" class="dt-published">
         {{ if .Site.Params.dateformNumTime }}
           {{ dateFormat .Site.Params.dateformNumTime .Date }}
         {{ else }}
