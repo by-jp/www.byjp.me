@@ -1,5 +1,5 @@
 ---
-title: "Distributed game protocols: Open games"
+title: "Trust and simple games"
 emoji: ♟️
 date: 2023-07-16T07:26:11+01:00
 draft: false
