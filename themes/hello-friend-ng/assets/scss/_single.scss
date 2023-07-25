@@ -53,9 +53,10 @@
     }
   }
 
-  &-excerpt {
+  &-summary {
     color: grey;
     font-style: italic;
+    display: none;
   }
 
   &-info {
@@ -88,6 +89,14 @@
       vertical-align: -.125em;
       width: 1em;
       height: 1em;
+    }
+
+    .permalink a {
+      text-decoration: none;
+    }
+
+    .author {
+      display: none;
     }
   }
 
