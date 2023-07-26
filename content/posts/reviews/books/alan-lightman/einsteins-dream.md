@@ -6,6 +6,9 @@ date: 2013-05-08
 emoji: 📖
 draft: false
 images:
+tags:
+- imported
+- from-goodreads
 syndications:
 - https://www.goodreads.com/review/show/610034736
 ---
