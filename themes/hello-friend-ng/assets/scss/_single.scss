@@ -24,6 +24,21 @@
     a {
       text-decoration: none;
     }
+
+    * {
+      margin: 0;
+    }
+
+    h2 {
+      color: $light-color-secondary;
+      font-style: italic;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .subtitle {
+      font-size: 1.5rem;
+    }
   }
 
   &-tags {

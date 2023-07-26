@@ -1,34 +1,14 @@
-<a class="resp-syndication__link" href="mailto:{{ site.Author.email }}?subject=Re:%20{{ .Title | htmlEscape }}&amp;body={{ htmlEscape "Hello JP!\n\nI was reading your blog…" }}" target="_self" rel="noopener" title="Respond via email">
-  <div class="resp-syndication resp-syndication--small">
-    <div aria-hidden="true" class="resp-syndication__icon resp-syndication__icon--solid">
-      {{ partial "svg.html" (dict "name" "email") }}
-    </div>
-  </div>
-</a>
+{{ $mailto := delimit "mailto:" site.Author.email "?subject=Re:%20" ( .Title | htmlEscape ) "&amp;body=" (htmlEscape "Hello JP!\n\nI was reading your blog…") }}
+{{ partial "syndication-ref.html" (dict "type" "email" "link" $mailto) }}
+
 {{ range .Params.syndications }}
   {{ if hasPrefix . "https://bsky.app/" }}
-    <a rel="syndication" class="u-syndication resp-syndication__link" href="{{ . }}" target="_blank" rel="noopener" title="Respond on Bluesky">
-      <div class="resp-syndication resp-syndication--small">
-        <div aria-hidden="true" class="resp-syndication__icon resp-syndication__icon--solid">
-          {{ partial "svg.html" (dict "name" "bluesky") }}
-        </div>
-      </div>
-    </a>
+    {{ partial "syndication-ref.html" (dict "type" "bluesky" "link" .) }}
   {{ else if hasPrefix . "https://hachyderm.io/" }}
-    <a rel="syndication" class="u-syndication resp-syndication__link" href="{{ . }}" target="_blank" rel="noopener" title="Respond on Mastodon">
-      <div class="resp-syndication resp-syndication--small">
-        <div aria-hidden="true" class="resp-syndication__icon resp-syndication__icon--solid">
-          {{ partial "svg.html" (dict "name" "mastodon") }}
-        </div>
-      </div>
-    </a>
+    {{ partial "syndication-ref.html" (dict "type" "mastodon" "link" .) }}  
+  {{ else if hasPrefix . "https://www.goodreads.com/" }}
+    {{ partial "syndication-ref.html" (dict "type" "goodreads" "link" .) }}  
   {{ else }}
-    <a rel="syndication" class="u-syndication resp-syndication__link" href="{{ . }}" target="_blank" rel="noopener" title="See elsewhere">
-      <div class="resp-syndication resp-syndication--small">
-        <div aria-hidden="true" class="resp-syndication__icon resp-syndication__icon--solid">
-          {{ partial "svg.html" (dict "name" "anonymous") }}
-        </div>
-      </div>
-    </a>
+    {{ partial "syndication-ref.html" (dict "type" "" "link" .) }}
   {{ end }}
 {{end}}
