@@ -1,14 +1,14 @@
-.sharing-buttons {
+.syndication {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 
-  .resp-sharing-button__icon,
-  .resp-sharing-button__link {
+  .resp-syndication__icon,
+  .resp-syndication__link {
     display: inline-block;
   }
 
-  .resp-sharing-button__link {
+  .resp-syndication__link {
     text-decoration: none;
     margin: 0.5em;
   }
@@ -20,7 +20,7 @@
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   }
 
-  .resp-sharing-button__icon svg {
+  .resp-syndication__icon svg {
     width: 1em;
     height: 1em;
     margin-right: 0.4em;

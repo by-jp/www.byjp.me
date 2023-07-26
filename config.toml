@@ -26,6 +26,7 @@ paginate = 36
 
 [author]
   name = "JP Hastings-Spital"
+  email = "hello@byjp.me"
 
 [taxonomies]
   series = 'series'
@@ -68,12 +69,12 @@ paginate = 36
       url  = "mailto:hello@byjp.me"
 
     [[languages.en.params.social]]
-      name = "mastodon"
-      url  = "https://hachyderm.io/@byjp"
+      name = "bluesky"
+      url  = "https://bsky.app/profile/byjp.me"
 
     [[languages.en.params.social]]
-      name = "pixelfed"
-      url  = "https://pixelfed.social/jphastings"
+      name = "mastodon"
+      url  = "https://hachyderm.io/@byjp"
 
     [[languages.en.params.social]]
       name = "github"

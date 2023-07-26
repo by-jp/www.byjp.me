@@ -126,12 +126,10 @@
       {{- end }}
     </div>
 
-    {{- if .Site.Params.EnableSharingButtons }}
-      <hr />
-      <div class="sharing-buttons">
-        {{ partial "sharing-buttons.html" . }}
-      </div>
-    {{- end }}
+    <hr />
+    <div class="syndication">
+      {{ partial "syndication.html" . }}
+    </div>
 
     {{ partial "pagination-single.html" . }}
 

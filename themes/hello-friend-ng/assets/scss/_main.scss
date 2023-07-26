@@ -131,7 +131,7 @@ a[href^="https://web.archive.org/"] {
   text-decoration: none;
 }
 
-main p a, main li a, nav a, .social a, section a, .accented, .banner-404 a {
+main p a, main li a, nav a, .social a, section a, .accented, .banner-404 a, .syndication a {
   &:hover {
     color: var(--accent);
   }
