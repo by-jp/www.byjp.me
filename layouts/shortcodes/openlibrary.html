@@ -1,0 +1,32 @@
+{{ $isbn := .Get 0 }}
+{{ $path := .Page.Path }}
+
+{{ $query := (dict "type" "/type/edition" "isbn_13" $isbn) | jsonify }}
+{{ $thing := getJSON (printf "https://openlibrary.org/api/things?query=%s" ($query)) }}
+{{ if and (eq $thing.status "ok") (ge (len $thing.result) 1) }}
+  {{ $key := index $thing.result 0 }}
+  {{ $bookObj := getJSON (printf "https://openlibrary.org/api/get?key=%s" $key) }}
+  {{ if eq $bookObj.status "ok" }}
+    {{ $authors := slice }}
+    {{ range $bookObj.result.authors }}
+      {{ $authorObj := getJSON (printf "https://openlibrary.org/api/get?key=%s" .key) }}
+      {{ if eq $authorObj.status "ok" }}
+        {{ $authors = $authors | append (dict "name" $authorObj.result.name "url" (printf "https://openlibrary.org%s" $authorObj.result.key)) }}
+      {{ end }}
+    {{ end }}
+
+    {{/*  TODO: Perhaps I nede to parse this a bit  */}}
+    {{ $subjects := $bookObj.result.subjects }}
+
+    {{ $cover := "" }}
+    {{ with resources.GetRemote (printf "https://covers.openlibrary.org/b/isbn/%s-M.jpg" $isbn) }}
+      {{ with .Err }}
+      {{ else }}
+        {{ $cover = .Content | resources.FromString (replaceRE `\.md$` ".jpg" $path) }}
+      {{ end }}
+    {{ end }}
+
+    {{ $book := dict "title" $bookObj.result.title "authors" $authors "url" (printf "https://openlibrary.org%s" $key) "cover" $cover "subjects" $subjects }}
+    {{ partial "book.html" $book }}
+  {{ end }}
+{{ end }}

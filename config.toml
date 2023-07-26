@@ -1,4 +1,3 @@
-relativeURLs = true
 languageCode = "en-gb"
 theme = "hello-friend-ng"
 
@@ -9,6 +8,7 @@ PygmentsStyle = "monokai"
 # disqusShortname = ""
 
 canonifyURLs = true
+relativeURLs = true
 
 enableRobotsTXT = true
 enableGitInfo   = false

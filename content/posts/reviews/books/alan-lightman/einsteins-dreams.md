@@ -1,11 +1,10 @@
 ---
-title: Einstein's Dream
+title: Einstein's Dreams
 subtitle: A book by Alan Lightman
 type: review
-date: 2013-05-08
-emoji: 📖
+date: "2013-05-10T00:00:00Z"
+emoji: "\U0001F4D6"
 draft: false
-images:
 tags:
 - imported
 - from-goodreads
@@ -13,7 +12,7 @@ syndications:
 - https://www.goodreads.com/review/show/610034736
 ---
 
-{{< book "9781400077809" >}}
+{{< openlibrary "9781400077809" >}}
 
 A wonderful series of glimpses of strange worlds where time is fundamentally different - an insight into the weird and wonderful worlds Einstein must have dreamt through in his Annus Mirabilis.
 

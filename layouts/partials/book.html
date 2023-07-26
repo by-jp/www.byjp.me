@@ -1,0 +1,18 @@
+<div class="book">
+  {{ with .cover }}
+    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="The cover of this book">
+  {{ end }}
+
+  <strong><a href="{{ .url }}" target="_blank">{{ .title }}</a></strong>
+  <ol>
+    {{ range .authors }}
+      <li><a href="{{ .url }}" target="_blank">{{ .name }}</a></li>
+    {{ end }}
+  </ol>
+
+  <ul>
+    {{ range .subjects }}
+      <li>{{ . }}</li>
+    {{ end }}
+  </ul>
+</div>
