@@ -1,4 +1,4 @@
-{{ $mailto := delimit "mailto:" site.Author.email "?subject=Re:%20" ( .Title | htmlEscape ) "&amp;body=" (htmlEscape "Hello JP!\n\nI was reading your blog…") }}
+{{ $mailto := delimit (slice "mailto:" site.Author.email "?subject=Re:%20" ( .Title | htmlEscape ) "&body=" (htmlEscape "Hi JP!\n\nI was reading your blog…")) "" }}
 {{ partial "syndication-ref.html" (dict "type" "email" "link" $mailto) }}
 
 {{ range .Params.syndications }}
