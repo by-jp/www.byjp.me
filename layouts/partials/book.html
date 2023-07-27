@@ -1,18 +1,17 @@
-<div class="book">
-  {{ with .cover }}
-    <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="The cover of this book">
-  {{ end }}
+<figure class="book">
+  <a href="{{ .url }}" target="_blank" title="Open book details">
+    {{ $title := .title }}
+    {{ with .cover }}
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="The cover of the book {{ $title }}">
+    {{ end}}
+  </a>
 
-  <strong><a href="{{ .url }}" target="_blank">{{ .title }}</a></strong>
-  <ol>
-    {{ range .authors }}
-      <li><a href="{{ .url }}" target="_blank">{{ .name }}</a></li>
-    {{ end }}
-  </ol>
-
-  <ul>
-    {{ range .subjects }}
-      <li>{{ . }}</li>
-    {{ end }}
-  </ul>
-</div>
+  <figcaption>
+    <a href="{{ .url }}" target="_blank" title="Open book details">{{ .title }}</a><br />
+    <span class="authors">
+      {{ range .authors }}
+        <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+      {{ end }}
+    </span>
+  </figcaption>
+</figure>

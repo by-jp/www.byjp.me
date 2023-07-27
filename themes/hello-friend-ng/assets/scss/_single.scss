@@ -75,7 +75,7 @@
   }
 
   &-info {
-    margin-top: 30px;
+    margin: 16px 0;
     font-size: 0.8rem;
     line-height: normal;
     
@@ -254,5 +254,35 @@
 
   &.previous .button__icon {
     margin-right: 8px;
+  }
+}
+
+.book {
+  max-width: 180px;
+  float: right;
+  text-align: right;
+  margin: 0 0 16px 16px;
+
+  img {
+    width: 100%;
+  }
+
+  .authors {
+    &:has(a)::before {
+      content: ' by ';
+    } 
+    a {
+      &::after {
+        content: ', ';
+      }
+
+      &:nth-last-child(2)::after {
+        content: ', and ';
+      }
+
+      &:last-child::after {
+        content: '';
+      }
+    }
   }
 }

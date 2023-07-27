@@ -131,7 +131,7 @@ a[href^="https://web.archive.org/"] {
   text-decoration: none;
 }
 
-main p a, main li a, nav a, .social a, section a, .accented, .banner-404 a, .syndication a {
+main p a, main li a, nav a, .social a, section a, .accented, .banner-404 a, .syndication a, figcaption a {
   &:hover {
     color: var(--accent);
   }
@@ -459,6 +459,7 @@ hr {
   height: 1px;
   // Default
   background: $light-border-color;
+  clear: both;
 
   @media (prefers-color-scheme: dark) {
     background: $dark-border-color;
