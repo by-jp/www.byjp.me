@@ -14,4 +14,8 @@ syndications:
 
 {{< openlibrary "9781782391210" >}}
 
+{{% importnote 2023-07-27 %}}
+Back when I wrote Goodreads reviews, I tried to keep them short & sweet — which makes them seem a little out of place here on this blog!
+{{%/ importnote %}}
+
 This is a superb book. Inspiring, permanently thrilling, believable but without trying to be, witty and laugh-out-loud funny in places – I can't recommend it enough.

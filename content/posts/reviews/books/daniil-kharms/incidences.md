@@ -14,4 +14,8 @@ syndications:
 
 {{< openlibrary "9781852424800" >}}
 
+{{% importnote 2023-07-27 %}}
+Back when I wrote Goodreads reviews, I tried to keep them short & sweet — which makes them seem a little out of place here on this blog!
+{{%/ importnote %}}
+
 I really love the style of his almost ridiculously brief short stories — they contain a lot for so few lines!

@@ -14,4 +14,8 @@ syndications:
 
 {{< openlibrary "9781857231380" >}}
 
+{{% importnote 2023-07-27 %}}
+Back when I wrote Goodreads reviews, I tried to keep them short & sweet — which makes them seem a little out of place here on this blog!
+{{%/ importnote %}}
+
 Great story, satisfying if saddening end.

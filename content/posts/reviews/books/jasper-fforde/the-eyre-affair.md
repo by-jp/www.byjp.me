@@ -14,4 +14,8 @@ syndications:
 
 {{< openlibrary "9780142001806" >}}
 
+{{% importnote 2023-07-27 %}}
+Back when I wrote Goodreads reviews, I tried to keep them short & sweet — which makes them seem a little out of place here on this blog!
+{{%/ importnote %}}
+
 Charmingly written, with an interesting plot, deep characters and a very interesting precepts - well worth a read!

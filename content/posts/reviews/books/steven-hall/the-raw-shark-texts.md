@@ -14,4 +14,8 @@ syndications:
 
 {{< openlibrary "9781847670243" >}}
 
+{{% importnote 2023-07-27 %}}
+Back when I wrote Goodreads reviews, I tried to keep them short & sweet — which makes them seem a little out of place here on this blog!
+{{%/ importnote %}}
+
 Took me a while to get into it, but the concept is excellent and Hall doesn't assume the reader is an idiot - I get the feeling I'm going to need to read it again and hunt down the unchapters though…

@@ -14,4 +14,8 @@ syndications:
 
 {{< openlibrary "9780307887436" >}}
 
+{{% importnote 2023-07-27 %}}
+Back when I wrote Goodreads reviews, I tried to keep them short & sweet — which makes them seem a little out of place here on this blog!
+{{%/ importnote %}}
+
 I absolutely demolished this book - it's a completely engrossing tale, well worth a read!
