@@ -12,7 +12,7 @@ syndications:
 
 {{< film "Barbie" "2023" "https://www.themoviedb.org/movie/346698-barbie" "barbie.jpg" >}}
 
-This was an _excellent_ film that left me emotionally stretched in just the right way. This is an adult movie with childhood references (not a kids' film at all), and seems pitched at people roughly my age (the Goo Goo Dolls referenced as a track for wooing is too close for comfort!) It _superbly_ voices the internal contradictions women need to navigate to be accepted. It works hard not to centre Ken, even while his role is a critical counterpoint, but also gives a little airtime to how much a male-dominated world makes it hard to be a man too.
+This was an _excellent_ film that left me emotionally stretched in just the right way. This is an adult movie with childhood references (not a kids' film at all), and seems pitched at people roughly my age (Matchbox 20 referenced as a track for wooing is too close for comfort!) It _superbly_ voices the internal contradictions women need to navigate to be accepted. It works hard not to centre Ken, even while his role is a critical counterpoint, but also gives a little airtime to how much a male-dominated world makes it hard to be a man too.
 
 {{% spoiler "tmdb:346698" %}}In fact using Ken — an obviously one-dimensional doll of a man — as the very literal face of the very literal patriarchy neatly sidesteps any "but not all men" reactions getting in the way of the message. (I think they also rolled in some [incel](https://en.wikipedia.org/wiki/Incel) representation into his persona, giving him his own mini-arc to self-understanding and maturity.){{%/ spoiler %}}
 
