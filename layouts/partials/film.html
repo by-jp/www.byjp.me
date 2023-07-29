@@ -1,0 +1,12 @@
+<figure class="film">
+  <a href="{{ .url }}" target="_blank" title="Open film details">
+    {{ $title := .title }}
+    {{ with .cover }}
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="The poster for the film {{ $title }}">
+    {{ end}}
+  </a>
+
+  <figcaption>
+    <a href="{{ .url }}" target="_blank" title="Open film details">{{ .title }}</a> ({{ .year }})
+  </figcaption>
+</figure>

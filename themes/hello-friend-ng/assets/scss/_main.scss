@@ -131,7 +131,7 @@ a[href^="https://web.archive.org/"] {
   text-decoration: none;
 }
 
-main p a, main li a, nav a, .social a, section a, .accented, .banner-404 a, .syndication a, figcaption a {
+a:not(.noaccent) {
   &:hover {
     color: var(--accent);
   }
@@ -139,6 +139,10 @@ main p a, main li a, nav a, .social a, section a, .accented, .banner-404 a, .syn
   transition-property: color, filter;
   transition-duration: .2s;
   transition-timing-function: ease-in;
+}
+
+a.noaccent {
+  text-decoration: none;
 }
 
 img.profile {

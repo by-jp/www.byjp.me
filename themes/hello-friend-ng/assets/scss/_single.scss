@@ -257,14 +257,18 @@
   }
 }
 
-.book {
+.book, .film {
   max-width: 180px;
   float: right;
   text-align: right;
   margin: 0 0 16px 16px;
+  // A hack to prevent spoilers from going over the link
+  position: relative;
+  z-index: 10;
 
   img {
     width: 100%;
+    height: auto;
   }
 
   .authors {
@@ -284,5 +288,29 @@
         content: '';
       }
     }
+  }
+}
+
+details.spoiler {
+  position: relative;
+
+  p:first-of-type {
+    margin-top: 0;
+  }
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &[closed] {
+    display: inline;
+  }
+
+  & > summary {
+    color: $light-color-secondary;
+    cursor: pointer;
+  }
+
+  &[open] > summary {
+    display: none;
   }
 }
