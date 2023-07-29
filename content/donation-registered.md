@@ -1,6 +1,9 @@
 ---
 title: Thank you!
 emoji: 🙇‍♂️
+type: site-infra
+_build:
+  list: never
 ---
 
 Thank you so much! It makes me _enormously_ happy that you're appreciating my work, and doubly so that you're willing to share what you have with others on my behalf.

@@ -11,7 +11,7 @@ canonifyURLs = true
 relativeURLs = true
 
 enableRobotsTXT = true
-enableGitInfo   = false
+enableGitInfo   = true
 enableEmoji     = true
 disableRSS      = false
 

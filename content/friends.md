@@ -1,7 +1,6 @@
 ---
 title: "Friends online"
 emoji: 🫶
-date: 2023-03-01T09:12:37-03:00
 draft: false
 type: timeless
 ---
