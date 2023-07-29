@@ -18,6 +18,6 @@ This was an _excellent_ film that left me emotionally stretched in just the righ
 
 The writing is out of this world, the pacing is spot on, and Margot Robbie utterly _nails_ the role — especially the emotional and physical aspects of being a doll in a way that playfully nods to the many ways that children play with Barbie.
 
-{{% spoiler "tmdb:346698" %}}I remember wondering on a few occsaions how the plot was going to resolve without requiring Ken to "win", be "defeated", or overly-centred. I shouldn't have worried; the battle and show number, followed by Ken being very emotionally mature while he faces his immaturity towards his relationship with Barbie was excellent!{{%/ spoiler %}}
+{{% spoiler "tmdb:346698" %}}I remember wondering on a few occassions how the plot was going to resolve without requiring Ken to "win", be "defeated", or overly-centred. I shouldn't have worried; the battle and show number, followed by Ken being very emotionally mature while he faces his immaturity towards his relationship with Barbie was excellent!{{%/ spoiler %}}
 
 It's a wonderful film that I'd encourage everyone to see. It's _hard_ to watch, as a man—feeling responsible for so many challenges women face—but Barbie doesn't judge, it voices. It's a message that informs me, helps me, as well as entertaining me, but it isn't meant for _me_; the extent to which Yvette felt seen, understood and perfectly spoken on behalf of _is_ this movie, and why it deserves all the praise it's getting.
