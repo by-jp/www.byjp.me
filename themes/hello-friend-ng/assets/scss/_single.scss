@@ -316,6 +316,11 @@ details.spoiler {
 
   &[open] > summary {
     display: inline;
+    list-style: none;
+
+    &::marker, &::-webkit-details-marker {
+      display: none;
+    }
 
     span.open {
       transform: rotate(-90deg);
