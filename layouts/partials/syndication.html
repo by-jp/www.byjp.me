@@ -8,6 +8,8 @@
     {{ partial "syndication-ref.html" (dict "type" "mastodon" "link" .) }}  
   {{ else if hasPrefix . "https://www.goodreads.com/" }}
     {{ partial "syndication-ref.html" (dict "type" "goodreads" "link" .) }}  
+  {{ else if hasPrefix . "https://trakt.tv/" }}
+    {{ partial "syndication-ref.html" (dict "type" "trakt" "link" .) }}  
   {{ else }}
     {{ partial "syndication-ref.html" (dict "type" "" "link" .) }}
   {{ end }}

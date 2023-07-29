@@ -1,4 +1,4 @@
-{{$title := delimit "Respond via " ( .type | strings.FirstUpper) }}
+{{$title := delimit (slice "Respond via" ( .type | strings.FirstUpper)) " " }}
 {{ if eq .type "" }}
   {{ $title = "See elsewhere" }}
 {{ end }}
