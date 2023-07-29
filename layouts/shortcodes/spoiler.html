@@ -1,4 +1,8 @@
 <details class="spoiler" data-spoiled-thing="{{ .Get 0 }}">
-  <summary>Show spoiler paragraph</summary>
+  <summary>
+    <span class="closed">Click to show this spoiler</span>
+    <span class="open">Hide spoiler</span>
+  </summary>
   <p>{{ .Page.RenderString .Inner }}</p>
 </details>
+{{ .Page.Store.Set "hasSpoilers" true }}

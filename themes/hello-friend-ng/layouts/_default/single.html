@@ -56,6 +56,12 @@
         </div>
       {{ end }}
 
+      {{ if .Page.Store.Get "hasSpoilers" }}
+        <blockquote class="spoiler-explainer">
+          {{ partial "svg.html" (dict "name" "hidden") }} This post contains spoilers, but they're hidden by default.
+        </blockquote>
+      {{ end }}
+
       <div class="post-content e-content">
         {{ .Content }}
       </div>
