@@ -1,7 +1,6 @@
 ---
 title: My world, these days
 emoji: 🤓
-lastmod: 2023-07-27T22:30:37+01:00
 draft: false
 type: timeless
 ---
@@ -30,6 +29,6 @@ I'm _really_ enjoying slowly playing through [Viewfinder](https://thunderfulgame
 
 {{< openlibrary "9781782394464" >}}
 
-I'm currently reading [Ajax Penumbra 1969](https://openlibrary.org/works/OL21518724W/Ajax_Penumbra_1969?edition=key:/books/OL29181691M), the prequel to a book [I adored reading](/posts/reviews/books/robin-sloan/mr-penumbras-24-hour-bookstore.md) back in 2013 (I'm really enoying strecthing out reading this ultra-short prequel too!)
+I just finished reading [Ajax Penumbra 1969](https://openlibrary.org/works/OL21518724W/Ajax_Penumbra_1969?edition=key:/books/OL29181691M), the prequel to a book [I adored reading](/posts/reviews/books/robin-sloan/mr-penumbras-24-hour-bookstore.md) back in 2013 — I properly stretched out the reading of it, but it was gone too fast! I'm really considering re-reading that original book, as Robin Sloan had me chuckling and giddily page-turning right through this one again!
 
 I'm also struggling a little to stay interested in the audiobook version of [The Dark Forest](https://openlibrary.org/books/OL39524585M/Dark_Forest) by Cixin Liu (the sequel to [The Three Body Problem](https://openlibrary.org/works/OL17267881W/%E4%B8%89%E4%BD%93)), but perhaps some weekend walks will get me back into it.

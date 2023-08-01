@@ -3,7 +3,7 @@
   <span class="p-note">Hello! I'm <em class="p-name fn always-accented"><span class="p-nickname">JP</span> <span class="p-family-name">Hastings-Spital</span></em>, a <span class="p-category category">maker</span>, <span class="p-category category">software engineer</span>, <span class="p-category category">swing dancer</span>, and all-round <span class="p-category category">miriscient chap</span> living in <span class="adr p-adr h-adr"><span class="p-locality locality">London</span>, <span class="p-country-name country-name">UK</span></span>. <span class="h-card">I'm <span clas="p-job-title">principal engineer</a> at <a href="https://deliveroo.engineering/" target="_blank" class="p-org u-url" rel="noopener">Deliveroo</a></span>.</span>
 </div>
 
-<p>I post here infrequently about things I've created or care about. Recently I've written
+<p>I post here infrequently about things I've created or care about, as well as keeping track of <a href="/now">what I'm up to now</a>. Recently I've written
 {{ $posts := where .Site.RegularPages "Params.type" "!=" "timeless" }}
 {{ range $posts | first 2 }}
     <a href="{{.Permalink}}">{{ .Title }}</a>, 
