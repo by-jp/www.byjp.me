@@ -3,6 +3,7 @@ title: "Friends online"
 emoji: 🫶
 draft: false
 type: timeless
+summary: A list of my friends who run their own websites.
 ---
 
 In lovely, nostalgic web 1.0 style, here are some links to the websites of friends of mine. Please enjoy, and get in touch with them if you like what they've built!

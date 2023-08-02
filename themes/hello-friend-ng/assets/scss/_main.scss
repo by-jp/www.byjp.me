@@ -719,3 +719,10 @@ select:focus + .focus {
   border: 2px solid var(--accent);
   border-radius: inherit;
 }
+
+.h-card .u-url::before {
+  content: "📇";
+  margin-right: 3px;
+  text-decoration: none;
+  display:inline-block;
+}
