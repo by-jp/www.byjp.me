@@ -720,7 +720,7 @@ select:focus + .focus {
   border-radius: inherit;
 }
 
-.h-card .u-url::before {
+.h-card:not(.vcard) .u-url::before {
   content: "📇";
   margin-right: 3px;
   text-decoration: none;
