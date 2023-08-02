@@ -9,4 +9,4 @@ tags:
 ---
 A most satisfying Saturday morning in bed.
 
-Couple goals with [Yvette](/tags/yvette).
+Couple goals with {{< friend yvette >}}.

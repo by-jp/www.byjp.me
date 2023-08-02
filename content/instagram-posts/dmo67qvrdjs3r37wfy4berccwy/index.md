@@ -9,4 +9,4 @@ tags:
 - chris
 - rose
 ---
-Watching Tales from the Loop with [Yvette](/tags/yvette), and with [Chris](/tags/chris) and [Rose](/tags/rose) from afar — holy pants this is an excellent series\!
+Watching Tales from the Loop with {{< friend yvette >}}, and with [Chris](/tags/chris) and [Rose](/tags/rose) from afar — holy pants this is an excellent series\!

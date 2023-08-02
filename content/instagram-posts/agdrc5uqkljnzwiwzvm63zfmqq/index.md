@@ -7,4 +7,4 @@ draft: false
 tags:
 - yvette
 ---
-Sunny late Sunday relaxation; boardgames & G&T with [Yvette](/tags/yvette) at home ☺️
+Sunny late Sunday relaxation; boardgames & G&T with {{< friend yvette >}} at home ☺️

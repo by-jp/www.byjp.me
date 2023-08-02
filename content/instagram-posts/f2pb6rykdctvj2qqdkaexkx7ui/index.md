@@ -8,4 +8,4 @@ draft: false
 tags:
 - yvette
 ---
-It's been a good afternoon\! French apple \(and rum\) cake, and a garlic miso butter roast chicken \(shared with the ever-lovely [Yvette](/tags/yvette) 😘\)
+It's been a good afternoon\! French apple \(and rum\) cake, and a garlic miso butter roast chicken \(shared with the ever-lovely {{< friend yvette >}} 😘\)

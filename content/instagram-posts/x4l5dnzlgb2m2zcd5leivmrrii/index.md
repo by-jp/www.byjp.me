@@ -12,7 +12,7 @@ draft: false
 tags:
 - yvette
 ---
-Experiments in dithering \(with [Yvette](/tags/yvette) and JP\)
+Experiments in dithering \(with {{< friend yvette >}} and JP\)
 
 
 

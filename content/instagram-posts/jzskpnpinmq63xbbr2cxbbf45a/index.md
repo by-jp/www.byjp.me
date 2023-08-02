@@ -7,4 +7,4 @@ draft: false
 tags:
 - yvette
 ---
-A staggeringly wonderful wedding day for Fiona and Carter, a delightful birthday for me, and a beautiful moment captured here with [Yvette](/tags/yvette) and I ☺️
+A staggeringly wonderful wedding day for Fiona and Carter, a delightful birthday for me, and a beautiful moment captured here with {{< friend yvette >}} and I ☺️

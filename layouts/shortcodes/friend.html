@@ -1,0 +1,5 @@
+{{ with index .Site.Data.friends (.Get 0) }}
+  <a href="{{.site}}" rel="{{.xfn}}" class="u-category h-card u-url p-name" target="_blank">{{.name}}</a>
+{{ else }}
+  {{ errorf "Could not display friend %s" (.Get 0) }}
+{{ end }}

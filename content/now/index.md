@@ -11,7 +11,7 @@ I'm a little apprehensive about being _too_ openly public with lots of personal 
 
 ---
 
-I live in a lovely flat in North London with my fiancé Yvette. We still feel like we're only recently home from our travelling Sabbatical, which took us through South America, Western Canada, Japan, and Singapore — we're missing the travel enormously! We were blogging (for part of that trip) at [adventure.awaits.us](https://adventure.awaits.us).
+I live in a lovely flat in North London with my fiancé {{< friend yvette >}}. We still feel like we're only recently home from our travelling Sabbatical, which took us through South America, Western Canada, Japan, and Singapore — we're missing the travel enormously! We were blogging (for part of that trip) at [adventure.awaits.us](https://adventure.awaits.us).
 
 The biggest news from that trip was [Yvette proposing to me](https://adventure.awaits.us/a-patagonian-love-story/) at the top of the Torres del Paine mountains — I'm so excited to be marrying her, even if the wedding planning is triply complex because of our mixed nationalities!
 

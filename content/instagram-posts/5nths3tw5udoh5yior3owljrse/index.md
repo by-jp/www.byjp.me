@@ -7,4 +7,4 @@ draft: false
 tags:
 - yvette
 ---
-Last night \(drunken\) creativity with [Yvette](/tags/yvette) ☺️
+Last night \(drunken\) creativity with {{< friend yvette >}} ☺️

@@ -7,7 +7,7 @@ draft: false
 tags:
 - yvette
 ---
-An amazing early birthday present from [Yvette](/tags/yvette) — a tour of the disused parts of Charing Cross underground station\!
+An amazing early birthday present from {{< friend yvette >}} — a tour of the disused parts of Charing Cross underground station\!
 
 
 
