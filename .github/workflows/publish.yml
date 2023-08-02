@@ -36,6 +36,13 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
+      - name: Cache Hugo persistent info
+        uses: actions/cache@v3
+        env:
+          cache-name: hugo-persistent-cache
+        with:
+          path: /tmp/hugo
+          key: ${{ env.cache-name }}
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -43,6 +50,7 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo \
+            --cacheDir /tmp/hugo/cache \
             --minify
         # Don't force a base URL, so relative links work everywhere
         # --baseURL "${{ steps.pages.outputs.base_url }}/"
