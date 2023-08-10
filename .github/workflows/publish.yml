@@ -51,9 +51,8 @@ jobs:
         run: |
           hugo \
             --cacheDir /tmp/hugo/cache \
-            --minify
-        # Don't force a base URL, so relative links work everywhere
-        # --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --minify \
+            --baseURL "https://www.byjp.me"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
