@@ -8,6 +8,7 @@ syndications:
 - https://bsky.app/profile/byjp.me/post/3k3nnlam35u2p
 - https://hachyderm.io/@byjp/110796686011083451
 - https://trakt.tv/comments/585047
+- https://www.themoviedb.org/review/64c4e33dcadb6b01066cb4b9
 ---
 
 {{< film "Barbie" "2023" "https://www.themoviedb.org/movie/346698-barbie" "barbie.jpg" >}}
