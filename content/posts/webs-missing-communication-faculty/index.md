@@ -8,6 +8,8 @@ tags:
   - credence
   - web
 summary: "Credence: A new way to assess online information using the reputation and context of those who consume it."
+syndications:
+- https://medium.com/@jphastings/the-web-s-missing-communication-faculty-e2f910b908fa
 ---
 
 The internet can be seen as a mechanism for speeding up and broadening information transfer; Wikipedia shares [knowledge](https://en.wikipedia.org/wiki/User:Alan_Liefting/Essays/The_sum_of_all_human_knowledge), Newseum makes [local news global](http://www.newseum.org/todaysfrontpages/), Reddit, Twitter, Imgur and countless more give anyone access to subcultures, viewpoints and opinions from all over our planet—I don’t need to highlight why we’re calling this this [Information Age](http://www.sciencemuseum.org.uk/educators/plan_and_book_a_visit/things_to_do/galleries/information_age.aspx#content). All this is an extension of the human sharing processes that humans use in face-to-face communication, but I think there’s one facet which hasn’t quite made the jump to the internet yet.

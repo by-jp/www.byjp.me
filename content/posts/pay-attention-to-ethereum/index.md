@@ -8,6 +8,8 @@ tags:
   - ethereum
   - money
 summary: A brief explanation of cryptocurrencies and why they're useful I wrote for my non-techie friends.
+syndications:
+- https://medium.com/@jphastings/why-you-should-pay-attention-to-ethereum-96766a2c89a4
 ---
 
 [Cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) are [stealing](https://www.forbes.com/sites/laurashin/2017/05/20/as-cryptocurrency-markets-reach-new-highs-the-ethereal-summit-paints-a-rich-future) [the](http://fortune.com/2017/05/20/ethereum-ico-blockchain-token/) [limelight](https://www.ft.com/content/61cdc5c8-370e-11e7-bce4-9023f8c0fd2e) in the world of finance at the moment. They definitely deserve your attention but I wanted to voice some interesting implications of their success that bear levels of consideration that only getting thoughts down in words can provide!
