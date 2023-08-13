@@ -3,6 +3,10 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches: ["main"]
+  schedule:
+    # Rebuild at the first moment of the new year
+    # ensures that anywhere I'm using year-relative dates stay accurate.
+    - cron: '0 0 1 1 *'
 
   workflow_dispatch:
 
@@ -49,6 +53,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
+          set -o allexport; source .env; set +o allexport
           hugo \
             --cacheDir /tmp/hugo/cache \
             --minify \

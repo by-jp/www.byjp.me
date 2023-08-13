@@ -726,3 +726,7 @@ select:focus + .focus {
   text-decoration: none;
   display:inline-block;
 }
+
+time:hover, abbr:hover {
+  border-bottom: 1px dotted;
+}

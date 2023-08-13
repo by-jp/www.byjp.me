@@ -1,0 +1,1 @@
+<time timestamp="{{ . }}" title="{{ time . | dateFormat "2006-01-02 03:04 MST" }}">{{ time . | dateFormat "January 2" }}{{ if ne (time . | dateFormat "2006") (now | dateFormat "2006") }} {{ now | dateFormat "2006" }}{{ end }}</time>

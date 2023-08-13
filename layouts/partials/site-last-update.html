@@ -1,0 +1,7 @@
+{{ if or (getenv "HUGO_LAST_UPDATE_TIME") (getenv "HUGO_LAST_UPDATE_HASH") }}
+  <small style="font-style:italic">
+    Last updated
+    {{ with getenv "HUGO_LAST_UPDATE_TIME" }}on {{ partial "year-relative-date.html" . }},{{ end }}
+    {{ with getenv "HUGO_LAST_UPDATE_HASH" }}from <a href="https://github.com/by-jp/www.byjp.me/tree/{{ . }}">{{ . }}</a>{{ end }}.
+  </small>
+{{ end }}
