@@ -5,11 +5,11 @@ draft: false
 type: timeless
 ---
 
-Being intentional about what I spend my time on has been consistently rewarding through my life, so when I learned about [the Now movement](https://nownownow.com/about) I knew I'd be publishing [my own /now page](https://www.byjp.me/now) too.
+> Being intentional about what I spend my time on has been consistently rewarding through my life, so when I learned about [the Now movement](https://nownownow.com/about) I knew I'd be publishing [my own /now page](https://www.byjp.me/now) too.
+>
+> I'm a little apprehensive about being _too_ openly public with lots of personal data, so this may be sparse at first!
 
-I'm a little apprehensive about being _too_ openly public with lots of personal data, so this may be sparse at first. In 2023, before I knew of [the Now movement](https://nownownow.com/about), I started using a curiously similar mechanism at Deliveroo, as my duties as Principal Engineer stretched my context across a lot of different headspaces and teams. It's been extremely helpful, so I'm embracing this too!
-
----
+{{< last-updated >}}
 
 I live in a lovely flat in North London with my fiancé {{< friend yvette >}}. We still feel like we're only recently home from our travelling Sabbatical, which took us through South America, Western Canada, Japan, and Singapore — we're missing the travel enormously! We were blogging (for part of that trip) at [adventure.awaits.us](https://adventure.awaits.us).
 
@@ -23,12 +23,12 @@ My work at Deliveroo is very internally-facing at the moment, so there's not muc
 
 While London is trying to remember what the definition of "Summer" is, I'm spending time making things. I recently finished a 4-week throwing (pottery) course, and had a lot of fun making bowls and cups and vases — I'll post some pictures here when I pick them up from their final firing! I'm also putting a fair amount of time into this blog right now (you may have noticed) as a way to trying to find a faster way to ground for the regular lightning strikes of ideas I seem to be having since returning from my travels!
 
-{{< figure src="sunset.jpg" title="We had a glorious sunset last night!" alt="A golden sunset over North London">}}
+I'm _really_ enjoying slowly playing through [Viewfinder](https://thunderfulgames.com/games/viewfinder/) — it reminds ne a lot of Portal — wonderful puzzles, engaging story, lots of "ah ha!" moments. Definitely worth a play!
 
-I'm _really_ enjoying slowly playing through [Viewfinder](https://thunderfulgames.com/games/viewfinder/) — it reminds ne a lot of Portal!
+{{< openlibrary "9781929752300" >}}
 
-{{< openlibrary "9781782394464" >}}
+I'm only a few pages into [Cheap Complex Devices](https://openlibrary.org/books/OL8797982M/Cheap_Complex_Devices) and already loving it. Even the foreword has me thinking meta: should I trust the editor of the book when he says "skip the rest of the foreword", given that the editor is a character?? It's definitely not a book for sleepy bedtime reading!
 
-I just finished reading [Ajax Penumbra 1969](https://openlibrary.org/works/OL21518724W/Ajax_Penumbra_1969?edition=key:/books/OL29181691M), the prequel to a book [I adored reading](/posts/reviews/books/robin-sloan/mr-penumbras-24-hour-bookstore.md) back in 2013 — I properly stretched out the reading of it, but it was gone too fast! I'm really considering re-reading that original book, as Robin Sloan had me chuckling and giddily page-turning right through this one again!
+I've given up on the audiobook version of [The Dark Forest](https://openlibrary.org/books/OL39524585M/Dark_Forest) by Cixin Liu, it was too challenging for me to follow with the bitty audiobook listenings that, sometimes, are all I have. Perhaps I'll try this series again one day, people speak highly of the later books particularly. Instead I've started on the second (audio)book in Arthur C. Clarke's _Time Oddesey_ series: [Sunstorm](https://openlibrary.org/books/OL3311262M/Sunstorm). I'm enjoying it so far; the carefully researched physics conundrum that looks like it'll be the setting for the book is engaging and intriguing!
 
-I'm also struggling a little to stay interested in the audiobook version of [The Dark Forest](https://openlibrary.org/books/OL39524585M/Dark_Forest) by Cixin Liu (the sequel to [The Three Body Problem](https://openlibrary.org/works/OL17267881W/%E4%B8%89%E4%BD%93)), but perhaps some weekend walks will get me back into it.
+{{< figure src="sunset.jpg" title="Summer this year may not be hot or sunny, but we've had some amazing sunsets." alt="A golden sunset over North London">}}
