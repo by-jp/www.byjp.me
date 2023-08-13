@@ -5,7 +5,7 @@
     </head>
 
     {{ block "body" . }}
-        <body>
+        <body class="{{ with .Page.Params.stylescope }}{{ . }}{{ end }}">
     {{ end }}
     
         <div class="container">

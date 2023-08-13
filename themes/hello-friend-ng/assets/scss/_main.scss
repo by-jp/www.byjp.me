@@ -52,16 +52,17 @@ body {
   position: relative;
   filter: grayscale(1);
   transition: filter 0.2s ease-in-out;
+  font-size: #{"max(1em,1.5rem)"};
 
   &::before {
     content: attr(data-emoji);
     position:absolute;
     left: -4rem;
   }
+}
 
-  &:hover {
-    filter: none;
-  }
+*:hover > [data-emoji] {
+  filter: none;
 }
 
 h2,
@@ -731,4 +732,18 @@ select:focus + .focus {
 
 time:hover, abbr:hover {
   border-bottom: 1px dotted;
+}
+
+body.nownownow .post-content > p {
+  position: relative;
+  line-height: inherit;
+
+  &::first-letter {
+    font-size: 2rem;
+    line-height: 20px;
+    position: absolute;
+    margin-left: -4rem;
+    padding-top: 0.5rem;
+    float: left;
+  }
 }
