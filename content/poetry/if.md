@@ -1,5 +1,6 @@
 ---
 type: poetry
+summary: A poem I wrote called "if", under the pen-name Cy Densham.
 title: if
 author: Cy Densham
 date: 2009-05-15T12:24:00+01:00

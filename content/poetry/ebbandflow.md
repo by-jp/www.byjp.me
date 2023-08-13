@@ -1,5 +1,6 @@
 ---
 type: poetry
+summary: A poem I wrote called "Ebb and Flow", under the pen-name Cy Densham.
 title: Ebb and Flow
 author: Cy Densham
 date: 2008-00-00

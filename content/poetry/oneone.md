@@ -1,5 +1,6 @@
 ---
 type: poetry
+summary: A poem I wrote called "one one", under the pen-name Cy Densham.
 title: one one
 author: Cy Densham
 date: 2010-03-12T00:41:00+00:00

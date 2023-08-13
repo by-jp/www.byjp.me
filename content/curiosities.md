@@ -3,6 +3,7 @@ title: "Curiosities"
 emoji: 🧠
 draft: false
 type: timeless
+summary: A list of the many curious things I've made over the years.
 ---
 
 I'm a thoroughly [miriscient](https://www.miriscient.org) chap, and this often ends up in me creating toys, trinkets, projects and other artistic things. I've listed some out below.

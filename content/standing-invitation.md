@@ -4,6 +4,7 @@ emoji: 📮
 date: 2022-10-20T11:25:37Z
 draft: false
 type: timeless
+summary: An invitation to write me an email any time.
 ---
 
 This is a standing invitation to write to me about anything that's on your mind!

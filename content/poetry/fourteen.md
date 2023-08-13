@@ -1,5 +1,6 @@
 ---
 type: poetry
+summary: A poem I wrote called "Fourteen", under the pen-name Cy Densham.
 title: Fourteen
 author: Cy Densham
 date: 2009-12-29T03:12:00+00:00

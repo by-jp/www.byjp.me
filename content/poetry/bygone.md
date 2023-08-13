@@ -1,5 +1,6 @@
 ---
 type: poetry
+summary: A poem I wrote called "bygone", under the pen-name Cy Densham.
 title: bygone
 author: Cy Densham
 date: 2009-05-08T08:56:00+01:00

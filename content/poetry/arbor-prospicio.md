@@ -1,5 +1,6 @@
 ---
 type: poetry
+summary: A poem I wrote called "In Arbor Prospicio", under the pen-name Cy Densham.
 title: In Arbor Prospicio
 author: Cy Densham
 date: 2010-02-20T15:10:00+00:00

@@ -1,5 +1,6 @@
 ---
 type: poetry
+summary: A poem I wrote called "Bleach-Blue", under the pen-name Cy Densham.
 title: Bleach-Blue
 author: Cy Densham
 date: 2010-03-14

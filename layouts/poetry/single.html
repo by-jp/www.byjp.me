@@ -3,6 +3,10 @@
 
     <article class="poem-{{ .Params.align }}">
         <h2 class="post-title"{{ with .Params.emoji }} data-emoji="{{.}}"{{end}}><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+        
+        {{ with .Summary }}
+          <div class="post-summary p-summary" aria-hidden="true">{{ . }}</div>
+        {{ end }}
 
         <div class="post-content">
           {{ if eq .Params.align "monospace" }}

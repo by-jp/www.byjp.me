@@ -1,5 +1,6 @@
 ---
 type: poetry
+summary: A poem I wrote called "Definitry", under the pen-name Cy Densham.
 title: Definitry
 author: Cy Densham
 date: 2009-05-16T18:44:00+01:00

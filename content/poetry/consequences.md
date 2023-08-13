@@ -1,5 +1,6 @@
 ---
 type: poetry
+summary: A poem I wrote called "Consequences", under the pen-name Cy Densham.
 title: Consequences
 author: Cy Densham
 draft: false

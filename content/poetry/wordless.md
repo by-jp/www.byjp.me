@@ -1,5 +1,6 @@
 ---
 type: poetry
+summary: A poem I wrote called "Wordless", under the pen-name Cy Densham.
 title: Wordless
 author: Cy Densham
 date: 2010-02-06T02:21:00+00:00

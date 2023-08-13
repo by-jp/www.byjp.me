@@ -1,5 +1,6 @@
 ---
 type: poetry
+summary: A poem I wrote called "Chapter II", under the pen-name Cy Densham.
 title: Chapter II
 author: Cy Densham
 date: 2009-08-13T12:00:02+01:00

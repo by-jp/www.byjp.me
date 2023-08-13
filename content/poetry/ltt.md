@@ -1,5 +1,6 @@
 ---
 type: poetry
+summary: A poem I wrote called "Less Than Three", under the pen-name Cy Densham.
 title: Less Than Three
 author: Cy Densham
 date: 2010-01-03T23:34:00+00:00

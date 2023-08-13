@@ -4,6 +4,7 @@ emoji: 👇
 draft: false
 type: timeless
 stylescope: nownownow
+summary: Regularly updated context on my life at the moment. Haven't seen me in a while? This will let you know what I'm up to.
 ---
 
 > Being intentional about what I spend my time on has been consistently rewarding through my life, so when I learned about [the Now movement](https://nownownow.com/about) I knew I'd be publishing [my own _/now_ page](https://www.byjp.me/now) too.

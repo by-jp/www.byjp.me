@@ -1,5 +1,6 @@
 ---
 type: poetry
+summary: A poem I wrote called "fierce", under the pen-name Cy Densham.
 title: fierce
 author: Cy Densham
 date: 2011-08-07T18:06:00+01:00

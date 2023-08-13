@@ -1,6 +1,7 @@
 ---
 title: Saying thank you
 emoji: 💞
+summary: A way to thank me, if you like anything on this site to do so.
 ---
 
 Human connection is really important to me and, in that way and others, on this site and elsewhere, I try to act to leave the world better off than when I arrived.

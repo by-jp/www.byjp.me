@@ -3,7 +3,7 @@ title: Trash files in Ruby
 date: 2009-03-25T22:42:00+00:00
 draft: false
 emoji: 🗑️
-images:
+summary: A Ruby gem I wrote that sends files to Operating System specific Trash/Recycle bins.
 tags:
   - ruby
   - code

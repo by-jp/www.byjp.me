@@ -1,5 +1,6 @@
 ---
 type: poetry
+summary: A poem I wrote called "Chapter IV", under the pen-name Cy Densham.
 title: Chapter IV
 author: Cy Densham
 date: 2009-08-13T12:00:04+01:00
