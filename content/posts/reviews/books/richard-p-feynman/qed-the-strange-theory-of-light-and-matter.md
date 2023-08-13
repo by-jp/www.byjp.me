@@ -1,7 +1,7 @@
 ---
 title: 'QED: The Strange Theory of Light and Matter'
 subtitle: A book by Richard P. Feynman
-summary: My review of the book ''QED: The Strange Theory of Light and Matter'' by Richard P. Feynman
+summary: "My review of the book \"QED: The Strange Theory of Light and Matter\" by Richard P. Feynman"
 type: review
 date: "2011-10-15T00:00:00Z"
 emoji: "\U0001F4D6"
