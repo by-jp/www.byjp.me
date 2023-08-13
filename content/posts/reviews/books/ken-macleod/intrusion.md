@@ -1,6 +1,7 @@
 ---
 title: Intrusion
 subtitle: A book by Ken MacLeod
+summary: My review of the book 'Intrusion' by Ken MacLeod
 type: review
 date: "2013-04-20T00:00:00Z"
 emoji: "\U0001F4D6"

@@ -1,6 +1,7 @@
 ---
 title: The Unlikely Pilgrimage of Harold Fry
 subtitle: A book by Rachel Joyce
+summary: My review of the book 'The Unlikely Pilgrimage of Harold Fry' by Rachel Joyce
 type: review
 date: "2013-08-03T00:00:00Z"
 emoji: "\U0001F4D6"

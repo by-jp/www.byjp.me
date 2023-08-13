@@ -1,6 +1,7 @@
 ---
 title: The Consuming Fire
 subtitle: A book by John Scalzi
+summary: My review of the book 'The Consuming Fire' by John Scalzi
 type: review
 date: "2018-10-20T00:00:00Z"
 emoji: "\U0001F4D6"

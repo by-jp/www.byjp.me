@@ -1,6 +1,7 @@
 ---
 title: Incidences
 subtitle: A book by Daniil Kharms
+summary: My review of the book 'Incidences' by Daniil Kharms
 type: review
 date: "2011-10-16T00:00:00Z"
 emoji: "\U0001F4D6"

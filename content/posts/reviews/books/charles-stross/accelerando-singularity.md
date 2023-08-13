@@ -1,6 +1,7 @@
 ---
 title: Accelerando (Singularity)
 subtitle: A book by Charles Stross
+summary: My review of the book 'Accelerando (Singularity)' by Charles Stross
 type: review
 date: "2013-05-01T00:00:00Z"
 emoji: "\U0001F4D6"

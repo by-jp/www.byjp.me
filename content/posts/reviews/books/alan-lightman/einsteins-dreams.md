@@ -1,6 +1,7 @@
 ---
 title: Einstein's Dreams
 subtitle: A book by Alan Lightman
+summary: My review of the book 'Einstein's Dreams' by Alan Lightman
 type: review
 date: "2013-05-10T00:00:00Z"
 emoji: "\U0001F4D6"

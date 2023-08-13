@@ -1,6 +1,7 @@
 ---
 title: The Eyre Affair
 subtitle: A book by Jasper Fforde
+summary: My review of the book 'The Eyre Affair' by Jasper Fforde
 type: review
 date: "2013-08-10T00:00:00Z"
 emoji: "\U0001F4D6"

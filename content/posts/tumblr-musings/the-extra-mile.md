@@ -1,5 +1,6 @@
 ---
 title: The Extra Mile
+summary: A short story of someone being unusually thoughtful.
 date: 2013-03-27T14:54:00+00:00
 draft: false
 emoji: 🤓

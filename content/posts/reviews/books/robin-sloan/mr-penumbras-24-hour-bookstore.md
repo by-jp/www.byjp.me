@@ -1,6 +1,7 @@
 ---
 title: Mr. Penumbra's 24-Hour Bookstore
 subtitle: A book by Robin Sloan
+summary: My review of the book 'Mr. Penumbra's 24-Hour Bookstore' by Robin Sloan
 type: review
 date: "2013-08-23T00:00:00Z"
 emoji: "\U0001F4D6"

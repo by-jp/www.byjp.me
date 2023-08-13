@@ -1,6 +1,7 @@
 ---
 title: Consider Phlebas
 subtitle: A book by Iain M. Banks
+summary: My review of the book 'Consider Phlebas' by Iain M. Banks
 type: review
 date: "2012-04-21T00:00:00Z"
 emoji: "\U0001F4D6"

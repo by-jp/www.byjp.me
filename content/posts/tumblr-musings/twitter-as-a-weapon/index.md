@@ -1,5 +1,6 @@
 ---
 title: Thoughts on Twitter as a Weapon
+summary: A short thought-piece on reports of a person paying to promote their complaint tweet.
 date: 2013-09-04T08:34:00+00:00
 draft: false
 emoji: 🥊

@@ -1,6 +1,7 @@
 ---
 title: Sourcery
 subtitle: A book by Terry Pratchett
+summary: My review of the book 'Sourcery' by Terry Pratchett
 type: review
 date: "2010-07-09T00:00:00Z"
 emoji: "\U0001F4D6"

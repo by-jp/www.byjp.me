@@ -1,6 +1,7 @@
 ---
 title: Poor Yorick
 subtitle: A book by Ryan North
+summary: My review of the book 'Poor Yorick' by Ryan North
 type: review
 date: "2014-01-01T00:00:00Z"
 emoji: "\U0001F4D6"
