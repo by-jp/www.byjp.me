@@ -22,7 +22,7 @@ Surrey Hills is an [Area of outstanding Natural Beauty](https://en.wikipedia.org
 
 The hike was easy most of the way, with a half an hour of noticeable incline, and 15 more minutes right before the tower that definitely let us know we were travelling vertically. Nothing as severe as the 2,100m two-day hike {{< friend "chris" >}} was taking on at the same time near Vancouver, but still very enjoyable — and a wonderful view for lunch!
 
-{{< figure src="tower-top.webp" alt="A selfie of JP and Yvette looking out across the UK's South East landscape from the top of a tower." caption="It was a beautiful view, even with the overcast greyness, and a lovely day to hike!" >}}
+{{< figure src="tower-top.webp" alt="A selfie of JP and Yvette looking out across the UK's South East landscape from the top of a tower." caption="It was a beautiful view, even with the overcast greyness — if you squint you can see London over Yvette's left shoulder, near the tree breaking the horizon." >}}
 
 We finished off our hike in Dorking. Sadly [Denbies Vineyard](https://www.denbies.co.uk/) closes at 5pm, so we missed out on a tour, but we did briefly visit the sunny Star Inn for a refreshing half, and then the charming [The King's Arms](https://www.kingsarmsdorking.co.uk/) for a tasty bite and another celebratory tipple.
 
