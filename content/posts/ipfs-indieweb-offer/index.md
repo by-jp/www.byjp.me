@@ -11,6 +11,7 @@ tags:
 - static-site
 - web
 - homelab
+- admarus
 syndications:
 ---
 

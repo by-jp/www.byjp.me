@@ -397,3 +397,24 @@ details.spoiler {
     left: -8px;
   }
 }
+
+.hike-info {
+  & > .name {
+    &::before {
+      content: '📍';
+      text-decoration: none;
+      display:inline-block;
+      margin-right: 3px;
+    }
+  }
+
+  .waypoint {
+    border-left: 1px solid var(--accent);
+    padding-left: 12px;
+    margin-left: 5px;
+
+    .description {
+      font-style: italic;
+    }
+  }
+}

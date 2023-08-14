@@ -1,0 +1,54 @@
+{{- $fname := (.Get "gpx") -}}
+{{- $gpx := index site.Data.hikes $fname -}}
+{{- $download := readFile (printf "/data/hikes/%s.xml" $fname) | resources.FromString (printf "%s/%s.gpx" (.Page.Path | path.Dir ) $fname) -}}
+
+{{- $restThreshold := mul 5 60 -}}
+
+{{- $timeWalk := 0 -}}
+{{- $timeRest := 0 -}}
+
+{{- $last := dict -}}
+{{- range $gpx.trk.trkseg -}}
+{{- range .trkpt -}}
+  {{- if ne $last dict }}
+    {{- $dTime := sub (time .time).Unix (time $last.time).Unix }}
+    {{- if gt $dTime $restThreshold }}
+      {{- $timeRest = add $timeRest $dTime -}}
+    {{- else -}}
+      {{- $timeWalk = add $timeWalk $dTime -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $last = . -}}
+{{- end -}}
+{{- end -}}
+
+{{- $timeWalk = mul 60 (math.Ceil (div $timeWalk 60)) -}}
+{{- $timeRest = mul 60 (math.Ceil (div $timeRest 60)) -}}
+
+{{- $timeWalk := strings.TrimRight "0s" (printf "%s" ($timeWalk | duration "second")) }}
+{{- $timeRest := strings.TrimRight "0s" (printf "%s" ($timeRest | duration "second")) }}
+{{- $distance := div (math.Ceil (div (float $gpx.metadata.extensions.distance) 100)) 10}}
+
+<div class="hike-info">
+  <span class="name">{{ $gpx.metadata.name }}</span>
+    <div class="stats">
+      <span class="distance">→ {{ $distance }}km</span>
+      <span class="total-ascent">↑{{ $gpx.metadata.extensions.totalAscent }}m</span>
+      <span class="total-descent">↓{{ $gpx.metadata.extensions.totalDescent }}m </span>
+      <span class="duration">@ {{ $timeWalk }}</span>
+    </div>
+  <details>
+    <summary>Waypoints</summary>
+
+    {{- range $gpx.wpt -}}
+    <div class="waypoint">
+      <details>
+        <summary>{{ .name }}</summary>
+        <p class="description">{{ .desc }}</p>
+      </details>
+    </div>
+    {{- end -}}
+
+    <small><a href="{{ $download.RelPermalink }}">Download gpx</a></small>
+  </details>
+</div>
