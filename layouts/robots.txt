@@ -1,0 +1,4 @@
+Sitemap: {{"/sitemap.xml" | absURL}}
+
+User-agent: GPTBot
+Disallow: /
