@@ -1,0 +1,7 @@
+Sitemap: /sitemap.xml
+
+User-agent: GPTBot
+Disallow: /
+
+User-Agent: DuckDuckBot
+Allow: /

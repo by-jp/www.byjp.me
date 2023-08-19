@@ -96,3 +96,6 @@ paginate = 36
         identifier = "mail"
         name = ":postbox:"
         url = "/standing-invitation"
+
+[sitemap]
+  filename = 'sitemap.xml'
