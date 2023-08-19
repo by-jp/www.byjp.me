@@ -30,7 +30,7 @@
 {{- $distance := div (math.Ceil (div (float $gpx.metadata.extensions.distance) 100)) 10}}
 
 <div class="hike-info">
-  <span class="name">{{ $gpx.metadata.name }}</span>
+  <span class="name">📍 {{ $gpx.metadata.name }}</span>
     <div class="stats">
       <span class="distance">→ {{ $distance }}km</span>
       <span class="total-ascent">↑{{ $gpx.metadata.extensions.totalAscent }}m</span>

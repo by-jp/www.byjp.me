@@ -12,7 +12,7 @@ summary: Archiving my Instagram account, and releasing the code that imported it
 
 I spent a little time this weekend reminding myself of what writing code is like (before I start work again on Tuesday, after [4 months travelling](https://adventure.awaits.us)). After my recent post on [leaving Meta's social networks](/posts/goodbye-big-social) I decided to create a script to convert the GDPR-provided archive of all my activity on Instagram into this blog.
 
-You can find it at [/instagram-posts](/instagram-posts) — I'll figure out a good place to leave a permanent link soon!
+You can find it at [/tags/from-instagram](/tags/from-instagram) — I'll figure out a good place to leave a permanent link soon!
 
 {{< figure src="instgram-posts.webp" title="A screenshot of the new archival page on this blog; tiled photos from my instagram feed." >}}
 

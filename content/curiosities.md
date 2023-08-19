@@ -12,7 +12,7 @@ I'm a thoroughly [miriscient](https://www.miriscient.org) chap, and this often e
 
 I'm getting older, and sites I've been creative on are dying or becoming marketing platforms, so I'm gradually moving all my historical posts on other platforms to this blog.
 
-* I'm [no fan of instagram](/posts/goodbye-big-social) these days, but all my 📸&nbsp;[archived insta posts](/instagram-posts) are right here.
+* I'm [no fan of instagram](/posts/goodbye-big-social) these days, but all my 📸&nbsp;[archived insta posts](/tags/from-instagram) are right here.
 * For a good few years I wrote 📝&nbsp;[poetry](/poetry) and kept it online — now stored here for your giggles and my cringe.
 * In 2009 I 🇯🇵&nbsp;[blogged my visit to Japan](/tags/japan-with-jk) with my friend JK. I've loved reading through my thoughts after my recent return there!
 
