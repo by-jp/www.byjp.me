@@ -12,14 +12,14 @@ html {
 }
 
 ::selection {
-  background-color: lch(100% 25 var(--accentHue));
+  background-color: lch(85% 25 var(--accentHue));
   
   @media (prefers-color-scheme: dark) {
     background-color: lch(20% 25 var(--accentHue));
   }
   
   @media (prefers-color-scheme: light) {
-    background-color: lch(100% 25 var(--accentHue));
+    background-color: lch(85% 25 var(--accentHue));
   }
 }
 
