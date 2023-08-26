@@ -1,12 +1,12 @@
 ---
 title: Experiments in dithering (with @yvetteedrei and…
 media:
-- media-0.jpg
-- media-1.jpg
-- media-2.jpg
-- media-3.jpg
-- media-4.jpg
-- media-5.jpg
+- media-0.png
+- media-1.png
+- media-2.png
+- media-3.png
+- media-4.png
+- media-5.png
 date: "2021-11-10T19:37:15Z"
 draft: false
 tags:
