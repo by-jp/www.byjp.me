@@ -10,10 +10,6 @@ tags:
 ---
 You know your friendship is valued if, when they travel, you receive postcards from the most glorious places on earth telling you to "Shut up, JP" in a wide variety of \(expertly researched\) languages.
 
-
-
 These were just the first 5 to hand…
 
-
-
-http://shutup.claire.im
+[shutup.claire.im](https://bafybeicxpgihxyjnia437rac3prccj6vspii7ti2podclzqzzoakiu5g2y.ipfs.dweb.link)

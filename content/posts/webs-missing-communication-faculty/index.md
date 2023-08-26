@@ -12,7 +12,7 @@ syndications:
 - https://medium.com/@jphastings/the-web-s-missing-communication-faculty-e2f910b908fa
 ---
 
-The internet can be seen as a mechanism for speeding up and broadening information transfer; Wikipedia shares [knowledge](https://en.wikipedia.org/wiki/User:Alan_Liefting/Essays/The_sum_of_all_human_knowledge), Newseum makes [local news global](http://www.newseum.org/todaysfrontpages/), Reddit, Twitter, Imgur and countless more give anyone access to subcultures, viewpoints and opinions from all over our planet—I don’t need to highlight why we’re calling this this [Information Age](http://www.sciencemuseum.org.uk/educators/plan_and_book_a_visit/things_to_do/galleries/information_age.aspx#content). All this is an extension of the human sharing processes that humans use in face-to-face communication, but I think there’s one facet which hasn’t quite made the jump to the internet yet.
+The internet can be seen as a mechanism for speeding up and broadening information transfer; Wikipedia shares [knowledge](https://en.wikipedia.org/wiki/User:Alan_Liefting/Essays/The_sum_of_all_human_knowledge), Newseum makes [local news global](http://www.newseum.org/todaysfrontpages/), Reddit, Twitter, Imgur and countless more give anyone access to subcultures, viewpoints and opinions from all over our planet—I don’t need to highlight why we’re calling this this [Information Age](http://web.archive.org/web/20151004040741/http://www.sciencemuseum.org.uk/educators/plan_and_book_a_visit/things_to_do/galleries/information_age.aspx). All this is an extension of the human sharing processes that humans use in face-to-face communication, but I think there’s one facet which hasn’t quite made the jump to the internet yet.
 
 In person, assessing the believability of what you hear is intuitive, you might know the person and trust their opinions, or they could be a stranger and you’d be wary of what they have to say. Online, most communication is functionally anonymous, either because the other party is masking their identity, or because you’ve never met them and have no context for their existence despite knowing their (user)name. This, as well as the sheer quantity of knowledge available, makes it almost impossibly hard to fact-check or otherwise judge a source of information for believability in the long distance communication the internet enables.
 
@@ -32,7 +32,7 @@ The advent of [hyperlinking](https://en.wikipedia.org/wiki/Hyperlink) and the we
 
 So how would you build a framework for enhancing your ‘gut instinct’ for credence on the internet? Clearly the web already lets you research any topic in great depth if you need a deep understanding, but what about ‘at a glance’? And how would you allow for the often different and opposing views on whether something should be believed or not? A statement like “The Earth was formed 4,000 years ago” will be considered absolutely true in some circles and absolutely false in others.
 
-Because I like thinking and creating, I’ve put together a prototype of a mechanism that allows this, I call it [Credence](http://getcredence.net/).
+Because I like thinking and creating, I’ve put together a prototype of a mechanism that allows this, I call it **Credence**.
 
 Credence allows you to make assertions like this:
 

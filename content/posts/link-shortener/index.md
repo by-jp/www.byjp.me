@@ -99,7 +99,7 @@ If you'd also like an API to add a new shortlink, you'll need a [val.town](https
 
 ## Caveats & thoughts
 
-I'd like to build a [Raycast](raycast.com) extension for making new shortlinks. It's stopped raining now, so maybe later!
+I'd like to build a [Raycast](https://raycast.com) extension for making new shortlinks. It's stopped raining now, so maybe later!
 
 If you try to post new shortlinks with the val.town API faster than the deploy time for the repo then your API call will be rejected, and you'll have to try again. I'd like to get some auto-retries in there.
 

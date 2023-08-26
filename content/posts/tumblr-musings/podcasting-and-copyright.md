@@ -13,7 +13,7 @@ tags:
 
 > I had an idea last night, I'm going to sketch it out here it may turn into more than an idea at some point!
 
-If you're a hobby podcaster or webradio DJ then you may find yourself limited to the songs you can use without having to hunt down a licence or permission. Despite the fact that its [easier all the time](http://www.ukpa.info/2008/08/22/the-new-mcps-prs-podcast-license/) it could be time consuming enough to make it not worth while.
+If you're a hobby podcaster or webradio DJ then you may find yourself limited to the songs you can use without having to hunt down a licence or permission. Despite the fact that its [easier all the time](http://web.archive.org/web/20090930082731/http://www.ukpa.info:80/2008/08/22/the-new-mcps-prs-podcast-license/) it could be time consuming enough to make it not worth while.
 
 Having become quite interested in [Playdar](https://playdar.org) I came up with an idea for making podcasting even the most protected of tracks (say the [Happy Birthday song](http://www.unhappybirthday.com/)[^1]) totally legal.
 

@@ -11,4 +11,4 @@ tags:
 
 > Try another pleasure, such as putting your underwear in the fridge when the weather is hot.
 >
-> [Rich Jackson](https://twitter.com/RichardJJ/statuses/1929169703)
+> Rich Jackson _on Twitter_

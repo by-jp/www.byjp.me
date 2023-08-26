@@ -14,4 +14,4 @@ I continue to enjoy reading Atkins & Johnson's "A Dodo at Oxford"; it is at leas
 
 
 
-This section is about some cards left inside the antique diary which is the subject of the book; do get yourself a copy, or borrow mine when I'm done\! http://www.oxgarth.co.uk/a-dodo-at-oxford.html
+This section is about some cards left inside the antique diary which is the subject of the book; do get yourself a copy, or borrow mine when I'm done\! https://oxgarth.co.uk/product/a-dodo-at-oxford-2/

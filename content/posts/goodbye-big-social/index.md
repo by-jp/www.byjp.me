@@ -25,4 +25,4 @@ Sadly, by removing my accounts, I'll lose my ability to reach out to long-lost f
 
 **I'll be leaving just after my birthday this year, June 16th** (as anyone inclined to wish me well then is someone who may want to know where I've gone to!) but you can find me online in a host of other, more friendly and sedate, places already (check the [byJP.me homepage](https://byjp.me) for the up-to-date ones).
 
-You can also [send me a postcard](posts/thoughts-on-postcards/), or message me on _[Signal](https://signal.org/)_, _iMessage_, and (if you twist my arm) _WhatsApp_. For my address or my phone number, being more sensitive, just say hello [by email](mailto:hello@byjp.me), and I'll excitedly share with you!
+You can also [send me a postcard](/posts/thoughts-on-postcards/), or message me on _[Signal](https://signal.org/)_, _iMessage_, and (if you twist my arm) _WhatsApp_. For my address or my phone number, being more sensitive, just say hello [by email](mailto:hello@byjp.me), and I'll excitedly share with you!

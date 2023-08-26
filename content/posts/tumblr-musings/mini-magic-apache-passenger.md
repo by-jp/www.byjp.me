@@ -16,7 +16,7 @@ tags:
 
 A note out there to anyone else having the same problem as me:
 
-If you're trying to use [mini_magick](https://github.com/minimagick/minimagick) in a ruby application being run via [Passenger](https://www.phusionpassenger.com/) on Mac OS X Mountain Lion's Apache2, when you've installed imagemagick via [Homebrew](http://mxcl.github.com/homebrew) - _mouthful_ - then you may notice that that you get a Server Error when you try to process an image.
+If you're trying to use [mini_magick](https://github.com/minimagick/minimagick) in a ruby application being run via [Passenger](https://www.phusionpassenger.com/) on Mac OS X Mountain Lion's Apache2, when you've installed imagemagick via [Homebrew](https://brew.sh) - _mouthful_ - then you may notice that that you get a Server Error when you try to process an image.
 
 This may be because the `PATH` variable Apache is supplying to your ruby instance doesn't have `/usr/local/bin` in it, which is where homebrew installs to.
 

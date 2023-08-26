@@ -12,7 +12,7 @@ tags:
   - from-tumblr
 ---
 
-When writing [a post](../how-developers-brains-work) the other day[^1], I wanted to be able to use the tumblr chat where the participants were twitter users. Tumblr doesn’t support HTML in chat usernames, so I wrote a tiny javascript chunk to automatically troll any elements you give it and replace `@twitter-username` with a link to their account. (You can see it in action on the aforementioned post[^2]) You can find the code in [this github gist](https://gist.github.com/jphastings/115054), all you need to do is link in [mootools](https://mootools.net) (you only need to have the selectors part available, for now) and this script in the head of your template like this:
+When writing [a post](/posts/how-developers-brains-work) the other day[^1], I wanted to be able to use the tumblr chat where the participants were twitter users. Tumblr doesn’t support HTML in chat usernames, so I wrote a tiny javascript chunk to automatically troll any elements you give it and replace `@twitter-username` with a link to their account. (You can see it in action on the aforementioned post[^2]) You can find the code in [this github gist](https://gist.github.com/jphastings/115054), all you need to do is link in [mootools](http://web.archive.org/web/20230812014508/https://mootools.net/) (you only need to have the selectors part available, for now) and this script in the head of your template like this:
 
 ```html
 <script type="text/javascript" src="mootools.js"></script>
