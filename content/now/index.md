@@ -18,7 +18,7 @@ sitemap:
 
 {{< emoji "💍" >}}The biggest news from that trip was [Yvette proposing to me](https://adventure.awaits.us/a-patagonian-love-story/) at the top of the Torres del Paine mountains — I'm so excited to be marrying her, even if the wedding planning is triply complex because of our mixed nationalities!
 
-{{< figure src="engaged.jpg" alt="A photo of Yvette and I grinning at the camera, with the engagement compass Yvette just gave JP" >}}
+{{< figure src="engaged.webp" alt="A photo of Yvette and I grinning at the camera, with the engagement compass Yvette just gave JP" >}}
 
 {{< emoji "😢" >}}The second biggest news from that trip was my Mum discovering she has a terminal cancer. I'm struggling with this a fair amount at the moment, but I have a superlative support network, and Deliveroo embracing my choice to move to a 4-day work week to spend more time with her has been wonderful. I'm (clearly) being quite open about this, but I'd appreciate your efforts in finding quieter times if you'd like to talk to me about this; I hope it's easy to understand how this topic can emotionally blind-side me!
 
@@ -28,10 +28,12 @@ sitemap:
 
 {{< emoji "🎮" >}}I'm _really_ enjoying slowly playing through [Viewfinder](https://thunderfulgames.com/games/viewfinder/) — it reminds ne a lot of Portal — wonderful puzzles, engaging story, lots of "ah ha!" moments. Definitely worth a play!
 
-{{< openlibrary "9781929752300" >}}
-
 {{< emoji "📖" >}}I'm only a few pages into [Cheap Complex Devices](https://openlibrary.org/books/OL8797982M/Cheap_Complex_Devices) and already loving it. Even the foreword has me thinking meta: should I trust the editor of the book when he says "skip the rest of the foreword", given that the editor is a character?? It's definitely not a book for sleepy bedtime reading!
 
-{{< emoji "🎧" >}}I've given up on the audiobook version of [The Dark Forest](https://openlibrary.org/books/OL39524585M/Dark_Forest) by Cixin Liu, it was too challenging for me to follow with the bitty audiobook listenings that, sometimes, are all I have. Perhaps I'll try this series again one day, people speak highly of the later books particularly. Instead I've started on the second (audio)book in Arthur C. Clarke's _Time Oddesey_ series: [Sunstorm](https://openlibrary.org/books/OL3311262M/Sunstorm). I'm enjoying it so far; the carefully researched physics conundrum that looks like it'll be the setting for the book is engaging and intriguing!
+{{< openlibrary "9781039425910" >}}
 
-{{< figure src="sunset.jpg" title="Summer this year may not be hot or sunny, but we've had some amazing sunsets." alt="A golden sunset over North London">}}
+{{< emoji "🎧" >}}A few days ago I pulled out [Kitty Cat Kill Sat](https://openlibrary.org/books/OL49368138M/Kitty._Cat_Kill_Sat) on Audible as something relaxing to listen to with house chores and travel — what a win! It's fun, playful, _gripping_ and lighthearted without being frivolous. I'm absolutely steaming through it!
+
+{{< emoji "💭" >}}It's strange, I seem to be spending a lot more time listening to books than reading them at the moment. I can't tell if I like this or not; I think I'm often doing something else at the same time while I'm listening, which is a shame, as I've always enjoyed the cordoned-off time that reading a book gives you (and your head!) I have a lot of train travel over this weekend, perhaps I'll take my book but not my headphones…
+
+{{< figure src="pedalo.webp" title="A sunny day pedalo-ing around the lake in Victoria Park" alt="A photo looking across a lake on a bright blue-sky day. There's a large water fountain in the middle, with the wind pulling the spray across the photo, creating a small rainbow." >}}
