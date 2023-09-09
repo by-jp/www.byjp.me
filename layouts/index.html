@@ -5,10 +5,6 @@
 {{ define "main" }}
     <main aria-role="main">
         <div>
-            {{ if .Site.Params.Portrait.Path }}
-               <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
-            {{ end }}
-
             <h1 class="accented">{{ .Site.Title }}</h1>
 
             {{ partial "subtitle.html" . }}

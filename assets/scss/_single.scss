@@ -259,12 +259,18 @@
 
 .book, .film {
   max-width: 180px;
-  float: right;
-  text-align: right;
-  margin: 0 0 16px 16px;
   // A hack to prevent spoilers from going over the link
   position: relative;
   z-index: 10;
+
+  float: left;
+  text-align: left;
+  margin: 0 16px 16px 0;
+  &:nth-of-type(2n) {
+    float: right;
+    text-align: right;
+    margin: 0 0 16px 16px;
+  }
 
   img {
     width: 100%;
@@ -408,4 +414,8 @@ details.spoiler {
       font-style: italic;
     }
   }
+}
+
+figure:not(.book) {
+  clear: both;
 }
