@@ -1,0 +1,11 @@
+{{ $args := . }}
+{{ $parts := split .Inner "\n---\n"  }}
+<div class="side-by-side">
+  {{ range $i, $part := $parts }}
+    {{ $lang := $args.Get $i }}
+    <div lang="{{ $lang }}">
+      <header>{{ index site.Data.localeNames $lang }}</header>
+      {{ $part | markdownify }}
+    </div>
+  {{ end }}
+</div>

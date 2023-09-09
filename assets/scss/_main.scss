@@ -415,6 +415,10 @@ blockquote {
   margin: 40px 0;
   padding: 10px 20px;
 
+  p ~ & {
+    margin: 1em 0;
+  }
+
   @media #{$media-size-phone} {
     margin: 10px;
     padding: 10px;
@@ -760,4 +764,10 @@ body.nownownow .post-content > p {
     padding-top: 0.5rem;
     float: left;
   }
+}
+
+a[href^="/tags/"]:before {
+  content: '#';
+  text-decoration: none;
+  display:inline-block;
 }

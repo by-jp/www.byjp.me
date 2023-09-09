@@ -413,3 +413,20 @@ details.spoiler {
 figure {
   clear: both;
 }
+
+.side-by-side {
+  column-count: 2;
+
+  @media #{$media-size-phone} {
+    column-count: 1;
+  }
+
+  header {
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+  }
+
+  & > * {
+    margin-bottom: 1em;
+  }
+}
