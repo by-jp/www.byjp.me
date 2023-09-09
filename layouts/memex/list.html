@@ -6,8 +6,9 @@
             <div class="content">{{ .Content }}</div>
         {{ end }}
 
-        <div> {{/* class="side-by-side" once I have the tag cloud ready */}}
-            <div>
+        {{ $tags := slice }}
+        <div class="side-by-side">
+            <div class="double">
                 {{ range .Pages }}
                     {{ if gt (len .Pages) 0 }}
                     <div class="posts-group">
@@ -20,6 +21,7 @@
                                 </a>
                             </li>
                             {{ range .Pages }}
+                                {{ $tags = union $tags .Params.tags }}
                                 <li class="post-item">
                                     <a href="{{.Permalink}}">
                                         <span class="post-title">{{.Title}}</span>
@@ -31,6 +33,12 @@
                     {{ end }}
                 {{ end }}
             </div>
+
+            <ol class="tags">
+                {{ range (uniq (sort $tags)) }}
+                    <li><a href="/tags/{{ . }}">{{ . }}</a></li>
+                {{ end }}
+            </ol>
         </div>
     </main>
 {{ end }}

@@ -415,10 +415,20 @@ figure {
 }
 
 .side-by-side {
-  column-count: 2;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  & > * {
+    flex-grow: 1;
+
+    &.double {
+      flex-grow: 2;
+    }
+  }
 
   @media #{$media-size-phone} {
-    column-count: 1;
+    flex-direction: column;
   }
 
   header {
@@ -426,7 +436,10 @@ figure {
     text-decoration: underline;
   }
 
-  & > * {
-    margin-bottom: 1em;
-  }
+  
+}
+
+.tags {
+  list-style-type: none;
+  margin: 0 0 0 2em;
 }
