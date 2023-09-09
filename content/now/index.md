@@ -32,7 +32,7 @@ sitemap:
 
 {{< openlibrary "9781039425910" >}}
 
-{{< emoji "🎧" >}}A few days ago I pulled out [Kitty Cat Kill Sat](https://openlibrary.org/books/OL49368138M/Kitty._Cat_Kill_Sat) on Audible as something relaxing to listen to with house chores and travel — what a win! It's fun, playful, _gripping_ and lighthearted without being frivolous. I'm absolutely steaming through it!
+{{< emoji "🎧" >}}A few days ago I pulled out [Kitty Cat Kill Sat](https://openlibrary.org/books/OL49368138M/Kitty_Cat_Kill_Sat) on Audible as something relaxing to listen to with house chores and travel — what a win! It's fun, playful, _gripping_ and lighthearted without being frivolous. I'm absolutely steaming through it!
 
 {{< emoji "💭" >}}It's strange, I seem to be spending a lot more time listening to books than reading them at the moment. I can't tell if I like this or not; I think I'm often doing something else at the same time while I'm listening, which is a shame, as I've always enjoyed the cordoned-off time that reading a book gives you (and your head!) I have a lot of train travel over this weekend, perhaps I'll take my book but not my headphones…
 
