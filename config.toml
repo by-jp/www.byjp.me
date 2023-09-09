@@ -8,7 +8,8 @@ enableGitInfo   = true
 enableEmoji     = true
 disableRSS      = false
 
-paginate = 36
+# Why 97? Cos. Cos it's a prime number?
+paginate = 97
 
 [markup]
   [markup.goldmark]

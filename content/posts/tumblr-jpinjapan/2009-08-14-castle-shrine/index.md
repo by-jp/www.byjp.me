@@ -1,6 +1,6 @@
 ---
 title: Castle shrine
-date: 2009-08-14T:10:48:00+09:00
+date: 2009-08-14T10:48:00+09:00
 tags:
   - from-tumblr
   - japan
