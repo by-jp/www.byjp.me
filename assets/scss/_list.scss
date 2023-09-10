@@ -51,6 +51,10 @@
     &-title {
       font-size: 1rem;
       margin: 5px 0 5px 0;
+
+      &.em {
+        font-style: italic;
+      }
     }
 
     &-year {

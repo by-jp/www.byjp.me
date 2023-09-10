@@ -15,4 +15,4 @@ A fascinating restricted writing #mastodon instance, where all accounts' posts a
 
 ## E-Prime
 
-Writing English without _any_ of the forms of the very #to-be. I'm in two minds about this; I love the concept or avoiding accidental definitions—in particular treating oneself as objectively correct "you are tall"—but the [Wikipedia article](https://en.wikipedia.org/wiki/E-Prime#Psychological_effects) calls out some of the criticisms, in particular that _self_ definition of identity is very important!
+Writing English without _any_ of the forms of the verb #to-be. I'm in two minds about this; I love the concept or avoiding accidental definitions—in particular treating oneself as objectively correct "you are tall"—but the [Wikipedia article](https://en.wikipedia.org/wiki/E-Prime#Psychological_effects) calls out some of the criticisms, in particular that _self_ definition of identity is very important!

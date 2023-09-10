@@ -1,4 +1,6 @@
-# Memex
+---
+title: Memex
+---
 
 Taking a cue from personal sites around the web, this memex keeps unformed ideas, links and references around for me to find and use later.
 

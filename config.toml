@@ -11,6 +11,9 @@ disableRSS      = false
 # Why 97? Cos. Cos it's a prime number?
 paginate = 97
 
+[frontmatter]
+date = ["date", "publishDate", "lastmod", ":git"]
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]

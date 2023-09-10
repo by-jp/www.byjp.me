@@ -1,5 +1,8 @@
 {{ define "main" }}
     <main class="posts">
+
+        {{ partial "memex-header.html" . }}
+
         <h1>{{ title (replace .Title "-" " ") }}</h1>
 
         {{ if .Content }}
@@ -7,30 +10,49 @@
         {{ end }}
 
         {{ $tags := slice }}
+        {{ $extraPages := slice }}
+        <h2>Memex entries</h2>
         <div class="side-by-side">
             <div class="double">
                 {{ range .Pages }}
-                    {{ if gt (len .Pages) 0 }}
-                    <div class="posts-group">
-                        <div class="post-year">{{ .Params.emoji }}</div>
+                    {{ if eq (len .Pages) 0 }}
+                        {{ $extraPages = append . $extraPages }}
+                    {{ else }}
+                        <div class="posts-group">
+                            <ul class="posts-list">
+                                <li class="post-item">
+                                    <a href="{{.Permalink}}">
+                                        {{ if .Params.emoji }}<span class="post-emoji">{{ .Params.emoji }}</span>{{ end }}
+                                        <span class="post-title em">{{.Title}}</span>
+                                    </a>
+                                </li>
+                                {{ range .Pages }}
+                                    {{ $tags = union $tags .Params.tags }}
+                                    <li class="post-item">
+                                        <a href="{{.Permalink}}">
+                                            <span class="post-title">{{.Title}}</span>
+                                        </a>
+                                    </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    {{ end }}
+                {{ end }}
 
+                {{ if gt (len $extraPages) 0 }}
+                    <div class="posts-group">
                         <ul class="posts-list">
+                        {{ range $extraPages }}
+                            {{ $tags = union $tags .Params.tags }}
+                            
                             <li class="post-item">
                                 <a href="{{.Permalink}}">
                                     <span class="post-title">{{.Title}}</span>
                                 </a>
                             </li>
-                            {{ range .Pages }}
-                                {{ $tags = union $tags .Params.tags }}
-                                <li class="post-item">
-                                    <a href="{{.Permalink}}">
-                                        <span class="post-title">{{.Title}}</span>
-                                    </a>
-                                </li>
-                            {{ end }}
+                        {{ end }}
                         </ul>
                     </div>
-                    {{ end }}
                 {{ end }}
             </div>
 
@@ -40,5 +62,10 @@
                 {{ end }}
             </ol>
         </div>
+
+        <hr />
+
+        {{ partial "memex-footer.html" . }}
+        
     </main>
 {{ end }}

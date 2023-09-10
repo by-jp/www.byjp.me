@@ -1,6 +1,6 @@
 ---
 title: Human rights
-draft: true
+draft: false
 tags:
   - philosophy
   - simone-weil
