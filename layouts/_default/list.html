@@ -2,6 +2,8 @@
     {{ $paginator := .Paginate .Data.Pages }}
     
     <main class="posts">
+        {{ partial "generic-list-header.html" . }}
+
         <h1>{{ title (replace .Title "-" " ") }}</h1>
 
         {{ if .Content }}
