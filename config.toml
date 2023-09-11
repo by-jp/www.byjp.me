@@ -93,31 +93,30 @@ date = ["date", "publishDate", "lastmod", ":git"]
         name = "📮 Contact me"
         url = "/standing-invitation"
         weight = 1
-        
-      [[languages.en.menu.main]]
-        identifier = "now"
-        name = "👇 Now"
-        url = "/now"
-        weight = 2
       [[languages.en.menu.main]]
         identifier = "curiosities"
         name = "🤩 Curiosities"
         url = "/curiosities"
-        weight = 3
+        weight = 2
       [[languages.en.menu.main]]
         identifier = "memex"
         name = "🧠 Memex"
         url = "/memex"
-        weight = 4
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "photos"
         name = "📸 Photos"
         url = "/photos"
-        weight = 5
+        weight = 4
       [[languages.en.menu.main]]
         identifier = "posts"
         name = "📔 Posts"
         url = "/posts"
+        weight = 5
+      [[languages.en.menu.main]]
+        identifier = "now"
+        name = "👇 Now"
+        url = "/now"
         weight = 6
 
 [sitemap]
