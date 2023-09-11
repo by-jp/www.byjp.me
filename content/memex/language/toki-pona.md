@@ -17,8 +17,6 @@ I've enjoyed thinking about this #conlang a lot! I depend a lot on phrasing thin
 
 With only ~120 words and 14 characters it's _tiny_, and forces you to talk around 
 
----
-
 ## alone - a poem
 
 _Quite an intense one! I'm yet to find other pre-translated toki-pona poems. Perhaps I'll try translating one at some point!_
@@ -46,15 +44,15 @@ And Darkness shall reign forevermore.
 
 [source](https://www.tokipona.org/angst.html)
 
----
+## Poetry book
 
 [A collection of 27 poems](https://tokipona.org/toki_lili_27_poems_in_toki_pona.pdf) listed on the homepage
 
----
+## Computer-written poetry
 
 Someone [wrote code to write (semi-sensical) poetry](https://kevingal.com/blog/toki-poetry.html) in Toki Pona, which looks really fun.
 
----
+## Fonts
 
 There seem to be a number of fonts that people have created for the _written_ form of toki pona, like [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxhd/) which covers 'all the conlangs in the [registry](https://www.kreativekorp.com/ucsur/)' which will definitely be fun to play with.
 

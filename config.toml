@@ -39,7 +39,7 @@ date = ["date", "publishDate", "lastmod", ":git"]
 
   # Metadata mostly used in document's head
   description = "JP Hastings-Spital: Software Engineer"
-  keywords    = "homepage, blog, science, software, miriscient, programming"
+  keywords    = "homepage, blog, science, software, miriscient, programming, indieweb, memex"
   images      = [""]
   customJS    = ["/js/postcards-html.js"]
 
@@ -89,17 +89,20 @@ date = ["date", "publishDate", "lastmod", ":git"]
   # You can create a language based menu
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "mail"
+        name = "📮 Contact me"
+        url = "/standing-invitation"
+        weight = 1
+      [[languages.en.menu.main]]
         identifier = "curiosities"
-        name = "Curiosities"
+        name = "🤩 Curiosities"
         url = "/curiosities"
+        weight = 2
       [[languages.en.menu.main]]
         identifier = "posts"
-        name = "Posts"
+        name = "📔 Posts"
         url = "/posts"
-      [[languages.en.menu.main]]
-        identifier = "mail"
-        name = ":postbox:"
-        url = "/standing-invitation"
+        weight = 3
 
 [sitemap]
   filename = 'sitemap.xml'

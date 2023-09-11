@@ -39,11 +39,19 @@
     list-style: none;
 
     li {
-      margin: 0 12px;
+      margin: 0 6px;
     }
 
     li.micro a {
       filter: grayscale(1);
+      span {
+        display: none;
+      }
+      
+      &:before {
+        content: attr(data-short-name);
+        display: inline;
+      }
 
       &:hover {
         text-decoration: none;
@@ -59,6 +67,10 @@
       li {
         margin: 0;
         padding: 5px;
+
+        &.micro a span {
+          display: inline;
+        }
       }
     }
   }

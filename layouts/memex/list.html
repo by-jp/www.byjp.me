@@ -3,15 +3,25 @@
 
         {{ partial "memex-header.html" . }}
 
-        <h1>{{ title (replace .Title "-" " ") }}</h1>
+        <article>
+            <hgroup class="post-title">
+                <h1 class="p-name">
+                    <a href="{{ .Permalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
+                </h1>
+            </hgroup>
 
-        {{ if .Content }}
-            <div class="content">{{ .Content }}</div>
-        {{ end }}
+            {{ with .Summary }}
+                <div class="post-summary p-summary" aria-hidden="true">A memex category: {{ . }}</div>
+            {{ end }}
+
+            {{ if .Content }}
+                <div class="post-content e-content">{{ .Content }}</div>
+            {{ end }}
+        </article>
 
         {{ $tags := slice }}
         {{ $extraPages := slice }}
-        <h2>Memex entries</h2>
+        <h2>Notes</h2>
         <div class="side-by-side">
             <div class="double">
                 {{ range .Pages }}
