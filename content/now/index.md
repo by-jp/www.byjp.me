@@ -1,5 +1,5 @@
 ---
-title: My world, these days
+title: What I'm up to now
 emoji: 👇
 draft: false
 type: timeless
