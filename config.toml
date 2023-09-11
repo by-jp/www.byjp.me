@@ -99,10 +99,20 @@ date = ["date", "publishDate", "lastmod", ":git"]
         url = "/curiosities"
         weight = 2
       [[languages.en.menu.main]]
+        identifier = "memex"
+        name = "🧠 Memex"
+        url = "/memex"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "photos"
+        name = "📸 Photos"
+        url = "/photos"
+        weight = 4
+      [[languages.en.menu.main]]
         identifier = "posts"
         name = "📔 Posts"
         url = "/posts"
-        weight = 3
+        weight = 5
 
 [sitemap]
   filename = 'sitemap.xml'
