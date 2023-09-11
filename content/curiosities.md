@@ -1,6 +1,6 @@
 ---
 title: "Curiosities"
-emoji: 🧠
+emoji: 🤩
 draft: false
 type: timeless
 summary: A list of the many curious things I've made over the years.

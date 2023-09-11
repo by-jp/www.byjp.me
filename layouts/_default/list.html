@@ -4,7 +4,10 @@
     <main class="posts">
         {{ partial "generic-list-header.html" . }}
 
-        <h1>{{ title (replace .Title "-" " ") }}</h1>
+        <h1 class="p-name">
+            {{ with .Params.emoji }}<span data-emoji="{{.}}"></span>{{end}}
+            <a href="{{ .Permalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
+        </h1>
 
         {{ if .Content }}
             <div class="content">{{ .Content }}</div>

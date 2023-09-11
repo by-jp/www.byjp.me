@@ -1,5 +1,6 @@
 ---
 title: Memex
+emoji: 🧠
 summary: My memory-expander; a space for me to keep links and thoughts that are interesting for reference later.
 ---
 
