@@ -1,0 +1,3 @@
+source: public
+# Don't use _pagefind as Github Pages will ignore it
+bundle_dir: search

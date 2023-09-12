@@ -1,7 +1,7 @@
 {{ define "main" }}
     {{ $paginator := .Paginate .Data.Pages }}
     
-    <main class="posts">
+    <main class="posts" {{ if eq .Kind "taxonomy" }}data-pagefind-ignore{{ end }}>
         {{ partial "generic-list-header.html" . }}
 
         <h1 class="p-name">
@@ -10,7 +10,7 @@
         </h1>
 
         {{ if .Content }}
-            <div class="content">{{ .Content }}</div>
+            <div class="content" data-pagefind-body>{{ .Content }}</div>
         {{ end }}
 
         {{ range $paginator.Pages.GroupByDate "2006" }}

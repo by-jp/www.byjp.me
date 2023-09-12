@@ -18,7 +18,7 @@ sitemap:
 
 {{< emoji "💍" >}}The biggest news from that trip was [Yvette proposing to me](https://adventure.awaits.us/a-patagonian-love-story/) at the top of the Torres del Paine mountains — I'm so excited to be marrying her, even if the wedding planning is triply complex because of our mixed nationalities!
 
-{{< figure src="engaged.webp" alt="A photo of Yvette and I grinning at the camera, with the engagement compass Yvette just gave JP" >}}
+{{< figure src="./engaged.webp" alt="A photo of Yvette and I grinning at the camera, with the engagement compass Yvette just gave JP" >}}
 
 {{< emoji "😢" >}}The second biggest news from that trip was my Mum discovering she has a terminal cancer. I'm struggling with this a fair amount at the moment, but I have a superlative support network, and Deliveroo embracing my choice to move to a 4-day work week to spend more time with her has been wonderful. I'm (clearly) being quite open about this, but I'd appreciate your efforts in finding quieter times if you'd like to talk to me about this; I hope it's easy to understand how this topic can emotionally blind-side me!
 

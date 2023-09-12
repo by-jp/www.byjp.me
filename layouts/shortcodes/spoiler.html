@@ -3,6 +3,6 @@
     <span class="closed">Click to show this spoiler</span>
     <span class="open">Hide spoiler</span>
   </summary>
-  <p>{{ .Inner | markdownify }}</p>
+  <p data-pagefind-ignore>{{ .Inner | markdownify }}</p>
 </details>
 {{ .Page.Store.Set "hasSpoilers" true }}
