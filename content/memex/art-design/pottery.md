@@ -2,6 +2,10 @@
 title: Pottery
 emoji: 🏺
 summary: Making objects out of clay.
+tags:
+- clay
+- course
+- pottery
 ---
 
 ## Turning clay

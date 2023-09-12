@@ -35,7 +35,7 @@
       {{- end }}
 
       <div class="post-content e-content">
-        {{ .Content | replaceRE `#([\w-]+)` `<a href="/tags/$1">$1</a>` | safeHTML }}
+        {{ .Content | replaceRE `(\w)#([\w-]+)(\w)` `$1<a href="/tags/$2">$1</a>$2` | safeHTML }}
       </div>
     </article>
 

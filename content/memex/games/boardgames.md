@@ -1,9 +1,10 @@
 ---
 title: Board games
+summary: Games together played around a table.
 tags:
 - graphic-design
 - 60s
-summary: Games together played around a table.
+- sorry
 ---
 
 ## Sorry!

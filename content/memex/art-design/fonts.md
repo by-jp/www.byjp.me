@@ -3,6 +3,11 @@ title: Fonts
 emoji: 🔡
 summary: Instructions for how to turn streams of data into legible writing.
 draft: false
+tags:
+- ttf
+- zwj
+- emoji
+- fonts
 ---
 
 ## TTF Fonts
