@@ -1,7 +1,7 @@
 ---
-title: Art
+title: Art & Design
 emoji: 🎨
-summary: Making things that you don't need to.
+summary: Making things look good for fun.
 ---
 
 {{< openlibrary "9781914236105" >}}
