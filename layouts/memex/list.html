@@ -69,7 +69,7 @@
 
             <ol class="tags">
                 {{ range (uniq (sort $tags)) }}
-                    <li><a href="/tags/{{ . }}">{{ . }}</a></li>
+                    <li><a href="/tags/{{ . | lower }}">{{ . }}</a></li>
                 {{ end }}
             </ol>
         </div>
