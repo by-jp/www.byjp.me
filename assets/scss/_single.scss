@@ -93,10 +93,6 @@
     .tag {
       margin-right: 0.5em;
       a { text-decoration: none; }
-
-      &::before {
-        content: "#";
-      }
     }
 
     .feather {

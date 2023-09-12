@@ -34,8 +34,8 @@
         <hr />
       {{- end }}
 
-      <div class="post-content e-content">
-        {{ .Content | replaceRE `(\w)#([\w-]+)(\w)` `$1<a href="/tags/$2">$1</a>$2` | safeHTML }}
+      <div class="post-content e-content" data-pagefind-body>
+        {{ .Content | replaceRE `(\s)#([\w-]+)(\s)` `$1<a href="/tags/$2">$2</a>$3` | safeHTML }}
       </div>
     </article>
 
