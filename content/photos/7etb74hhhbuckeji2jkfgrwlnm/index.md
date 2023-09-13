@@ -11,4 +11,4 @@ Swindle\! So pumped — not seen him perform outside festivals and this stage lo
 
 
 
-[#NoMoreNormal](/tags/NoMoreNormal)
+[NoMoreNormal](/tags/NoMoreNormal)

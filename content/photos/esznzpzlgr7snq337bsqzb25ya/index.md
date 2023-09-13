@@ -10,7 +10,7 @@ tags:
 ---
 Jake's Dinner
 
-[#postcardsforlucy](/tags/postcardsforlucy)
+[postcardsforlucy](/tags/postcardsforlucy)
 
 
 

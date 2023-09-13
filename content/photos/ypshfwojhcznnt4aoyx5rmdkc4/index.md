@@ -10,7 +10,7 @@ tags:
 ---
 Serenity
 
-[#postcardsforlucy](/tags/postcardsforlucy)
+[postcardsforlucy](/tags/postcardsforlucy)
 
 
 

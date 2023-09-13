@@ -7,4 +7,4 @@ draft: false
 tags:
 - rebelbingo
 ---
-Woke up to find this in the mirror. [#rebelbingo](/tags/rebelbingo)
+Woke up to find this in the mirror. [rebelbingo](/tags/rebelbingo)

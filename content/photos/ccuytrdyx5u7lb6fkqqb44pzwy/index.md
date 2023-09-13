@@ -7,4 +7,4 @@ draft: false
 tags:
 - ComoOrFomo
 ---
-[#ComoOrFomo](/tags/ComoOrFomo)
+[ComoOrFomo](/tags/ComoOrFomo)

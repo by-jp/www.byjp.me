@@ -10,7 +10,7 @@ tags:
 ---
 September 3rd
 
-[#postcardsforlucy](/tags/postcardsforlucy) 
+[postcardsforlucy](/tags/postcardsforlucy) 
 
 Sept: 3rd 1961
 

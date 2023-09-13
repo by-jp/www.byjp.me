@@ -12,4 +12,4 @@ Woke up early, getting to some surgery to save an ailing MacBook.
 
 
 
-[#accidentalwesanderson](/tags/accidentalwesanderson) [#notsoaccidentallywesanderson](/tags/notsoaccidentallywesanderson)
+[accidentalwesanderson](/tags/accidentalwesanderson) [notsoaccidentallywesanderson](/tags/notsoaccidentallywesanderson)

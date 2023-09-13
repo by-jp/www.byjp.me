@@ -11,4 +11,4 @@ tags:
 ---
 Pão de Açucar was *beautiful*\!
 
-[#nofilter](/tags/nofilter)
+[nofilter](/tags/nofilter)

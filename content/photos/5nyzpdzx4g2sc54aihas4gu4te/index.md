@@ -7,4 +7,4 @@ draft: false
 tags:
 - hyperlapse
 ---
-Sailing on Woodberry Reservoir [#hyperlapse](/tags/hyperlapse)
+Sailing on Woodberry Reservoir [hyperlapse](/tags/hyperlapse)

@@ -7,4 +7,4 @@ draft: false
 tags:
 - MtG
 ---
-Epic boredom cure, in the true meaning of the word. [#MtG](/tags/MtG)
+Epic boredom cure, in the true meaning of the word. [MtG](/tags/MtG)

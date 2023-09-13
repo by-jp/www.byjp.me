@@ -22,7 +22,7 @@ I turned it into this little sequence when the sun came up \(and finally got to 
 
 
 
-[#fomo](/tags/fomo)
+[fomo](/tags/fomo)
 
 
 
@@ -58,4 +58,4 @@ Love, JP
 
 
 
-[#notetoself](/tags/notetoself)
+[notetoself](/tags/notetoself)

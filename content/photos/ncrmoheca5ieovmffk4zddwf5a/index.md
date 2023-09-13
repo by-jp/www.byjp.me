@@ -7,4 +7,4 @@ draft: false
 tags:
 - fromthearchives
 ---
-Can't wait for Summer. [#fromthearchives](/tags/fromthearchives)
+Can't wait for Summer. [fromthearchives](/tags/fromthearchives)

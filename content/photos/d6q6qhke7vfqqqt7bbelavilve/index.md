@@ -7,4 +7,4 @@ draft: false
 tags:
 - kindersurprise
 ---
-Today's [#kindersurprise](/tags/kindersurprise): I cannot build a children's three piece plastic clockwork toy car without instructions.
+Today's [kindersurprise](/tags/kindersurprise): I cannot build a children's three piece plastic clockwork toy car without instructions.

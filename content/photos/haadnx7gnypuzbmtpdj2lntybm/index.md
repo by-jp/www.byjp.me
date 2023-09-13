@@ -10,7 +10,7 @@ tags:
 ---
 A World First
 
-[#postcardsforlucy](/tags/postcardsforlucy)
+[postcardsforlucy](/tags/postcardsforlucy)
 
 
 

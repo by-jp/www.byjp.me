@@ -12,4 +12,4 @@ This is the face of a man very excited for the second *delicious* course of the 
 
 .
 
-📷{{< friend yvette >}} [#accidentallywesanderson](/tags/accidentallywesanderson)
+📷{{< friend yvette >}} [accidentallywesanderson](/tags/accidentallywesanderson)

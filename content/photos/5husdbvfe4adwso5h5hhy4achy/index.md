@@ -10,7 +10,7 @@ tags:
 ---
 Curious Soul
 
-[#postcardsforlucy](/tags/postcardsforlucy)
+[postcardsforlucy](/tags/postcardsforlucy)
 
 
 

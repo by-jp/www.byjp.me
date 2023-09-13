@@ -10,7 +10,7 @@ tags:
 ---
 InMemory™
 
-[#postcardsforlucy](/tags/postcardsforlucy)
+[postcardsforlucy](/tags/postcardsforlucy)
 
 
 

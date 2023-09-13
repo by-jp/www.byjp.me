@@ -10,7 +10,7 @@ tags:
 ---
 Curtains
 
-[#postcardsforlucy](/tags/postcardsforlucy)
+[postcardsforlucy](/tags/postcardsforlucy)
 
 
 

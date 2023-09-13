@@ -12,4 +12,4 @@ An unusual shot of the bridge for sure, but the Fort underneath, run by the Nati
 
 
 
-[#differentperspective](/tags/differentperspective) [#patterns](/tags/patterns)
+[differentperspective](/tags/differentperspective) [patterns](/tags/patterns)

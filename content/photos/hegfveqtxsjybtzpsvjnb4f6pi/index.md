@@ -10,7 +10,7 @@ tags:
 ---
 Josh in Köln
 
-[#postcardsforlucy](/tags/postcardsforlucy)
+[postcardsforlucy](/tags/postcardsforlucy)
 
 
 

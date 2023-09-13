@@ -8,4 +8,4 @@ tags:
 - fromthearchives
 - chris
 ---
-Riding in the best seat together: the day both brothers were in London for the first time\! [#fromthearchives](/tags/fromthearchives) /repost [Chris](/tags/chris)
+Riding in the best seat together: the day both brothers were in London for the first time\! [fromthearchives](/tags/fromthearchives) /repost [Chris](/tags/chris)

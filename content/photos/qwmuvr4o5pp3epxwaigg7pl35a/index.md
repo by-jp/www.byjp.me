@@ -8,4 +8,4 @@ tags:
 - fromthearchives
 - chris
 ---
-Pops H-S walking out of his shop in Bath [#fromthearchives](/tags/fromthearchives) /repost [Chris](/tags/chris)
+Pops H-S walking out of his shop in Bath [fromthearchives](/tags/fromthearchives) /repost [Chris](/tags/chris)

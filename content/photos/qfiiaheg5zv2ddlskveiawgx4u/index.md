@@ -12,4 +12,4 @@ Faro really loves its seafood \(and rightly so\), but these walls of <seafood>-i
 
 
 
-[#patterns](/tags/patterns) [#accidentalwesanderson](/tags/accidentalwesanderson)
+[patterns](/tags/patterns) [accidentalwesanderson](/tags/accidentalwesanderson)

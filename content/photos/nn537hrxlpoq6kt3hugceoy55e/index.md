@@ -10,7 +10,7 @@ tags:
 ---
 Gods
 
-[#postcardsforlucy](/tags/postcardsforlucy)
+[postcardsforlucy](/tags/postcardsforlucy)
 
 
 

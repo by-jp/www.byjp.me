@@ -8,4 +8,4 @@ tags:
 - sloMoBro
 - chris
 ---
-[#sloMoBro](/tags/sloMoBro) /a [Chris](/tags/chris)
+[sloMoBro](/tags/slomobro) /a [Chris](/tags/chris)

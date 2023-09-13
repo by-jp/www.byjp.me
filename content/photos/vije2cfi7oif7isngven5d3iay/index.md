@@ -9,4 +9,4 @@ tags:
 ---
 Edinburgh\! What a breath of fresh air—in every sense; getting to chat with [@sarahaytonobe](https://instagram.com/sarahaytonobe) after speaking along side her at [@aabaccountants](https://instagram.com/aabaccountants)' fantastic event on organisational agility was a priviledge and an honour\!
 
-[#30sbreak](/tags/30sbreak)
+[30sbreak](/tags/30sbreak)

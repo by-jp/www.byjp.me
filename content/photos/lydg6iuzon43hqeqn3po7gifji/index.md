@@ -10,7 +10,7 @@ tags:
 ---
 Magic
 
-[#postcardsforlucy](/tags/postcardsforlucy)
+[postcardsforlucy](/tags/postcardsforlucy)
 
 
 

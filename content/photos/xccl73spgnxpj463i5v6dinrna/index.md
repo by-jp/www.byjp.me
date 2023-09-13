@@ -8,4 +8,4 @@ tags:
 - throwbackthursday
 - notactuallythursday
 ---
-Ridiculous trousers, beautiful place. Make your way to the Egyptian Sahara any time you can. [#throwbackthursday](/tags/throwbackthursday) [#notactuallythursday](/tags/notactuallythursday)
+Ridiculous trousers, beautiful place. Make your way to the Egyptian Sahara any time you can. [throwbackthursday](/tags/throwbackthursday) [notactuallythursday](/tags/notactuallythursday)

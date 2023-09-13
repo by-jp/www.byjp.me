@@ -9,4 +9,4 @@ tags:
 ---
 A damp & dreary morning made delightful by a visit to the Polperro Harbour Heritage Museum
 
-[#30sbreak](/tags/30sbreak)
+[30sbreak](/tags/30sbreak)

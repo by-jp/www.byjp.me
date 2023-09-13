@@ -9,4 +9,4 @@ tags:
 ---
 Walking through the Sahara after a night sleeping under only a camel hair rug and the stars, back in 2015.
 
-[#30sbreak](/tags/30sbreak)
+[30sbreak](/tags/30sbreak)

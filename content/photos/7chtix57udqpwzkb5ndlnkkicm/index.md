@@ -7,4 +7,4 @@ draft: false
 tags:
 - fromthearchives
 ---
-Excitement\! [#fromthearchives](/tags/fromthearchives)
+Excitement\! [fromthearchives](/tags/fromthearchives)

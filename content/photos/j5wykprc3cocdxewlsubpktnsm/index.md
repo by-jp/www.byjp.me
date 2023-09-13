@@ -10,7 +10,7 @@ tags:
 ---
 Pyjamas
 
-[#postcardsforlucy](/tags/postcardsforlucy)
+[postcardsforlucy](/tags/postcardsforlucy)
 
 
 

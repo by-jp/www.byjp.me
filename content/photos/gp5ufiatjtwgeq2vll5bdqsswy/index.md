@@ -13,4 +13,4 @@ tags:
 ---
 Om nom nom nom 😍😋🍕
 
-[#sourdoughsunday](/tags/sourdoughsunday)
+[sourdoughsunday](/tags/sourdoughsunday)

@@ -10,7 +10,7 @@ tags:
 ---
 Twos
 
-[#postcardsforlucy](/tags/postcardsforlucy)
+[postcardsforlucy](/tags/postcardsforlucy)
 
 
 

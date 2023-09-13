@@ -20,4 +20,4 @@ YES. THAT IS WHAT LIVE MUSIC SHOULD BE LIKE.
 
 
 
-[#NoMoreNormal](/tags/NoMoreNormal)
+[NoMoreNormal](/tags/NoMoreNormal)

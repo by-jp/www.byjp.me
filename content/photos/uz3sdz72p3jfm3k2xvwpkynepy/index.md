@@ -8,4 +8,4 @@ tags:
 - fromthearchives
 - chris
 ---
-Meeting "Hippie" Joe Hymas - mandolin player, guitarist and all-round lad from Hayseed Dixie [#fromthearchives](/tags/fromthearchives) /repost [Chris](/tags/chris)
+Meeting "Hippie" Joe Hymas - mandolin player, guitarist and all-round lad from Hayseed Dixie [fromthearchives](/tags/fromthearchives) /repost [Chris](/tags/chris)

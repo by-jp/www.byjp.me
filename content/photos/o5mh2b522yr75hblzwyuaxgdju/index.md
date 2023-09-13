@@ -10,7 +10,7 @@ tags:
 ---
 Evolution
 
-[#postcardsforlucy](/tags/postcardsforlucy)
+[postcardsforlucy](/tags/postcardsforlucy)
 
 
 

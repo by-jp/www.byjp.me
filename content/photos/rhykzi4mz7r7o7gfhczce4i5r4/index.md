@@ -7,4 +7,4 @@ draft: false
 tags:
 - Westonbirt
 ---
-Found this one from last weekend, [#Westonbirt](/tags/Westonbirt) is beautiful\!
+Found this one from last weekend, [Westonbirt](/tags/Westonbirt) is beautiful\!

@@ -10,7 +10,7 @@ tags:
 ---
 Diving
 
-[#postcardsforlucy](/tags/postcardsforlucy)
+[postcardsforlucy](/tags/postcardsforlucy)
 
 
 

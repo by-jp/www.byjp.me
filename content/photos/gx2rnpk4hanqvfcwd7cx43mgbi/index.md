@@ -9,4 +9,4 @@ tags:
 ---
 Today at work I have mostly been hunting bugs.
 
-[#softwareengineer](/tags/softwareengineer)
+[softwareengineer](/tags/softwareengineer)
