@@ -83,7 +83,7 @@
         </blockquote>
       {{ end }}
 
-      <div class="post-content e-content" data-pagefind-body data-pagefind-filter="type:{{.Type}}">
+      <div class="post-content e-content" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">
         {{ .Content }}
       </div>
     </article>

@@ -10,7 +10,7 @@
         </h1>
 
         {{ if .Content }}
-            <div class="content">{{ .Content }}</div>
+            <div class="content" data-pagefind-body>{{ .Content }}</div>
         {{ end }}
 
         {{ range $paginator.Pages.GroupByDate "2006" }}

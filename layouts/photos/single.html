@@ -1,7 +1,7 @@
 {{ define "main" }}
     <main class="post instagram">
         <article>
-            <div class="post-content">
+            <div class="post-content" data-pagefind-body data-pagefind-filter="type:Photos">
                 <div class="instagram-media">
                     {{ range .Params.Media }}
                         {{ partial "imgorvid.html" . }}
