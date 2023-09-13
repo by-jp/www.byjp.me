@@ -59,7 +59,7 @@ jobs:
             --minify \
             --baseURL "https://www.byjp.me"
           # Build the search index
-          npm_config_yes=true npx pagefind
+          npm_config_yes=true npx pagefind@latest
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
