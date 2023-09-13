@@ -771,3 +771,12 @@ a[href^="/tags/"]:before {
   text-decoration: none;
   display:inline-block;
 }
+
+mark {
+  color: inherit;
+  background-color: lch(85% 25 var(--accentHue)) !important;
+  
+  @media (prefers-color-scheme: dark) {
+    background-color: lch(20% 25 var(--accentHue)) !important;
+  }
+}

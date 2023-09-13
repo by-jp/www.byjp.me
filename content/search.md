@@ -2,6 +2,7 @@
 title: Search
 emoji: 🕵️‍♂️
 type: site-infra
+stylescope: search
 _build:
   list: never
 ---

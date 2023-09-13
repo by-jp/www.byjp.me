@@ -1,0 +1,34 @@
+body.search {
+  --pagefind-ui-scale: 0.7619047619;
+  --pagefind-ui-primary: var(--accent);
+  // Not sure why these colours aren't pulling in from _variables.scss
+  --pagefind-ui-text: #222; // $light-color;
+  --pagefind-ui-background: #eaeaea; // $light-background-secondary;
+  --pagefind-ui-border: #dcdcdc; // $light-border-color;
+  --pagefind-ui-tag: #dcdcdc; // $light-border-color;
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 0;
+  --pagefind-ui-image-border-radius: 0;
+  --pagefind-ui-image-box-ratio: 3 / 2;
+  --pagefind-ui-font: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", Helvetica, Arial, sans-serif;
+
+  @media (prefers-color-scheme: dark) {
+    --pagefind-ui-text: #a9a9b3; // $dark-color;
+    --pagefind-ui-background: #3b3d42; // $dark-background-secondary;
+    --pagefind-ui-border: #4e4e57; // $dark-border-color;
+    --pagefind-ui-tag: #4e4e57; // $dark-border-color;
+  }
+}
+
+.pagefind-ui__search-input, .pagefind-ui__message, .pagefind-ui__filter-name, .pagefind-ui__result-excerpt {
+  font-weight: inherit !important;
+  font-size: inherit !important;
+}
+
+.pagefind-ui__drawer {
+  flex-direction: row-reverse !important;
+}
+
+.pagefind-ui__result {
+  flex-direction: row-reverse !important;
+}
