@@ -1,5 +1,5 @@
 ---
-title: Building things with @chrismhs is the best.
+title: Building things with Chris is the best.
 media:
 - media-0.mp4
 date: "2017-02-05T18:44:39Z"

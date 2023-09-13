@@ -8,7 +8,7 @@
           <div class="post-summary p-summary" aria-hidden="true">{{ . }}</div>
         {{ end }}
 
-        <div class="post-content">
+        <div class="post-content" data-pagefind-body data-pagefind-filter="type:Poetry">
           {{ if eq .Params.align "monospace" }}
             <pre>{{.RawContent}}</pre>
           {{ else }}
@@ -18,7 +18,7 @@
     </article>
 
     <div class="post-info">
-      <p><date datetime="{{ dateFormat .Site.Params.dateformHTML .Date }}">{{ dateFormat .Site.Params.dateform .Date }}</date></p>
+      <p><date datetime="{{ dateFormat .Site.Params.dateformHTML .Date }}" data-pagefind-sort="date">{{ dateFormat .Site.Params.dateform .Date }}</date></p>
       <p><a href="../">back</a></p>
     </div>
 

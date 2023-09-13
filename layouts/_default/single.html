@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <main class="post h-entry">
+  <main class="post h-entry"{{ if eq .Type "site-infra" }} data-pagefind-ignore="all"{{ end }}>
 
     <div class="post-info">
       {{ $dateType := "published" }}
@@ -29,7 +29,7 @@
         </svg>
         {{ i18n "readingTime" .Page.ReadingTime }}
       </p>
-      <p class="author h-card" aria-hidden="true">
+      <p class="author h-card hidden" aria-hidden="true">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
         <a href="{{ .Site.BaseURL | absURL }}" rel="author" class="p-author u-url">{{ .Site.Author.name }}</a>
       </p>
@@ -120,7 +120,7 @@
               <line x1="8" y1="2" x2="8" y2="6"></line>
               <line x1="3" y1="10" x2="21" y2="10"></line>
             </svg>
-            <date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" $date }}" class="dt-{{ $dateType }}" title="{{ $dateType | title }} on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" $date }}">
+            <date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" $date }}" class="dt-{{ $dateType }}" title="{{ $dateType | title }} on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" $date }}" data-pagefind-sort="date">
               {{ if .Site.Params.dateformNumTime }}
                 {{ dateFormat .Site.Params.dateformNumTime $date }}
               {{ else }}

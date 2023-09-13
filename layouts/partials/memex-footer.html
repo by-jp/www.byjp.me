@@ -19,7 +19,7 @@
       <line x1="8" y1="2" x2="8" y2="6"></line>
       <line x1="3" y1="10" x2="21" y2="10"></line>
     </svg>
-    <date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Lastmod }}" class="dt-updated" title="last updated on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Lastmod }}">
+    <date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Lastmod }}" class="dt-updated" title="last updated on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Lastmod }}" data-pagefind-sort="date">
       {{ if .Site.Params.dateformNumTime }}
         {{ dateFormat .Site.Params.dateformNumTime .Lastmod }}
       {{ else }}

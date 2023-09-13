@@ -1,5 +1,5 @@
 ---
-title: Nerding it up with @chrismhs tonight!
+title: Nerding it up with Chris tonight!
 media:
 - media-0.jpg
 date: "2017-10-24T18:20:17Z"

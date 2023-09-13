@@ -1,4 +1,5 @@
 ---
+type: timeless
 _build:
   list: never
 ---

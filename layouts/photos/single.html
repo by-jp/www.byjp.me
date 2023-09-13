@@ -1,10 +1,16 @@
 {{ define "main" }}
     <main class="post instagram">
         <article>
+            <h1 class="post-title p-name hidden" aria-hidden="true">{{ .Title | markdownify }}</h1>
+
+            {{ with .Summary }}
+                <div class="post-summary p-summary" aria-hidden="true">{{ . }}</div>
+            {{ end }}
+            
             <div class="post-content" data-pagefind-body data-pagefind-filter="type:Photos">
                 <div class="instagram-media">
-                    {{ range .Params.Media }}
-                        {{ partial "imgorvid.html" . }}
+                    {{ range $i, $src := .Params.Media }}
+                        {{ partial "imgorvid.html" (dict "src" (path.Join $.Page.RelPermalink $src | absURL) "searchmeta" (eq $i 0)) }}
                     {{ end }}
                 </div>
 
@@ -29,7 +35,7 @@
                   <line x1="8" y1="2" x2="8" y2="6"></line>
                   <line x1="3" y1="10" x2="21" y2="10"></line>
                 </svg>
-                <date datetime="{{ dateFormat .Site.Params.dateformHTML .Date }}">
+                <date datetime="{{ dateFormat .Site.Params.dateformHTML .Date }}" data-pagefind-sort="date">
                 {{ dateFormat .Site.Params.dateformNumTime .Date }}
                 </date>
               </p>
