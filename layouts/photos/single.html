@@ -1,14 +1,14 @@
 {{ define "main" }}
     <main class="post instagram">
         <article>
-            <h1 class="post-title p-name hidden" aria-hidden="true">{{ .Title | markdownify }}</h1>
+            <h1 class="post-title p-name hidden" aria-hidden="true">{{ if gt (len .Params.Media) 1 }}Photos{{ else }}A photo{{ end }} from JP</h1>
 
             {{ with .Summary }}
                 <div class="post-summary p-summary" aria-hidden="true">{{ . }}</div>
             {{ end }}
             
             <div class="post-content" data-pagefind-body data-pagefind-filter="type:Photos">
-                <div class="instagram-media">
+                <div class="photo-media">
                     {{ range $i, $src := .Params.Media }}
                         {{ partial "imgorvid.html" (dict "src" (path.Join $.Page.RelPermalink $src | absURL) "searchmeta" (eq $i 0)) }}
                     {{ end }}
@@ -21,10 +21,12 @@
         <hr />
 
         <div class="post-info">
-            <p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
-                From <a href="../">instagram archive</a>
-            </p>
+            {{ if in .Params.tags "from-instagram" }}
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
+                    From <a href="../">instagram archive</a>
+                </p>
+            {{ end }}
             {{ partial "tags.html" .Params.tags }}
             {{ partial "categories.html" . }}
 

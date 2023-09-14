@@ -12,7 +12,7 @@
             <span class="button previous">
                 <a href="{{ .NextInSection.Permalink }}">
                     <span class="button__icon">←</span>
-                    <span class="button__text">{{ if .NextInSection.Title }}{{ .NextInSection.Title }}{{ else }}<i>Untitled post</i>{{ end }}</span>
+                    <span class="button__text">{{ .NextInSection.Title | default (.NextInSection.Date.Format .Site.Params.dateform) }}</span>
                 </a>
             </span>
             {{ end }}
@@ -20,7 +20,7 @@
             {{ if .PrevInSection }}
             <span class="button next">
                 <a href="{{ .PrevInSection.Permalink }}">
-                    <span class="button__text">{{ if .PrevInSection.Title }}{{ .PrevInSection.Title }}{{ else }}<i>Untitled post</i>{{ end }}</span>
+                    <span class="button__text">{{ .PrevInSection.Title  | default (.PrevInSection.Date.Format .Site.Params.dateform)}}</span>
                     <span class="button__icon">→</span>
                 </a>
             </span>

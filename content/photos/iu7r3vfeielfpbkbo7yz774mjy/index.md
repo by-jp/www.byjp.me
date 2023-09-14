@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-I pulled my brain out of my head and made it into a website. Cos this is the marvelous world we live in ☺️ Go see brain.byjp.me if you want to play.
+I pulled my brain out of my head and made it into a website. Cos this is the marvelous world we live in ☺️ Go see [brain.byjp.me](https://brain.byjp.me) if you want to play.
