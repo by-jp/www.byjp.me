@@ -1,6 +1,8 @@
 ---
 type: poetry
 summary: A poem I wrote called "Consequences", under the pen-name Cy Densham.
+# I'm unsure of the exact date, so let's go with the beginning of the year
+date: 2009-01-01
 title: Consequences
 author: Cy Densham
 draft: false
