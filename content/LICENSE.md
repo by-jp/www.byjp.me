@@ -1,4 +1,5 @@
 ---
+title: Site content licence
 type: timeless
 _build:
   list: never

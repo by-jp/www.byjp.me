@@ -11,16 +11,15 @@
 <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
 <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
 <link rel="webmention" href="https://webmention.io/www.byjp.me/webmention" />
-
-{{ block "title" . }}
+{{ block "title" . -}}
     <title>
-        {{ if .IsHome }}
-            {{ $.Site.Title }}
-        {{ else }}
-        {{if .Title }}{{ .Title }}{{ else }}Untitled post{{ end }}, {{ $.Site.Title }}
-        {{ end }}
+        {{- if .IsHome -}}
+            {{- $.Site.Title -}}
+        {{- else -}}
+            {{- if .Title -}}{{- .Title -}}{{- else -}}Untitled {{ $.Type | singularize -}}{{- end -}}, {{ $.Site.Title -}}
+        {{- end -}}
     </title>
-{{ end }}
+{{- end }}
 
 <!-- CSS -->
 {{/*  <link href="/css/flags.css" rel="stylesheet" type="text/css">  */}}
