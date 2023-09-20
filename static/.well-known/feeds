@@ -1,0 +1,19 @@
+<opml xmlns:frss="https://freshrss.org/opml" version="2.0">
+  <head>
+    <title>byJP.me Feeds</title>
+    <dateCreated>Wed, 20 Sep 2023 08:44:22 +0100</dateCreated>
+  </head>
+  <body>
+    <outline text="Blog">
+      <outline text="All posts" type="rss" xmlUrl="https://www.byjp.me/index.xml" htmlUrl="https://www.byjp.me/" />
+      <outline text="Articles" type="rss" xmlUrl="https://www.byjp.me/posts/index.xml" htmlUrl="https://www.byjp.me/posts/" description="Long-form traditional blog posts."/>
+      <outline text="Photos" type="rss" xmlUrl="https://www.byjp.me/photos/index.xml" htmlUrl="https://www.byjp.me/photos/" description="Photo posts."/>
+      <outline text="Memex" type="rss" xmlUrl="https://www.byjp.me/memex/index.xml" htmlUrl="https://www.byjp.me/memex/" description="Entries in my memory expander."/>
+    </outline>
+    <outline text="Elsewhere">
+      <outline text="@byjp@hachyderm.io on Mastodon/Fediverse" type="rss" xmlUrl="https://hachyderm.io/@byjp.rss" htmlUrl="https://hachyderm.io/@byjp"/>
+      <outline text="jphastings on Github" type="link" url="https://github.com/jphastings/"/>
+      <outline text="byjp on pronouns.page" type="link" url="https://en.pronouns.page/@byjp"/>
+    </outline>
+  </body>
+</opml>
