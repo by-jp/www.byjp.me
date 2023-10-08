@@ -5,6 +5,9 @@
 <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.homeSubtitle }}{{ else }}{{ if .Params.Description }}{{ .Params.Description }}{{ else }}{{ .Summary | plainify }}{{ end }}{{ end }}" class="p-summary"/>
 <meta name="keywords" content="{{ .Site.Params.keywords }}{{ if .Params.tags }}{{ range .Params.tags }}, {{ . }}{{ end }}{{ end }}" />
 <meta name="theme-color" content="{{ .Site.Params.themeColor }}" />
+{{- $modified := .Lastmod -}}
+{{- if .IsHome }}{{ with getenv "HUGO_LAST_UPDATE_TIME" }}{{ $modified = time . }}{{ end }}{{ end -}}
+<meta property="dcterms.modified" content="{{ $modified.Format "2006-01-02T15:04:05Z07:00"}}" />
 <link rel="canonical" href="{{ .Permalink }}" class="u-url"/>
 
 {{/*  IndieWeb  */}}
