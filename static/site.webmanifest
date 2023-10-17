@@ -13,8 +13,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
+    "theme_color": "#8186FF",
     "background_color": "#ffffff",
-    "start_url": "https://www.byjp.me",
+    "start_url": "./index.html",
     "display": "standalone"
 }
