@@ -10,5 +10,5 @@
     <a href="{{.Permalink}}">{{ .Title }}</a>, 
   {{ end }}
   and {{ with index $posts 2 }}<a href="{{.Permalink}}">{{ .Title }}</a>{{ end }}.</p>
-  <p>{{ range $posts | first 3 }}{{.Params.emoji}}{{ end }}</p>
+  <p>{{ range $posts | first 3 }}{{.Params.emoji}} {{ end }}</p>
 </div>
