@@ -7,7 +7,8 @@
   <p>I write infrequently about things I've created or care about in <a href="/posts">posts</a>, I keep notes on interesting things in my <a href="/memex">memex</a>, and sometimes post <a href="/photos">photos</a> too. Find out <a href="/now">what I'm up to now</a>, or read a recent article like
   {{ $posts := where .Site.RegularPages "Section" "posts" }}
   {{ range $posts | first 2 }}
-      <a href="{{.Permalink}}">{{ .Title }}</a>, 
+    <a href="{{.Permalink}}">{{ .Title }}</a>, 
   {{ end }}
-  and {{ with index $posts 2 }}<a href="{{.Permalink}}">{{ .Title }}</a>{{ end }}.
+  and {{ with index $posts 2 }}<a href="{{.Permalink}}">{{ .Title }}</a>{{ end }}.</p>
+  <p>{{ range $posts | first 3 }}{{.Params.emoji}}{{ end }}</p>
 </div>
