@@ -26,6 +26,7 @@ html {
 
 
 body {
+  position:relative;
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto",
@@ -779,5 +780,20 @@ mark {
   
   @media (prefers-color-scheme: dark) {
     background-color: lch(20% 25 var(--accentHue)) !important;
+  }
+}
+
+#last-updated {
+  position: absolute;
+  font-style:italic;
+
+  bottom: 0;
+  padding: 4px 4px 4px 8px;
+  border-top-left-radius: 8px;
+  opacity: 0.8;
+
+  background-color: $light-background;
+  @media (prefers-color-scheme: dark) {
+    background-color: $dark-background
   }
 }
