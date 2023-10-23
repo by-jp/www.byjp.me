@@ -96,7 +96,7 @@ func main() {
 
 	archive := os.Args[1]
 	hugo := os.Args[2]
-	outputDir := path.Join(hugo, "content", "instagram-posts")
+	outputDir := path.Join(hugo, "content", "photos")
 
 	zf, err := zip.OpenReader(archive)
 	check(err, "Unable to open instagram archive")
@@ -182,7 +182,9 @@ func postToPost(p post, mediaMap map[string]string, outputDir string) error {
 		return err
 	}
 
-	fm := frontMatter{}
+	fm := frontMatter{
+		Tags: []string{"imported", "from-instagram"},
+	}
 
 	fm.Title = text
 	if len(fm.Title) > titleLength {
