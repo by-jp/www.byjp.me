@@ -1,11 +1,11 @@
 <figure>
   {{ if hasSuffix .src ".mp4" }}
-      <video controls loop>
+      <video controls loop class="u-video">
           <source src="{{.src}}" type="video/mp4">
           <img {{ if .searchmeta | default true }}data-pagefind-meta="image[src]" {{end}}src="{{ .src }}.jpg" />
           (Your browser can't play videos. <a href="{{.src}}">Download instead</a>.)
       </video>
   {{ else }}
-      <img {{ if .searchmeta | default true }}data-pagefind-meta="image[src]" {{end}}src="{{ .src }}" />
+      <img {{ if .searchmeta | default true }}data-pagefind-meta="image[src]" {{end}}src="{{ .src }}" class="u-photo photo" />
   {{ end }}
 </figure>

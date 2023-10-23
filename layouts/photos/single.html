@@ -40,9 +40,14 @@
                 <date datetime="{{ dateFormat .Site.Params.dateformHTML .Date }}" data-pagefind-sort="date">
                 {{ dateFormat .Site.Params.dateformNumTime .Date }}
                 </date>
-              </p>
+            </p>
+        </div>
 
-            {{ partial "pagination-single.html" . }}
-  		</div>
+        <hr />
+        <div class="syndication">
+            {{ partial "syndication.html" . }}
+        </div>
+        {{ partial "pagination-single.html" . }}
+    
     </main>
 {{ end }}

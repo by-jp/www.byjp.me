@@ -4,6 +4,12 @@
 {{ range .Params.syndications }}
   {{ if hasPrefix . "https://bsky.app/" }}
     {{ partial "syndication-ref.html" (dict "type" "bluesky" "link" .) }}
+  {{ else if hasPrefix . "https://pixelfed.social/" }}
+    {{ partial "syndication-ref.html" (dict "type" "pixelfed" "link" .) }}
+  {{ else if hasPrefix . "https://www.facebook.com/" }}
+    {{ partial "syndication-ref.html" (dict "type" "facebook" "link" .) }}
+  {{ else if hasPrefix . "https://www.instagram.com/" }}
+    {{ partial "syndication-ref.html" (dict "type" "instagram" "link" .) }}
   {{ else if hasPrefix . "https://hachyderm.io/" }}
     {{ partial "syndication-ref.html" (dict "type" "mastodon" "link" .) }}  
   {{ else if hasPrefix . "https://www.goodreads.com/" }}
