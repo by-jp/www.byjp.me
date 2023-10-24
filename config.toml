@@ -121,3 +121,11 @@ date = ["date", "publishDate", "lastmod", ":git"]
 
 [sitemap]
   filename = 'sitemap.xml'
+
+[mediaTypes]
+  [mediaTypes.'text/opml']
+    suffixes = ['opml']
+[outputFormats]
+  [outputFormats.opml]
+    mediaType = 'text/opml'
+    baseName = 'feeds'
