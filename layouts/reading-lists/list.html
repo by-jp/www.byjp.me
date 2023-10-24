@@ -1,0 +1,47 @@
+      
+{{ define "main" }}
+    {{ $paginator := .Paginate .Data.Pages }}
+    
+    <main class="posts" {{ if eq .Kind "taxonomy" }}data-pagefind-ignore{{ end }}>
+      {{ partial "memex-header.html" . }}
+
+        <hgroup class="post-title">
+            <h1 class="p-name">
+                {{ with .Params.emoji }}<span data-emoji="{{.}}"></span>{{end}}
+                <a href="{{ .Permalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
+            </h1>
+            <ul class="feedlinks">
+                <li><a href="./feeds.opml" target="_blank">{{ partial "svg.html" (dict "name" "rss") }}OPML feed</a></li>
+            </ul>
+        </hgroup>
+
+        {{ if .Content }}
+            <div class="post-content e-content" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">{{ .Content }}</div>
+        {{ end }}
+
+        {{ range $paginator.Pages.GroupByDate "2006" }}
+            <div class="posts-group">
+                <div class="post-year">{{ .Key }}</div>
+
+                <ul class="posts-list">
+                    {{ range .Pages }}
+                        <li class="post-item">
+                            <a href="{{.Permalink}}">
+                                {{ if .Params.emoji }}<span class="post-emoji">{{ .Params.emoji }}</span>{{ end }}
+                                <span class="post-title">{{ if .Title }}{{.Title}}{{ else }}<i>Untitled {{ .Type | singularize -}}</i>{{ end }}</span>
+                                <span class="post-day">
+                                    {{ if .Site.Params.dateformShort }}
+                                        {{ .Date.Format .Site.Params.dateformShort }}
+                                    {{ else }}
+                                        {{ .Date.Format "Jan 2"}}
+                                    {{ end }}
+                                </span>
+                            </a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+        {{ end }}
+    {{ partial "pagination-list.html" . }}
+    </main>
+{{ end }}

@@ -1,0 +1,64 @@
+{{ define "main" }}
+  <main class="post h-entry">
+
+    {{ partial "memex-header.html" . }}
+
+    <article>
+      <hgroup class="post-title">
+        <h1 class="p-name">
+          {{ with .Params.emoji }}<span data-emoji="{{.}}"></span>{{end}}
+          <a href="{{ .Permalink }}" class="noaccent u-url">{{ .Title | markdownify }}</a>
+        </h1>
+        <ul class="feedlinks">
+          <li><a href="{{.Params.feed.rss}}" target="_blank" rel="noopener">{{ partial "svg.html" (dict "name" "rss") }}Feed</a></li>
+          {{ if .Params.feed.url }}<li><a href="{{.Params.feed.url}}" target="_blank" rel="noopener">{{ partial "svg.html" (dict "name" "web") }}Homepage</a></li>{{ end }}
+        </ul>
+      </hgroup>
+
+      {{ with .Summary }}
+        <div class="post-summary p-summary" aria-hidden="true">{{ . }}</div>
+      {{ end }}
+
+      {{ if .Params.Cover }}
+        <figure class="post-cover">
+          <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" />
+          
+          {{ if .Params.CoverCaption }}
+            <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
+          {{ end }}
+        </figure>
+      {{ end }}
+
+      {{- if .Params.toc }}
+        <hr />
+        <aside id="toc">
+          <div class="toc-title">{{ i18n "tableOfContents" }}</div>
+          {{ .TableOfContents }}
+        </aside>
+        <hr />
+      {{- end }}
+
+      <div class="post-content e-content" data-pagefind-body>
+        {{ .Content | replaceRE `(\s)#([\w-]+)(\s)` `$1<a href="/tags/$2">$2</a>$3` | safeHTML }}
+      </div>
+    </article>
+
+    <hr />
+
+    {{ partial "memex-footer.html" . }}
+
+    {{ if .Page.Store.Get "hasMermaid" }}
+      <script src="/js/mermaid.js"></script>
+      <script>
+        // TODO: Render mermaid server side
+        function initMermaid() {
+          const dark = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          mermaid.initialize({ startOnLoad: true, theme: dark ? 'dark' : 'neutral' });
+        }
+        // https://github.com/mermaid-js/mermaid/issues/1945
+        // window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', initMermaid);
+        initMermaid();
+      </script>
+    {{ end }}
+  </main>
+{{ end }}
