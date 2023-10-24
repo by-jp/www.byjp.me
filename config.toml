@@ -110,7 +110,7 @@ date = ["date", "publishDate", "lastmod", ":git"]
         weight = 4
       [[languages.en.menu.main]]
         identifier = "reading-lists"
-        name = "📡 Reading lists"
+        name = "🔖 Reading lists"
         url = "/reading-lists"
         weight = 5
       [[languages.en.menu.main]]
