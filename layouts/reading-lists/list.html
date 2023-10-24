@@ -1,7 +1,5 @@
       
-{{ define "main" }}
-    {{ $paginator := .Paginate .Data.Pages }}
-    
+{{ define "main" }}    
     <main class="posts" {{ if eq .Kind "taxonomy" }}data-pagefind-ignore{{ end }}>
       {{ partial "memex-header.html" . }}
 
@@ -19,29 +17,22 @@
             <div class="post-content e-content" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">{{ .Content }}</div>
         {{ end }}
 
-        {{ range $paginator.Pages.GroupByDate "2006" }}
-            <div class="posts-group">
-                <div class="post-year">{{ .Key }}</div>
-
-                <ul class="posts-list">
-                    {{ range .Pages }}
-                        <li class="post-item">
-                            <a href="{{.Permalink}}">
-                                {{ if .Params.emoji }}<span class="post-emoji">{{ .Params.emoji }}</span>{{ end }}
-                                <span class="post-title">{{ if .Title }}{{.Title}}{{ else }}<i>Untitled {{ .Type | singularize -}}</i>{{ end }}</span>
-                                <span class="post-day">
-                                    {{ if .Site.Params.dateformShort }}
-                                        {{ .Date.Format .Site.Params.dateformShort }}
-                                    {{ else }}
-                                        {{ .Date.Format "Jan 2"}}
-                                    {{ end }}
-                                </span>
-                            </a>
-                        </li>
-                    {{ end }}
-                </ul>
-            </div>
-        {{ end }}
-    {{ partial "pagination-list.html" . }}
+        <ul class="posts-list">
+            {{ range .Pages.ByDate }}
+                <li class="post-item">
+                    <a href="{{.Permalink}}">
+                        {{ if .Params.emoji }}<span class="post-emoji">{{ .Params.emoji }}</span>{{ end }}
+                        <span class="post-title">{{ if .Title }}{{.Title}}{{ else }}<i>Untitled {{ .Type | singularize -}}</i>{{ end }}</span>
+                        <span class="post-day">
+                            {{ if .Site.Params.dateformShort }}
+                                {{ .Date.Format .Site.Params.dateformShort }}
+                            {{ else }}
+                                {{ .Date.Format "Jan 2"}}
+                            {{ end }}
+                        </span>
+                    </a>
+                </li>
+            {{ end }}
+        </ul>
     </main>
 {{ end }}
