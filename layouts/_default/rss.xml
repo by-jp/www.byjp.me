@@ -1,8 +1,6 @@
 {{- $pages := slice -}}
 {{- if .IsHome -}}
   {{- $pages = where .Site.RegularPages "Type" "not in" (slice "memex" "timeless" "site-infra" "reading-lists") -}}
-{{- else if $.IsSection -}}
-  {{- $pages = .RegularPages -}}
 {{- else -}}
   {{- $pages = .Pages -}}
 {{- end -}}
