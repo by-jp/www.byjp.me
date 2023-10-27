@@ -9,6 +9,8 @@ tags:
 - vision
 - deliveroo
 - colour
+- picker
+- colour-scheme
 ---
 
 ## Spelling
@@ -18,3 +20,7 @@ I spell colour with a U (as I'm British) while I'm writing text for humans, but 
 ## LCH colours
 
 I'm a big fan of the [LCH colour space](https://css.land/lch/), which is designed to allow for consistent human-perceived luminescence as the hue and chroma change. [Read more here](https://lea.verou.me/blog/2020/04/lch-colors-in-css-what-why-and-how/).
+
+## Finding colour schemes
+
+I regularly use the [paletton](https://paletton.com/) colour scheme finder to pick colours that work well together. It's great for finding colours that work well together, and is surprisingly sophisticated!
