@@ -1,0 +1,34 @@
+publish_root = "public/"
+publish_url = "https://www.byjp.me/"
+feeds = ["index.xml"]
+content_glob = "content/**/*.md"
+interactions_dir = "data/interactions/"
+
+[sites]
+  [sites.instagram]
+    type = "instagram"
+    username = "jphastings"
+    password_envvar = "INSTAGRAM_PASSWORD"
+    totp_envvar = "INSTAGRAM_TOTP"
+
+  # [sites.bluesky]
+  #   type = "bluesky"
+  #   username = "byjp.me"
+  #   password_envvar = "BLUESKY_PASSWORD"
+
+  [sites.pixelfed]
+    type = "pixelfed"
+    server = "https://pixelfed.social"
+    username = "jphastings"
+    access_token_envvar = "PIXELFED_ACCESS_TOKEN"
+
+  # [sites.medium]
+  #   type = "medium"
+  #   username = "jphastings"
+  #   password_envvar = "MEDIUM_PASSWORD"
+
+  # [sites.mastodon]
+  #   type = "mastodon"
+  #   server = "https://hachyderm.io"
+  #   username = "byjp"
+  #   password_envvar = "MASTODON_PASSWORD"
