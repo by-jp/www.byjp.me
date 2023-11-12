@@ -7,23 +7,20 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/by-jp/www.byjp.me/tools/syndicate/services"
 	"github.com/by-jp/www.byjp.me/tools/syndicate/shared"
 )
 
 type poster struct {
-	services map[string]shared.Service
+	services *services.List
 	done     map[shared.SyndicationID]string
 }
 
-func New(services map[string]shared.Service) *poster {
+func New(services *services.List) *poster {
 	return &poster{
 		services: services,
 		done:     make(map[shared.SyndicationID]string),
 	}
-}
-
-func (p *poster) Connect(sname string) error {
-	return p.services[sname].Connect(false)
 }
 
 func (p *poster) Post(sid shared.SyndicationID, post shared.Post) error {
@@ -31,7 +28,7 @@ func (p *poster) Post(sid shared.SyndicationID, post shared.Post) error {
 		return nil
 	}
 
-	url, err := p.services[sid.Source].Post(post)
+	url, err := p.services.Service(sid.Source).Post(post)
 	if err != nil {
 		return err
 	}

@@ -1,13 +1,15 @@
 package backfeeder
 
-import "github.com/by-jp/www.byjp.me/tools/syndicate/shared"
+import (
+	"github.com/by-jp/www.byjp.me/tools/syndicate/services"
+)
 
 type backfeeder struct {
-	services map[string]shared.Service
+	services *services.List
 	done     map[string]struct{}
 }
 
-func New(services map[string]shared.Service) *backfeeder {
+func New(services *services.List) *backfeeder {
 	return &backfeeder{
 		services: services,
 		done:     make(map[string]struct{}),

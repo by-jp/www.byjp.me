@@ -8,6 +8,7 @@ import (
 	"strings"
 
 	"github.com/BurntSushi/toml"
+	"github.com/by-jp/www.byjp.me/tools/syndicate/services"
 	"github.com/by-jp/www.byjp.me/tools/syndicate/shared"
 
 	"github.com/bmatcuk/doublestar/v4"
@@ -30,7 +31,7 @@ type fileConfig struct {
 
 type config struct {
 	feeds               []string
-	services            map[string]shared.Service
+	services            *services.List
 	interactionsDir     string
 	content             []string
 	tagMatcher          *regexp.Regexp
@@ -47,7 +48,6 @@ func parseConfig(cfgPath string) (*config, error) {
 
 	cfg := &config{
 		feeds:               []string{},
-		services:            make(map[string]shared.Service),
 		syndicationMatchers: make(map[string]*regexp.Regexp),
 		interactionsDir:     cfgData.InteractionsDir,
 		urlToPath: func(url string) string {
@@ -72,11 +72,10 @@ func parseConfig(cfgPath string) (*config, error) {
 
 	var serviceTags []string
 	for name, siteConfig := range cfgData.Sites {
-		svc, err := shared.Load(name, siteConfig)
+		svc, err := cfg.services.Load(name, siteConfig)
 		if err != nil {
 			return nil, err
 		}
-		cfg.services[name] = svc
 
 		bf, err := svc.BackfeedMatcher()
 		if err != nil {

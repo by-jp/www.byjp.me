@@ -36,7 +36,7 @@ func main() {
 		if len(services) > 0 {
 			fmt.Fprintf(os.Stderr, "Connecting to %s to syndicate & backfeed…\n", strings.Join(services, ", "))
 			for _, sname := range services {
-				if err := pstr.Connect(sname); err != nil {
+				if err := cfg.services.Init(sname); err != nil {
 					check(fmt.Errorf("couldn't connect to %s: %w", sname, err))
 				}
 			}
