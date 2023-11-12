@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"os"
 	"path"
 	"regexp"
@@ -28,12 +29,13 @@ type fileConfig struct {
 }
 
 type config struct {
-	feeds           []string
-	services        map[string]shared.Service
-	interactionsDir string
-	content         []string
-	tagMatcher      *regexp.Regexp
-	urlToPath       func(string) string
+	feeds               []string
+	services            map[string]shared.Service
+	interactionsDir     string
+	content             []string
+	tagMatcher          *regexp.Regexp
+	syndicationMatchers map[string]*regexp.Regexp
+	urlToPath           func(string) string
 }
 
 func parseConfig(cfgPath string) (*config, error) {
@@ -44,9 +46,10 @@ func parseConfig(cfgPath string) (*config, error) {
 	}
 
 	cfg := &config{
-		feeds:           []string{},
-		services:        make(map[string]shared.Service),
-		interactionsDir: cfgData.InteractionsDir,
+		feeds:               []string{},
+		services:            make(map[string]shared.Service),
+		syndicationMatchers: make(map[string]*regexp.Regexp),
+		interactionsDir:     cfgData.InteractionsDir,
 		urlToPath: func(url string) string {
 			return path.Join(cfgData.PublishRoot, strings.TrimPrefix(url, cfgData.PublishURL))
 		},
@@ -74,6 +77,12 @@ func parseConfig(cfgPath string) (*config, error) {
 			return nil, err
 		}
 		cfg.services[name] = svc
+
+		bf, err := svc.BackfeedMatcher()
+		if err != nil {
+			return nil, fmt.Errorf("cannot perform backfeed matching for '%s' because %w", name, err)
+		}
+		cfg.syndicationMatchers[name] = bf
 		serviceTags = append(serviceTags, name)
 	}
 	cfg.tagMatcher, err = shared.TagMatcher(serviceTags)

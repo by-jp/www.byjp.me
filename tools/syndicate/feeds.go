@@ -13,7 +13,7 @@ import (
 type toPostMap map[shared.SyndicationID]shared.Post
 type toBackfeedMap map[string]string
 
-func parseFeed(urlToPath func(string) string, feedReader io.Reader, tagMatcher *regexp.Regexp) ([]string, toPostMap, toBackfeedMap, error) {
+func parseFeed(urlToPath func(string) string, feedReader io.Reader, tagMatcher *regexp.Regexp, syndicationMatchers map[string]*regexp.Regexp) ([]string, toPostMap, toBackfeedMap, error) {
 	fp := gofeed.NewParser()
 	feed, err := fp.Parse(feedReader)
 	if err != nil {
@@ -22,7 +22,7 @@ func parseFeed(urlToPath func(string) string, feedReader io.Reader, tagMatcher *
 
 	toPost := make(toPostMap)
 	toBackfeed := make(toBackfeedMap)
-	var services []string
+	services := make(map[string]struct{})
 
 	for _, item := range feed.Items {
 		if item.Extensions == nil || item.Extensions["dc"] == nil || item.Extensions["dc"]["relation"] == nil {
@@ -37,24 +37,29 @@ func parseFeed(urlToPath func(string) string, feedReader io.Reader, tagMatcher *
 					continue
 				}
 				toPost[sID], err = itemToPost(item, urlToPath)
-				services = append(services, sID.Source)
+				services[sID.Source] = struct{}{}
 				if err != nil {
 					return nil, nil, nil, err
 				}
 				continue
 			}
 
-			for _, bf := range []regexp.Regexp{} {
+			for sName, bf := range syndicationMatchers {
 				if bf.MatchString(ext.Value) {
 					toBackfeed[ext.Value] = item.Link
-					// TODO: Login for backfed posts
+					services[sName] = struct{}{}
 					break
 				}
 			}
 		}
 	}
 
-	return services, toPost, toBackfeed, nil
+	var servicesList []string
+	for sName := range services {
+		servicesList = append(servicesList, sName)
+	}
+
+	return servicesList, toPost, toBackfeed, nil
 }
 
 func itemToPost(item *gofeed.Item, urlToPath func(string) string) (shared.Post, error) {

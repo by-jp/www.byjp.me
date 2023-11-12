@@ -47,7 +47,7 @@ func (s *service) BackfeedMatcher() (*regexp.Regexp, error) {
 
 	return regexp.Compile(
 		regexp.QuoteMeta(url) +
-			`(?P<username>@[a-zA-Z0-9_-]+)/(?P<id>[0-9]+)/`,
+			`(?:p/)?@?(?P<username>[a-zA-Z0-9_-]+)/(?P<id>[0-9]+)`,
 	)
 }
 
