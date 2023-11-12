@@ -6,14 +6,13 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/by-jp/www.byjp.me/tools/syndicate/backfeeder"
 	"github.com/by-jp/www.byjp.me/tools/syndicate/poster"
 	"github.com/by-jp/www.byjp.me/tools/syndicate/shared"
 	"github.com/mmcdole/gofeed"
 )
 
-type toBackfeedMap map[string]string
-
-func parseFeed(urlToPath func(string) string, feedReader io.Reader, tagMatcher *regexp.Regexp, syndicationMatchers map[string]*regexp.Regexp) ([]string, poster.ToPostList, toBackfeedMap, error) {
+func parseFeed(urlToPath func(string) string, feedReader io.Reader, tagMatcher *regexp.Regexp, syndicationMatchers map[string]*regexp.Regexp) ([]string, poster.ToPostList, backfeeder.ToBackfeedList, error) {
 	fp := gofeed.NewParser()
 	feed, err := fp.Parse(feedReader)
 	if err != nil {
@@ -21,7 +20,7 @@ func parseFeed(urlToPath func(string) string, feedReader io.Reader, tagMatcher *
 	}
 
 	toPost := make(poster.ToPostList)
-	toBackfeed := make(toBackfeedMap)
+	toBackfeed := make(backfeeder.ToBackfeedList)
 	services := make(map[string]struct{})
 
 	for _, item := range feed.Items {
@@ -46,7 +45,10 @@ func parseFeed(urlToPath func(string) string, feedReader io.Reader, tagMatcher *
 
 			for sName, bf := range syndicationMatchers {
 				if bf.MatchString(ext.Value) {
-					toBackfeed[ext.Value] = item.Link
+					toBackfeed[ext.Value] = backfeeder.BackfeedRef{
+						Source:   sName,
+						LocalURL: item.Link,
+					}
 					services[sName] = struct{}{}
 					break
 				}

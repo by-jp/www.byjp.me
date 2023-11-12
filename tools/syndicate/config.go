@@ -30,13 +30,13 @@ type fileConfig struct {
 }
 
 type config struct {
-	feeds               []string
-	services            *services.List
-	interactionsDir     string
-	content             []string
-	tagMatcher          *regexp.Regexp
-	syndicationMatchers map[string]*regexp.Regexp
-	urlToPath           func(string) string
+	feeds                 []string
+	services              *services.List
+	content               []string
+	tagMatcher            *regexp.Regexp
+	syndicationMatchers   map[string]*regexp.Regexp
+	urlToPublicPath       func(string) string
+	urlToInteractionsPath func(string) string
 }
 
 func parseConfig(cfgPath string) (*config, error) {
@@ -48,10 +48,13 @@ func parseConfig(cfgPath string) (*config, error) {
 
 	cfg := &config{
 		feeds:               []string{},
+		services:            services.New(),
 		syndicationMatchers: make(map[string]*regexp.Regexp),
-		interactionsDir:     cfgData.InteractionsDir,
-		urlToPath: func(url string) string {
+		urlToPublicPath: func(url string) string {
 			return path.Join(cfgData.PublishRoot, strings.TrimPrefix(url, cfgData.PublishURL))
+		},
+		urlToInteractionsPath: func(url string) string {
+			return path.Join(cfgData.InteractionsDir, strings.TrimPrefix(url, cfgData.PublishURL))
 		},
 	}
 

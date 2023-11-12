@@ -24,13 +24,13 @@ func main() {
 	check(err)
 
 	pstr := poster.New(cfg.services)
-	bkfd := backfeeder.New(cfg.services)
+	bkfd := backfeeder.New(cfg.services, cfg.urlToInteractionsPath)
 
 	for _, feed := range cfg.feeds {
 		f, err := os.Open(feed)
 		check(err)
 		defer f.Close()
-		services, toPost, toBackfeed, err := parseFeed(cfg.urlToPath, f, cfg.tagMatcher, cfg.syndicationMatchers)
+		services, toPost, toBackfeed, err := parseFeed(cfg.urlToPublicPath, f, cfg.tagMatcher, cfg.syndicationMatchers)
 		check(err)
 
 		if len(services) > 0 {
@@ -43,9 +43,7 @@ func main() {
 		}
 
 		fmt.Fprintf(os.Stderr, "Found %d new syndications to post in %s\n", len(toPost), feed)
-		posted, err := pstr.PostAll(toPost)
-		_ = posted
-		if err != nil {
+		if _, err := pstr.PostAll(toPost); err != nil {
 			fmt.Fprintf(os.Stderr, "Couldn't post syndications: %v\n", err)
 		}
 
@@ -56,6 +54,8 @@ func main() {
 		}
 
 		fmt.Fprintf(os.Stderr, "Found %d existing syndications to backfeed from %s\n", len(toBackfeed), feed)
-		_ = bkfd
+		if err := bkfd.BackfeedAll(toBackfeed); err != nil {
+			fmt.Fprintf(os.Stderr, "Couldn't backfeed syndications: %v\n", err)
+		}
 	}
 }

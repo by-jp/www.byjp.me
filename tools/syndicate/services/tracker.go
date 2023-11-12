@@ -11,7 +11,9 @@ type List struct {
 }
 
 func New() *List {
-	return &List{}
+	return &List{
+		available: make(map[string]shared.Service),
+	}
 }
 
 func (l *List) Load(name string, siteConfig any) (shared.Service, error) {
