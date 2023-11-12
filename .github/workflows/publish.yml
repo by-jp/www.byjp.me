@@ -79,7 +79,7 @@ jobs:
             git config --global user.name "Syndicate[bot]"
             git commit -am "Syndicated post references"
             git push
-            // TODO: Do not upload, but without failing
+            # TODO: Do not upload, but without failing the build
             exit 1
           fi
       - name: Build search index
