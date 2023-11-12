@@ -37,6 +37,8 @@ type config struct {
 	syndicationMatchers   map[string]*regexp.Regexp
 	urlToPublicPath       func(string) string
 	urlToInteractionsPath func(string) string
+
+	performBackfeed bool
 }
 
 func parseConfig(cfgPath string) (*config, error) {
@@ -50,12 +52,16 @@ func parseConfig(cfgPath string) (*config, error) {
 		feeds:               []string{},
 		services:            services.New(),
 		syndicationMatchers: make(map[string]*regexp.Regexp),
+		performBackfeed:     cfgData.InteractionsDir != "",
 		urlToPublicPath: func(url string) string {
 			return path.Join(cfgData.PublishRoot, strings.TrimPrefix(url, cfgData.PublishURL))
 		},
-		urlToInteractionsPath: func(url string) string {
+	}
+
+	if cfg.performBackfeed {
+		cfg.urlToInteractionsPath = func(url string) string {
 			return path.Join(cfgData.InteractionsDir, strings.TrimPrefix(url, cfgData.PublishURL))
-		},
+		}
 	}
 
 	cfg.content, err = doublestar.Glob(os.DirFS("."), cfgData.ContentGlob)
@@ -80,11 +86,14 @@ func parseConfig(cfgPath string) (*config, error) {
 			return nil, err
 		}
 
-		bf, err := svc.BackfeedMatcher()
-		if err != nil {
-			return nil, fmt.Errorf("cannot perform backfeed matching for '%s' because %w", name, err)
+		if cfg.performBackfeed {
+			bf, err := svc.BackfeedMatcher()
+			if err != nil {
+				return nil, fmt.Errorf("cannot perform backfeed matching for '%s' because %w", name, err)
+			}
+			cfg.syndicationMatchers[name] = bf
 		}
-		cfg.syndicationMatchers[name] = bf
+
 		serviceTags = append(serviceTags, name)
 	}
 	cfg.tagMatcher, err = shared.TagMatcher(serviceTags)

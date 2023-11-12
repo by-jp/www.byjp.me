@@ -28,12 +28,12 @@ type Interaction struct {
 	// eg. Repost is 🔁, Facebook is 👍, Instagram is ♥️, Mastodon is ⭐️, Medium is 👏
 	Emoji string `json:"emoji,omitempty"`
 	// The URL of the original interaction
-	URL string `json:"url,omitempty"`
+	URL string `json:"url"`
 	// If there's a comment associated with the interaction
 	Comment string `json:"comment,omitempty"`
 	// Details of the author
 	Author    Author    `json:"author"`
-	Timestamp time.Time `json:"timestamp"`
+	Timestamp time.Time `json:"timestamp,omitempty"`
 }
 
 type Author struct {

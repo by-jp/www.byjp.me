@@ -455,3 +455,61 @@ figure {
     }
   }
 }
+
+.interactions {
+
+  details {
+
+    summary {
+      cursor: pointer;
+      list-style: none;
+
+      &::marker, &::-webkit-details-marker {
+        display: none;
+      }
+      margin-bottom: 8px;
+    }
+
+    summary::after {
+      color: var(--accent);
+      opacity: 0.8;
+      content: ' (show)';
+    }
+    &[open] summary {
+      &::after {
+        content: ' (hide)';
+      }
+    }
+
+  }
+  
+  ul.reactions {
+    margin: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+
+      &:not(:first-of-type) {
+        margin: auto 0 auto 8px;
+      }
+
+      svg {
+        margin: 0;
+      }
+    }
+  }
+
+  ol.comments {
+    margin: 0;
+    list-style: none;
+
+    li {
+      margin: 1em 0;
+    }
+
+    .muted {
+      opacity: 0.6;
+    }
+  }
+}

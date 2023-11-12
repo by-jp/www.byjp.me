@@ -25,12 +25,12 @@ func (s *service) Interactions(url string) ([]shared.Interaction, error) {
 	for _, acc := range favs {
 		ias = append(ias, shared.Interaction{
 			Emoji: "⭐️",
+			URL:   url,
 			Author: shared.Author{
 				Name:      acc.DisplayName,
 				URL:       acc.URL,
 				AvatarURL: acc.Avatar,
 			},
-			Timestamp: acc.CreatedAt,
 		})
 	}
 
@@ -42,12 +42,12 @@ func (s *service) Interactions(url string) ([]shared.Interaction, error) {
 	for _, acc := range reblogs {
 		ias = append(ias, shared.Interaction{
 			Emoji: "🔁",
+			URL:   url,
 			Author: shared.Author{
 				Name:      acc.DisplayName,
 				URL:       acc.URL,
 				AvatarURL: acc.Avatar,
 			},
-			Timestamp: acc.CreatedAt,
 		})
 	}
 

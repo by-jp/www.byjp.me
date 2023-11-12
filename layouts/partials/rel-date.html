@@ -1,0 +1,14 @@
+{{- $desc := "0s" -}}
+{{- $diff := (time .time).Sub (time .rel) -}}
+{{- if gt $diff.Hours 168 -}}
+  {{- $desc = printf "%.0fw" (div $diff.Hours 168) -}}
+{{- else if gt $diff.Hours 24 -}}
+  {{- $desc = printf "%.0fd" (div $diff.Hours 24) -}}
+{{- else if gt $diff.Minutes 60 -}}
+  {{- $desc = printf "%.0fh" (div $diff.Minutes 60) -}}
+{{- else if gt $diff.Seconds 60 -}}
+  {{- $desc = printf "%.0fm" (div $diff.Seconds 60) -}}
+{{- else -}}
+  {{- $desc = printf "%.0fs" (div $diff.Seconds 1) -}}
+{{- end -}}
+<time timestamp="{{ .time }}" title="{{ time .time | dateFormat "2006-01-02 03:04 MST" }}">{{- $desc -}}</time>

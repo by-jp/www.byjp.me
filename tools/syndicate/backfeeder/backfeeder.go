@@ -53,17 +53,31 @@ func (b *backfeeder) BackfeedAll(toBackfeed ToBackfeedList) error {
 }
 
 func writeInteractions(dir string, ias []shared.Interaction) error {
-	if err := os.MkdirAll(dir, 0755); err != nil {
+	if err := os.MkdirAll(filepath.Dir(dir), 0755); err != nil {
 		return err
 	}
-	path := filepath.Join(dir, "interactions.json")
+	path := dir + ".json"
 
 	f, err := os.OpenFile(path, os.O_CREATE|os.O_WRONLY|os.O_TRUNC, 0644)
 	if err != nil {
 		return err
 	}
 	defer f.Close()
-
 	enc := json.NewEncoder(f)
-	return enc.Encode(ias)
+
+	split := map[string]interface{}{
+		"interactions": ias,
+		"reactions":    make(map[string]int),
+	}
+
+	for _, ia := range ias {
+		if ia.Emoji != "" {
+			split["reactions"].(map[string]int)[ia.Emoji]++
+		}
+		if ia.Comment != "" {
+			split["reactions"].(map[string]int)["💬"]++
+		}
+	}
+
+	return enc.Encode(split)
 }

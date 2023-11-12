@@ -34,7 +34,7 @@ func main() {
 		check(err)
 
 		if len(services) > 0 {
-			fmt.Fprintf(os.Stderr, "Connecting to %s to syndicate & backfeed…\n", strings.Join(services, ", "))
+			fmt.Fprintf(os.Stderr, "Connecting to %s to syndicate…\n", strings.Join(services, ", "))
 			for _, sname := range services {
 				if err := cfg.services.Init(sname); err != nil {
 					check(fmt.Errorf("couldn't connect to %s: %w", sname, err))
@@ -51,6 +51,10 @@ func main() {
 			if err := pstr.ReplaceReferences(fname, cfg.tagMatcher); err != nil {
 				fmt.Fprintf(os.Stderr, "Couldn't replace syndication references: %v\n", err)
 			}
+		}
+
+		if !cfg.performBackfeed {
+			continue
 		}
 
 		fmt.Fprintf(os.Stderr, "Found %d existing syndications to backfeed from %s\n", len(toBackfeed), feed)
