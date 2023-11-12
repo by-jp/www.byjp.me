@@ -484,14 +484,14 @@ figure {
   }
   
   ul.reactions {
-    margin: 0;
+    margin: 0 0 0 2em;
     list-style: none;
 
     li {
       display: inline-block;
 
       &:not(:first-of-type) {
-        margin: auto 0 auto 8px;
+        margin: auto auto auto 0.75em;
       }
 
       svg {
@@ -501,7 +501,7 @@ figure {
   }
 
   ol.comments {
-    margin: 0;
+    margin: 0 0 0 2em;
     list-style: none;
 
     li {
