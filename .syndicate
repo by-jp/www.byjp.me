@@ -2,20 +2,21 @@ publish_root = "public/"
 publish_url = "https://www.byjp.me/"
 feeds = ["index.xml"]
 content_glob = "content/**/*.md"
-interactions_dir = "data/interactions/"
-interaction_pfps_dir = "static/interaction-pfps/"
+# interactions_dir = "data/interactions/"
+# interaction_pfps_dir = "static/interaction-pfps/"
 
 [sites]
-  # [sites.instagram]
-  #   type = "instagram"
-  #   username = "jphastings"
-  #   password_envvar = "INSTAGRAM_PASSWORD"
-  #   totp_envvar = "INSTAGRAM_TOTP"
+  [sites.instagram]
+    type = "instagram"
+    username = "jphastings"
+    password_envvar = "INSTAGRAM_PASSWORD"
+    totp_envvar = "INSTAGRAM_TOTP"
 
   # [sites.bluesky]
-  #   type = "bluesky"
+  #   type = "atproto"
+  #   server = "https://bsky.social"
   #   username = "byjp.me"
-  #   password_envvar = "BLUESKY_PASSWORD"
+  #   app_key_envvar = "BLUESKY_PASSWORD"
 
   [sites.pixelfed]
     type = "pixelfed"

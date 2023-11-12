@@ -13,7 +13,7 @@ import (
 
 	"github.com/bmatcuk/doublestar/v4"
 
-	_ "github.com/by-jp/www.byjp.me/tools/syndicate/services/bluesky"
+	_ "github.com/by-jp/www.byjp.me/tools/syndicate/services/atproto"
 	_ "github.com/by-jp/www.byjp.me/tools/syndicate/services/instagram"
 	_ "github.com/by-jp/www.byjp.me/tools/syndicate/services/localonly"
 	_ "github.com/by-jp/www.byjp.me/tools/syndicate/services/mastodon"
