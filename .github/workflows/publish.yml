@@ -29,7 +29,8 @@ jobs:
     env:
       HUGO_VERSION: 0.111.3
     steps:
-      - uses: actions/setup-go@v4
+      - name: Install Golang
+        uses: actions/setup-go@v4
         with:
           go-version: '1.21.1'
       - name: Install Hugo CLI
@@ -62,6 +63,10 @@ jobs:
             --minify \
             --baseURL "https://www.byjp.me"
       - name: Syndicate
+        env:
+          INSTAGRAM_PASSWORD: ${{ secrets.INSTAGRAM_PASSWORD }}
+          INSTAGRAM_TOTP: ${{ secrets.INSTAGRAM_TOTP }}
+          PIXELFED_ACCESS_TOKEN: ${{ secrets.PIXELFED_ACCESS_TOKEN }}
         run: |
           cd tools/syndicate
           go mod download
