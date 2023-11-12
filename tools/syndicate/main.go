@@ -43,12 +43,10 @@ func main() {
 		}
 
 		fmt.Fprintf(os.Stderr, "Found %d new syndications to post in %s\n", len(toPost), feed)
-		for k, p := range toPost {
-			if err := pstr.Post(k, p); err == nil {
-				fmt.Printf("Posted '%s' to %s: %s\n", p.Title, k.Source, pstr.PostedURL(k))
-			} else {
-				fmt.Fprintf(os.Stderr, "Couldn't post %s to %s: %v\n", p.URL, k.Source, err)
-			}
+		posted, err := pstr.PostAll(toPost)
+		_ = posted
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Couldn't post syndications: %v\n", err)
 		}
 
 		for _, fname := range cfg.content {

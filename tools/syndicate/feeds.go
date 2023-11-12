@@ -6,21 +6,21 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/by-jp/www.byjp.me/tools/syndicate/poster"
 	"github.com/by-jp/www.byjp.me/tools/syndicate/shared"
 	"github.com/mmcdole/gofeed"
 )
 
-type toPostMap map[shared.SyndicationID]shared.Post
 type toBackfeedMap map[string]string
 
-func parseFeed(urlToPath func(string) string, feedReader io.Reader, tagMatcher *regexp.Regexp, syndicationMatchers map[string]*regexp.Regexp) ([]string, toPostMap, toBackfeedMap, error) {
+func parseFeed(urlToPath func(string) string, feedReader io.Reader, tagMatcher *regexp.Regexp, syndicationMatchers map[string]*regexp.Regexp) ([]string, poster.ToPostList, toBackfeedMap, error) {
 	fp := gofeed.NewParser()
 	feed, err := fp.Parse(feedReader)
 	if err != nil {
 		return nil, nil, nil, err
 	}
 
-	toPost := make(toPostMap)
+	toPost := make(poster.ToPostList)
 	toBackfeed := make(toBackfeedMap)
 	services := make(map[string]struct{})
 

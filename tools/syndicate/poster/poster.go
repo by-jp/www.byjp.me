@@ -11,6 +11,8 @@ import (
 	"github.com/by-jp/www.byjp.me/tools/syndicate/shared"
 )
 
+type ToPostList map[shared.SyndicationID]shared.Post
+
 type poster struct {
 	services *services.List
 	done     map[shared.SyndicationID]string
@@ -21,6 +23,19 @@ func New(services *services.List) *poster {
 		services: services,
 		done:     make(map[shared.SyndicationID]string),
 	}
+}
+
+func (p *poster) PostAll(toPost ToPostList) (map[string]string, error) {
+	posted := make(map[string]string)
+	for sid, post := range toPost {
+		if err := p.Post(sid, post); err == nil {
+			posted[post.URL] = p.done[sid]
+		} else {
+			return posted, fmt.Errorf("couldn't post %s to %s: %w", post.URL, sid.Source, err)
+		}
+	}
+
+	return posted, nil
 }
 
 func (p *poster) Post(sid shared.SyndicationID, post shared.Post) error {
@@ -36,14 +51,6 @@ func (p *poster) Post(sid shared.SyndicationID, post shared.Post) error {
 	p.done[sid] = url
 
 	return nil
-}
-
-func (p *poster) PostedURL(sid shared.SyndicationID) string {
-	if url, ok := p.done[sid]; ok {
-		return url
-	} else {
-		return ""
-	}
 }
 
 func (p *poster) ReplaceReferences(fname string, tagMatcher *regexp.Regexp) error {
