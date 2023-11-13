@@ -459,8 +459,8 @@ figure {
 .interactions {
 
   details {
-
     summary {
+      margin: 0;
       cursor: pointer;
       list-style: none;
 
@@ -481,10 +481,13 @@ figure {
       }
     }
 
+    > * {
+      margin: 0 0 0 1.8em;
+    }
+
   }
   
   ul.reactions {
-    margin: 0 0 0 2em;
     list-style: none;
 
     li {
@@ -495,13 +498,12 @@ figure {
       }
 
       svg {
-        margin: 0;
+        margin: 0 0.25em 0 0;
       }
     }
   }
 
   ol.comments {
-    margin: 0 0 0 2em;
     list-style: none;
 
     li {
