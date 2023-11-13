@@ -175,7 +175,7 @@ img.profile {
   }
 }
 
-.instagram {
+.photos {
   .posts-list {
     li {
       border: 0;
@@ -189,8 +189,16 @@ img.profile {
           display: inline;
           object-fit: cover;
           object-position: center;
-          height: 200px;
+          aspect-ratio: 1/1;
           width: 200px;
+
+          @media (max-width: 652px) {
+            width: calc(33% - 6px);
+          }
+
+          @media (max-width: 448px) {
+            width: calc(50% - 4px);
+          }
         }
       }
     }
