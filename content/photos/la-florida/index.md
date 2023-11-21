@@ -10,7 +10,8 @@ tags:
 - Venezuela
 - view
 syndications:
-- syndicate:instagram:fedcba987654321
+- https://www.instagram.com/p/CzxBvqHOkBbwfp4aT9Tz2v8av06PWTfx01se8M0/
+- https://pixelfed.social/p/jphastings/631278994729871476
 ---
 
 What a stunning view we have from our bedroom! We’re staying in Yvette’s late Aunt’s home in the part of Caracas called _La Florida_ — it’s absolutely stunning! Her home is beautiful (and probably the most incredibly designed home I’ve ever been in — both architecturally and furnishings), and this gorgeous backdrop of Caracas is verdant beyond anything I could have imagined!
