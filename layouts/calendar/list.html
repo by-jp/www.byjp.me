@@ -1,0 +1,44 @@
+{{ define "main" }}    
+    <main class="posts" {{ if eq .Kind "taxonomy" }}data-pagefind-ignore{{ end }}>
+        {{ partial "generic-list-header.html" . }}
+
+        <h1 class="p-name">
+            {{ with .Params.emoji }}<span data-emoji="{{.}}"></span>{{end}}
+            <a href="{{ .Permalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
+        </h1>
+
+        {{ if .Content }}
+            <div class="content" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">{{ .Content }}</div>
+        {{ end }}
+
+        {{ $events := dict }}
+        {{ range $page := .Data.Pages }}
+          {{ range $page.Params.timings }}
+            {{ $event := dict "Title" $page.Title "Page" $page.Page "Date" (time.AsTime .starts) }}
+            {{ $bundle := $event.Date.Format "Jan 2006" }}
+            {{ $events = merge $events (dict $bundle (sort ((index $events $bundle) | append $event) "Date" "asc")) }}
+          {{ end }}
+        {{ end }}
+
+        {{ range $key, $bundledEvents := $events }}
+          <div class="posts-group">
+            <div class="post-year">{{ $key }}</div>
+
+            <ul class="posts-list">
+              {{ range $bundledEvents }}
+                <li class="post-item">
+                    <a href="{{.Page.Permalink}}">
+                        {{ if .Page.Params.emoji }}<span class="post-emoji">{{ .Page.Params.emoji }}</span>{{ end }}
+                        <span class="post-title">{{.Page.Title}}</span>
+                        <span class="post-day">
+                          {{ .Date.Format "Jan 2"}} {{ if or (lt (.Date.Format "15") 9) (gt (.Date.Format "15") 17) }}🌙{{ else }}🌞{{ end }}
+                        </span>
+                    </a>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+    {{ partial "pagination-list.html" . }}
+    </main>
+{{ end }}

@@ -1,0 +1,156 @@
+{{ define "main" }}
+  <main class="post h-entry">
+
+    <div class="post-info">
+      {{ $dateType := "published" }}
+      {{ $date := .Date}}
+      {{ if not .Date }}
+        {{ $date = .Lastmod }}
+        {{ $dateType := "updated" }}
+      {{ end }}
+
+      {{ if .Lastmod }}
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          {{ if eq $dateType "updated" }}Last updated {{ end }}
+          {{ if eq $dateType "published" }}Published on {{ end }}
+          {{ partial "year-relative-date.html" $date }}
+        </p>
+      {{ end }}
+      <p class="reading-time">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        {{ i18n "readingTime" .Page.ReadingTime }}
+      </p>
+      <p class="author h-card hidden" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        <a href="{{ .Site.BaseURL | absURL }}" rel="author" class="p-author u-url">{{ .Site.Author.name }}</a>
+      </p>
+    </div>
+
+    <article>
+      <hgroup class="post-title">
+        <h1 class="p-name">
+          {{ with .Params.emoji }}<span data-emoji="{{.}}"></span>{{end}}
+          <a href="{{ .Permalink }}" class="noaccent u-url">{{ .Title | markdownify }}</a>
+        </h1>
+        {{ with .Params.Subtitle }}
+          <h2 class="post-subtitle">{{ . | markdownify }}</h2>
+        {{ end }}
+      </hgroup>
+
+      {{ with .Summary }}
+        <div class="post-summary p-summary" aria-hidden="true">{{ . }}</div>
+      {{ end }}
+
+      {{ if .Params.Cover }}
+        <figure class="post-cover">
+          <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" />
+          
+          {{ if .Params.CoverCaption }}
+            <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
+          {{ end }}
+        </figure>
+      {{ end }}
+
+      {{- if .Params.toc }}
+        <hr />
+        <aside id="toc">
+          <div class="toc-title">{{ i18n "tableOfContents" }}</div>
+          {{ .TableOfContents }}
+        </aside>
+        <hr />
+      {{- end }}
+
+      {{ if .Params.Audio }}
+        <div class="post-audio">
+          <audio controls>
+            <source src="{{ .Params.Audio }}">
+          </audio>
+        </div>
+      {{ end }}
+
+      {{ if .Page.Store.Get "hasSpoilers" }}
+        <blockquote class="spoiler-explainer">
+          {{ partial "svg.html" (dict "name" "hidden") }} This post contains spoilers, but they're hidden by default.
+        </blockquote>
+      {{ end }}
+
+      <div class="post-content e-content" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">
+        {{ .Content }}
+      </div>
+    </article>
+
+    <hr />
+
+    {{ if ne .Type "site-infra" }}
+      <div class="post-info">
+        {{ partial "tags.html" .Params.tags }}
+        {{ partial "series-tags.html" . }}
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          {{ i18n "wordCount" .Page.WordCount }}
+        </p>
+
+        {{ if in .Params.tags "from-tumblr" }}
+        <p>
+          <svg class="feather" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="-11 -11 282 282"><path fill="none" stroke="currentColor" stroke-width="22" d="M210.86 197.54a5 5 0 0 0-5.12.23c-11.62 7.64-23.4 11.5-35.02 11.5-6.24 0-11.6-1.39-16.41-4.27-3.27-1.93-6.31-5.32-7.4-8.26-1.06-2.8-1.05-10.33-1.03-20.75v-63.54h52.8a5 5 0 0 0 5-5V62.8a5 5 0 0 0-5-5h-52.8V5a5 5 0 0 0-5-5h-35.56a5 5 0 0 0-4.97 4.4c-1.48 12.23-4.25 22.38-8.24 30.2a63.66 63.66 0 0 1-15.65 19.92c-5.2 4.44-14.12 8.73-26.5 12.77a5 5 0 0 0-3.44 4.75v35.41a5 5 0 0 0 5 5h28.95v82.67c0 12.18 1.3 21.34 3.95 28.02 2.71 6.79 7.52 13.18 14.3 19 6.68 5.71 14.8 10.18 24.16 13.3 9.09 2.96 16.32 4.56 28.51 4.56 10.31 0 20.14-1.07 29.22-3.18 8.92-2.08 19.01-5.76 30-10.93a5 5 0 0 0 2.88-4.53v-39.41a5 5 0 0 0-2.63-4.4z"/></svg>
+          From <a href="/tags/from-tumblr">tumblr archive</a>
+        </p>
+        {{ end }}
+
+        {{ if .Lastmod }}
+          <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            <date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" $date }}" class="dt-{{ $dateType }}" title="{{ $dateType | title }} on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" $date }}" data-pagefind-sort="date">
+              {{ if .Site.Params.dateformNumTime }}
+                {{ dateFormat .Site.Params.dateformNumTime $date }}
+              {{ else }}
+                {{ dateFormat "2006-01-02 15:04" $date }}
+              {{ end }}
+            </date>
+          </p>
+        {{ end }}
+      </div>
+
+      <hr />
+      <div class="syndication">
+        {{ partial "syndication.html" . }}
+      </div>
+
+      {{ partial "pagination-single.html" . }}
+    {{ end }}
+
+    {{ if .Page.Store.Get "hasMermaid" }}
+      <script src="/js/mermaid.js"></script>
+      <script>
+        // TODO: Render mermaid server side
+        function initMermaid() {
+          const dark = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          mermaid.initialize({ startOnLoad: true, theme: dark ? 'dark' : 'neutral' });
+        }
+        // https://github.com/mermaid-js/mermaid/issues/1945
+        // window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', initMermaid);
+        initMermaid();
+      </script>
+    {{ end }}
+  </main>
+{{ end }}

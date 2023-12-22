@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+PRODID:-//www.byjp.me
+{{- range .Data.Pages}}
+BEGIN:VEVENT
+UID:byjp{{replace .Page.RelPermalink "/" "-"}}
+DTSTAMP:{{ .Page.Date.UTC.Format "20060102T150405Z" }}
+{{ with (index .Params.timings 0) -}}
+DTSTART:{{ (time.AsTime .starts).UTC.Format "20060102T150405Z" }}
+DURATION:{{ .duration }}
+{{ end -}}
+LOCATION:{{.Page.Params.location.name}}
+GEO:{{.Page.Params.location.latitude}};{{.Page.Params.location.longitude}}
+SUMMARY:{{.Page.Title}}
+DESCRIPTION:{{ .Page.Summary }}
+URL:{{.Page.Params.link}}
+ATTENDEE;CUTYPE=INDIVIDUAL;CN={{site.Author.name}};PARTSTAT={{ if .Page.Params.attending }}ACCEPTED{{else}}NEEDS-ACTION{{end}}:MAILTO:{{ site.Author.email}}
+END:VEVENT
+{{- end }}
+END:VCALENDAR
