@@ -41,13 +41,13 @@
     <div class="post-info">
       {{ partial "tags.html" .Params.tags }}
 
-      <p>
+      {{ with .Params.location }}<p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
           <circle cx="12" cy="10" r="3"></circle>
         </svg>
-        At <a href="{{ partial "geolink.html" .Params.location }}" class="p-location h-geo" target="_blank">{{ .Params.location.name }}</a>
-      </p>
+        At <a href="{{ partial "geolink.html" . }}" class="p-location h-geo" target="_blank">{{ .name }}<span class="hidden" aria-hidden>(<span class="p-latitude">{{ .latitude }}</span>, <span class="p-longitude">{{ .longitude }}</span>)</span></a>
+      </p>{{ end }}
 
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
