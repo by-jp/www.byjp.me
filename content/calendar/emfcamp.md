@@ -3,7 +3,7 @@ title: EMF Camp
 emoji: 📖
 date: 2023-12-24 13:49:16Z
 timings:
-  - starts: 2024-05-30
+  - starts: 2024-05-30T00:00:00+0100
     duration: P4D
 link: https://www.emfcamp.org/
 location:
