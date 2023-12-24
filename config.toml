@@ -130,14 +130,9 @@ date = ["date", "publishDate", "lastmod", ":git"]
 [mediaTypes]
   [mediaTypes.'text/opml']
     suffixes = ['opml']
-  [mediaTypes.'text/calendar']
-    suffixes = ['ics']
 [outputFormats]
   [outputFormats.opml]
     mediaType = 'text/opml'
     baseName = 'feeds'
-  [outputFormats.ics]
-    isPlainText = true
-    isHTML = false
-    mediaType = 'text/calendar'
+  [outputFormats.calendar]
     baseName = 'events'

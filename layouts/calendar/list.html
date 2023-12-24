@@ -1,11 +1,14 @@
 {{ define "main" }}    
     <main class="posts" {{ if eq .Kind "taxonomy" }}data-pagefind-ignore{{ end }}>
-        {{ partial "generic-list-header.html" . }}
-
+      {{ partial "memex-header.html" . }}
+      
+      <hgroup class="post-title">
         <h1 class="p-name">
             {{ with .Params.emoji }}<span data-emoji="{{.}}"></span>{{end}}
             <a href="{{ .Permalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
-        </h1>
+          </h1>
+          {{ partial "alternates.html" . }}
+      </hgroup>
 
         {{ if .Content }}
             <div class="content" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">{{ .Content }}</div>

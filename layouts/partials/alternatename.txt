@@ -1,0 +1,4 @@
+{{- if eq . "calendar"}}Calendar (.ics)
+{{- else if eq . "rss"}}Feed (RSS)
+{{- else }}Alternate
+{{- end -}}

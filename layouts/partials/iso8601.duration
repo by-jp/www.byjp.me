@@ -1,0 +1,13 @@
+{{ $parts := strings.Split (strings.Substr . 1) "T" }}
+{{ $timePart := (index $parts 1 | strings.ToLower) }}
+{{ if eq $timePart "" }}{{ $timePart = "0s" }}{{ end }}
+{{ $duration := time.ParseDuration $timePart }}
+{{ $dayPart := replaceRE `^(\d+)D$` `$1` (index $parts 0) }}
+{{ with $dayPart }}
+  {{ $asHours := printf "%dh" (mul (int .) 24) }}
+  {{ $origin := time.Now }}
+  {{ $origin.Add (time.ParseDuration $asHours) }}
+  {{ $origin.Add $duration }}
+  {{ $duration = $origin.Sub $origin }}
+{{ end }}
+{{ return $duration }}

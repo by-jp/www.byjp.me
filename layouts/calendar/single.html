@@ -1,5 +1,7 @@
 {{ define "main" }}
   <main class="post h-event">
+    {{ partial "memex-header.html" . }}
+
     {{ $timing := index .Params.timings 0 -}}
     {{ range .Params.timings -}}
       {{ if (time.AsTime .starts).Before time.Now -}}
@@ -62,8 +64,9 @@
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
         {{ $starts := time.AsTime $timing.starts }}
-        {{ $duration := ((strings.Substr $timing.duration 2) | strings.ToLower) }}
-        From {{ $starts.Format "15:04" }} until {{ $starts.Add (time.ParseDuration $duration) | dateFormat "15:04 (MST)" }} (<span class="dt-duration">{{ $duration }}</span>)
+        {{ $durationStr := ((strings.Substr $timing.duration 1) | strings.ToLower) }}
+        {{ $duration := partial "iso8601.duration" $timing.duration }}
+        From {{ $starts.Format "15:04" }} until {{ $starts.Add $duration | dateFormat "15:04 (MST)" }} (<span class="dt-duration">{{ replace $durationStr "t" ""  }}</span>)
       </p>
 
       {{ if .Params.attending }}

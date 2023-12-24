@@ -20,7 +20,7 @@
     {{- end }}
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </p>
-  {{ if gt (len .Data.Pages) 0 }}
+  {{ if and (gt (len .Data.Pages) 0) (eq .Type "memex") }}
     <p>
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-hash">
           <line x1="4" y1="9" x2="20" y2="9"></line>
