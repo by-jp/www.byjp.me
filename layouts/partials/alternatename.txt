@@ -1,4 +1,5 @@
-{{- if eq . "calendar"}}Calendar (.ics)
-{{- else if eq . "rss"}}Feed (RSS)
+{{- if eq . "calendar"}}Calendar
+{{- else if eq . "rss"}}RSS Feed
+{{- else if eq . "opml" }}OPML Feed
 {{- else }}Alternate
 {{- end -}}

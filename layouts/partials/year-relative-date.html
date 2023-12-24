@@ -1,4 +1,4 @@
 {{- $date := . -}}
 {{- $extraClass := slice -}}
 {{ if reflect.IsSlice . -}}{{ $date = index . 0 }}{{ $extraClass = index . 1 }}{{ end -}}
-<time class="{{ with $extraClass }}{{.}}{{ end }}" timestamp="{{ $date }}" title="{{ time $date | dateFormat "2006-01-02 15:04 MST" }}">{{ time $date | dateFormat "January 2" }}{{ if ne (time $date | dateFormat "2006") (now | dateFormat "2006") }}, {{ time $date | dateFormat "2006" }}{{ end }}</time>
+<time class="{{ with $extraClass }}{{.}}{{ end }}" timestamp="{{ $date }}" title="{{ time $date | dateFormat "2006-01-02 15:04 MST" }}">{{ partial "year-relative-date.txt" $date }}</time>

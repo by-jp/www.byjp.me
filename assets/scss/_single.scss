@@ -25,7 +25,7 @@
       text-decoration: none;
     }
 
-    * {
+    h1, h2 {
       margin: 0;
     }
 
@@ -443,15 +443,19 @@ figure {
   
   li {
     display: inline-block;
-    margin-right: 2rem;
+    margin-right: 1rem;
     vertical-align: middle;
 
     svg {
-      color: var(--accent);
-      margin-right: 0.3rem;
+      color: lch(60% 60 var(--accentHue));
+      margin-right: 0.2rem;
       vertical-align: -0.125em;
       width: 1em;
       height: 1em;
+    }
+
+    a:hover svg {
+      color: var(--accent);
     }
   }
 }

@@ -35,7 +35,7 @@
                         {{ if .Page.Params.emoji }}<span class="post-emoji">{{ .Page.Params.emoji }}</span>{{ end }}
                         <span class="post-title">{{.Page.Title}}</span>
                         <span class="post-day">
-                          {{ .Date.Format "Jan 2"}} {{ if or (lt (.Date.Format "15") 9) (gt (.Date.Format "15") 17) }}🌙{{ else }}🌞{{ end }}
+                          {{ .Date.Format "Jan 2"}} <span class="daytime">{{ if or (lt (.Date.Format "15") 9) (gt (.Date.Format "15") 17) }}☾{{ else }}☀︎{{ end }}</span>
                         </span>
                     </a>
                 </li>

@@ -14,6 +14,8 @@ summary: A tour of the development of Britain's radical left, told through the L
 attending: [jp, yvette]
 ---
 
+It's a drop-in event, so we'll probably end up going after work at ~17:30.
+
 > Join us for an early evening sneak peek at the archives related to the radical left.
 >
 > Drop in to see some of our flagship collections on the theme of the early development of the British Left. On display will be items from anti-fascist activism, the Independent Labour Party, the Social Democratic Federation, anarchism, strikes, protests, and much more!

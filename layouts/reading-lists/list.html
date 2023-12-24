@@ -8,9 +8,7 @@
                 {{ with .Params.emoji }}<span data-emoji="{{.}}"></span>{{end}}
                 <a href="{{ .Permalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
             </h1>
-            <ul class="feedlinks">
-                <li><a href="./feeds.opml" target="_blank">{{ partial "svg.html" (dict "name" "rss") }}OPML feed</a></li>
-            </ul>
+            {{ partial "alternates.html" . }}
         </hgroup>
 
         {{ if .Content }}

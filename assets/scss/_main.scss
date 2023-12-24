@@ -147,8 +147,16 @@ a[href^="https://web.archive.org/"] {
 }
 
 a:not(.noaccent) {
+  .daytime {
+    color: lch(60% 60 var(--accentHue));
+  }
+
   &:hover {
     color: var(--accent);
+
+    .daytime {
+      color: inherit;
+    }
   }
 
   transition-property: color, filter;

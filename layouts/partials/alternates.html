@@ -1,10 +1,12 @@
 {{ if gt (len .OutputFormats) 1 }}
 {{ $page := .}}
 <nav>
+  <ul class="feedlinks">
   {{ range $page.OutputFormats }}
     {{ if ne .Rel "alternate" }}{{ continue }}{{ end }}
     {{ $link := ($page.OutputFormats.Get .Name).Permalink }}
-    <a href="{{ $link | safeURL }}" title="{{ partial "alternatename.txt" .Name }}">{{ partial "svg.html" (dict "name" .Name) }}</a>
+    <li><a href="{{ $link | safeURL }}" title="{{ partial "alternatename.txt" .Name }}">{{ partial "svg.html" (dict "name" .Name) }} {{ partial "alternatename.txt" .Name }}</a></li>
   {{ end }}
+  </ul>
 </nav>
 {{ end }}
