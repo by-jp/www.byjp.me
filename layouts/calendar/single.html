@@ -46,7 +46,7 @@
           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
           <circle cx="12" cy="10" r="3"></circle>
         </svg>
-        At <a href="{{ partial "geolink.html" . }}" class="p-location h-geo" target="_blank">{{ .name }}<span class="hidden" aria-hidden>(<span class="p-latitude">{{ .latitude }}</span>, <span class="p-longitude">{{ .longitude }}</span>)</span></a>
+        At <a href="{{ partial "geolink.html" . }}" class="p-location h-geo" target="_blank"><span class="p-name">{{ .name }}</span><span class="hidden" aria-hidden> (<span class="p-latitude">{{ .latitude }}</span>, <span class="p-longitude">{{ .longitude }}</span>)</span></a>
       </p>{{ end }}
 
       <p>
