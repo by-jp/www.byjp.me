@@ -13,9 +13,10 @@ DURATION:{{ .duration }}
 LOCATION:{{.Page.Params.location.name}}
 GEO:{{.Page.Params.location.latitude}};{{.Page.Params.location.longitude}}
 SUMMARY:{{.Page.Title}}
-DESCRIPTION:{{ .Page.Summary }}
-URL:{{.Page.Params.link}}
-ATTENDEE;CUTYPE=INDIVIDUAL;CN={{site.Author.name}};PARTSTAT={{ if .Page.Params.attending }}ACCEPTED{{else}}NEEDS-ACTION{{end}}:MAILTO:{{ site.Author.email}}
+DESCRIPTION:{{ .Page.Summary | replaceRE "(.{62})(.*)" "$1\r\n  $2" | replaceRE "(  [^\r\n]{72})([^\r\n]*)" "$1\r\n    $2" }}
+URL:{{.Page.Params.link  | replaceRE "(.{70})(.*)" "$1\r\n  $2" | replaceRE "(  [^\r\n]{72})([^\r\n]*)" "$1\r\n    $2" }}
+ATTENDEE;CUTYPE=INDIVIDUAL;CN={{site.Author.name}};
+  PARTSTAT={{ if .Page.Params.attending }}ACCEPTED{{else}}NEEDS-ACTION{{end}}:MAILTO:{{ site.Author.email}}
 END:VEVENT
 {{- end }}
 END:VCALENDAR

@@ -1,5 +1,4 @@
-
 Add single.html for Calendar
 Support repeating calendar events
-Handle long lines
+Handle long lines {cm:2023-12-24}
 Ensure ICS files have CRLF endings {cm:2023-12-22}
