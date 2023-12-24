@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+PRODID:-//www.byjp.me
+{{- range .Data.Pages}}
+BEGIN:VEVENT
+UID:byjp{{replace .Page.RelPermalink "/" "-"}}
+DTSTAMP:{{ .Page.Date.UTC.Format "20060102T150405Z" }}
+{{ with (index .Params.timings 0) -}}
+DTSTART:{{ (time.AsTime .starts).UTC.Format "20060102T150405Z" }}
+DURATION:{{ .duration }}
+{{ end -}}
+LOCATION:{{.Page.Params.location.name}}
+GEO:{{.Page.Params.location.latitude}};{{.Page.Params.location.longitude}}
+SUMMARY:{{.Page.Title}}
+DESCRIPTION:{{ .Page.Summary | replaceRE "(.{62})(.*)" "$1\r\n  $2" | replaceRE "(  [^\r\n]{72})([^\r\n]*)" "$1\r\n    $2" }}
+URL:{{.Page.Params.link  | replaceRE "(.{70})(.*)" "$1\r\n  $2" | replaceRE "(  [^\r\n]{72})([^\r\n]*)" "$1\r\n    $2" }}
+{{- $attendees := .Page.Params.attending -}}
+{{- $jpDone := false -}}
+{{- if eq .Page.Params.attending true}}{{ $attendees = slice "jp" }}{{ $jpDone = true }}{{ end -}}
+{{ range $attendees -}}
+{{- if eq . "jp" }}{{ $jpDone = true }}{{ end -}}
+{{- with (index site.Data.friends .) }}
+ATTENDEE;CUTYPE=INDIVIDUAL;CN={{ .name }} ({{site.Title}});
+  PARTSTAT=ACCEPTED:MAILTO:{{ .site }}
+{{- end }}{{ end -}}
+{{- if not $jpDone }}
+ATTENDEE;CUTYPE=INDIVIDUAL;CN={{ site.Data.friends.jp.name }} ({{site.Title}};
+  PARTSTAT=NEEDS-ACTION:MAILTO:{{ site.Data.friends.jp.site }}
+{{- end }}
+END:VEVENT
+{{- end }}
+END:VCALENDAR
