@@ -11,12 +11,13 @@ location:
   latitude: 51.514664134157435
   longitude: -0.11572255524925255
 summary: A tour of the development of Britain's radical left, told through the LSE Library's collection.
+attending: [jp, yvette]
 ---
 
-Join us for an early evening sneak peek at the archives related to the radical left.
-
-Drop in to see some of our flagship collections on the theme of the early development of the British Left. On display will be items from anti-fascist activism, the Independent Labour Party, the Social Democratic Federation, anarchism, strikes, protests, and much more!
-
-You can also learn more from our friendly team of curators and archivists who will be on hand to answer any questions and talk more about using archives and special collections in your teaching, research or for personal interest.
-
-Book a place to register your interest and receive reminders about the day or just drop in and stay as long as you like!
+> Join us for an early evening sneak peek at the archives related to the radical left.
+>
+> Drop in to see some of our flagship collections on the theme of the early development of the British Left. On display will be items from anti-fascist activism, the Independent Labour Party, the Social Democratic Federation, anarchism, strikes, protests, and much more!
+>
+> You can also learn more from our friendly team of curators and archivists who will be on hand to answer any questions and talk more about using archives and special collections in your teaching, research or for personal interest.
+>
+> Book a place to register your interest and receive reminders about the day or just drop in and stay as long as you like!

@@ -15,6 +15,7 @@
         {{ range $page := .Data.Pages }}
           {{ range $page.Params.timings }}
             {{ $event := dict "Title" $page.Title "Page" $page.Page "Date" (time.AsTime .starts) }}
+            {{ if $event.Date.Before time.Now }}{{ continue }}{{ end }}
             {{ $bundle := $event.Date.Format "Jan 2006" }}
             {{ $events = merge $events (dict $bundle (sort ((index $events $bundle) | append $event) "Date" "asc")) }}
           {{ end }}
@@ -27,7 +28,7 @@
             <ul class="posts-list">
               {{ range $bundledEvents }}
                 <li class="post-item">
-                    <a href="{{.Page.Permalink}}">
+                    <a href="{{.Page.RelPermalink}}">
                         {{ if .Page.Params.emoji }}<span class="post-emoji">{{ .Page.Params.emoji }}</span>{{ end }}
                         <span class="post-title">{{.Page.Title}}</span>
                         <span class="post-day">

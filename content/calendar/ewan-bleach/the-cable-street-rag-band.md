@@ -13,8 +13,8 @@ location:
 summary: A rag & swing band play jazz into the early hours.
 ---
 
-The Cable Street Rag Band’s Thursday night residency at Jamboree. 1920s and ’30s jazz and swing all night long with a jam session from 11:30 - 12:30.
-
-[Get your tickets here](https://www.wegottickets.com/event/598828/)
-
-[More Info](https://www.jamboreevenue.co.uk/events/limehouse-de-reverie-with-the-cable-street-rag-band-27/)
+> The Cable Street Rag Band’s Thursday night residency at Jamboree. 1920s and ’30s jazz and swing all night long with a jam session from 11:30 - 12:30.
+>
+> [Get your tickets here](https://www.wegottickets.com/event/598828/)
+>
+> [More Info](https://www.jamboreevenue.co.uk/events/limehouse-de-reverie-with-the-cable-street-rag-band-27/)

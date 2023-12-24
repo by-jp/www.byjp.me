@@ -14,4 +14,4 @@ summary: Short talks about interesting things.
 attending: true
 ---
 
-Short talks about interesting things. Same old same old.
+> Short talks about interesting things. Same old same old.
