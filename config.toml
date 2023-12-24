@@ -136,3 +136,7 @@ date = ["date", "publishDate", "lastmod", ":git"]
     baseName = 'feeds'
   [outputFormats.calendar]
     baseName = 'events'
+    name = 'calendar'
+  [outputFormats.rss]
+    baseName = 'index'
+    name = 'rss'
