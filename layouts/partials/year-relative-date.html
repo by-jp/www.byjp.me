@@ -1,1 +1,4 @@
-<time timestamp="{{ . }}" title="{{ time . | dateFormat "2006-01-02 03:04 MST" }}">{{ time . | dateFormat "January 2" }}{{ if ne (time . | dateFormat "2006") (now | dateFormat "2006") }}, {{ time . | dateFormat "2006" }}{{ end }}</time>
+{{- $date := . -}}
+{{- $extraClass := slice -}}
+{{ if reflect.IsSlice . -}}{{ $date = index . 0 }}{{ $extraClass = index . 1 }}{{ end -}}
+<time class="{{ with $extraClass }}{{.}}{{ end }}" timestamp="{{ $date }}" title="{{ time $date | dateFormat "2006-01-02 15:04 MST" }}">{{ time $date | dateFormat "January 2" }}{{ if ne (time $date | dateFormat "2006") (now | dateFormat "2006") }}, {{ time $date | dateFormat "2006" }}{{ end }}</time>
