@@ -2,6 +2,8 @@ BEGIN:VCALENDAR
 CALSCALE:GREGORIAN
 VERSION:2.0
 PRODID:-//www.byjp.me
+X-WR-CALNAME:{{ .Title }} byJP
+X-WR-CALDESC:{{ .Summary | replaceRE "(.{61})(.*)" "$1\r\n  $2" | replaceRE "(  [^\r\n]{72})([^\r\n]*)" "$1\r\n    $2"  }}
 {{- range .Data.Pages}}
 BEGIN:VEVENT
 UID:byjp{{replace .Page.RelPermalink "/" "-"}}
