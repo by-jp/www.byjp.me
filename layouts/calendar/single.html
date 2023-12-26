@@ -76,15 +76,15 @@
         From {{ $starts.Format "15:04" }} until {{ $starts.Add $duration | dateFormat "15:04 (MST)" }} (<span class="dt-duration">{{ replace $durationStr "t" ""  }}</span>)
       </p>
 
-      {{ if .Params.attending }}
+      {{ if $timing.attending }}
       <p class="attending">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user-check"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><polyline points="17 11 19 13 23 9"></polyline></svg>
-        {{ if eq .Params.attending true }}{{ partial "friend.html" "jp.no-emoji" }} is going
-        {{ else if eq (len .Params.attending) 1 }}
-          {{ partial "friend.html" (printf "%s.no-emoji" (index .Params.attending 0)) }} is going
+        {{ if eq $timing.attending true }}{{ partial "friend.html" "jp.no-emoji" }} is going
+        {{ else if eq (len $timing.attending) 1 }}
+          {{ partial "friend.html" (printf "%s.no-emoji" (index $timing.attending 0)) }} is going
         {{ else }}
-          {{ $count := len .Params.attending}}
-          {{ range $i, $attendee := .Params.attending }}
+          {{ $count := len $timing.attending}}
+          {{ range $i, $attendee := $timing.attending }}
             {{ partial "friend.html" (printf "%s.no-emoji" $attendee) -}}
             {{- if eq $i (sub $count 2) }}{{ if gt $count 2 }},{{ end }} and {{ else if lt $i (sub $count 1) }}, {{ end }}
           {{ end }} are going
