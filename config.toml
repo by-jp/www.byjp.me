@@ -99,30 +99,35 @@ date = ["date", "publishDate", "lastmod", ":git"]
         url = "/curiosities"
         weight = 2
       [[languages.en.menu.main]]
+        identifier = "calendar"
+        name = "🗓️ Calendar"
+        url = "/calendar"
+        weight = 3
+      [[languages.en.menu.main]]
         identifier = "memex"
         name = "🧠 Memex"
         url = "/memex"
-        weight = 3
+        weight = 4
       [[languages.en.menu.main]]
         identifier = "photos"
         name = "📸 Photos"
         url = "/photos"
-        weight = 4
+        weight = 5
       [[languages.en.menu.main]]
         identifier = "reading-lists"
         name = "🔖 Reading lists"
         url = "/reading-lists"
-        weight = 5
+        weight = 6
       [[languages.en.menu.main]]
         identifier = "posts"
         name = "📔 Posts"
         url = "/posts"
-        weight = 6
+        weight = 7
       [[languages.en.menu.main]]
         identifier = "now"
         name = "👇 Now"
         url = "/now"
-        weight = 7
+        weight = 8
 
 [sitemap]
   filename = 'sitemap.xml'

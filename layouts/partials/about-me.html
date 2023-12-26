@@ -4,7 +4,12 @@
     <span class="p-note">Hello! I'm <em class="p-name fn always-accented"><span class="p-nickname">JP</span> <span class="p-family-name">Hastings-Spital</span></em>, a <span class="p-category category">maker</span>, <span class="p-category category">software engineer</span>, <span class="p-category category">swing dancer</span>, and all-round <span class="p-category category">miriscient chap</span> living in <span class="adr p-adr h-adr"><span class="p-locality locality">London</span>, <span class="p-country-name country-name">UK</span></span>. <span class="h-card no-emoji">I'm <span clas="p-job-title">principal engineer</a> at <a href="https://deliveroo.engineering/" target="_blank" class="p-org u-url" rel="noopener">Deliveroo</a></span>.</span>
   </div>
 
-  <p>I write infrequently about things I've created or care about in <a href="/posts">posts</a>, I keep notes on interesting things in my <a href="/memex">memex</a>, and sometimes post <a href="/photos">photos</a> too. Find out <a href="/now">what I'm up to now</a>, or read a recent article like
+  <p>
+    I <a href="/posts">post</a> about things I've created or care about, 
+    share <a href="/photos">photos</a> of what I'm up to, 
+    keep a <a href="/memex">memex</a> of interesting things I discover, 
+    and link to <a href="/calendar">events</a> I may go to.
+    Read about my life <a href="/now">now</a>, or a recent article like
   {{ $posts := where .Site.RegularPages "Section" "posts" }}
   {{ range $posts | first 2 }}
     <a href="{{.Permalink}}">{{ .Title }}</a>, 
