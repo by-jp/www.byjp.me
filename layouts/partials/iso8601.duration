@@ -2,12 +2,12 @@
 {{ $timePart := (index $parts 1 | strings.ToLower) }}
 {{ if eq $timePart "" }}{{ $timePart = "0s" }}{{ end }}
 {{ $duration := time.ParseDuration $timePart }}
-{{ $dayPart := replaceRE `^(\d+)D$` `$1` (index $parts 0) }}
-{{ with $dayPart }}
+{{ $dayCount := replaceRE `^(\d+)D$` `$1` (index $parts 0) }}
+{{ with $dayCount }}
   {{ $asHours := printf "%dh" (mul (int .) 24) }}
-  {{ $origin := time.Now }}
-  {{ $origin.Add (time.ParseDuration $asHours) }}
-  {{ $origin.Add $duration }}
-  {{ $duration = $origin.Sub $origin }}
+  {{ $origin := time "1970-01-01" }}
+  {{ $later := $origin.Add (time.ParseDuration $asHours) }}
+  {{ $later = $later.Add $duration }}
+  {{ $duration = $later.Sub $origin }}
 {{ end }}
 {{ return $duration }}

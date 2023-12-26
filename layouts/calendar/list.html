@@ -17,7 +17,7 @@
         {{ $events := dict }}
         {{ range $page := .Data.Pages }}
           {{ range $page.Params.timings }}
-            {{ $event := dict "Title" $page.Title "Page" $page.Page "Date" (time.AsTime .starts) }}
+            {{ $event := dict "Title" $page.Title "Page" $page.Page "Date" (time.AsTime .starts) "Duration" (partial "iso8601.duration" .duration) }}
             {{ if $event.Date.Before time.Now }}{{ continue }}{{ end }}
             {{ $bundle := $event.Date.Format "Jan 2006" }}
             {{ $events = merge $events (dict $bundle (sort ((index $events $bundle) | append $event) "Date" "asc")) }}
@@ -35,7 +35,10 @@
                         {{ if .Page.Params.emoji }}<span class="post-emoji">{{ .Page.Params.emoji }}</span>{{ end }}
                         <span class="post-title">{{.Page.Title}}</span>
                         <span class="post-day">
-                          {{ .Date.Format "Jan 2"}} <span class="daytime">{{ if or (lt (.Date.Format "15") 9) (gt (.Date.Format "15") 17) }}☾{{ else }}☀︎{{ end }}</span>
+                          {{- $hour := .Date.Format "15" -}}
+                          {{- $duration := .Duration.Hours -}}
+                          {{- $daytime := or (ge $duration 24) (and (gt $hour 9) (lt $hour 17)) }}
+                          {{ .Date.Format "Jan 2"}} <span class="daytime">{{ if $daytime }}☀︎{{ else }}☾{{ end }}</span>
                         </span>
                     </a>
                 </li>
