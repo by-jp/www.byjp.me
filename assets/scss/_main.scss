@@ -772,6 +772,13 @@ abbr:hover {
   border-bottom: 1px dotted;
 }
 
+time {
+  color: $dark-color;
+  @media (prefers-color-scheme: light) {
+    color: $light-color;
+  }
+}
+
 body.nownownow .post-content > p {
   position: relative;
   line-height: inherit;

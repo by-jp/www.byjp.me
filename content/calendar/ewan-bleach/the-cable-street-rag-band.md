@@ -11,6 +11,10 @@ location:
   latitude: 51.53052698618849
   longitude: -0.1196719819977664
 summary: A rag & swing band play jazz into the early hours.
+tags:
+- music
+- jazz
+- swing
 ---
 
 > The Cable Street Rag Band’s Thursday night residency at Jamboree. 1920s and ’30s jazz and swing all night long with a jam session from 11:30 - 12:30.

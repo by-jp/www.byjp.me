@@ -19,14 +19,15 @@
           {{ range $page.Params.timings }}
             {{ $event := dict "Title" $page.Title "Page" $page.Page "Date" (time.AsTime .starts) "Duration" (partial "iso8601.duration" .duration) }}
             {{ if $event.Date.Before time.Now }}{{ continue }}{{ end }}
-            {{ $bundle := $event.Date.Format "Jan 2006" }}
+            {{ $bundle := $event.Date.Format "2006-01" }}
             {{ $events = merge $events (dict $bundle (sort ((index $events $bundle) | append $event) "Date" "asc")) }}
+            {{ break }}{{/* Only show the first on the list */}}
           {{ end }}
         {{ end }}
 
-        {{ range $key, $bundledEvents := $events }}
+        {{ range $bundledEvents := $events }}
           <div class="posts-group">
-            <div class="post-year">{{ $key }}</div>
+            <div class="post-year">{{ (index $bundledEvents 0).Date.Format "Jan 2006" }}</div>
 
             <ul class="posts-list">
               {{ range $bundledEvents }}

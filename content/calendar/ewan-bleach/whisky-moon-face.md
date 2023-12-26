@@ -11,6 +11,9 @@ location:
   latitude: 51.50918934310175
   longitude: -0.12754071312701715
 summary: A delightful folk music band play in a cocktail bar at the national portrait gallery.
+tags:
+- music
+- folk
 ---
 
 > Hidden behind a secret entrance on Charing Cross Road, Larry’s is our brand-new underground cocktail bar located in the historic vaults of the National Portrait Gallery. Originally built as coal storage in 1896, the spectacular exposed brick space has been transformed offering a slice of elegance deep into the evening (seven days a week), just a short stroll from Covent Garden and Trafalgar Square. Sip on classic cocktails and dine on lavish bar snacks, amidst over 100 portraits of the famous faces of London’s West End.
