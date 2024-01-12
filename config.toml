@@ -1,4 +1,5 @@
 languageCode = "en-gb"
+timeout = "120s"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
