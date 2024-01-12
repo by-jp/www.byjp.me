@@ -146,3 +146,8 @@ date = ["date", "publishDate", "lastmod", ":git"]
   [outputFormats.rss]
     baseName = 'index'
     name = 'rss'
+
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepQuotes = true
