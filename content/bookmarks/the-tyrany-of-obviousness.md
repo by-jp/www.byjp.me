@@ -1,5 +1,5 @@
 ---
-date: 2024-01-16T22:10:18.314Z
+date: 2023-12-27T10:18:18.314Z
 publishDate: 2024-01-16T22:10:18.314Z
 title: The Tyrany of Obviousness
 bookmarkOf: https://mentalhellth.xyz/p/breaking-the-tyranny-of-obviousness
@@ -15,6 +15,6 @@ references:
 
 A superb read, especially for me as I look for more depth in life. I keep finding myself coming back to this thought:
 
-> There are many forces preventing us from feeling abstractly and confusingly and deeply, and from producing things that help others feel so. 
+> There are many forces preventing us from feeling abstractly and confusingly and deeply, and from producing things that help others feel so.
 
 I think I've certainly trained myself for a frictionless life, and have (up until the last few years) tended to avoid difficult thoughts — but I feel so much richer for embracing them!

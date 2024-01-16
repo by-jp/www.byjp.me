@@ -1,5 +1,5 @@
 ---
-date: 2024-01-16T20:50:35.051Z
+date: 2023-11-10T09:44:35.051Z
 publishDate: 2024-01-16T20:50:35.051Z
 title: Google as the commoditiser of the early web
 bookmarkOf: https://staltz.com/google-shattered-human-connection.html
