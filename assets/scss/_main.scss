@@ -779,6 +779,10 @@ time {
   }
 }
 
+a:hover time {
+  color: inherit;
+}
+
 body.nownownow .post-content > p {
   position: relative;
   line-height: inherit;

@@ -1,6 +1,6 @@
 {{- $pages := slice -}}
 {{- if .IsHome -}}
-  {{- $pages = where .Site.RegularPages "Type" "not in" (slice "memex" "timeless" "site-infra" "reading-lists") -}}
+  {{- $pages = where .Site.RegularPages "Type" "not in" (slice "memex" "timeless" "site-infra" "reading-lists" "notes") -}}
 {{- else -}}
   {{- $pages = .Pages -}}
 {{- end -}}
@@ -32,15 +32,19 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ .Permalink | absURL }}</guid>
       <description>
-        {{- with index .Params.Media 0 }}
-          &lt;img src="{{ path.Join $page.RelPermalink . | absURL }}" /&gt;
-        {{- end }}
-        {{ .Summary | html }}
+        {{ with .Params.bookmarkOf }}
+          Thoughts on {{.}}
+        {{ else }}
+          {{ .Summary | html }}
+        {{ end }}
       </description>
       <content:encoded>
         {{- range $i, $src := .Params.Media }}
         &lt;img src="{{ path.Join $page.RelPermalink $src | absURL }}" /&gt;&lt;br/&gt;
         {{- end }}
+        {{ if .Params.bookmarkOf }}
+        &lt;p&gt;&lt;i&gt;{{ partial "bookmark-of.html" . | html }}&lt;/i&gt;&lt;/p&gt;
+        {{ end }}
         {{ .Content | html }}
       </content:encoded>
       {{- range .Params.syndications}}

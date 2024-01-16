@@ -1,0 +1,17 @@
+{{ if not .Params.bookmarkOf}}
+  {{ errorf "BookmarkOf partial called when no bookmark of param set" }}
+{{ end }}
+
+{{ $url := .Params.bookmarkOf }}
+{{ $reference := dict }}
+{{ range .Params.references }}
+  {{ if eq .url $url }}
+    {{ $reference = . }}
+  {{ end }}
+{{ end }}
+💭 Thoughts on{{" "}}
+{{- with $reference.name -}}
+  the article <a href="{{ $url }}" class="u-bookmark-of">{{ . }}</a>.
+{{- else -}}
+  <a href="{{ $url }}" class="u-bookmark-of">an article from {{ ($url | urls.Parse).Hostname  }}</a>
+{{- end }}

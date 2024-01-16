@@ -84,6 +84,9 @@
       {{ end }}
 
       <div class="post-content e-content" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">
+        {{ if .Params.bookmarkOf }}
+          <p class="bookmark-of">{{ partial "bookmark-of.html" . }}</p>
+        {{ end }}
         {{ .Content }}
       </div>
     </article>

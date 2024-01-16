@@ -1,0 +1,32 @@
+{{ define "main" }}
+    {{ $paginator := .Paginate .Data.Pages }}
+    
+    {{/* Ignore entirely from search, as we want to index the individual notes, not this stream */}}
+    <main class="posts" data-pagefind-ignore="all">
+        {{ partial "generic-list-header.html" . }}
+
+        <hgroup class="post-title">
+            <h1 class="p-name">
+                {{ with .Params.emoji }}<span data-emoji="{{.}}"></span>{{end}}
+                <a href="{{ .Permalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
+            </h1>
+            {{ partial "alternates.html" . }}
+        </hgroup>
+
+        {{ if .Content }}
+            <div class="content" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">{{ .Content }}</div>
+        {{ end }}
+
+        
+        <div class="posts-list">
+          {{ range $paginator.Pages }}
+            <hr />
+            <article class="notes-content e-content">
+              {{ .Content }}
+              <footer><a href="{{.Permalink}}">{{ partial "year-relative-date.html" .Date }}</a></footer>
+            </article>
+          {{ end }}
+          </div>
+    {{ partial "pagination-list.html" . }}
+    </main>
+{{ end }}
