@@ -6,4 +6,4 @@ tags:
 - lenny
 - bbcproms
 ---
-"World's tamest mosh pit" -{{< friend "lenny" >}} [bbcproms](/tags/bbcproms)
+"World's tamest mosh pit" - {{< friend "lenny" >}} [bbcproms](/tags/bbcproms)

@@ -42,9 +42,10 @@ func doClose(c closer, msg string) {
 }
 
 type frontMatter struct {
-	Date     string
-	Tags     []string
-	Location fmLoc `yaml:"location,omitempty"`
+	Date      string
+	Tags      []string
+	Location  fmLoc  `yaml:"location,omitempty"`
+	InReplyTo string `yaml:"in_reply_to,omitempty"`
 }
 
 type fmLoc struct {
@@ -60,6 +61,7 @@ type tweet struct {
 		CreatedAt         string `json:"created_at"`
 		CreationTimestamp int64  `json:"creation_timestamp"`
 		InReplyTo         string `json:"in_reply_to_user_id_str"`
+		InReplyToStatus   string `json:"in_reply_to_status_id_str"`
 		Coordinates       struct {
 			LonLat []string `json:"coordinates"`
 			Type   string   `json:"type"`
@@ -82,6 +84,7 @@ func main() {
 	archive := os.Args[1]
 	hugo := os.Args[2]
 	outputDir := path.Join(hugo, "content", "notes", "twitter")
+
 	check(os.MkdirAll(outputDir, 0755), "Unable to create twitter directory in notes")
 
 	zf, err := zip.OpenReader(archive)
@@ -171,6 +174,10 @@ func tweetToNote(t tweet, mediaMap map[string]string, outputDir string, selfUser
 		return err
 	}
 
+	if t.Tweet.InReplyToStatus != "" {
+		fm.InReplyTo = path.Join("..", t.Tweet.InReplyToStatus)
+	}
+
 	text := escapeMarkdown(t.Tweet.FullText)
 
 	// Retrieve twitpic images
@@ -203,7 +210,7 @@ func tweetToNote(t tweet, mediaMap map[string]string, outputDir string, selfUser
 		if name, ok := tagMap[label]; ok {
 			tag := strings.ToLower(name)
 			fm.Tags = append(fm.Tags, tag)
-			return fmt.Sprintf("{{< friend \"%s\" >}}", name)
+			return fmt.Sprintf("%s{{< friend \"%s\" >}}", before, name)
 		} else if prefix == "@" {
 			return fmt.Sprintf("%s[@%s](https://twitter.com/%s)", before, label, label)
 		} else if prefix == "#" {

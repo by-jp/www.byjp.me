@@ -6,4 +6,4 @@ tags:
 - botfishing
 - lenny
 ---
-[botfishing](/tags/botfishing) : the latest craze to spread from Japan\! http://trendistic.com/botfishing \(Attn:{{< friend "lenny" >}}, [@richardfergie](https://twitter.com/richardfergie)\)
+[botfishing](/tags/botfishing) : the latest craze to spread from Japan\! http://trendistic.com/botfishing \(Attn: {{< friend "lenny" >}}, [@richardfergie](https://twitter.com/richardfergie)\)

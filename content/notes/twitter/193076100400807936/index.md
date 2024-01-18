@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - lenny
 ---
-So sayeth{{< friend "lenny" >}}: "A douchebaggery of people who come up with collective nouns for animals"
+So sayeth {{< friend "lenny" >}}: "A douchebaggery of people who come up with collective nouns for animals"

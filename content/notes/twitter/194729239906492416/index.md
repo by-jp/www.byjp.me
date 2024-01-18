@@ -6,4 +6,4 @@ tags:
 - lenny
 - winning
 ---
-Just so you all know: I totally and legitimately 'dot tumblr dot com'd{{< friend "lenny" >}} last night. [winning](/tags/winning)
+Just so you all know: I totally and legitimately 'dot tumblr dot com'd {{< friend "lenny" >}} last night. [winning](/tags/winning)

@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - chris
 ---
-YES.{{< friend "chris" >}} will do this when he owns a dog {{< imgorvid src="media-1.jpg" >}}
+YES. {{< friend "chris" >}} will do this when he owns a dog {{< imgorvid src="media-1.jpg" >}}

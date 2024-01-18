@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - edds
 ---
-Who wants to build a "staycation" app? I choose a place &amp; it sets time, thermostat, routes my web traffic, changes wallpaper…{{< friend "edds" >}}?
+Who wants to build a "staycation" app? I choose a place &amp; it sets time, thermostat, routes my web traffic, changes wallpaper… {{< friend "edds" >}}?

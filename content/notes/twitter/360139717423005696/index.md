@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - lenny
 ---
-"If me it was me or the swan, I'd bite the fucker's neck off" -{{< friend "lenny" >}}
+"If me it was me or the swan, I'd bite the fucker's neck off" - {{< friend "lenny" >}}

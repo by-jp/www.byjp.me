@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - chris
 ---
-Guitar Hero World Tour:{{< friend "chris" >}} on guitar, me on drums and Mum on vocals\!
+Guitar Hero World Tour: {{< friend "chris" >}} on guitar, me on drums and Mum on vocals\!

@@ -54,6 +54,12 @@
 
   &-content {
     margin-top: 30px;
+
+    svg {
+      display: inline-block;
+      height: 1em;
+      vertical-align:text-top;
+    }
   }
 
   &-cover {

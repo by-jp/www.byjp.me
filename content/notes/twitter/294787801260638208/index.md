@@ -8,4 +8,4 @@ location:
   latitude: 51.52589603
   longitude: -0.08160678
 ---
-Hmmm, beef\! \(@ Tramshed w/{{< friend "hungoverdrawn" >}}\) \[pic\]: [https://4sq.com/WkwDXZ](https://4sq.com/WkwDXZ)
+Hmmm, beef\! \(@ Tramshed w/ {{< friend "hungoverdrawn" >}}\) \[pic\]: [https://4sq.com/WkwDXZ](https://4sq.com/WkwDXZ)

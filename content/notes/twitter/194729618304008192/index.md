@@ -7,4 +7,4 @@ tags:
 ---
 That sounded dirtier than I intended - just for reference: [https://xkcd.com/1025/](https://xkcd.com/1025/)\
 \
-Can you guess what{{< friend "lenny" >}} said?
+Can you guess what {{< friend "lenny" >}} said?

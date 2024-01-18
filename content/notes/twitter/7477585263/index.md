@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - jp
 ---
-It is officially weird but wonderfully effective to call someone based on a Twitter recommendation: "hi, it's{{< friend "jp" >}}?"
+It is officially weird but wonderfully effective to call someone based on a Twitter recommendation: "hi, it's {{< friend "jp" >}}?"
