@@ -1,0 +1,19 @@
+# https://taskfile.dev
+
+version: '3'
+
+# TODO: Handle commands in dotenv
+# dotenv: ['.env']
+
+tasks:
+  check-links:
+    cmds:
+      - rm -rf ./public/
+      - lychee --cache --suggest --require-https .
+  dev:
+    cmds:
+      - hugo server --minify
+  build:
+    cmds:  
+      - hugo --cacheDir /tmp/hugo/cache --minify --baseURL "https://www.byjp.me"
+      - npm_config_yes=true npx pagefind@latest
