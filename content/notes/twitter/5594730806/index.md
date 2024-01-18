@@ -4,4 +4,7 @@ tags:
 - imported
 - from-twitter
 ---
-[http://ww.flyingcoffin.com/blog_fullsize/C5A4C6_fullsize.JPG](http://ww.flyingcoffin.com/blog_fullsize/C5A4C6_fullsize.JPG) via http://ww.flyingcoffin.com/
+
+via http://ww.flyingcoffin.com/
+
+{{< imgorvid src="media-1.jpg" >}}
