@@ -1,0 +1,7 @@
+---
+date: "2010-02-27T09:51:59Z"
+tags:
+- imported
+- from-twitter
+---
+Ichiban Go tournament\!  http://yfrog.com/37wuhhj

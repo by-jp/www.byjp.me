@@ -1,4 +1,4 @@
-module github.com/jphastings/www.byjp.me/tools/archive/instagram
+module github.com/by-jp/www.byjp.me/tools/archive/instagram
 
 go 1.20
 

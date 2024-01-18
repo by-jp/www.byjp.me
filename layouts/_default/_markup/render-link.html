@@ -1,1 +1,18 @@
-<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- $isExternal := strings.HasPrefix .Destination "http" -}}
+{{- $text := .Text -}}
+{{/* It pains me that Hugo doesn't have a urls.IsValid method, and has no error catching to allow me to try urls.Parse and catch failures */}}
+{{- if gt (len (strings.FindRE `^https?:\/\/[A-z0-9_-]*?[:]?[A-z0-9_-]*?[@]?[A-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$` .Text)) 0 -}}
+  {{- $url := urls.Parse $text -}}
+  {{- $text = strings.TrimPrefix "www." $url.Hostname -}}
+  {{- if lt (len $url.Path) 16 -}}
+    {{- $text = path.Join $text $url.Path -}}
+  {{- else -}}
+    {{- $parts := strings.Split $url.Path "/" -}}
+    {{- $last := index ($parts | last 1) 0 -}}
+    {{- if gt (len $last) 16 -}}
+      {{- $last = printf "%s…" (strings.Substr $last 0 16) -}}
+    {{- end -}}
+    {{- $text = path.Join $text "…" $last -}}
+  {{- end -}}
+{{- end -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank"{{ end }}>{{ $text }}</a>

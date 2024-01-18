@@ -51,8 +51,9 @@
       <dc:relation>{{ . }}</dc:relation>
       {{- end }}
       {{- range $i, $src := .Params.Media }}
-      {{ $res := $page.Resources.Get $src }}
-      <enclosure url="{{ $res.Permalink }}" length="{{ $res.Content | len }}" type="{{ $res.MediaType.Type}}" />
+      {{ with $page.Resources.Get $src }}
+      <enclosure url="{{ .Permalink }}" length="{{ .Content | len }}" type="{{ .MediaType.Type}}" />
+      {{ end }}
       {{- end }}
     </item>
     {{ end }}
