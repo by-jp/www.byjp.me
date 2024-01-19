@@ -1,7 +1,8 @@
-{{ $caption := .Get "caption" -}}
+{{ $caption := .Inner | default (.Get "caption") -}}
 {{ $class := .Get "class" -}}
 {{ $preload := .Get "preload" | default "metadata" -}}
 {{ $src := .Get "src" -}}
+{{ $nospoken := eq (.Get "nospoken") "true" }}
 
 {{ $resource := false -}}
 {{ $static := false -}}
@@ -35,5 +36,17 @@
 <audio controls preload="{{ $preload }}">
 <source src="{{ $src }}" {{ with $type }}type="{{ . }}"{{ end }}>
 </audio>
-{{ with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+{{ with $caption }}
+  <figcaption>
+    <details>
+      <summary>Transcription</summary>
+      <div>{{ . | markdownify }}</div>
+    </details>
+  </figcaption>
+{{ end }}
+{{ if $nospoken }}
+  <figcaption>
+    <em>This audio file has no spoken content.</em>
+  </figcaption>
+{{ end }}
 </figure>
