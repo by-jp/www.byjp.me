@@ -62,26 +62,26 @@ jobs:
             --cacheDir /tmp/hugo/cache \
             --minify \
             --baseURL "https://www.byjp.me"
-      - name: Syndicate
-        env:
-          INSTAGRAM_PASSWORD: ${{ secrets.INSTAGRAM_PASSWORD }}
-          INSTAGRAM_TOTP: ${{ secrets.INSTAGRAM_TOTP }}
-          PIXELFED_ACCESS_TOKEN: ${{ secrets.PIXELFED_ACCESS_TOKEN }}
-        run: |
-          cd tools/syndicate
-          go mod download
-          go run .
-          if git diff-index --quiet HEAD; then
-            echo "No syndication changes made"
-          else
-            echo "Committing syndication changes"
-            git config --global user.email "github-actions[bot]@users.noreply.github.com"
-            git config --global user.name "Syndicate[bot]"
-            git commit -am "Syndicated post references"
-            git push
-            # TODO: Do not upload, but without failing the build
-            exit 1
-          fi
+      # - name: Syndicate
+      #   env:
+      #     INSTAGRAM_PASSWORD: ${{ secrets.INSTAGRAM_PASSWORD }}
+      #     INSTAGRAM_TOTP: ${{ secrets.INSTAGRAM_TOTP }}
+      #     PIXELFED_ACCESS_TOKEN: ${{ secrets.PIXELFED_ACCESS_TOKEN }}
+      #   run: |
+      #     cd tools/syndicate
+      #     go mod download
+      #     go run .
+      #     if git diff-index --quiet HEAD; then
+      #       echo "No syndication changes made"
+      #     else
+      #       echo "Committing syndication changes"
+      #       git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      #       git config --global user.name "Syndicate[bot]"
+      #       git commit -am "Syndicated post references"
+      #       git push
+      #       # TODO: Do not upload, but without failing the build
+      #       exit 1
+      #     fi
       - name: Build search index
         run: |
           # Build the search index
