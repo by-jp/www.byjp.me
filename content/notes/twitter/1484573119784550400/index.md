@@ -4,13 +4,13 @@ tags:
 - imported
 - from-twitter
 ---
-Absurdle 6/∞\
-\
+[Absurdle](https://qntm.org/absurdle) 6/∞
+
 ⬜⬜⬜⬜⬜\
 ⬜⬜🟨⬜⬜\
 ⬜🟨⬜🟨⬜\
 🟨🟨🟨🟩⬜\
 🟩🟩⬜🟩🟩\
-🟩🟩🟩🟩🟩\
-\
-Pretty chuffed with that for a first try\! [https://qntm.org/files/wordle](https://qntm.org/files/wordle)
+🟩🟩🟩🟩🟩
+
+Pretty chuffed with that for a first try\!

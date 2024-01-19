@@ -1,5 +1,5 @@
 {{ define "main" }}
-    {{ $paginator := .Paginate .Data.Pages }}
+    {{ $paginator := .Paginate .Pages }}
     
     <main class="posts" {{ if eq .Kind "taxonomy" }}data-pagefind-ignore{{ end }}>
         {{ partial "generic-list-header.html" . }}
@@ -25,7 +25,7 @@
                         <li class="post-item">
                             <a href="{{.Permalink}}">
                                 {{ if .Params.emoji }}<span class="post-emoji">{{ .Params.emoji }}</span>{{ end }}
-                                <span class="post-title">{{ if .Title }}{{.Title}}{{ else }}<i>Untitled {{ .Type | singularize -}}</i>{{ end }}</span>
+                                <span class="post-title">{{ if .Title }}{{.Title}}{{ else }}<i>{{ .Type | singularize | title }} from {{ partial "year-relative-date.txt" .Date }}</i>{{ end }}</span>
                                 <span class="post-day">
                                     {{ if .Site.Params.dateformShort }}
                                         {{ .Date.Format .Site.Params.dateformShort }}

@@ -21,9 +21,12 @@
         <div class="posts-list">
           {{ range $paginator.Pages }}
             <hr />
-            <article class="notes-content e-content">
+            <article class="post-content e-content">
               {{ .Content }}
-              <footer><a href="{{.Permalink}}">{{ partial "year-relative-date.html" .Date }}</a></footer>
+              <footer>
+                <a href="{{.Permalink}}">{{ partial "year-relative-date.html" .Date }}</a>
+                {{ if collections.In .Params.tags "from-twitter" }}{{ partial "svg.html" (dict "name" "twitter") }}{{ end }}
+              </footer>
             </article>
           {{ end }}
           </div>

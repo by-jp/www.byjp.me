@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Boom Boom http://poetry.kedakai.co.uk/poem:ltt/
+Boom Boom [Less Than Three](/poetry/ltt)

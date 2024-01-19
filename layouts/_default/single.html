@@ -98,6 +98,12 @@
 
     {{ if ne .Type "site-infra" }}
       <div class="post-info">
+        {{ if in .Params.tags "from-twitter" }}
+          <p>
+            {{ partial "svg.html" (dict "name" "twitter") }}
+            From <a href="/posts/importing-tweets">twitter archive</a>
+          </p>
+        {{ end }}
         {{ partial "tags.html" .Params.tags }}
         {{ partial "series-tags.html" . }}
         <p>

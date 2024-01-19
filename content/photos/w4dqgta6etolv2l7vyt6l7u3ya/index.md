@@ -7,9 +7,10 @@ draft: false
 tags:
 - imported
 - from-instagram
+- spotify
 ---
 I've adored Gordon's music at many a swing dancing social before, but getting to meet & hear him at a living room gig earlier this week was just superlative.
 
+Let his album sort your Friday out for you:
 
-
-Let his album sort your Friday out for you: https://open.spotify.com/album/3RorNzHvrrJ3FHKz4scuit
+{{< spotify path="/album/3RorNzHvrrJ3FHKz4scuit" artist="Gordon Webster" album="Blues Till Dawn" >}}
