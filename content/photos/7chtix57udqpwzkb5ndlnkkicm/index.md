@@ -5,6 +5,6 @@ media:
 date: "2015-03-18T13:51:10Z"
 draft: false
 tags:
-- fromthearchives
+- FromTheArchives
 ---
-Excitement\! [fromthearchives](/tags/fromthearchives)
+Excitement\! [FromTheArchives](/tags/fromthearchives)

@@ -3,6 +3,6 @@ date: "2012-09-15T19:24:16Z"
 tags:
 - imported
 - from-twitter
-- doctorwho
+- DoctorWho
 ---
-Should not have watched late season SG-1 before [doctorwho](/tags/doctorwho) - what's Lieutenant Mitchel doing here?\!
+Should not have watched late season SG-1 before [DoctorWho](/tags/doctorwho) - what's Lieutenant Mitchel doing here?\!

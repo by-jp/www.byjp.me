@@ -5,6 +5,6 @@ media:
 date: "2014-01-06T12:33:44Z"
 draft: false
 tags:
-- mentalmondays
+- MentalMondays
 ---
-Only bank note with two people on one side: 10 Lithuanian Litas [mentalmondays](/tags/mentalmondays)
+Only bank note with two people on one side: 10 Lithuanian Litas [MentalMondays](/tags/mentalmondays)

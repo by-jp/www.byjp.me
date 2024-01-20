@@ -7,7 +7,7 @@ media:
 date: "2023-02-15T19:19:24Z"
 draft: false
 tags:
-- nofilter
+- NoFilter
 - imported
 - from-instagram
 syndications:
@@ -15,4 +15,4 @@ syndications:
 ---
 Pão de Açucar was *beautiful*\!
 
-[nofilter](/tags/nofilter)
+[NoFilter](/tags/nofilter)

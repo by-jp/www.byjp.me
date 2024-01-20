@@ -3,6 +3,6 @@ date: "2010-04-06T12:45:43Z"
 tags:
 - imported
 - from-twitter
-- ridiculousslogans
+- RidiculousSlogans
 ---
-InjuryLawyers4U: "We're real lawyers" [ridiculousslogans](/tags/ridiculousslogans)
+InjuryLawyers4U: "We're real lawyers" [RidiculousSlogans](/tags/ridiculousslogans)

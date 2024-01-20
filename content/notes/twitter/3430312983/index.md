@@ -3,6 +3,6 @@ date: "2009-08-20T16:36:20Z"
 tags:
 - imported
 - from-twitter
-- songsincode
+- SongsInCode
 ---
-Gotta love those [songsincode](/tags/songsincode)
+Gotta love those [SongsInCode](/tags/songsincode)

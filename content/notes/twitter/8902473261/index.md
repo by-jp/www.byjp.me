@@ -3,6 +3,6 @@ date: "2010-02-10T14:08:02Z"
 tags:
 - imported
 - from-twitter
-- uksnow
+- UKSnow
 ---
-Blue sky & [uksnow](/tags/uksnow). Make up your mind Britain\!
+Blue sky & [UKSnow](/tags/uksnow). Make up your mind Britain\!

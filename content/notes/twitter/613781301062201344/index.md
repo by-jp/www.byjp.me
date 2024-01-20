@@ -4,9 +4,9 @@ tags:
 - imported
 - from-twitter
 - smlates
-- diamondlates
+- DiamondLates
 location:
   latitude: 51.495058
   longitude: -0.173464
 ---
-Diamonds go through ice *better* than a hot knife through butter?? [smlates](/tags/smlates) [@warwick_echem](https://twitter.com/warwick_echem) [diamondlates](/tags/diamondlates) {{< imgorvid src="media-1.jpg" >}}
+Diamonds go through ice *better* than a hot knife through butter?? [smlates](/tags/smlates) [@warwick_echem](https://twitter.com/warwick_echem) [DiamondLates](/tags/diamondlates) {{< imgorvid src="media-1.jpg" >}}

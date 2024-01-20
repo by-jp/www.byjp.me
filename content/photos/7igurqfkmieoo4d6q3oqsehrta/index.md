@@ -5,6 +5,6 @@ media:
 date: "2011-11-26T09:30:36Z"
 draft: false
 tags:
-- rebelbingo
+- RebelBingo
 ---
-Woke up to find this in the mirror. [rebelbingo](/tags/rebelbingo)
+Woke up to find this in the mirror. [RebelBingo](/tags/rebelbingo)

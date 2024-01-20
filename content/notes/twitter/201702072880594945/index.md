@@ -3,7 +3,7 @@ date: "2012-05-13T15:54:56Z"
 tags:
 - imported
 - from-twitter
-- livesnexttoasportspubnow
-- haswindowopen
+- LivesNextToASportsPubNow
+- HasWindowOpen
 ---
-I get the impression that was a big goal [livesnexttoasportspubnow](/tags/livesnexttoasportspubnow) [haswindowopen](/tags/haswindowopen)
+I get the impression that was a big goal [LivesNextToASportsPubNow](/tags/livesnexttoasportspubnow) [HasWindowOpen](/tags/haswindowopen)

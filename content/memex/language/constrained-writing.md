@@ -4,6 +4,7 @@ draft: false
 tags:
   - language
   - to-be
+  - mastodon
 summary: Artificial limitations applied to a language to open up new ways to use it or learn it.
 links:
   wikipedia: https://en.wikipedia.org/wiki/Constrained_writing
@@ -11,7 +12,7 @@ links:
 
 ## oulipo.social
 
-A fascinating restricted writing #mastodon instance, where all accounts' posts are filtered automatically (and later moderated) to conform to the restriction — not using the letter E. [oulipo.social](https://oulipo.social)
+A fascinating restricted writing [mastodon](/tags/mastodon) instance, where all accounts' posts are filtered automatically (and later moderated) to conform to the restriction — not using the letter E. [oulipo.social](https://oulipo.social)
 
 ## E-Prime
 

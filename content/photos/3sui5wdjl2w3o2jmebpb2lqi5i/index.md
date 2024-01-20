@@ -5,11 +5,11 @@ media:
 date: "2019-03-01T22:17:38Z"
 draft: false
 tags:
-- accidentalwesanderson
-- notsoaccidentalwesanderson
+- AccidentalWesAnderson
+- NotSoAccidentalWesAnderson
 ---
 Packed and ready for two weeks of travel to the US\!
 
 
 
-[accidentalwesanderson](/tags/accidentalwesanderson) [notsoaccidentalwesanderson](/tags/notsoaccidentalwesanderson)
+[AccidentalWesAnderson](/tags/accidentalwesanderson) [NotSoAccidentalWesAnderson](/tags/notsoaccidentalwesanderson)

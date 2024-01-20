@@ -4,7 +4,7 @@ tags:
 - imported
 - from-twitter
 - rot13
-- foryoursafety
-- toomuchinformation
+- ForYourSafety
+- TooMuchInformation
 ---
-Eewww this train carriage smells of fgvaxl gjng. [rot13](/tags/rot13) [foryoursafety](/tags/foryoursafety) [toomuchinformation](/tags/toomuchinformation)
+Eewww this train carriage smells of fgvaxl gjng. [rot13](/tags/rot13) [ForYourSafety](/tags/foryoursafety) [TooMuchInformation](/tags/toomuchinformation)

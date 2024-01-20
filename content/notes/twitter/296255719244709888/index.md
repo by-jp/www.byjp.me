@@ -3,6 +3,6 @@ date: "2013-01-29T13:57:22Z"
 tags:
 - imported
 - from-twitter
-- nerdporn
+- NerdPorn
 ---
-Cool\! I need to investigate Levenshtein distances at work [nerdporn](/tags/nerdporn)
+Cool\! I need to investigate Levenshtein distances at work [NerdPorn](/tags/nerdporn)

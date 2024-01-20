@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - tt1020885
 ---
-Lesbian Vampire Killers is a shocking but hilarious film [tt1020885](/tags/tt1020885)
+Lesbian Vampire Killers is a shocking but hilarious film [#tt1020885](https://imdb.com/title/tt1020885)
