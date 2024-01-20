@@ -2,6 +2,6 @@
 title: Photos
 emoji: 📸
 sitemap:
-  changefreq: monthly
+  changefreq: daily
   priority: 0.8
 ---

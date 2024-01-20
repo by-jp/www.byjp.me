@@ -105,30 +105,40 @@ date = ["date", "publishDate", "lastmod", ":git"]
         url = "/calendar"
         weight = 3
       [[languages.en.menu.main]]
+        identifier = "bookmarks"
+        name = "🔖 Bookmarks"
+        url = "/bookmarks"
+        weight = 4
+      [[languages.en.menu.main]]
         identifier = "memex"
         name = "🧠 Memex"
         url = "/memex"
-        weight = 4
+        weight = 5
       [[languages.en.menu.main]]
         identifier = "photos"
         name = "📸 Photos"
         url = "/photos"
-        weight = 5
+        weight = 6
+      [[languages.en.menu.main]]
+        identifier = "notes"
+        name = "💬 Notes"
+        url = "/notes"
+        weight = 7
       [[languages.en.menu.main]]
         identifier = "reading-lists"
-        name = "🔖 Reading lists"
+        name = "📚 Reading lists"
         url = "/reading-lists"
-        weight = 6
+        weight = 8
       [[languages.en.menu.main]]
         identifier = "posts"
         name = "📔 Posts"
         url = "/posts"
-        weight = 7
+        weight = 9
       [[languages.en.menu.main]]
         identifier = "now"
         name = "👇 Now"
         url = "/now"
-        weight = 8
+        weight = 10
 
 [sitemap]
   filename = 'sitemap.xml'
