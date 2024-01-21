@@ -2,7 +2,7 @@
 title: "Bookmarks With Omnivore"
 emoji: 🔖
 date: 2024-01-21T09:41:59Z
-summary:
+summary: I created an importer that brings articles I've read & enjoyed in Omnivore into my blog as IndieWeb bookmarks!
 tags:
 - omnivore
 - bookmarks
@@ -11,6 +11,8 @@ tags:
 - go
 - code
 - CosyWeb
+syndications:
+- https://hachyderm.io/@byjp/111793793066838551
 ---
 
 Yesterday, recovering from a nasty (thankfully non-Covid) cold, I decided to build an import tool for pulling articles I've read & enjoyed in [Omnivore](https://omnivore.app) into this blog as [bookmarks](/booksmarks) (in the [IndieWeb style](https://indieweb.org/bookmark)).
