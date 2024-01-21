@@ -38,8 +38,8 @@ I built this as a sick-day hack so I could figure out if it was worthwhile makin
 
 I'm already enjoying this tool a bunch, so I think I'll develop it further. If others are interested I'll try to make it something easy to run as well (do get in touch on [mastodon](https://hachyderm.io/@byjp) or [send an email](https://www.byjp.me/standing-invitation/) if that sounds interesting!)
 
-My thoughts are to turn this into a service/serverless function that will listen for Omnivore's excellent [webhooks](https://docs.omnivore.app/integrations/webhooks.html), (configurably) filter down to events that should result in "publish a new bookmark", and trigger the [Micropub]([/tags/micropub](https://indieweb.org/Micropub)) endpoint of your blog with all the same highlight/annotation information.
+My thoughts are to turn this into a service/serverless function that will listen for Omnivore's excellent [webhooks](https://docs.omnivore.app/integrations/webhooks.html), (configurably) filter down to events that should result in "publish a new bookmark", and trigger the [Micropub](https://indieweb.org/Micropub) endpoint of your blog with all the same highlight/annotation information.
 
 This should mean that you could publish your favourite Omnivore articles to your blog no matter what it looks like or where it lives! Lots of blogging tools [already support Micropub](https://indieweb.org/Micropub/Servers#CMS_Software) ([micro.blog](https://micro.blog) is a fave of mine), and tools like [IndieKit](https://getindiekit.com) (which is great, I use it here) can integrate with almost any statically generated blog too. This feels like a great way to make it available for all!
 
-Long live the [cosy web]([/tags/cosyweb](https://maggieappleton.com/cozy-web)), filled with stories and articles recommended by friends and humans, not corporations and algorithms!
+Long live the [cosy web](https://maggieappleton.com/cozy-web), filled with stories and articles recommended by friends and humans, not corporations and algorithms!
