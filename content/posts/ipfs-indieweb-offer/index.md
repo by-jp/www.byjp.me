@@ -10,12 +10,12 @@ tags:
 - hosting
 - static-site
 - web
-- homelab
+- HomeLab
 - admarus
 syndications:
 ---
 
-If you're hosting a static IndieWeb site and (want to) keep an up-to-date copy on [IPFS](https://ipfs.io), I'm offering to pin a replica of your site on my energy efficient [homelab](/tags/homelab) in London (in the UK), making it more highly available, as well as being searchable with [Admarus](https://admarus.net/).
+If you're hosting a static IndieWeb site and (want to) keep an up-to-date copy on [IPFS](https://ipfs.io), I'm offering to pin a replica of your site on my energy efficient [HomeLab](/tags/homelab) in London (in the UK), making it more highly available, as well as being searchable with [Admarus](https://admarus.net/).
 
 To get started, just [send me an email](mailto:ipfs@byjp.me?subject=Re:%20An%20IndieWeb%20IPFS%20offer&body=Hi%20JP!%0A%0AWould%20you%20be%20interested%20in%20pinning%20my%20IndieWeb%20site%20on%20IPF%3F%20You%20can%20see%20it%20at%E2%80%A6) and I'll get it set up! (If I think your site isn't suitable for this offer—perhaps it violates one of the [Black Laws](https://terra-ignota.fandom.com/wiki/Black_Laws)—we can chat about it.)
 

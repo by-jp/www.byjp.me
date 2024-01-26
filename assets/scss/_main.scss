@@ -804,10 +804,13 @@ body.nownownow .post-content > p {
   }
 }
 
-a[href^="/tags/"]:before {
-  content: '#';
-  text-decoration: none;
-  display:inline-block;
+a[href^="/tags/"] {
+  white-space: nowrap;
+  &:before {
+    content: '#';
+    text-decoration: none;
+    display:inline-block;
+  }
 }
 
 mark {
