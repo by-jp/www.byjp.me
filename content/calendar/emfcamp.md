@@ -1,7 +1,7 @@
 ---
 title: EMF Camp
 emoji: 📖
-date: 2023-12-24 13:49:16Z
+date: 2023-12-24T13:49:16Z
 timings:
   - starts: 2024-05-30T00:00:00+0100
     duration: P4D
@@ -13,7 +13,7 @@ location:
 summary: A non-profit camping festival for those with an inquisitive mind or an interest in making things.
 ---
 
-I'd really love to go to EMF Camp this year (it'd be my first time, despite how much I'm sure I'd like it!) but I think I'd need to offer to volunteer to get tickets, and this close to my wedding might be a bit too much at once!
+I have my ticket! I'm going with my cousin and a collection of his friends, but do shout if you're going too! I've never been so it's going to be a bunch of fun ☺️
 
 > Electromagnetic Field is a non-profit camping festival for those with an inquisitive mind or an interest in making things: hackers, artists, geeks, crafters, scientists, and engineers.
 >

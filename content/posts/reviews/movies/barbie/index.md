@@ -11,7 +11,7 @@ syndications:
 - https://www.themoviedb.org/review/64c4e33dcadb6b01066cb4b9
 ---
 
-{{< film "Barbie" "2023" "https://www.themoviedb.org/movie/346698-barbie" "barbie.jpg" >}}
+{{< film "Barbie" "2023" "https://www.themoviedb.org/movie/346698-barbie" "poster.webp" >}}
 
 This was an _excellent_ film that left me emotionally stretched in just the right way. It's an adult movie with childhood references (not a kids' film at all), and seems pitched at people roughly my age ([Matchbox Twenty](https://songwhip.com/matchbox-twenty/push) referenced as a track for wooing is too close for comfort!) It _superbly_ voices the internal contradictions women need to navigate to be accepted. It works hard not to centre Ken, even while his role is a critical counterpoint, but also gives a little airtime to how much a male-dominated world makes it hard to be a man too.
 
