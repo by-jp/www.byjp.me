@@ -2,6 +2,10 @@
 
 Things I might work on within my personal blog's software.
 
+### Bugs
+
+- [ ] Fix val.town donations link ([deprecation notice](https://docs.val.town/api/run/))
+
 ### Ideas
 
 - [ ] Complete Twitter import  

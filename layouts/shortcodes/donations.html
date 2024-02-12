@@ -1,4 +1,6 @@
-{{ $donations := getJSON "https://api.val.town/v1/run/byjp.donations" }}
+{{/* $donations := getJSON "https://api.val.town/v1/run/byjp.donations" */}}
+{{/* Having to hard-code for now, as I need to redesign the val.town val, as their API has changed! */}}
+{{ $donations := dict "totalGBP" 101.36 "currencyCount" 2 }}
 <p>Friends have donated <strong>£{{ div (math.Round (mul $donations.totalGBP 100)) 100 }}</strong> (in {{ $donations.currencyCount }} currencies) to worthy causes in thanks. Thank <em>you</em>!</em></p>
 <style>
   .donate input[type=number] {
