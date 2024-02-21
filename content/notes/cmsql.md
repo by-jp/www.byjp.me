@@ -1,6 +1,8 @@
 ---
 date: 2024-02-21T08:50:18.403Z
 publishDate: 2024-02-21T08:50:18.403Z
+tags:
+- Zoe
 syndications:
 - https://hachyderm.io/@byjp/111968612656927491
 ---
