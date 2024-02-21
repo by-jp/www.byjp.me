@@ -12,7 +12,7 @@ tasks:
       - lychee --cache --suggest --require-https .
   dev:
     cmds:
-      - hugo server --minify
+      - hugo server --minify -D
   build:
     cmds:  
       - hugo --cacheDir /tmp/hugo/cache --minify --baseURL "https://www.byjp.me"
