@@ -6,6 +6,7 @@ bookmarkOf: https://invertedpassion.com/a-primer-on-dopamine/
 references:
   bookmark:
     url: https://invertedpassion.com/a-primer-on-dopamine/
+    rel: +agree +accurate
     type: entry
     name: A primer on dopamine
     summary: '1/ I recently made notes on the book "Hooked" but wasn''t satisfied
@@ -13,6 +14,17 @@ references:
       of habit-forming products and that inevitably lead me to the (in)famous neurotransmitter
       dopamine. 3/ Before we dive into what dopamine does, let''s first make one thing
       clear: dopamine…'
+  games-problems:
+    url: https://invertedpassion.com/games-are-problems-people-pay-to-solve/
+    name: Games are problems people pay to solve
+    rel: +agree +accurate
+  skimmable:
+    url: https://invertedpassion.com/why-you-will-skim-this-article/
+    name: Why you will skim this article
+    rel: +agree +accurate
+  dopamine-and-value-of-work:
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4696912/
+    name: Mesolimbic Dopamine Signals the Value of Work
 ---
 
 I really enjoyed reading about dopamine, desire and pleasure here! It’s worth a read, even if it slightly veers into the “how to abuse this knowledge for personal gain with your new product” space.

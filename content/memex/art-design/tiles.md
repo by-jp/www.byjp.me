@@ -7,6 +7,11 @@ tags:
 - shapes
 - tiling
 - colour
+references:
+  chiral-aperiodic-monotile:
+    url: https://cs.uwaterloo.ca/~csk/spectre/
+    name: A chiral aperiodic monotile
+    rel: +accurate
 ---
 
 ## Aperiodic monotiles

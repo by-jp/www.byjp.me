@@ -1,17 +1,18 @@
-{{ if not .Params.bookmarkOf}}
-  {{ errorf "BookmarkOf partial called when no bookmark of param set" }}
-{{ end }}
+{{- if not .Params.bookmarkOf -}}
+  {{ errorf "BookmarkOf partial called when no bookmark of param set" -}}
+{{- end -}}
 
-{{ $url := .Params.bookmarkOf }}
-{{ $reference := dict }}
-{{ range .Params.references }}
-  {{ if eq .url $url }}
-    {{ $reference = . }}
-  {{ end }}
-{{ end }}
+{{- $page := . -}}
+{{- $url := .Params.bookmarkOf -}}
+{{- $reference := dict -}}
+{{- range .Params.references -}}
+  {{- if eq .url $url -}}
+    {{- $reference = . -}}
+  {{- end }}
+{{- end -}}
 💭 Thoughts on{{" "}}
 {{- with $reference.name -}}
-  the article <a href="{{ $url }}" class="u-bookmark-of">{{ . }}</a>.
+  the article {{ partial "rich-link.html" (dict "Class" "u-bookmark-of" "Destination" $url "Text" . "Page" $page) }}.
 {{- else -}}
-  <a href="{{ $url }}" class="u-bookmark-of">an article from {{ ($url | urls.Parse).Hostname  }}</a>
+  {{ partial "rich-link.html" (dict "Class" "u-bookmark-of" "Destination" $url "Text" (printf "an article from %s" (($url | urls.Parse).Hostname)) "Page" $page) }}
 {{- end }}

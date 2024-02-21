@@ -31,6 +31,14 @@ $media-size-tablet: "(max-width: 900px)";
   --tabletWidth: (max-width: 900px);
   --accent: #8186FF;
   --accentHue: 290;
+
+  @media (prefers-color-scheme: dark) {
+    --background: #232425;
+  }
+
+  @media (prefers-color-scheme: light) {
+    --background: #fff;
+  }
 }
 
 /* Content */

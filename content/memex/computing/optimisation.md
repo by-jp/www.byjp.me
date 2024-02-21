@@ -6,6 +6,11 @@ tags:
 - optimisation
 - lines
 - svg
+references:
+  line-simplification:
+    url: https://bost.ocks.org/mike/simplify/
+    name: Line Simplification
+    rel: +accurate
 ---
 
 ## Line simplification

@@ -8,6 +8,15 @@ tags:
 - zwj
 - emoji
 - fonts
+references:
+  microsoft-ttf-docs:
+    url: https://learn.microsoft.com/en-us/typography/opentype/spec/
+    name: OpenType® Specification Version 1.9
+    rel: +accurate
+  apple-ttf-docs:
+    url: https://developer.apple.com/fonts/TrueType-Reference-Manual/
+    name: TrueType Reference Manual
+    rel: +accurate
 ---
 
 ## TTF Fonts

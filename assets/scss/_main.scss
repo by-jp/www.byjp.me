@@ -339,6 +339,11 @@ figure {
   }
 }
 
+caption {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
 em, strong {
   // Default
   color: $light-color-variant;
