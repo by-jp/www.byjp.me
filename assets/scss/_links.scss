@@ -1,0 +1,27 @@
+a[rel~="+agree"]:hover {
+  text-decoration-style: double;
+}
+a[rel~="-agree"]:hover {
+  text-decoration-style: dotted;
+}
+
+a[rel~="+accurate"]:hover {
+  position: relative;
+  
+  &::after {
+    position: absolute;
+    vertical-align: super;
+    font-size: x-small;
+    content: "✓";
+  }
+}
+a[rel~="-accurate"]:hover {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    vertical-align: super;
+    font-size: x-small;
+    content: "✗";
+  }
+}

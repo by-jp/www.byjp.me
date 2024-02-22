@@ -11,6 +11,11 @@ tags:
 - colour
 - picker
 - colour-scheme
+references:
+  lch-in-css:
+    url: https://lea.verou.me/blog/2020/04/lch-colors-in-css-what-why-and-how/
+    rel: +accurate
+    name: "LCH colors in CSS: what, why, and how?"
 ---
 
 ## Spelling

@@ -7,6 +7,11 @@ tags:
 - manifesto
 - play
 - games
+references:
+  puzmo-manifesto:
+    url: https://www.puzzmo.com/public-manifesto
+    name: The Puzzmo Manifesto
+    rel: +agree
 ---
 
 ## Puzzmo manifesto
