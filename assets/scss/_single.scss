@@ -482,12 +482,32 @@ figure {
   }
 }
 
+details {
+  padding-bottom: 0.5em;
+
+  &[open] {
+    padding-bottom: 0;
+    padding-left: 1em;
+    position: relative;
+    left: -1em;
+    border-left: 1px solid $dark-background-secondary;
+
+    summary {
+      border-bottom: 1px solid $dark-background-secondary;
+      padding-bottom: 1em;
+    }
+  }
+
+  summary {
+    cursor: pointer;
+  }
+}
+
 .interactions {
 
   details {
     summary {
       margin: 0;
-      cursor: pointer;
       list-style: none;
 
       &::marker, &::-webkit-details-marker {

@@ -33,11 +33,11 @@ I’ve been (ha!) pleasantly surprised by how this article pulls lots of differe
 
 ### Highlights
 
-> **The more interesting part is that dopamine (and hence desire) is intensified when we get positively surprised.**
+> The more interesting part is that dopamine (and hence desire) is intensified when we get positively surprised.
 
 ---
 
-> **our brain is constantly betting: which choice can lead to the highest gain for the minimum investment.**
+> our brain is constantly betting: which choice can lead to the highest gain for the minimum investment.
 
 ---
 
@@ -45,7 +45,7 @@ I’ve been (ha!) pleasantly surprised by how this article pulls lots of differe
 
 ---
 
-> **You can imagine dopamine as signalling the [value of work](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4696912/).**
+> You can imagine dopamine as signalling the [value of work](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4696912/).
 
 ---
 
@@ -53,15 +53,15 @@ I’ve been (ha!) pleasantly surprised by how this article pulls lots of differe
 
 ---
 
-> **It’s easy to confuse “liking” and “wanting”**
+> It’s easy to confuse “liking” and “wanting”
 
 ---
 
-> **If you’re addicted to something, you have an intense desire which fails to resolve into an equally intense pleasure.**
+> If you’re addicted to something, you have an intense desire which fails to resolve into an equally intense pleasure.
 
 ---
 
-> **desire is generated after encountering something rewarding.**
+> desire is generated after encountering something rewarding.
 
 ---
 
@@ -77,7 +77,7 @@ I’ve been (ha!) pleasantly surprised by how this article pulls lots of differe
 
 ---
 
-> **The gap in knowledge about the reward generating process is intensely motivating**
+> The gap in knowledge about the reward generating process is intensely motivating
 
 ---
 
@@ -85,7 +85,7 @@ I’ve been (ha!) pleasantly surprised by how this article pulls lots of differe
 
 ---
 
-> **Higher the surprise, higher the reward prediction error, higher the activity of dopamine neurons.**
+> Higher the surprise, higher the reward prediction error, higher the activity of dopamine neurons.
 
 ---
 
@@ -101,11 +101,11 @@ I’ve been (ha!) pleasantly surprised by how this article pulls lots of differe
 
 ---
 
-> **it triggers many of the adaptive behaviors of learning, exploration and automaticity**.
+> it triggers many of the adaptive behaviors of learning, exploration and automaticity.
 
 ---
 
-> If you were expecting a reward and get exactly that, your brain doesn’t increase dopamine production. That’s because **there’s no point in optimizing things even further, since you got what you were expecting**. No further learning, exploration or automaticity is needed.
+> If you were expecting a reward and get exactly that, your brain doesn’t increase dopamine production. That’s because there’s no point in optimizing things even further, since you got what you were expecting. No further learning, exploration or automaticity is needed.
 
 ---
 
@@ -113,15 +113,15 @@ I’ve been (ha!) pleasantly surprised by how this article pulls lots of differe
 
 ---
 
-> **we actively seek high-dopamine producing situations**
+> we actively seek high-dopamine producing situations
 
 ---
 
-> **we DON’T mind occasional lack of expected rewards as long as we get unexpected rewards.**
+> we DON’T mind occasional lack of expected rewards as long as we get unexpected rewards.
 
 ---
 
-> **For video games, dopamine’s behavior suggests that continuing to unseat expectations is _the_ key job.**
+> For video games, dopamine’s behavior suggests that continuing to unseat expectations is _the_ key job.
 
 ---
 
@@ -155,7 +155,7 @@ I don’t agree with the base premise here, I think this is inverted. You can se
 
 ---
 
-> **we find it joyful to put in (some) effort to figure out a reward**
+> we find it joyful to put in (some) effort to figure out a reward
 
 Additionally, from my time at Tesco working on Price Drop, if someone _doesn’t_ have to work to derive reward then it instantly becomes expectation, and pleasure can’t be derived from that source any more.
 

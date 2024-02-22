@@ -1,11 +1,11 @@
-a[rel~="+agree"]:hover {
+a[rel~="+agree"]:hover, .force-is-agree, .show-links article a[rel~="+agree"] {
   text-decoration-style: double;
 }
-a[rel~="-agree"]:hover {
+a[rel~="-agree"]:hover, .force-isnt-agree, .show-links article a[rel~="-agree"] {
   text-decoration-style: dotted;
 }
 
-a[rel~="+accurate"]:hover {
+a[rel~="+accurate"]:hover, .force-is-accurate, .show-links article a[rel~="+accurate"] {
   position: relative;
   
   &::after {
@@ -15,7 +15,7 @@ a[rel~="+accurate"]:hover {
     content: "✓";
   }
 }
-a[rel~="-accurate"]:hover {
+a[rel~="-accurate"]:hover, .force-isnt-accurate, .show-links article a[rel~="-accurate"] {
   position: relative;
 
   &::after {

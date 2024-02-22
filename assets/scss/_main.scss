@@ -151,17 +151,18 @@ a:not(.noaccent) {
     color: lch(60% 60 var(--accentHue));
   }
 
-  &:hover {
-    color: var(--accent);
-
-    .daytime {
-      color: inherit;
-    }
-  }
-
   transition-property: color, filter;
   transition-duration: .2s;
   transition-timing-function: ease-in;
+}
+
+a:not(.noaccent):hover, .force-anchor, .show-links article a:not(.noaccent) {
+  color: var(--accent);
+  text-decoration: underline;
+
+  .daytime {
+    color: inherit;
+  }
 }
 
 a.noaccent {

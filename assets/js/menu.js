@@ -10,6 +10,7 @@ const isMobileMenu = () => {
   menuTrigger && menuTrigger.classList.toggle("hidden", !isMobile());
   menu && menu.classList.toggle("hidden", isMobile());
 };
+const showLinks = (state) => document.querySelector('body').classList.toggle('show-links', state);
 
 isMobileMenu();
 
@@ -20,3 +21,9 @@ menuTrigger &&
   );
 
 window.addEventListener("resize", isMobileMenu);
+window.addEventListener('scroll', () => {
+  showLinks(true);
+  
+  clearTimeout(this.scrollEndTimer);
+  this.scrollEndTimer = setTimeout(() => showLinks(false), 500);
+}, false);
