@@ -7,9 +7,11 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"net/url"
 	"os"
 	"path"
 	"regexp"
+	"slices"
 	"strings"
 	"time"
 
@@ -18,6 +20,12 @@ import (
 
 //go:embed query.gql
 var gql string
+
+var ignoreLabels = []string{
+	"opinion-agree",
+	"opinion-disagree",
+	"interesting",
+}
 
 func main() {
 	apiKey, ok := os.LookupEnv("OMNIVORE_API_KEY")
@@ -47,7 +55,6 @@ func main() {
 var hashtags = regexp.MustCompile(`#\w+`)
 
 func outputArticle(article Article, outputDir string) error {
-
 	slug := kebab(article.Title)
 	hugoPost, err := os.Create(path.Join(outputDir, fmt.Sprintf("%s.md", slug)))
 	if err != nil {
@@ -55,10 +62,9 @@ func outputArticle(article Article, outputDir string) error {
 	}
 
 	fm := FrontMatter{
-		Title:       article.Title,
-		Date:        article.BookmarkDate.Format(time.RFC3339),
-		PublishDate: article.PublishDate.Format(time.RFC3339),
-		BookmarkOf:  article.OriginalURL,
+		Title:      article.Title,
+		Date:       article.BookmarkDate.Format(time.RFC3339),
+		BookmarkOf: article.OriginalURL,
 		References: map[string]Ref{
 			"bookmark": {
 				URL:     article.OriginalURL,
@@ -68,6 +74,11 @@ func outputArticle(article Article, outputDir string) error {
 				Author:  article.OriginalAuthor,
 			},
 		},
+		Tags: article.Tags,
+	}
+
+	if !article.PublishDate.IsZero() {
+		fm.PublishDate = article.PublishDate.Format(time.RFC3339)
 	}
 
 	fmt.Fprintln(hugoPost, "---")
@@ -77,16 +88,20 @@ func outputArticle(article Article, outputDir string) error {
 	}
 
 	fmt.Fprint(hugoPost, "---\n\n")
-	fmt.Fprintln(hugoPost, linkHashtags(article.Annonation))
+	fmt.Fprintln(hugoPost, linkHashtags(article.Annonation, fm.Tags))
 	fmt.Fprintln(hugoPost)
-	fmt.Fprint(hugoPost, "### Highlights\n\n")
+
+	if len(article.Highlights) > 0 {
+		fmt.Fprint(hugoPost, "### Highlights\n\n")
+	}
+
 	for i, highlight := range article.Highlights {
 		noTrailingNewLine := strings.TrimRight(highlight.Quote, "\n ")
 		quote := "> " + strings.ReplaceAll(noTrailingNewLine, "\n", "\n> ")
 		fmt.Fprint(hugoPost, quote+"\n\n")
 
 		if highlight.Comment != "" {
-			fmt.Fprint(hugoPost, linkHashtags(highlight.Comment)+"\n\n")
+			fmt.Fprint(hugoPost, linkHashtags(highlight.Comment, fm.Tags)+"\n\n")
 		}
 
 		if i < len(article.Highlights)-1 {
@@ -97,9 +112,10 @@ func outputArticle(article Article, outputDir string) error {
 	return nil
 }
 
-func linkHashtags(text string) string {
+func linkHashtags(text string, tags []string) string {
 	return hashtags.ReplaceAllStringFunc(text, func(hashtag string) string {
-		return fmt.Sprintf("[%s](/tags/%s)", hashtag[1:], hashtag[1:])
+		tags = append(tags, hashtag[1:])
+		return fmt.Sprintf("[%s](/tags/%s)", hashtag[1:], strings.ToLower(hashtag[1:]))
 	})
 }
 
@@ -127,6 +143,7 @@ type Article struct {
 	OriginalAuthor  string
 	Annonation      string
 	Highlights      []ArticleHighlight
+	Tags            []string
 }
 
 type ArticleHighlight struct {
@@ -137,9 +154,10 @@ type ArticleHighlight struct {
 type FrontMatter struct {
 	Title       string
 	Date        string
-	PublishDate string `yaml:"publishDate"`
+	PublishDate string `yaml:"publishDate,omitempty"`
 	BookmarkOf  string `yaml:"bookmarkOf"`
 	References  map[string]Ref
+	Tags        []string
 }
 
 type Ref struct {
@@ -175,7 +193,7 @@ type SearchResult struct {
 	Highlights         []Highlight
 	Labels             []struct {
 		Name string `json:"name"`
-	}
+	} `json:"labels"`
 }
 
 type Highlight struct {
@@ -256,6 +274,8 @@ func parseResponse(body []byte) ([]Article, string, error) {
 	for _, edge := range searchResults.Data.Search.Edges {
 		sr := edge.Node
 
+		articleURL := stripMarketing(sr.OriginalArticleURL)
+
 		var highlights []ArticleHighlight
 		var annotation string
 		for _, highlight := range sr.Highlights {
@@ -270,6 +290,7 @@ func parseResponse(body []byte) ([]Article, string, error) {
 		}
 
 		if len(annotation) == 0 {
+			fmt.Fprintf(os.Stderr, "No annotation for %s\n", articleURL)
 			continue
 		}
 
@@ -280,8 +301,7 @@ func parseResponse(body []byte) ([]Article, string, error) {
 		}
 		published, err := time.Parse(time.RFC3339, sr.PublishedAt)
 		if err != nil {
-			fmt.Fprintf(os.Stderr, "Failed to parse PublishedAt date: %s\n", sr.ID)
-			continue
+			fmt.Fprintf(os.Stderr, "Failed to parse PublishedAt date (for %s): %s\n", articleURL, sr.ID)
 		}
 
 		abbreviatedOriginalTitle := sr.Title
@@ -304,13 +324,20 @@ func parseResponse(body []byte) ([]Article, string, error) {
 			ID:              sr.ID,
 			Title:           title,
 			OriginalTitle:   abbreviatedOriginalTitle,
-			OriginalURL:     sr.OriginalArticleURL,
+			OriginalURL:     articleURL,
 			OriginalAuthor:  sr.Author,
 			OriginalSummary: sr.Description,
 			BookmarkDate:    bookmarked,
 			PublishDate:     published,
 			Highlights:      highlights,
 			Annonation:      annotation,
+		}
+
+		for _, label := range sr.Labels {
+			if slices.Contains(ignoreLabels, label.Name) {
+				continue
+			}
+			article.Tags = append(article.Tags, label.Name)
 		}
 
 		articles = append(articles, article)
@@ -322,4 +349,23 @@ func parseResponse(body []byte) ([]Article, string, error) {
 	}
 
 	return articles, cursor, nil
+}
+
+func stripMarketing(rawURL string) string {
+	u, err := url.Parse(rawURL)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Failed to parse URL: %s\n", rawURL)
+		return rawURL
+	}
+
+	q := u.Query()
+	q.Del("amp")
+	q.Del("utm_source")
+	q.Del("utm_medium")
+	q.Del("utm_campaign")
+	q.Del("utm_content")
+	q.Del("utm_term")
+	u.RawQuery = q.Encode()
+
+	return u.String()
 }

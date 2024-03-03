@@ -9,6 +9,8 @@ references:
     type: entry
     name: Google shattered human connection
     summary: Open Source Freelancer
+tags:
+- tech
 ---
 
 

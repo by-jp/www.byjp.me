@@ -25,6 +25,9 @@ references:
   dopamine-and-value-of-work:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4696912/
     name: Mesolimbic Dopamine Signals the Value of Work
+tags:
+- curious
+- biology
 ---
 
 I really enjoyed reading about dopamine, desire and pleasure here! It’s worth a read, even if it slightly veers into the “how to abuse this knowledge for personal gain with your new product” space.

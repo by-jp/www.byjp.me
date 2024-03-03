@@ -10,6 +10,10 @@ references:
     name: Breaking the Tyranny of Obviousness
     summary: We are stuck in a hell of frictionlessness.
     author: P.E. Moskowitz
+tags:
+- curious
+- grief
+- Miriscient
 ---
 
 

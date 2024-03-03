@@ -11,6 +11,9 @@ references:
     summary: Solitude, creativity, Bergman, Grothendieck, and the pursuit of great
       ideas.
     author: Henrik Karlsson, Johanna Wiberg
+tags:
+- self-help
+- creativity
 ---
 
 
