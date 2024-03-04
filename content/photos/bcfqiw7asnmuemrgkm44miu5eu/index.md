@@ -5,14 +5,10 @@ media:
 date: "2018-12-24T14:30:28Z"
 draft: false
 tags:
-- withflyingcolours
+- WithFlyingColours
 ---
 With Flying Colours Pt. 3
 
-
-
 The third in a series of photos I'm taking after being challenged to find five that speak the phrase "with flying colours" to me 😊
 
-
-
-[withflyingcolours](/tags/withflyingcolours)
+[WithFlyingColours](/tags/withflyingcolours)

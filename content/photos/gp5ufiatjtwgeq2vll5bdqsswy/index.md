@@ -9,8 +9,8 @@ media:
 date: "2018-12-16T19:55:12Z"
 draft: false
 tags:
-- sourdoughsunday
+- SourdoughSunday
 ---
 Om nom nom nom 😍😋🍕
 
-[sourdoughsunday](/tags/sourdoughsunday)
+[SourdoughSunday](/tags/sourdoughsunday)

@@ -6,11 +6,11 @@ media:
 date: "2018-05-04T18:17:54Z"
 draft: false
 tags:
-- postcardsforlucy
+- PostcardsForLucy
 ---
 InMemory™
 
-[postcardsforlucy](/tags/postcardsforlucy)
+[PostcardsForLucy](/tags/postcardsforlucy)
 
 
 

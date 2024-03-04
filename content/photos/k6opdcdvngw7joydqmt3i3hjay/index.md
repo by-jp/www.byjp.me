@@ -6,11 +6,11 @@ media:
 date: "2018-05-20T09:58:37Z"
 draft: false
 tags:
-- postcardsforlucy
+- PostcardsForLucy
 ---
 September 3rd
 
-[postcardsforlucy](/tags/postcardsforlucy) 
+[PostcardsForLucy](/tags/postcardsforlucy) 
 
 Sept: 3rd 1961
 

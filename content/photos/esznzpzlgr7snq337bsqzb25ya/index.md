@@ -6,11 +6,11 @@ media:
 date: "2018-06-23T12:17:58Z"
 draft: false
 tags:
-- postcardsforlucy
+- PostcardsForLucy
 ---
 Jake's Dinner
 
-[postcardsforlucy](/tags/postcardsforlucy)
+[PostcardsForLucy](/tags/postcardsforlucy)
 
 
 

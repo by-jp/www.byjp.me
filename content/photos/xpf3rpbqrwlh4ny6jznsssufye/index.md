@@ -6,11 +6,11 @@ media:
 date: "2018-05-25T06:07:51Z"
 draft: false
 tags:
-- postcardsforlucy
+- PostcardsForLucy
 ---
 Twos
 
-[postcardsforlucy](/tags/postcardsforlucy)
+[PostcardsForLucy](/tags/postcardsforlucy)
 
 
 

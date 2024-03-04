@@ -5,6 +5,6 @@ media:
 date: "2019-02-11T10:35:29Z"
 draft: false
 tags:
-- vaginamonologues
+- VaginaMonologues
 ---
-A truly fantastic performance of the Vagina Monologues by Freiburg's own [@maniactsfreiburg](https://instagram.com/maniactsfreiburg) — their large cast \(for a monologue\!\) only enriched it, and I can't recommend going to see it this week enough, go if you can\! [vaginamonologues](/tags/vaginamonologues)
+A truly fantastic performance of the Vagina Monologues by Freiburg's own [@maniactsfreiburg](https://instagram.com/maniactsfreiburg) — their large cast \(for a monologue\!\) only enriched it, and I can't recommend going to see it this week enough, go if you can\! [VaginaMonologues](/tags/vaginamonologues)

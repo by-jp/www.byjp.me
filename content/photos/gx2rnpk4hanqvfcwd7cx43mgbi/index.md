@@ -5,8 +5,8 @@ media:
 date: "2018-11-12T18:56:30Z"
 draft: false
 tags:
-- softwareengineer
+- SoftwareEngineer
 ---
 Today at work I have mostly been hunting bugs.
 
-[softwareengineer](/tags/softwareengineer)
+[SoftwareEngineer](/tags/softwareengineer)

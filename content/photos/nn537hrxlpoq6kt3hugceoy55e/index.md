@@ -6,11 +6,11 @@ media:
 date: "2018-06-01T15:48:49Z"
 draft: false
 tags:
-- postcardsforlucy
+- PostcardsForLucy
 ---
 Gods
 
-[postcardsforlucy](/tags/postcardsforlucy)
+[PostcardsForLucy](/tags/postcardsforlucy)
 
 
 

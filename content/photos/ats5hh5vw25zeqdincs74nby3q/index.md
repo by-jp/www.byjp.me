@@ -6,7 +6,7 @@ date: "2018-12-01T01:41:20Z"
 draft: false
 tags:
 - the brat pack
-- withflyingcolours
+- WithFlyingColours
 ---
 With Flying Colours, Pt. 2
 
@@ -16,4 +16,4 @@ As part of a challenge set to me by Rae for [@postcards](https://instagram.com/p
 
 
 
-[withflyingcolours](/tags/withflyingcolours)
+[WithFlyingColours](/tags/withflyingcolours)

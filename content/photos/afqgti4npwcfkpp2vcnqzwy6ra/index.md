@@ -5,6 +5,6 @@ media:
 date: "2015-08-26T08:09:01Z"
 draft: false
 tags:
-- relivingholidayswhenyouareill
+- RelivingHolidaysWhenYouAreIll
 ---
-[relivingholidayswhenyouareill](/tags/relivingholidayswhenyouareill)
+[RelivingHolidaysWhenYouAreIll](/tags/relivingholidayswhenyouareill)

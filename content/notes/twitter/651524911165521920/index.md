@@ -3,7 +3,7 @@ date: "2015-10-06T22:30:18Z"
 tags:
 - imported
 - from-twitter
-- welcometonightvale
+- WelcomeToNightvale
 ---
 
 1. Separate your lips
@@ -12,4 +12,4 @@ tags:
 
 This is how to be happy.
 
-[welcometonightvale](/tags/welcometonightvale)
+[WelcomeToNightvale](/tags/welcometonightvale)

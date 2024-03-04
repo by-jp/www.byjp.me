@@ -6,11 +6,11 @@ media:
 date: "2018-04-06T07:37:38Z"
 draft: false
 tags:
-- postcardsforlucy
+- PostcardsForLucy
 ---
 Curious Soul
 
-[postcardsforlucy](/tags/postcardsforlucy)
+[PostcardsForLucy](/tags/postcardsforlucy)
 
 
 

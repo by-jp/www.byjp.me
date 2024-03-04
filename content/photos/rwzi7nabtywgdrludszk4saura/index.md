@@ -5,6 +5,6 @@ media:
 date: "2014-03-07T22:00:44Z"
 draft: false
 tags:
-- betterfridaythanyours
+- BetterFridayThanYours
 ---
-Rummaging through childhood Lego box \([betterfridaythanyours](/tags/betterfridaythanyours)\) and find a DINOSAUR TALON.
+Rummaging through childhood Lego box \([BetterFridayThanYours](/tags/betterfridaythanyours)\) and find a DINOSAUR TALON.

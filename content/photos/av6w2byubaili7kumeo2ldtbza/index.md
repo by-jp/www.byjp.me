@@ -6,11 +6,11 @@ media:
 date: "2018-06-15T06:42:21Z"
 draft: false
 tags:
-- postcardsforlucy
+- PostcardsForLucy
 ---
 Curtains
 
-[postcardsforlucy](/tags/postcardsforlucy)
+[PostcardsForLucy](/tags/postcardsforlucy)
 
 
 

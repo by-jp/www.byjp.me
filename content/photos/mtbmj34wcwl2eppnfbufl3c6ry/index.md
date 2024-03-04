@@ -5,6 +5,6 @@ media:
 date: "2019-01-27T09:49:31Z"
 draft: false
 tags:
-- accidentallywesanderson
+- AccidentallyWesAnderson
 ---
-Tending to your desire for [accidentallywesanderson](/tags/accidentallywesanderson) while waiting for the train home 😍
+Tending to your desire for [AccidentallyWesAnderson](/tags/accidentallywesanderson) while waiting for the train home 😍
