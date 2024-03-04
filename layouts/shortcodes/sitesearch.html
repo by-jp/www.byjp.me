@@ -3,9 +3,13 @@
 <div id="search"></div>
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({
+        const search = new PagefindUI({
           element: "#search",
           showEmptyFilters: false,
         });
+        const params = new URLSearchParams(window.location.search);
+        if (params.has('q')) {
+          search.triggerSearch(params.get('q'));
+        }
     });
 </script>
