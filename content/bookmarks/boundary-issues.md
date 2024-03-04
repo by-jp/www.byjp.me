@@ -1,6 +1,6 @@
 ---
 title: Boundary Issues
-date: "2024-03-04T21:17:56Z"
+date: "2024-01-28T21:17:56Z"
 publishDate: "2023-07-10T13:34:08Z"
 bookmarkOf: https://www.parapraxismagazine.com/articles/boundary-issues
 references:
