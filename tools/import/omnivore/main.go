@@ -35,7 +35,7 @@ func main() {
 	}
 	// Make the GraphQL request
 	articles, err := omnivoreArticles(
-		"in:archived has:highlights sort:updated-des",
+		"in:archive has:highlights sort:updated-des",
 		apiKey,
 	)
 	if err != nil {
