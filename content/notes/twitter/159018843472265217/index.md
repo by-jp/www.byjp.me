@@ -3,6 +3,8 @@ date: "2012-01-16T21:07:01Z"
 tags:
 - imported
 - from-twitter
-- thisismyjam
+- ThisIsMyJam
 ---
-“Houdini” by Foster The People is my new jam. ♫  [https://t.thisismyjam.com/jphastings](https://t.thisismyjam.com/jphastings) [thisismyjam](/tags/thisismyjam)
+“Houdini” by Foster The People is my new jam. ♫  [https://t.thisismyjam.com/jphastings](https://t.thisismyjam.com/jphastings) [ThisIsMyJam](/tags/thisismyjam)
+
+{{< spotify path="/track/5Fli1xRi01bvCjsZvKWro0" artist="Houdini" title="Foster the People" >}}

@@ -3,6 +3,6 @@ date: "2010-05-06T21:01:59Z"
 tags:
 - imported
 - from-twitter
-- ukelection
+- UKElection
 ---
-BBC Exit poll: Con:307,Lab:255,Lib:59,Other: 29  {{< imgorvid src="1lleur" >}}  [ukelection](/tags/ukelection)
+BBC Exit poll: Con:307,Lab:255,Lib:59,Other: 29  {{< imgorvid src="1lleur" >}}  [UKElection](/tags/ukelection)

@@ -3,11 +3,11 @@ date: "2009-08-20T16:30:37Z"
 tags:
 - imported
 - from-twitter
-- songsincode
+- SongsInCode
 ---
 
 ```python
 if (blame = (!sunshine && !moonlight && !goodtimes && boogie)) { self.feet.control = false }
 ```
 
-[songsincode](/tags/songsincode)
+[SongsInCode](/tags/songsincode)

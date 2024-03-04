@@ -3,7 +3,7 @@ date: "2010-04-21T12:53:53Z"
 tags:
 - imported
 - from-twitter
-- ridiculousslogans
-- terrifyingstatements
+- RidiculousSlogans
+- TerrifyingStatements
 ---
-Harveys: "On our way to your home" [ridiculousslogans](/tags/ridiculousslogans) / [terrifyingstatements](/tags/terrifyingstatements)
+Harveys: "On our way to your home" [RidiculousSlogans](/tags/ridiculousslogans) / [TerrifyingStatements](/tags/terrifyingstatements)
