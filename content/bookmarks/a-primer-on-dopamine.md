@@ -151,7 +151,7 @@ I’m not sure I agree that this is _all_ that stories are, but to the extent th
 ---
 
 > Plus, [why everything looks the same now](https://invertedpassion.com/why-you-will-skim-this-article/).
-> 
+>
 > Hint: that’s because before beating expectations, you have to meet them.
 
 I don’t agree with the base premise here, I think this is inverted. You can set yourself apart from expectations & reset them; if you end up looking like others _then_ you have to meet all the expectations folks have of everyone else, but if you can find a niche and be different enough that people roll back their higher-level expectations, then you can carve out some particularly interesting reward.
@@ -161,4 +161,3 @@ I don’t agree with the base premise here, I think this is inverted. You can se
 > we find it joyful to put in (some) effort to figure out a reward
 
 Additionally, from my time at Tesco working on Price Drop, if someone _doesn’t_ have to work to derive reward then it instantly becomes expectation, and pleasure can’t be derived from that source any more.
-

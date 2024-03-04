@@ -35,7 +35,7 @@ func main() {
 	}
 	// Make the GraphQL request
 	articles, err := omnivoreArticles(
-		"in:all has:highlights is:read sort:updated-des",
+		"in:archived has:highlights sort:updated-des",
 		apiKey,
 	)
 	if err != nil {
@@ -89,27 +89,32 @@ func outputArticle(article Article, outputDir string) error {
 
 	fmt.Fprint(hugoPost, "---\n\n")
 	fmt.Fprintln(hugoPost, linkHashtags(article.Annonation, fm.Tags))
-	fmt.Fprintln(hugoPost)
 
 	if len(article.Highlights) > 0 {
-		fmt.Fprint(hugoPost, "### Highlights\n\n")
+		fmt.Fprint(hugoPost, "\n### Highlights\n")
 	}
 
 	for i, highlight := range article.Highlights {
-		noTrailingNewLine := strings.TrimRight(highlight.Quote, "\n ")
-		quote := "> " + strings.ReplaceAll(noTrailingNewLine, "\n", "\n> ")
-		fmt.Fprint(hugoPost, quote+"\n\n")
+		quote := "> " + strings.ReplaceAll(trimQuote(highlight.Quote), "\n", "\n> ")
+		fmt.Fprint(hugoPost, "\n"+quote+"\n\n")
 
 		if highlight.Comment != "" {
 			fmt.Fprint(hugoPost, linkHashtags(highlight.Comment, fm.Tags)+"\n\n")
 		}
 
 		if i < len(article.Highlights)-1 {
-			fmt.Fprint(hugoPost, "---\n\n")
+			fmt.Fprint(hugoPost, "---\n")
 		}
 	}
 
 	return nil
+}
+
+var allBold = regexp.MustCompile(`\*\*([^*]+)\*\*(\W)?`)
+
+func trimQuote(quote string) string {
+	noTrail := strings.TrimRight(quote, "\n ")
+	return allBold.ReplaceAllString(noTrail, "$1$2")
 }
 
 func linkHashtags(text string, tags []string) string {

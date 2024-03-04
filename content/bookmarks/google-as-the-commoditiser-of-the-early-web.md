@@ -20,7 +20,7 @@ Slightly strong on the “back in the good old days” vibes, but a valid critiq
 
 ### Highlights
 
-> **Google popularized the habit of taking things out of context**
+> Google popularized the habit of taking things out of context
 
 ---
 
@@ -29,4 +29,3 @@ Slightly strong on the “back in the good old days” vibes, but a valid critiq
 ---
 
 > We now assume it is an established truth that the internet is made of “information” or “content”. This has not always been the case.
-
