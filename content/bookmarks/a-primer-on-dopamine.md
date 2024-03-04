@@ -14,20 +14,20 @@ references:
       of habit-forming products and that inevitably lead me to the (in)famous neurotransmitter
       dopamine. 3/ Before we dive into what dopamine does, let''s first make one thing
       clear: dopamine…'
-  games-problems:
-    url: https://invertedpassion.com/games-are-problems-people-pay-to-solve/
-    name: Games are problems people pay to solve
-    rel: +agree +accurate
-  skimmable:
-    url: https://invertedpassion.com/why-you-will-skim-this-article/
-    name: Why you will skim this article
-    rel: +agree +accurate
   dopamine-and-value-of-work:
     url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4696912/
     name: Mesolimbic Dopamine Signals the Value of Work
+  games-problems:
+    url: https://invertedpassion.com/games-are-problems-people-pay-to-solve/
+    rel: +agree +accurate
+    name: Games are problems people pay to solve
+  skimmable:
+    url: https://invertedpassion.com/why-you-will-skim-this-article/
+    rel: +agree +accurate
+    name: Why you will skim this article
 tags:
-- curious
 - biology
+- curious
 ---
 
 I really enjoyed reading about dopamine, desire and pleasure here! It’s worth a read, even if it slightly veers into the “how to abuse this knowledge for personal gain with your new product” space.
@@ -151,7 +151,7 @@ I’m not sure I agree that this is _all_ that stories are, but to the extent th
 ---
 
 > Plus, [why everything looks the same now](https://invertedpassion.com/why-you-will-skim-this-article/).
->
+> 
 > Hint: that’s because before beating expectations, you have to meet them.
 
 I don’t agree with the base premise here, I think this is inverted. You can set yourself apart from expectations & reset them; if you end up looking like others _then_ you have to meet all the expectations folks have of everyone else, but if you can find a niche and be different enough that people roll back their higher-level expectations, then you can carve out some particularly interesting reward.

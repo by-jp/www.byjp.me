@@ -12,8 +12,8 @@ references:
       ideas.
     author: Henrik Karlsson, Johanna Wiberg
 tags:
-- self-help
 - creativity
+- self-help
 ---
 
 
@@ -32,4 +32,3 @@ This has also put me to thinking about raising kids; how to ensure there’s alw
 ---
 
 > The songs he’s looking for are the ones that he’s ashamed of liking.
-

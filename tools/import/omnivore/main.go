@@ -56,26 +56,33 @@ var hashtags = regexp.MustCompile(`#\w+`)
 
 func outputArticle(article Article, outputDir string) error {
 	slug := kebab(article.Title)
-	hugoPost, err := os.Create(path.Join(outputDir, fmt.Sprintf("%s.md", slug)))
+	articlePath := path.Join(outputDir, fmt.Sprintf("%s.md", slug))
+
+	fm, _ := loadFrontmatter(articlePath)
+
+	hugoPost, err := os.Create(articlePath)
 	if err != nil {
 		return err
 	}
 
-	fm := FrontMatter{
-		Title:      article.Title,
-		Date:       article.BookmarkDate.Format(time.RFC3339),
-		BookmarkOf: article.OriginalURL,
-		References: map[string]Ref{
-			"bookmark": {
-				URL:     article.OriginalURL,
-				Type:    "entry",
-				Name:    article.OriginalTitle,
-				Summary: article.OriginalSummary,
-				Author:  article.OriginalAuthor,
-			},
-		},
-		Tags: article.Tags,
+	if fm.Date == "" {
+		fm.Date = article.BookmarkDate.Format(time.RFC3339)
 	}
+
+	fm.Title = article.Title
+	fm.BookmarkOf = article.OriginalURL
+	fm.Tags = removeDupes(append(fm.Tags, article.Tags...))
+
+	if fm.References == nil {
+		fm.References = make(map[string]Ref)
+	}
+	ref := fm.References["bookmark"]
+	ref.URL = article.OriginalURL
+	ref.Type = "entry"
+	ref.Name = article.OriginalTitle
+	ref.Summary = article.OriginalSummary
+	ref.Author = article.OriginalAuthor
+	fm.References["bookmark"] = ref
 
 	if !article.PublishDate.IsZero() {
 		fm.PublishDate = article.PublishDate.Format(time.RFC3339)
@@ -96,14 +103,14 @@ func outputArticle(article Article, outputDir string) error {
 
 	for i, highlight := range article.Highlights {
 		quote := "> " + strings.ReplaceAll(trimQuote(highlight.Quote), "\n", "\n> ")
-		fmt.Fprint(hugoPost, "\n"+quote+"\n\n")
+		fmt.Fprint(hugoPost, "\n"+quote+"\n")
 
 		if highlight.Comment != "" {
-			fmt.Fprint(hugoPost, linkHashtags(highlight.Comment, fm.Tags)+"\n\n")
+			fmt.Fprint(hugoPost, "\n"+linkHashtags(highlight.Comment, fm.Tags)+"\n")
 		}
 
 		if i < len(article.Highlights)-1 {
-			fmt.Fprint(hugoPost, "---\n")
+			fmt.Fprint(hugoPost, "\n---\n")
 		}
 	}
 
@@ -112,9 +119,30 @@ func outputArticle(article Article, outputDir string) error {
 
 var allBold = regexp.MustCompile(`\*\*([^*]+)\*\*(\W)?`)
 
+func removeDupes(tags []string) []string {
+	slices.Sort(tags)
+	return slices.Compact(tags)
+}
+
 func trimQuote(quote string) string {
 	noTrail := strings.TrimRight(quote, "\n ")
 	return allBold.ReplaceAllString(noTrail, "$1$2")
+}
+
+func loadFrontmatter(path string) (FrontMatter, error) {
+	f, err := os.Open(path)
+	if err != nil {
+		return FrontMatter{}, err
+	}
+	defer f.Close()
+
+	decoder := yaml.NewDecoder(f)
+	var fm FrontMatter
+	if err := decoder.Decode(&fm); err != nil {
+		return FrontMatter{}, err
+	}
+
+	return fm, nil
 }
 
 func linkHashtags(text string, tags []string) string {
@@ -167,7 +195,8 @@ type FrontMatter struct {
 
 type Ref struct {
 	URL     string `yaml:"url"`
-	Type    string `yaml:"type"`
+	Rel     string `yaml:"rel,omitempty"`
+	Type    string `yaml:"type,omitempty"`
 	Name    string `yaml:"name"`
 	Summary string `yaml:"summary,omitempty"`
 	Author  string `yaml:"author,omitempty"`
@@ -295,7 +324,6 @@ func parseResponse(body []byte) ([]Article, string, error) {
 		}
 
 		if len(annotation) == 0 {
-			fmt.Fprintf(os.Stderr, "No annotation for %s\n", articleURL)
 			continue
 		}
 

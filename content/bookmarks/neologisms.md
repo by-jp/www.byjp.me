@@ -69,4 +69,3 @@ I love the origins of this phrase; a Ren and Stimpy cartoon where Ren (?) has to
 I love this concept! It feels like we’re missing it a lot on the web (see [the web’s missing communication faculty](/posts/webs-missing-communication-faculty/)), I fully intend to seek out and recognise people who can be my _epistemic peers_.
 
 (Though I think declaring who they are might be a security risk?)
-

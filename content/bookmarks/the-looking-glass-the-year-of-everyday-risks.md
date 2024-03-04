@@ -38,4 +38,3 @@ I plan on taking some every day risks this year & always.
 ---
 
 > Aliveness is risk, not comfort.
-

@@ -11,9 +11,9 @@ references:
     summary: We are stuck in a hell of frictionlessness.
     author: P.E. Moskowitz
 tags:
+- Miriscient
 - curious
 - grief
-- Miriscient
 ---
 
 
@@ -30,4 +30,3 @@ I think I've certainly trained myself for a frictionless existence, and have (up
 > there are many forces preventing us from feeling abstractly and confusingly and deeply, and from producing things that help others feel so.
 
 I keep finding myself coming back to this thought in particular. I _want_ to feel abstractly and deeply — it feels much more like "living".
-
