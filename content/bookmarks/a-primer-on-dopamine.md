@@ -136,16 +136,15 @@ I’ve been (ha!) pleasantly surprised by how this article pulls lots of differe
 
 From the associated tweet:
 
-    Stories have a 4 part structure that teaches us an essential lesson.
-
-    - Characters (are they like me)
-    - Conflict (what issue they faced)
-    - Struggle (what did they do)
-    - Resolution (did they solve it)
-
-    We _tell_ stories because it's the way we share
-how to solve problems.
-    We _listen_ to stories because they're the best way to learn how somebody else solved a problem.
+> Stories have a 4 part structure that teaches us an essential lesson.
+>
+> - Characters (are they like me)
+> - Conflict (what issue they faced)
+> - Struggle (what did they do)
+> - Resolution (did they solve it)
+>
+> We _tell_ stories because it's the way we share how to solve problems.
+> We _listen_ to stories because they're the best way to learn how somebody else solved a problem.
 
 I’m not sure I agree that this is _all_ that stories are, but to the extent that it can be fun and engaging to connect with a story, I think these are the angles that make sense.
 

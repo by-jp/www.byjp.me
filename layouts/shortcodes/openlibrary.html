@@ -1,81 +1,79 @@
-{{ $path := .Page.Path }}
-{{ $isbn := "" }}
-{{ $key := "" }}
-{{ $showCover := ne (.Get 1) false }}
+{{- $path := .Page.Path -}}
+{{- $isbn := "" -}}
+{{- $key := "" -}}
+{{- $showCover := ne (.Get 1) false -}}
 
-{{ with .Get 0 }}
-  {{ if eq (len .) 13 }}
-    {{ $isbn = . }}
-  {{ else }}
-    {{ $key = . }}
-  {{ end }}
-{{ end }}
+{{- with .Get 0 -}}
+  {{- if eq (len .) 13 -}}
+    {{- $isbn = . -}}
+  {{- else -}}
+    {{- $key = . -}}
+  {{- end -}}
+{{- end -}}
 
-{{ $isbn := .Get 0 }}
+{{- if not $key -}}
+  {{- $query := (dict "type" "/type/edition" "isbn_13" $isbn) | jsonify -}}
+  {{- with resources.GetRemote (printf "https://openlibrary.org/api/things?query=%s" ($query)) -}}
+    {{- with .Err -}}
+      {{- errorf "Error grabbing Thing from OpenLibrary: %v" . -}}
+    {{- else -}}
+      {{- $thing := .Content | transform.Unmarshal -}}
+      {{- if and (eq $thing.status "ok") (ge (len $thing.result) 1) -}}
+        {{- $key = index $thing.result 0 -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- warnf "Failed to fetch ISBN data from OpenLibrary: %s" $isbn -}}
+  {{- end -}}
+{{- end -}}
 
-{{ if not $key }}
-  {{ $query := (dict "type" "/type/edition" "isbn_13" $isbn) | jsonify }}
-  {{ with resources.GetRemote (printf "https://openlibrary.org/api/things?query=%s" ($query)) }}
-    {{ with .Err }}
-      {{ errorf "Error grabbing Thing from OpenLibrary: %v" . }}
-    {{ else }}
-      {{ $thing := .Content | transform.Unmarshal }}
-      {{ if and (eq $thing.status "ok") (ge (len $thing.result) 1) }}
-        {{ $key = index $thing.result 0 }}
-      {{ end }}
-    {{ end }}
-  {{ else }}
-    {{ warnf "Failed to fetch ISBN data from OpenLibrary: %s" $isbn }}
-  {{ end }}
-{{ end}}
+{{- if $key -}}
+  {{- with resources.GetRemote (printf "https://openlibrary.org/api/get?key=%s" $key) -}}
+    {{- with .Err -}}
+      {{- errorf "Error grabbing Book data from OpenLibrary: %v" . -}}
+    {{- else -}}
+      {{- $bookObj := .Content | transform.Unmarshal -}}
+      {{- if eq $bookObj.status "ok" -}}
+        {{- $isbn = index $bookObj.result.isbn_13 0 -}}
 
-{{ if $key }}
-  {{ with resources.GetRemote (printf "https://openlibrary.org/api/get?key=%s" $key) }}
-    {{ with .Err }}
-      {{ errorf "Error grabbing Book data from OpenLibrary: %v" . }}
-    {{ else }}
-      {{ $bookObj := .Content | transform.Unmarshal }}
-      {{ if eq $bookObj.status "ok" }}
-        {{ $isbn = index $bookObj.result.isbn_13 0 }}
+        {{- $authors := slice -}}
+        {{- range $bookObj.result.authors -}}
+          {{- with resources.GetRemote (printf "https://openlibrary.org/api/get?key=%s" .key) -}}
+            {{- with .Err -}}
+              {{- errorf "Error grabbing Author data from OpenLibrary: %v" . -}}
+            {{- else -}}
+              {{- $authorObj := .Content | transform.Unmarshal -}}
+              {{- if eq $authorObj.status "ok" -}}
+                {{- $authors = $authors | append (dict "name" $authorObj.result.name "url" (printf "https://openlibrary.org%s" $authorObj.result.key)) -}}
+              {{- end -}}
+            {{- end -}}
+          {{- else -}}
+            {{- warnf "Failed to fetch Author data from OpenLibrary: %s" .key -}}
+          {{- end -}}
+        {{- end -}}
 
-        {{ $authors := slice }}
-        {{ range $bookObj.result.authors }}
-          {{ with resources.GetRemote (printf "https://openlibrary.org/api/get?key=%s" .key) }}
-            {{ with .Err }}
-              {{ errorf "Error grabbing Author data from OpenLibrary: %v" . }}
-            {{ else }}
-              {{ $authorObj := .Content | transform.Unmarshal }}
-              {{ if eq $authorObj.status "ok" }}
-                {{ $authors = $authors | append (dict "name" $authorObj.result.name "url" (printf "https://openlibrary.org%s" $authorObj.result.key)) }}
-              {{ end }}
-            {{ end }}
-          {{ else }}
-            {{ warnf "Failed to fetch Author data from OpenLibrary: %s" .key }}
-          {{ end }}
-        {{ end }}
-
-        {{ $cover := "" }}
-        {{ if $showCover }}
-          {{ $coverURL := (printf "https://covers.openlibrary.org/b/isbn/%s-M.jpg" $isbn)}}
-          {{ if not $isbn }}
-            {{ $coverURL = printf "https://covers.openlibrary.org/b/id/%.0f-M.jpg" (index $bookObj.result.covers 0) }}
-          {{ end }}
+        {{- $cover := "" -}}
+        {{- if $showCover -}}
+          {{- $coverURL := (printf "https://covers.openlibrary.org/b/isbn/%s-M.jpg" $isbn) -}}
+          {{- if not $isbn -}}
+            {{- $coverURL = printf "https://covers.openlibrary.org/b/id/%.0f-M.jpg" (index $bookObj.result.covers 0) -}}
+          {{- end -}}
 
           {{- $bookFilename := replaceRE `[^a-z]+` "-" (lower $bookObj.result.title) -}}
           {{- $coverPath := replaceRE `(\.md)?$` (printf "/%s.jpg" $bookFilename) $path -}}
-          {{ with resources.GetRemote $coverURL }}
-            {{ with .Err }}
-            {{ else }}
-              {{ $cover = .Content | resources.FromString $coverPath }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
+          {{- with resources.GetRemote $coverURL -}}
+            {{- with .Err -}}
+            {{- else -}}
+              {{- $cover = .Content | resources.FromString $coverPath -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
 
-        {{ $book := dict "title" $bookObj.result.title "authors" $authors "url" (printf "https://openlibrary.org%s" $key) "cover" $cover }}
-        {{ partial "book.html" $book }}
-      {{ end }}
-    {{ end }}
-  {{ else }}
-    {{ warnf "Failed to fetch Book data data from OpenLibrary: %s" $key }}
-  {{ end }}
-{{ end }}
+        {{- $book := dict "title" $bookObj.result.title "authors" $authors "url" (printf "https://openlibrary.org%s" $key) "cover" $cover -}}
+        {{- partial "book.html" $book -}}
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- warnf "Failed to fetch Book data data from OpenLibrary: %s" $key -}}
+  {{- end -}}
+{{- end -}}

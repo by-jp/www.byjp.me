@@ -2,7 +2,7 @@
   {{- $authors := . -}}
   {{- if and (ne $authors nil) (gt (len $authors) 0) -}}
   <span class="authors list">
-    {{ " by " }}
+    {{- " by " -}}
     {{- range $i, $a := $authors -}}
       {{- if and (ne $i 0) (eq (add $i 1) (len $authors)) -}}and {{ end -}}
       <a href="{{ $a.url }}" target="_blank">{{ $a.name }}</a>
