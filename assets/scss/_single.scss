@@ -285,23 +285,8 @@
     height: auto;
   }
 
-  .authors {
-    &:has(a)::before {
-      content: ' by ';
-    } 
-    a {
-      &::after {
-        content: ', ';
-      }
-
-      &:nth-last-child(2)::after {
-        content: ', and ';
-      }
-
-      &:last-child::after {
-        content: '';
-      }
-    }
+  .authors.list {
+    display:block;
   }
 }
 

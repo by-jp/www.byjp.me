@@ -1,6 +1,7 @@
 {{ $path := .Page.Path }}
 {{ $isbn := "" }}
 {{ $key := "" }}
+{{ $showCover := ne (.Get 1) false }}
 
 {{ with .Get 0 }}
   {{ if eq (len .) 13 }}
@@ -53,18 +54,20 @@
           {{ end }}
         {{ end }}
 
-        {{ $coverURL := (printf "https://covers.openlibrary.org/b/isbn/%s-M.jpg" $isbn)}}
-        {{ if not $isbn }}
-          {{ $coverURL = printf "https://covers.openlibrary.org/b/id/%.0f-M.jpg" (index $bookObj.result.covers 0) }}
-        {{ end }}
-
-        {{- $bookFilename := replaceRE `[^a-z]+` "-" (lower $bookObj.result.title) -}}
-        {{- $coverPath := replaceRE `(\.md)?$` (printf "/%s.jpg" $bookFilename) $path -}}
         {{ $cover := "" }}
-        {{ with resources.GetRemote $coverURL }}
-          {{ with .Err }}
-          {{ else }}
-            {{ $cover = .Content | resources.FromString $coverPath }}
+        {{ if $showCover }}
+          {{ $coverURL := (printf "https://covers.openlibrary.org/b/isbn/%s-M.jpg" $isbn)}}
+          {{ if not $isbn }}
+            {{ $coverURL = printf "https://covers.openlibrary.org/b/id/%.0f-M.jpg" (index $bookObj.result.covers 0) }}
+          {{ end }}
+
+          {{- $bookFilename := replaceRE `[^a-z]+` "-" (lower $bookObj.result.title) -}}
+          {{- $coverPath := replaceRE `(\.md)?$` (printf "/%s.jpg" $bookFilename) $path -}}
+          {{ with resources.GetRemote $coverURL }}
+            {{ with .Err }}
+            {{ else }}
+              {{ $cover = .Content | resources.FromString $coverPath }}
+            {{ end }}
           {{ end }}
         {{ end }}
 

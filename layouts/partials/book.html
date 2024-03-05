@@ -1,17 +1,32 @@
-<figure class="book">
-  <a href="{{ .url }}" target="_blank" title="Open book details">
-    {{ $title := .title }}
-    {{ with .cover }}
-      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="The cover of the book {{ $title }}">
-    {{ end}}
-  </a>
+{{- define "partials/author-list.html" -}}
+  {{- $authors := . -}}
+  {{- if and (ne $authors nil) (gt (len $authors) 0) -}}
+  <span class="authors list">
+    {{ " by " }}
+    {{- range $i, $a := $authors -}}
+      {{- if and (ne $i 0) (eq (add $i 1) (len $authors)) -}}and {{ end -}}
+      <a href="{{ $a.url }}" target="_blank">{{ $a.name }}</a>
+      {{- if ne (add $i 1) (len $authors) -}}, {{ end -}}
+    {{- end -}}
+  </span>
+  {{- end -}}
+{{- end -}}
 
-  <figcaption>
-    <a href="{{ .url }}" target="_blank" title="Open book details">{{ .title }}</a><br />
-    <span class="authors">
-      {{ range .authors }}
-        <a href="{{ .url }}" target="_blank">{{ .name }}</a>
-      {{ end }}
-    </span>
-  </figcaption>
-</figure>
+{{- if .cover -}}
+  <figure class="book">
+    <a href="{{ .url }}" target="_blank" title="Open book details">
+      {{- $title := .title -}}
+      {{- with .cover -}}
+        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="The cover of the book {{ $title }}">
+      {{- end -}}
+    </a>
+
+    <figcaption>
+      <a href="{{ .url }}" target="_blank" title="Open book details">{{ .title }}</a>
+      {{- partial "partials/author-list.html" .authors -}}
+    </figcaption>
+  </figure>
+{{- else -}}
+  <a href="{{ .url }}" target="_blank" title="Open book details">{{ .title }}</a>
+  {{- partial "partials/author-list.html" .authors -}}
+{{- end -}}
