@@ -1,14 +1,16 @@
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="author" content="{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ range .Site.Author }}{{ . }} {{ end }}{{ end }}">
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<meta name="author" content="{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ range .Site.Author }}{{ . }} {{ end }}{{ end }}"/>
 <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.homeSubtitle }}{{ else }}{{ if .Params.Description }}{{ .Params.Description }}{{ else }}{{ .Summary | plainify }}{{ end }}{{ end }}" class="p-summary"/>
-<meta name="keywords" content="{{ .Site.Params.keywords }}{{ if .Params.tags }}{{ range .Params.tags }}, {{ . }}{{ end }}{{ end }}" />
-<meta name="theme-color" content="{{ .Site.Params.themeColor }}" />
+<meta name="keywords" content="{{ .Site.Params.keywords }}{{ if .Params.tags }}{{ range .Params.tags }}, {{ . }}{{ end }}{{ end }}"/>
+<meta name="theme-color" content="{{ .Site.Params.themeColor }}"/>
 {{- $modified := .Lastmod -}}
 {{- if .IsHome }}{{ with getenv "HUGO_LAST_UPDATE_TIME" }}{{ $modified = time . }}{{ end }}{{ end -}}
-<meta property="dcterms.modified" content="{{ $modified.Format "2006-01-02T15:04:05Z07:00"}}" />
+<meta property="dcterms.modified" content="{{ $modified.Format "2006-01-02T15:04:05Z07:00"}}"/>
 <link rel="canonical" href="{{ .Permalink }}" class="u-url"/>
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Search byJP"/>
 
 {{/*  IndieWeb  */}}
 <link rel="webmention" href="https://webmention.io/www.byjp.me/webmention">
