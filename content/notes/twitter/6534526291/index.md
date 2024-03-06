@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Amazing\! http://www.ryanabegglen.com/
+Amazing\! [www.ryanabegglen.com](https://web.archive.org/web/20091201021958/http://www.ryanabegglen.com:80/)
