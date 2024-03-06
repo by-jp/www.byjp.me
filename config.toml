@@ -75,6 +75,10 @@ date = ["date", "publishDate", "lastmod", ":git"]
       url  = "https://hachyderm.io/@byjp"
 
     [[languages.en.params.social]]
+      name = "signal"
+      url  = "https://signal.me/#eu/IXpZjHz0782uKsD27aCw87_-PJXB1ZgzG58sVgiF8g2s5ThVioJIJ5WhFHSXQN8q"
+
+    [[languages.en.params.social]]
       name = "github"
       url  = "https://github.com/jphastings"
 
