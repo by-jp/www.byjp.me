@@ -7,4 +7,4 @@ tags:
 ---
 “Houdini” by Foster The People is my new jam. ♫  [https://t.thisismyjam.com/jphastings](https://t.thisismyjam.com/jphastings) [ThisIsMyJam](/tags/thisismyjam)
 
-{{< spotify path="/track/5Fli1xRi01bvCjsZvKWro0" artist="Houdini" title="Foster the People" >}}
+{{< spotify path="/track/5Fli1xRi01bvCjsZvKWro0" artist="Foster the People" title="Houdini" >}}
