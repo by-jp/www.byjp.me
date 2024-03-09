@@ -1,1 +1,1 @@
-{{ partial "imgorvid.html" (dict "src" (path.Join $.Page.RelPermalink (.Get "src") | absURL)) }}
+{{ partial "imgorvid.html" (dict "src" (path.Join $.Page.RelPermalink (.Get "src") | absURL) "alt" (.Get "alt")) }}
