@@ -1,10 +1,8 @@
 ---
 date: 2024-03-08T11:55:15.321Z
 publishDate: 2024-03-08T11:55:15.321Z
-images:
-  - /photos/vrjhy.webp
-photo:
-  - url: /photos/vrjhy.webp
+media:
+  - url: thunderbird-s-1.webp
     alt: A 1960s model of a yellow doughnut shaped space station
 ---
 
