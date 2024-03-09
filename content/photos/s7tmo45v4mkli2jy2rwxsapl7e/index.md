@@ -1,8 +1,8 @@
 ---
 title: Diving
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2018-04-28T18:29:44Z"
 draft: false
 tags:

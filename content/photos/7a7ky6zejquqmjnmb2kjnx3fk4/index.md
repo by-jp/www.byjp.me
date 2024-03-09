@@ -1,7 +1,7 @@
 ---
 title: A rare piece of self-photography from the…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-05-06T19:59:06Z"
 draft: false
 tags:

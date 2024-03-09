@@ -1,7 +1,7 @@
 ---
 title: Got to hang out with the ever-awesome…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-10-10T10:27:43Z"
 draft: false
 tags:

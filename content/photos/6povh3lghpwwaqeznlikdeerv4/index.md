@@ -1,7 +1,7 @@
 ---
 title: We’re setting off on a 4 month South America…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2022-12-31T18:50:01Z"
 draft: false
 tags:

@@ -1,7 +1,7 @@
 ---
 title: '@lydiadr leaping across the rocks like there…'
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-05-09T16:17:58Z"
 draft: false
 tags:

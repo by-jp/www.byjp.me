@@ -1,7 +1,7 @@
 ---
 title: Echoes of the future and the past this peaceful…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2020-01-26T22:45:57Z"
 draft: false
 tags:

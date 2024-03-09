@@ -1,7 +1,7 @@
 ---
 title: I'm camping with a bunch of friends in Battle.…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-06-09T08:27:23Z"
 draft: false
 tags:

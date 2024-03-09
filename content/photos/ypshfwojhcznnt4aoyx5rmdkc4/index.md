@@ -1,8 +1,8 @@
 ---
 title: Serenity
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2018-04-19T07:17:14Z"
 draft: false
 tags:

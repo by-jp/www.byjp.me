@@ -1,7 +1,7 @@
 ---
 title: Oops, breakfast ended up being at 1pm, but such…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-06-14T12:27:31Z"
 draft: false
 tags:

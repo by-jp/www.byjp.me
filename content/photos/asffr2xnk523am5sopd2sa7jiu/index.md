@@ -1,7 +1,7 @@
 ---
 title: New post! Cartagena is beautiful and…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2023-01-08T17:26:48Z"
 draft: false
 tags:

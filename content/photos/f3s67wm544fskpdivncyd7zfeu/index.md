@@ -1,7 +1,7 @@
 ---
 title: Been under this bridge a great many times, but…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-10-22T06:53:21Z"
 draft: false
 tags:

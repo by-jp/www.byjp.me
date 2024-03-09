@@ -1,7 +1,7 @@
 ---
 title: Been geeking it up tonight, building the…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2017-01-24T00:26:09Z"
 draft: false
 tags:

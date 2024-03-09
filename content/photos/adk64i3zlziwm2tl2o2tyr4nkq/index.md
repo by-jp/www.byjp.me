@@ -1,7 +1,7 @@
 ---
 title: Chris has organised an epic series of…'
 media:
-- media-0.webp
+- url: media-0.webp
 date: "2022-05-25T02:07:27Z"
 draft: false
 tags:

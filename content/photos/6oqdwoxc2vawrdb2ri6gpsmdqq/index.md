@@ -1,7 +1,7 @@
 ---
 title: The slightly terrified, very excited face of a…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2020-08-28T13:30:06Z"
 draft: false
 tags:

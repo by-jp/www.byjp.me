@@ -1,7 +1,7 @@
 ---
 title: What a wonderful trip! having hung out with…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-03-16T23:24:03Z"
 draft: false
 tags:

@@ -1,9 +1,9 @@
 ---
 title: Holiday starts! Nighttime in Tenerife is…
 media:
-- media-0.jpg
-- media-1.jpg
-- media-2.jpg
+- url: media-0.jpg
+- url: media-1.jpg
+- url: media-2.jpg
 date: "2020-12-10T19:01:02Z"
 draft: false
 tags:

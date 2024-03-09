@@ -1,7 +1,7 @@
 ---
 title: Went for a snowy hike today—my first ever that…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-02-09T18:56:46Z"
 draft: false
 tags:

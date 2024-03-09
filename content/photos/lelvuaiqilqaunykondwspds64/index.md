@@ -1,7 +1,7 @@
 ---
 title: Photoshopping my friend's "ugly mug" onto an oil…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2016-12-17T20:01:39Z"
 draft: false
 tags:

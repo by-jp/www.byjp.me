@@ -1,8 +1,8 @@
 ---
 title: It's been a good afternoon! French apple (and…
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2020-10-25T21:15:20Z"
 draft: false
 tags:

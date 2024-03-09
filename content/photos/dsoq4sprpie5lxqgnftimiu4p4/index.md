@@ -1,8 +1,8 @@
 ---
 title: I have now confirmed it. I have the most awesome…
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2017-07-04T07:35:47Z"
 draft: false
 tags:

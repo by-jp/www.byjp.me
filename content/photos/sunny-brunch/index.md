@@ -1,7 +1,7 @@
 ---
 title: "Sunny Brunch"
 media:
-- "sunny-brunch.webp"
+- url: "sunny-brunch.webp"
 date: 2023-11-11T11:48:26Z
 tags:
 syndications:

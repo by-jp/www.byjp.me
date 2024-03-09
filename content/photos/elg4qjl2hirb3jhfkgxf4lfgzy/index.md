@@ -1,12 +1,12 @@
 ---
 title: 5 years ago today I joined my Dad in the…
 media:
-- media-0.jpg
-- media-1.jpg
-- media-2.jpg
-- media-3.jpg
-- media-4.jpg
-- media-5.jpg
+- url: media-0.jpg
+- url: media-1.jpg
+- url: media-2.jpg
+- url: media-3.jpg
+- url: media-4.jpg
+- url: media-5.jpg
 date: "2018-06-15T08:12:44Z"
 draft: false
 tags:

@@ -9,8 +9,8 @@
             
             <div class="post-content" data-pagefind-body data-pagefind-filter="type:Photos">
                 <div class="photo-media">
-                    {{ range $i, $src := .Params.Media }}
-                        {{ partial "imgorvid.html" (dict "src" (path.Join $.Page.RelPermalink $src | absURL) "searchmeta" (eq $i 0)) }}
+                    {{ range $i, $deets := .Params.Media }}
+                        {{ partial "imgorvid.html" (dict "src" (path.Join $.Page.RelPermalink $deets.url | absURL) "alt" ($deets.alt) "searchmeta" (eq $i 0)) }}
                     {{ end }}
                 </div>
 

@@ -1,10 +1,10 @@
 ---
 title: I’ve not posted in a while cos travelling has…
 media:
-- media-0.jpg
-- media-1.jpg
-- media-2.jpg
-- media-3.jpg
+- url: media-0.jpg
+- url: media-1.jpg
+- url: media-2.jpg
+- url: media-3.jpg
 date: "2023-02-10T15:53:00-04:00"
 draft: false
 tags:

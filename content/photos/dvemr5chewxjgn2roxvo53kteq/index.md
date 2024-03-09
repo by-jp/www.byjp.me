@@ -1,7 +1,7 @@
 ---
 title: A truly fantastic performance of the Vagina…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-02-11T10:35:29Z"
 draft: false
 tags:

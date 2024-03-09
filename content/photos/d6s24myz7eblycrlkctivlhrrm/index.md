@@ -1,7 +1,7 @@
 ---
 title: An awesome photo my bro Chris took when I…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-01-15T22:28:11Z"
 draft: false
 tags:

@@ -1,7 +1,7 @@
 ---
 title: '@esther_dr''s hospitality knows no bounds, and…'
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-11-04T02:30:38Z"
 draft: false
 tags:

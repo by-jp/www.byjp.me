@@ -1,7 +1,7 @@
 ---
 title: Sunset on Isla de Coche
 media:
-- coche.webp
+- url: coche.webp
 date: "2023-11-26T19:17:09-04:00"
 draft: false
 tags:

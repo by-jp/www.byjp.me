@@ -1,7 +1,7 @@
 ---
 title: Had an awesome night listening to some top notch…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-12-12T23:44:03Z"
 draft: false
 tags:

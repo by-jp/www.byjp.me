@@ -1,7 +1,7 @@
 ---
 title: Wandered into a comic store on a whim, being on…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-10-14T13:59:26Z"
 draft: false
 tags:

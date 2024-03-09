@@ -1,7 +1,7 @@
 ---
 title: A wonderfully reminiscent celebration of life…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2017-01-04T18:56:10Z"
 draft: false
 tags:

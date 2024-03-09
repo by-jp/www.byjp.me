@@ -1,7 +1,7 @@
 ---
 title: I think I'll try defying gravity… /w @le_boyd
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2014-05-26T20:02:06Z"
 draft: false
 tags:

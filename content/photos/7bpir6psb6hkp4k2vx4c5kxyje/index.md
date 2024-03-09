@@ -1,7 +1,7 @@
 ---
 title: '#sloMoBro / Chris'
 media:
-- media-0.mp4
+- url: media-0.mp4
 date: "2014-03-30T13:44:37Z"
 draft: false
 tags:

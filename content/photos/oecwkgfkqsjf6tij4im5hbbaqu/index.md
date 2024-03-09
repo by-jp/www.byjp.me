@@ -1,10 +1,10 @@
 ---
 title: I started writing again ☺️ This picture is…
 media:
-- media-0.jpg
-- media-1.jpg
-- media-2.jpg
-- media-3.jpg
+- url: media-0.jpg
+- url: media-1.jpg
+- url: media-2.jpg
+- url: media-3.jpg
 date: "2019-04-24T07:31:50Z"
 draft: false
 tags:

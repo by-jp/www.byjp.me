@@ -1,8 +1,8 @@
 ---
 title: This eve, ill & frustrated by the shit IT…
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2019-02-18T22:55:29Z"
 draft: false
 tags:

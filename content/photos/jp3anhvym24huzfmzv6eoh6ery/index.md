@@ -1,10 +1,10 @@
 ---
 title: Hiking up Black Mountain just north of Vancouver…
 media:
-- media-0.webp
-- media-1.webp
-- media-2.mp4
-- media-3.webp
+- url: media-0.webp
+- url: media-1.webp
+- url: media-2.mp4
+- url: media-3.webp
 date: "2022-05-21T14:22:38Z"
 draft: false
 tags:

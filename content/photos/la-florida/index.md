@@ -1,7 +1,7 @@
 ---
 title: La Florida en Caracas, mi nueva casa lejos de casa
 media:
-- la-florida.webp
+- url: la-florida.webp
 date: "2023-11-17T18:37:09-04:00"
 draft: false
 tags:

@@ -1,7 +1,7 @@
 ---
 title: After two weeks isolating after an international…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2020-08-16T18:21:06Z"
 draft: false
 tags:

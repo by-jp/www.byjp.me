@@ -1,8 +1,8 @@
 ---
 title: Gods
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2018-06-01T15:48:49Z"
 draft: false
 tags:

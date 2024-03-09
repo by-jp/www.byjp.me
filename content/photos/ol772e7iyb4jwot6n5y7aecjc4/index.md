@@ -1,7 +1,7 @@
 ---
 title: I love the glorious nerdiness of my friends!…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-01-05T16:41:55Z"
 draft: false
 tags:

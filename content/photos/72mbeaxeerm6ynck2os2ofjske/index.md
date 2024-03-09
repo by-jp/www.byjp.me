@@ -1,13 +1,13 @@
 ---
 title: I spent a while flicking through pictures of my…
 media:
-- media-0.jpg
-- media-1.jpg
-- media-2.jpg
-- media-3.jpg
-- media-4.jpg
-- media-5.jpg
-- media-6.jpg
+- url: media-0.jpg
+- url: media-1.jpg
+- url: media-2.jpg
+- url: media-3.jpg
+- url: media-4.jpg
+- url: media-5.jpg
+- url: media-6.jpg
 date: "2019-03-14T03:30:37Z"
 draft: false
 tags:

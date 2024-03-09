@@ -1,7 +1,7 @@
 ---
 title: Byeeee 2020! RaveToTheMoon.tv is taking us into…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2020-12-31T21:22:29Z"
 draft: false
 tags:

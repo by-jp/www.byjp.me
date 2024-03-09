@@ -1,8 +1,8 @@
 ---
 title: Yesterday I did a bit of woodworking, and turned…
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2021-03-08T12:19:48Z"
 draft: false
 tags:

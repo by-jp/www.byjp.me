@@ -1,7 +1,7 @@
 ---
 title: My auntie and I trying not to look too closely…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-03-12T04:34:27Z"
 draft: false
 tags:

@@ -1,7 +1,7 @@
 ---
 title: 'Chris cooks a mean trout. Literally; look at…'
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2014-04-08T19:54:05Z"
 draft: false
 tags:

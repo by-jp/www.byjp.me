@@ -1,7 +1,7 @@
 ---
 title: Quiet spot in the park to enjoy an afternoon…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2020-05-23T14:49:34Z"
 draft: false
 tags:

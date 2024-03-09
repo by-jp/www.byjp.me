@@ -1,7 +1,7 @@
 ---
 title: A most satisfying Saturday morning in…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2020-10-03T09:07:27Z"
 draft: false
 tags:

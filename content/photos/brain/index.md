@@ -1,6 +1,6 @@
 ---
 media:
-- photo.webp
+- url: photo.webp
 date: 2023-09-07T10:05:00+01:00
 tags:
 - brain

@@ -1,7 +1,7 @@
 ---
 title: Edinburgh! What a breath of fresh air—in every…
 media:
-- media-0.mp4.jpg
+- url: media-0.mp4.jpg
 date: "2018-09-21T06:27:05Z"
 draft: false
 tags:

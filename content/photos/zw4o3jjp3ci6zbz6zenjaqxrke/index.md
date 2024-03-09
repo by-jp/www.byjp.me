@@ -1,7 +1,7 @@
 ---
 title: Dad's shop often sells music boxes, I've always…
 media:
-- media-0.mp4
+- url: media-0.mp4
 date: "2014-05-18T07:34:59Z"
 draft: false
 tags:

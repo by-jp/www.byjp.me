@@ -1,7 +1,7 @@
 ---
 title: A few weeks back @bratpack_ldn had a photoshoot…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2017-09-24T16:04:10Z"
 draft: false
 tags:

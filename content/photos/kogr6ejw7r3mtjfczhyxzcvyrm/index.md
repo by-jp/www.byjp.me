@@ -1,7 +1,7 @@
 ---
 title: A damp & dreary morning made delightful by a…
 media:
-- media-0.mp4
+- url: media-0.mp4
 date: "2018-09-22T10:27:34Z"
 draft: false
 tags:

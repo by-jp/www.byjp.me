@@ -1,9 +1,9 @@
 ---
 title: What an outrageously excellent weekend at Camp…
 media:
-- media-0.jpg
-- media-1.jpg
-- media-2.jpg
+- url: media-0.jpg
+- url: media-1.jpg
+- url: media-2.jpg
 date: "2021-09-07T06:00:21Z"
 draft: false
 tags:

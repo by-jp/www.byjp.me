@@ -1,7 +1,7 @@
 ---
 title: A beautiful piece of old to go with the all the…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-03-16T12:26:16Z"
 draft: false
 tags:

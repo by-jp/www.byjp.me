@@ -1,9 +1,9 @@
 ---
 title: A weekend at Mum's (check out her awesome new…
 media:
-- media-0.jpg
-- media-1.jpg
-- media-2.jpg
+- url: media-0.jpg
+- url: media-1.jpg
+- url: media-2.jpg
 date: "2020-10-12T06:41:54Z"
 draft: false
 tags:

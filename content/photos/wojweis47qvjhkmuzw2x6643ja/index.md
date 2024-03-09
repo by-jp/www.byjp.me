@@ -1,7 +1,7 @@
 ---
 title: "Back with Brats \U0001F3B8 now it's 2018 I've been…"
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-01-11T23:42:28Z"
 draft: false
 tags:

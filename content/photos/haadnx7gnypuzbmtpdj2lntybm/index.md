@@ -1,8 +1,8 @@
 ---
 title: A World First
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2018-03-21T23:46:51Z"
 draft: false
 tags:

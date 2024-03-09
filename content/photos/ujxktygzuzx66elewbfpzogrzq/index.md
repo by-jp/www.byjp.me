@@ -1,7 +1,7 @@
 ---
 title: We found the beautiful Pig's Big Record Club &…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-08-05T14:28:31Z"
 draft: false
 tags:

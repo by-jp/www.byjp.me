@@ -1,7 +1,7 @@
 ---
 title: A relaxingly pensive evening listening to the…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-06-10T22:21:00Z"
 draft: false
 tags:

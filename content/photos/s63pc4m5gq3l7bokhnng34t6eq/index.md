@@ -1,7 +1,7 @@
 ---
 title: That time when Chris was accidentally in…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-06-13T19:46:11Z"
 draft: false
 tags:

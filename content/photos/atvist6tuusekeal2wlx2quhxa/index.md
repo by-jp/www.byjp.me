@@ -1,7 +1,7 @@
 ---
 title: A postcard wall without postcards is a sad…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2017-03-12T10:13:56Z"
 draft: false
 tags:

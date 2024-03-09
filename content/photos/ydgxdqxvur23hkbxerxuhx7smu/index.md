@@ -1,7 +1,7 @@
 ---
 title: I started my own postal service…
 media:
-- media-0.mp4
+- url: media-0.mp4
 date: "2016-07-28T22:57:09Z"
 draft: false
 tags:

@@ -1,7 +1,7 @@
 ---
 title: I've always liked being by the sea. I was…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-07-07T17:59:54Z"
 draft: false
 tags:

@@ -1,7 +1,7 @@
 ---
 title: My new friend Ed sings in the "Live Band…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-03-16T04:21:21Z"
 draft: false
 tags:

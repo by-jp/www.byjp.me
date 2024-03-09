@@ -1,7 +1,7 @@
 ---
 title: You know your friendship is valued if, when they…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2017-06-13T21:21:03Z"
 draft: false
 tags:

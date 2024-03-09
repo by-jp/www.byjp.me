@@ -1,7 +1,7 @@
 ---
 title: Christmas dinner a day late (cos we made the…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2020-12-26T17:50:53Z"
 draft: false
 tags:

@@ -1,7 +1,7 @@
 ---
 title: The mattress delivery folks asked to see the…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2015-03-12T18:43:22Z"
 draft: false
 tags:

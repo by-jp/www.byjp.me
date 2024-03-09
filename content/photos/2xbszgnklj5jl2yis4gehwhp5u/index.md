@@ -1,7 +1,7 @@
 ---
 title: Enjoying a G&T on the balcony. Lovely ☺️…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2020-09-14T18:19:01Z"
 draft: false
 tags:

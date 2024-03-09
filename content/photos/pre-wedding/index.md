@@ -1,7 +1,7 @@
 ---
 title: A little pre-wedding
 media:
-- nosotros.webp
+- url: nosotros.webp
 date: "2023-11-20T10:55:09-04:00"
 draft: false
 tags:

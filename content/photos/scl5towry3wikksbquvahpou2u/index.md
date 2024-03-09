@@ -1,7 +1,7 @@
 ---
 title: 'What a beautiful city! And to think: the caves…'
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-05-08T20:16:13Z"
 draft: false
 tags:

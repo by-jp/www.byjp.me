@@ -1,7 +1,7 @@
 ---
 title: '@artphilm illustrating in the pub with the…'
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-01-25T22:10:38Z"
 draft: false
 tags:

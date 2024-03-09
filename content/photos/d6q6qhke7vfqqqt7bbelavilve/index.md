@@ -1,7 +1,7 @@
 ---
 title: 'Today''s #kindersurprise: I cannot build a…'
 media:
-- media-0.mp4
+- url: media-0.mp4
 date: "2016-02-01T14:00:23Z"
 draft: false
 tags:

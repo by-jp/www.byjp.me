@@ -1,9 +1,9 @@
 ---
 title: I continue to enjoy reading Atkins & Johnson's…
 media:
-- media-0.jpg
-- media-1.jpg
-- media-2.jpg
+- url: media-0.jpg
+- url: media-1.jpg
+- url: media-2.jpg
 date: "2017-12-10T23:43:21Z"
 draft: false
 tags:

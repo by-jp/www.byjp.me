@@ -1,7 +1,7 @@
 ---
 title: I've started getting mopey about how much I'm…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-09-02T08:55:27Z"
 draft: false
 tags:

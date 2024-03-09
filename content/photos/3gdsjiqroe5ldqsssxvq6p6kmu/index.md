@@ -1,8 +1,8 @@
 ---
 title: InMemory™
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2018-05-04T18:17:54Z"
 draft: false
 tags:

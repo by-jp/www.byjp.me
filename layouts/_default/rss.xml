@@ -40,7 +40,7 @@
       </description>
       <content:encoded>
         {{- range $i, $src := .Params.Media }}
-        &lt;img src="{{ path.Join $page.RelPermalink $src | absURL }}" /&gt;&lt;br/&gt;
+        &lt;img src="{{ path.Join $page.RelPermalink $src.url | absURL }}" {{ with $src.alt }}alt="{{ . }}" {{ end }}/&gt;&lt;br/&gt;
         {{- end }}
         {{ if .Params.bookmarkOf }}
         &lt;p&gt;&lt;i&gt;{{ partial "bookmark-of.html" . | html }}&lt;/i&gt;&lt;/p&gt;
@@ -51,7 +51,7 @@
       <dc:relation>{{ . }}</dc:relation>
       {{- end }}
       {{- range $i, $src := .Params.Media }}
-      {{ with $page.Resources.Get $src }}
+      {{ with $page.Resources.Get $src.url }}
       <enclosure url="{{ .Permalink }}" length="{{ .Content | len }}" type="{{ .MediaType.Type}}" />
       {{ end }}
       {{- end }}

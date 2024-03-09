@@ -1,7 +1,7 @@
 ---
 title: A delightful Saturday going to see the Charles I…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-04-08T22:07:04Z"
 draft: false
 tags:

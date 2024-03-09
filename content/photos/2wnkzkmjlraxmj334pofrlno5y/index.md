@@ -1,7 +1,7 @@
 ---
 title: Am afternoon playing Scrabble (with a Portuguese…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-01-28T07:54:21Z"
 draft: false
 tags:

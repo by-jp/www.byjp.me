@@ -1,7 +1,7 @@
 ---
 title: I won the prize for most inappropriate &…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-12-26T17:37:17Z"
 draft: false
 tags:

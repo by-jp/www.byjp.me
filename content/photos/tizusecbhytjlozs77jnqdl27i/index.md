@@ -1,7 +1,7 @@
 ---
 title: We couldn't find playing cards amongst the…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2020-03-29T19:04:13Z"
 draft: false
 tags:

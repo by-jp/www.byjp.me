@@ -1,7 +1,7 @@
 ---
 title: These wonderful @bratpack_ldn Brats! They've…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2017-04-04T00:10:23Z"
 draft: false
 tags:

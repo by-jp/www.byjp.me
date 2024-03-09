@@ -1,8 +1,8 @@
 ---
 title: Pyjamas
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2018-03-21T10:48:17Z"
 draft: false
 tags:

@@ -1,7 +1,7 @@
 ---
 title: This is the face of a man very excited for the…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-10-19T18:20:44Z"
 draft: false
 tags:

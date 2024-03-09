@@ -1,7 +1,7 @@
 ---
 title: Tuktuk drivers rarely understand where you've…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2011-07-18T18:54:05Z"
 draft: false
 tags:

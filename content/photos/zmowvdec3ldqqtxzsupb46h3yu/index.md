@@ -1,7 +1,7 @@
 ---
 title: ""
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2011-07-23T07:59:12Z"
 draft: false
 tags:

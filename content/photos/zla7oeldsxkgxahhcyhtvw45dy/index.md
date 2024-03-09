@@ -1,7 +1,7 @@
 ---
 title: Half way through our meal at BBQ Nation the…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2011-07-18T18:35:32Z"
 draft: false
 tags:

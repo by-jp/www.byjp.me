@@ -1,7 +1,7 @@
 ---
 title: I ate an odd chocolate today.
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-01-08T22:54:02Z"
 draft: false
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Playing live jazz is kinda like a batsignal for…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-07-23T06:31:24Z"
 draft: false
 tags:

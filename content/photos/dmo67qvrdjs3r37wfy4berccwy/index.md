@@ -1,7 +1,7 @@
 ---
 title: Watching Tales from the Loop with @yvetteedrei,…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2020-04-04T20:03:23Z"
 draft: false
 tags:

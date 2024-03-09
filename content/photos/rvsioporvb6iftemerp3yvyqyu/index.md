@@ -1,16 +1,16 @@
 ---
 title: YES. THAT IS WHAT LIVE MUSIC SHOULD BE…
 media:
-- media-0.jpg
-- media-1.jpg
-- media-2.jpg
-- media-3.jpg
-- media-4.jpg
-- media-5.jpg
-- media-6.jpg
-- media-7.jpg
-- media-8.jpg
-- media-9.jpg
+- url: media-0.jpg
+- url: media-1.jpg
+- url: media-2.jpg
+- url: media-3.jpg
+- url: media-4.jpg
+- url: media-5.jpg
+- url: media-6.jpg
+- url: media-7.jpg
+- url: media-8.jpg
+- url: media-9.jpg
 date: "2018-12-04T23:26:38Z"
 draft: false
 tags:

@@ -1,7 +1,7 @@
 ---
 title: A delightful painting from @familystoreuk,…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2017-08-31T22:17:28Z"
 draft: false
 tags:

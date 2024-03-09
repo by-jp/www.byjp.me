@@ -1,7 +1,7 @@
 ---
 title: Islington definitely isn't the home of hip-hop,…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2017-02-18T00:53:49Z"
 draft: false
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Swindle! So pumped — not seen him perform…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-12-04T21:01:30Z"
 draft: false
 tags:

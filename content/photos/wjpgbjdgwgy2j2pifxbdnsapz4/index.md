@@ -1,7 +1,7 @@
 ---
 title: How can you walk through Tottenham Court Road on…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-10-14T18:42:09Z"
 draft: false
 tags:

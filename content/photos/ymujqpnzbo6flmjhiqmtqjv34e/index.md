@@ -1,9 +1,9 @@
 ---
 title: First (half) day around Chamonix — glorious!…
 media:
-- media-0.webp
-- media-1.webp
-- media-2.webp
+- url: media-0.webp
+- url: media-1.webp
+- url: media-2.webp
 date: "2022-03-13T15:33:18Z"
 draft: false
 tags:

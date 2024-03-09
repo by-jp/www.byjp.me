@@ -1,7 +1,7 @@
 ---
 title: Aardy's the man
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2011-09-11T09:16:47Z"
 draft: false
 tags:

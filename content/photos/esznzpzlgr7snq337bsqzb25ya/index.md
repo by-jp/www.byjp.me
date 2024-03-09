@@ -1,8 +1,8 @@
 ---
 title: Jake's Dinner
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2018-06-23T12:17:58Z"
 draft: false
 tags:

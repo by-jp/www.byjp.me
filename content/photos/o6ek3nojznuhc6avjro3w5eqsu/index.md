@@ -1,7 +1,7 @@
 ---
 title: It's nice to revisit holidays of sunny times…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2020-01-02T22:17:10Z"
 draft: false
 tags:

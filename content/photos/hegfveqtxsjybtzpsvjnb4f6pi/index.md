@@ -1,8 +1,8 @@
 ---
 title: Josh in Köln
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2018-03-30T20:53:39Z"
 draft: false
 tags:

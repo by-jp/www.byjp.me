@@ -1,7 +1,7 @@
 ---
 title: The most incredible Japanese meal I can remember…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-09-15T13:33:48Z"
 draft: false
 tags:

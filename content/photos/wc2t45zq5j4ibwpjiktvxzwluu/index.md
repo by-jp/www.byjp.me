@@ -1,7 +1,7 @@
 ---
 title: DIY Sunday! Finally hung our *beautiful*…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2021-04-25T15:36:04Z"
 draft: false
 tags:

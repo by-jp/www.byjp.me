@@ -1,7 +1,7 @@
 ---
 title: Dossa (doh-sah) are very tasty thick crepes…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2011-07-18T18:48:39Z"
 draft: false
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Visiting Kew's amazing Christmas show courtesy…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2017-12-18T21:34:08Z"
 draft: false
 tags:

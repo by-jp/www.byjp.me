@@ -1,7 +1,7 @@
 ---
 title: With Flying Colours, Pt. 2
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-12-01T01:41:20Z"
 draft: false
 tags:

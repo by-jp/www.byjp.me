@@ -1,7 +1,7 @@
 ---
 title: Ambling around Fornells yesterday — con el…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2021-08-18T07:59:20Z"
 draft: false
 tags:

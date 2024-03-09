@@ -1,7 +1,7 @@
 ---
 title: Tending to your desire for…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-01-27T09:49:31Z"
 draft: false
 tags:

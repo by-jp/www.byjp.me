@@ -1,7 +1,7 @@
 ---
 title: Matt's molecular beam epitaxy machine is a…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2015-06-27T14:19:19Z"
 draft: false
 tags:

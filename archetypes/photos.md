@@ -1,7 +1,8 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 media:
-- "{{ .Name }}.webp"
+- url: "{{ .Name }}.webp"
+  alt: 
 date: {{ .Date }}
 tags:
 syndications:

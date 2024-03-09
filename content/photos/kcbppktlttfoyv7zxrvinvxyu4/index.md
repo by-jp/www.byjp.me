@@ -1,7 +1,7 @@
 ---
 title: We found this wonderful mural in the centre of…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2021-08-18T10:39:31Z"
 draft: false
 tags:

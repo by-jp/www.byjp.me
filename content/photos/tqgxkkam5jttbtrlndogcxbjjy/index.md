@@ -1,8 +1,8 @@
 ---
 title: Der Kunst der Fuge
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2017-11-21T21:37:43Z"
 draft: false
 tags:

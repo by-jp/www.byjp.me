@@ -1,12 +1,12 @@
 ---
 title: My Mum took me to London Terrariums for the…
 media:
-- media-0.jpg
-- media-1.jpg
-- media-2.jpg
-- media-3.jpg
-- media-4.jpg
-- media-5.jpg
+- url: media-0.jpg
+- url: media-1.jpg
+- url: media-2.jpg
+- url: media-3.jpg
+- url: media-4.jpg
+- url: media-5.jpg
 date: "2019-07-14T11:53:58Z"
 draft: false
 tags:

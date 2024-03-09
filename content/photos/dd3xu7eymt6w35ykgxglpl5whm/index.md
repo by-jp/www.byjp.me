@@ -1,7 +1,7 @@
 ---
 title: 'The Savoy Cup: always a fantastic final "night"…'
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-04-16T13:47:01Z"
 draft: false
 tags:

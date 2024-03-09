@@ -1,7 +1,7 @@
 ---
 title: I got a new hat and found the edge of the…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-03-13T05:38:27Z"
 draft: false
 tags:

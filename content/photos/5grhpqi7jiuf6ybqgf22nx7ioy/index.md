@@ -1,7 +1,7 @@
 ---
 title: New thing Tuesday! Bollywood casting call with…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-07-10T10:26:01Z"
 draft: false
 tags:

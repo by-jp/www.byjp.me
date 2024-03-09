@@ -1,10 +1,10 @@
 ---
 title: What a wonderful wedding! I only took the one…
 media:
-- media-0.webp
-- media-1.webp
-- media-2.webp
-- media-3.webp
+- url: media-0.webp
+- url: media-1.webp
+- url: media-2.webp
+- url: media-3.webp
 date: "2022-06-07T03:05:54Z"
 draft: false
 tags:

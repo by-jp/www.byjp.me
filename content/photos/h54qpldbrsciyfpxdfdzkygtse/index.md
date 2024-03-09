@@ -1,7 +1,7 @@
 ---
 title: '.@Mr_Bingo: a splendid chap with a filthy…'
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2015-11-25T09:19:05Z"
 draft: false
 tags:

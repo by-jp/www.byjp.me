@@ -1,7 +1,7 @@
 ---
 title: '"When attempting to decrypt secret messages, its…'
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2017-03-18T23:35:18Z"
 draft: false
 tags:

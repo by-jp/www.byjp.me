@@ -1,7 +1,7 @@
 ---
 title: Going to miss working with absolute characters…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2015-02-27T09:52:17Z"
 draft: false
 tags:

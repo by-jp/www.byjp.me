@@ -1,8 +1,8 @@
 ---
 title: Twos
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2018-05-25T06:07:51Z"
 draft: false
 tags:

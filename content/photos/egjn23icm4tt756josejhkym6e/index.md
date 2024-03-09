@@ -1,7 +1,7 @@
 ---
 title: If you support @macmillancancer, not only do…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2017-01-28T11:06:16Z"
 draft: false
 tags:

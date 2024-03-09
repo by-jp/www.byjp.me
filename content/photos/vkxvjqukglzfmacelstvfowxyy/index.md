@@ -1,9 +1,9 @@
 ---
 title: A survival weekend with this wonderful chap to…
 media:
-- media-0.jpg
-- media-1.jpg
-- media-2.mp4.jpg
+- url: media-0.jpg
+- url: media-1.jpg
+- url: media-2.mp4.jpg
 date: "2019-07-22T06:14:08Z"
 draft: false
 tags:

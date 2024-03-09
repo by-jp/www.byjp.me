@@ -1,7 +1,7 @@
 ---
 title: Meeting "Hippie" Joe Hymas - mandolin player,…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2015-03-11T09:45:50Z"
 draft: false
 tags:

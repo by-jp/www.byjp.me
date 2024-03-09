@@ -1,8 +1,8 @@
 ---
 title: What a privilege to be a part of John & Jenny's…
 media:
-- media-0.jpg
-- media-1.jpg
+- url: media-0.jpg
+- url: media-1.jpg
 date: "2019-09-22T18:16:56Z"
 draft: false
 tags:

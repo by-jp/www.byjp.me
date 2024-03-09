@@ -1,7 +1,7 @@
 ---
 title: A staggeringly wonderful wedding day for Fiona…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2019-06-16T08:47:28Z"
 draft: false
 tags:

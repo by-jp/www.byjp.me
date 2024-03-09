@@ -1,7 +1,7 @@
 ---
 title: Look at muggins here, going for a kayak down the…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2018-06-18T20:52:24Z"
 draft: false
 tags:

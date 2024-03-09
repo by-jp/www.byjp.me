@@ -1,7 +1,7 @@
 ---
 title: Best. Present. Ever. @dxcompton has given me a…
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2011-09-15T08:20:46Z"
 draft: false
 tags:

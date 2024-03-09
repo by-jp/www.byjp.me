@@ -1,7 +1,7 @@
 ---
 title: Another Albert Hall epic! Was @le_boyd
 media:
-- media-0.jpg
+- url: media-0.jpg
 date: "2014-05-31T18:32:24Z"
 draft: false
 tags:
