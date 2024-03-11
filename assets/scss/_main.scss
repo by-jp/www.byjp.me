@@ -774,11 +774,17 @@ select:focus + .focus {
   border-radius: inherit;
 }
 
-.h-card:not(.no-emoji) .u-url::before {
-  content: "📇";
-  margin-right: 3px;
-  text-decoration: none;
-  display:inline-block;
+.h-card:not(.no-emoji) .u-url {
+  &::before {
+    content: "«";
+    text-decoration: none;
+    display:inline-block;
+  }
+  &::after {
+    content: "»";
+    text-decoration: none;
+    display:inline-block;
+  }
 }
 
 abbr:hover {
