@@ -51,21 +51,28 @@
           "name": "Like",
           "post": {
             "path": "content/notes/{yyyy}-{MM}-{dd}/{slug}/index.md",
-            "url": "notes/{yyyy}-{MM}-{dd}/{slug}"
+            "url": "notes/{yyyy}-{MM}-{dd}/{slug}/"
           }
         },
         "note": {
           "name": "Note",
           "post": {
             "path": "content/notes/{yyyy}-{MM}-{dd}/{slug}/index.md",
-            "url": "notes/{yyyy}-{MM}-{dd}/{slug}"
+            "url": "notes/{yyyy}-{MM}-{dd}/{slug}/"
+          }
+        },
+        "reply": {
+          "name": "Reply",
+          "post": {
+            "path": "content/notes/{yyyy}-{MM}-{dd}/{slug}/index.md",
+            "url": "notes/{yyyy}-{MM}-{dd}/{slug}/"
           }
         },
         "photo": {
           "name": "Photo",
           "post": {
             "path": "content/photos/{yyyy}-{MM}-{dd}/{slug}/index.md",
-            "url": "photos/{yyyy}-{MM}-{dd}/{slug}"
+            "url": "photos/{yyyy}-{MM}-{dd}/{slug}/"
           },
           "media": {
             "path": "content/photos/{yyyy}-{MM}-{dd}/{slug}/{filename}"

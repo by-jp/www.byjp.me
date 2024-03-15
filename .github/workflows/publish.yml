@@ -27,12 +27,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.123.6
+      HUGO_VERSION: 0.123.8
     steps:
-      # - name: Install Golang
-      #   uses: actions/setup-go@v4
-      #   with:
-      #     go-version: '1.21.1'
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
@@ -62,26 +58,6 @@ jobs:
             --cacheDir /tmp/hugo/cache \
             --minify \
             --baseURL "https://www.byjp.me"
-      # - name: Syndicate
-      #   env:
-      #     INSTAGRAM_PASSWORD: ${{ secrets.INSTAGRAM_PASSWORD }}
-      #     INSTAGRAM_TOTP: ${{ secrets.INSTAGRAM_TOTP }}
-      #     PIXELFED_ACCESS_TOKEN: ${{ secrets.PIXELFED_ACCESS_TOKEN }}
-      #   run: |
-      #     cd tools/syndicate
-      #     go mod download
-      #     go run .
-      #     if git diff-index --quiet HEAD; then
-      #       echo "No syndication changes made"
-      #     else
-      #       echo "Committing syndication changes"
-      #       git config --global user.email "github-actions[bot]@users.noreply.github.com"
-      #       git config --global user.name "Syndicate[bot]"
-      #       git commit -am "Syndicated post references"
-      #       git push
-      #       # TODO: Do not upload, but without failing the build
-      #       exit 1
-      #     fi
       - name: Build search index
         run: |
           # Build the search index
