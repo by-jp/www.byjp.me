@@ -11,11 +11,11 @@ tags:
 - "AI"
 ---
 
-A few weeks ago I started my year with [Zoe](https://zoe.com/). I've loved seeing my glucose response to the foods I eat, and the blood, fat, and gut microbiome reports that arrived a few days ago have been _fascinating_. I'm trying to shift my diet to meet what I've learned there (more on this below), but this evening I found myself with lots of fresh ingredients not long for this world, and no immediate ideas on how to combine them.
+A few weeks ago I started my year with [Zoe](https://zoe.com/), the tech- & science-backed diet learning scheme. I've loved seeing my glucose levels respond to the foods I eat in realtime, and the blood, fat, and gut microbiome reports that arrived a few days ago have been _fascinating_. I'm trying to shift my diet to meet what I've learned there (more on this below), but this evening I found myself with lots of fresh ingredients not long for this world, and no immediate ideas on how to combine them.
 
 ## Zoe
 
-A quick aside to outline the changes I'm making to my diet because of what I've learned from Zoe. None of these will be news to those of you who've spent time reading about the dietary needs of humans this decade (especially if you've read anything by [Tim Spector](https://en.wikipedia.org/wiki/Tim_Spector), or have a copy of [The Glucose Goddess Method](https://openlibrary.org/works/OL34953020W/Glucose_Goddess_Method), like {{< friend yvette >}} does) but, at least, these were newly concrete for me:
+A quick aside to outline the changes I'm making to my diet because of what I've learned from Zoe. None of these will be news to those of you who've spent time learning about the dietary needs of humans this decade (especially if you've read anything by [Tim Spector](https://en.wikipedia.org/wiki/Tim_Spector), or have a copy of [The Glucose Goddess Method](https://openlibrary.org/works/OL34953020W/Glucose_Goddess_Method), like {{< friend yvette >}} does) but, at least, these ideas have been made newly concrete for me:
 
 - My blood sugar control is "poor". To balance this I'm trying to wildly reduce refined sugars in my diet, reduce carbohydrates in general, and try to sequence them after fats and proteins to reduce how much they make my my blood-glucose levels swing.
 - My blood fat control is surprisingly good. This means I can lean into gaining energy from fats if the reduction in carbohydrates leaves me with a deficit. I need to remain careful though, it still takes ~6 hours for fat to clear my bloodstream, so one of lunch or dinner should be lower in fat.
@@ -25,11 +25,11 @@ A quick aside to outline the changes I'm making to my diet because of what I've 
 
 And so the scene is set for my ChefGPT challenge…
 
-## `sudo make me a meal`
+## `sudo make me a ~~sandwich~~ meal`
 
-I'm _extremely_ skeptical about tools like ChatGPT; Large Language Models (LLMs), what the world is calling "AI" this decade. They're eerily lifelike at responding to human questions, and can get in the right ballpark for answers most of the time, but their energy consumption (both when "training" and using them), their ethics (selective application of copyright), and their "intelligence" are all _highly_ questionable. But learning about how they work, their limtations, and how to recognise what they produce are all things I think will be very useful in the months and years ahead.
+I'm _extremely_ skeptical about Large Language Models (or LLMs)—things like [ChatGPT](https://chatgpt.openai.com), or what the world is calling "AI" this decade. They're eerily lifelike at responding to human questions, and can give answers that are in the right ballpark most of the time, but their energy consumption (both when being "trained" and used), their ethics (selective application of copyright), and their "intelligence" are all _highly_ questionable. When I'm skeptical about something, I like to learn about how it works, its limtations, and how to recognise what it produces; these are all things I think will be particularly useful for LLMs in the months and years ahead.
 
-So I decided to ask [ChatGPT](https://chatgpt.openai.com) to give me a recipe to cook. I'm not the first and I won't be the last, but I want to document the process, the results, and my tasting notes so that I can look back and laugh in 25 years.
+So, with that in mind and my rapidly wilting vegetables in hand, I decided to ask ChatGPT to write a recipe for me to cook. I'm not the first to try this, and I won't be the last to write about it, but I want to document tis little adventure, the results and my tasting notes, so I can look back and laugh in 25 years' time.
 
 I wrote a prompt (and re-wrote it a few times, fiddling with the output) so that I'd end up with a recipe I could use in my favourite recipe app, [Mela](https://mela.recipes). In my prompt I included my general request (including my Zoe-taught guidelines), the full list of ingredients I had to hand, and some details of [Mela's (awesome) file format](https://mela.recipes/fileformat/index.html), so it'd be easy to import and use.
 
