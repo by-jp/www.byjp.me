@@ -2,6 +2,7 @@
 date: 2024-03-15T12:34:31.711Z
 publishDate: 2024-03-15T12:34:31.711Z
 title: Accėnt màrks in E̱nglish
+audio: index.mp3
 bookmarkOf: https://www.youtube.com/watch?v=0Fok5AQ2WRo
 references:
   https://wwwYoutubeCom/watch?v=0Fok5Aq2wRo:
@@ -14,10 +15,11 @@ references:
     publication: YouTube
 ---
 
-
 I really enjoyed watching this! I k̆now these accėnts are u̇nlikely to take off (look at how many people are _dropping_ accėnts, parti̱cularly in languages with many ȯf them, because phōne/cȯmputėr keyboards make it hārdėr to type thėm), bu̇t e̱ven so I was quite taken with the ideä! (As you cȧn see frȯm all thė diäcritics!)
 
 _(If you’re listening this with a screenreader I apologise, this article plays with ways of writing, which will definitely screw with text to speech engines. Use the link at the top to listen to me reading it instead!)_
+
+_(Oops, more problems — it seems as though my site's font doesn't correctly render the macron below or the breve — they're all offset! While I look for a fix I hope this still makes sense!)_
 
 The diäcritical ma̱rks Rob suggests āre:
 
