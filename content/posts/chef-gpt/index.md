@@ -120,4 +120,4 @@ Despite the lingering dominance of the tuna, the total absence of the smoked sal
 
 This recipe did give me some interesting ideas around adding hazelnuts into other dishes; the mellow flavour that came from them spending a little time steaming next to the veg was really enjoyable. I'd probably toast and crush them though, to minimize that jarring texture clash.
 
-It's not a recipe that'll be staying in my library, but it did become a member of the [clean plate club](https://www.youtube.com/playlist?list=PLdAiyt6EtZP4wkMoQIHp2h00Ta9PyBtdi), and when I put the recipe into Zoe it declared a commendable score of 65/100 in matching my dietary needs, putting it squarely in the "Enjoy regularly" category. Thanks, but no thanks Zoe.
+It's not a recipe that'll be staying in my library, but it did become a member of the [clean plate club](https://www.youtube.com/playlist?list=PLdAiyt6EtZP4wkMoQIHp2h00Ta9PyBtdi), and when I asked Zoe to check it out, it gave a commendable score of 65/100 for matching my dietary needs, putting it squarely in the "Enjoy regularly" category. Thanks, but no thanks Zoe.
