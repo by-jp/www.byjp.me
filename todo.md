@@ -8,14 +8,18 @@ Things I might work on within my personal blog's software.
 
 ### Ideas
 
+- [ ] Add `inReplyTo` support
+- [ ] Redesign homepage
+  - [ ] Include recent photo
+  - [ ] Include summaries of recent posts (of all types)
 - [ ] Complete Twitter import  
   - [ ] Figure out missing multi-photo tweets (eg. 1031265304675053568)  
   - [ ] Remove reply tweets with no parent (the one to mhudack is a good example)  
   - [x] Fix hashtags with poor accessibility multiwordhashtags  
-  - [ ] Fix goodreads links (point to blog)  
-  - [ ] Fix instagram links (point to blog)  
+  - [x] Fix goodreads links (point to blog)  
+  - [x] Fix instagram links (~~point to blog~~ delete; they're cross-posts anyway)  
 - [ ] Import from Omnivore daily  
-- [ ] Facebook import?  
+- [ ] Facebook import?
 
 ### Working
 
@@ -23,4 +27,4 @@ Things I might work on within my personal blog's software.
 ### Done ✓
 
 - [x] Add Links to Bookmarks & Notes  
-
+- [x] Add IndieSearch support (my own experiment!)
