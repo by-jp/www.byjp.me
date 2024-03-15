@@ -2,7 +2,7 @@
 title: "ChefGPT"
 emoji: 🤖
 date: 2024-03-15T19:13:34.952Z
-summary: I asked ChatGPT to give me a recipe for ingredients I had, cooked it and was unsurprised.
+summary: I asked ChatGPT to give me a recipe for the ingredients I had at home, cooked its suggestion blind and… was unsurprised. I still got a lot from it though!
 tags:
 - food
 - recipes
