@@ -21,7 +21,9 @@ A quick aside to outline the changes I'm making to my diet because of what I've 
 - My blood fat control is surprisingly good. This means I can lean into gaining energy from fats if the reduction in carbohydrates leaves me with a deficit. I need to remain careful though, it still takes ~6 hours for fat to clear my bloodstream, so one of lunch or dinner should be lower in fat.
 - My microbiome score is middling to poor. This is unsurprising (a family trait), but this means I'm trying to lean further into high-fibre greens (like broccoli, spinach, and kale), tofu, mushrooms, and [nuts](https://www.reddit.com/user/pfobwpfo/comments/18ohqi2/nuts/).
 
-Thus the scene is set for my ChefGPT challenge…
+{{< figure src="gut-boosters.webp" title="I now have a large selection of Zoe's recommendated foods at home. But do they include nuts, or just legumes? I'd best call David Mitchell." alt="A list of Zoe's \"updated gut booster\" foods, for me. Inlcuding almonds, broccoli, spring greens, hazelnuts, and more." >}}
+
+And so the scene is set for my ChefGPT challenge…
 
 ## `sudo make me a meal`
 
