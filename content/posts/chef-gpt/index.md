@@ -25,7 +25,7 @@ Thus the scene is set for my ChefGPT challenge…
 
 ## `sudo make me a meal`
 
-I'm _extremely_ skeptical about Large Language Models like ChatGPT (LLMs, or what the world is calling "AI" this decade). They're eerily lifelike at responding to human questions, and can get in the right ballpark for answers most of the time, but their energy consumption (both producing and using them), their ethics (selective application of copyright), and their "intelligence" are all _highly_ questionable. But learning about how they work, their limtations, and how to recognise what they produce are all things I think will be very useful in the months and years ahead.
+I'm _extremely_ skeptical about tools like ChatGPT; Large Language Models (LLMs), what the world is calling "AI" this decade. They're eerily lifelike at responding to human questions, and can get in the right ballpark for answers most of the time, but their energy consumption (both producing and using them), their ethics (selective application of copyright), and their "intelligence" are all _highly_ questionable. But learning about how they work, their limtations, and how to recognise what they produce are all things I think will be very useful in the months and years ahead.
 
 So I decided to ask [ChatGPT](https://chatgpt.openai.com) to give me a recipe to cook. I'm not the first and I won't be the last, but I want to document the process, the results, and my tasting notes so that I can look back and laugh in 25 years.
 
