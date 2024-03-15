@@ -1,6 +1,13 @@
 {{- if not .Params.bookmarkOf -}}
   {{ errorf "BookmarkOf partial called when no bookmark of param set" -}}
 {{- end -}}
+{{- define "partials/article-type.html" -}}
+  {{- if collections.In (slice "cite" "entry") . -}}
+    {{- "article" -}}
+  {{- else -}}
+    {{- . -}}
+  {{- end -}}
+{{- end -}}
 
 {{- $page := . -}}
 {{- $url := .Params.bookmarkOf -}}
@@ -12,7 +19,7 @@
 {{- end -}}
 💭 Thoughts on{{" "}}
 {{- with $reference.name -}}
-  the article {{ partial "rich-link.html" (dict "Class" "u-bookmark-of" "Destination" $url "Text" . "Page" $page) }}.
+  the {{ partial "partials/article-type.html" (default "article" $reference.type) }} {{ partial "rich-link.html" (dict "Class" "u-bookmark-of" "Destination" $url "Text" . "Page" $page) }}.
 {{- else -}}
   {{ partial "rich-link.html" (dict "Class" "u-bookmark-of" "Destination" $url "Text" (printf "an article from %s" (($url | urls.Parse).Hostname)) "Page" $page) }}
 {{- end }}
