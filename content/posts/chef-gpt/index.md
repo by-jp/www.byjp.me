@@ -25,7 +25,7 @@ A quick aside to outline the changes I'm making to my diet because of what I've 
 
 And so the scene is set for my ChefGPT challenge…
 
-## `sudo make me a ~~sandwich~~ meal`
+## sudo make me a ~~sandwich~~ meal
 
 I'm _extremely_ skeptical about Large Language Models (or LLMs)—things like [ChatGPT](https://chatgpt.openai.com), or what the world is calling "AI" this decade. They're eerily lifelike at responding to human questions, and can give answers that are in the right ballpark most of the time, but their energy consumption (both when being "trained" and used), their ethics (selective application of copyright), and their "intelligence" are all _highly_ questionable. When I'm skeptical about something, I like to learn about how it works, its limtations, and how to recognise what it produces; these are all things I think will be particularly useful for LLMs in the months and years ahead.
 
