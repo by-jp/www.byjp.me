@@ -17,9 +17,7 @@ references:
 
 I really enjoyed watching this! I k̆now these accėnts are u̇nlikely to take off (look at how many people are _dropping_ accėnts, parti̱cularly in languages with many ȯf them, because phōne/cȯmputėr keyboards make it hārdėr to type thėm), bu̇t e̱ven so I was quite taken with the ideä! (As you cȧn see frȯm all thė diäcritics!)
 
-_(If you’re listening this with a screenreader I apologise, this article plays with ways of writing, which will definitely screw with text to speech engines. Use the link at the top to listen to me reading it instead!)_
-
-_(Oops, more problems — it seems as though my site's font doesn't correctly render the macron below or the breve — they're all offset! While I look for a fix I hope this still makes sense!)_
+> (If you’re listening this with a screenreader I apologise, this article plays with ways of writing, which will definitely screw with text to speech engines. Use the link at the top to listen to me reading it instead!)
 
 The diäcritical ma̱rks Rob suggests āre:
 
@@ -27,7 +25,7 @@ The diäcritical ma̱rks Rob suggests āre:
 | --- | --- | --- | --- |
 | k̆now | Brēve | Silent letters | double tilde after: `k~~` |
 | accėnt | Overdot | Vowels pronounced with schwa: “uh” | double period after: `e..` |
-| phōne | Ma̱cron (abȯve) | Long vowels | double caret after: `pho^^ne ` |
+| phōne | Ma̱cron (abȯve) | Long vowels | double caret after: `o^^` |
 | dire̱ctly | Ma̱cron below | Emphasised vowels | double underscore after: `e__` |
 | naïve | Diaë̱resis | Pronounce vowels distinctly | (Already available; alt-u before: `¨i`) |
 
@@ -45,6 +43,6 @@ I’ve also I’ve used ȧ diaë̱resis in “dēfinïtely” ȧbȯve, to in
 
 Finally, bėfore this tu̇rns into ȧ full rant, what about vowels thȧt only need elongation because ȯf my accent? Exāmple is ȧ great… exāmple. Dȯ my Northėr̆n friends write “example” and fork the written language?
 
-Lots ȯf fu̇n 😄 
+Lots ȯf fu̇n 😄
 
 [^1]: I wanted tȯ make it easy tȯ write these characters while I wȧs penning this ārticle, so put together ȧ [“Text Rėpla̱cemėnt” plist](./accent-replacements.plist). If you’re on macOS you cȧn visit System Settings → Keyboard → Text Rėplācemėnts, then right click and import these to use the shortcuts in the table ȧbȯve.
