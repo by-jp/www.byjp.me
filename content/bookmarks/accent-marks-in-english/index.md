@@ -13,6 +13,7 @@ references:
     featured: https://i.ytimg.com/vi/0Fok5AQ2WRo/maxresdefault.jpg
     video: https://www.youtube.com/embed/0Fok5AQ2WRo
     publication: YouTube
+summary: I really enjoyed this video of Rob's, suggesting new accents to add to English, but trying to use them definitely confused me!
 ---
 
 I really enjoyed watching this! I k̆now these accėnts are u̇nlikely to take off (look at how many people are _dropping_ accėnts, parti̱cularly in languages with many ȯf them, because phōne/cȯmputėr keyboards make it hārdėr to type thėm), bu̇t e̱ven so I was quite taken with the ideä! (As you cȧn see frȯm all thė diäcritics!)
