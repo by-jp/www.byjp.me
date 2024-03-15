@@ -1,7 +1,7 @@
 ---
 date: 2024-03-15T12:34:31.711Z
 publishDate: 2024-03-15T12:34:31.711Z
-title: Accėnt màrks in E̱nglish
+title: Accėnt marks in E̱nglish
 audio: index.mp3
 bookmarkOf: https://www.youtube.com/watch?v=0Fok5AQ2WRo
 references:
@@ -29,7 +29,7 @@ The diäcritical ma̱rks Rob suggests āre:
 | dire̱ctly | Ma̱cron below | Emphasised vowels | double underscore after: `e__` |
 | naïve | Diaë̱resis | Pronounce vowels distinctly | (Already available; alt-u before: `¨i`) |
 
-He also recommended use ȯf thė grave to di̱ffere̱ntiate homonyms (eg. minute vs. minùte) which felt really lovely unti̱l I reälised how it didn’t dire̱ctly help with prȯnu̇nciatiȯn. Which ȯf _bow_ and _bòw_ is thė frȯnt ȯf ȧ boat, ȧnd which for archery? I feel like thė ma̱cron abȯve gets u̇s to almōst the same place (bow fȯr boats, bōw fȯr arrows; wind in the trees, wi̱nd in your cable).
+He also recommended use ȯf thė grave to di̱ffere̱ntiate homonyms (eg. minute vs. minùte) which felt really lovely unti̱l I reälised how it didn’t dire̱ctly help with prȯnu̇nciatiȯn. Which ȯf _bow_ and _bòw_ is thė frȯnt ȯf ȧ boat, ȧnd which for archery? I feel like thė ma̱cron abȯve gets u̇s to almōst the same place (bow fȯr boats, bōw fȯr arrows; wind in the trees, wīnd in your cable).
 
 ## Taking it too fār
 
@@ -41,8 +41,8 @@ Ȧnd there aga̱in; I’ve avoided accenting “geŏff lind̆say” because I 
 
 I’ve also I’ve used ȧ diaë̱resis in “dēfinïtely” ȧbȯve, to indicate thȧt there’s ȧ schwa on that second “i” (as [Rob suggests](https://youtu.be/0Fok5AQ2WRo?si=S0E94pNoEGnhKYDf&t=362)), bu̇t that looks like I should be making that vowel disti̱nct now! I can’t yet think ȯf ȧn occasion where this would be ȧ problėm, bu̇t it’s bugging me 😅
 
-Finally, bėfore this tu̇rns into ȧ full rant, what about vowels thȧt only need elongation because ȯf my accent? Exāmple is ȧ great… exāmple. Dȯ my Northėr̆n friends write “example” and fork the written language?
+Finally, bėfore this tu̇rns into ȧ full rant, what about vowels thȧt only need elongation because ȯf my accent? Exāmple is ȧ great… exāmple. Dȯ my Northėr̆n friends write “example” and fork thė written language?
 
 Lots ȯf fu̇n 😄
 
-[^1]: I wanted tȯ make it easy tȯ write these characters while I wȧs penning this ārticle, so put together ȧ [“Text Rėpla̱cemėnt” plist](./accent-replacements.plist). If you’re on macOS you cȧn visit System Settings → Keyboard → Text Rėplācemėnts, then right click and import these to use the shortcuts in the table ȧbȯve.
+[^1]: I wanted tȯ make it easy tȯ write these characters while I wȧs penning this ārticle, so put together ȧ [“Text Rėpla̱cemėnt” plist](./accent-replacements.plist). If you’re on macOS you cȧn visit System Settings → Ke̱yboard → Text Rėplācemėnts, then right click ȧnd import these tȯ use thė shortcuts in thė table ȧbȯve.
