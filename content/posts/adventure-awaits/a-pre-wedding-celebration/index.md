@@ -5,6 +5,7 @@ date: 2023-11-19T17:15:01-04:00
 summary: "Yvette & I celebrated our upcoming wedding in Venezuela!"
 syndications:
 - https://adventure.awaits.us/pre-wedding-celebration/
+
 ---
 
 {{< figure alt="JP and Yvette look" lovingly at eachoter, in white attire, in front of a vista across Caracas." src="header.webp" class="big">}}

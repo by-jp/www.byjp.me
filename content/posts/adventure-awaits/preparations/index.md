@@ -5,6 +5,8 @@ date: 2022-11-29T20:49:00Z
 summary: "I've just finished my ninth-last day at work before our sabbatical begins. And for the first time, our travels are starting to feel real."
 syndications:
 - https://adventure.awaits.us/preparations/
+series:
+- Adventure Awaits
 ---
 
 {{< figure alt="" src="header.webp" class="big" >}}
