@@ -9,7 +9,7 @@ series:
 - Adventure Awaits
 ---
 
-{{< figure alt="JP and Yvette look" lovingly at eachoter, in white attire, in front of a vista across Caracas." src="header.webp" class="big">}}
+{{< figure alt="JP and Yvette look lovingly at each other, in white attire, in front of a vista across Caracas." src="header.webp" class="big">}}
 
 As any of you who’ve been reading this blog for a while know, [Yvette and I are engaged](../a-patagonian-love-story/) — in the past few months, while we giddily awaited & planed our wedding next Summer, we realised that not all of Yvette’s family and friends here in Venezuela would be able to join us in France.
 
