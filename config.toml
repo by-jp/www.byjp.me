@@ -62,6 +62,7 @@ date = ["date", "publishDate", "lastmod", ":git"]
     curiosities = "🤩"
     memex = "🧠"
     review = "📝"
+    poetry = "🥁"
 
 [languages]
   [languages.en]

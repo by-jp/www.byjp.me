@@ -11,7 +11,7 @@
       This site is a much loved wild garden; things aren't perfectly orgnaised, there are lots of nooks and crannies to explore. Follow your nose and see where you end up.
     </p>
     <ol class="recent-posts">
-      {{- $posts := where .Site.RegularPages "Section" "in" (slice "posts" "bookmarks" "memex") -}}
+      {{- $posts := where .Site.RegularPages "Section" "in" (slice "posts" "bookmarks" "poetry") -}}
       {{- range $posts.ByDate.Reverse | first 6 -}}
         {{- $typeEmoji := index .Site.Params.defaultEmoji .Type -}}
         <li data-type-emoji="{{ $typeEmoji }}" data-my-emoji="{{ with .Params.emoji }}{{ . }}{{ else }}{{ $typeEmoji }}{{ end }}">
