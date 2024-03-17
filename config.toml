@@ -30,7 +30,6 @@ date = ["date", "publishDate", "lastmod", ":git"]
   series = 'series'
   tag = 'tags'
 
-
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -53,6 +52,16 @@ date = ["date", "publishDate", "lastmod", ":git"]
     mask = "#252627"
     msapplication = "#252627"
     theme = "#252627"
+  
+  [params.defaultEmoji]
+    posts = "📔"
+    bookmarks = "🔖"
+    notes = "💬"
+    photos = "📸"
+    calendar = "🗓️"
+    curiosities = "🤩"
+    memex = "🧠"
+    review = "📝"
 
 [languages]
   [languages.en]

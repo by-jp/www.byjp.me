@@ -1,19 +1,65 @@
 <div class="about-me" data-pagefind-body>
   <div class="h-card vcard no-emoji">
     <a href="https://byjp.me" rel="me" class="u-uid u-url"><img class="profile u-photo" src="profile-512.jpg" alt="A photo of me smiling, with short brown hair, a beard and glasses." width="48" height="48"/></a>
-    <span class="p-note">Hello! I'm <em class="p-name fn always-accented"><span class="p-nickname">JP</span> <span class="p-family-name">Hastings-Spital</span></em>, a <span class="p-category category">maker</span>, <span class="p-category category">software engineer</span>, <span class="p-category category">swing dancer</span>, and all-round <span class="p-category category">miriscient chap</span> living in <span class="adr p-adr h-adr"><span class="p-locality locality">London</span>, <span class="p-country-name country-name">UK</span></span>. <span class="h-card no-emoji">I'm <span clas="p-job-title">principal engineer</a> at <a href="https://deliveroo.engineering/" target="_blank" class="p-org u-url" rel="noopener">Deliveroo</a></span>.</span>
+    <span class="p-note">Hello! I'm <em class="p-name fn always-accented"><span class="p-nickname">JP</span> <span class="p-family-name">Hastings-Spital</span></em>, a <span class="p-category category">maker</span>, <span class="p-category category">software engineer</span>, <span class="p-category category">swing dancer</span>, and all-round <span class="p-category category">miriscient chap</span> living in <span class="adr p-adr h-adr"><span class="p-locality locality">London</span>, <span class="p-country-name country-name">UK</span></span>. <span class="h-card no-emoji">Until recently I was <span clas="p-job-title">principal engineer</a> at <span class="p-org" rel="noopener">Deliveroo</span></span>, I'm now enjoying a career break until after my wedding in July.</span>
   </div>
 
-  <p>
-    I <a href="/posts">post</a> about things I've created or care about, 
-    share <a href="/photos">photos</a> of what I'm up to, 
-    keep a <a href="/memex">memex</a> of interesting things I discover, 
-    and link to <a href="/calendar">events</a> I may go to.
-    Read about my life <a href="/now">now</a>, or a recent article like
-  {{ $posts := where .Site.RegularPages "Section" "posts" }}
-  {{ range $posts | first 2 }}
-    <a href="{{.Permalink}}">{{ .Title }}</a>, 
-  {{ end }}
-  and {{ with index $posts 2 }}<a href="{{.Permalink}}">{{ .Title }}</a>{{ end }}.</p>
-  <p>{{ range $posts | first 3 }}{{.Params.emoji}} {{ end }}</p>
+  <hr class="mini" />
+
+  <div class="previews">
+    <p class="intro">
+      This site is a much loved wild garden; things aren't perfectly orgnaised, there are lots of nooks and crannies to explore. Follow your nose and see where you end up.
+    </p>
+    <ol class="recent-posts">
+      {{- $posts := where .Site.RegularPages "Section" "in" (slice "posts" "bookmarks" "memex") -}}
+      {{- range $posts.ByDate.Reverse | first 6 -}}
+        {{- $typeEmoji := index .Site.Params.defaultEmoji .Type -}}
+        <li data-type-emoji="{{ $typeEmoji }}" data-my-emoji="{{ with .Params.emoji }}{{ . }}{{ else }}{{ $typeEmoji }}{{ end }}">
+          <a href="{{.Permalink}}">
+            {{- with .Title -}}{{ . }}{{ else }}{{ .Type | singularize | title }}{{ end -}}
+          </a>
+          <div class="summary">
+            <div>
+              <span class="always-accented">{{- partial "post-type.html" . }}</span>
+              {{ $typeEmoji }}
+              <date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">
+                {{ partial "year-relative-date.html" .Date }}</date>
+              </div>
+            
+            {{- index (split .Summary "\n") 0 | htmlUnescape -}}
+          </div>
+        </li>
+      {{- end -}}
+    </ol>
+
+    <hr class="mini" />
+
+    <div class="passing">
+      {{- $picPage := index (where .Site.RegularPages "Section" "eq" "photos") 0 -}}
+      {{- with $picPage -}}
+        <div class="photo">
+          <div class="context">Photo 📸 <a href="{{ .RelPermalink }}"><date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">{{ partial "year-relative-date.html" .Date }}</date></a></div>
+          <figure>
+            
+            {{- $src := index $picPage.Params.Media 0 -}}
+            <img src="{{ path.Join .RelPermalink $src.url }}" {{ with $src.alt }}alt="{{ . }}" {{ end }} />
+            <figcaption>
+              {{- index (split .Summary "\n") 0 | htmlUnescape }}
+            </figcaption>
+          </figure>
+        </div>
+      {{- end -}}
+
+      {{- $notePage := index (where .Site.RegularPages "Section" "eq" "notes") 0 -}}
+      {{- with $notePage -}}
+        <div class="note">
+          <div class="context">Note 💬 <a href="{{ .RelPermalink }}"><date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">
+            {{ partial "year-relative-date.html" .Date }}</date></a>
+          </div>
+
+          {{ .Content}}
+        </div>
+      {{- end -}}
+    </div>
+  </div>
 </div>

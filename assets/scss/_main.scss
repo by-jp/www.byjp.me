@@ -485,10 +485,6 @@ ol ol {
   text-align: center;
 }
 
-.homepage .content {
-  align-items: center;
-}
-
 .content {
   display: flex;
   flex-direction: column;
@@ -517,12 +513,10 @@ hr {
     background: $light-border-color;
   }
 
-  [data-theme=dark] & {
-    background: $dark-border-color;
-  }
-
-  [data-theme=light] & {
-    background: $light-border-color;
+  &.mini {
+    width: 3em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
   }
 }
 
@@ -846,5 +840,95 @@ mark {
   background-color: $light-background;
   @media (prefers-color-scheme: dark) {
     background-color: $dark-background
+  }
+}
+
+.homepage {
+  .content {
+    align-items: center;
+  }
+
+  .previews {
+    position: relative;
+  }
+
+  .recent-posts {
+    position: relative;
+    text-align: left;
+    padding: 0 50% 0 0;
+    margin: 1em 1.5em;
+    list-style: none;
+
+
+    li {
+
+      &::before{
+        position: absolute;
+        left: -1.5em;
+        text-align: right;
+        width: 1em;
+        content: attr(data-type-emoji);
+      }
+
+      &:hover::before {
+        content: attr(data-my-emoji);
+      }
+    }
+
+    & .summary {
+      position: absolute;
+      text-align: right;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      top: 0;
+      display: none;
+      
+      color: $light-color-dim;
+      background-color: $light-background;
+
+      @media (prefers-color-scheme: dark) {
+        background-color: $dark-background;
+        color: $dark-color-dim;
+      }
+    }
+
+    li:hover .summary {
+      display: block;
+    }
+  }
+
+  .intro {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    margin: 0 1.5em 0 0;
+    padding: 0 0 0 1.5em;
+    text-align: right;
+    text-wrap: balance;
+    color: $light-color-dim;
+      @media (prefers-color-scheme: dark) {
+        color: $dark-color-dim;
+      }
+  }
+
+  .passing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    & > * {
+      max-width: 50%;
+    }
+
+    figure {
+      margin: 1em 0;
+    }
+  }
+
+  .context {
+    font-size: 0.8rem;
+    opacity: 0.6;
   }
 }

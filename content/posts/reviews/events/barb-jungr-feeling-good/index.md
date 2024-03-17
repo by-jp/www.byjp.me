@@ -9,6 +9,10 @@ location:
   name: The Guy's Chapel
   latitude: 51.50448455718357
   longitude: -0.0881963644105807
+references:
+  reply:
+    url: /calendar/one-off/2024-03/barb-jungr-feeling-good/
+    type: event
 ---
 
 What a lovely event! Barb's singing was rich and exciting, with Jenny's delightful and expressive piano accompaniment was all the more impressive when we learned it was almost entirely improvised.

@@ -1,0 +1,22 @@
+{{ $typeStr := .Type | singularize }}
+
+{{- $url := "" -}}
+{{- if .Params.bookmarkOf -}}
+  {{- $url = .Params.bookmarkOf -}}
+{{- else if .Params.inReplyTo -}}
+  {{- $url = .Params.inReplyTo -}}
+{{- end -}}
+
+{{- $reference := dict -}}
+{{- range .Params.references -}}
+  {{- if eq .url $url -}}
+    {{- $reference = . -}}
+  {{- end }}
+{{- end -}}
+
+{{- if $reference.type -}}
+  {{- $targetType := partial "partials/article-type.html" (default "article" $reference.type) -}}
+  {{- (printf "%s %s" $targetType $typeStr) | strings.FirstUpper -}}
+{{- else -}}
+  {{- $typeStr | strings.FirstUpper -}}
+{{- end -}}

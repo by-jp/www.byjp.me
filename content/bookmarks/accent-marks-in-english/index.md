@@ -1,7 +1,7 @@
 ---
 date: 2024-03-15T12:34:31.711Z
 publishDate: 2024-03-15T12:34:31.711Z
-title: Accėnt marks in E̱nglish
+title: Accėnt mārks in E̱nglish
 audio: index.mp3
 bookmarkOf: https://www.youtube.com/watch?v=0Fok5AQ2WRo
 references:
@@ -20,9 +20,9 @@ I really enjoyed watching this! I k̆now these accėnts are u̇nlikely to take 
 
 > (If you’re listening this with a screenreader I apologise, this article plays with ways of writing, which will definitely screw with text to speech engines. Use the link at the top to listen to me reading it instead!)
 
-The diäcritical ma̱rks Rob suggests āre:
+The diäcritical mārks Rob suggests āre:
 
-| Exāmple u̱sage | Mark | Meaning | JP’s shortcut[^1] |
+| Exāmple u̱sage | Mārk | Meaning | JP’s shortcut[^1] |
 | --- | --- | --- | --- |
 | k̆now | Brēve | Silent letters | double tilde after: `k~~` |
 | accėnt | Overdot | Vowels pronounced with schwa: “uh” | double period after: `e..` |
