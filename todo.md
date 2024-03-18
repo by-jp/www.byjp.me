@@ -6,6 +6,7 @@ Things I might work on within my personal blog's software.
 
 - [ ] Fix val.town donations link ([deprecation notice](https://docs.val.town/api/run/))
 - [ ] Now page isn't current
+- [ ] Videos in "photos" don't have a thumbnail, and don't work in the list.
 
 ### Ideas
 
