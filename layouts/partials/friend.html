@@ -1,6 +1,6 @@
-{{ $parts := strings.Split . "." }}
-{{ with index site.Data.friends (index $parts 0) }}
+{{ $parts := strings.Split . "." -}}
+{{- with index site.Data.friends (index $parts 0) -}}
   <span class="h-card{{ range collections.Last (sub (len $parts) 1) $parts }} {{.}}{{ end }}"><a href="{{.site}}" rel="{{.xfn}}" class="u-url p-name" target="_blank">{{.name}}</a></span>
-{{ else }}
+{{- else -}}
   {{ errorf "Could not display friend %s" . }}
-{{ end }}
+{{- end }}
