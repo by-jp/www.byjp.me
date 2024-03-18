@@ -859,9 +859,15 @@ mark {
     margin: 1em 1.5em;
     list-style: none;
 
+    @media #{$media-size-phone} {
+      font-size: 1rem;
+      padding: 0;
+      width: fit-content;
+      max-width: calc(100% - 2em);
+      margin-inline: auto;
+    }
 
     li {
-
       &::before{
         position: absolute;
         left: -1.5em;
@@ -895,6 +901,10 @@ mark {
 
     li:hover .summary {
       display: block;
+      
+      @media #{$media-size-phone} {
+        display: none;
+      }
     }
   }
 
@@ -908,22 +918,47 @@ mark {
     text-align: right;
     text-wrap: balance;
     color: $light-color-dim;
-      @media (prefers-color-scheme: dark) {
-        color: $dark-color-dim;
-      }
+    @media (prefers-color-scheme: dark) {
+      color: $dark-color-dim;
+    }
+    
+    @media #{$media-size-phone} {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      margin: 0 0 2em 0;
+      padding: 0;
+    }
   }
 
   .passing {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 
     & > * {
       max-width: 50%;
+
+      @media #{$media-size-phone} {
+        max-width: 100%;
+        width: 100%;
+
+        &:not(:last-child)::after {
+          content: ' ';
+          border-top: 1px solid $light-border-color;
+          height:1px;
+          display:block;
+          margin: 1.5em;
+          width: 3em;
+          margin-inline: auto;
+        }
+      }
     }
 
     figure {
       margin: 1em 0;
+      margin-inline: auto;
     }
   }
 
