@@ -2,7 +2,7 @@
 date: 2024-03-27T17:19:03.676Z
 publishDate: 2024-03-27T17:19:03.676Z
 emoji: 🐤
-title: Physical gestures seen in birds for the first time
+title: Gestures seen in birds for the first time
 bookmarkOf: https://www.u-tokyo.ac.jp/focus/en/press/z0508_00339.html
 references:
   bookmark:
