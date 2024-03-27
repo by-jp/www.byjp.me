@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Wow\! My [@mbedmicro]({{< linkrot "http://yfrog.com/0l57pcj" "an image" >}}
+Wow\! My [@mbedmicro]({{< linkrot "yfrog.com/0l57pcj" "an image" >}}

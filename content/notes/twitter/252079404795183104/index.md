@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I just earned the 'Beer Connoisseur' badge on [@untappd](https://twitter.com/untappd)\! [https://untp.it/UXZ4es](https://untp.it/UXZ4es)
+I just earned the 'Beer Connoisseur' badge on [@untappd](/twitter/#/untappd)\! [https://untp.it/UXZ4es](https://untp.it/UXZ4es)

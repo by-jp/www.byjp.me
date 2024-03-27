@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Twofold problem [@TMobileUK](https://twitter.com/TMobileUK): the "forgot password" link goes to a broken url AND the 404 is unhelpful &amp; condescending {{< imgorvid src="media-1.jpg" >}}
+Twofold problem [@TMobileUK](/twitter/#/TMobileUK): the "forgot password" link goes to a broken url AND the 404 is unhelpful &amp; condescending {{< imgorvid src="media-1.jpg" >}}

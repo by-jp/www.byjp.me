@@ -7,4 +7,4 @@ location:
   latitude: 12.95674965
   longitude: 77.74222598
 ---
-Chuffed: [https://twitter.com/sendgrid/status/104216100832690176](https://twitter.com/sendgrid/status/104216100832690176)
+Chuffed: [(twitter link)](/twitter/#/sendgrid/status/104216100832690176)

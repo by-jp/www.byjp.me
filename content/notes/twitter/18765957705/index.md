@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I earned the Bootcamp sticker on [@GetGlue](https://twitter.com/GetGlue)\! [http://getglue.com/jphastings/stickers/bootcamp?s=ts&ref=jphastings](http://getglue.com/jphastings/stickers/bootcamp?s=ts&ref=jphastings)
+I earned the Bootcamp sticker on [@GetGlue](/twitter/#/GetGlue)\! [http://getglue.com/jphastings/stickers/bootcamp?s=ts&ref=jphastings](http://getglue.com/jphastings/stickers/bootcamp?s=ts&ref=jphastings)

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Chris takes ancient Mayan culture very seriously. [https://360.io/KaNGRC](https://360.io/KaNGRC)
+Chris takes ancient Mayan culture very seriously. {{< linkrot "360.io/KaNGRC" "a 360 photo" >}}

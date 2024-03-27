@@ -7,4 +7,4 @@ location:
   latitude: 51.51048735
   longitude: -0.13026132
 ---
-Penthouse funtimes. [https://360.io/fACYv5](https://360.io/fACYv5)
+Penthouse funtimes. {{< linkrot "360.io/fACYv5" "a 360 photo" >}}

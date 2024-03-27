@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-The [@quora](https://twitter.com/quora) newsletter is the only automated email I don't delete without reading.
+The [@quora](/twitter/#/quora) newsletter is the only automated email I don't delete without reading.

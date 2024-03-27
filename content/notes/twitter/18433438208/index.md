@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Time to test the new Nixie tubes\! Now to find a decent 12V source… {{< linkrot "http://yfrog.com/iyj8oqj" "an image" >}}
+Time to test the new Nixie tubes\! Now to find a decent 12V source… {{< linkrot "yfrog.com/iyj8oqj" "an image" >}}

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Was half-considering appleTV for when they arrive, but tried [@plexapp](https://twitter.com/plexapp) again after a year and it's staggeringly good. Plex + Drobo FS = win
+Was half-considering appleTV for when they arrive, but tried [@plexapp](/twitter/#/plexapp) again after a year and it's staggeringly good. Plex + Drobo FS = win

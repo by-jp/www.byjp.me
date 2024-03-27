@@ -7,4 +7,4 @@ location:
   latitude: 52.31529252
   longitude: 1.6735081
 ---
-I'm at Alfred Corby Museum [https://4sq.com/1frc4Bb](https://4sq.com/1frc4Bb)
+I'm at Alfred Corby Museum

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Very impressed that Carcasonne for iPhone correctly abbreviates my surname\!  {{< linkrot "http://yfrog.com/7b93894992j" "an image" >}}
+Very impressed that Carcasonne for iPhone correctly abbreviates my surname\!  {{< linkrot "yfrog.com/7b93894992j" "an image" >}}

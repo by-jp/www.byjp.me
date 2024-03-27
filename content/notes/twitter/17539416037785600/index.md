@@ -7,4 +7,4 @@ location:
   latitude: 51.72317349
   longitude: -1.97108638
 ---
-In the time it's taken iplayer to get it's act together, I have found,dl'd and started watching same show, pirated. {{< linkrot "http://yfrog.com/hsflsuj" "an image" >}}
+In the time it's taken iplayer to get it's act together, I have found,dl'd and started watching same show, pirated. {{< linkrot "yfrog.com/hsflsuj" "an image" >}}

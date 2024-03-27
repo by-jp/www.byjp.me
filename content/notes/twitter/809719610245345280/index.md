@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Can [@NervesProject](https://twitter.com/NervesProject) be used to drive static images through a Pi's HDMI port?
+Can [@NervesProject](/twitter/#/NervesProject) be used to drive static images through a Pi's HDMI port?

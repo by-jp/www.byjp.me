@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Best. Present. Ever. [@dxcompton](https://twitter.com/dxcompton) has given me a Tesco pen with an inbuilt compass\! [https://instagr.am/p/NH1JR/](https://instagr.am/p/NH1JR/)
+Best. Present. Ever. [@dxcompton](/twitter/#/dxcompton) has given me a Tesco pen with an inbuilt compass\! [https://instagr.am/p/NH1JR/](https://instagr.am/p/NH1JR/)

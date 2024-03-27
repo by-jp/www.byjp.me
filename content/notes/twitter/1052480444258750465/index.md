@@ -5,7 +5,7 @@ tags:
 - from-twitter
 in_reply_to: ../1052477930197188608
 ---
-[@getboxy](https://twitter.com/getboxy) Now to do the same on my work laptop… 😬
+[@getboxy](/twitter/#/getboxy) Now to do the same on my work laptop… 😬
 
 If central account management makes it in, I'd also appreciate being able to silence/sleep a specific account \(to stop work emails disturbing me when I'm not working\)
 

@@ -7,4 +7,4 @@ tags:
 - fail
 - NetworkFail
 ---
-[NetworkRail](/tags/networkrail) [fail](/tags/fail) [NetworkFail](/tags/networkfail) Brand new ticket barriers and this happens every night, over 2 hours around the commute  [{{< linkrot "http://yfrog.com/h09xmhdfj)" "an image" >}}
+[NetworkRail](/tags/networkrail) [fail](/tags/fail) [NetworkFail](/tags/networkfail) Brand new ticket barriers and this happens every night, over 2 hours around the commute  [{{< linkrot "yfrog.com/h09xmhdfj)" "an image" >}}

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Splendid comedy indeed - good work [@BoomTish](https://twitter.com/BoomTish) &amp; [@ParkTheatre](https://twitter.com/ParkTheatre)\!
+Splendid comedy indeed - good work [@BoomTish](/twitter/#/BoomTish) &amp; [@ParkTheatre](/twitter/#/ParkTheatre)\!

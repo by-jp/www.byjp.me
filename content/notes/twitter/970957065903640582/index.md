@@ -5,4 +5,4 @@ tags:
 - from-twitter
 in_reply_to: ../970956911821688832
 ---
-[@krissygoround](https://twitter.com/krissygoround) [@stevesmith2609](https://twitter.com/stevesmith2609) Welcome to the team [@stevesmith2609](https://twitter.com/stevesmith2609)\! 😄
+[@krissygoround](/twitter/#/krissygoround) [@stevesmith2609](/twitter/#/stevesmith2609) Welcome to the team [@stevesmith2609](/twitter/#/stevesmith2609)\! 😄

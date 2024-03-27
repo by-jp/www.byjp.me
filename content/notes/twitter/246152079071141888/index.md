@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Best point to tune into [@bbc6music](https://twitter.com/bbc6music): \[tune fades out\] \[pause\] but how *do* you tune a dog?
+Best point to tune into [@bbc6music](/twitter/#/bbc6music): \[tune fades out\] \[pause\] but how *do* you tune a dog?

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-that's fairly ingenious: {{< imgorvid src="3fbk66" >}} \(via [@nachimir](https://twitter.com/nachimir), [@fluffosaur](https://twitter.com/fluffosaur)\)
+that's fairly ingenious: {{< imgorvid src="3fbk66" >}} \(via [@nachimir](/twitter/#/nachimir), [@fluffosaur](/twitter/#/fluffosaur)\)

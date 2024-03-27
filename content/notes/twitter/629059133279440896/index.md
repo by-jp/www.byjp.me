@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I love my [@Pebble](https://twitter.com/Pebble) Time where "20% battery" means 'probably plug me in tonight' not 'what are you going to do with your remaining 5 minutes?'
+I love my [@Pebble](/twitter/#/Pebble) Time where "20% battery" means 'probably plug me in tonight' not 'what are you going to do with your remaining 5 minutes?'

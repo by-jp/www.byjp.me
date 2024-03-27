@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Wow. Pirate themed not-so-kid's Fun House style challenge tv show. Hosted by [@serafinowicz](https://twitter.com/serafinowicz). Awesome dream.
+Wow. Pirate themed not-so-kid's Fun House style challenge tv show. Hosted by [@serafinowicz](/twitter/#/serafinowicz). Awesome dream.

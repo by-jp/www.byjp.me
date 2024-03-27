@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-It might be my delicate British sensibilities, but [@Pebble](https://twitter.com/Pebble)'s health app doesn't half sound patronising {{< imgorvid src="media-1.jpg" >}}
+It might be my delicate British sensibilities, but [@Pebble](/twitter/#/Pebble)'s health app doesn't half sound patronising {{< imgorvid src="media-1.jpg" >}}

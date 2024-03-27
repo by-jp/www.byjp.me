@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - foodnerds
 ---
-One of my favourite perks of working at [@Deliveroo](https://twitter.com/Deliveroo) is our [foodnerds](/tags/foodnerds) [@SlackHQ](https://twitter.com/SlackHQ) channel. Going on holiday? Taking a friend out in a new part of town? The epicureans in there will give you the best recommendations\!
+One of my favourite perks of working at [@Deliveroo](/twitter/#/Deliveroo) is our [foodnerds](/tags/foodnerds) [@SlackHQ](/twitter/#/SlackHQ) channel. Going on holiday? Taking a friend out in a new part of town? The epicureans in there will give you the best recommendations\!

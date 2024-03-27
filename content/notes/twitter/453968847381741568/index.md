@@ -7,4 +7,4 @@ location:
   latitude: 51.57123751
   longitude: -0.09014379
 ---
-Hey [@ikealiving](https://twitter.com/ikealiving)\! Can you spot the intentional mistake? Yeah, who needs threads on their nuts\! {{< imgorvid src="media-1.jpg" >}}
+Hey [@ikealiving](/twitter/#/ikealiving)\! Can you spot the intentional mistake? Yeah, who needs threads on their nuts\! {{< imgorvid src="media-1.jpg" >}}

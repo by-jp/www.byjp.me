@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-[@James](https://twitter.com/James) - You're in Paddington?\! Snap\!
+[@James](/twitter/#/James) - You're in Paddington?\! Snap\!

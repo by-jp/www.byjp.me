@@ -4,7 +4,7 @@ publishDate: 2024-02-23T14:55:13.977Z
 title: Volunteer Amnesty Day
 bookmarkOf: https://www.volunteeramnestyday.net/
 references:
-  https://wwwVolunteeramnestydayNet/:
+  bookmark:
     url: https://www.volunteeramnestyday.net/
     type: entry
     name: Volunteer Responsibility Amnesty Day

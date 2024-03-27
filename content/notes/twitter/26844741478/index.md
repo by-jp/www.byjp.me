@@ -7,4 +7,4 @@ location:
   latitude: 51.72316664
   longitude: -1.97108823
 ---
-Just in case anyone was wondering, you literally just cut the sides around the chip itself. Works a charm. {{< linkrot "http://yfrog.com/694yfvj" "an image" >}}
+Just in case anyone was wondering, you literally just cut the sides around the chip itself. Works a charm. {{< linkrot "yfrog.com/694yfvj" "an image" >}}

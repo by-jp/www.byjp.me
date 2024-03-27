@@ -7,4 +7,4 @@ location:
   latitude: 51.6084465
   longitude: -0.04675216
 ---
-Is that really appropriate ikea?  {{< linkrot "http://yfrog.com/72yiuj" "an image" >}}
+Is that really appropriate ikea?  {{< linkrot "yfrog.com/72yiuj" "an image" >}}

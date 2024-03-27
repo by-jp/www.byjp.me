@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Ta\! Consensus: I was being foreign, 'driving licence' is winner here, but driver's licen\[sc\]e elsewhere \([@threedaymonk](https://twitter.com/threedaymonk) regex win\!\)
+Ta\! Consensus: I was being foreign, 'driving licence' is winner here, but driver's licen\[sc\]e elsewhere \([@threedaymonk](/twitter/#/threedaymonk) regex win\!\)

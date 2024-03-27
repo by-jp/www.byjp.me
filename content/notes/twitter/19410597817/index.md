@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Did I mention that landlord is constructing an extension to what will be his home while we're still living in it? {{< linkrot "http://yfrog.com/n221jcj" "an image" >}}
+Did I mention that landlord is constructing an extension to what will be his home while we're still living in it? {{< linkrot "yfrog.com/n221jcj" "an image" >}}

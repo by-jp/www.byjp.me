@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Red wine and TV show The Pacific \(with [@teamjarms](https://twitter.com/teamjarms)\!\) — can see Monday night being filled for the next few weeks
+Red wine and TV show The Pacific \(with [@teamjarms](/twitter/#/teamjarms)\!\) — can see Monday night being filled for the next few weeks

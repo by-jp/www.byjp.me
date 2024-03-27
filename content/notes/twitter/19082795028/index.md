@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Oooh, I put a new suit on a suddenly everythin' is right — it's a [@broslife](https://twitter.com/broslife).
+Oooh, I put a new suit on a suddenly everythin' is right — it's a [@broslife](/twitter/#/broslife).

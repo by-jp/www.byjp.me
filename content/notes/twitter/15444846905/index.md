@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-There's good reason why [@maccman](https://twitter.com/maccman) is getting top-notch feedback for his FlareVideo code: http://flarevideo.com/
+There's good reason why [@maccman](/twitter/#/maccman) is getting top-notch feedback for his FlareVideo code: http://flarevideo.com/

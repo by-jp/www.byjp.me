@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-http://twitvid.com/Y7GZ5 - [@mbedmicro](https://twitter.com/mbedmicro) Copy & paste bug in your compiler?
+http://twitvid.com/Y7GZ5 - [@mbedmicro](/twitter/#/mbedmicro) Copy & paste bug in your compiler?

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I like this video by [@londonelek](https://twitter.com/londonelek) http://twitvid.com/89225
+I like this video by [@londonelek](/twitter/#/londonelek) http://twitvid.com/89225

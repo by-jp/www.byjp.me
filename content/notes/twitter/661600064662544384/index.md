@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hey [@tfl](https://twitter.com/tfl), [@MayorofLondon](https://twitter.com/MayorofLondon): how about painting the points of the compass on pavements outside tube stations to help folks orient themselves?
+Hey [@tfl](/twitter/#/tfl), [@MayorofLondon](/twitter/#/MayorofLondon): how about painting the points of the compass on pavements outside tube stations to help folks orient themselves?

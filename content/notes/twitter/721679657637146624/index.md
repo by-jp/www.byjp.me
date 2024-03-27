@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Worrying scam out there, beware and don't be tricked into giving out your details\! /cc [@AppleSupport](https://twitter.com/AppleSupport) {{< imgorvid src="media-1.jpg" >}}
+Worrying scam out there, beware and don't be tricked into giving out your details\! /cc [@AppleSupport](/twitter/#/AppleSupport) {{< imgorvid src="media-1.jpg" >}}

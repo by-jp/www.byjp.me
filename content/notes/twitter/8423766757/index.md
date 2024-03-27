@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Will we get some [@Square](https://twitter.com/Square) love in the UK?
+Will we get some [@Square](/twitter/#/Square) love in the UK?

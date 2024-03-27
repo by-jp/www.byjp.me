@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-When I get back home after the weekend I don't think be able to see out my window :\(  {{< linkrot "http://yfrog.com/j6gh3uj" "an image" >}}
+When I get back home after the weekend I don't think be able to see out my window :\(  {{< linkrot "yfrog.com/j6gh3uj" "an image" >}}

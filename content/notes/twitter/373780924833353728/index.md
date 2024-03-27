@@ -5,4 +5,4 @@ tags:
 - from-twitter
 in_reply_to: ../373779767524216832
 ---
-[@schneems](https://twitter.com/schneems) looks like it is\! [https://github.com/schneems/maildown/issues/2](https://github.com/schneems/maildown/issues/2)
+[@schneems](/twitter/#/schneems) looks like it is\! [https://github.com/schneems/maildown/issues/2](https://github.com/schneems/maildown/issues/2)

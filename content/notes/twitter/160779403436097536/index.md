@@ -6,6 +6,6 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes Moullinex feat Peaches - Maniac by [@moullinex](https://twitter.com/moullinex)
+likes Moullinex feat Peaches - Maniac by [@moullinex](/twitter/#/moullinex)
 
 {{< soundcloud path="/tracks/32854022" artist="Moullinex" title="Maniac" >}}

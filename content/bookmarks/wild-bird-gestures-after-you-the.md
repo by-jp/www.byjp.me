@@ -5,7 +5,7 @@ emoji: 🐤
 title: Physical gestures seen in birds for the first time
 bookmarkOf: https://www.u-tokyo.ac.jp/focus/en/press/z0508_00339.html
 references:
-  https://wwwUTokyoAcJp/focus/en/press/z050800339Html:
+  bookmark:
     url: https://www.u-tokyo.ac.jp/focus/en/press/z0508_00339.html
     type: entry
     name: Wild bird gestures “after you” | The University of Tokyo

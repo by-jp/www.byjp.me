@@ -4,7 +4,7 @@ tags:
 - imported
 - from-twitter
 ---
-Dear [@Netflix](https://twitter.com/Netflix),\
+Dear [@Netflix](/twitter/#/Netflix),\
 I am British. I cannot take you up on your free trial, no matter how much I wish to. Stop spamming me.\
 \
 Love, JP

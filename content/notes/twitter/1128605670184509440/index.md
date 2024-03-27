@@ -5,4 +5,4 @@ tags:
 - from-twitter
 in_reply_to: ../1128605220618084352
 ---
-[@ncameron](https://twitter.com/ncameron) [@jonnyburch](https://twitter.com/jonnyburch) [@tommypalm](https://twitter.com/tommypalm) Ultimately I'd suggest picking something that works for you *now*, but that has enough of an abstraction layer that you can swap it out in the future. As [@tommypalm](https://twitter.com/tommypalm) mentioned flipper is _great_ for its simple UI and speed of implementation
+[@ncameron](/twitter/#/ncameron) [@jonnyburch](/twitter/#/jonnyburch) [@tommypalm](/twitter/#/tommypalm) Ultimately I'd suggest picking something that works for you *now*, but that has enough of an abstraction layer that you can swap it out in the future. As [@tommypalm](/twitter/#/tommypalm) mentioned flipper is _great_ for its simple UI and speed of implementation

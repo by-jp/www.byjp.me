@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Transmetropolitan Vol 10 has just arrived, sad to read it for the last 'first time' but it's HUGE. &lt;3 [@warrenellis](https://twitter.com/warrenellis)
+Transmetropolitan Vol 10 has just arrived, sad to read it for the last 'first time' but it's HUGE. &lt;3 [@warrenellis](/twitter/#/warrenellis)

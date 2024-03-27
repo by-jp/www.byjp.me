@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-the best time to add insult to injury is when signing someone's cast \(via [@Shahmat](https://twitter.com/Shahmat)\)
+the best time to add insult to injury is when signing someone's cast \(via [@Shahmat](/twitter/#/Shahmat)\)

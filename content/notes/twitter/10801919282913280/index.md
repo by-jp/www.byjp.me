@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-This [@viberapp](https://twitter.com/viberapp) is pretty freakin' sweet. Recommended for iOS users [https://www.viber.com/dl](https://www.viber.com/dl)
+This [@viberapp](/twitter/#/viberapp) is pretty freakin' sweet. Recommended for iOS users [https://www.viber.com/dl](https://www.viber.com/dl)

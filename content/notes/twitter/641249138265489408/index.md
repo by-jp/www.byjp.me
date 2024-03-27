@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-It's true\! [https://twitter.com/hivestores/status/641238535220150272](https://twitter.com/hivestores/status/641238535220150272)
+It's true\! [(twitter link)](/twitter/#/hivestores/status/641238535220150272)

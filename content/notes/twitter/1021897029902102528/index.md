@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-And now for a less intense tweet: [https://twitter.com/jshmc/status/1021705761846689792](https://twitter.com/jshmc/status/1021705761846689792)
+And now for a less intense tweet: [(twitter link)](/twitter/#/jshmc/status/1021705761846689792)

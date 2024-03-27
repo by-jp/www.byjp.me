@@ -5,4 +5,4 @@ tags:
 - from-twitter
 in_reply_to: ../782890518229446656
 ---
-[@getboxy](https://twitter.com/getboxy) …I should have read your other tweets. You should put "Boxy 2 \(a free upgrade\)" on there - it stopped me from buying\!
+[@getboxy](/twitter/#/getboxy) …I should have read your other tweets. You should put "Boxy 2 \(a free upgrade\)" on there - it stopped me from buying\!

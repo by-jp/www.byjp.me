@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I believe this is the definition of single-use website… {{< linkrot "http://yfrog.com/2t2jtj" "an image" >}}
+I believe this is the definition of single-use website… {{< linkrot "yfrog.com/2t2jtj" "an image" >}}

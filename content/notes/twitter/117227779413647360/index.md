@@ -7,4 +7,4 @@ location:
   latitude: 12.97898
   longitude: 77.60268198
 ---
-"You can *easily* put a candle out with your balls" - [@DxCompton](https://twitter.com/DxCompton)
+"You can *easily* put a candle out with your balls" - [@DxCompton](/twitter/#/DxCompton)

@@ -6,4 +6,4 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes: Suonho - Speaking Of Happiness + And I Love You \[Editorial #2\] by suonho {{< linkrot "https://snd.sc/uzt9nb" "a track" >}}
+likes: Suonho - Speaking Of Happiness + And I Love You \[Editorial #2\] by suonho {{< linkrot "snd.sc/uzt9nb" "a track" >}}

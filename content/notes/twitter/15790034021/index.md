@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-It's [@maddiejones]({{< linkrot "http://yfrog.com/jusydij" "an image" >}}
+It's [@maddiejones]({{< linkrot "yfrog.com/jusydij" "an image" >}}

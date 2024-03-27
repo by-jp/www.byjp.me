@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Anyone know if I can buy Dead Pig Collector in the UK? /cc [@warrenellis](https://twitter.com/warrenellis)
+Anyone know if I can buy Dead Pig Collector in the UK? /cc [@warrenellis](/twitter/#/warrenellis)

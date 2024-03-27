@@ -53,7 +53,7 @@ I believe that context is critical to everything in life. I’m sure there’s a
 
 The only true way to build a shared context is to discuss things, often at length and sometimes without specific direction. Putting time aside to chat to your colleagues — from all over the business — will give you an idea of what’s important to them and how best to work with them.
 
-“Naming things” is one of the [two hardest problems in computer science](http://web.archive.org/web/20230822235603/https://twitter.com/codinghorror/status/506010907021828096), and naming them well is _critical_. One word can have many different meanings — some specific to our company — so when you commit words to lasting documentation or code make sure you choose your words carefully.
+“Naming things” is one of the [two hardest problems in computer science](http://web.archive.org/web/20230822235603//twitter/#/codinghorror/status/506010907021828096), and naming them well is _critical_. One word can have many different meanings — some specific to our company — so when you commit words to lasting documentation or code make sure you choose your words carefully.
 
 As engineers we spend a lot of time doing this, even in something as transient as short-lived script variable names. You never know when someone else, or an older you, will need to understand what you were trying to do.
 

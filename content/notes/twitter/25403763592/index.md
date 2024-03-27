@@ -7,4 +7,4 @@ location:
   latitude: 51.80958406
   longitude: -0.19586725
 ---
-Tesco Head Office has a wind turbine to fuel some of the computers in my IT dept. Nice\!  {{< linkrot "http://yfrog.com/jm5lwjj" "an image" >}}
+Tesco Head Office has a wind turbine to fuel some of the computers in my IT dept. Nice\!  {{< linkrot "yfrog.com/jm5lwjj" "an image" >}}

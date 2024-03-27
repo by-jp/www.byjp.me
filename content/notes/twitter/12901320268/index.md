@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Had a catastrophic dremelfuge failure while performing SCIENCE. Nearly lost the ability to father children. Video soon. \(via [@jonty](https://twitter.com/jonty)\)
+Had a catastrophic dremelfuge failure while performing SCIENCE. Nearly lost the ability to father children. Video soon. \(via [@jonty](/twitter/#/jonty)\)

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Off to meet [@jwheare](https://twitter.com/jwheare),[@mxcl](https://twitter.com/mxcl),[@jonty](https://twitter.com/jonty),[@metabrew](https://twitter.com/metabrew) and many more for a tour around the JET fusion reactor. Epic.
+Off to meet [@jwheare](/twitter/#/jwheare),[@mxcl](/twitter/#/mxcl),[@jonty](/twitter/#/jonty),[@metabrew](/twitter/#/metabrew) and many more for a tour around the JET fusion reactor. Epic.

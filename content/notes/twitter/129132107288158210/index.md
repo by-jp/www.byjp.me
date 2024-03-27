@@ -5,6 +5,6 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes: Bullwack - Captain Planet \(free DL°\) by [@MiddleFingerMus](https://twitter.com/MiddleFingerMus)
+likes: Bullwack - Captain Planet \(free DL°\) by [@MiddleFingerMus](/twitter/#/MiddleFingerMus)
 
 {{< youtube MzWZ75SjPSg >}}

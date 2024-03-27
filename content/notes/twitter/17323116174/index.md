@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Please RT [@projectsugru](https://twitter.com/projectsugru) NottingHACKquarium TOMORROW 1900 Navigation Wilford St Nottingham www.nottinghack.com for details \(via [@Nottinghack](https://twitter.com/Nottinghack)\)
+Please RT [@projectsugru](/twitter/#/projectsugru) NottingHACKquarium TOMORROW 1900 Navigation Wilford St Nottingham www.nottinghack.com for details \(via [@Nottinghack](/twitter/#/Nottinghack)\)

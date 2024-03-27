@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Surface mount, diagram 1:8 scale…  {{< linkrot "http://yfrog.com/5iy60kj" "an image" >}}
+Surface mount, diagram 1:8 scale…  {{< linkrot "yfrog.com/5iy60kj" "an image" >}}

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Just found http://nataliedee.com \(cheers [@richardjj](https://twitter.com/richardjj)\) - good stuff\!
+Just found http://nataliedee.com \(cheers [@richardjj](/twitter/#/richardjj)\) - good stuff\!

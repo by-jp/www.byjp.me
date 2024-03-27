@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-It's a restaurant called SOUSHI can you tell what kind of cuisine it offers? :P \(@ Soushi\) http://4sq.com/dsal2H
+It's a restaurant called SOUSHI can you tell what kind of cuisine it offers? :P \(@ Soushi\) https://4sq.com/dsal2H

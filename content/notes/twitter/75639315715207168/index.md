@@ -4,5 +4,5 @@ tags:
 - imported
 - from-twitter
 ---
-Dear [@google](https://twitter.com/google),\
-Your tube map stuff is awesome, but please don't make it vanish when I close the gigantic bubble. [{{< linkrot "http://yfrog.com/h7ymemp)" "an image" >}}
+Dear [@google](/twitter/#/google),\
+Your tube map stuff is awesome, but please don't make it vanish when I close the gigantic bubble. [{{< linkrot "yfrog.com/h7ymemp)" "an image" >}}

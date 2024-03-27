@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-{{< imgorvid src="8k7i0" >}}  [@RichardJJ](https://twitter.com/RichardJJ) seems fitting somehow
+{{< imgorvid src="8k7i0" >}}  [@RichardJJ](/twitter/#/RichardJJ) seems fitting somehow

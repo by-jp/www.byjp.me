@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - geekyconf
 ---
-[geekyconf](/tags/geekyconf) was brilliant—nothing so uplifting and interesting as folks talking about their passions. Also beer\! Well run [@Charlotteis](https://twitter.com/Charlotteis)\!
+[geekyconf](/tags/geekyconf) was brilliant—nothing so uplifting and interesting as folks talking about their passions. Also beer\! Well run [@Charlotteis](/twitter/#/Charlotteis)\!

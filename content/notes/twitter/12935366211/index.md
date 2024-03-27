@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-hehe LaTeX write ups are tasty… nom nom nom nom  {{< linkrot "http://yfrog.com/j7kxip" "an image" >}}
+hehe LaTeX write ups are tasty… nom nom nom nom  {{< linkrot "yfrog.com/j7kxip" "an image" >}}

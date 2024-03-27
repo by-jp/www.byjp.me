@@ -8,4 +8,4 @@ location:
   latitude: 51.15704298
   longitude: -0.16741213
 ---
-LONG. What are you two up to tonight? [@arrwoo](https://twitter.com/arrwoo) {{< friend "lenny" >}}
+LONG. What are you two up to tonight? [@arrwoo](/twitter/#/arrwoo) {{< friend "lenny" >}}

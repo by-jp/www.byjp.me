@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Not "valid", [@cathaypacific](https://twitter.com/cathaypacific)? I think my parents would disagree. {{< imgorvid src="media-1.jpg" >}}
+Not "valid", [@cathaypacific](/twitter/#/cathaypacific)? I think my parents would disagree. {{< imgorvid src="media-1.jpg" >}}

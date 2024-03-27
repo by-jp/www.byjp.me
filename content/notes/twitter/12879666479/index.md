@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Genius video parody of European Commissioner's plans to introduce a website blocking in Europe http://cleanternet.org/ \(via [@glynwintle](https://twitter.com/glynwintle)\)
+Genius video parody of European Commissioner's plans to introduce a website blocking in Europe http://cleanternet.org/ \(via [@glynwintle](/twitter/#/glynwintle)\)

@@ -7,4 +7,4 @@ location:
   latitude: 51.4814059
   longitude: -0.4411426
 ---
-European Swing Dancing Competition time\! \(@ Radisson Blu Edwardian Heathrow Hotel - [@rbehotels](https://twitter.com/rbehotels)\) [https://4sq.com/18ohiaU](https://4sq.com/18ohiaU)
+European Swing Dancing Competition time\! \(@ Radisson Blu Edwardian Heathrow Hotel - [@rbehotels](/twitter/#/rbehotels)\) [https://4sq.com/18ohiaU](https://4sq.com/18ohiaU)

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hopefully this will become a [@sugru]({{< linkrot "http://yfrog.com/htcwkqj" "an image" >}}
+Hopefully this will become a [@sugru]({{< linkrot "yfrog.com/htcwkqj" "an image" >}}

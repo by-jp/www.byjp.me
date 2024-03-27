@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I think they want me to know I can buy their software?  {{< linkrot "http://yfrog.com/esgwdp" "an image" >}}
+I think they want me to know I can buy their software?  {{< linkrot "yfrog.com/esgwdp" "an image" >}}

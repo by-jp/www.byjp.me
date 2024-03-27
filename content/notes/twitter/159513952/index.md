@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-[@James](https://twitter.com/James) - sounds like fun, got your message about the delays - that sucks\!
+[@James](/twitter/#/James) - sounds like fun, got your message about the delays - that sucks\!

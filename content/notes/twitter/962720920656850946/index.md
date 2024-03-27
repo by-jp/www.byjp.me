@@ -5,4 +5,4 @@ tags:
 - from-twitter
 in_reply_to: ../962653765785587713
 ---
-[@stevesmith2609](https://twitter.com/stevesmith2609) "hook" company 😅 oops
+[@stevesmith2609](/twitter/#/stevesmith2609) "hook" company 😅 oops

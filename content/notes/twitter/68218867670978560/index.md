@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - reading
 ---
-I'm [reading](/tags/reading) The Master and Margarita by Mikhail Bulgakov http://goodreads.com/review/show/167336687
+I'm [reading](/tags/reading) The Master and Margarita by Mikhail Bulgakov [Goodreads](https://goodreads.com/review/show/167336687)

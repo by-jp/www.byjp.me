@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-&lt;3 [@heroku](https://twitter.com/heroku)
+&lt;3 [@heroku](/twitter/#/heroku)

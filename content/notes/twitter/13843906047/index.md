@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Competwition - Tweet and win Interflora flowers for a year http://competwition.com/interflora [@interflorauk](https://twitter.com/interflorauk)
+Competwition - Tweet and win Interflora flowers for a year http://competwition.com/interflora [@interflorauk](/twitter/#/interflorauk)

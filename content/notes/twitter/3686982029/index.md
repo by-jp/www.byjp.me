@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-[@londonelec](https://twitter.com/londonelec) hello or something - loving the animal noises in 95, any particular reason??
+[@londonelec](/twitter/#/londonelec) hello or something - loving the animal noises in 95, any particular reason??

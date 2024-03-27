@@ -7,4 +7,4 @@ location:
   latitude: 51.72316664
   longitude: -1.97108823
 ---
-Ukrainian Nixie tubes\! Epic :D {{< linkrot "http://yfrog.com/7fw6ydj" "an image" >}}
+Ukrainian Nixie tubes\! Epic :D {{< linkrot "yfrog.com/7fw6ydj" "an image" >}}

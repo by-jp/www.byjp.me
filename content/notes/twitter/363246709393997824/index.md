@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Is there a word for taking on the emotional states of the characters in the book you're reading? /cc [@stephenfry](https://twitter.com/stephenfry)
+Is there a word for taking on the emotional states of the characters in the book you're reading? /cc [@stephenfry](/twitter/#/stephenfry)

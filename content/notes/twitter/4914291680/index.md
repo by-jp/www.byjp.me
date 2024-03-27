@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-http://pic.gd/f6027e \(via [@bayzantyn](https://twitter.com/bayzantyn)\)
+http://pic.gd/f6027e \(via [@bayzantyn](/twitter/#/bayzantyn)\)

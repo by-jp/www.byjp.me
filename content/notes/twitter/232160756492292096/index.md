@@ -7,4 +7,4 @@ location:
   latitude: 51.48893869
   longitude: -0.19768615
 ---
-Amazing venue for the Volleyball\! [https://360.io/GXMWBg](https://360.io/GXMWBg)
+Amazing venue for the Volleyball\! {{< linkrot "360.io/GXMWBg" "a 360 photo" >}}

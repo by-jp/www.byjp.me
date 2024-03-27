@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I believe a [@projectsugru]({{< linkrot "http://yfrog.com/0a9lduj" "an image" >}}
+I believe a [@projectsugru]({{< linkrot "yfrog.com/0a9lduj" "an image" >}}

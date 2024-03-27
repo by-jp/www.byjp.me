@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Just finished an epic day of whitewater rafting - knackered\! \(@ Chalet Tomkins\) http://4sq.com/dl2p4U
+Just finished an epic day of whitewater rafting - knackered\! \(@ Chalet Tomkins\) https://4sq.com/dl2p4U

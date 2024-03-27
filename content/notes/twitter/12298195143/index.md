@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Operation suurprise Mum on birthday: success\! \(@ Loch Fyne\) http://4sq.com/a07ebq
+Operation suurprise Mum on birthday: success\! \(@ Loch Fyne\) https://4sq.com/a07ebq

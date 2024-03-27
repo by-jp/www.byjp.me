@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I have Guitar All Over My Face courtesy of [@toby](https://twitter.com/toby). And it's awesome.
+I have Guitar All Over My Face courtesy of [@toby](/twitter/#/toby). And it's awesome.

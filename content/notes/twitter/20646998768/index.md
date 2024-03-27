@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hey [@lastfm](https://twitter.com/lastfm) fans, I'm hunting a script which would suggest decent additions to a playlist \(regardless of my last.fm tastes\) any ideas?
+Hey [@lastfm](/twitter/#/lastfm) fans, I'm hunting a script which would suggest decent additions to a playlist \(regardless of my last.fm tastes\) any ideas?

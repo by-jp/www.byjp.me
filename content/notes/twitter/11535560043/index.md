@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I got a free watch with it too - best watch evar\! Except the buttons ar the wrong way around O_o {{< linkrot "http://yfrog.com/2e53tsj" "an image" >}}
+I got a free watch with it too - best watch evar\! Except the buttons ar the wrong way around O_o {{< linkrot "yfrog.com/2e53tsj" "an image" >}}

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hackers: any ideas as to where to buy fine/light chain link & matching spur gears? \([@HSNotts](https://twitter.com/HSNotts) [@Jonty](https://twitter.com/Jonty)\)
+Hackers: any ideas as to where to buy fine/light chain link & matching spur gears? \([@HSNotts](/twitter/#/HSNotts) [@Jonty](/twitter/#/Jonty)\)

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I'm biased, but hot damn [@Pizza_Pappagone](https://twitter.com/Pizza_Pappagone) via [@Deliveroo](https://twitter.com/Deliveroo) is the best thing that can happen to you on a Thursday night.
+I'm biased, but hot damn [@Pizza_Pappagone](/twitter/#/Pizza_Pappagone) via [@Deliveroo](/twitter/#/Deliveroo) is the best thing that can happen to you on a Thursday night.

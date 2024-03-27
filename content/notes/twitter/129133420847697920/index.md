@@ -6,4 +6,4 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes: 8-BIT DOMINATOR \(CHIPTUNE/DUBSTEP\) by sssShawnnnn {{< linkrot "https://snd.sc/ukv9tR" "a track" >}}
+likes: 8-BIT DOMINATOR \(CHIPTUNE/DUBSTEP\) by sssShawnnnn {{< linkrot "snd.sc/ukv9tR" "a track" >}}

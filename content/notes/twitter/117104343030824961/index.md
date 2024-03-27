@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-What do you think about a View Routes type addition to [@sinatra](https://twitter.com/sinatra)? [https://gist.github.com/1236746](https://gist.github.com/1236746)
+What do you think about a View Routes type addition to [@sinatra](/twitter/#/sinatra)? [https://gist.github.com/1236746](https://gist.github.com/1236746)

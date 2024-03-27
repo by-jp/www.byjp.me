@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - protip
 ---
-[protip](/tags/protip) if you're going to demand action, make it simple. Eg. "Tell us \[by visiting www. or calling 0800\]" [{{< linkrot "http://yfrog.com/h6lnjzqj)" "an image" >}}
+[protip](/tags/protip) if you're going to demand action, make it simple. Eg. "Tell us \[by visiting www. or calling 0800\]" [{{< linkrot "yfrog.com/h6lnjzqj)" "an image" >}}

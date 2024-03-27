@@ -4,5 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-[http://www.silicondust.com/products/hdhomerun_dvbt](http://www.silicondust.com/products/hdhomerun_dvbt)\
+[silicondust.com/products/hdhomerun_dvbt](https://web.archive.org/web/20091015204359/http://www.silicondust.com/products/hdhomerun_dvbt)
+
  *drool*

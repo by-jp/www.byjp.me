@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Help me distil the Daily Mail's tireless cancer research: http://kill-or-cure.heroku.com/ \(via [@threedaymonk](https://twitter.com/threedaymonk)\)
+Help me distil the Daily Mail's tireless cancer research: http://kill-or-cure.heroku.com/ \(via [@threedaymonk](/twitter/#/threedaymonk)\)

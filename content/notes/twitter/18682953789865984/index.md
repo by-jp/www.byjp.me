@@ -7,4 +7,4 @@ location:
   latitude: 51.72317349
   longitude: -1.97108638
 ---
-Most dated Christmas cracker present:  {{< linkrot "http://yfrog.com/h4axjkj" "an image" >}}
+Most dated Christmas cracker present:  {{< linkrot "yfrog.com/h4axjkj" "an image" >}}

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Really enjoyed [@DeliverooDesign](https://twitter.com/DeliverooDesign)'s Minimum Viable Event tonight, thanks [@jonnyburch](https://twitter.com/jonnyburch)\!
+Really enjoyed [@DeliverooDesign](/twitter/#/DeliverooDesign)'s Minimum Viable Event tonight, thanks [@jonnyburch](/twitter/#/jonnyburch)\!

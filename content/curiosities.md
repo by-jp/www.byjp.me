@@ -31,7 +31,7 @@ I'm getting older, and sites I've been creative on are dying or becoming marketi
 * My friend created a beautiful alphabet, I turned it into a font and 👨‍🎤&nbsp;[performance microsite](https://caspian.byjp.me). Read or listen to 📖&nbsp;[the story right here](/posts/the-beauty-of-type).
 * I once studied biomedical physics, so when I had an MRI of my head I jumped at the opportunity to extract a 3D model of my brain and 🧠&nbsp;[render it in WebGL online](https://brain.byjp.me/).
 * I built a clockface that counts 🕰&nbsp;[the seconds since I was born](https://tictoc.byjp.me/). In binary.
-* I helped by friend learn about website infrastructure by building a microsite of her favourite moment in film… 🐶&nbsp;[wanna hear the most annoying sound in the world?](https://bafybeieksph4ppkssaccuoig3dx6zyw4qouyooctd2sti5eaigx2jq57ka.ipfs.dweb.link).
+* I helped by friend learn about website infrastructure by building a microsite of her favourite moment in film… 🐶&nbsp;[wanna hear the most annoying sound in the world?](https://ipfs.io/ipfs/Qmf7mJpFapCBC15c7yGRd89ysgoTYB3h3ahCLMyJ8vB2Vo/).
 * Maybe you'll like this little guy 🐙&nbsp;[called tako](https://bafybeihwkqswvfggjqhh4fgeioq7xapzxolkb7ptmir22kovahnlzjmnfm.ipfs.dweb.link/).
 
 ## Postcards

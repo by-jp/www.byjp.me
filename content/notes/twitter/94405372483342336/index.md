@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes: Parker- The Monkey Did It...Mix by [@ParkerBeats](https://twitter.com/ParkerBeats) on [SoundCloud](/tags/SoundCloud) http://snd.sc/qdmaWW
+likes: Parker- The Monkey Did It...Mix by [@ParkerBeats](/twitter/#/ParkerBeats) on [SoundCloud](/tags/SoundCloud) http://snd.sc/qdmaWW

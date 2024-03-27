@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Excellent tunes at [@thejohnsonarms](https://twitter.com/thejohnsonarms) courtesy of Manière des Bohémiens\!
+Excellent tunes at [@thejohnsonarms](/twitter/#/thejohnsonarms) courtesy of Manière des Bohémiens\!

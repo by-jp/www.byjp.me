@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - SundayAssembly
 ---
-Being weird is good for you, but "never use your weirdness as a crutch, or as an excuse for your lack of humility." Excellent advice from [@jameschelliah](https://twitter.com/jameschelliah) [SundayAssembly](/tags/SundayAssembly)
+Being weird is good for you, but "never use your weirdness as a crutch, or as an excuse for your lack of humility." Excellent advice from [@jameschelliah](/twitter/#/jameschelliah) [SundayAssembly](/tags/SundayAssembly)

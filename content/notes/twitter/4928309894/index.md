@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-[http://www.youtube.com/watch?gl=GB&hl=en-GB&v=zSgiXGELjbc](http://www.youtube.com/watch?gl=GB&hl=en-GB&v=zSgiXGELjbc) \(via [@RichardJJ](https://twitter.com/RichardJJ)\)
+[http://www.youtube.com/watch?gl=GB&hl=en-GB&v=zSgiXGELjbc](http://www.youtube.com/watch?gl=GB&hl=en-GB&v=zSgiXGELjbc) \(via [@RichardJJ](/twitter/#/RichardJJ)\)

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-At [@SofarLondon](https://twitter.com/SofarLondon) and *loving* [@iamjohnnicholas](https://twitter.com/iamjohnnicholas)\! If you're looking for the next acoustic name, look no further\!
+At [@SofarLondon](/twitter/#/SofarLondon) and *loving* [@iamjohnnicholas](/twitter/#/iamjohnnicholas)\! If you're looking for the next acoustic name, look no further\!

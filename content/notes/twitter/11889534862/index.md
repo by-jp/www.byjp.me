@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-What I achieved at [@NottingHack](https://twitter.com/NottingHack) #3: yes. It's KITT in an Impreza. But it doesn't drive… yet :P http://yfrog.us/5schhz
+What I achieved at [@NottingHack](/twitter/#/NottingHack) #3: yes. It's KITT in an Impreza. But it doesn't drive… yet :P http://yfrog.us/5schhz

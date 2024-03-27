@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - o2fail
 ---
-Petition: O2 to offer reasonable iPhone 3GS upgrade and tethering [o2fail](/tags/o2fail) http://twitition.com/owzm4 [@patrickaltoft](https://twitter.com/patrickaltoft)
+Petition: O2 to offer reasonable iPhone 3GS upgrade and tethering [o2fail](/tags/o2fail) http://twitition.com/owzm4 [@patrickaltoft](/twitter/#/patrickaltoft)

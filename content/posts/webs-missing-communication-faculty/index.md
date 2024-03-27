@@ -36,7 +36,7 @@ Because I like thinking and creating, I’ve put together a prototype of a mecha
 
 Credence allows you to make assertions like this:
 
-> [This website](https://twitter.com/RealFakeFacts/status/409062831355486208) states that: “The longest consecutive crowd wave occurred in 2002 at a Denver broncos game. The wave circled the stadium 492 times and lasted over 3 hrs.”
+> [This website](/twitter/#/RealFakeFacts/status/409062831355486208) states that: “The longest consecutive crowd wave occurred in 2002 at a Denver broncos game. The wave circled the stadium 492 times and lasted over 3 hrs.”
 >
 > At this time, I believe this to be **false** and I cite [this website as proof](http://www.guinnessworldrecords.com/world-records/longest-mexican-wave-%28timed%29). Signed, JP
 

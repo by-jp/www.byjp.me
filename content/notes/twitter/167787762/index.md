@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-[@James](https://twitter.com/James) - That app rocks :P
+[@James](/twitter/#/James) - That app rocks :P

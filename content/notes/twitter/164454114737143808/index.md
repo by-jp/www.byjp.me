@@ -7,4 +7,4 @@ location:
   latitude: 51.53046302
   longitude: -0.07623682
 ---
-London Hackspace - Lab 24 [https://360.io/8CvKVP](https://360.io/8CvKVP)
+London Hackspace - Lab 24 {{< linkrot "360.io/8CvKVP" "a 360 photo" >}}

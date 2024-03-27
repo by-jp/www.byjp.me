@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Pre-purchased [@CamoKrooked](https://twitter.com/CamoKrooked) album: "A+++ would buy from again"
+Pre-purchased [@CamoKrooked](/twitter/#/CamoKrooked) album: "A+++ would buy from again"

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Trains arriving at Cheltenham from Swindon way never meet the ones going North to Nottingham. Always an hour to wait… http://4sq.com/5wTqhF
+Trains arriving at Cheltenham from Swindon way never meet the ones going North to Nottingham. Always an hour to wait… https://4sq.com/5wTqhF

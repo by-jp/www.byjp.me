@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-[@KitRunnerUK](https://twitter.com/KitRunnerUK) we should get in touch with [@jonty](https://twitter.com/jonty) and see if we can give [@HSNotts](https://twitter.com/HSNotts) an electronic door lock powered by Mango cards á la HSLon\!
+[@KitRunnerUK](/twitter/#/KitRunnerUK) we should get in touch with [@jonty](/twitter/#/jonty) and see if we can give [@HSNotts](/twitter/#/HSNotts) an electronic door lock powered by Mango cards á la HSLon\!

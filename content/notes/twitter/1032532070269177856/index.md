@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Enjoying the irony of [@RobotShop](https://twitter.com/RobotShop)'s checkout page 😂 {{< imgorvid src="media-1.jpg" >}}
+Enjoying the irony of [@RobotShop](/twitter/#/RobotShop)'s checkout page 😂 {{< imgorvid src="media-1.jpg" >}}

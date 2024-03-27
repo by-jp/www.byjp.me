@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-PS. Netsky, [@londonelek](https://twitter.com/londonelek) & Danny Byrd all on top form at Stealth this eve
+PS. Netsky, [@londonelek](/twitter/#/londonelek) & Danny Byrd all on top form at Stealth this eve

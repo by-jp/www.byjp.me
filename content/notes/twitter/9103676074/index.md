@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-{{< linkrot "http://yfrog.com/37v7oej" "an image" >}}
+{{< linkrot "yfrog.com/37v7oej" "an image" >}}

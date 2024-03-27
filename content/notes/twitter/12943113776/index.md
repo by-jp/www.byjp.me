@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Feeds all a twitter about a new [@spotify](https://twitter.com/spotify) client, weirdly, had to download it manually but worth it :\)
+Feeds all a twitter about a new [@spotify](/twitter/#/spotify) client, weirdly, had to download it manually but worth it :\)

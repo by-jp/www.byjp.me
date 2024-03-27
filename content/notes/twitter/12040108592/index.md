@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Bleepie continues to move forward: [Story](https://web.archive.org/web/20160625160140/http://blog.bleepie.com/2010/04/week-13-replies-facebook-notifications-lists/) - great work [@jwheare](https://twitter.com/jwheare)!
+Bleepie continues to move forward: [Story](https://web.archive.org/web/20160625160140/http://blog.bleepie.com/2010/04/week-13-replies-facebook-notifications-lists/) - great work [@jwheare](/twitter/#/jwheare)!

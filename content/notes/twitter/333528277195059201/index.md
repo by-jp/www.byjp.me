@@ -7,4 +7,4 @@ location:
   latitude: 51.52091138
   longitude: -0.07259535
 ---
-Silicon Milk Roundabout. Boom. \(@ The Old [@TrumanBrewery](https://twitter.com/TrumanBrewery)\) [https://4sq.com/ZYeLEL](https://4sq.com/ZYeLEL)
+Silicon Milk Roundabout. Boom. \(@ The Old [@TrumanBrewery](/twitter/#/TrumanBrewery)\) [https://4sq.com/ZYeLEL](https://4sq.com/ZYeLEL)

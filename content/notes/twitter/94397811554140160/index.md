@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes: Parker- Where's My Monkey? by [@ParkerBeats](https://twitter.com/ParkerBeats) on [SoundCloud](/tags/SoundCloud) http://snd.sc/nJQwTc
+likes: Parker- Where's My Monkey? by [@ParkerBeats](/twitter/#/ParkerBeats) on [SoundCloud](/tags/SoundCloud) http://snd.sc/nJQwTc

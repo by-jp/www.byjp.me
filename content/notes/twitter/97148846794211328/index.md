@@ -6,6 +6,6 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes: Parker v Muse- Knights of Cydonia by [@ParkerBeats](https://twitter.com/ParkerBeats)
+likes: Parker v Muse- Knights of Cydonia by [@ParkerBeats](/twitter/#/ParkerBeats)
 
 {{< youtube "2SS6WxR9PPI" >}}

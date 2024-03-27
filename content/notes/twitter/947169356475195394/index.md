@@ -4,7 +4,7 @@ tags:
 - imported
 - from-twitter
 ---
-I found a beautiful postcard of the [@StarAlfriston](https://twitter.com/StarAlfriston) in my Grandmother's collection from her travels around Europe 😊\
+I found a beautiful postcard of the [@StarAlfriston](/twitter/#/StarAlfriston) in my Grandmother's collection from her travels around Europe 😊\
 \
 Wishing you a joyful Christmastide,\
 and may your brightest prospects\

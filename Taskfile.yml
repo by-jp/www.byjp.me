@@ -11,12 +11,11 @@ env:
 tasks:
   check-links:
     cmds:
-      - rm -rf ./public/
-      - lychee --cache --suggest --require-https .
+      - lychee --cache --require-https --config lychee.toml .
   dev:
     env:
       DOMAIN_SUFFIX: .test
-    cmds:
+    cmds: 
       - |
         set -o allexport; source .env; set +o allexport
         hugo server --minify --printUnusedTemplates -D --baseURL "${DOMAIN}${DOMAIN_SUFFIX}" --appendPort=false

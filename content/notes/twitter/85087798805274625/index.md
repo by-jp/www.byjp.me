@@ -7,4 +7,4 @@ location:
   latitude: 51.56462266
   longitude: -0.10522796
 ---
-Intimate and damned funny gig from [@joeldommett](https://twitter.com/joeldommett) at the Silver Bullet - thanks Joel, thoel.
+Intimate and damned funny gig from [@joeldommett](/twitter/#/joeldommett) at the Silver Bullet - thanks Joel, thoel.

@@ -7,4 +7,4 @@ location:
   latitude: 44.23490092
   longitude: 10.10208106
 ---
-This week is going to be gooooood. [https://360.io/eaYjBz](https://360.io/eaYjBz)
+This week is going to be gooooood. {{< linkrot "360.io/eaYjBz" "a 360 photo" >}}

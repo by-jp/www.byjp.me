@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Just completed the outstanding [@timerunldn](https://twitter.com/timerunldn) - we're only the new champion Time Masters\! Just TRY and beat us\!
+Just completed the outstanding [@timerunldn](/twitter/#/timerunldn) - we're only the new champion Time Masters\! Just TRY and beat us\!

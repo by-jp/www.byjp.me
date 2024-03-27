@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - storify
 ---
-I really liked [@jeffnoon](https://twitter.com/jeffnoon)'s earlier intertwinings, so I [storify](/tags/storify)-ed it ~ [https://sfy.co/vJS](https://sfy.co/vJS)
+I really liked [@jeffnoon](/twitter/#/jeffnoon)'s earlier intertwinings, so I [storify](/tags/storify)-ed it ~ [https://sfy.co/vJS](https://sfy.co/vJS)

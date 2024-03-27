@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-If you set your alarm clock throughout the day, each time it rings you'll feel proud of yourself for already being awake. \(via [@FakeScience](https://twitter.com/FakeScience)\)
+If you set your alarm clock throughout the day, each time it rings you'll feel proud of yourself for already being awake. \(via [@FakeScience](/twitter/#/FakeScience)\)

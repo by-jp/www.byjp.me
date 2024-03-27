@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-A school trip to the Brewery Arts centre culminates in a Chinese style play - very cute\!  {{< linkrot "http://yfrog.com/nfzx2aj" "an image" >}}
+A school trip to the Brewery Arts centre culminates in a Chinese style play - very cute\!  {{< linkrot "yfrog.com/nfzx2aj" "an image" >}}

@@ -7,4 +7,4 @@ location:
   latitude: 18.92229219
   longitude: 72.83429268
 ---
-Mumbai's India Gate [https://360.io/JYRwer](https://360.io/JYRwer)
+Mumbai's India Gate {{< linkrot "360.io/JYRwer" "a 360 photo" >}}

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Pay attention folks, encryption *does* matter to you. Apple will fight turning your iPhone into an FBI bug, but UK? [https://twitter.com/glynwintle/status/699907249678974976](https://twitter.com/glynwintle/status/699907249678974976)
+Pay attention folks, encryption *does* matter to you. Apple will fight turning your iPhone into an FBI bug, but UK? [(twitter link)](/twitter/#/glynwintle/status/699907249678974976)

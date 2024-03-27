@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Pub quiz: "what does London mean to you? As a sculpture. Made from this sheet of tinfoil". AMAZING. [@stapletonantic](https://twitter.com/stapletonantic)
+Pub quiz: "what does London mean to you? As a sculpture. Made from this sheet of tinfoil". AMAZING. [@stapletonantic](/twitter/#/stapletonantic)

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hoping [@mxcl](https://twitter.com/mxcl)'s homebrew and [@sarnesjo](https://twitter.com/sarnesjo)'s greenstripes will conspire to bring libspotify power to my mac's Ruby\! *tinkers*
+Hoping [@mxcl](/twitter/#/mxcl)'s homebrew and [@sarnesjo](/twitter/#/sarnesjo)'s greenstripes will conspire to bring libspotify power to my mac's Ruby\! *tinkers*

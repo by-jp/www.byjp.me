@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Apparently I hold the "honour" of being the first person to use the word "twat" on twitter… 😳 [https://twitter.com/dalehay/status/1078010253562863617](https://twitter.com/dalehay/status/1078010253562863617)
+Apparently I hold the "honour" of being the first person to use the word "twat" on twitter… 😳 [(twitter link)](/twitter/#/dalehay/status/1078010253562863617)

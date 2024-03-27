@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - RGM
 ---
-The Ramp-o-Doom from my side at [@nottinghack]({{< linkrot "http://yfrog.com/2o4pytj" "an image" >}}
+The Ramp-o-Doom from my side at [@nottinghack]({{< linkrot "yfrog.com/2o4pytj" "an image" >}}

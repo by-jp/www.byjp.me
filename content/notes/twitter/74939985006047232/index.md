@@ -7,4 +7,4 @@ location:
   latitude: 52.956934
   longitude: -1.138497
 ---
-I freaking love Nottinghack - and the new space\! \(@ Nottinghack\) http://4sq.com/mIOmun
+I freaking love Nottinghack - and the new space\! \(@ Nottinghack\) https://4sq.com/mIOmun

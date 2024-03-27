@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Off to Ireland\! \(@ Putney Railway Station\) http://4sq.com/7acEp3
+Off to Ireland\! \(@ Putney Railway Station\) https://4sq.com/7acEp3

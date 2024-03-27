@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-[@alexkantor88](https://twitter.com/alexkantor88) brought Paddy Bear with him to Kerala. He doesn't fit in the overhead compartment… [https://instagr.am/p/LfSb-/](https://instagr.am/p/LfSb-/)
+[@alexkantor88](/twitter/#/alexkantor88) brought Paddy Bear with him to Kerala. He doesn't fit in the overhead compartment… [https://instagr.am/p/LfSb-/](https://instagr.am/p/LfSb-/)

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-*Of course* I have friends who are unexpectedly also at [@SubdayA_London](https://twitter.com/SubdayA_London)'s "Importance of being Weird" assembly 😂
+*Of course* I have friends who are unexpectedly also at [@SubdayA_London](/twitter/#/SubdayA_London)'s "Importance of being Weird" assembly 😂

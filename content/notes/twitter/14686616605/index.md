@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Dear [@github](https://twitter.com/github), why does the Wiki editing take textile input when everything else is GitHub flavoured markdown?
+Dear [@github](/twitter/#/github), why does the Wiki editing take textile input when everything else is GitHub flavoured markdown?

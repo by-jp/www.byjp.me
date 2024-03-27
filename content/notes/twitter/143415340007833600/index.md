@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - MusicHackday
 ---
-Hey [@jwheare](https://twitter.com/jwheare) how's the [MusicHackday](/tags/musichackday) going? What've you come up with?
+Hey [@jwheare](/twitter/#/jwheare) how's the [MusicHackday](/tags/musichackday) going? What've you come up with?

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Trying to cheat the system so I can check out my geek cred [https://coderwall.com/jphastings](https://coderwall.com/jphastings) via [@coderwall](https://twitter.com/coderwall)
+Trying to cheat the system so I can check out my geek cred [https://coderwall.com/jphastings](https://coderwall.com/jphastings) via [@coderwall](/twitter/#/coderwall)

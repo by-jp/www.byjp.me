@@ -6,6 +6,6 @@ tags:
 - BritishThreatLevels
 - spotify
 ---
-Fear not tube users, my [@vulfpeck](https://twitter.com/vulfpeck) fuelled "dancing" has been stemmed by being forcibly sat down [BritishThreatLevels](/tags/BritishThreatLevels)
+Fear not tube users, my [@vulfpeck](/twitter/#/vulfpeck) fuelled "dancing" has been stemmed by being forcibly sat down [BritishThreatLevels](/tags/BritishThreatLevels)
 
 {{< spotify path="/track/1SHA4IJyiyNobDOrQzFFXy" artist="Vulfpeck" title="Animal Spirits" >}}

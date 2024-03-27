@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - edds
 ---
-Settle a bet for us would you [@martinpeck](https://twitter.com/martinpeck)? {{< friend "edds" >}} and I are wondering what the first rule of [@CodeClub](https://twitter.com/CodeClub) is?
+Settle a bet for us would you [@martinpeck](/twitter/#/martinpeck)? {{< friend "edds" >}} and I are wondering what the first rule of [@CodeClub](/twitter/#/CodeClub) is?

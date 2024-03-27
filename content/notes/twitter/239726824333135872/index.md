@@ -7,4 +7,4 @@ location:
   latitude: 44.13845201
   longitude: 10.15989114
 ---
-Witness\! An actual Alp\! [https://360.io/PGCzFT](https://360.io/PGCzFT)
+Witness\! An actual Alp\! {{< linkrot "360.io/PGCzFT" "a 360 photo" >}}

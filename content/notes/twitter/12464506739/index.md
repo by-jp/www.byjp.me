@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I'm rated 'trustworthy' - nice :P http://i.imgur.com/PHmF5.jpg \(via [@mathewtrivett](https://twitter.com/mathewtrivett)\)
+I'm rated 'trustworthy' - nice :P http://i.imgur.com/PHmF5.jpg \(via [@mathewtrivett](/twitter/#/mathewtrivett)\)

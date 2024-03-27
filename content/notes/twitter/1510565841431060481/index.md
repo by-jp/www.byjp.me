@@ -6,4 +6,4 @@ tags:
 ---
 Anyone have any spare invites to [https://texts.com/](https://texts.com/)? It looks pretty awesome…\
 \
-cc [@TextsHQ](https://twitter.com/TextsHQ)
+cc [@TextsHQ](/twitter/#/TextsHQ)

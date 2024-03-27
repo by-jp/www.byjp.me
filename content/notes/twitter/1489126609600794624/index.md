@@ -5,4 +5,4 @@ tags:
 - from-twitter
 in_reply_to: ../1489125762334662657
 ---
-[@RadioCityGhost1](https://twitter.com/RadioCityGhost1) [@BobSacamano_FGC](https://twitter.com/BobSacamano_FGC) [@MrGrunshaw](https://twitter.com/MrGrunshaw) [@molly0xFFF](https://twitter.com/molly0xFFF) The futures that I used to see &amp; joy in because of smart contracts are all based on the premise of "when you can prove ownership of X anywhere/easily/rapidly", but ownership only makes sense through its inverse: those who *don't* have. I want a future with less scarcity, not more
+[@RadioCityGhost1](/twitter/#/RadioCityGhost1) [@BobSacamano_FGC](/twitter/#/BobSacamano_FGC) [@MrGrunshaw](/twitter/#/MrGrunshaw) [@molly0xFFF](/twitter/#/molly0xFFF) The futures that I used to see &amp; joy in because of smart contracts are all based on the premise of "when you can prove ownership of X anywhere/easily/rapidly", but ownership only makes sense through its inverse: those who *don't* have. I want a future with less scarcity, not more

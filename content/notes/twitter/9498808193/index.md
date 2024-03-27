@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Backhanded compliment??  {{< linkrot "http://yfrog.com/33op3oj" "an image" >}}
+Backhanded compliment??  {{< linkrot "yfrog.com/33op3oj" "an image" >}}

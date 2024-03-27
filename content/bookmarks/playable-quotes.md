@@ -8,7 +8,7 @@ category:
   - web
 bookmarkOf: https://tenmile.quote.games/
 references:
-  https://tenmileQuoteGames/:
+  bookmark:
     url: https://tenmile.quote.games
     type: entry
     name: Create and share playable quotes of Game Boy games

@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - irony
 ---
-Oh the [irony](/tags/irony) {{< linkrot "http://yfrog.com/37smjlj" "an image" >}}
+Oh the [irony](/tags/irony) {{< linkrot "yfrog.com/37smjlj" "an image" >}}

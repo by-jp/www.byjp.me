@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-*Real* pizza for lunch. Thanks [@pizzapilgrims](https://twitter.com/pizzapilgrims) [https://instagram.com/p/olHjTJyIf0/](https://instagram.com/p/olHjTJyIf0/)
+*Real* pizza for lunch. Thanks [@pizzapilgrims](/twitter/#/pizzapilgrims) [https://instagram.com/p/olHjTJyIf0/](https://instagram.com/p/olHjTJyIf0/)

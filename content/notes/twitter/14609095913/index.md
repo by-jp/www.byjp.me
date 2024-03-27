@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-New music: The Swingin' Rain on [SoundCloud](/tags/SoundCloud) {{< linkrot "http://soundcloud.com/jphastings/the-swingin-rain" "my track" >}}
+New music: The Swingin' Rain on [SoundCloud](/tags/SoundCloud) {{< linkrot "soundcloud.com/jphastings/the-swingin-rain" "my track" >}}

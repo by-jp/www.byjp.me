@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Our app is live\! Tasty food while you're working from home… [https://twitter.com/Deliveroo/status/618731187234865152](https://twitter.com/Deliveroo/status/618731187234865152)
+Our app is live\! Tasty food while you're working from home… [(twitter link)](/twitter/#/Deliveroo/status/618731187234865152)

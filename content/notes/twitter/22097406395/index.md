@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I just ousted Jon H. as the mayor of Hog's Head on [@foursquare](https://twitter.com/foursquare)\! http://4sq.com/8XHkel
+I just ousted Jon H. as the mayor of Hog's Head on [@foursquare](/twitter/#/foursquare)\! https://4sq.com/8XHkel
