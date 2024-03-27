@@ -4,6 +4,10 @@ tags:
 - imported
 - from-twitter
 ---
-I've released Thimblr: http://toys.byJP.me/thimblr\
-A tool to help you make tumblr themes.\
+I've released Thimblr: [toys.byJP.me/thimblr](https://github.com/jphastings/thimblr)
+
+A tool to help you make tumblr themes.
+
+```sh
 gem install Thimblr
+```

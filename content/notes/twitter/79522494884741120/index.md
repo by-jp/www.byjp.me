@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - wtf
 ---
-Can I buy some spices from your local shop? [wtf](/tags/wtf) [https://yfrog.com/hs47707199j](https://yfrog.com/hs47707199j)
+Can I buy some spices from your local shop? [wtf](/tags/wtf) [{{< linkrot "http://yfrog.com/hs47707199j)" "an image" >}}

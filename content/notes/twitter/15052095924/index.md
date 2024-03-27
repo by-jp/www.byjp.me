@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Home-made badges ftw\!  http://yfrog.com/07qhpgj
+Home-made badges ftw\!  {{< linkrot "http://yfrog.com/07qhpgj" "an image" >}}

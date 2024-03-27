@@ -7,4 +7,4 @@ location:
   latitude: 12.97891641
   longitude: 77.59828176
 ---
-Amazing game\! Warriors won by 1 run on the final ball\!  [https://yfrog.com/ntchovj](https://yfrog.com/ntchovj)
+Amazing game\! Warriors won by 1 run on the final ball\!  [{{< linkrot "http://yfrog.com/ntchovj)" "an image" >}}

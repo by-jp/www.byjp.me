@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hehe, Just found this pic while going thru one of my 'sort' folders  http://yfrog.com/3nruqp
+Hehe, Just found this pic while going thru one of my 'sort' folders  {{< linkrot "http://yfrog.com/3nruqp" "an image" >}}

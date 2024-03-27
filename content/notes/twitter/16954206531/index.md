@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Holy crap\! I've never een round the Barbican before\!  http://yfrog.com/mvea7cj
+Holy crap\! I've never een round the Barbican before\!  {{< linkrot "http://yfrog.com/mvea7cj" "an image" >}}

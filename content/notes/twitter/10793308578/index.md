@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes The Eternals by Roobux on [SoundCloud](/tags/SoundCloud) https://soundcloud.com/roobux/the-eternals
+likes The Eternals by Roobux on [SoundCloud](/tags/SoundCloud) {{ linkrot "https://soundcloud.com/roobux/the-eternals" "a track" >}}

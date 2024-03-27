@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-.@threedaymonk wrote a response to Nick Reynolds of the BBC on the iPlayer's player/client elitism [http://po-ru.com/diary/a-response-to-nick-reynolds/](http://po-ru.com/diary/a-response-to-nick-reynolds/)
+.@threedaymonk wrote a response to Nick Reynolds of the BBC on the iPlayer's player/client elitism [po-ru.com/diary/a-response-to-nick-reynolds](https://po-ru.com/diary/a-response-to-nick-reynolds/)

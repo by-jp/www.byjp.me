@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-In case you didn't know…  http://yfrog.com/n7if9j
+In case you didn't know…  {{< linkrot "http://yfrog.com/n7if9j" "an image" >}}

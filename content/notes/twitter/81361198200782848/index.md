@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Flying in Iron Maiden plane does a lot to make us smile tho :P [https://yfrog.com/h2uthcycj](https://yfrog.com/h2uthcycj)
+Flying in Iron Maiden plane does a lot to make us smile tho :P [{{< linkrot "http://yfrog.com/h2uthcycj)" "an image" >}}

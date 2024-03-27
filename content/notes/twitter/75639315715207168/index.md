@@ -5,4 +5,4 @@ tags:
 - from-twitter
 ---
 Dear [@google](https://twitter.com/google),\
-Your tube map stuff is awesome, but please don't make it vanish when I close the gigantic bubble. [https://yfrog.com/h7ymemp](https://yfrog.com/h7ymemp)
+Your tube map stuff is awesome, but please don't make it vanish when I close the gigantic bubble. [{{< linkrot "http://yfrog.com/h7ymemp)" "an image" >}}

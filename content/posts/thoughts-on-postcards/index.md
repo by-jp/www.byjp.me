@@ -11,7 +11,7 @@ summary: A love-postcard to postcards.
 
 I've long admired and played with [postcards](/tags/postcards). For me there's an art to every aspect of creating and sending them — designing, choosing, writing, drawing, doodling, stamping — each of which could stand books' worth of elaboration.
 
-Art is, in my humble opinion, at its greatest when limitlessly exploring a limited space, and a postcards provide plenty of just this kind of freeing limitation. They can be heartfelt and genuine precisely _because_ they don't immediately invite a reply (unlike practically all other interpersonal communication), they invite novelty (like Mr. Bingo's hilarious [Hate Mail](https://mr.bingo/hate-mail-book/), or Lupi & Posavec's beautiful [Dear Data](http://www.dear-data.com/theproject)) _because_ they are so simple and (literally!) inflexible.
+Art is, in my humble opinion, at its greatest when limitlessly exploring a limited space, and a postcards provide plenty of just this kind of freeing limitation. They can be heartfelt and genuine precisely _because_ they don't immediately invite a reply (unlike practically all other interpersonal communication), they invite novelty (like Mr. Bingo's hilarious [Hate Mail](https://mr.bingo/hate-mail-book/), or Lupi & Posavec's beautiful [Dear Data](https://www.dear-data.com/theproject)) _because_ they are so simple and (literally!) inflexible.
 
 Even now I'm slowly building a microsite gallery for the postcards my friend Claire sends me whenever she travels. Every one of them contains just one message: "Shut up, JP" in the local language. I love them.
 

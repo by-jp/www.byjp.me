@@ -7,4 +7,4 @@ location:
   latitude: 51.46248775
   longitude: -0.14063242
 ---
-Best. Ice-cream. Ever. — at Nardulli Ice Cream Parlour http://gowal.la/c/33ZQv
+Best. Ice-cream. Ever. — at Nardulli Ice Cream Parlour

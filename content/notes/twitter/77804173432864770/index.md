@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - lenny
 ---
-Came home *as* {{< friend "lenny" >}} was pulling food out of the oven. And what epic food\!  [https://yfrog.com/h890lzwdj](https://yfrog.com/h890lzwdj)
+Came home *as* {{< friend "lenny" >}} was pulling food out of the oven. And what epic food\!  [{{< linkrot "http://yfrog.com/h890lzwdj)" "an image" >}}

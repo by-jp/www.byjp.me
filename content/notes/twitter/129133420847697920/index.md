@@ -1,8 +1,9 @@
 ---
 date: "2011-10-26T09:53:01Z"
+type: like
 tags:
 - imported
 - from-twitter
 - SoundCloud
 ---
-likes: 8-BIT DOMINATOR \(CHIPTUNE/DUBSTEP\) by sssShawnnnn on [SoundCloud](/tags/SoundCloud) [https://snd.sc/ukv9tR](https://snd.sc/ukv9tR)
+likes: 8-BIT DOMINATOR \(CHIPTUNE/DUBSTEP\) by sssShawnnnn {{< linkrot "https://snd.sc/ukv9tR" "a track" >}}

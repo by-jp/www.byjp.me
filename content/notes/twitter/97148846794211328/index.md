@@ -1,8 +1,11 @@
 ---
 date: "2011-07-30T03:37:44Z"
+type: like
 tags:
 - imported
 - from-twitter
 - SoundCloud
 ---
-likes: Parker v Muse- Knights of Cydonia by [@ParkerBeats](https://twitter.com/ParkerBeats) on [SoundCloud](/tags/SoundCloud) http://snd.sc/p4z341
+likes: Parker v Muse- Knights of Cydonia by [@ParkerBeats](https://twitter.com/ParkerBeats)
+
+{{< youtube "2SS6WxR9PPI" >}}

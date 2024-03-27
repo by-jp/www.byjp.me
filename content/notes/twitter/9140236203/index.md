@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-My copy of The Chap has arrived - today is a good day :D  http://yfrog.com/35plmnj
+My copy of The Chap has arrived - today is a good day :D  {{< linkrot "http://yfrog.com/35plmnj" "an image" >}}

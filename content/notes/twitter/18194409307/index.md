@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I believe a [@projectsugru](https://twitter.com/projectsugru) hack is in order\! http://yfrog.com/0a9lduj
+I believe a [@projectsugru]({{< linkrot "http://yfrog.com/0a9lduj" "an image" >}}

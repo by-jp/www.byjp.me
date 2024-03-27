@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Found a massive crayfish while geocaching\!  http://yfrog.com/3m95adj
+Found a massive crayfish while geocaching\!  {{< linkrot "http://yfrog.com/3m95adj" "an image" >}}

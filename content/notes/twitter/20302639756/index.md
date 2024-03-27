@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Amazing cars in Cirencester high street\! http://yfrog.com/mzz8jxj
+Amazing cars in Cirencester high street\! {{< linkrot "http://yfrog.com/mzz8jxj" "an image" >}}

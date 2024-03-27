@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Ichiban Go tournament\!  http://yfrog.com/37wuhhj
+Ichiban Go tournament\!  {{< linkrot "http://yfrog.com/37wuhhj" "an image" >}}

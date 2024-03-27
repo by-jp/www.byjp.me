@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-This is how you do it\! http://yfrog.com/jpv87j http://yfrog.com/jb7z5j
+This is how you do it\! {{< linkrot "http://yfrog.com/jb7z5j" "an image" >}}

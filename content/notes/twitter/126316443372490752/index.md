@@ -1,8 +1,11 @@
 ---
 date: "2011-10-18T15:19:21Z"
+type: like
 tags:
 - imported
 - from-twitter
 - SoundCloud
 ---
-likes: Naibu & Key - Over \(ABSCD006\) by [@Naibu](https://twitter.com/Naibu) on [SoundCloud](/tags/SoundCloud) [https://snd.sc/p5T6aG](https://snd.sc/p5T6aG)
+likes: Naibu & Key - Over \(ABSCD006\) by [@Naibu](https://twitter.com/Naibu)
+
+{{< spotify path="/track/6uZcBImymcSPklgZLTvrbY" artist="Naibu" title="Over" >}}

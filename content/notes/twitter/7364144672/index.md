@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Albert Memorial and Hyde park, how is this the first time I've been here?\! http://yfrog.com/4ayqqkj
+Albert Memorial and Hyde park, how is this the first time I've been here?\! {{< linkrot "http://yfrog.com/4ayqqkj" "an image" >}}

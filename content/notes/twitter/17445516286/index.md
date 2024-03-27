@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hopefully this will become a [@sugru](https://twitter.com/sugru) iPhone tripod adaptor\!  http://yfrog.com/htcwkqj
+Hopefully this will become a [@sugru]({{< linkrot "http://yfrog.com/htcwkqj" "an image" >}}

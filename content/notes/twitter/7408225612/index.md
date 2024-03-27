@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - UKSnow
 ---
-The obligatory [UKSnow](/tags/uksnow) snap:  http://yfrog.com/3gxibhj
+The obligatory [UKSnow](/tags/uksnow) snap:  {{< linkrot "http://yfrog.com/3gxibhj" "an image" >}}

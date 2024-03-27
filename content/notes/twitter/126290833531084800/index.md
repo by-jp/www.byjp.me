@@ -5,4 +5,6 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes: Labrinth ft. Tinie Tempah - Earthquake \(Noisia Remix\) by [@Noisia_nl](https://twitter.com/Noisia_nl) on [SoundCloud](/tags/SoundCloud) [https://snd.sc/r1MZnf](https://snd.sc/r1MZnf)
+likes: Labrinth ft. Tinie Tempah - Earthquake \(Noisia Remix\) by [@Noisia_nl](https://twitter.com/Noisia_nl)
+
+{{< spotify path="/track/2mr0mqcog7JNzgO3yT34f7" artist="Noisia" title="Labrinth - Earthquake (Noisia Remix)" >}}

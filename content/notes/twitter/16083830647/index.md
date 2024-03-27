@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-The F Tones. Epic.  http://yfrog.com/jwhguj
+The F Tones. Epic.  {{< linkrot "http://yfrog.com/jwhguj" "an image" >}}

@@ -4,4 +4,5 @@ tags:
 - imported
 - from-twitter
 ---
-http://yfrog.com/eff9up  Amazing\! Alien vs. Pooh \(Bear\) http://godxiliary.com/alienvspooh/
+Amazing\! Alien vs. Pooh \(Bear\) [godxiliary.com/alienvspooh/](https://web.archive.org/web/20100802012115/http://godxiliary.com/alienvspooh/)
+

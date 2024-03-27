@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - RGM
 ---
-Bag nearly full of colourful, noisy odds and ends for the [@nottinghack](https://twitter.com/nottinghack) [RGM](/tags/RGM) -about time to set off\! http://yfrog.com/0hrrbmj
+Bag nearly full of colourful, noisy odds and ends for the [@nottinghack]({{< linkrot "http://yfrog.com/0hrrbmj" "an image" >}}

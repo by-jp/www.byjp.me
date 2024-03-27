@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-http://yfrog.com/jxlu2p  LOCK YOUR DOORS\! IT'S COMING TO EAT YOU\!
+{{< linkrot "http://yfrog.com/jxlu2p" "an image" >}}  LOCK YOUR DOORS\! IT'S COMING TO EAT YOU\!

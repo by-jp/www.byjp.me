@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-My [@Maddie_E_Jones](https://twitter.com/Maddie_E_Jones) EP has arrived\! Maddie you superstar\!  http://yfrog.com/akj81j
+My [@Maddie_E_Jones]({{< linkrot "http://yfrog.com/akj81j" "an image" >}}

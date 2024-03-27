@@ -6,6 +6,6 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes: California soul (A.Skillz Remix) by [@A_SKILLZ](https://twitter.com/A_SKILLZ) on [SoundCloud](/tags/SoundCloud)
+likes: California soul (A.Skillz Remix) by [@A_SKILLZ](https://twitter.com/A_SKILLZ)
 
 {{< soundcloud path="/tracks/17243256" artist="A.Skillz" title="California Soul" >}}

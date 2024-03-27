@@ -7,4 +7,4 @@ location:
   latitude: 51.58619489
   longitude: -0.11174553
 ---
-Pretty view as I go to work:  http://yfrog.com/dypzbpj
+Pretty view as I go to work:  {{< linkrot "http://yfrog.com/dypzbpj" "an image" >}}

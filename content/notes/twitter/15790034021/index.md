@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-It's [@maddiejones](https://twitter.com/maddiejones) in the tent\!  http://yfrog.com/jusydij
+It's [@maddiejones]({{< linkrot "http://yfrog.com/jusydij" "an image" >}}
