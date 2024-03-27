@@ -221,7 +221,7 @@ article {
     margin-right: auto;
     max-width: 100%;
 
-    &.audio,&.spotify {
+    &.audio {
       margin: 0;
       padding: 0;
       width: 100%;
@@ -957,4 +957,10 @@ mark {
     font-size: 0.8rem;
     opacity: 0.6;
   }
+}
+
+.embed iframe {
+  border-radius:12px;
+  width:100%;
+  max-width:486px;
 }

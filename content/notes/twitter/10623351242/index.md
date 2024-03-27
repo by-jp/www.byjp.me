@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - RidiculousSlogans
 ---
-[RidiculousSlogans](/tags/ridiculousslogans) Ginsters: "Real honest food" http://yfrog.com/c9vw2ej
+[RidiculousSlogans](/tags/ridiculousslogans) Ginsters: "Real honest food"

@@ -2,7 +2,7 @@
 title: XXIIVV
 summary: The Nataniev Library
 feed:
-  rss: http://wiki.xxiivv.com/links/rss.xml
+  rss: https://wiki.xxiivv.com/links/rss.xml
   url: https://wiki.xxiivv.com/site/home.html
 ---
 
