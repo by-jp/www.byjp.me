@@ -4,9 +4,8 @@ on:
   push:
     branches: ["main"]
   schedule:
-    # Rebuild at the first moment of the new year
-    # ensures that anywhere I'm using year-relative dates stay accurate.
-    - cron: '0 0 1 1 *'
+    # Rebuild every day, to update 'year relative' dates, change now page & calendar
+    - cron: '0 0 * * *'
 
   workflow_dispatch:
 

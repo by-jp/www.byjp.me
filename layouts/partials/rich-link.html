@@ -26,4 +26,4 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
-<a href="{{ $destination | safeURL }}"{{ with .Class }} class="{{ . }}"{{ end }}{{ with $title }} title="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank"{{ end }}{{ with $ref.rel }} rel="{{ . }}"{{ end }}>{{ $text }}</a>
+<a href="{{ $destination | safeURL }}"{{ with .Class }} class="{{ . }}"{{ end }}{{ with $title }} title="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank"{{ end }}{{ with $ref.rel }} rel="{{ . }}"{{ end }}>{{ $text | safeHTML }}</a>

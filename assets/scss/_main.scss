@@ -799,15 +799,6 @@ a:hover time {
 body.nownownow .post-content > p {
   position: relative;
   line-height: inherit;
-
-  &::first-letter {
-    font-size: 2rem;
-    line-height: 20px;
-    position: absolute;
-    margin-left: -4rem;
-    padding-top: 0.5rem;
-    float: left;
-  }
 }
 
 a[href^="/tags/"] {
