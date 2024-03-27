@@ -1,6 +1,7 @@
 ---
 date: 2024-03-15T12:34:31.711Z
 publishDate: 2024-03-15T12:34:31.711Z
+emoji: 🔠
 title: Accėnt mārks in E̱nglish
 audio: index.mp3
 bookmarkOf: https://www.youtube.com/watch?v=0Fok5AQ2WRo

@@ -1,6 +1,7 @@
 ---
 title: Neologisms
 date: "2024-03-03T08:57:01Z"
+emoji: 🔮
 bookmarkOf: https://maggieappleton.com/neologisms
 references:
   bookmark:
