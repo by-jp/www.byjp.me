@@ -1,6 +1,7 @@
 {{- $displayArtist := (.Get "artist") }}
 {{- $displayTitle := (.Get "title") }}
 {{- $songwhip := printf "https://songwhip.com/%s/%s" (partial "kebab.txt" $displayArtist) (partial "kebab.txt" $displayTitle) -}}
+{{- with .Get "url" }}{{ $songwhip = . }}{{ end -}}
 <figure class="embed audio soundcloud">
   <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com{{ .Get "path" }}&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false" loading="lazy" scrolling="no" frameborder="no" allow="autoplay"></iframe>
   <figcaption>

@@ -5,4 +5,6 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes WIldness by Knowa on [SoundCloud](/tags/SoundCloud) http://soundcloud.com/knowa/wildness
+likes WIldness by Knowa on [SoundCloud](/tags/SoundCloud)
+
+{{< soundcloud path="/tracks/177178" artist="Knowa" title="WIldness" url="https://songwhip.com/knowaknowoneandknowalusion/wildness" >}}

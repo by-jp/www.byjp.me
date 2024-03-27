@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-Wow\! Listen to this\! [http://www.youtube.com/watch?v=-Psfn6iOfS8](http://www.youtube.com/watch?v=-Psfn6iOfS8) \(via [@serafinowicz](/twitter/#/serafinowicz)\)
+Wow\! Listen to this\! \(via [@serafinowicz](/twitter/#/serafinowicz)\)
+
+{{< youtube "-Psfn6iOfS8" >}}

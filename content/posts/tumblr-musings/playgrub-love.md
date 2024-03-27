@@ -10,13 +10,13 @@ tags:
   - from-tumblr
 ---
 
-[Playdar](http://playdar.org) is really starting to gain some momentum as great services like [playgrub](https://web.archive.org/web/20100824050755/http://playgrub.posterous.com/new-supported-sites)[^1] build on it's strong foundations.
+[Playdar](https://playdar.org) is really starting to gain some momentum as great services like [playgrub](https://web.archive.org/web/20100824050755/http://playgrub.posterous.com/new-supported-sites)[^1] build on it's strong foundations.
 
 I've just added to Playgrub's codebase by building some additional scrapers so that **you** can make use of [Toby](https://github.com/toby)'s fine webapp to (legally!) listen to some popular radio playlists on your own schedule!
 
 So if you feel like listening to music from XFM, Radio 1, Kerrang! or NME then you should do the follwoing:
 
-* [Download](http://playdar.org/download) and install the (frankly epic) Playdar service.
+* [Download](https://playdar.org/download) and install the (frankly epic) Playdar service.
 
 * [Browse to playgrub.com](http://web.archive.org/web/20091102074333/http://www.playgrub.com/) and install [the bookmarklet](javascript:(function(){%20host='http://www.playgrub.com/js/';%20_my_script=document.createElement('SCRIPT');%20_my_script.type='text/javascript';%20_my_script.src=host+'playgrub_bookmarklet.js?';%20document.getElementsByTagName('head')[0].appendChild(_my_script);%20})(); "This bookmarklet good as of 2009-12-28")[^2]
 

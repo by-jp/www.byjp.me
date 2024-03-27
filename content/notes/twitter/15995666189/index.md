@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-http://youtu.be/roJzWYiXFtg - 0:30 totally unnecessary…
+0:30 totally unnecessary…
+
+{{< youtube "roJzWYiXFtg" >}}

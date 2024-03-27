@@ -4,4 +4,8 @@ tags:
 - imported
 - from-twitter
 ---
-My brother rocks: http://www.youtube.com/watch?v=b98B6vytDPA
+My brother[^1] rocks:
+
+{{< youtube "b98B6vytDPA" >}}
+
+[^1]: That's {{< friend chris >}} by the way
