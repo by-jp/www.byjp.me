@@ -7,7 +7,7 @@ tags:
   - simplicity
 summary: A constructed language with an extremely limited vocabulary
 links:
-  wikipedia: http://en.wikipedia.org/wiki/Toki_Pona
+  wikipedia: https://en.wikipedia.org/wiki/Toki_Pona
   official: https://tokipona.org/
 ---
 

@@ -24,7 +24,7 @@ I've designed 3D-printed cookie cutters that could make ceramic tiles with these
 
 ## Spectre + Tantrix
 
-I wrote a little code a few weekends ago to try and figure out if I could make a Spectre tiling that also had lines that travelled across the tiles — something like a tiling game I used to play called [Tantrix](http://www.tantrix.com/).
+I wrote a little code a few weekends ago to try and figure out if I could make a Spectre tiling that also had lines that travelled across the tiles — something like a tiling game I used to play called [Tantrix](https://www.tantrix.com/).
 
 Though there are some lines that close (you can see some here) I have a _hunch_ that there may be provably non-zero many that never close. I have no idea how to go about proving that though!
 
