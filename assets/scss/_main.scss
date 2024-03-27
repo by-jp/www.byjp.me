@@ -929,7 +929,7 @@ mark {
     justify-content: space-between;
 
     & > * {
-      max-width: 50%;
+      max-width: calc(50% - 0.5em);
 
       @media #{$media-size-phone} {
         max-width: 100%;
