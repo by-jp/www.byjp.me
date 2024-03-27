@@ -15,10 +15,12 @@
 
 {{/*  IndieWeb  */}}
 <link rel="webmention" href="https://webmention.io/www.byjp.me/webmention">
-<link rel="authorization_endpoint" href="https://indiekit.byjp.me/auth">
-<link rel="token_endpoint" href="https://indiekit.byjp.me/auth/token">
-<link rel="indieauth-metadata" href="https://indiekit.byjp.me/.well-known/oauth-authorization-server">
-<link rel="micropub" href="https://indiekit.byjp.me/micropub">
+{{ with getenv "HUGO_INDIEKIT_URL" }}
+<link rel="authorization_endpoint" href="{{ . }}/auth">
+<link rel="token_endpoint" href="{{ . }}/auth/token">
+<link rel="indieauth-metadata" href="{{ . }}/.well-known/oauth-authorization-server">
+<link rel="micropub" href="{{ . }}/micropub">
+{{ end }}
 {{ block "title" . -}}
     <title>
         {{- if .IsHome -}}

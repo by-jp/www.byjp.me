@@ -5,17 +5,24 @@ version: '3'
 # TODO: Handle commands in dotenv
 # dotenv: ['.env']
 
+env:
+  DOMAIN: https://www.byjp.me
+
 tasks:
   check-links:
     cmds:
       - rm -rf ./public/
       - lychee --cache --suggest --require-https .
   dev:
+    env:
+      DOMAIN_SUFFIX: .test
     cmds:
-      - hugo server --minify -D
+      - |
+        set -o allexport; source .env; set +o allexport
+        hugo server --minify --printUnusedTemplates -D --baseURL "${DOMAIN}${DOMAIN_SUFFIX}" --appendPort=false
   build:
     cmds:  
-      - hugo --cacheDir /tmp/hugo/cache --minify --baseURL "https://www.byjp.me"
+      - hugo --cacheDir /tmp/hugo/cache --gc --minify --baseURL "${DOMAIN}"
       - npm_config_yes=true npx pagefind@latest
   import:
     cmds: 

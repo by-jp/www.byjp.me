@@ -1,0 +1,44 @@
+{
+  "name": "indiekit-preset-byjp",
+  "version": "1.0.0-beta.8",
+  "description": "Hugo publication preset for Indiekit",
+  "keywords": [
+    "indiekit",
+    "indiekit-plugin",
+    "indieweb",
+    "micropub",
+    "jekyll"
+  ],
+  "homepage": "https://getindiekit.com",
+  "author": {
+    "name": "Paul Robert Lloyd",
+    "url": "https://paulrobertlloyd.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "assets",
+    "lib",
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/getindiekit/indiekit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getindiekit/indiekit.git",
+    "directory": "packages/preset-hugo"
+  },
+  "dependencies": {
+    "camelcase-keys": "^9.0.0",
+    "plur": "^5.1.0",
+    "yaml": "^2.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
