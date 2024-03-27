@@ -1,8 +1,8 @@
 ---
 title: Adventures Raising the Next Generation
 date: "2024-03-11T21:05:12Z"
+emoji: "\U0001F476"
 publishDate: "2024-03-07T17:00:00Z"
-emoji: 👶
 bookmarkOf: https://atlaspragmatica.com/doing-things-differently-adventures-raising-the-next-generation/
 references:
   bookmark:

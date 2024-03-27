@@ -168,6 +168,7 @@ const omnivoreEndpoint = "https://api-prod.omnivore.app/api/graphql"
 type Article struct {
 	ID              string
 	Title           string
+	Emoji           string
 	BookmarkDate    time.Time
 	PublishDate     time.Time
 	OriginalTitle   string
@@ -187,6 +188,7 @@ type ArticleHighlight struct {
 type FrontMatter struct {
 	Title       string
 	Date        string
+	Emoji       string `yaml:"emoji,omitempty"`
 	PublishDate string `yaml:"publishDate,omitempty"`
 	BookmarkOf  string `yaml:"bookmarkOf"`
 	References  map[string]Ref
