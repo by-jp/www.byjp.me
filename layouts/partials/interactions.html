@@ -1,4 +1,5 @@
-{{ $interactions := index .Site.Data.interactions (split (.Path | path.Dir) "/") }}
+{{ $index := (split .Path "/") | after 1 -}}
+{{- $interactions := index .Site.Data.interactions $index -}}
 {{ with $interactions }}
     <div class="interactions">
       {{ $most := 0 }}

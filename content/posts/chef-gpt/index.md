@@ -9,6 +9,9 @@ tags:
 - mela
 - LLMs
 - "AI"
+syndications:
+- https://hachyderm.io/@byjp/112102305952063134
+- https://bsky.app/profile/byjp.me/post/3knrhqsj6ac23
 ---
 
 A few weeks ago I started my year with [Zoe](https://zoe.com/), the science-backed diet learning programme. I've loved seeing my glucose levels respond to the foods I eat in realtime, and the blood, fat, and gut microbiome reports that arrived a few days ago have been _fascinating_. I'm trying to shift my diet to meet what I've learned there (more on this below), but this evening I found myself with lots of fresh ingredients not long for this world, and no immediate ideas on how to combine them.
