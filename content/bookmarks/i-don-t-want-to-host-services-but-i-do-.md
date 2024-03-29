@@ -1,5 +1,6 @@
 ---
 title: I don't want to host services (but I do)
+emoji: 💼
 date: "2024-03-28T16:17:01Z"
 publishDate: "2023-08-09T16:00:00Z"
 bookmarkOf: https://ergaster.org/posts/2023/08/09-i-dont-want-to-host-services-but-i-do/
