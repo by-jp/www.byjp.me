@@ -65,7 +65,7 @@
             <li>
               {{ partial "partials/reactionsvg.html" (dict "emoji" $thisEm "name" true) -}}
               {{- range $i, $in := $items -}}
-                <a href="{{ $in.url }}" target="_blank">{{ $in.author.name }}</a>
+                <a href="{{ $in.url | default $in.author.url }}" target="_blank">{{ $in.author.name }}</a>
                 {{- if ne $i (sub (len $items) 1) }}, {{ end -}}
               {{- end -}}
             </li>
