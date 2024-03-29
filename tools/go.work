@@ -1,0 +1,9 @@
+go 1.21.6
+
+use (
+	./archive/goodreads
+	./archive/instagram
+	./archive/twitter
+	./import/omnivore
+	./import/webmentionio
+)

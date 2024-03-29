@@ -25,7 +25,9 @@ type Post struct {
 }
 
 type Interaction struct {
-	// eg. Repost is 🔁, Facebook is 👍, Instagram is ♥️, Mastodon is ⭐️, Medium is 👏
+	// Some unique identifier that remains consistent for this interaction
+	GUID string `json:"guid"`
+	// eg. Repost is 🔁, Facebook is 👍, Instagram & Bluesky are ♥️, Mastodon is ⭐️, Medium is 👏
 	Emoji string `json:"emoji,omitempty"`
 	// The URL of the original interaction
 	URL string `json:"url"`

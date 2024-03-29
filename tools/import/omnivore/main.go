@@ -33,6 +33,21 @@ func main() {
 		fmt.Fprint(os.Stderr, "OMNIVORE_API_KEY is not set")
 		os.Exit(1)
 	}
+
+	rootDir := "./"
+	if len(os.Args) > 1 {
+		rootDir = os.Args[1]
+	}
+
+	outputDir := path.Join(rootDir, "content/bookmarks")
+	if !isDir(outputDir) {
+		fmt.Printf(
+			"Usage: %s [directory]\n  'directory' should be the root of your hugo blog (default: ./)\n",
+			path.Base(os.Args[0]),
+		)
+		os.Exit(1)
+	}
+
 	// Make the GraphQL request
 	articles, err := omnivoreArticles(
 		"in:archive has:highlights sort:updated-des",
@@ -43,13 +58,20 @@ func main() {
 		os.Exit(1)
 	}
 
-	outputDir := "../../../content/bookmarks"
-
 	for _, article := range articles {
 		if err := outputArticle(article, outputDir); err != nil {
 			fmt.Fprintf(os.Stderr, "Failed to output article: %v\n", err)
 		}
 	}
+}
+
+func isDir(pathStr string) bool {
+	st, err := os.Stat(pathStr)
+	if os.IsNotExist(err) {
+		return false
+	}
+
+	return st.IsDir()
 }
 
 var hashtags = regexp.MustCompile(`#\w+`)

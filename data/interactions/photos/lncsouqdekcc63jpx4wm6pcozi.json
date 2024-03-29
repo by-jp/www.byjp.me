@@ -1,6 +1,7 @@
 {
   "interactions": [
     {
+      "emoji": "💬",
       "comment": "Con antenitas de vinil 🤪",
       "url": "https://www.instagram.com/p/CoscyoJvPtI9wJtAdE6fJJ1vY6AMB827jvAHUo0/c/17994947992681879/",
       "author": {
@@ -9,9 +10,5 @@
       },
       "timestamp": "2023-02-15T20:16:08.000Z"
     }
-  ],
-  "reactions": {
-    "❤️": 46,
-    "💬": 1
-  }
+  ]
 }

@@ -519,8 +519,19 @@ details {
       }
 
       svg {
-        margin: 0 0.25em 0 0;
+        margin: 0;
       }
+    }
+  }
+
+  ul.named-reactions {
+    list-style: none;
+    margin-top: 1em;
+    opacity: 0.4;
+    transition: opacity 0.25s ease-in-out;
+
+    &:hover {
+      opacity: 1;
     }
   }
 
