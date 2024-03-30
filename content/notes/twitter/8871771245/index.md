@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I made an installer: open .webloc files in windows http://github.com/jphastings/WinWebloc/downloads
+I made an installer: open .webloc files in windows https://github.com/jphastings/WinWebloc/downloads

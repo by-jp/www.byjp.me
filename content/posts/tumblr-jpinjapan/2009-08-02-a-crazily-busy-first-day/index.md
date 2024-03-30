@@ -16,7 +16,7 @@ First off we wandered around the Imperial Palace gardens. The outer section, whi
 
 These are some of the most beautiful gardens I've seen (having a Mum who worked in an Arboretum, that's saying a lot!) - one entire section was a grassland ecosystem moved piece by piece into the Palace's grounds because their original habitat was to be destroyed to create a residential district.
 
-The entire gardens were both stunning and surprisingly informative (with the odd museum and even English translations on info-posts) - there will be plenty of photos [on flickr](http://flickr.com/photos/jphastings) when I have the time!
+The entire gardens were both stunning and surprisingly informative (with the odd museum and even English translations on info-posts) - there will be plenty of photos [on flickr](https://flickr.com/photos/jphastings) when I have the time!
 
 Next stop was the Yasukuni Shrine to meet Ai, a small park dedicated to War Victims built in 1836 (over 2.5 million are commemorated to date - kamakazi bombers are recorded as telling each other they'll meet again at Yasukuni). It also included the first ever Western style bronze statue of the military commander who first pushed a modernization (ie. westernization) of the Japanese army, earning him a wound, which took over 4 months to kill him, courtesy of the samurai.
 

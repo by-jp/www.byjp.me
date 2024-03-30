@@ -53,13 +53,13 @@ I believe that context is critical to everything in life. I’m sure there’s a
 
 The only true way to build a shared context is to discuss things, often at length and sometimes without specific direction. Putting time aside to chat to your colleagues — from all over the business — will give you an idea of what’s important to them and how best to work with them.
 
-“Naming things” is one of the [two hardest problems in computer science](http://web.archive.org/web/20230822235603//twitter/#/codinghorror/status/506010907021828096), and naming them well is _critical_. One word can have many different meanings — some specific to our company — so when you commit words to lasting documentation or code make sure you choose your words carefully.
+“Naming things” is one of the [two hardest problems in computer science](https://web.archive.org/web/20230822235603//twitter/#/codinghorror/status/506010907021828096), and naming them well is _critical_. One word can have many different meanings — some specific to our company — so when you commit words to lasting documentation or code make sure you choose your words carefully.
 
 As engineers we spend a lot of time doing this, even in something as transient as short-lived script variable names. You never know when someone else, or an older you, will need to understand what you were trying to do.
 
 Making code “self” documenting is, for us, frequently the best form of documentation. The further an explanation gets away from the thing it’s documenting the less likely it is to be ‘in-sync’, and the more work the reader has to do to figure out what was meant.
 
-Self-documenting code is incredibly useful, but when it comes to “best practice” we’ve found that a set of separate, community maintained [guidelines](http://web.archive.org/web/20170521072344/http://deliveroo.engineering:80/guidelines/) makes for a great space to both discuss and refer to the approaches we take to common problems.
+Self-documenting code is incredibly useful, but when it comes to “best practice” we’ve found that a set of separate, community maintained [guidelines](https://web.archive.org/web/20170521072344/http://deliveroo.engineering:80/guidelines/) makes for a great space to both discuss and refer to the approaches we take to common problems.
 
 We also structure our unit tests to demonstrate the specific cases we expect our code to be used in, and the expected outcome. This gives us a reliable shared basis for talking about our code.
 

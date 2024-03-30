@@ -18,6 +18,7 @@ Things I might work on within my personal blog's software.
   - [x] Fix goodreads links (point to blog)  
   - [x] Fix instagram links (~~point to blog~~ delete; they're cross-posts anyway)  
   - [ ] Show (internal) replies to this note
+  - [ ] Remove 'instagr.am' posts (they're already imported as cross-posts)
 - [ ] Import from Omnivore daily  
 - [ ] Facebook import?
 - [ ] Record new webmentions on publish
