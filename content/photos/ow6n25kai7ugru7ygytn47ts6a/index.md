@@ -7,5 +7,8 @@ draft: false
 tags:
 - imported
 - from-instagram
+location:
+  latitude: 51.60736426
+  longitude: -2.21759281
 ---
 Pretty trees at Westonbirt\!

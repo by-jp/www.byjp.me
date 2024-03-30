@@ -7,5 +7,8 @@ draft: false
 tags:
 - imported
 - from-instagram
+location:
+  latitude: 8.166167
+  longitude: 98.295193
 ---
 Overcast day in Paradise

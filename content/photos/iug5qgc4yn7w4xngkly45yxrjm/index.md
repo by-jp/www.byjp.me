@@ -7,5 +7,8 @@ draft: false
 tags:
 - imported
 - from-instagram
+location:
+  latitude: 51.7362778
+  longitude: -0.21060705
 ---
 Rail travel

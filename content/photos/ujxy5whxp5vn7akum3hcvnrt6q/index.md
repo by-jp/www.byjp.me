@@ -7,5 +7,8 @@ draft: false
 tags:
 - imported
 - from-instagram
+location:
+  latitude: 51.56567659
+  longitude: -0.10701478
 ---
 Oldschool bus in Finsbury Park\! So cool :D

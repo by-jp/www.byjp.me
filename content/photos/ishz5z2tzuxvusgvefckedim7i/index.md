@@ -7,5 +7,9 @@ draft: false
 tags:
 - imported
 - from-instagram
+location:
+  latitude: 51.515129
+  longitude: -0.1297711
 ---
-Bleak \(epic\)
+Bleak (epic)
+
