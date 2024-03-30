@@ -1,5 +1,5 @@
 ---
-title: I don't want to host services (but I do)
+title: Self-hosting advice
 emoji: 💼
 date: "2024-03-28T16:17:01Z"
 publishDate: "2023-08-09T16:00:00Z"
