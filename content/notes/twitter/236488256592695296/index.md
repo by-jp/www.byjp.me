@@ -1,4 +1,6 @@
 ---
+title: Fineshrine (by Purity Ring) is my jam
+type: like
 date: "2012-08-17T15:42:48Z"
 tags:
 - imported

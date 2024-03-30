@@ -1,4 +1,6 @@
 ---
+title: She Doesn't Mind (by Cosmo Jarvis) is my jam
+type: like
 date: "2012-05-26T16:26:46Z"
 tags:
 - imported

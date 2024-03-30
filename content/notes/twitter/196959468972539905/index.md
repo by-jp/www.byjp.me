@@ -1,4 +1,6 @@
 ---
+title: Some Kind of Nature (by Gorillaz) is my jam
+type: like
 date: "2012-04-30T13:49:31Z"
 tags:
 - imported

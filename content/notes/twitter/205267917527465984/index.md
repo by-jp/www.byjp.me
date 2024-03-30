@@ -1,4 +1,6 @@
 ---
+title: Lovely Day (by Bill Withers) is my jam
+type: like
 date: "2012-05-23T12:04:19Z"
 tags:
 - imported

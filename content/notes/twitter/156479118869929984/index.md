@@ -1,4 +1,6 @@
 ---
+title: "D.A.N.C.E. (by Justice) is my jam"
+type: like
 date: "2012-01-09T20:55:03Z"
 tags:
 - imported

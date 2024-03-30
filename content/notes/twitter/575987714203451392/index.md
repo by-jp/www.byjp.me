@@ -1,4 +1,6 @@
 ---
+title: Sunny (by Umami) is my jam
+type: like
 date: "2015-03-12T11:52:27Z"
 tags:
 - imported

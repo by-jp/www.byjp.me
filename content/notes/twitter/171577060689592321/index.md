@@ -1,4 +1,6 @@
 ---
+title: Obla-di Obla-da (by The Beatles) is my jam
+type: like
 date: "2012-02-20T12:48:53Z"
 tags:
 - imported

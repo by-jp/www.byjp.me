@@ -1,4 +1,6 @@
 ---
+title: The Legend of Zelda (by Zedd) is my jam
+type: like
 date: "2013-05-21T13:07:34Z"
 tags:
 - imported

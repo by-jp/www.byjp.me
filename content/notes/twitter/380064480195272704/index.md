@@ -1,4 +1,6 @@
 ---
+title: Doses and Mimosas (by Cherub) is my jam
+type: like
 date: "2013-09-17T20:23:27Z"
 tags:
 - imported
