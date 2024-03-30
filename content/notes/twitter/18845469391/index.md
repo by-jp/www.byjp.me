@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - TheITCrowd
 ---
-New IT crowd - Woooo\! [TheITCrowd](/tags/TheITCrowd) [http://getglue.com/tv_shows/it_crowd?s=tch&ref=jphastings#jphastings](http://getglue.com/tv_shows/it_crowd?s=tch&ref=jphastings#jphastings)
+New IT crowd - Woooo\! [TheITCrowd](/tags/TheITCrowd)

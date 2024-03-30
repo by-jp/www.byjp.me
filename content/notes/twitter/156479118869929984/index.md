@@ -5,6 +5,6 @@ tags:
 - from-twitter
 - ThisIsMyJam
 ---
-"D.A.N.C.E." by Justice is my new jam. Listen: [https://thisismyjam.com/jphastings](https://thisismyjam.com/jphastings) [ThisIsMyJam](/tags/thisismyjam)
+"D.A.N.C.E." by Justice is my new jam. ♫ [ThisIsMyJam](/tags/thisismyjam)
 
-{{< spotify path=[/track/33yAEqzKXexYM3WlOYtTfQ" artist="Justice" title="D.A.N.C.E." >}}
+{{< spotify path="/track/33yAEqzKXexYM3WlOYtTfQ" artist="Justice" title="D.A.N.C.E." >}}

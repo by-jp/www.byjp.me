@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Facebook comments on my tumblog. Groovy :P http://jphastings.tumblr.com
+Facebook comments on my tumblog. Groovy :P {{< linkrot "http://jphastings.tumblr.com" "my site" >}}

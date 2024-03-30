@@ -5,6 +5,6 @@ tags:
 - from-twitter
 - ThisIsMyJam
 ---
-“Houdini” by Foster The People is my new jam. ♫  [https://t.thisismyjam.com/jphastings](https://t.thisismyjam.com/jphastings) [ThisIsMyJam](/tags/thisismyjam)
+“Houdini” by Foster The People is my new jam. ♫ [ThisIsMyJam](/tags/thisismyjam)
 
 {{< spotify path="/track/5Fli1xRi01bvCjsZvKWro0" artist="Foster the People" title="Houdini" >}}
