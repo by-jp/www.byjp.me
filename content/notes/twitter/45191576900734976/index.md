@@ -5,4 +5,7 @@ tags:
 - from-twitter
 - reading
 ---
-I'm [reading](/tags/reading) Jonathan Strange & Mr Norrell by Susanna Clarke http://goodreads.com/review/show/152971706
+
+{{< openlibrary "OL5703422W" >}}
+
+I'm [reading](/tags/reading) Jonathan Strange & Mr Norrell by Susanna Clarke

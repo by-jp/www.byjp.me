@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-Groaning lols: http://www.youtube.com/watch?v=e7DkeQ0roAM
+Groaning lols
+
+{{< youtube e7DkeQ0roAM >}}
