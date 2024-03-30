@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-Link: Recursion\! http://tumblr.com/xrx1hthki
+Link: Recursion![^1] https://tumblr.com/xrx1hthki
+
+[^1]: Except it doesn't really work without this post being on Tumblr 😅

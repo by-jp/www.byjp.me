@@ -5,6 +5,6 @@ tags:
 - from-twitter
 ---
 
-via http://ww.flyingcoffin.com/
+via https://flyingcoffin.com/
 
 {{< imgorvid src="media-1.jpg" >}}

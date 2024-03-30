@@ -26,6 +26,7 @@ Things I might work on within my personal blog's software.
   - [ ] Add tags from #hashtags
   - [ ] Add links to memex from §refs
 - [ ] Switch Memex to single file (easier to post to)
+- [ ] Remove http://gowal.la & https://4sq.com links and/or posts that are useless without them
 
 ### Working
 

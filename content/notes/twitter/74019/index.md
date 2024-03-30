@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-Just updated my photos on Flickr \(http://flickr.com/photos/jphastings\) and got old blog working at the new place: http://blog.kedakai.co.uk Cool
+Just updated my photos on Flickr \(https://flickr.com/photos/jphastings\) and got old blog working at the new place: https://blog.kedakai.co.uk[^1] Cool
+
+[^1]: Import note: Of course _that_ 'new place' has now been superceded by _this_ new place!
