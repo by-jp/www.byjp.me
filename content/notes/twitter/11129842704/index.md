@@ -4,6 +4,6 @@ tags:
 - imported
 - from-twitter
 - jp
-inReplyTo: ../11129728018
+inReplyTo: /notes/twitter/11129728018
 ---
 {{< friend "jp" >}} 4 mins past - get NTP already. Stupid gate. Can't even tell the time.

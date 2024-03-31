@@ -5,7 +5,7 @@ tags:
 - from-twitter
 - LSEFestival
 - NewWorldDisorders
-inReplyTo: ../1100513495924264960
+inReplyTo: /notes/twitter/1100513495924264960
 ---
 It's even more powerful with this glorious bombshell from [@byers90](/twitter/#/byers90) \(I paraphrase\):
 

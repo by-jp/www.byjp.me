@@ -4,7 +4,7 @@ tags:
 - imported
 - from-twitter
 - MiriscientMonday
-inReplyTo: ../1074598300777672704
+inReplyTo: /notes/twitter/1074598300777672704
 ---
 So now I strive to learn as much\
 About the wondrous, and absurd, and such\

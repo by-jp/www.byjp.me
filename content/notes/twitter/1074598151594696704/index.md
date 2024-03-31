@@ -4,7 +4,7 @@ tags:
 - imported
 - from-twitter
 - MiriscientMonday
-inReplyTo: ../1074597982748794881
+inReplyTo: /notes/twitter/1074597982748794881
 ---
 But there's only so much you can do from bed.\
 Locked into reflection, sometimes it's novelty\

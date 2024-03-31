@@ -32,10 +32,11 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ .Permalink | absURL }}</guid>
       <description>
-        {{ with .Params.bookmarkOf }}
-          Thoughts on {{.}}
+        {{ if .Params.bookmarkOf }}
+          {{- $reference := partial "reference.obj" (dict "url" .Params.bookmarkOf "page" .) -}}
+          Thoughts on a bookmarked article{{ with $reference.name }}: {{.}}{{ end }}.
         {{ else }}
-          {{ .Summary | html }}
+          {{ .Summary }}
         {{ end }}
       </description>
       <content:encoded>
@@ -44,6 +45,8 @@
         {{- end }}
         {{ if .Params.bookmarkOf }}
         &lt;p&gt;&lt;i&gt;{{ partial "bookmark-of.html" . | html }}&lt;/i&gt;&lt;/p&gt;
+        {{ else if .Params.inReplyTo }}
+        &lt;p&gt;&lt;i&gt;{{ partial "in-reply-to.html" . | html }}&lt;/i&gt;&lt;/p&gt;
         {{ end }}
         {{ .Content | html }}
       </content:encoded>

@@ -1,0 +1,9 @@
+{{- $url := .url -}}
+{{- $page := .page -}}
+{{- $reference := dict -}}
+{{- range $page.Params.references -}}
+  {{- if eq .url $url -}}
+    {{- $reference = . -}}
+  {{- end }}
+{{- end -}}
+{{- return $reference -}}

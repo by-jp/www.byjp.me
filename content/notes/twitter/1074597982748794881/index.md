@@ -4,7 +4,7 @@ tags:
 - imported
 - from-twitter
 - MiriscientMonday
-inReplyTo: ../1074597771854913537
+inReplyTo: /notes/twitter/1074597771854913537
 ---
 So I'd turn the other cheek\
 And maybe sneak another forty winks\

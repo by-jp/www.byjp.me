@@ -3,6 +3,6 @@ date: "2019-09-09T17:22:17Z"
 tags:
 - imported
 - from-twitter
-inReplyTo: ../1171111386174197769
+inReplyTo: /notes/twitter/1171111386174197769
 ---
 The tube has the same colour themes, styling and fonts to give a consistent guide onward. {{< imgorvid src="media-1.jpg" >}}

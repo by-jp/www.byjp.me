@@ -4,7 +4,7 @@ tags:
 - imported
 - from-twitter
 - MiriscientMonday
-inReplyTo: ../1074598404293050368
+inReplyTo: /notes/twitter/1074598404293050368
 ---
 To be in awe of what my fellow dreamers make,\
 Of their dreams or with their hands when wide awake\

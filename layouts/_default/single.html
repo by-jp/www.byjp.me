@@ -93,9 +93,8 @@
       <div class="post-content e-content" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">
         {{ if .Params.bookmarkOf }}
           <p class="bookmark-of">{{ partial "bookmark-of.html" . }}</p>
-        {{ end }}
-        {{ if .Params.in_reply_to -}}
-          <small>{{ partial "svg.html" (dict "name" "reply") }} Replying to <a href="{{ .Params.in_reply_to }}">this post</a>.</small>
+        {{ else if .Params.inReplyTo -}}
+          <p class="in-reply-to">{{ partial "in-reply-to.html" . }}</p>
         {{- end }}
         {{ .Content }}
       </div>

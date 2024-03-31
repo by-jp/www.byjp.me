@@ -4,7 +4,7 @@ tags:
 - imported
 - from-twitter
 - MiriscientMonday
-inReplyTo: ../1074598151594696704
+inReplyTo: /notes/twitter/1074598151594696704
 ---
 Turns out, shock horror, I'm nothing new\
 There's quite a few folks who take the view\

@@ -4,6 +4,6 @@ tags:
 - imported
 - from-twitter
 - jp
-inReplyTo: ../11129451946
+inReplyTo: /notes/twitter/11129451946
 ---
 {{< friend "jp" >}} electric gate, but obviously not sync'd to GMT. Boo technology.
