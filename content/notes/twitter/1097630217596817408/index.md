@@ -11,4 +11,6 @@ I took a canvas \(traditional start\)\
 Some crayons \(how old are you?\)\
 And a hairdryer \(uh oh…\)\
 \
-And tamed gravity and Brownian motion enough to make this weirdness 😁🌈 {{< imgorvid src="media-1.jpg" >}}
+And tamed gravity and Brownian motion enough to make this weirdness 😁🌈 
+{{< imgorvid src="media-1.jpg" >}}
+{{< imgorvid src="media-2.jpg" >}}

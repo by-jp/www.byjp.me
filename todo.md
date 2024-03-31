@@ -12,7 +12,7 @@ Things I might work on within my personal blog's software.
 
 - [ ] Add `inReplyTo` support (like bookmarks)
 - [ ] Complete Twitter import  
-  - [ ] Figure out missing multi-photo tweets (eg. 1031265304675053568)  
+  - [x] Figure out missing multi-photo tweets (eg. 1031265304675053568)  
   - [ ] Remove reply tweets with no parent (the one to mhudack is a good example)  
   - [x] Fix hashtags with poor accessibility multiwordhashtags  
   - [x] Fix goodreads links (point to blog)  
