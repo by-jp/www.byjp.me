@@ -8,4 +8,4 @@ tags:
 - sloMoBro
 - chris
 ---
-[sloMoBro](/tags/slomobro) / [Chris](/tags/chris)
+[sloMoBro](/tags/slomobro) / {{< friend chris >}}
