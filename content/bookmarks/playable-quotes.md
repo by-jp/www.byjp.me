@@ -6,7 +6,7 @@ category:
   - games
   - emulation
   - web
-bookmarkOf: https://tenmile.quote.games/
+bookmarkOf: https://tenmile.quote.games
 references:
   bookmark:
     url: https://tenmile.quote.games

@@ -11,10 +11,11 @@
 
 {{- $page := . -}}
 {{- $url := .Params.bookmarkOf -}}
+{{- $hostname := ($url | urls.Parse).Hostname -}}
 {{- $reference := partial "reference.obj" (dict "url" $url "page" $page) -}}
 {{ partial "svg.html" (dict "name" "message") }} Thoughts on{{" "}}
 {{- with $reference.name -}}
   the {{ partial "partials/article-type.html" (default "article" $reference.type) }} {{ partial "rich-link.html" (dict "Class" "u-bookmark-of" "Destination" $url "Text" . "Page" $page) }}
 {{- else -}}
-  {{ partial "rich-link.html" (dict "Class" "u-bookmark-of" "Destination" $url "Text" (printf "an article from %s" (($url | urls.Parse).Hostname)) "Page" $page) }}
+  {{ partial "rich-link.html" (dict "Class" "u-bookmark-of" "Destination" $url "Text" (printf "an article from %s" $hostname) "Page" $page) }}
 {{- end }}
