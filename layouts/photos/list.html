@@ -24,7 +24,7 @@
                         <li class="post-item">{{- "" -}}
                             <a href="{{.Permalink}}">
                               {{- $firstMedia := index .Params.Media 0 -}}
-                              <img src="{{.Permalink}}{{ $firstMedia.url }}" {{ with $firstMedia.alt }}alt="{{ . }}"{{ end }} />{{- "" -}}
+                              <img src="{{.Permalink}}{{ $firstMedia.url }}{{if hasSuffix $firstMedia.url ".mp4"}}.jpg{{ end }}" {{ with $firstMedia.alt }}alt="{{ . }}"{{ end }} />{{- "" -}}
                             </a>{{- "" -}}
                         </li>
                     {{- end -}}
