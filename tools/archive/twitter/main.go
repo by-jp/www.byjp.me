@@ -72,7 +72,7 @@ type tweet struct {
 				MediaURL    string `json:"media_url"`
 				ExpandedURL string `json:"expanded_url"`
 			}
-		} `json:"entities"`
+		} `json:"extended_entities"`
 	} `json:"tweet"`
 }
 
@@ -212,7 +212,7 @@ func tweetToNote(t tweet, mediaMap map[string]string, outputDir string, selfUser
 			fm.Tags = append(fm.Tags, tag)
 			return fmt.Sprintf("%s{{< friend \"%s\" >}}", before, name)
 		} else if prefix == "@" {
-			return fmt.Sprintf("%s[@%s](https://twitter.com/%s)", before, label, label)
+			return fmt.Sprintf("%s[@%s](/twitter/#/%s)", before, label, label)
 		} else if prefix == "#" {
 			fm.Tags = append(fm.Tags, label)
 			return fmt.Sprintf("%s[%s](/tags/%s)", before, label, label)
@@ -224,19 +224,24 @@ func tweetToNote(t tweet, mediaMap map[string]string, outputDir string, selfUser
 	// Add media
 	mp := getMediaPaths(t)
 	i := 1
-	for twitURL, zipPath := range mp {
-		ext := path.Ext(zipPath)
-		hugoName := fmt.Sprintf("media-%d%s", i, ext)
-		hugoMedia := path.Join(postDir, hugoName)
+	for twitURL, zipPaths := range mp {
+		var newImages string
 
-		mediaMap[zipPath] = hugoMedia
+		for _, zipPath := range zipPaths {
+			ext := path.Ext(zipPath)
+			hugoName := fmt.Sprintf("media-%d%s", i, ext)
+			newImages = fmt.Sprintf(`%s%s{{< imgorvid src="%s" >}}`, newImages, "\n", hugoName)
+
+			mediaMap[zipPath] = path.Join(postDir, hugoName)
+			i++
+		}
+
 		text = strings.Replace(
 			text,
 			fmt.Sprintf("[%s](%s)", twitURL, twitURL),
-			fmt.Sprintf(`{{< imgorvid src="%s" >}}`, hugoName),
+			newImages,
 			1,
 		)
-		i++
 	}
 
 	// Add date
@@ -411,8 +416,9 @@ func untwitpic(url string, postDir string) (string, error) {
 	return fName, nil
 }
 
-func getMediaPaths(t tweet) map[string]string {
-	paths := make(map[string]string)
+func getMediaPaths(t tweet) map[string][]string {
+	paths := make(map[string][]string)
+
 	for _, m := range t.Tweet.Entities.Media {
 		partName := path.Base(m.MediaURL)
 		if strings.Contains(m.MediaURL, "/tweet_video_thumb/") {
@@ -420,7 +426,8 @@ func getMediaPaths(t tweet) map[string]string {
 		}
 		fname := fmt.Sprintf("%s-%s", t.Tweet.ID, partName)
 
-		paths[m.ExpandedURL] = path.Join("data", "tweets_media", fname)
+		imgPath := path.Join("data", "tweets_media", fname)
+		paths[m.ExpandedURL] = append([]string{imgPath}, paths[m.ExpandedURL]...)
 	}
 	return paths
 }
