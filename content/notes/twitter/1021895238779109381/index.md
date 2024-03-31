@@ -3,7 +3,7 @@ date: "2018-07-24T23:09:45Z"
 tags:
 - imported
 - from-twitter
-in_reply_to: ../1021894710011547648
+inReplyTo: ../1021894710011547648
 ---
 My take? Psychology is complex. Understanding even a slice gives a better shot at smooth group function \(home or work\).
 

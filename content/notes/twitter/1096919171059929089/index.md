@@ -4,7 +4,7 @@ tags:
 - imported
 - from-twitter
 - golang
-in_reply_to: ../1096915446702489600
+inReplyTo: ../1096915446702489600
 ---
 "How did I do it?", you ask?
 

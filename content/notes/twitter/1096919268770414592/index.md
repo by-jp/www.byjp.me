@@ -4,7 +4,7 @@ tags:
 - imported
 - from-twitter
 - golang
-in_reply_to: ../1096919221345357824
+inReplyTo: ../1096919221345357824
 ---
 I decided to generate the gif in [golang](/tags/golang) too. Palette quantisation was fun to learn about; how you take a 32 bit colour image and decide which colours you should use when downsampling into 256 colours.
 

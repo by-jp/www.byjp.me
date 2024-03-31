@@ -4,6 +4,6 @@ tags:
 - imported
 - from-twitter
 - jp
-in_reply_to: ../3756530104
+inReplyTo: ../3756530104
 ---
 {{< friend "jp" >}} found a few. Oxford unabridged is 213557 words long\! Wonder how many I know? Could take a while...

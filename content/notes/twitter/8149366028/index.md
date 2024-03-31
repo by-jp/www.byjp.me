@@ -6,6 +6,6 @@ tags:
 - jp
 - Apple
 - bug
-in_reply_to: ../8149186872
+inReplyTo: ../8149186872
 ---
 {{< friend "jp" >}} Yeah, don't send a 'apso' dmap tag when you mean 'aply'. True story. Worth telling [Apple](/tags/Apple) there's a [bug](/tags/bug)?

@@ -3,8 +3,8 @@ date: "2018-12-17T09:31:38Z"
 tags:
 - imported
 - from-twitter
-- miriscientmonday
-in_reply_to: ../1074597771854913537
+- MiriscientMonday
+inReplyTo: ../1074597771854913537
 ---
 So I'd turn the other cheek\
 And maybe sneak another forty winks\

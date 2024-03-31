@@ -4,6 +4,6 @@ tags:
 - imported
 - from-twitter
 - edds
-in_reply_to: ../719620783807574020
+inReplyTo: ../719620783807574020
 ---
 The only shame is I can't give {{< friend "edds" >}} free food for building it - I'll just have to bring some top notch biscuits in instead.

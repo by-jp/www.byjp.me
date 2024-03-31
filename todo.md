@@ -11,13 +11,7 @@ Things I might work on within my personal blog's software.
 ### Ideas
 
 - [ ] Add `inReplyTo` support (like bookmarks)
-- [ ] Complete Twitter import  
-  - [x] Figure out missing multi-photo tweets (eg. 1031265304675053568)  
-  - [ ] Remove reply tweets with no parent (the one to mhudack is a good example)  
-  - [x] Fix hashtags with poor accessibility multiwordhashtags  
-  - [x] Fix goodreads links (point to blog)  
-  - [x] Fix instagram links (~~point to blog~~ delete; they're cross-posts anyway)  
-  - [ ] Show (internal) replies to this note
+- [ ] Show (internal) replies to this note
 - [ ] Import from Omnivore daily  
 - [ ] Facebook import?
 - [ ] Record new webmentions on publish
@@ -43,3 +37,9 @@ Things I might work on within my personal blog's software.
   - [x] Include summaries of recent posts (of all types)
 - [x] Retire Twitter
 - [x] Remove 'instagr.am' posts (they're already imported as cross-posts)
+- [x] Complete Twitter import  
+  - [x] Figure out missing multi-photo tweets (eg. 1031265304675053568)  
+  - [x] Remove reply tweets with no parent (the one to mhudack is a good example)  
+  - [x] Fix hashtags with poor accessibility multiwordhashtags  
+  - [x] Fix goodreads links (point to blog)  
+  - [x] Fix instagram links (~~point to blog~~ delete; they're cross-posts anyway)
