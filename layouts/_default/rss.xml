@@ -43,6 +43,20 @@
         {{- range $i, $src := .Params.Media }}
         &lt;img src="{{ path.Join $page.RelPermalink $src.url | absURL }}" {{ with $src.alt }}alt="{{ . }}" {{ end }}/&gt;&lt;br/&gt;
         {{- end }}
+        {{- if eq .Section "calendar" -}}
+          {{ $timing := dict -}}
+          {{ range .Params.timings -}}
+            {{ if (time.AsTime .starts).After time.Now -}}
+              {{ $timing = . -}}
+              {{ break -}}
+            {{ end -}}
+          {{ end -}}
+          {{ if $timing  }}
+            &lt;p style="font-style:italic;font-size:small"&gt;I'm planning on going to this event on 
+            {{ partial "year-relative-date.txt" (time.AsTime $timing.starts) }}.
+            See the bottom of &lt;a href="{{ .Permalink | absURL }}#post-info"&gt;the post&lt;/a&gt; for more information, and get in touch if you'd like to go together!&lt;/p&gt;
+          {{ end }}
+        {{- end -}}
         {{ if .Params.bookmarkOf }}
         &lt;p&gt;&lt;i&gt;{{ partial "bookmark-of.html" . | html }}&lt;/i&gt;&lt;/p&gt;
         {{ else if .Params.inReplyTo }}
