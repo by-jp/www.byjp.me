@@ -6,7 +6,8 @@
   <ol class="recent-posts">
     {{- $posts := where .Site.RegularPages "Section" "in" (slice "posts" "bookmarks" "poetry") -}}
     {{- range $posts.ByPublishDate.Reverse | first 6 -}}
-      {{- $typeSVG := index .Site.Params.defaultSVG .Type -}}
+      {{- $postType := partial "post-type.txt" . -}}
+      {{- $typeSVG := index .Site.Params.defaultSVG ( partial "kebab.txt" $postType) -}}
       <li>
         {{ partial "svg.html" (dict "name" $typeSVG) }}
         <a href="{{.Permalink}}">
@@ -14,7 +15,7 @@
         </a>
         <div class="summary">
           <div>
-            <span class="always-accented">{{- partial "post-type.html" . }}</span>
+            <span class="always-accented">{{ $postType }}</span>
             <date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">
               {{ partial "year-relative-date.html" .Date }}</date>
             </div>
@@ -53,7 +54,7 @@
     {{- $picPage := index (where .Site.RegularPages "Section" "eq" "photos") 0 -}}
     {{- with $picPage -}}
       <div class="photo">
-        <div class="context">Photo {{ partial "svg.html" (dict "name" "camera") }} <a href="{{ .RelPermalink }}"><date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">{{ partial "year-relative-date.html" .Date }}</date></a></div>
+        <div class="context">{{ partial "svg.html" (dict "name" "camera") }} <a href="{{ .RelPermalink }}"><date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">{{ partial "year-relative-date.html" .Date }}</date></a></div>
         <figure>
           
           {{- $src := index $picPage.Params.Media 0 -}}
@@ -68,7 +69,7 @@
     {{- $notePage := index (where .Site.RegularPages "Section" "eq" "notes") 0 -}}
     {{- with $notePage -}}
       <div class="note">
-        <div class="context">Note {{ partial "svg.html" (dict "name" "message") }} <a href="{{ .RelPermalink }}"><date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">
+        <div class="context">{{ partial "svg.html" (dict "name" "message") }} <a href="{{ .RelPermalink }}"><date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">
           {{ partial "year-relative-date.html" .Date }}</date></a>
         </div>
 

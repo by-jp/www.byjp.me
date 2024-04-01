@@ -65,10 +65,12 @@ date = ["date", "publishDate", "lastmod", ":git"]
     poetry = "🥁"
   
   [params.defaultSVG]
-    posts = "document"
+    post = "document"
     bookmarks = "bookmark"
+    article-bookmark = "bookmark"
+    video-bookmark = "video"
     notes = "message"
-    photos = "camera"
+    photo = "camera"
     calendar = "calendar"
     review = "review"
     poetry = "feather"
