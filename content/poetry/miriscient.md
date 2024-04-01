@@ -1,8 +1,9 @@
 ---
 type: poetry
-summary: A poem I wrote called Miriscient
+summary: A poem I wrote, called Miriscient, that I recently rediscovered amongst old tweets.
 title: Miriscient
 date: 2018-12-17T09:30:48Z
+publishDate: 2024-03-31T19:51:59.781Z
 align: left
 ---
 

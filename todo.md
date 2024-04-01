@@ -43,3 +43,4 @@ Things I might work on within my personal blog's software.
   - [x] Fix goodreads links (point to blog)  
   - [x] Fix instagram links (~~point to blog~~ delete; they're cross-posts anyway)
 - [x] Add `inReplyTo` support (like bookmarks)
+- [x] Add calendar to front page

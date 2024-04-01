@@ -63,6 +63,15 @@ date = ["date", "publishDate", "lastmod", ":git"]
     memex = "🧠"
     review = "📝"
     poetry = "🥁"
+  
+  [params.defaultSVG]
+    posts = "document"
+    bookmarks = "bookmark"
+    notes = "message"
+    photos = "camera"
+    calendar = "calendar"
+    review = "review"
+    poetry = "feather"
 
 [languages]
   [languages.en]

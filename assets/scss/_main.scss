@@ -171,8 +171,9 @@ a.noaccent {
 
 img.profile {
   float: left;
-  height: 3em;
+  height: 4em;
   border-radius: 1em;
+  margin: 0.25em 0.75em 0.75em 0;
 
   filter: grayscale(1);
   transition-property: color, filter;
@@ -858,18 +859,11 @@ mark {
       margin-inline: auto;
     }
 
-    li {
-      &::before{
-        position: absolute;
-        left: -1.5em;
-        text-align: right;
-        width: 1em;
-        content: attr(data-type-emoji);
-      }
-
-      &:hover::before {
-        content: attr(data-my-emoji);
-      }
+  li svg{
+      position: absolute;
+      left: -1.5em;
+      margin-top: 0.25em;
+      text-align: right;
     }
 
     & .summary {
@@ -955,7 +949,6 @@ mark {
 
   .context {
     font-size: 0.8rem;
-    opacity: 0.6;
   }
 }
 
@@ -963,4 +956,17 @@ mark {
   border-radius:12px;
   width:100%;
   max-width:486px;
+}
+
+.about-me {
+  text-align: left;
+}
+
+.previews svg {
+  color: var(--accent);
+  display: inline-block;
+  height: 1em;
+  vertical-align: -0.125em;
+  width: 1em;
+  height: 1em;
 }
