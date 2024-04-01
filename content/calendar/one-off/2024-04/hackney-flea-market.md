@@ -4,7 +4,7 @@ emoji: 🛋️
 date: 2024-04-01T13:20:00.082+01:00
 timings:
   - starts: 2024-04-28T10:00:00.000+01:00
-    duration: P7D
+    duration: PT7H
 link: https://www.eventbrite.co.uk/e/the-giant-london-flea-market-tickets-847335211427?aff=ebdssbdestsearch
 location:
   name: Queen Elizabeth Olympic Park Multi-Storey Car Park

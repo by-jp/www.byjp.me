@@ -5,7 +5,7 @@ date: 2024-04-01T12:29:35.638+01:00
 timings:
   - starts: 2024-04-09T13:00:00.000+01:00
     flexible: true
-    duration: P2D
+    duration: PT2H
 link: https://ravenrow.org/exhibitions/some-may-work-as-symbols-art-made-in-brazil-1950s-70s
 location:
   name: Raven Row
