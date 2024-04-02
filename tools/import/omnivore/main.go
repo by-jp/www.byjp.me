@@ -15,6 +15,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/joho/godotenv"
 	"gopkg.in/yaml.v2"
 )
 
@@ -28,6 +29,11 @@ var ignoreLabels = []string{
 }
 
 func main() {
+	if err := godotenv.Load(); err != nil {
+		fmt.Fprintf(os.Stderr, "Error: %v\n", err)
+		os.Exit(1)
+	}
+
 	apiKey, ok := os.LookupEnv("OMNIVORE_API_KEY")
 	if !ok || len(apiKey) == 0 {
 		fmt.Fprint(os.Stderr, "OMNIVORE_API_KEY is not set")
@@ -42,8 +48,9 @@ func main() {
 	outputDir := path.Join(rootDir, "content/bookmarks")
 	if !isDir(outputDir) {
 		fmt.Printf(
-			"Usage: %s [directory]\n  'directory' should be the root of your hugo blog (default: ./)\n",
+			"Usage: %s [directory]\n  [directory] should be the root of your hugo blog (current: %s)\n",
 			path.Base(os.Args[0]),
+			rootDir,
 		)
 		os.Exit(1)
 	}
@@ -91,7 +98,9 @@ func outputArticle(article Article, outputDir string) error {
 		fm.Date = article.BookmarkDate.Format(time.RFC3339)
 	}
 
-	fm.Title = article.Title
+	if len(fm.Title) == 0 {
+		fm.Title = article.Title
+	}
 	fm.BookmarkOf = article.OriginalURL
 	fm.Tags = removeDupes(append(fm.Tags, article.Tags...))
 
