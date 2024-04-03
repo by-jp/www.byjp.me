@@ -17,6 +17,8 @@ import (
 
 	"golang.org/x/text/encoding/charmap"
 	"gopkg.in/yaml.v2"
+
+	. "github.com/by-jp/www.byjp.me/tools/shared"
 )
 
 const titleLength = 48
@@ -48,33 +50,10 @@ var tagMap = map[string]string{
 	"@yvetteedrei":     "Yvette",
 }
 
-func check(err error, msg string) {
-	if err != nil {
-		fmt.Fprintf(os.Stderr, "%s\n  %v", msg, err)
-		os.Exit(1)
-	}
-}
-
-type closer interface {
-	Close() error
-}
-
-func doClose(c closer, msg string) {
-	check(c.Close(), msg)
-}
-
 type location struct {
 	Name      string
 	Latitude  float64
 	Longitude float64
-}
-
-type frontMatter struct {
-	Title string
-	Media []string
-	Date  string
-	Draft bool
-	Tags  []string
 }
 
 type post struct {
@@ -99,13 +78,13 @@ func main() {
 	outputDir := path.Join(hugo, "content", "photos")
 
 	zf, err := zip.OpenReader(archive)
-	check(err, "Unable to open instagram archive")
-	defer doClose(zf, "Unable to close zipfile")
+	Check(err, "Unable to open instagram archive")
+	defer DoClose(zf, "Unable to close zipfile")
 
 	postCount, mediaMap, err := createPosts(zf, outputDir)
-	check(err, "Unable to create hugo posts for your instagram data")
+	Check(err, "Unable to create hugo posts for your instagram data")
 	// TODO: Rewind zip?
-	check(copyMedia(zf, mediaMap), "Unable to copy media to your hugo blog")
+	Check(copyMedia(zf, mediaMap), "Unable to copy media to your hugo blog")
 
 	fmt.Printf("Success! %d Instagram posts (with %d images and videos) were added to your hugo blog.\n", postCount, len(mediaMap))
 }
@@ -123,7 +102,7 @@ func createPosts(zf *zip.ReadCloser, outputDir string) (int, map[string]string, 
 		if err != nil {
 			return 0, nil, err
 		}
-		defer doClose(jf, "Unable to close posts file within archive")
+		defer DoClose(jf, "Unable to close posts file within archive")
 
 		return postsFromFile(jf, outputDir)
 	}
@@ -182,7 +161,7 @@ func postToPost(p post, mediaMap map[string]string, outputDir string) error {
 		return err
 	}
 
-	fm := frontMatter{
+	fm := FrontMatter{
 		Tags: []string{"imported", "from-instagram"},
 	}
 
@@ -287,13 +266,13 @@ func copyMedia(zf *zip.ReadCloser, mediaMap map[string]string) error {
 		if err != nil {
 			return err
 		}
-		defer doClose(mf, "Unable to close media file within archive")
+		defer DoClose(mf, "Unable to close media file within archive")
 
 		mediaFile, err := os.Create(dst)
 		if err != nil {
 			return err
 		}
-		defer doClose(mediaFile, "Unable to close media file in blog archive")
+		defer DoClose(mediaFile, "Unable to close media file in blog archive")
 
 		io.Copy(mediaFile, mf)
 

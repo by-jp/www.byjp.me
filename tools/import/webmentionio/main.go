@@ -11,8 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/joho/godotenv"
-	"github.com/kelseyhightower/envconfig"
+	"github.com/by-jp/www.byjp.me/tools/shared"
 
 	synd "github.com/by-jp/www.byjp.me/tools/syndicate/shared"
 )
@@ -27,9 +26,8 @@ type Config struct {
 }
 
 func main() {
-	check(godotenv.Load())
 	var c Config
-	check(envconfig.Process("webmentionio", &c))
+	check(shared.LoadConfig("webmentionio", &c))
 
 	mentions, err := retrieveMentions(c)
 	check(err)
