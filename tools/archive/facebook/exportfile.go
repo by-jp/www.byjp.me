@@ -34,6 +34,8 @@ func makePostPath(postType string, postDate time.Time, postHash string) string {
 	return path.Join("content", postType+"s", "facebook", postDate.Format("2006-01"), postHash)
 }
 
+var youtubeRE = regexp.MustCompile(`youtu(?:\.be/|be.com/watch\?v=)(.+)`)
+
 func postize(e PostCheckinPhotoOrVideo, matches []string) (shared.Post, shared.MediaMap, bool, error) {
 	archiveRoot := matches[1]
 
@@ -55,6 +57,11 @@ func postize(e PostCheckinPhotoOrVideo, matches []string) (shared.Post, shared.M
 				"from-facebook",
 			},
 		},
+	}
+
+	// Ignore my posts on others' walls
+	if strings.HasPrefix(post.FrontMatter.Title, "JP Hastings-Spital wrote on") {
+		return post, nil, true, nil
 	}
 
 	for _, attach := range e.Attachments {
@@ -111,9 +118,8 @@ func postize(e PostCheckinPhotoOrVideo, matches []string) (shared.Post, shared.M
 
 	post.PostFile = postFile
 
-	// Ignore my posts on others' walls
-	if strings.HasPrefix(post.FrontMatter.Title, "JP Hastings-Spital wrote on") {
-		return post, nil, true, nil
+	if match := youtubeRE.FindStringSubmatch(post.FrontMatter.BookmarkOf); len(match) > 1 {
+		post.PostFile = fmt.Sprintf("%s\n\n{{< youtube \"%s\" >}}", post.PostFile, match[1])
 	}
 
 	return post, mm, false, nil
