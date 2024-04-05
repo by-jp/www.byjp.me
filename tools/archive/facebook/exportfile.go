@@ -75,6 +75,10 @@ func postize(e PostCheckinPhotoOrVideo, matches []string) (shared.Post, shared.M
 				link = "https://" + link[7:]
 			}
 
+			if !strings.HasPrefix(link, "https://") {
+				link = "https://" + link
+			}
+
 			if strings.HasPrefix(link, "https://360.io/") || strings.HasPrefix(link, "https://fb.thisismyjam.com") {
 				return shared.Post{}, nil, false, err
 			}
@@ -85,7 +89,10 @@ func postize(e PostCheckinPhotoOrVideo, matches []string) (shared.Post, shared.M
 			if err != nil {
 				fmt.Printf("Couldn't get reference for %s because %v\n", link, err)
 			}
-			post.FrontMatter.References = append(post.FrontMatter.References, ref)
+			// Only bother adding if there's at least a name
+			if ref.Name != "" {
+				post.FrontMatter.References = append(post.FrontMatter.References, ref)
+			}
 
 			if strings.HasSuffix(post.FrontMatter.Title, "shared a link.") {
 				post.FrontMatter.Title = ""

@@ -8,7 +8,7 @@ references:
   type: video
   name: LSUwake November Riding
   author: lborowaterski
-  date: 2024-04-04T15:14:10.630056+01:00
+  date: 2006-11-20T04:28:29-08:00
 ---
 My Brother's first attempt at video editing (his new shiny camera is quite shiny!) Any thoughts people?
 

@@ -95,6 +95,10 @@ func getRef(ref *Reference) error {
 		return err
 	}
 
+	if date := findAttr(doc, "content", `meta[itemprop="datePublished"]`, `meta[property="article:published_time"]`, `meta[property="video:release_date"]`); date != "" {
+		ref.Date, _ = time.Parse(time.RFC3339, date)
+	}
+
 	oembedURL := findAttr(doc, "href", `link[rel="alternate"][type="application/json+oembed"]`)
 	if oembedURL != "" {
 		if err := getRefFromOembed(ref, oembedURL); err != nil {
@@ -104,7 +108,7 @@ func getRef(ref *Reference) error {
 		}
 	}
 
-	ref.Type = findAttr(doc, "content", `meta[property="og:type"]`)
+	ref.Type = strings.Split(findAttr(doc, "content", `meta[property="og:type"]`), ".")[0]
 	ref.Author = findAttr(doc, "content", `meta[itemprop="name"]`)
 	ref.Name = findAttr(doc, "content", `meta[property="og:title"]`, `meta[name="twitter:title"]`)
 	if ref.Name == "" {

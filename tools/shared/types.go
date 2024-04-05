@@ -17,9 +17,9 @@ type FrontMatter struct {
 
 type Reference struct {
 	URL    string    `yaml:"url"`
-	Type   string    `yaml:"type"`
+	Type   string    `yaml:"type,omitempty"`
 	Name   string    `yaml:"name"`
-	Author string    `yaml:"author"`
+	Author string    `yaml:"author,omitempty"`
 	Date   time.Time `yaml:"date"`
 }
 
