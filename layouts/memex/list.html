@@ -6,7 +6,7 @@
             <hgroup class="post-title">
                 <h1 class="p-name">
                     {{ with .Params.emoji }}<span data-emoji="{{.}}"></span>{{end}}
-                    <a href="{{ .Permalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
+                    <a href="{{ .RelPermalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
                 </h1>
             </hgroup>
 
@@ -31,7 +31,7 @@
                         <div class="posts-group">
                             <ul class="posts-list">
                                 <li class="post-item">
-                                    <a href="{{.Permalink}}">
+                                    <a href="{{.RelPermalink}}">
                                         {{ if .Params.emoji }}<span class="post-emoji">{{ .Params.emoji }}</span>{{ end }}
                                         <span class="post-title em">{{.Title}}</span>
                                     </a>
@@ -39,7 +39,7 @@
                                 {{ range .Pages }}
                                     {{ $tags = union $tags .Params.tags }}
                                     <li class="post-item">
-                                        <a href="{{.Permalink}}">
+                                        <a href="{{.RelPermalink}}">
                                             <span class="post-title">{{.Title}}</span>
                                         </a>
                                     </li>
@@ -56,7 +56,7 @@
                             {{ $tags = union $tags .Params.tags }}
                             
                             <li class="post-item">
-                                <a href="{{.Permalink}}">
+                                <a href="{{.RelPermalink}}">
                                     <span class="post-title">{{.Title}}</span>
                                 </a>
                             </li>

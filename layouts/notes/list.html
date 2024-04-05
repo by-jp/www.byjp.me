@@ -8,7 +8,7 @@
         <hgroup class="post-title">
             <h1 class="p-name">
                 {{ with .Params.emoji }}<span data-emoji="{{.}}"></span>{{end}}
-                <a href="{{ .Permalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
+                <a href="{{ .RelPermalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
             </h1>
             {{ partial "alternates.html" . }}
         </hgroup>
@@ -24,7 +24,7 @@
             <article class="post-content e-content">
               {{ .Content }}
               <footer>
-                <a href="{{.Permalink}}">{{ partial "year-relative-date.html" .Date }}</a>
+                <a href="{{.RelPermalink}}">{{ partial "year-relative-date.html" .Date }}</a>
                 {{ if collections.In .Params.tags "from-twitter" }}{{ partial "svg.html" (dict "name" "twitter") }}{{ end }}
               </footer>
             </article>

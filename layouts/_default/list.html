@@ -7,7 +7,7 @@
         <hgroup class="post-title">
             <h1 class="p-name">
                 {{ with .Params.emoji }}<span data-emoji="{{.}}"></span>{{end}}
-                <a href="{{ .Permalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
+                <a href="{{ .RelPermalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
             </h1>
             {{ partial "alternates.html" . }}
         </hgroup>
@@ -23,7 +23,7 @@
                 <ul class="posts-list">
                     {{ range .Pages }}
                         <li class="post-item">
-                            <a href="{{.Permalink}}">
+                            <a href="{{.RelPermalink}}" class="nothashtag">
                                 {{ if .Params.emoji }}<span class="post-emoji">{{ .Params.emoji }}</span>{{ end }}
                                 <span class="post-title">{{ partial "fallbacktitle.txt" . }}</span>
                                 <span class="post-day">

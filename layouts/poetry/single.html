@@ -2,7 +2,7 @@
   <main class="post poetry">
 
     <article class="poem-{{ .Params.align }}">
-        <h2 class="post-title"{{ with .Params.emoji }} data-emoji="{{.}}"{{end}}><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+        <h2 class="post-title"{{ with .Params.emoji }} data-emoji="{{.}}"{{end}}><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h2>
         
         {{ with .Summary }}
           <div class="post-summary p-summary" aria-hidden="true">{{ . }}</div>

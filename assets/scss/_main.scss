@@ -802,7 +802,7 @@ body.nownownow .post-content > p {
   line-height: inherit;
 }
 
-a[href^="/tags/"] {
+a[href^="/tags/"]:not([href*="#"]):not(.nothashtag) {
   white-space: nowrap;
   &:before {
     content: '#';

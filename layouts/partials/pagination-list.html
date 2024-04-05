@@ -2,7 +2,7 @@
     <div class="pagination__buttons">
         {{ if .Paginator.HasPrev }}
             <span class="button previous">
-                <a href="{{ .Paginator.Prev.URL }}">
+                <a href="{{ .Paginator.Prev.URL }}" class="nothashtag">
                     <span class="button__icon">←</span>
                     <span class="button__text">Newer posts</span>
                 </a>
@@ -10,7 +10,7 @@
         {{ end }}
         {{ if .Paginator.HasNext }}
             <span class="button next">
-                <a href="{{ .Paginator.Next.URL }}">
+                <a href="{{ .Paginator.Next.URL }}" class="nothashtag">
                     <span class="button__text">Older posts</span>
                     <span class="button__icon">→</span>
                 </a>

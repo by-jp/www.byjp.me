@@ -7,7 +7,7 @@
         <hgroup class="post-title">
             <h1>
                 {{ with .Params.emoji }}<span data-emoji="{{.}}"></span>{{end}}
-                <a href="{{ .Permalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
+                <a href="{{ .RelPermalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
             </h1>
         </hgroup>
 
@@ -22,9 +22,9 @@
                 <ul class="posts-list">
                     {{- range .Pages -}}
                         <li class="post-item">{{- "" -}}
-                            <a href="{{.Permalink}}">
+                            <a href="{{.RelPermalink}}">
                               {{- $firstMedia := index .Params.Media 0 -}}
-                              <img src="{{.Permalink}}{{ $firstMedia.url }}{{if hasSuffix $firstMedia.url ".mp4"}}.jpg{{ end }}" {{ with $firstMedia.alt }}alt="{{ . }}"{{ end }} />{{- "" -}}
+                              <img src="{{.RelPermalink}}{{ $firstMedia.url }}{{if hasSuffix $firstMedia.url ".mp4"}}.jpg{{ end }}" {{ with $firstMedia.alt }}alt="{{ . }}"{{ end }} />{{- "" -}}
                             </a>{{- "" -}}
                         </li>
                     {{- end -}}

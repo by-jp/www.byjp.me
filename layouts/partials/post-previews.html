@@ -10,7 +10,7 @@
       {{- $typeSVG := index .Site.Params.defaultSVG ( partial "kebab.txt" $postType) -}}
       <li>
         {{ partial "svg.html" (dict "name" $typeSVG) }}
-        <a href="{{.Permalink}}">
+        <a href="{{.RelPermalink}}">
           {{- with .Title -}}{{ . }}{{ else }}{{ .Type | singularize | title }}{{ end -}}
         </a>
         <div class="summary">

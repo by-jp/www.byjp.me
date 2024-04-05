@@ -21,7 +21,7 @@
       <hgroup class="post-title">
         <h1 class="p-name">
           {{ with .Params.emoji }}<span data-emoji="{{.}}"></span>{{end}}
-          <a href="{{ .Permalink }}" class="noaccent">{{ .Title | markdownify }}</a>
+          <a href="{{ .RelPermalink }}" class="noaccent">{{ .Title | markdownify }}</a>
         </h1>
       </hgroup>
 
