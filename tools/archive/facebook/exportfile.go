@@ -49,7 +49,7 @@ func postize(e PostCheckinPhotoOrVideo, matches []string) (shared.Post, shared.M
 
 	postDate := time.Unix(int64(e.Timestamp), 0).UTC()
 	post := shared.Post{
-		Path: makePostPath("post", postDate, postHash),
+		Path: makePostPath("note", postDate, postHash),
 		FrontMatter: shared.FrontMatter{
 			Title: e.Title,
 			Date:  postDate.Format(time.RFC3339),
