@@ -1,0 +1,30 @@
+{{- $url := .url -}}
+{{- $references := .references -}}
+{{- $mf2 := .mf2 -}}
+
+{{- define "partials/article-type.html" -}}
+  {{- if collections.In (slice "cite" "entry") . -}}
+    {{- "article" -}}
+  {{- else if eq . "calendar" -}}
+    {{- "calendar event" -}}
+  {{- else -}}
+    {{- . | singularize -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $hostname := (($url | urls.Parse).Hostname) -}}
+{{- $reference := partial "reference.obj" . -}}
+
+{{- if and (not $reference.name) (strings.HasPrefix $url "/") -}}
+  {{- $other := site.GetPage $url -}}
+  {{- if and $other $other.Page -}}
+    {{- $reference = dict "name" (partial "fallbacktitle.txt" $other.Page) "type" $other.Page.Type "internal" true -}}
+  {{- end -}}
+{{- end -}}
+{{ partial "svg.html" (dict "name" .svg) }} {{ .phrase }}{{" "}}
+{{- with $reference.name -}}
+  {{- if $reference.internal -}}my{{else}}the{{end}} {{ partial "partials/article-type.html" (default "article" $reference.type) }} {{ partial "rich-link.html" (dict "Class" (printf "%s h-cite" $mf2) "url" $url "Text" . "references" $references) }}.
+{{- else -}}
+  {{- $text := printf "an article from %s" $hostname -}}
+  {{- partial "rich-link.html" (dict "Class" $mf2 "url" $url "Text" $text "references" $references) }}
+{{- end }}

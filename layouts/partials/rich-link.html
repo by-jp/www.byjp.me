@@ -1,6 +1,6 @@
-{{- $destination := .Destination -}}
+{{- $url := .url -}}
 {{- $title := .Title -}}
-{{- $isExternal := strings.HasPrefix $destination "http" -}}
+{{- $isExternal := strings.HasPrefix $url "http" -}}
 {{- $text := .Text -}}
 {{/* It pains me that Hugo doesn't have a urls.IsValid method, and has no error catching to allow me to try urls.Parse and catch failures */}}
 {{- if gt (len (strings.FindRE `^https?:\/\/[A-z0-9_-]*?[:]?[A-z0-9_-]*?[@]?[A-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$` .Text)) 0 -}}
@@ -17,13 +17,5 @@
     {{- $text = path.Join $text "…" $last -}}
   {{- end -}}
 {{- end -}}
-{{- $ref := dict -}}
-{{- range $k, $refSpec := .Page.Params.references -}}
-  {{- if eq $refSpec.url $destination -}}
-    {{- $ref = $refSpec -}}
-    {{- if and (ne $title $ref.name) (ne $text $ref.name) -}}
-      {{- $title = printf "External article: %s" $ref.name -}}
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
-<a href="{{ $destination | safeURL }}"{{ with .Class }} class="{{ . }}"{{ end }}{{ with $title }} title="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank"{{ end }}{{ with $ref.rel }} rel="{{ . }}"{{ end }}>{{ $text | safeHTML }}</a>
+{{- $ref := partial "reference.obj" (dict "url" $url "references" .references) -}}
+<a href="{{ $url | safeURL }}"{{ with .Class }} class="{{ . }}"{{ end }}{{ with $title }} title="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank"{{ end }}{{ with $ref.rel }} rel="{{ . }}"{{ end }}>{{ $text | safeHTML }}</a>

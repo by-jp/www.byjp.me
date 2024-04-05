@@ -1,21 +1,4 @@
 {{- if not .Params.bookmarkOf -}}
   {{ errorf "BookmarkOf partial called when no bookmark of param set" -}}
 {{- end -}}
-{{- define "partials/article-type.html" -}}
-  {{- if collections.In (slice "cite" "entry") . -}}
-    {{- "article" -}}
-  {{- else -}}
-    {{- . -}}
-  {{- end -}}
-{{- end -}}
-
-{{- $page := . -}}
-{{- $url := .Params.bookmarkOf -}}
-{{- $hostname := ($url | urls.Parse).Hostname -}}
-{{- $reference := partial "reference.obj" (dict "url" $url "page" $page) -}}
-{{ partial "svg.html" (dict "name" "message") }} Thoughts on{{" "}}
-{{- with $reference.name -}}
-  the {{ partial "partials/article-type.html" (default "article" $reference.type) }} {{ partial "rich-link.html" (dict "Class" "u-bookmark-of" "Destination" $url "Text" . "Page" $page) }}
-{{- else -}}
-  {{ partial "rich-link.html" (dict "Class" "u-bookmark-of" "Destination" $url "Text" (printf "an article from %s" $hostname) "Page" $page) }}
-{{- end }}
+{{ partial "reference-to.html" (dict "url" .Params.bookmarkOf "references" .Params.references "svg" "message" "phrase" "Thoughts on" "mf2" "u-bookmark-of") }}

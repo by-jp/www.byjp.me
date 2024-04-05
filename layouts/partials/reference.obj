@@ -1,7 +1,7 @@
 {{- $url := .url -}}
-{{- $page := .page -}}
+{{- $references := .references -}}
 {{- $reference := dict -}}
-{{- range $page.Params.references -}}
+{{- range $references -}}
   {{- if eq .url $url -}}
     {{- $reference = . -}}
   {{- end }}

@@ -1,1 +1,1 @@
-{{ partial "rich-link.html" (dict "Text" .Text "Destination" .Destination "Title" .Title "Page" .Page) }}
+{{ partial "rich-link.html" (dict "Text" .Text "url" .Destination "Title" .Title "references" .Page.Params.references) }}

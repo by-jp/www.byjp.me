@@ -92,9 +92,11 @@
 
       <div class="post-content e-content" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">
         {{ if .Params.bookmarkOf }}
-          <p class="bookmark-of">{{ partial "bookmark-of.html" . }}</p>
+          <p class="reference-to">{{ partial "bookmark-of.html" . }}</p>
         {{ else if .Params.inReplyTo -}}
-          <p class="in-reply-to">{{ partial "in-reply-to.html" . }}</p>
+          <p class="reference-to">{{ partial "in-reply-to.html" . }}</p>
+        {{ else if .Params.repostOf -}}
+          <p class="reference-to">{{ partial "repost-of.html" . }}</p>
         {{- end }}
         {{ .Content }}
       </div>

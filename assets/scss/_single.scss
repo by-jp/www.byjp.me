@@ -69,7 +69,7 @@
       margin-left: 0.2em;
     }
 
-    p.in-reply-to, p.bookmark-of, p.next-visit {
+    p.reference-to, p.next-visit {
       font-size: small;
       font-style: italic;
     }
@@ -553,7 +553,7 @@ details {
   }
 }
 
-.bookmark-of {
+.reference-to {
   font-style: italic;
   font-synthesis: none;
 }

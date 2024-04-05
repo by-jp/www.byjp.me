@@ -1,0 +1,6 @@
+{{- if not .Params.repostOf -}}
+  {{ errorf "RepostOf partial called when no repost param set" -}}
+{{- end -}}
+{{ partial "reference-to.html" (dict "url" .Params.repostOf "references" .Params.references "svg" "repost" "phrase" "Repost of" "mf2" "u-repost-of") }}
+
+

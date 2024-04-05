@@ -1,31 +1,4 @@
 {{- if not .Params.inReplyTo -}}
   {{ errorf "InReplyTo partial called when no inReplyTo param set" -}}
 {{- end -}}
-{{- define "partials/article-type.html" -}}
-  {{- if collections.In (slice "cite" "entry") . -}}
-    {{- "article" -}}
-  {{- else if eq . "calendar" -}}
-    {{- "calendar event" -}}
-  {{- else -}}
-    {{- . | singularize -}}
-  {{- end -}}
-{{- end -}}
-
-{{- $page := . -}}
-{{- $url := .Params.inReplyTo -}}
-{{- $hostname := (($url | urls.Parse).Hostname) -}}
-{{- $reference := partial "reference.obj" (dict "url" $url "page" $page) -}}
-
-{{- if and (not $reference.name) (strings.HasPrefix $url "/") -}}
-  {{- $other := site.GetPage $url -}}
-  {{- if and $other $other.Page -}}
-    {{- $reference = dict "name" (partial "fallbacktitle.txt" $other.Page) "type" $other.Page.Type "internal" true -}}
-  {{- end -}}
-{{- end -}}
-{{ partial "svg.html" (dict "name" "reply") }} As a reply to{{" "}}
-{{- with $reference.name -}}
-  {{- if $reference.internal -}}my{{else}}the{{end}} {{ partial "partials/article-type.html" (default "article" $reference.type) }} {{ partial "rich-link.html" (dict "Class" "u-in-reply-to" "Destination" $url "Text" . "Page" $page) }}.
-{{- else -}}
-  {{- $text := printf "an article from %s" $hostname -}}
-  {{- partial "rich-link.html" (dict "Class" "u-in-reply-to" "Destination" $url "Text" $text "Page" $page) }}
-{{- end }}
+{{ partial "reference-to.html" (dict "url" .Params.inReplyTo "references" .Params.references "svg" "reply" "phrase" "As a reply to" "mf2" "u-in-reply-to") }}
