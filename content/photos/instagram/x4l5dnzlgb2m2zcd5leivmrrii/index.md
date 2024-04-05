@@ -10,6 +10,8 @@ media:
 date: "2021-11-10T19:37:15Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - yvette
 ---
 Experiments in dithering \(with {{< friend yvette >}} and JP\)

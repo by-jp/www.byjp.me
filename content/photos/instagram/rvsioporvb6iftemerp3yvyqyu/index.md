@@ -14,6 +14,8 @@ media:
 date: "2018-12-04T23:26:38Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - NoMoreNormal
 ---
 YES. THAT IS WHAT LIVE MUSIC SHOULD BE LIKE.

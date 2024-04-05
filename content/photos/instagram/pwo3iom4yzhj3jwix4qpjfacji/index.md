@@ -5,6 +5,8 @@ media:
 date: "2017-03-23T19:14:24Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - the brat pack
 ---
 Waitin' to start [The Brat Pack](/tags/the brat pack)

@@ -5,6 +5,8 @@ media:
 date: "2019-03-06T03:08:06Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - free
 ---
 Yesterday we visited Alcatraz; it was extremely good, not at all the tourist trap I was somewhat expecting\!

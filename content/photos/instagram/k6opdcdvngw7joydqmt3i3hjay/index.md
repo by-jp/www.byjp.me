@@ -6,6 +6,8 @@ media:
 date: "2018-05-20T09:58:37Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - PostcardsForLucy
 ---
 September 3rd

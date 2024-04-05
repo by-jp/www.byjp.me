@@ -7,6 +7,8 @@ media:
 date: "2023-02-15T19:19:24Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - NoFilter
 - imported
 - from-instagram

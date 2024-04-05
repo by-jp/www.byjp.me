@@ -23,7 +23,7 @@
                 <ul class="posts-list">
                     {{ range .Pages }}
                         <li class="post-item">
-                            <a href="{{.RelPermalink}}" class="nothashtag">
+                            <a href="{{.RelPermalink}}">
                                 {{ if .Params.emoji }}<span class="post-emoji">{{ .Params.emoji }}</span>{{ end }}
                                 <span class="post-title">{{ partial "fallbacktitle.txt" . }}</span>
                                 <span class="post-day">

@@ -9,6 +9,8 @@ media:
 date: "2018-12-16T19:55:12Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - SourdoughSunday
 ---
 Om nom nom nom 😍😋🍕

@@ -5,6 +5,8 @@ media:
 date: "2018-04-14T13:25:01Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - andy
 ---
 "The Ship Shop is definitely not ship shape" \(so sayeth [Andy](/tags/andy)\)

@@ -5,6 +5,8 @@ media:
 date: "2018-11-12T18:56:30Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - SoftwareEngineer
 ---
 Today at work I have mostly been hunting bugs.

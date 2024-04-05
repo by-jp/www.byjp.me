@@ -6,6 +6,8 @@ media:
 date: "2017-11-21T21:37:43Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - becky
 ---
 Der Kunst der Fuge

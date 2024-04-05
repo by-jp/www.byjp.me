@@ -5,6 +5,8 @@ media:
 date: "2018-10-10T10:27:43Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - erica
 - joe
 ---

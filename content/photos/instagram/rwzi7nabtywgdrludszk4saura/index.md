@@ -5,6 +5,8 @@ media:
 date: "2014-03-07T22:00:44Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - BetterFridayThanYours
 ---
 Rummaging through childhood Lego box \([BetterFridayThanYours](/tags/betterfridaythanyours)\) and find a DINOSAUR TALON.

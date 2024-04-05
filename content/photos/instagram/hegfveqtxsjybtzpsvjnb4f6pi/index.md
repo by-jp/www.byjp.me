@@ -6,6 +6,8 @@ media:
 date: "2018-03-30T20:53:39Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - PostcardsForLucy
 ---
 Josh in Köln

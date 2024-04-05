@@ -10,7 +10,7 @@
         <div class="pagination__buttons">
             {{ if .NextInSection }}
             <span class="button previous">
-                <a href="{{ .NextInSection.RelPermalink }}" class="nothashtag">
+                <a href="{{ .NextInSection.RelPermalink }}">
                     <span class="button__icon">←</span>
                     <span class="button__text">{{ .NextInSection.Title | default (.NextInSection.Date.Format .Site.Params.dateform) }}</span>
                 </a>
@@ -19,7 +19,7 @@
 
             {{ if .PrevInSection }}
             <span class="button next">
-                <a href="{{ .PrevInSection.RelPermalink }}" class="nothashtag">
+                <a href="{{ .PrevInSection.RelPermalink }}">
                     <span class="button__text">{{ .PrevInSection.Title  | default (.PrevInSection.Date.Format .Site.Params.dateform)}}</span>
                     <span class="button__icon">→</span>
                 </a>

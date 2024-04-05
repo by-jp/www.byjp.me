@@ -6,6 +6,8 @@ media:
 date: "2018-04-28T18:29:44Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - PostcardsForLucy
 ---
 Diving

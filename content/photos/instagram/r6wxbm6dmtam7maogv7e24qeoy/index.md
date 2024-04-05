@@ -6,6 +6,8 @@ media:
 date: "2019-02-18T22:55:29Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - art
 - rainbow
 - crayon

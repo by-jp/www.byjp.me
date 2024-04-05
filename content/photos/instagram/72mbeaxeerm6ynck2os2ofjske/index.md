@@ -11,6 +11,8 @@ media:
 date: "2019-03-14T03:30:37Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - FOMO
 - NoteToSelf
 ---

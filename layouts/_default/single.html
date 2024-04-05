@@ -111,6 +111,16 @@
             {{ partial "svg.html" (dict "name" "twitter") }}
             From <a href="/posts/importing-tweets">twitter archive</a>
           </p>
+        {{ else if in .Params.tags "from-facebook" }}
+          <p>
+              {{ partial "svg.html" (dict "name" "facebook") }}
+              From <a href="/notes/facebook/">facebook archive</a>
+          </p>
+        {{ else if in .Params.tags "from-goodreads" }}
+            <p>
+                {{ partial "svg.html" (dict "name" "goodreads") }}
+                From <a href="/tags/from-goodreads/#">goodreads archive</a>
+            </p>
         {{ end }}
         {{ partial "tags.html" .Params.tags }}
         {{ partial "series-tags.html" . }}

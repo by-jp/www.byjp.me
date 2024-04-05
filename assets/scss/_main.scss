@@ -802,12 +802,14 @@ body.nownownow .post-content > p {
   line-height: inherit;
 }
 
-a[href^="/tags/"]:not([href*="#"]):not(.nothashtag) {
-  white-space: nowrap;
-  &:before {
-    content: '#';
-    text-decoration: none;
-    display:inline-block;
+p, li, blockquote, span.tag {
+  & > a[href^="/tags/"]:not([href*="#"]) {
+    white-space: nowrap;
+    &:before {
+      content: '#';
+      text-decoration: none;
+      display:inline-block;
+    }
   }
 }
 

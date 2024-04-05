@@ -5,6 +5,8 @@ media:
 date: "2018-11-28T08:51:07Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - WithFlyingColours
 ---
 With Flying Colours, Pt.1

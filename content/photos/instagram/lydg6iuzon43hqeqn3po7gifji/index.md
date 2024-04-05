@@ -6,6 +6,8 @@ media:
 date: "2018-04-12T06:45:34Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - PostcardsForLucy
 ---
 Magic

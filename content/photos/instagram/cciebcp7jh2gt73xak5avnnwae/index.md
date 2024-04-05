@@ -5,6 +5,8 @@ media:
 date: "2014-05-26T20:02:06Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - leanne
 ---
 I think I'll try defying gravity… /w [Leanne](/tags/leanne)

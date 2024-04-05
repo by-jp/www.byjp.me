@@ -3,6 +3,7 @@ media:
 - url: media-0.mp4
 date: "2007-08-03T17:48:26Z"
 tags:
+- imported
 - from-facebook
 ---
 I'll give him the credit, he pulled 3 Whirlybirds today, but the only time I was there with my camera he sketched out after the landing :P

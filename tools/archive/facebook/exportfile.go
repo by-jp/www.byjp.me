@@ -54,6 +54,7 @@ func postize(e PostCheckinPhotoOrVideo, matches []string) (shared.Post, shared.M
 			Title: e.Title,
 			Date:  postDate.Format(time.RFC3339),
 			Tags: []string{
+				"imported",
 				"from-facebook",
 			},
 		},

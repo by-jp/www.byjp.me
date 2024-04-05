@@ -5,6 +5,8 @@ media:
 date: "2018-12-01T01:41:20Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - the brat pack
 - WithFlyingColours
 ---

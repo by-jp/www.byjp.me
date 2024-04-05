@@ -5,6 +5,8 @@ media:
 date: "2019-05-09T16:17:58Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - lydia
 ---
 [Lydia](/tags/lydia) leaping across the rocks like there isn't a 5m plummet into a chilly Mediterranean just below 😁

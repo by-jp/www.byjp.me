@@ -6,6 +6,8 @@ media:
 date: "2017-12-09T21:08:41Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - becky
 ---
 Another glorious concert from [Becky](/tags/becky)'s Constanza Chorus - this time Vivaldi's Gloria and ALL of the Christmassy carols and pieces - so good\! 🎄 What a beautiful place\! ⛪

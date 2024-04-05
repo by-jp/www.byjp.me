@@ -5,6 +5,8 @@ media:
 date: "2017-08-31T22:17:28Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - paul
 - jenny
 ---

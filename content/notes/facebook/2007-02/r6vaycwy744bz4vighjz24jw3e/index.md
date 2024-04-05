@@ -3,6 +3,7 @@ title: Flute beatbox - Vidéo Dailymotion
 date: "2007-02-16T23:20:17Z"
 type: repost
 tags:
+- imported
 - from-facebook
 repostOf: https://www.dailymotion.com/cluster/creation/video/x16hdk_flute-beatbox
 references:

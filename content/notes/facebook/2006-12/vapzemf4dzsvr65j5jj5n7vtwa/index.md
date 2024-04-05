@@ -3,6 +3,7 @@ title: Centrifugal Force
 date: "2006-12-11T17:30:59Z"
 type: repost
 tags:
+- imported
 - from-facebook
 repostOf: https://xkcd.com/c123.html
 references:

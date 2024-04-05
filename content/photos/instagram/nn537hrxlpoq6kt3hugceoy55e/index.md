@@ -6,6 +6,8 @@ media:
 date: "2018-06-01T15:48:49Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - PostcardsForLucy
 ---
 Gods

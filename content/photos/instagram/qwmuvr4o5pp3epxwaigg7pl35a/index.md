@@ -5,6 +5,8 @@ media:
 date: "2015-03-08T14:40:17Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - FromTheArchives
 - chris
 ---

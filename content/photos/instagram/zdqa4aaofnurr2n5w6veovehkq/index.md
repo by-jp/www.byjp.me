@@ -5,6 +5,8 @@ media:
 date: "2015-03-14T18:51:09Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - leanne
 ---
 Newton beach with [Leanne](/tags/leanne) - the North has welcomed me most excellently\!

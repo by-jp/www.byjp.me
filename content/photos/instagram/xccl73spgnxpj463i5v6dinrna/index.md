@@ -5,6 +5,8 @@ media:
 date: "2016-09-06T19:14:10Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - ThrowBackThursday
 - NotActuallyThursday
 ---

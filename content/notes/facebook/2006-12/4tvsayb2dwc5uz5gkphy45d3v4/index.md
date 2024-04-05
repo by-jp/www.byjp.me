@@ -3,6 +3,7 @@ title: The World Beard and Moustache Championships®
 date: "2006-12-21T00:25:42Z"
 type: repost
 tags:
+- imported
 - from-facebook
 repostOf: https://www.worldbeardchampionships.com/
 references:

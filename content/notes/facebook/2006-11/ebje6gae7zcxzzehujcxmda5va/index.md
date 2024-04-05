@@ -3,6 +3,7 @@ title: LSUwake November Riding
 date: "2006-11-21T00:30:34Z"
 type: repost
 tags:
+- imported
 - from-facebook
 repostOf: https://www.youtube.com/watch?v=b98B6vytDPA
 references:

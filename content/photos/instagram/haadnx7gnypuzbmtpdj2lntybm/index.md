@@ -6,6 +6,8 @@ media:
 date: "2018-03-21T23:46:51Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - PostcardsForLucy
 ---
 A World First

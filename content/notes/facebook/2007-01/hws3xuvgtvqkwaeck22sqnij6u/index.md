@@ -1,6 +1,7 @@
 ---
 date: "2007-01-15T21:35:33Z"
 tags:
+- imported
 - from-facebook
 ---
 Who needs to revise anyway...

@@ -3,6 +3,7 @@ title: cows & cows & cows
 date: "2010-07-21T09:20:03Z"
 type: repost
 tags:
+- imported
 - from-facebook
 repostOf: https://www.youtube.com/watch?v=FavUpD_IjVY
 references:

@@ -6,6 +6,8 @@ media:
 date: "2018-05-25T06:07:51Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - PostcardsForLucy
 ---
 Twos

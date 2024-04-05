@@ -5,6 +5,8 @@ media:
 date: "2019-05-18T17:43:11Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - yvette
 ---
 An amazing early birthday present from {{< friend yvette >}} — a tour of the disused parts of Charing Cross underground station\!

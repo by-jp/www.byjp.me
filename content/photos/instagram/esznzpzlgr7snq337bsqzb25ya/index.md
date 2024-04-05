@@ -6,6 +6,8 @@ media:
 date: "2018-06-23T12:17:58Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - PostcardsForLucy
 ---
 Jake's Dinner

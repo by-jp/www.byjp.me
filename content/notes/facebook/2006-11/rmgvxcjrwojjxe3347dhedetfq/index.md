@@ -3,6 +3,7 @@ title: Nottingham Capoeira Demo 2
 date: "2006-11-22T00:47:16Z"
 type: repost
 tags:
+- imported
 - from-facebook
 repostOf: https://www.youtube.com/watch?v=LB-tVMdLRZI
 references:

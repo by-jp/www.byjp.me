@@ -5,6 +5,8 @@ media:
 date: "2019-03-04T13:47:20Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - DifferentPerspective
 - patterns
 ---

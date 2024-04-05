@@ -6,6 +6,8 @@ media:
 date: "2018-03-21T10:48:17Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - PostcardsForLucy
 ---
 Pyjamas

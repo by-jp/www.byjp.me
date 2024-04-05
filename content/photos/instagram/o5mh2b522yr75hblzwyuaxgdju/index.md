@@ -6,6 +6,8 @@ media:
 date: "2018-06-08T22:07:11Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - PostcardsForLucy
 ---
 Evolution

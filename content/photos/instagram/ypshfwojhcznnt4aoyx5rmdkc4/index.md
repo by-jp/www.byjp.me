@@ -6,6 +6,8 @@ media:
 date: "2018-04-19T07:17:14Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - PostcardsForLucy
 ---
 Serenity

@@ -22,11 +22,16 @@
 
         <div class="post-info">
             {{ if in .Params.tags "from-instagram" }}
-          <p>
-            {{ partial "svg.html" (dict "name" "instagram") }}
-            From <a href="/posts/archiving-instagram-posts/">instagram archive</a>
-          </p>
-        {{ end }}
+                <p>
+                    {{ partial "svg.html" (dict "name" "instagram") }}
+                    From <a href="/posts/archiving-instagram-posts/">instagram archive</a>
+                </p>
+            {{ else if in .Params.tags "from-facebook" }}
+                <p>
+                    {{ partial "svg.html" (dict "name" "facebook") }}
+                    From <a href="/notes/facebook/">facebook archive</a>
+                </p>
+            {{ end }}
             {{ partial "tags.html" .Params.tags }}
             {{ partial "categories.html" . }}
 

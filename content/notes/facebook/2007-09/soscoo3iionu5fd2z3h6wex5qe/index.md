@@ -2,6 +2,7 @@
 date: "2007-09-13T22:26:22Z"
 type: repost
 tags:
+- imported
 - from-facebook
 repostOf: https://qwantz.com/index.php?comic=1070
 references:

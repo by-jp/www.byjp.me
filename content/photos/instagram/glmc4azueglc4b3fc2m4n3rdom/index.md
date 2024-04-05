@@ -5,6 +5,8 @@ media:
 date: "2019-10-19T18:20:44Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - yvette
 - AccidentallyWesAnderson
 ---

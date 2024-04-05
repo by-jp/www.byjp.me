@@ -5,6 +5,8 @@ media:
 date: "2019-05-03T05:46:42Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - AccidentalWesAnderson
 - NotSoAccidentallyWesAnderson
 ---

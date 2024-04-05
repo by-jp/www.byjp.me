@@ -3,6 +3,7 @@ title: 'Victor Keegan: Lost? Follow me in, to the social future'
 date: "2007-03-15T12:32:08Z"
 type: repost
 tags:
+- imported
 - from-facebook
 repostOf: https://technology.guardian.co.uk/weekly/story/0,,2033506,00.html#article_continue
 references:

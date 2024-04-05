@@ -5,6 +5,8 @@ media:
 date: "2020-10-03T09:07:27Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - yvette
 ---
 A most satisfying Saturday morning in bed.

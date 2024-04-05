@@ -5,6 +5,8 @@ media:
 date: "2014-03-30T13:44:37Z"
 draft: false
 tags:
+- imported
+- from-instagram
 - sloMoBro
 - chris
 ---
