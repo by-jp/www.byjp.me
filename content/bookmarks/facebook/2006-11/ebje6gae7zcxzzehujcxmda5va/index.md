@@ -1,4 +1,5 @@
 ---
+title: LSUwake November Riding
 date: "2006-11-21T00:30:34Z"
 tags:
 - from-facebook

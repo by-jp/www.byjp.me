@@ -1,4 +1,5 @@
 ---
+title: Nottingham Capoeira Demo 2
 date: "2006-11-22T00:47:16Z"
 tags:
 - from-facebook

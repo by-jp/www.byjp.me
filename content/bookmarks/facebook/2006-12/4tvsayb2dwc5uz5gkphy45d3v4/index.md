@@ -1,4 +1,5 @@
 ---
+title: The World Beard and Moustache Championships®
 date: "2006-12-21T00:25:42Z"
 tags:
 - from-facebook

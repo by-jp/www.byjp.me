@@ -97,6 +97,9 @@ func postize(e PostCheckinPhotoOrVideo, matches []string) (shared.Post, shared.M
 			if strings.HasSuffix(post.FrontMatter.Title, "shared a link.") {
 				post.FrontMatter.Title = ""
 			}
+			if post.FrontMatter.Title == "" && ref.Name != "" {
+				post.FrontMatter.Title = ref.Name
+			}
 		}
 	}
 
