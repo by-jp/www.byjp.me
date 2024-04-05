@@ -94,7 +94,7 @@ func postize(e PostCheckinPhotoOrVideo, matches []string) (shared.Post, shared.M
 				post.FrontMatter.References = append(post.FrontMatter.References, ref)
 			}
 
-			if strings.HasSuffix(post.FrontMatter.Title, "shared a link.") {
+			if strings.HasSuffix(post.FrontMatter.Title, "shared a link.") || strings.HasSuffix(post.FrontMatter.Title, "added a new photo.") {
 				post.FrontMatter.Title = ""
 			}
 			if post.FrontMatter.Title == "" && ref.Name != "" {
