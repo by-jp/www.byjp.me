@@ -7,6 +7,7 @@ draft: false
 tags:
   - typography
   - postcards
+  - project
 summary: I created a font from a piece of art made for me by a friend.
 syndications:
 - https://medium.com/miriscient/the-beauty-of-type-29ab1000e9e4
