@@ -12,7 +12,9 @@ type FrontMatter struct {
 	Date       string
 	Tags       []string    `yaml:"tags,omitempty"`
 	BookmarkOf string      `yaml:"bookmarkOf,omitempty"`
+	RepostOf   string      `yaml:"repostOf,omitempty"`
 	References []Reference `yaml:"references,omitempty"`
+	Type       string      `yaml:"type,omitempty"`
 }
 
 type Reference struct {

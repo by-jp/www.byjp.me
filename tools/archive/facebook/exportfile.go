@@ -83,8 +83,10 @@ func postize(e PostCheckinPhotoOrVideo, matches []string) (shared.Post, shared.M
 				return shared.Post{}, nil, false, err
 			}
 
-			post.Path = makePostPath("bookmark", postDate, postHash)
-			post.FrontMatter.BookmarkOf = link
+			post.Path = makePostPath("notes", postDate, postHash)
+			post.FrontMatter.Type = "repost"
+			post.FrontMatter.RepostOf = link
+
 			ref, err := shared.GetReferenceWithCache(link)
 			if err != nil {
 				fmt.Printf("Couldn't get reference for %s because %v\n", link, err)
