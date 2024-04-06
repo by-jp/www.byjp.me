@@ -20,6 +20,7 @@
     <div class="post-info">
       <p><date datetime="{{ dateFormat .Site.Params.dateformHTML .Date }}" data-pagefind-sort="date">{{ dateFormat .Site.Params.dateform .Date }}</date></p>
       <p><a href="../">back</a></p>
+      {{ partial "claps.html" (dict "url" .RelPermalink "style" "heart") }}
     </div>
 
   </main>

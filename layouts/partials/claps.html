@@ -1,0 +1,19 @@
+{{- $relperma := .url -}}
+{{- $style := .style | default "clap" -}}
+<form class="claps" action="https://{{ site.Params.clapsHost }}{{ $relperma }}" method="post">
+  <button type="submit">
+    {{- partial "svg.html" (dict "name" $style) -}}
+    {{- $url := printf "https://%s" site.Params.clapsHost -}}
+    {{- $cacheKey := print $url (now.Format "-2006-01-02") -}}
+    {{- with resources.GetRemote $url (dict "key" $cacheKey) -}}
+      {{- with .Err -}}
+        {{- errorf "%s" . -}}
+      {{- else -}}
+        {{- $data := .Content | transform.Unmarshal -}}
+        {{- with (index $data $relperma) }}<span>{{ . }}</span>{{ end -}}
+      {{- end -}}
+    {{- else -}}
+      {{- errorf "Unable to get all clap counts" -}}
+    {{- end -}}
+  </button>
+</form>

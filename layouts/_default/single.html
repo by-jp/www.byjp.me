@@ -106,6 +106,8 @@
 
     {{ if ne .Type "site-infra" }}
       <div class="post-info">
+        {{ partial "claps.html" (dict "url" .RelPermalink) }}
+
         {{ if in .Params.tags "from-twitter" }}
           <p>
             {{ partial "svg.html" (dict "name" "twitter") }}

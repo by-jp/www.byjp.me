@@ -23,8 +23,6 @@ html {
   }
 }
 
-
-
 body {
   position:relative;
   margin: 0;
@@ -613,6 +611,26 @@ a[href^="#fn:"] {
   }
 }
 
+form.claps {
+  float: right;
+
+  &.clapped {
+    color: var(--accent);
+  }
+
+  button:disabled svg {
+    animation: pulse 500ms infinite ease-in-out;
+  }
+
+  svg {
+    font-size: 1.5em;
+
+    &:only-child {
+      margin: 0;  
+    }
+  }
+}
+
 .post.poetry {
   width: auto;
 
@@ -638,6 +656,17 @@ a[href^="#fn:"] {
   .post-info {
     text-align: center;
     margin-top: 60px;
+
+    form.claps {
+      margin-top: 1em;
+      text-align: center;
+      float: none;
+      display:inline-block;
+
+      svg {
+        font-size: 1em;
+      }
+    }
   }
 }
 
@@ -971,4 +1000,10 @@ mark {
   vertical-align: -0.125em;
   width: 1em;
   height: 1em;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
 }

@@ -48,6 +48,9 @@ date = ["date", "publishDate", "lastmod", ":git"]
   # Default theme "light" or "dark"
   defaultTheme = "dark"
   themeColor = "#252627"
+
+  clapshost = "byjp-claps.web.val.run"
+  
   [params.favicon.color]
     mask = "#252627"
     msapplication = "#252627"

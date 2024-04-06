@@ -1,4 +1,5 @@
 <div class="post-info">
+  {{ partial "claps.html" (dict "url" .RelPermalink) }}
   {{ partial "tags.html" .Params.tags }}
   {{ partial "series-tags.html" . }}
   <p>
