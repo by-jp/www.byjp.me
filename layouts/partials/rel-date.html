@@ -11,4 +11,4 @@
 {{- else -}}
   {{- $desc = printf "%.0fs" (div $diff.Seconds 1) -}}
 {{- end -}}
-<time timestamp="{{ .time }}" title="{{ time .time | dateFormat "2006-01-02 03:04 MST" }}">{{- $desc -}}</time>
+<time timestamp="{{ .time }}" title="{{ time .time | dateFormat "2006-01-02 15:04 MST" }}">{{- $desc -}}</time>
