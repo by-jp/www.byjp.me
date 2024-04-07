@@ -79,14 +79,15 @@ const forEveryClapButton = (fn, sameAction = '') => {
 document.addEventListener("DOMContentLoaded", () => {
   let toCheck = []
   forEveryClapButton((btn) => {
+    btn.addEventListener("click", performClap)
+
     const action = btn.parentElement.action
     const lastClappedTo = localStorage.getItem(clapKey(action));
-    toCheck.push(action)
     if (lastClappedTo) {
       btn.parentElement.classList.add('clapped')
       setClapCount(btn, lastClappedTo)
     }
-    btn.addEventListener("click", performClap)
+    toCheck.push(action)
   })
 
   toCheck.forEach((action) => {

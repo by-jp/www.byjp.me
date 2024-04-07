@@ -617,7 +617,7 @@ a[href^="#fn:"] {
 
 form.claps {
   display: inline-block;
-  &.clapped {
+  &.clapped button {
     color: var(--accent);
   }
 
@@ -874,29 +874,6 @@ mark {
   }
 }
 
-.small-post-list {
-  position: relative;
-  text-align: left;
-  margin: 1em 1.5em;
-  list-style: none;
-
-  @media #{$media-size-phone} {
-    font-size: 1rem;
-    padding: 0;
-    width: fit-content;
-    max-width: calc(100% - 2em);
-    margin-inline: auto;
-  }
-
-  li > svg {
-    color: var(--accent);
-    position: absolute;
-    left: -1.5em;
-    margin-top: 0.25em;
-    text-align: right;
-  }
-}
-
 .homepage {
   .content {
     align-items: center;
@@ -992,6 +969,29 @@ mark {
 
   .context {
     font-size: 0.8rem;
+  }
+}
+
+.small-post-list {
+  position: relative;
+  text-align: left;
+  margin: 1em 1.5em;
+  list-style: none;
+
+  @media #{$media-size-phone} {
+    font-size: 1rem;
+    padding: 0;
+    width: fit-content;
+    max-width: calc(100% - 2em);
+    margin-inline: auto;
+  }
+
+  li > svg {
+    color: var(--accent);
+    position: absolute;
+    left: -1.5em;
+    margin-top: 0.25em;
+    text-align: right;
   }
 }
 
