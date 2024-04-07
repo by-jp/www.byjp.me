@@ -1,0 +1,42 @@
+{{- $count := .Get 0 | default 5 -}}
+{{- $url := printf "https://%s" site.Params.clapsHost -}}
+{{- $cacheKey := print $url (now.Format "-2006-01-02") -}}
+{{- with resources.GetRemote $url (dict "key" $cacheKey) -}}
+  {{- with .Err -}}
+    {{- errorf "%s" . -}}
+  {{- else -}}
+    {{- $data := .Content | transform.Unmarshal -}}
+    {{- $claps := slice -}}
+    {{- range $path, $count := $data -}}
+      {{ $claps = $claps | append (dict "path" $path "count" $count) }}
+    {{- end -}}
+    <ol class="small-post-list">
+      {{- range (sort $claps "count" "desc" | first $count) -}}
+        {{- $count := .count -}}
+        {{- with site.GetPage .path -}}
+          {{- $postType := partial "post-type.txt" . -}}
+          {{- $typeSVG := index site.Params.defaultSVG ( partial "kebab.txt" $postType) -}}
+          <li>
+            {{ partial "svg.html" (dict "name" $typeSVG) }}
+            <a href="{{.RelPermalink}}">
+              {{- with .Title -}}{{ . }}{{ else }}{{ .Type | singularize | title }}{{ end -}}
+            </a>
+            <small style="opacity: 0.6">{{ partial "svg.html" (dict "name" "clap") }} {{ $count }}</small>
+          </li>
+        {{- end -}}
+      {{- end }}
+    </ol>
+    <script>
+      const list = document.currentScript.previousSibling;
+      for (const clap of list.querySelectorAll('li')) {
+        // This clapKey is authoritative in main.js
+        const clapKey = `clap:${clap.children[1].pathname}`;
+        if (localStorage.getItem(clapKey)) {
+          clap.children[2].classList.add('accent')
+        }
+      }
+    </script>
+  {{- end -}}
+{{- else -}}
+  {{- errorf "Unable to get all clap counts" -}}
+{{- end -}}

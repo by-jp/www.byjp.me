@@ -3,7 +3,7 @@
     This site is a much loved wild garden; things aren't perfectly orgnaised, there are lots of nooks and crannies to explore. Follow your nose and see where you end up.
   </p>
 
-  <ol class="recent-posts">
+  <ol class="small-post-list">
     {{- $posts := where .Site.RegularPages "Section" "in" (slice "posts" "bookmarks" "poetry") -}}
     {{- range $posts.ByPublishDate.Reverse | first 6 -}}
       {{- $postType := partial "post-type.txt" . -}}
@@ -17,8 +17,9 @@
           <div>
             <span class="always-accented">{{ $postType }}</span>
             <date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">
-              {{ partial "year-relative-date.html" .Date }}</date>
-            </div>
+              {{ partial "year-relative-date.html" .Date }}
+            </date>
+          </div>
           
           {{- index (split .Summary "\n") 0 | htmlUnescape -}}
         </div>

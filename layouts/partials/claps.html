@@ -1,7 +1,7 @@
 {{- $relperma := .url -}}
 {{- $style := .style | default "clap" -}}
 <form class="claps" action="https://{{ site.Params.clapsHost }}{{ $relperma }}" method="post">
-  <button type="submit">
+  <button type="submit" title="Show appreciation for the post on this page">
     {{- partial "svg.html" (dict "name" $style) -}}
     {{- $url := printf "https://%s" site.Params.clapsHost -}}
     {{- $cacheKey := print $url (now.Format "-2006-01-02") -}}

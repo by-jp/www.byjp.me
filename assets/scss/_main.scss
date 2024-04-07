@@ -167,6 +167,10 @@ a.noaccent {
   text-decoration: none;
 }
 
+.accent {
+  color: var(--accent);
+}
+
 img.profile {
   float: left;
   height: 4em;
@@ -612,8 +616,7 @@ a[href^="#fn:"] {
 }
 
 form.claps {
-  float: right;
-
+  display: inline-block;
   &.clapped {
     color: var(--accent);
   }
@@ -629,6 +632,10 @@ form.claps {
       margin: 0;  
     }
   }
+}
+
+.post-info form.claps {
+  float: right;
 }
 
 .post.poetry {
@@ -866,6 +873,29 @@ mark {
   }
 }
 
+.small-post-list {
+  position: relative;
+  text-align: left;
+  margin: 1em 1.5em;
+  list-style: none;
+
+  @media #{$media-size-phone} {
+    font-size: 1rem;
+    padding: 0;
+    width: fit-content;
+    max-width: calc(100% - 2em);
+    margin-inline: auto;
+  }
+
+  li > svg {
+    color: var(--accent);
+    position: absolute;
+    left: -1.5em;
+    margin-top: 0.25em;
+    text-align: right;
+  }
+}
+
 .homepage {
   .content {
     align-items: center;
@@ -875,27 +905,8 @@ mark {
     position: relative;
   }
 
-  .recent-posts {
-    position: relative;
-    text-align: left;
+  .small-post-list {
     padding: 0 50% 0 0;
-    margin: 1em 1.5em;
-    list-style: none;
-
-    @media #{$media-size-phone} {
-      font-size: 1rem;
-      padding: 0;
-      width: fit-content;
-      max-width: calc(100% - 2em);
-      margin-inline: auto;
-    }
-
-  li svg{
-      position: absolute;
-      left: -1.5em;
-      margin-top: 0.25em;
-      text-align: right;
-    }
 
     & .summary {
       position: absolute;
@@ -908,7 +919,7 @@ mark {
       
       color: $light-color-dim;
       background-color: $light-background;
-
+  
       @media (prefers-color-scheme: dark) {
         background-color: $dark-background;
         color: $dark-color-dim;

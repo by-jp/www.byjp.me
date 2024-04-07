@@ -12,7 +12,7 @@
 {{- $index := (split .Path "/") | after 1 -}}
 {{- $interactions := index .Site.Data.interactions $index -}}
 {{ with $interactions }}
-    <div class="interactions">
+    <div class="interactions" id="interactions">
       {{ $most := 0 }}
       {{ $emoji := "" }}
       {{ range $thisEm, $count := .reactions }}
