@@ -73,12 +73,31 @@ const forEveryClapButton = (fn, sameAction = '') => {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  let toCheck = []
   forEveryClapButton((btn) => {
-    const lastClappedTo = localStorage.getItem(clapKey(btn.parentElement.action));
+    const action = btn.parentElement.action
+    const lastClappedTo = localStorage.getItem(clapKey(action));
+    toCheck.push(action)
     if (lastClappedTo) {
       btn.parentElement.classList.add('clapped')
       setClapCount(btn, lastClappedTo)
     }
     btn.addEventListener("click", performClap)
+  })
+
+  toCheck.forEach((action) => {
+    fetch(action, { method: 'GET', headers: new Headers({ 'Accept': 'application/json' }) })
+      .then(res => {
+        if (res.status !== 200) {
+          throw new Error(`Got HTTP ${res.status} while trying to retrieve claps`)
+        }
+        return res.json() 
+      })
+      .then(data => {
+        forEveryClapButton((btn) => {
+          setClapCount(btn, data.claps);
+        }, action)
+      })
+      .catch(console.error)
   })
 })
