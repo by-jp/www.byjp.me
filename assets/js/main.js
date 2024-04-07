@@ -54,6 +54,10 @@ const performClap = (e) => {
 const clapKey = (action) => `clap:${(new URL(action)).pathname}`;
 
 const setClapCount = (btn, clapCount) => {
+  if (clapCount === 0) {
+    return
+  }
+
   const count = clapCountEl(btn);
   if (count) {
     count.textContent = Math.max(count.textContent, clapCount)
