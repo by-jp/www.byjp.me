@@ -33,7 +33,9 @@ const performClap = (e) => {
     })
     .then(data => {
       localStorage.setItem(clapKey(btn.parentElement.action), data.claps);
-      setClapCount(btn, data.claps);
+      forEveryClapButton((btn) => {
+        setClapCount(btn, data.claps);
+      }, btn.parentElement.action)
       btn.parentElement.classList.add('clapped')
       btn.disabled = false;
     })
@@ -64,13 +66,19 @@ const setClapCount = (btn, clapCount) => {
 
 const clapCountEl = (btn) => btn.querySelector('span')
 
+const forEveryClapButton = (fn, sameAction = '') => {
+  for (const btn of document.querySelectorAll(`form.claps${sameAction ? `[action="${sameAction}"]` : ''} button`)) {
+    fn(btn)
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
-  for (const btn of document.querySelectorAll('form.claps button')) {
+  forEveryClapButton((btn) => {
     const lastClappedTo = localStorage.getItem(clapKey(btn.parentElement.action));
     if (lastClappedTo) {
       btn.parentElement.classList.add('clapped')
       setClapCount(btn, lastClappedTo)
     }
     btn.addEventListener("click", performClap)
-  }
+  })
 })
