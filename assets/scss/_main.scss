@@ -980,10 +980,10 @@ mark {
 
   @media #{$media-size-phone} {
     font-size: 1rem;
-    padding: 0;
-    width: fit-content;
+    padding: 0 !important;
+    margin-inline: 1.5em;
+    width: 100%;
     max-width: calc(100% - 2em);
-    margin-inline: auto;
   }
 
   li > svg {
