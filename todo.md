@@ -12,7 +12,6 @@ Things I might work on within my personal blog's software.
 
 - [ ] Show (internal) replies to this note
 - [ ] Import from Omnivore daily  
-- [ ] Facebook import?
 - [ ] Record new webmentions on publish
 - [ ] Record & display cross-links within site?
 - [ ] Customise IndieKit
@@ -24,6 +23,7 @@ Things I might work on within my personal blog's software.
 ### Working
 
 - [ ] Remove lychee failing links
+- [ ] Import Facebook posts
 
 ### Done ✓
 
@@ -44,3 +44,5 @@ Things I might work on within my personal blog's software.
   - [x] Fix instagram links (~~point to blog~~ delete; they're cross-posts anyway)
 - [x] Add `inReplyTo` support (like bookmarks)
 - [x] Add calendar to front page
+- [x] Facebook import tooling
+- [x] Claps!
