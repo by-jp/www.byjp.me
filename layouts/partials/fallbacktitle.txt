@@ -1,5 +1,0 @@
-{{ if .Title -}}
-  {{- .Title -}}
-{{- else -}}
-  {{- .Type | singularize | title }} from {{ partial "year-relative-date.txt" .Date -}}
-{{- end -}}

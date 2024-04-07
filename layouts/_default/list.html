@@ -25,7 +25,7 @@
                         <li class="post-item">
                             <a href="{{.RelPermalink}}">
                                 {{ if .Params.emoji }}<span class="post-emoji">{{ .Params.emoji }}</span>{{ end }}
-                                <span class="post-title">{{ partial "fallbacktitle.txt" . }}</span>
+                                <span class="post-title">{{ partial "page-title.txt" . }}</span>
                                 <span class="post-day">
                                     {{ if .Site.Params.dateformShort }}
                                         {{ .Date.Format .Site.Params.dateformShort }}

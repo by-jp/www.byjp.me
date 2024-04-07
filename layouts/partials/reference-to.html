@@ -18,7 +18,7 @@
 {{- if and (not $reference.name) (strings.HasPrefix $url "/") -}}
   {{- $other := site.GetPage $url -}}
   {{- if and $other $other.Page -}}
-    {{- $reference = dict "name" (partial "fallbacktitle.txt" $other.Page) "type" $other.Page.Type "internal" true -}}
+    {{- $reference = dict "name" (partial "page-title.txt" $other.Page) "type" $other.Page.Type "internal" true -}}
   {{- end -}}
 {{- end -}}
 {{ partial "svg.html" (dict "name" .svg) }} {{ .phrase }}{{" "}}

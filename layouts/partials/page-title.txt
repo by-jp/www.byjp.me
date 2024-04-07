@@ -1,0 +1,15 @@
+{{- define "partials/fallback-title.txt" -}}
+  {{- .Type | singularize | title }} from {{ partial "year-relative-date.txt" .Date -}}
+{{- end -}}
+{{- if .Title -}}
+  {{- .Title -}}
+{{- else if or .Params.bookmarkOf .Params.repostOf -}}
+  {{- $ref := partial "reference.obj" (dict "url" (.Params.bookmarkOf | default .Params.repostOf) "references" .Params.references) -}}
+  {{- if $ref -}}
+    Comments on '{{ $ref.name }}'
+  {{- else -}}
+    {{- partial "partials/fallback-title.txt" . -}}
+  {{- end -}}
+{{- else -}}
+  {{- partial "partials/fallback-title.txt" . -}}
+{{- end -}}

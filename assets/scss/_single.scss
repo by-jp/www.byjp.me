@@ -451,6 +451,10 @@ figure {
     margin-right: 1rem;
     vertical-align: middle;
 
+    a:before {
+      content: '' !important;
+    }
+
     svg {
       color: lch(60% 60 var(--accentHue));
       margin-right: 0.3rem;
