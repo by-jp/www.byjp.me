@@ -8,6 +8,7 @@
                 </a>
             </span>
         {{ end }}
+        {{ if and .Paginator.HasPrev .Paginator.HasNext }}&nbsp;{{ end }}
         {{ if .Paginator.HasNext }}
             <span class="button next">
                 <a href="{{ .Paginator.Next.URL }}">

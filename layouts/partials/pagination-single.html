@@ -16,7 +16,7 @@
                 </a>
             </span>
             {{ end }}
-
+            {{ if and .NextInSection .PrevInSection }}&nbsp;{{ end }}
             {{ if .PrevInSection }}
             <span class="button next">
                 <a href="{{ .PrevInSection.RelPermalink }}">

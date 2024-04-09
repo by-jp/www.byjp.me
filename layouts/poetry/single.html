@@ -35,7 +35,7 @@
                 </a>
             </span>
             {{ end }}{{ end }}
-
+            {{ if and .Params.prev .Params.next }}&nbsp;{{ end }}
             {{ if .Params.next }}{{ with .Site.GetPage .Params.next }} 
             <span class="button next">
                 <a href="{{ .RelPermalink }}">
