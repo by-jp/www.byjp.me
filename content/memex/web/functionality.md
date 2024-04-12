@@ -27,6 +27,6 @@ I _love_ this idea. I'd probably make it so that you had to have been offline fo
 
 I'd either let people click links but 'save them for later' (when they're back online), or keep the interaction totally within the site.
 
-## Stylying RSS feed
+## Styling RSS feeds
 
-I've used the recommendations on [this site](https://claytonerrington.com/blog/adding-some-flare-to-rss/) to ensure the RSS feeds on this site look pretty too! (Stick `index.xml` at the end of any page listing posts to see what I mean, eg [byjp.me/posts/index.xml](https://www.byjp.me/posts/index.xml).)
+I've used the recommendations on [this site](https://claytonerrington.com/blog/adding-some-flare-to-rss/) to ensure the RSS feeds on this site look pretty too! (Stick `index.xml` at the end of any page listing posts to see what I mean, eg [byjp.me/posts/index.xml](/posts/index.xml).)
