@@ -7,22 +7,28 @@ version: '3'
 
 env:
   DOMAIN: https://www.byjp.me
+  HUGO_INDIEKIT_URL: https://indiekit.byjp.me{{.DOMAIN_SUFFIX}}
+  HUGO_LAST_UPDATE_TIME:
+    sh: git log -1 --format=%cI
+  HUGO_LAST_UPDATE_HASH:
+    sh: git log -1 --format=%h
 
 tasks:
   check-links:
     cmds:
       - lychee --cache --require-https --config lychee.toml .
+
   dev:
     env:
       DOMAIN_SUFFIX: .test
     cmds: 
-      - |
-        set -o allexport; source .env; set +o allexport
-        hugo server --minify --printUnusedTemplates -D --baseURL "${DOMAIN}${DOMAIN_SUFFIX}" --appendPort=false
+      - hugo server --minify --printUnusedTemplates -D --baseURL "${DOMAIN}${DOMAIN_SUFFIX}" --appendPort=false
+
   build:
-    cmds:  
+    cmds:
       - hugo --cacheDir /tmp/hugo/cache --gc --minify --baseURL "${DOMAIN}"
-      - npm_config_yes=true npx pagefind@latest
+      - pagefind
+
   import:
     dir: tools/
     cmds:
