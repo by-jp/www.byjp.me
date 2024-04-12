@@ -2,11 +2,11 @@
 
 version: '3'
 
-# TODO: Handle commands in dotenv
-# dotenv: ['.env']
+vars:
+  domain: https://www.byjp.me
+  puma_dev_tld: .test
 
 env:
-  DOMAIN: https://www.byjp.me
   HUGO_INDIEKIT_URL: https://indiekit.byjp.me{{.DOMAIN_SUFFIX}}
   HUGO_LAST_UPDATE_TIME:
     sh: git log -1 --format=%cI
@@ -15,21 +15,30 @@ env:
 
 tasks:
   check-links:
+    desc: Check URLs across my site for linkrot.
     cmds:
       - lychee --cache --require-https --config lychee.toml .
 
   dev:
-    env:
-      DOMAIN_SUFFIX: .test
+    desc: Run a local server that auto-updates when files are edited. (Search won't work)
+    silent: true
+    vars:
+      port: 1313
     cmds: 
-      - hugo server --minify --printUnusedTemplates -D --baseURL "${DOMAIN}${DOMAIN_SUFFIX}" --appendPort=false
+      - |
+        [ -d "$HOME/.puma-dev/" ] && (echo {{ .port }} > $HOME/.puma-dev/www.byjp.me) || echo "Puma dev not installed, https://{{ .domain }}{{ .puma_dev_tld }} will not work"
+      - hugo server -p {{ .port }} --minify --printUnusedTemplates -D --baseURL "{{ .domain }}{{ .puma_dev_tld }}" --appendPort=false
 
   build:
+    desc: Builds the production-ready site in ./public/
+    vars:
+      cache: /tmp/hugo/cache
     cmds:
-      - hugo --cacheDir /tmp/hugo/cache --gc --minify --baseURL "${DOMAIN}"
+      - hugo --cacheDir {{ .cache }} --gc --minify --baseURL "{{ .domain }}"
       - pagefind
 
   import:
+    desc: Pulls information from various other sites/silos into this repo. Expects `./tools/.env` to be populated.
     dir: tools/
     cmds:
       - go run ./import/omnivore ../
