@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"os"
 	"path"
+	"sort"
 	"strings"
 	"time"
 
@@ -95,6 +96,8 @@ func addInteraction(jsonPath string, newIn synd.Interaction) error {
 	if !added {
 		inf.Interactions = append(inf.Interactions, newIn)
 	}
+
+	sort.Sort(ByTimestamp(inf.Interactions))
 
 	if err := os.MkdirAll(path.Dir(jsonPath), 0755); err != nil {
 		return err
