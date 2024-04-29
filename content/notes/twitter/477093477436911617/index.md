@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Replacement iPhone from [@NatWest_Help](/twitter/#/NatWest_Help) arrived \(ta\!\) - it was no frills packing &amp; uncharged. Makes you realise value in Apple's extra care.
+Replacement iPhone from [@NatWest_Help](/twitter/#/NatWest_Help) arrived (ta!) - it was no frills packing & uncharged. Makes you realise value in Apple's extra care.
