@@ -15,7 +15,7 @@
 {{- end -}}
 
 {{- if $reference.type -}}
-  {{- $targetType := partial "partials/article-type.html" (default "article" $reference.type) -}}
+  {{- $targetType := partial "article-type.txt" (default "article" $reference.type) -}}
   {{- (printf "%s %s" $targetType $typeStr) | strings.FirstUpper -}}
 {{- else -}}
   {{- $typeStr | strings.FirstUpper -}}

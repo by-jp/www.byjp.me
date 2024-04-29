@@ -1,0 +1,14 @@
+{{- $src := path.Join (path.Dir .Page.RelPermalink) .src -}}
+{{- $title := "An untitled image" -}}
+{{- if hasSuffix $src ".mp4" }}{{ $title = "An untitled video" }}{{ end -}}
+{{- $caption := .caption -}}
+{{- $captionChunks := split $caption "." -}}
+{{- $shortCap := index $captionChunks 0 }}
+{{- if and (lt (len $shortCap) 64) (gt (len $shortCap) 0) -}}
+  {{- $title = $shortCap -}}
+  {{- $caption = delimit (after 1 $captionChunks) "." -}}
+{{- end -}}
+{{- with .title }}{{if gt (len .) 0 }}{{ $title = . }}{{ end }}{{ end -}}
+{{ "\n=>" }} {{ $src }} {{ $title }}
+{{- with $caption }}{{ if ne $title . }}
+> {{ . }}{{ end }}{{ end -}}

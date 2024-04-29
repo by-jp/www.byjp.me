@@ -1,0 +1,24 @@
+# {{ with .Params.emoji }}{{.}} {{end}}{{ title (replace .Title "-" " ") }}
+
+{{- with .Page.RenderShortcodes }}
+{{- partial "markdown.gmi" . -}}{{ end -}}
+
+{{- $paginator := .Paginate .Pages -}}
+
+{{- range $paginator.Pages.GroupByDate "2006" }}
+## {{ .Key }}
+{{ range .Pages -}}
+  => {{ .RelPermalink }} {{ with .Params.emoji }}{{ . }} {{ end }}{{ partial "page-title.txt" . }}
+{{ end -}}
+{{- end }}
+
+# Postscript
+{{ with .Paginator.Next }}
+=> {{ .URL }} Next page{{ end }}
+{{- with .Paginator.Prev }}
+=> {{ .URL }} Previous page{{ end }}
+
+=> / 🏡 Home
+{{ range .Site.Menus.main -}}
+  => {{ .URL | relURL }} {{ .Name }}
+{{ end -}}

@@ -1,0 +1,7 @@
+{{- if collections.In (slice "cite" "entry") . -}}
+  {{- "article" -}}
+{{- else if eq . "calendar" -}}
+  {{- "calendar event" -}}
+{{- else -}}
+  {{- . | singularize -}}
+{{- end -}}

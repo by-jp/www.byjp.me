@@ -1,0 +1,32 @@
+{{- $references := .Params.references -}}
+{{- $url := "" -}}
+{{- $phrase := "" -}}
+{{- $hasReference := true -}}
+
+{{- if .Params.bookmarkOf -}}
+  {{- $url = .Params.bookmarkOf -}}
+{{- else if .Params.inReplyTo -}}
+  {{- $url = .Params.inReplyTo -}}
+{{- else if .Params.repostOf -}}
+  {{- $url = .Params.repostOf -}}
+{{- else -}}
+  {{- $hasReference = false -}}
+{{- end }}
+
+{{- if $hasReference -}}
+{{- $hostname := (($url | urls.Parse).Hostname) -}}
+{{- $reference := partial "reference.obj" (dict "url" $url "references" $references) -}}
+
+{{- if and (not $reference.name) (strings.HasPrefix $url "/") -}}
+  {{- $other := site.GetPage $url -}}
+  {{- if and $other $other.Page -}}
+    {{- $reference = dict "name" (partial "page-title.txt" $other.Page) "type" $other.Page.Type "internal" true -}}
+  {{- end -}}
+{{- end }}
+=> {{ $url }} {{ "Original " -}}
+{{- with $reference.name -}}
+  {{ partial "article-type.txt" (default "article" $reference.type) }}: {{ . -}}
+{{- else -}}
+  {{- printf "an article from %s" $hostname -}}
+{{- end -}}
+{{- end -}}

@@ -1,0 +1,6 @@
+{{ $parts := strings.Split (.Get 0) "." -}}
+{{- with index site.Data.friends (index $parts 0) -}}
+  <a href="{{.site}}">{{.name}}</a>
+{{- else -}}
+  {{ . }}
+{{- end }}
