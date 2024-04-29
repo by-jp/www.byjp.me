@@ -22,7 +22,7 @@ What happens if tinyurl.com closes its doors? Or if bit.ly is bought by a billio
 
 However short links are _incredibly_ useful; humans can't remember the long sequences of letters and numbers that some web addresses need to be, so what's to be done?
 
-_Ugh. JP. **I get it**. Let me [skip to the cool part](#how-it-works)._
+_Ugh. JP. **I get it**. Let me [skip to the cool part](#how-ipfs-link-shortening-works)._
 
 ## What is IPFS?
 
@@ -32,38 +32,42 @@ A few days ago the InterPlanetary FileSystem (IPFS) released a new version of th
 
 A web address today looks like `www.byjp.me/posts`. This contains the name of the server you should contact to get my site (`www.byjp.me`), and where on that server the page is that lists all my posts (`/posts`) — it's all _location_ based. If my server dies, then everyone has forever lost access to what's on my site — this is what's known as "[link rot](https://en.wikipedia.org/wiki/Link_rot)".
 
-In the world of IPFS data is accessed, instead, by a Content ID ("CID") — a name that is derrived from, and unique to, the data it points to, rather than where it's located. The way this works is fairly technical, but the same data _always_ produces the same CID, and the CID unquely refers to that data[^1].
+In the world of IPFS data is accessed, instead, by a Content ID ("CID") — a name that is derived from, and unique to, the data it points to, rather than where it's located. The way this works is fairly technical, but the same data _always_ produces the same CID, and the CID uniquely refers to that data[^1].
 
-Another of my sites (a 3D model of my brain) has the CID `QmPgEidvA67eUxtSgLQy2N5cWXh8WQ8r7iYQn1ecjrL8Mz`. You can see it at [ipfs.io](https://ipfs.io/ipfs/QmPgEidvA67eUxtSgLQy2N5cWXh8WQ8r7iYQn1ecjrL8Mz), at [Cloudflare](https://www.cloudflare-ipfs.com/ipfs/QmPgEidvA67eUxtSgLQy2N5cWXh8WQ8r7iYQn1ecjrL8Mz), [dweb.link](https://dweb.link/ipfs/QmPgEidvA67eUxtSgLQy2N5cWXh8WQ8r7iYQn1ecjrL8Mz) or any other IPFS server, as I have it stored on an IPFS server connected to the internet.
+Another of my sites (a 3D model of my brain) has the CID `QmPgEidvA67eUxtSgLQy2N5cWXh8WQ8r7iYQn1ecjrL8Mz`. You can see it at [ipfs.io](https://ipfs.io/ipfs/QmPgEidvA67eUxtSgLQy2N5cWXh8WQ8r7iYQn1ecjrL8Mz), at [Cloudflare](https://cloudflare-ipfs.com/ipfs/QmPgEidvA67eUxtSgLQy2N5cWXh8WQ8r7iYQn1ecjrL8Mz), [dweb.link](https://dweb.link/ipfs/QmPgEidvA67eUxtSgLQy2N5cWXh8WQ8r7iYQn1ecjrL8Mz) or any other IPFS server, as I have it stored on an IPFS server connected to the internet.
 
 This means that if Jo Bloggs makes a copy of my site ("pins" that CID), and then my site goes down forever, everyone can still view my site, _exactly_ as it was meant to be, by getting it from Jo Bloggs instead of me. I'm glossing over some details here but, broadly, so long as someone cares about the data in question: link rot defeated.
 
 [^1]: It's not _technically_ unique, there are just more different combinations of these names (Content IDs, or "CIDs") than there are atoms in the universe, so the likelihood of two being the same for different data is _vanishingly_ small.
 
-## How it works
+## How IPFS link shortening works
 
-So, you may be asking, how does this help with URL shorteners? This new 'redirects' feature of the IPFS server (called [kubo](https://github.com/ipfs/kubo#readme)) means information on how to redirect people (from a shortlink to a long URL) can be stored in a file on IPFS and used to do redirections.
+So, you may be asking, how does this help with URL shorteners? This new 'redirects' feature of the IPFS server (called [kubo](https://github.com/ipfs/kubo#readme)) means information on how to redirect people (from a shortlink to a long URL) can be stored _in a file on IPFS_, which is much more resistant to link rot, and used to do redirections transparently forever.
 
-My domain `byjp.fyi` is configured to serve content from IPFS, in particular a `_redirects` file ([see it live here](https://byjp.fyi/_redirects)) that holds all of my shortlinks and their destinations. Anyone who pins `/ipns/byjp.fyi` on their IPFS server will _always_ be able to know what my shortlinks were pointing to, even if my site disappears.
+My domain `byjp.fyi` serves content from IPFS, specifically a `_redirects` file ([see it live here](https://byjp.fyi/_redirects)[^2]) that holds all of my shortlinks and their destinations. This makes the redirects work as expected, but also ensures anyone who pins `/ipns/byjp.fyi` on their IPFS server will _always_ be able to know what my shortlinks were pointing to, even if my site disappears.
 
-For convenience's sake, I keep my `_redirects` file and other files associated to byjp.fyi [on github](https://github.com/by-jp/byjp.fyi), with a [deploy workflow](https://github.com/by-jp/byjp.fyi/blob/main/.github/workflows/deploy.yaml) which pins all the files on [Filebase](https://filebase.com/), and updates Cloudflare with the new DNS entry every time I publish a new shortlink.
+If you're feeling non-technical today, that's it! I hope you enjoyed your trip into my geeky world. If you're interested in how this works in depth, or getting this working for yourself, then read on…
 
-I also use [val.town](https://val.town) (an _incredibly_ cool Javascript functions in-the-cloud service) to build an API for adding new shortlinks. Automate all the things! If you had one of my Github access tokens, you could add shortlinks to my domain by heading to [this URL](https://byjp-addshortlink.express.val.run/example?to=https://example.com). You can read my val & see how it works at [byjp.fyi/new](https://byjp.fyi/new).
+[^2]: For convenience's sake, I keep my `_redirects` file and other files associated to byjp.fyi [on github](https://github.com/by-jp/byjp.fyi), with a [deploy workflow](https://github.com/by-jp/byjp.fyi/blob/main/.github/workflows/deploy.yaml) which pins all the files on [Filebase](https://filebase.com/), and updates Cloudflare with the new DNS entry every time I publish a new shortlink.
+
+    I also use [val.town](https://val.town) (an _incredibly_ cool Javascript functions in-the-cloud service) to build an API for adding new shortlinks. Automate all the things! If you had one of my Github access tokens, you could add shortlinks to my domain by heading to [this URL](https://byjp-addshortlink.express.val.run/example?to=https://example.com). You can read my val & see how it works at [byjp.fyi/new](https://byjp.fyi/new).
+
+---
 
 ## How do I do this too?
 
 If you too want to run your own (free!) URL shortener that is resilient to link rot then follow the steps below — then [get in touch](/standing-invitation), I'll happily pin your shortened domain locally, so we've got some more protection against link rot.
 
-These instructions assume you're confident with Github, Cloudflare & code, but you shoud be able to make it through even if you're not, and you can always reach out to me if you have questions!
+These instructions assume you're confident with Github, Cloudflare & code, but you should be able to make it through even if you're not, and you can always reach out to me if you have questions!
 
 1. Set up the prerequisites:
    - You'll need a domain you want to host your shortlinks on. I tend to buy mine on Cloudflare (hit "Register domains" in the dashboard)
-   - You'll need to be using Cloudflare as your Nameserver for this domain to follow these instructions exactly (though other DNS providers that have APIs to update DNS records should work)
+   - You'll need to be using Cloudflare as your nameserver for this domain to follow these instructions exactly (though other DNS providers that have APIs to update DNS records should work)
    - You'll need an account with [Filebase](https://filebase.com), or any other API-capable IPFS pinning service.
    - To follow my code exactly you'll need a bucket in Filebase called "microsites".
    - A Github account
 2. Fork my [byjp.fyi](https://github.com/by-jp/byjp.fyi) repo, and rename your fork to be whatever domain you registered.
-   - I'll refer to this as github.com/yourghname/your.tld from here on. You _can_ calle the repo something different to what your domain is, but you'll need to edit the deploy scripts.
+   - I'll refer to this as `github.com/yourghname/your.tld` from here on. You _can_ call the repo something different to what your domain is, but you'll need to edit the deploy scripts.
 3. Add some secrets to your repo (see your repo's Settings > Secrets and variables > Actions):
    - `CLOUDFLARE_ZONE_ID` needs to be the Zone ID for the domain you're using (find it on the side pane of the Overview page for your domain in Cloudflare)
    - `CLOUDFLARE_TOKEN` needs to be a [Cloudflare token](https://dash.cloudflare.com/profile/api-tokens) with `Zone.Web3 Hostnames:Edit` permissions for the Zone (domain) you're using.
@@ -76,7 +80,7 @@ These instructions assume you're confident with Github, Cloudflare & code, but y
    - You can leave the DNSLink field empty (we'll be replacing it via the API shortly)
 5. Nearly there! In Github, manually edit the `public/_redirects` file in your new repo
    - Perhaps change the `/me` link to point to your own homepage
-   - You probably want to remove all my other shortlinks, but keep the bottom one (starting `/*`), as it manages shortcodes that don't exist.
+   - You probably want to remove all my other shortlinks, but keep the bottom one (starting `/*`), as it manages shortlinks that don't exist.
    - Commit your changes
 6. A few minutes after you committed you should see a green tick in Github, and your shortlinks site should be active! Visit your domain at a random path to see the 404 page, and at any shortlink you added to see it work.
 
