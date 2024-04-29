@@ -1,0 +1,69 @@
+# {{ .Title }}
+
+{{ $sections := split (replaceRE `^\s*` "\n" .Page.RenderShortcodes) "\n#" -}}
+
+{{- $first := true -}}
+{{- range $sections -}}
+  {{- $content := . -}}
+  {{- if not $first -}}
+    {{- $content = printf "\n#%s" $content -}}
+  {{- end -}}
+  {{- $first = false -}}
+
+  {{/*  Swap out unsupported list types  */}}
+  {{- $content := $content | replaceRE `\n- (.+?)` "\n* $1" -}}
+  {{- $content := $content | replaceRE `\n(\d+). (.+?)` "\n* $2" -}}
+  {{/*  Remove footnote references  */}}
+  {{- $content := $content | replaceRE `\[\^(.+?)\]:?` "" -}}
+  {{/*  Swap out forced newlines  */}}
+  {{- $content := $content | replaceRE `<br/??>` "\n" -}}
+  {{- $content := $content | replaceRE `\\\n` "\n" -}}
+  {{/*  Links  */}}
+  {{- $content := $content | replaceRE `<a .*href="(.+?)".*>(.+?)</a>` "[$2]($1)" -}}
+  {{- $content := $content | replaceRE `\sgemini://(\S*)` " [gemini://$1](gemini://$1)" -}}
+  {{/*  Horizontal rules  */}}
+  {{- $content := $content | replaceRE "\n+---\n+" "\n\n" -}}
+  {{/*  Images  */}}
+  {{- $content := $content | replaceRE `\n\n!\[.*]\((.+?)\)` "\n\n=> $1 An untitled image" -}}
+
+  {{- $refs := findRE `\[.+?\]\([^#].+?\)` $content -}}
+  {{- $content := $content | replaceRE `\[(.+?)\]\((.+?)\)` "$1" -}}
+
+  {{- $content | safeHTML -}}
+
+  {{- if gt (len $refs) 0 -}}
+    {{- "\n" -}}
+    {{- range $refs -}}
+    {{- $parts := split . "](" -}}
+    {{- $link := substr (index $parts 1) 0 (sub (len (index $parts 1)) 1) -}}
+    {{- $title := substr (index $parts 0) 1 | strings.FirstUpper -}}
+    => {{ printf "%s %s\n" $link $title -}}
+    {{- end -}}
+  {{- end -}}
+{{- end }}
+
+# What's next
+{{ $dateType := "published" -}}
+{{- $date := .Date -}}
+{{- if not .Date -}}
+  {{- $date = .Lastmod -}}
+  {{- $dateType := "updated" -}}
+{{- end }}
+This post was {{ $dateType }} by JP on **{{ $date.Format (.Site.Params.dateFormat | default "2 January 2006") }}**
+{{- if not .Params.geminiAware }}, originally in markdown and _without_ Gemini in mind, so things might look a little odd!{{else}}.{{ end }}
+
+{{ with .Params.tags -}}
+I've not quite figured out if hashtags are useful in a Gemini context, but this post was tagged with{{ range (. | sort) }} #{{ . }}{{ end -}}.
+{{- end }}
+
+=> https://www.byjp.me{{ replace (replace .RelPermalink "/gemini" "" 1) "index.gmi" "" }} View this page on the WWW
+{{ with .NextInSection }}=> {{ .RelPermalink }} Next post: {{ .Title }}{{ end }}
+{{ with .PrevInSection }}=> {{ .RelPermalink }} Next post: {{ .Title }}{{ end }}
+
+You may also want to visit:
+
+=> / 🏡 Home
+{{ range .Site.Menus.main -}}
+  => {{ .URL | relURL }} {{ .Name }}
+{{ end -}}
+

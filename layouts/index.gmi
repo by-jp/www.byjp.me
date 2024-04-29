@@ -1,0 +1,5 @@
+## List of posts
+
+{{ range .RegularPages }}
+=> {{ .RelPermalink }} {{ .Title }}
+{{- end }}

@@ -1,0 +1,3 @@
+# Agate metadata file (for serving Gemini with Agate)
+# I use inline type descriptions (bold, italic)
+**/*.gmi: ;type=inline;lang=en-GB

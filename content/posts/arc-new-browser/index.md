@@ -15,13 +15,13 @@ It seems to me like new browsers are very popular at the moment. I love that thi
 
 I've oscillated a little through web browsers in the roughly two and a half decades(!) I've been a "netizen", but they've almost always been tied to my OS. I've literally _just_ started using [Arc](https://arc.net/), and I'm already adoring it.
 
-{{< figure src="arc.png" alt="A screenshot of the Arc browser, viewing the homepage of this blog.">}}
+{{< figure src="arc.png" title="What the Arc browser looks like" alt="A screenshot of the Arc browser, viewing the homepage of this blog.">}}
 
 Why do I like it so quickly? It's extremely well designed; the novel choice to put a border around the viewport makes web pages feel like something to be appreciated again, the vertical tab bar—and the choice to archive any non-pinned tabs when you close that window—makes it easy to find what you're looking for and keep only what you need, the "Little Arc" windows really feel like peeking into other websites while keeping focus on the original one, and a thousand other choices made for your _enjoyment_.
 
 I'll write more after using it for a while but, weirdly, the one thing that's made me love it more than anything else? The 'make Arc your default browser' dialog offered "Yes", "No", and "Let me try it for a week". Very smart, and just what I wanted.
 
-{{< figure src="little-arc.webp" title="The 'Little Arc' browser windows make it really easy to dip into a site quickly, from another webpage, or another app." >}}
+{{< figure src="little-arc.webp" title="What the 'Little Arc' windows look like" caption="The 'Little Arc' browser windows make it really easy to dip into a site quickly, from another webpage, or another app." >}}
 
 Writing this got me reminiscing; it's not a lens I thought I'd ever use to look back on my life to date, but here we go…
 
@@ -29,7 +29,7 @@ Writing this got me reminiscing; it's not a lens I thought I'd ever use to look 
 
 I started on the world wide web with [Netscape](https://en.wikipedia.org/wiki/Netscape_(web_browser)#/media/File:Apple_Unix_with_Netscape.png). It sat on my school's Apple Macintoshes and you could find me, too frequently, seeking the arcane knowledge of the world. I remember my first HTML(3) was written on one of those macs, I _think_ I also had a Geocities site (I've never been able to find it in the archives though). Doors opened, potential oozed everywhere — I'm pretty sure that's where all this started for me!
 
-{{< figure caption="Who could forget how _everything_ you installed also required you add a new IE browser toolbar." alt="A very old version of Internet Explorer with so many toolbar browser extensions the web page is only a few pixels high." src="ie-browser-extensions.png" >}}
+{{< figure title="Too many toolbars" caption="Who could forget how _everything_ you installed also required you add a new IE browser toolbar." alt="A very old version of Internet Explorer with so many toolbar browser extensions the web page is only a few pixels high." src="ie-browser-extensions.png" >}}
 
 I switched [Internet Explorer](https://en.wikipedia.org/wiki/Internet_Explorer#/media/File:Internet_Explorer_1.0.png) when Windows 95 came to my family home, and the school library gained three new computers. I was building web 1.0 sites fairly often by this point, I cringe at the thought of most of them (for the content and at my lack of awareness), but the notepad.exe written HTML was glorious.
 

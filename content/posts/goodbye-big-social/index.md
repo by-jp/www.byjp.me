@@ -9,15 +9,11 @@ tags:
 summary: Why I'm leaving 'big' social media.
 ---
 
-<small>_**TL;DR**: I'm going to leave Meta's social networking platforms (Facebook, Instagram) on June 16th, 2023. This website, [byJP.me](https://byjp.me), will always show good ways to reach me and find out what I'm up to — please say hello if we haven't chatted in a while!_</small>
-
----
-
 I'm pretty fed up of Facebook and Instagram. I barely use them, but when I do I _binge_, and end up feeling terrible afterwards. I'm familiar with how sites like these use data analytics to group humans into buckets according to the best ways to maximise dopamine release, and the _percent of our day_ we spent on their sites/apps, and it makes me itch.
 
 I don't want my attention to be milked. I don't want to feel _more_ distant from my friends on the platforms that claim to connect me with them. Six advertisements and four rose-tinted travel "influencer" posts between anything relating to my friends' lives isn't useful or good for me. It's clearly time to leave.
 
-{{< figure src="insta-ages.jpg" title="My first, precisely middle, and last posts on instagram. From left to right: the 'Creepy mounted fox head' I apparently joined Instagram to post a photo of (Nov 20, 2010); a scan of an old and wonderful photo of my Mum's late partner, Tony, standing over a moped looking ready to fly (Jan 4, 2017); a photo of my fiancée looking out over stunning Rio de Janiero from Pão de Açucar (Feb 15, 2023)." class="big" >}}
+{{< figure src="insta-ages.jpg" caption="My first, precisely middle, and last posts on instagram. From left to right: the 'Creepy mounted fox head' I apparently joined Instagram to post a photo of (Nov 20, 2010); a scan of an old and wonderful photo of my Mum's late partner, Tony, standing over a moped looking ready to fly (Jan 4, 2017); a photo of my fiancée looking out over stunning Rio de Janiero from Pão de Açucar (Feb 15, 2023)." class="big" >}}
 
 I joined Facebook in 2005, excited at the technical and societal marvel that was [web 2.0](https://en.wikipedia.org/wiki/Web_2.0), and Instagram (then independent of Meta) in 2010, delighting at having both a camera _and_ the internet in my pocket at once. I enjoyed sharing and creating on those platforms then (I did it though none of my friends had joined yet!) but now my every word and pixel is fed into a runaway marketing algorithm, and I'm going to get off the train.
 

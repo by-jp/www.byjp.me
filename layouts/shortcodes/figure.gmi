@@ -1,0 +1,12 @@
+{{- $src := path.Join (path.Dir .Page.RelPermalink) (.Get "src") -}}
+{{- $title := "An untitled image" -}}
+{{- $caption := (.Get "caption") -}}
+{{- $captionChunks := split $caption "." -}}
+{{- if lt (len (index $captionChunks 0)) 64 -}}
+  {{- $title = index $captionChunks 0 -}}
+  {{- $caption = delimit (after 1 $captionChunks) "." -}}
+{{- end -}}
+{{- $title := (.Get "title") | default $title -}}
+=> {{ $src }} {{ $title }}
+{{- with $caption }}{{ if ne $title . }}
+> {{ . }}{{ end }}{{ end -}}

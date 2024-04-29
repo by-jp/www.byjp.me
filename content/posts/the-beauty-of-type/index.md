@@ -9,6 +9,10 @@ tags:
   - postcards
   - project
 summary: I created a font from a piece of art made for me by a friend.
+references:
+  - url: https://www.youtube.com/watch?v=tMYjozPtJ-8
+    name: Demo video of the Caspian font & website
+    type: video
 syndications:
 - https://medium.com/miriscient/the-beauty-of-type-29ab1000e9e4
 - https://soundcloud.com/miriscient/the-beauty-of-type

@@ -1,0 +1,8 @@
+{{- $displayArtist := (.Get "composer") | default (.Get "artist") -}}
+{{- $displayTitle := (.Get "title") | default (.Get "album") -}}
+{{- $songwhip := .Get "url" -}}
+{{- if $displayArtist -}}
+  {{- $songwhip = printf "https://songwhip.com/%s/%s" (partial "kebab.txt" (.Get "artist")) (partial "kebab.txt" $displayTitle) }}
+{{- end -}}
+
+=> {{ $songwhip }} 🎵 {{ $displayArtist }}{{ with $displayTitle }}{{ if $displayArtist }}: {{ end }}{{ . }}{{ end }}
