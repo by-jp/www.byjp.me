@@ -43,3 +43,9 @@ tasks:
     cmds:
       - go run ./import/omnivore ../
       - go run ./import/webmentionio
+
+  gemini:
+    desc: Builds the site & starts a gemini server (on the default port) for it.
+    deps: [ build ]
+    cmds:
+      - agate --content public --lang en-GB --hostname localhost --central-conf
