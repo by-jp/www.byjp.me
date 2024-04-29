@@ -3,3 +3,4 @@
 /.hugo_build.lock
 /.lycheecache
 .env
+*.der
