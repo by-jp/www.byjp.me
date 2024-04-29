@@ -26,7 +26,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.124.1
+      HUGO_VERSION: 0.125.4
       PAGEFIND_VERSION: 1.1.0
       TASK_VERSION: 3.36.0
     steps:

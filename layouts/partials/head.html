@@ -50,7 +50,7 @@
 {{ template "_internal/schema.html" . }}
 
 {{ if isset .Site.Taxonomies "series" }}
-    {{ template "_internal/opengraph.html" . }}
+    {{ template "partials/opengraph.html" . }}
 {{ end }}
 
 {{ range .Params.categories }}
