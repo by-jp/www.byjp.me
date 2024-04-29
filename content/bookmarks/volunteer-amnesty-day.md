@@ -1,6 +1,7 @@
 ---
 date: 2024-02-23T14:55:13.977Z
 publishDate: 2024-02-23T14:55:13.977Z
+emoji: 📅
 title: Volunteer Amnesty Day
 bookmarkOf: https://www.volunteeramnestyday.net/
 references:

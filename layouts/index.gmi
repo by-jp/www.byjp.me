@@ -1,5 +1,50 @@
-## List of posts
+{{- define "main" -}}
+# byJP
 
-{{ range .RegularPages }}
-=> {{ .RelPermalink }} {{ .Title }}
+{{ (partial "about-me.html" .) | plainify }}
+
+{{ (partial "intro.html" .) | plainify }}
+
+## Recent posts
+
+Some of my recent (and more substantial) writing.
+{{ $posts := where .Site.RegularPages "Section" "in" (slice "posts" "bookmarks" "poetry") -}}
+{{- range ($posts.ByPublishDate.Reverse | first 6) }}
+=> {{.RelPermalink}} {{ with .Params.emoji }}{{.}} {{end}}{{- with .Title -}}{{ . }}{{ else }}{{ .Type | singularize | title }}{{ end -}}
+{{- end }}
+
+=> /posts/ 📔 More posts (my longer articles)
+=> /bookmarks/ 🔖 More bookmarks (my thoughts on others' interesting writing)
+
+## Upcoming events
+
+{{ $allEvents := where .Site.RegularPages "Section" "calendar" -}}
+{{- $upcomingEvents := slice -}}
+{{- range $eventPage := $allEvents -}}
+  {{- range $eventPage.Params.timings -}}
+    {{- $event := dict "Title" $eventPage.Title "Page" $eventPage.Page "Date" (time.AsTime .starts) "Duration" (partial "iso8601.duration" .duration) -}}
+    {{- if $event.Date.Before time.Now }}{{ continue }}{{ end -}}
+    {{- $upcomingEvents = sort ($upcomingEvents | append $event) "Date" "asc" -}}
+    {{- break -}}{{/* Only show the first on the list */}}
+  {{- end -}}
+{{- end -}}
+
+{{- if ge (len $upcomingEvents) 2 -}}
+Maybe you'll see me at **{{ (index $upcomingEvents 0).Title }}** on {{ (partial "year-relative-date.html" (index $upcomingEvents 0).Date) | plainify }}, or **{{ (index $upcomingEvents 1).Title }}** on {{ (partial "year-relative-date.html" (index $upcomingEvents 1).Date) | plainify }}.
+Get in touch if you'd like to go to these, or any other events⁺, together!
+
+=> {{ (index $upcomingEvents 0).Page.RelPermalink }} {{ (index $upcomingEvents 0).Title }}
+=> {{ (index $upcomingEvents 1).Page.RelPermalink }} {{ (index $upcomingEvents 1).Title }}
+
+=> /calendar/ 🗓️ My events calendar
+{{ end }}
+## A recent note
+{{ $notePage := index (where .Site.RegularPages "Section" "eq" "notes") 0 -}}
+{{ with $notePage }}{{ partial "markdown.gmi" .Page.RenderShortcodes }}{{ end }}
+## Me, elsewhere
+
+You can find me across the world wide web; here are a handful of ways to get in touch.
+{{ range .Site.Params.social }}
+=> {{ .url }} {{ .name | humanize }}
+{{- end -}}
 {{- end }}

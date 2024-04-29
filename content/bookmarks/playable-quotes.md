@@ -1,6 +1,7 @@
 ---
 date: 2024-03-01T08:41:57.157Z
 publishDate: 2024-03-01T08:41:57.157Z
+emoji: 🎮
 title: Playable Quotes
 category:
   - games

@@ -1,7 +1,5 @@
 <div class="previews">
-  <p class="intro">
-    This site is a much loved wild garden; things aren't perfectly orgnaised, there are lots of nooks and crannies to explore. Follow your nose and see where you end up.
-  </p>
+  {{ partial "intro.html" }}
 
   <ol class="small-post-list">
     {{- $posts := where .Site.RegularPages "Section" "in" (slice "posts" "bookmarks" "poetry") -}}

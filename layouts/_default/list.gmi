@@ -1,3 +1,4 @@
+{{- define "main" -}}
 # {{ with .Params.emoji }}{{.}} {{end}}{{ title (replace .Title "-" " ") }}
 
 {{- with .Page.RenderShortcodes }}
@@ -10,17 +11,5 @@
 {{ range .Pages -}}
   => {{ .RelPermalink }} {{ with .Params.emoji }}{{ . }} {{ end }}{{ partial "page-title.txt" . }}
 {{ end -}}
-{{- end }}
-
-# Postscript
-{{ with .Paginator.Next }}
-=> {{ .URL }} Next page{{ end }}
-{{- with .Paginator.Prev }}
-=> {{ .URL }} Previous page{{ end }}
-
-You may also want to visit:
-
-=> / 🏡 Home
-{{ range .Site.Menus.main -}}
-  => {{ .URL | relURL }} {{ .Name }}
-{{ end -}}
+{{- end -}}
+{{- end -}}

@@ -1,39 +1,11 @@
-# {{ .Title | default (partial "page-title.txt" .) }}
+{{- define "main" -}}
+# {{ with .Params.emoji }}{{.}} {{end}}{{ .Title | default (partial "page-title.txt" .) }}
 
-{{ partial "reference-to.gmi" . -}}
-
-{{- with .Params.media }}{{ range . -}}
+{{ partial "reference-to.gmi" . }}
+{{ with .Params.media }}{{ range . -}}
 {{- partial "image.gmi" (dict "src" .url) -}}
 {{- end }}
 {{ end -}}
 
 {{- partial "markdown.gmi" .Page.RenderShortcodes -}}
-# Postscript
-
-=> https://www.byjp.me{{ replace .RelPermalink "index.gmi" "" }} View this page on the WWW
-{{- with .NextInSection }}
-=> {{ .RelPermalink }} Next post: {{ partial "page-title.txt" . }}{{ end }}
-{{- with .PrevInSection }}
-=> {{ .RelPermalink }} Previous post: {{ partial "page-title.txt" . }}{{ end }}
-
-{{ $dateType := "published" -}}
-{{- $date := .Date -}}
-{{- if not .Date -}}
-  {{- $date = .Lastmod -}}
-  {{- $dateType := "last updated" -}}
 {{- end -}}
-This post was {{ $dateType }} by {{ .Params.author | default "JP" }} on **{{ $date.Format (.Site.Params.dateFormat | default "2 January 2006") }}**
-{{- if not .Params.geminiAware }}, originally in markdown and _without_ Gemini in mind, so things might look a little odd!{{else}}.{{ end }}
-
-{{- with .Params.tags }}
-
-I've not quite figured out if hashtags are useful in a Gemini context, but this post was tagged with{{ range (. | sort) }} #{{ . }}{{ end -}}.
-{{- end }}
-
-You may also want to visit:
-
-=> / 🏡 Home
-{{ range .Site.Menus.main -}}
-  => {{ .URL | relURL }} {{ .Name }}
-{{ end -}}
-

@@ -1,6 +1,7 @@
 ---
 title: Open Source Quality Institutes
 date: "2024-04-03T07:43:01Z"
+emoji: 📐
 publishDate: "2024-04-01T00:00:00Z"
 bookmarkOf: https://www.tbray.org/ongoing/When/202x/2024/04/01/OSQI
 references:

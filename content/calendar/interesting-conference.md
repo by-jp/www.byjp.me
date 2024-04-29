@@ -14,4 +14,6 @@ location:
 summary: Short talks about interesting things.
 ---
 
+I'm actually really excited for this; I've been to similar conferences in the past and loved them. (I even ran a mini lecture series event in my lat twenties). I'm hoping to meet a whole bunch of interesting people, and be inspired by their passions!
+
 > Short talks about interesting things. Same old same old.
