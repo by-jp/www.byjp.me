@@ -17,7 +17,7 @@ Here in my little career break I'm spending a lot of time thinking about _commun
 
 Yesterday I built a clap button, the one you can see below this paragraph, and on every page at the bottom of the post (though sometimes its a heart instead of a clap, for aesthetic reasons). If you click it it lets me know you appreciate my post, and keeps track of how many times that's happened (you can press it more than once if you really like something!)
 
-<figure style="text-align:center">{{< claps >}}<br/><small style="font-style: italic">Press this to show appreciation!</small></figure>
+{{< claps >}}
 
 I decided to make this button totally anonymous; this makes it much easier for you to use, but the lack of tracking also means that—for me—it's a feel good vibe rather than data I can get analytical over. If you like the sound of it, you can try it out 😜
 

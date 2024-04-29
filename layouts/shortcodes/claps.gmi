@@ -1,0 +1,3 @@
+_Sorry, my clap button works via HTTP, and isn't available over Gemini (yet)._
+
+=> https://www.byjp.me{{ replace .Page.RelPermalink "index.gmi" "" }} View this page on the WWW instead

@@ -1,0 +1,22 @@
+{{- $count := .Get 0 | default 5 -}}
+{{- $url := printf "https://%s" site.Params.clapsHost -}}
+{{- $cacheKey := print $url (now.Format "-2006-01-02-15") -}}
+{{- with resources.GetRemote $url (dict "key" $cacheKey) -}}
+  {{- with .Err -}}
+    {{- errorf "%s" . -}}
+  {{- else -}}
+    {{- $data := .Content | transform.Unmarshal -}}
+    {{- $claps := slice -}}
+    {{- range $path, $count := $data -}}
+      {{ $claps = $claps | append (dict "path" $path "count" $count) }}
+    {{- end -}}
+    {{- range (sort $claps "count" "desc" | first $count) -}}
+      {{- $count := .count -}}
+      {{- with site.GetPage .path }}
+=> {{.RelPermalink}} {{ with .Params.emoji }}{{ . }} {{ end}}{{ with .Title -}}{{ . }}{{ else }}{{ .Type | singularize | title }}{{ end }} ({{ $count }})
+      {{- end -}}
+    {{- end }}
+  {{- end -}}
+{{- else -}}
+  {{- errorf "Unable to get all clap counts" -}}
+{{- end -}}
