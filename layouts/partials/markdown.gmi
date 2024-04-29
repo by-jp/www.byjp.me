@@ -1,4 +1,4 @@
-{{ $sections := split (replaceRE `^\s*` "\n" .) "\n#" -}}
+{{ $sections := split (replaceRE `&nbsp;` " " .) "\n#" -}}
 {{- $first := true -}}
 {{- range $sections -}}
   {{- $content := . -}}
