@@ -18,6 +18,8 @@
 {{- with .Paginator.Prev }}
 => {{ .URL }} Previous page{{ end }}
 
+You may also want to visit:
+
 => / 🏡 Home
 {{ range .Site.Menus.main -}}
   => {{ .URL | relURL }} {{ .Name }}
