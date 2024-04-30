@@ -3,4 +3,5 @@
 /.hugo_build.lock
 /.lycheecache
 .env
-*.der
+# Ignore Agate gemini server's files
+/.certificates

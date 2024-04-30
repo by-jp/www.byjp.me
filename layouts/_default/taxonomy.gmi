@@ -2,15 +2,9 @@
 # {{ with .Params.emoji }}{{.}} {{end}}{{ title (replace .Title "-" " ") }}
 
 {{- with .Page.RenderShortcodes }}
-{{- partial "markdown.gmi" . -}}{{ end -}}
+{{- partial "markdown.gmi" . -}}{{ end }}
 
-{{- $paginator := .Paginate .Pages -}}
-
-{{- $paginatorGroup := $paginator.Pages.GroupByDate "2006" -}}
-{{- range $paginatorGroup }}
-## {{ .Key }}
-{{ range .Pages -}}
+{{ range .Pages.ByTitle -}}
   => {{ .RelPermalink }} {{ with .Params.emoji }}{{ . }} {{ end }}{{ partial "page-title.txt" . }}
 {{ end -}}
-{{- end -}}
 {{- end -}}

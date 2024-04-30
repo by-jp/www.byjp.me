@@ -19,6 +19,12 @@ Things I might work on within my personal blog's software.
   - [ ] Add links to memex from §refs
 - [ ] Switch Memex to single file (easier to post to)
 - [ ] Remove http://gowal.la & https://4sq.com links and/or posts that are useless without them
+- [ ] Gemini?!
+  - [x] Tags pages
+  - [ ] Calendar page
+  - [ ] Include link, location, date on event page
+  - [ ] Handle `<details>` in posts (example: ChefGPT)
+  - [ ] Actually serve it up
 
 ### Working
 

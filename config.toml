@@ -198,6 +198,8 @@ date = ["date", "publishDate", "lastmod", ":git"]
 [outputs]
   home = ["html", "rss", "gemini"]
   section = ["html", "rss", "gemini"]
+  taxonomy = ["html", "rss", "gemini"]
+  term = ["html", "rss", "gemini"]
   page = ["html", "gemini"]
 
 [minify]

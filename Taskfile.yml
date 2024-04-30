@@ -3,7 +3,7 @@
 version: '3'
 
 vars:
-  domain: https://www.byjp.me
+  domain: www.byjp.me
   puma_dev_tld: .test
 
 env:
@@ -26,15 +26,15 @@ tasks:
       port: 1313
     cmds: 
       - |
-        [ -d "$HOME/.puma-dev/" ] && (echo {{ .port }} > $HOME/.puma-dev/www.byjp.me) || echo "Puma dev not installed, https://{{ .domain }}{{ .puma_dev_tld }} will not work"
-      - hugo server -p {{ .port }} --minify --printUnusedTemplates -D --baseURL "{{ .domain }}{{ .puma_dev_tld }}" --appendPort=false
+        [ -d "$HOME/.puma-dev/" ] && (echo {{ .port }} > $HOME/.puma-dev/{{ .domain }}) || echo "Puma dev not installed, https://{{ .domain }}{{ .puma_dev_tld }} will not work"
+      - hugo server -p {{ .port }} --minify --printUnusedTemplates -D --baseURL "https://{{ .domain }}{{ .puma_dev_tld }}" --appendPort=false
 
   build:
     desc: Builds the production-ready site in ./public/
     vars:
       cache: /tmp/hugo/cache
     cmds:
-      - hugo --cacheDir {{ .cache }} --gc --minify --baseURL "{{ .domain }}"
+      - hugo --cacheDir {{ .cache }} --gc --minify --baseURL "https://{{ .domain }}"
       - pagefind
 
   import:
@@ -48,4 +48,4 @@ tasks:
     desc: Builds the site & starts a gemini server (on the default port) for it.
     deps: [ build ]
     cmds:
-      - agate --content public --lang en-GB --hostname localhost --central-conf
+      - agate --content public --lang en-GB --hostname "{{ .domain }}{{ .puma_dev_tld }}" --central-conf
