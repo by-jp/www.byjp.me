@@ -2,6 +2,8 @@
 title: Oops!
 emoji: 😰
 type: site-infra
+outputs:
+- html
 _build:
   list: never
 ---

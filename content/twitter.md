@@ -3,6 +3,8 @@ title: "Bye bye Twitter"
 emoji: 💀
 date: 2024-03-27T19:43:01.595Z
 type: timeless
+outputs:
+- html
 summary: I link here instead of linking to Twitter now.
 ---
 

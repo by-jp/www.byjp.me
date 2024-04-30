@@ -2,6 +2,8 @@
 title: Saying thank you
 type: timeless
 emoji: 💞
+outputs:
+- html
 summary: A way to thank me, if you like anything on this site to do so.
 ---
 

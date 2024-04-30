@@ -44,8 +44,24 @@ tasks:
       - go run ./import/omnivore ../
       - go run ./import/webmentionio
 
-  gemini:
+  gemini-reduce:
+    desc: Builds the gemini capsule, removing all HTML and HTML-specific files from ./public.
+    silent: true
+    cmds:
+      # Gemini has no Javascript (no client-side interactivity at all), so search is useless
+      - rm -rf ./public/search
+      # Remove www-specific files
+      - find -E ./public -regex  '.*\.(html|js|css|css\.map|webmanifest|xml|xsl|ico|opml)' -type f -delete
+      # Remove specific unneeded files
+      - rm -rf ./public/favicon*.png ./public/_redirects ./public/{apple,android,mstile}*.png ./public/safari-pinned-tab.svg ./public/robots.txt
+      # Remove specific unneeded direcctories
+      - rm -rf ./public/.well-known/ ./public/fonts/ ./public/standalone/project-prime/
+      # Remove empty directories
+      - find ./public -type d -empty -delete
+
+  gemini-dev:
     desc: Builds the site & starts a gemini server (on the default port) for it.
     deps: [ build ]
     cmds:
       - agate --content public --lang en-GB --hostname "{{ .domain }}{{ .puma_dev_tld }}" --central-conf
+
