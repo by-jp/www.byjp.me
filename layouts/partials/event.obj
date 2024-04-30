@@ -1,0 +1,15 @@
+{{- $timings := slice -}}
+{{- range . -}}
+  {{- if (time.AsTime .starts).After time.Now -}}
+    {{- $timings = $timings | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- $timing := dict -}}
+{{- $isPast := true -}}
+{{- if gt (len $timings) 0 -}}
+  {{- $timing = index $timings 0 -}}
+  {{- $isPast = false -}}
+{{- else -}}
+  {{- $timing = index . 0 -}}
+{{- end -}}
+{{- return (dict "timings" $timings "timing" $timing "isPast" $isPast) -}}

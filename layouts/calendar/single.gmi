@@ -1,0 +1,13 @@
+{{- define "main" -}}
+# {{ with .Params.emoji }}{{.}} {{end}}{{ .Title | default (partial "page-title.txt" .) }}
+
+{{ $event := partial "event.obj" .Params.timings -}}
+{{ .Summary | htmlUnescape }}
+{{- $starts := time.AsTime $event.timing.starts }}
+I{{ if $event.isPast }} was{{ else }}'m{{ end }} planning on going to this event on {{ partial "year-relative-date.txt" $starts }}, from {{ $starts.Format "15:04 (MST)" }}.
+{{ with .Params.location }}
+=> {{ partial "geolink.url" . }} Location: {{ .name }}{{ end -}}
+{{- with .Params.link }}
+=> {{ . }} More info on: {{ strings.TrimPrefix "www." (urls.Parse .).Hostname }}{{ end }}
+{{ partial "markdown.gmi" .Page.RenderShortcodes -}}
+{{- end -}}

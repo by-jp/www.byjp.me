@@ -2,20 +2,7 @@
   <main class="post h-event">
     {{ partial "memex-header.html" . }}
 
-    {{ $timings := slice -}}
-    {{ range .Params.timings -}}
-      {{ if (time.AsTime .starts).After time.Now -}}
-        {{ $timings = $timings | append . -}}
-      {{ end -}}
-    {{ end -}}
-    {{ $timing := dict }}
-    {{ $isPast := true }}
-    {{ if gt (len $timings) 0 }}
-      {{ $timing = index $timings 0 }}
-      {{ $isPast = false }}
-    {{ else }}
-      {{ $timing = index .Params.timings 0 }}
-    {{ end }}
+    {{ $event := partial "event.obj" .Params.timings }}
 
     <article>
       <hgroup class="post-title">
@@ -40,9 +27,9 @@
       {{ end }}
 
       <div class="post-content p-description" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">
-        {{ if not $isPast }}
+        {{ if not $event.isPast }}
           <p class="next-visit">
-            {{ partial "svg.html" (dict "name" "calendar") }} I'm planning on going to this event on {{ partial "year-relative-date.html" (slice (time.AsTime $timing.starts) "dt-start") }}.
+            {{ partial "svg.html" (dict "name" "calendar") }} I'm planning on going to this event on {{ partial "year-relative-date.html" (slice (time.AsTime $event.timing.starts) "dt-start") }}.
             See the bottom of the post for more information.
           </p>
         {{ end }}
@@ -62,7 +49,7 @@
           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
           <circle cx="12" cy="10" r="3"></circle>
         </svg>
-        At <a href="{{ partial "geolink.html" . }}" class="p-location h-geo" target="_blank"><span class="p-name">{{ .name }}</span><span class="hidden" aria-hidden> (<span class="p-latitude">{{ .latitude }}</span>, <span class="p-longitude">{{ .longitude }}</span>)</span></a>
+        At <a href="{{ partial "geolink.url" . }}" class="p-location h-geo" target="_blank"><span class="p-name">{{ .name }}</span><span class="hidden" aria-hidden> (<span class="p-latitude">{{ .latitude }}</span>, <span class="p-longitude">{{ .longitude }}</span>)</span></a>
       </p>{{ end }}
 
       <p>
@@ -72,29 +59,29 @@
           <line x1="8" y1="2" x2="8" y2="6"></line>
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
-        On {{ partial "year-relative-date.html" (slice (time.AsTime $timing.starts) "dt-start") }}
-        {{ with sub (len $timings) 1 }}{{ if gt . 0 }} (and {{ . }} other{{ if gt . 1}}s{{end}}){{ end }}{{ end }}
+        On {{ partial "year-relative-date.html" (slice (time.AsTime $event.timing.starts) "dt-start") }}
+        {{ with sub (len $event.timings) 1 }}{{ if gt . 0 }} (and {{ . }} other{{ if gt . 1}}s{{end}}){{ end }}{{ end }}
       </p>
       <p>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
-        {{ $starts := time.AsTime $timing.starts }}
-        {{ $durationStr := ((strings.Substr $timing.duration 1) | strings.ToLower) }}
-        {{ $duration := partial "iso8601.duration" $timing.duration }}
+        {{ $starts := time.AsTime $event.timing.starts }}
+        {{ $durationStr := ((strings.Substr $event.timing.duration 1) | strings.ToLower) }}
+        {{ $duration := partial "iso8601.duration" $event.timing.duration }}
         From {{ $starts.Format "15:04" }} until {{ $starts.Add $duration | dateFormat "15:04 (MST)" }} (<span class="dt-duration">{{ replace $durationStr "t" ""  }}</span>)
       </p>
 
-      {{ if $timing.attending }}
+      {{ if $event.timing.attending }}
       <p class="attending">
         {{ partial "svg.html" (dict "name" "attending") }}
-        {{ if eq $timing.attending true }}{{ partial "friend.html" "jp.no-emoji" }} is going
-        {{ else if eq (len $timing.attending) 1 }}
-          {{ partial "friend.html" (printf "%s.no-emoji" (index $timing.attending 0)) }} is going
+        {{ if eq $event.timing.attending true }}{{ partial "friend.html" "jp.no-emoji" }} is going
+        {{ else if eq (len $event.timing.attending) 1 }}
+          {{ partial "friend.html" (printf "%s.no-emoji" (index $event.timing.attending 0)) }} is going
         {{ else }}
-          {{ $count := len $timing.attending}}
-          {{ range $i, $attendee := $timing.attending }}
+          {{ $count := len $event.timing.attending}}
+          {{ range $i, $attendee := $event.timing.attending }}
             {{ partial "friend.html" (printf "%s.no-emoji" $attendee) -}}
             {{- if eq $i (sub $count 2) }}{{ if gt $count 2 }},{{ end }} and {{ else if lt $i (sub $count 1) }}, {{ end }}
           {{ end }} are going

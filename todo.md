@@ -21,8 +21,8 @@ Things I might work on within my personal blog's software.
 - [ ] Remove http://gowal.la & https://4sq.com links and/or posts that are useless without them
 - [ ] Gemini?!
   - [x] Tags pages
-  - [ ] Calendar page
-  - [ ] Include link, location, date on event page
+  - [x] Calendar page
+  - [x] Include link, location, date on event page
   - [ ] Handle `<details>` in posts (example: ChefGPT)
   - [ ] Actually serve it up
 

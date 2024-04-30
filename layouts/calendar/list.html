@@ -14,16 +14,7 @@
             <div class="content" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">{{ .Content }}</div>
         {{ end }}
 
-        {{ $events := dict }}
-        {{ range $page := .Data.Pages }}
-          {{ range $page.Params.timings }}
-            {{ $event := dict "Title" $page.Title "Page" $page.Page "Date" (time.AsTime .starts) "Duration" (partial "iso8601.duration" .duration) }}
-            {{ if $event.Date.Before time.Now }}{{ continue }}{{ end }}
-            {{ $bundle := $event.Date.Format "2006-01" }}
-            {{ $events = merge $events (dict $bundle (sort ((index $events $bundle) | append $event) "Date" "asc")) }}
-            {{ break }}{{/* Only show the first on the list */}}
-          {{ end }}
-        {{ end }}
+        {{ $events := partial "events.obj" .Data.Pages }}
 
         {{ range $bundledEvents := $events }}
           <div class="posts-group">

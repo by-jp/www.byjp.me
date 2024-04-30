@@ -3,6 +3,7 @@ title: Calendar
 emoji: 🗓️
 outputs:
 - html
+- gemini
 - calendar
 - rss
 summary: Some events I'm thinking of going to — get in touch if you'd like to join me!

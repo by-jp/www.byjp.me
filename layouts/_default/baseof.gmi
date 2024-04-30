@@ -2,15 +2,15 @@
 # Postscript
 
 {{- $type := .Type -}}
-{{- $paginateType := (partial "article-type.txt" (default "page" $type)) | pluralize -}}
+{{- $paginateType := (partial "article-type.txt" (default "page" $type)) -}}
 {{- with .NextInSection }}
-=> {{ .RelPermalink }} Next post: {{ partial "page-title.txt" . }}{{ end }}
+=> {{ .RelPermalink }} Next {{ $paginateType }}: {{ partial "page-title.txt" . }}{{ end }}
 {{- with .PrevInSection }}
-=> {{ .RelPermalink }} Previous post: {{ partial "page-title.txt" . }}{{ end }}
+=> {{ .RelPermalink }} Previous {{ $paginateType }}: {{ partial "page-title.txt" . }}{{ end }}
 {{ if eq .Kind "section" }}{{ with .Paginator.Next }}
-=> {{ .URL }} Next page of {{ $paginateType }}{{ end }}
+=> {{ .URL }} Next page of {{ $paginateType | pluralize }}{{ end }}
 {{- with .Paginator.Prev }}
-=> {{ .URL }} Previous page of {{ $paginateType }}{{ end }}{{ end }}
+=> {{ .URL }} Previous page of {{ $paginateType | pluralize }}{{ end }}{{ end }}
 => https://www.byjp.me{{ replace .RelPermalink "index.gmi" "" }} View this page on the WWW
 
 {{ $dateType := "published" -}}
@@ -26,6 +26,8 @@ This {{ partial "article-type.txt" (default "page" $type) }} was {{ $dateType }}
 {{- with .Params.tags }}
 
 I've not quite figured out if hashtags are useful in a Gemini context, but this post was tagged with{{ range (. | sort) }} #{{ . }}{{ end -}}.
+
+=> /tags/ 🔗 List of all hashtags
 {{- end }}
 
 You may also want to visit:

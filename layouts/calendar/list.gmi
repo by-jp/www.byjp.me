@@ -1,0 +1,18 @@
+{{- define "main" -}}
+# {{ with .Params.emoji }}{{.}} {{end}}{{ title (replace .Title "-" " ") }}
+
+{{- with .Page.RenderShortcodes }}
+{{- partial "markdown.gmi" . -}}{{ end }}
+
+{{ range $bundledEvents := (partial "events.obj" .Data.Pages) -}}
+## {{ (index $bundledEvents 0).Date.Format "Jan 2006" }}
+{{ range $bundledEvents -}}
+  {{- $hour := .Date.Format "15" -}}
+  {{- $duration := .Duration.Hours -}}
+  {{- $span := "eve" }}
+  {{- if and (gt $hour 9) (lt $hour 17) }}{{ $span = "day" }}{{ end -}}
+  {{- if ge $duration 24 }}{{ $span = "multi-day" }}{{ end -}}
+  => {{ .Page.RelPermalink }} {{ with .Page.Params.emoji }}{{ . }} {{ end }}{{.Page.Title}} ({{ .Date.Format "Jan 2"}}, {{ $span }})
+{{ end -}}
+{{- end -}}
+{{- end -}}
