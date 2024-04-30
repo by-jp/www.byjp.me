@@ -10,7 +10,7 @@
 Some of my recent (and more substantial) writing.
 {{ $posts := where .Site.RegularPages "Section" "in" (slice "posts" "bookmarks" "poetry") -}}
 {{- range ($posts.ByPublishDate.Reverse | first 6) }}
-=> {{.RelPermalink}} {{ with .Params.emoji }}{{.}}{{ else }}🔗{{end}} {{ with .Title -}}{{ . }}{{ else }}{{ .Type | singularize | title }}{{ end -}}
+=> {{ partial "noindex.gmi" .RelPermalink}} {{ with .Params.emoji }}{{.}}{{ else }}🔗{{end}} {{ with .Title -}}{{ . }}{{ else }}{{ .Type | singularize | title }}{{ end -}}
 {{- end }}
 
 => /posts/ 📔 More posts (my longer articles)
@@ -33,8 +33,8 @@ Some of my recent (and more substantial) writing.
 Maybe you'll see me at **{{ (index $upcomingEvents 0).Title }}** on {{ (partial "year-relative-date.html" (index $upcomingEvents 0).Date) | plainify }}, or **{{ (index $upcomingEvents 1).Title }}** on {{ (partial "year-relative-date.html" (index $upcomingEvents 1).Date) | plainify }}.
 Get in touch if you'd like to go to these, or any other events⁺, together!
 
-=> {{ (index $upcomingEvents 0).Page.RelPermalink }} {{ (index $upcomingEvents 0).Title }}
-=> {{ (index $upcomingEvents 1).Page.RelPermalink }} {{ (index $upcomingEvents 1).Title }}
+=> {{ partial "noindex.gmi" (index $upcomingEvents 0).Page.RelPermalink }} {{ (index $upcomingEvents 0).Title }}
+=> {{ partial "noindex.gmi" (index $upcomingEvents 1).Page.RelPermalink }} {{ (index $upcomingEvents 1).Title }}
 
 => /calendar/ 🗓️ My events calendar
 {{ end }}

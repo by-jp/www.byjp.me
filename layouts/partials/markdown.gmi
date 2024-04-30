@@ -18,19 +18,19 @@
   {{/*  Horizontal rules  */}}
   {{- $content := $content | replaceRE "\n+---\n+" "\n\n" -}}
   {{/*  Images  */}}
-  {{- $content := $content | replaceRE `\n\n!\[.*]\((.+?)\)` "\n\n=> $1 Linked image" -}}
+  {{- $content := $content | replaceRE `\n\n!\[.*?]\((.+?)\)` "\n\n=> $1 Linked image" -}}
 
   {{/*  Links  */}}
   {{- $content := $content | replaceRE `<a .*?href="(.+?)".*?>(.+?)</a>` "[$2]($1)" -}}
   {{- $content := $content | replaceRE `\sgemini://(\S*)` " [gemini://$1](gemini://$1)" -}}
   
-  {{- $refs := findRE `\[.+?\]\([^#].+?\)` $content -}}
+  {{- $refs := findRE `\[[^]]+?\]\([^#][^)]+?\)` $content -}}
   {{/*  Remove lines that are only hashtags  */}}
-  {{- $content := $content | replaceRE `\n(\[.+?\]\(/tags/.*\) *)+\n` "" -}}
+  {{- $content := $content | replaceRE `\n(\[[^]]+?\]\(/tags/[^)]*?\) *)+\n` "" -}}
   {{/*  Give hashtags a hash  */}}
-  {{- $content := $content | replaceRE `\[(.+?)\]\(/tags/.*\)` "#$1" -}}
+  {{- $content := $content | replaceRE `\[([^]]+?)\]\(/tags/[^)]*?\)` "#$1" -}}
   {{/*  Give other links a subscript indicator  */}}
-  {{- $content := $content | replaceRE `\[(.+?)\]\((.+?)\)` "$1⁺" -}}
+  {{- $content := $content | replaceRE `\[([^]]+?)\]\(([^)]+?)\)` "$1⁺" -}}
 
   {{- $content | safeHTML -}}
   {{- if gt (len $refs) 0 -}}
@@ -38,7 +38,7 @@
     {{- range $refs -}}
       {{- $parts := split . "](" -}}
       {{- $title := substr (index $parts 0) 1 | strings.FirstUpper -}}
-      {{- $link := substr (index $parts 1) 0 (sub (len (index $parts 1)) 1) -}}
+      {{- $link := partial "noindex.gmi" (substr (index $parts 1) 0 (sub (len (index $parts 1)) 1)) -}}
       {{- if hasPrefix $link "/twitter/#" }}{{ continue }}{{ end -}}
       {{- if hasPrefix $link "/tags/" }}{{ $title = printf "🔗 #%s" $title }}{{ end -}}
       => {{ printf "%s %s\n" $link $title -}}

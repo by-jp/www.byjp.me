@@ -5,6 +5,6 @@
 {{- partial "markdown.gmi" . -}}{{ end }}
 
 {{ range .Pages.ByTitle -}}
-  => {{ .RelPermalink }} {{ with .Params.emoji }}{{ . }} {{ end }}{{ partial "page-title.txt" . }}
+  => {{ partial "noindex.gmi" .RelPermalink }} {{ with .Params.emoji }}{{ . }} {{ end }}{{ partial "page-title.txt" . }}
 {{ end -}}
 {{- end -}}

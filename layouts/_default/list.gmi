@@ -10,7 +10,7 @@
 {{- range $paginatorGroup }}
 ## {{ .Key }}
 {{ range .Pages -}}
-  => {{ .RelPermalink }} {{ with .Params.emoji }}{{ . }} {{ end }}{{ partial "page-title.txt" . }}
+  => {{ partial "noindex.gmi" .RelPermalink }} {{ with .Params.emoji }}{{ . }} {{ end }}{{ partial "page-title.txt" . }}
 {{ end -}}
 {{- end -}}
 {{- end -}}

@@ -1,0 +1,5 @@
+{{- $url := . -}} 
+{{- if hasSuffix $url "/index.gmi" -}}
+  {{- $url = strings.TrimSuffix "index.gmi" $url -}}
+{{- end -}}
+{{- return $url -}}
