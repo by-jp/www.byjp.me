@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Dreamt that I finished my book last night, nowhere near finishing - I must be enjoying it\!
+Dreamt that I finished my book last night, nowhere near finishing - I must be enjoying it!

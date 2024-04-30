@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hi-Fiving all round, he can pass exams\! \(and not too shabbily either...\)
+Hi-Fiving all round, he can pass exams! \(and not too shabbily either...)

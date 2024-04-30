@@ -8,7 +8,7 @@ tags:
 - imported
 - from-instagram
 ---
-Family Easter meal, web edition\!
+Family Easter meal, web edition!
 
 
 

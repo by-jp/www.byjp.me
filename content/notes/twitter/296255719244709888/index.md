@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - NerdPorn
 ---
-Cool\! I need to investigate Levenshtein distances at work [NerdPorn](/tags/nerdporn)
+Cool! I need to investigate Levenshtein distances at work [NerdPorn](/tags/nerdporn)

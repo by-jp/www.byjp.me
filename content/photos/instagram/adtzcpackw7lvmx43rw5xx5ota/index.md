@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Watching and listening to Rum Buffalo launch their new single; by Jove it's good\!
+Watching and listening to Rum Buffalo launch their new single; by Jove it's good!

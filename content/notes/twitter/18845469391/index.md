@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - TheITCrowd
 ---
-New IT crowd - Woooo\! [TheITCrowd](/tags/TheITCrowd)
+New IT crowd - Woooo! [TheITCrowd](/tags/TheITCrowd)

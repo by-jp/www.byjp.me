@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Download festival is wet. The EA tent is dry - thank you EA\!
+Download festival is wet. The EA tent is dry - thank you EA!

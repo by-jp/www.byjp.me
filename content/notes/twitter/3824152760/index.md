@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Anybody got any experience with programatically drawing \(approximations of\) circles in spherical space?
+Anybody got any experience with programatically drawing \(approximations of) circles in spherical space?

@@ -7,4 +7,4 @@ location:
   latitude: 51.57085963
   longitude: -0.11551134
 ---
-My [@theoona](/twitter/#/theoona) arrived\!
+My [@theoona](/twitter/#/theoona) arrived!

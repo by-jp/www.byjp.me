@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-New room with a view \(and a spa\!\) ready to climb Volcano Teide 🏔️
+New room with a view \(and a spa!) ready to climb Volcano Teide 🏔️

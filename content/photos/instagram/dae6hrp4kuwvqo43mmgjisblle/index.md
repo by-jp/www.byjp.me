@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-What a creation\!
+What a creation!

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Is so fruity\!
+Is so fruity!

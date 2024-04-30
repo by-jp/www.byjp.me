@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-in Essaouira - miles away from Casablanca, please don't worry\!
+in Essaouira - miles away from Casablanca, please don't worry!

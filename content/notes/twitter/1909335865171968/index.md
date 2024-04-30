@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - Trainyard
 ---
-This took FOREVER\! [Trainyard](/tags/Trainyard) http://trainyard.ca/7m9c
+This took FOREVER! [Trainyard](/tags/Trainyard) http://trainyard.ca/7m9c

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Incredible timewaster: http://stewdio.org/pong/ \(Both interpretations :P\)
+Incredible timewaster: http://stewdio.org/pong/ \(Both interpretations :P)

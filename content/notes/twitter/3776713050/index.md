@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I saw a man with only a moustache, no beard\! Most uncommon facial apparel methinks.
+I saw a man with only a moustache, no beard! Most uncommon facial apparel methinks.

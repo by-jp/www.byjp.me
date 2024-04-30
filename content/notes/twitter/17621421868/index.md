@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Ooh err. This is a bit of an early start\!
+Ooh err. This is a bit of an early start!

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Really enjoying Meatloaf's new album - ha\!
+Really enjoying Meatloaf's new album - ha!

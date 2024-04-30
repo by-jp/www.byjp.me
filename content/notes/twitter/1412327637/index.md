@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - BoatRace
 ---
-Good work boys\! Go on Oxford\! [BoatRace](/tags/boatrace)
+Good work boys! Go on Oxford! [BoatRace](/tags/boatrace)

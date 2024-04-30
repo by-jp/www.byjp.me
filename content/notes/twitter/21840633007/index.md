@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I just ousted Jon H. as the mayor of 144 Bath Rd on [@foursquare](/twitter/#/foursquare)\! https://4sq.com/9jezVE
+I just ousted Jon H. as the mayor of 144 Bath Rd on [@foursquare](/twitter/#/foursquare)! https://4sq.com/9jezVE

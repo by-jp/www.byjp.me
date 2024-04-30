@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Yay Caprica\! "de-resing" should be brought back into common use. Its been too long\!
+Yay Caprica! "de-resing" should be brought back into common use. Its been too long!

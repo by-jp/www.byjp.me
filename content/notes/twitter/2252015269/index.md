@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Oh balls, I'm being rained on. Sort your Summer out Britain\!
+Oh balls, I'm being rained on. Sort your Summer out Britain!

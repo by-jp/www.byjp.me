@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Nantes - in a family car on the condition we speak English to the kids\!
+near Nantes - in a family car on the condition we speak English to the kids!

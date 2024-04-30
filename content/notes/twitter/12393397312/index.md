@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-everard's meet the brewer evening tomorrow night...8pm. LOTS of free beer to drink... \(via [@TheJohnsonArms](/twitter/#/TheJohnsonArms)\) I'm so there\!
+everard's meet the brewer evening tomorrow night...8pm. LOTS of free beer to drink... \(via [@TheJohnsonArms](/twitter/#/TheJohnsonArms)) I'm so there!

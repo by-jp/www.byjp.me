@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-James Wheare speaks\! And regardless of the pooey internet connection he pulls off a cool and funny presentation\!
+James Wheare speaks! And regardless of the pooey internet connection he pulls off a cool and funny presentation!

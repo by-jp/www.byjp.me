@@ -9,4 +9,4 @@ tags:
 - imported
 - from-instagram
 ---
-Yesterday I did a bit of woodworking, and turned a piece of hardwood into a varnished little stand for my Nixie tube clock. It's very satisfying work I tell you\!
+Yesterday I did a bit of woodworking, and turned a piece of hardwood into a varnished little stand for my Nixie tube clock. It's very satisfying work I tell you!

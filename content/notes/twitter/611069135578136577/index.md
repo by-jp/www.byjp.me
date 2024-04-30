@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - chris
 ---
-Look at that for a flashy filament\! Thanks {{< friend "chris" >}} :D [https://instagram.com/p/4BX71tyIbQ/](https://instagram.com/p/4BX71tyIbQ/)
+Look at that for a flashy filament! Thanks {{< friend "chris" >}} :D [https://instagram.com/p/4BX71tyIbQ/](https://instagram.com/p/4BX71tyIbQ/)

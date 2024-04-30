@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I've *really* enjoyed discovering [@theokatzman](/twitter/#/theokatzman)'s album just before my flight home; masterfully phrased \(musically and lyrically\), chilled &amp; funky pop — give it a listen and mellow with me 😊 [https://songwhip.com/album/theo-katzman/heartbreak-hits](https://songwhip.com/album/theo-katzman/heartbreak-hits)
+I've *really* enjoyed discovering [@theokatzman](/twitter/#/theokatzman)'s album just before my flight home; masterfully phrased \(musically and lyrically), chilled &amp; funky pop — give it a listen and mellow with me 😊 [https://songwhip.com/album/theo-katzman/heartbreak-hits](https://songwhip.com/album/theo-katzman/heartbreak-hits)

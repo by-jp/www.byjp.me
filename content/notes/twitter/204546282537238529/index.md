@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Know anyone who might be interested in a well paid Summer internship with Tesco's IT dept? 5 days left to apply :\) [https://tescoitinternship.co.uk/](https://tescoitinternship.co.uk/)
+Know anyone who might be interested in a well paid Summer internship with Tesco's IT dept? 5 days left to apply :) [https://tescoitinternship.co.uk/](https://tescoitinternship.co.uk/)

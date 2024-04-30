@@ -9,4 +9,4 @@ tags:
 - imported
 - from-instagram
 ---
-Home made ramen time ☺️ nothing better for a cold and windy evening\!
+Home made ramen time ☺️ nothing better for a cold and windy evening!

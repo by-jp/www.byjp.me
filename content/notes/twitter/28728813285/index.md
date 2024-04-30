@@ -7,4 +7,4 @@ location:
   latitude: 51.72316664
   longitude: -1.97108823
 ---
-Woah\! In twitter for iPhone you can pull down a reply you're composing to see the original tweet - awesome\!
+Woah! In twitter for iPhone you can pull down a reply you're composing to see the original tweet - awesome!

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I spent the afternoon teaching some Deliveroo riders about HTML and CSS; blown away by how fast they've learned so much\!
+I spent the afternoon teaching some Deliveroo riders about HTML and CSS; blown away by how fast they've learned so much!

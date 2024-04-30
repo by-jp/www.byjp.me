@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Just turned VoiceOver on on my iPhone. Changes how everything works, longest 5 mins ever\!
+Just turned VoiceOver on on my iPhone. Changes how everything works, longest 5 mins ever!

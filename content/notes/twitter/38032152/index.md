@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Agh\! Physics requires that you *work* - now I remember
+Agh! Physics requires that you *work* - now I remember

@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Went for a snowy hike today—my first ever that wasn't part of a ski run—and it was wonderful\! So pretty \(so windy\!\) 🏔️
+Went for a snowy hike today—my first ever that wasn't part of a ski run—and it was wonderful! So pretty \(so windy!) 🏔️

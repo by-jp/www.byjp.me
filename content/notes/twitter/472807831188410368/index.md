@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Another Albert Hall epic\! Was le_boyd [https://instagram.com/p/oq9-MKyIbv/](https://instagram.com/p/oq9-MKyIbv/)
+Another Albert Hall epic! Was le_boyd [https://instagram.com/p/oq9-MKyIbv/](https://instagram.com/p/oq9-MKyIbv/)

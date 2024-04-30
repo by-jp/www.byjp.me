@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-New \(old\) iMac\! Yay\!
+New \(old) iMac! Yay!

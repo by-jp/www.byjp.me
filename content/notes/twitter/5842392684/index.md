@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Smokin' hot GUI installer for Playdar on Windows: http://windar.org/ \(via [@lucas_gonze](/twitter/#/lucas_gonze)\)
+Smokin' hot GUI installer for Playdar on Windows: http://windar.org/ \(via [@lucas_gonze](/twitter/#/lucas_gonze))

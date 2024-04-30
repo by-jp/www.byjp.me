@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Dad's new pad is stunning, as is the English countryside\! {{< linkrot "360.io/QMEKNY" "a 360 photo" >}}
+Dad's new pad is stunning, as is the English countryside! {{< linkrot "360.io/QMEKNY" "a 360 photo" >}}

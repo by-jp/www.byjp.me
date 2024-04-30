@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - fail
 ---
-URGH\! Online job appl. [fail](/tags/fail) — its taken me 45 minutes just to add my education, every 'new subject' click reloads THE ENTIRE APPLICATION.
+URGH! Online job appl. [fail](/tags/fail) — its taken me 45 minutes just to add my education, every 'new subject' click reloads THE ENTIRE APPLICATION.

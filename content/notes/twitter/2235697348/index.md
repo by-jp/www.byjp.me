@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Woop\! iPhone\! New 3G S casing nearly smaller than the O2 simcard stuff\! \(nearly...\)
+Woop! iPhone! New 3G S casing nearly smaller than the O2 simcard stuff! \(nearly...)

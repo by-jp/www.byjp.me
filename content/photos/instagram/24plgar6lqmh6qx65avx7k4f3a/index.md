@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-A top notch weekend with truly tasty meats\!
+A top notch weekend with truly tasty meats!

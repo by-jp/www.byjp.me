@@ -12,4 +12,4 @@ Would you look at that, I'm a Southerner now 😜
 
 
 
-Send me a postcard\! 5 Calico House, 199 Long Lane, SE1 4PN - add your address and I'll send you one from somewhere fun too\!
+Send me a postcard! 5 Calico House, 199 Long Lane, SE1 4PN - add your address and I'll send you one from somewhere fun too!

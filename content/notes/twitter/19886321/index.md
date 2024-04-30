@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Bordeaux - at the biggest truck stop you've ever seen\! It's... Pretty\!
+near Bordeaux - at the biggest truck stop you've ever seen! It's... Pretty!

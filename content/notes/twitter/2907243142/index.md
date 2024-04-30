@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Japan\! I leave for JK's tomorrow, then Japan on Friday\! I'll be blogging at http://jpinjapan.tumblr.com
+Japan! I leave for JK's tomorrow, then Japan on Friday! I'll be blogging at http://jpinjapan.tumblr.com

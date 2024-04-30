@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-5 carriage train to myself here at Hertford North - creepy \(@ Hertford North Station\) https://4sq.com/cQ2wZD
+5 carriage train to myself here at Hertford North - creepy \(@ Hertford North Station) https://4sq.com/cQ2wZD

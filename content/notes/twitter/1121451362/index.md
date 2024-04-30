@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-JP : That's better\! Lets have more like that please\!
+JP : That's better! Lets have more like that please!

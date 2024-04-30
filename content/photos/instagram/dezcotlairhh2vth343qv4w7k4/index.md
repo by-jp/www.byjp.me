@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-View from the new pad\!
+View from the new pad!

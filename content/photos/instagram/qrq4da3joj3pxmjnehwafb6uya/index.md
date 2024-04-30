@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-1kg of mango - picked from trees we can see - 50 rupees = 70p. Win\!
+1kg of mango - picked from trees we can see - 50 rupees = 70p. Win!

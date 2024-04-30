@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Best thing about tube travel: emerging into sunshine like THIS\!
+Best thing about tube travel: emerging into sunshine like THIS!

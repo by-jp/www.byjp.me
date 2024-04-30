@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Sleek new UI for Playdar on OS X: http://www.playdar.org/download/ \(via [@lucas_gonze](/twitter/#/lucas_gonze)\)
+Sleek new UI for Playdar on OS X: http://www.playdar.org/download/ \(via [@lucas_gonze](/twitter/#/lucas_gonze))

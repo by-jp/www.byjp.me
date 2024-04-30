@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Oh dear. I knew I wasn't a top grade maths student but this isn't right\!  http://yfrog.us/2p1y3z
+Oh dear. I knew I wasn't a top grade maths student but this isn't right!  http://yfrog.us/2p1y3z

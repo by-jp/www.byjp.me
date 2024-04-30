@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - lenny
 ---
-I'm no engineer, but Rock 'n' Roll doesn't seem like a solid foundation to be building a city on. \(via {{< friend "lenny" >}}\)
+I'm no engineer, but Rock 'n' Roll doesn't seem like a solid foundation to be building a city on. \(via {{< friend "lenny" >}})

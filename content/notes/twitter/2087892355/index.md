@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-SICK\! I now have flights to Japan BOOKED\! :D
+SICK! I now have flights to Japan BOOKED! :D

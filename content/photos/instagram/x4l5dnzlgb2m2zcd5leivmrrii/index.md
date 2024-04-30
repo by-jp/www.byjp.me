@@ -14,6 +14,6 @@ tags:
 - from-instagram
 - yvette
 ---
-Experiments in dithering \(with {{< friend yvette >}} and JP\)
+Experiments in dithering \(with {{< friend yvette >}} and JP)
 
 I really like this style, despite its lack of fidelity & definition; perhaps its nostalgia, and growing up with computers in the early 90s?

@@ -6,4 +6,4 @@ tags:
 - spoiler
 - DowntonAbbey
 ---
-[spoiler](/tags/spoiler) Ooooooh. Mr. Bates, this doesn't look good\! [DowntonAbbey](/tags/DowntonAbbey)
+[spoiler](/tags/spoiler) Ooooooh. Mr. Bates, this doesn't look good! [DowntonAbbey](/tags/DowntonAbbey)

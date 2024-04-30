@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Chuffed I managed to replace my MacBook's keyboard all on my lonesome. And nothing broke\!
+Chuffed I managed to replace my MacBook's keyboard all on my lonesome. And nothing broke!

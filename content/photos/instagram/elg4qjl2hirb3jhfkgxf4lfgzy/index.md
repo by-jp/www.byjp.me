@@ -21,4 +21,4 @@ From waking before dawn to see the wildebeest migrating to sitting still enough,
 
 
 
-My Dad gave me the T-Shirt you can see in the last pic; "Mzungu" is a Bantu word, it generally refers to European folk, or people who speak English, but its original meaning is better translated as "wanderer". Presumably they were so in shock at the beauty of this part of the world \(or so inept at dealing with its dangers\), that it came to change its meaning. Time to do some more wandering I think 😊
+My Dad gave me the T-Shirt you can see in the last pic; "Mzungu" is a Bantu word, it generally refers to European folk, or people who speak English, but its original meaning is better translated as "wanderer". Presumably they were so in shock at the beauty of this part of the world \(or so inept at dealing with its dangers), that it came to change its meaning. Time to do some more wandering I think 😊

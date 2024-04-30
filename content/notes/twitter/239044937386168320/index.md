@@ -7,4 +7,4 @@ location:
   latitude: 43.72295347
   longitude: 10.39661229
 ---
-Shoddy workmanship really. \(@ Torre di Pisa w/ 4 others\) [https://4sq.com/MQNlLs](https://4sq.com/MQNlLs)
+Shoddy workmanship really. \(@ Torre di Pisa w/ 4 others) [https://4sq.com/MQNlLs](https://4sq.com/MQNlLs)

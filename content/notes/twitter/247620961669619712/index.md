@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Anybody have recommended reading for the topic of international personal data storage \(eg. legalities and implications of cloud hosting\)?
+Anybody have recommended reading for the topic of international personal data storage \(eg. legalities and implications of cloud hosting)?

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Picadilly line more busy than usual going south from Manor House - avoid if you can\!
+Picadilly line more busy than usual going south from Manor House - avoid if you can!

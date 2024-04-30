@@ -5,4 +5,4 @@ media:
 date: "2017-10-24T18:20:17Z"
 draft: false
 ---
-Nerding it up with {{< friend chris >}} tonight\!
+Nerding it up with {{< friend chris >}} tonight!

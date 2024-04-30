@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I'm wondering why Owen is still hating Physics - didn't his exams finish already? Stop whining\! :p
+I'm wondering why Owen is still hating Physics - didn't his exams finish already? Stop whining! :p

@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - eurovision
 ---
-At least he wasn't streaking\! [eurovision](/tags/eurovision)
+At least he wasn't streaking! [eurovision](/tags/eurovision)

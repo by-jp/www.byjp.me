@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-We found an Arrow Crab\!
+We found an Arrow Crab!

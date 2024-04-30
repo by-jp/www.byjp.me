@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - AmexLondon
 ---
-[AmexLondon](/tags/amexlondon) are giving me free music at Tim Minchin\!
+[AmexLondon](/tags/amexlondon) are giving me free music at Tim Minchin!

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-listening to Seglia \(OH SNAP\!\! Booty Alarm Mix\) by Crookers http://www.thesixtyone.com/Crookers/song/SegliaOHSNAPBootyAlarmMix/kMz7DOvXU7r/
+listening to Seglia \(OH SNAP!! Booty Alarm Mix) by Crookers http://www.thesixtyone.com/Crookers/song/SegliaOHSNAPBootyAlarmMix/kMz7DOvXU7r/

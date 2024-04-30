@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Really enjoying 'Rain' Calvin Harris \(Ready for the Weekend\)
+Really enjoying 'Rain' Calvin Harris \(Ready for the Weekend)

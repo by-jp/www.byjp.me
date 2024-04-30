@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - leanne
 ---
-Newton beach with [Leanne](/tags/leanne) - the North has welcomed me most excellently\!
+Newton beach with [Leanne](/tags/leanne) - the North has welcomed me most excellently!

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-GARGH\! Matlab can suck sometimes.
+GARGH! Matlab can suck sometimes.

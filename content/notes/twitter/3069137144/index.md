@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Freakin' awesome\! I need me a Japanese outdoor bath for home\!
+Freakin' awesome! I need me a Japanese outdoor bath for home!

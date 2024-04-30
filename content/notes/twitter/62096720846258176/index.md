@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-It's Easter Sunday JP\! What made you think shops would be open?\!
+It's Easter Sunday JP! What made you think shops would be open?!

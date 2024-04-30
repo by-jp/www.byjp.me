@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Argh\! Wifi dropouts on my bro's iMac are infuriating\! Every minute\! It's an airport extreme at the other end too.
+Argh! Wifi dropouts on my bro's iMac are infuriating! Every minute! It's an airport extreme at the other end too.

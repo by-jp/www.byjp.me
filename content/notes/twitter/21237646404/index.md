@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I just became the mayor of Chalet Tompkins on [@foursquare](/twitter/#/foursquare)\! https://4sq.com/dl2p4U
+I just became the mayor of Chalet Tompkins on [@foursquare](/twitter/#/foursquare)! https://4sq.com/dl2p4U

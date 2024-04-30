@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-How to frustrate a developer: test their software but escape characters randomly in your input text. Mwah haha\!
+How to frustrate a developer: test their software but escape characters randomly in your input text. Mwah haha!

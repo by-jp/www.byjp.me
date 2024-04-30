@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Best genuinely funny science jokes please\!
+Best genuinely funny science jokes please!

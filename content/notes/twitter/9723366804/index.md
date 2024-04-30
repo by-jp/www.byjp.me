@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Ha\! The SU shop isn't allowed to sell Refreshers anymore because Mars removed their tasty sweetness from the "shelf plan"
+Ha! The SU shop isn't allowed to sell Refreshers anymore because Mars removed their tasty sweetness from the "shelf plan"

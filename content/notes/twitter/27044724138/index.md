@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - NewTwitter
 ---
-Woah\! [NewTwitter](/tags/newtwitter) &lt;3 github gists?\! \(see my JS YAML parser: http://gist.github.com/592720\)
+Woah! [NewTwitter](/tags/newtwitter) &lt;3 github gists?! \(see my JS YAML parser: http://gist.github.com/592720)

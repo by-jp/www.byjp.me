@@ -4,5 +4,5 @@ tags:
 - imported
 - from-twitter
 ---
-Photoshop website advertises "over 500 free vectors\!"\
+Photoshop website advertises "over 500 free vectors!"\
 Cool, I guess, so long a they're not imaginary.

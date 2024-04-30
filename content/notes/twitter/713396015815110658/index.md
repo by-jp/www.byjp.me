@@ -6,4 +6,4 @@ tags:
 - robhunt
 - MVE
 ---
-Friend &amp; colleague {{< friend "robhunt" >}} describes [MVE](/tags/MVE) that [@DeliverooDesign](/twitter/#/DeliverooDesign) ran \(&amp; I spoke at\) a short while back. Grand\! [(twitter link)](/twitter/#/DeliverooDesign/status/713059585557442560)
+Friend &amp; colleague {{< friend "robhunt" >}} describes [MVE](/tags/MVE) that [@DeliverooDesign](/twitter/#/DeliverooDesign) ran \(&amp; I spoke at) a short while back. Grand! [(twitter link)](/twitter/#/DeliverooDesign/status/713059585557442560)

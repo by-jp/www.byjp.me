@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-One week till I leave, still plenty to do\!
+One week till I leave, still plenty to do!

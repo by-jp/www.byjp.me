@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Last night meal & drinks at the excellent Kin Dee restaurant - go there\!
+Last night meal & drinks at the excellent Kin Dee restaurant - go there!

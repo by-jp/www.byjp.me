@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-wondering home in serenity, it's raining but it feels good - suit or nay\!
+wondering home in serenity, it's raining but it feels good - suit or nay!

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-When a big truck transforms into a robot, I bet that uses a lot of petrol. \(via [@serafinowicz](/twitter/#/serafinowicz)\)
+When a big truck transforms into a robot, I bet that uses a lot of petrol. \(via [@serafinowicz](/twitter/#/serafinowicz))

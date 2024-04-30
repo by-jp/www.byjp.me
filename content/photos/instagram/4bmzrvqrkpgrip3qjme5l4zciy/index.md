@@ -12,4 +12,4 @@ tags:
 - imported
 - from-instagram
 ---
-What a week\! Last day of skiing today, now relaxing my battered thighs with these lovely folks ☺️
+What a week! Last day of skiing today, now relaxing my battered thighs with these lovely folks ☺️

@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-I started a new Instagram account — [@postcards](https://instagram.com/postcards).jpg — with pictures and stories of the postcards people have sent me in honour of my love of the medium. You might like it\!
+I started a new Instagram account — [@postcards](https://instagram.com/postcards).jpg — with pictures and stories of the postcards people have sent me in honour of my love of the medium. You might like it!

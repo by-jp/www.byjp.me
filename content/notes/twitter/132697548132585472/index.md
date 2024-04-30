@@ -6,6 +6,6 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes: Rolling In The Deep by Adele \(The Mavrik Remix\) by [@dubstep](/twitter/#/dubstep)
+likes: Rolling In The Deep by Adele \(The Mavrik Remix) by [@dubstep](/twitter/#/dubstep)
 
 {{< youtube "hLMZGK4_i7s" >}}

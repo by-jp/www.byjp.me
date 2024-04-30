@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Weird auto suggest from google: "Auto mount network drive when pre\[gnant\]". What, 'present' isn't used more?\!
+Weird auto suggest from google: "Auto mount network drive when pre\[gnant\]". What, 'present' isn't used more?!

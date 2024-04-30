@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-leaving Bordeaux with a Portuguese trucker who knows none of the languages we know\! I can ask his name... mais c'est tout\!
+leaving Bordeaux with a Portuguese trucker who knows none of the languages we know! I can ask his name... mais c'est tout!

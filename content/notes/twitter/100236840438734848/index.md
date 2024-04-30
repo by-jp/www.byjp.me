@@ -7,4 +7,4 @@ location:
   latitude: 11.93211871
   longitude: 79.81695163
 ---
-Wonderful day, full of surprises :\) 8 hour overnight bus home, currently in 38° heat, work tomorrow will be fun\!
+Wonderful day, full of surprises :) 8 hour overnight bus home, currently in 38° heat, work tomorrow will be fun!

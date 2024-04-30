@@ -12,4 +12,4 @@ JP Hastings-Spital\
 jphatsings\
 Calculon\
 \
-My secret identity is revealed\!
+My secret identity is revealed!

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Elusive camera battery charger refuses to be found or packed. Irony is, bought it from Hong Kong so it'd work in Japan without adaptor\!
+Elusive camera battery charger refuses to be found or packed. Irony is, bought it from Hong Kong so it'd work in Japan without adaptor!

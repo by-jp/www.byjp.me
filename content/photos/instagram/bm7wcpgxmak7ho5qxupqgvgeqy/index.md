@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Mysore Palace \(just the entrance\!\)
+Mysore Palace \(just the entrance!)

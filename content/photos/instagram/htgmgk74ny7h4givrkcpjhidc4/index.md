@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Epic comedy-jazz\!
+Epic comedy-jazz!

@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - devops
 ---
-Dear [devops](/tags/devops), my project area doesn't use automated unit testing \(it's crazy\). I want be be the guy to introduce it - any suggestions?
+Dear [devops](/tags/devops), my project area doesn't use automated unit testing \(it's crazy). I want be be the guy to introduce it - any suggestions?

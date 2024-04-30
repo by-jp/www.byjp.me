@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Byeeee 2020\! RaveToTheMoon.tv is taking us into the new year 💃🕺 we've got our step counters contributing: half a billion steps before the night's out\! All the way to the moon\! 🚀🌘
+Byeeee 2020! RaveToTheMoon.tv is taking us into the new year 💃🕺 we've got our step counters contributing: half a billion steps before the night's out! All the way to the moon! 🚀🌘

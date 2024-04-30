@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I wrote a YAML parser \(ish\) for JavaScript. It works\! \(for me\) http://gist.github.com/592720
+I wrote a YAML parser \(ish) for JavaScript. It works! \(for me) http://gist.github.com/592720

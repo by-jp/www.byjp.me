@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Second game \(black\): Loss\! To a Durham 3rd year theoretical physicist no less :P
+Second game \(black): Loss! To a Durham 3rd year theoretical physicist no less :P

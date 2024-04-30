@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Ha\! #/. "How 136 People Became 7 Million Illegal File-Sharers" [http://rss.slashdot.org/~r/Slashdot/slashdot/~3/8ceq4OyPdP0/How-136-People-Became-7-Million-Illegal-File-Sharers](http://rss.slashdot.org/~r/Slashdot/slashdot/~3/8ceq4OyPdP0/How-136-People-Became-7-Million-Illegal-File-Sharers)
+Ha! #/. "How 136 People Became 7 Million Illegal File-Sharers" [http://rss.slashdot.org/~r/Slashdot/slashdot/~3/8ceq4OyPdP0/How-136-People-Became-7-Million-Illegal-File-Sharers](http://rss.slashdot.org/~r/Slashdot/slashdot/~3/8ceq4OyPdP0/How-136-People-Became-7-Million-Illegal-File-Sharers)

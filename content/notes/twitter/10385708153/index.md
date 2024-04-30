@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - MakerFaireUK
 ---
-So VERY EXCITED about [MakerFaireUK](/tags/makerfaireuk) tomorrow\!
+So VERY EXCITED about [MakerFaireUK](/tags/makerfaireuk) tomorrow!

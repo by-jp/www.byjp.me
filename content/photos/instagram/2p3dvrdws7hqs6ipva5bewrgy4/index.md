@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-A beautiful film with a brilliantly told story and superb acting — you know what you're watching this Easter\!
+A beautiful film with a brilliantly told story and superb acting — you know what you're watching this Easter!

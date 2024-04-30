@@ -10,7 +10,7 @@ tags:
 - yvette
 - AccidentallyWesAnderson
 ---
-This is the face of a man very excited for the second *delicious* course of the meal, with an evening of Venetian Opera ahead\! \(I'm pretty freakin' happy 😁\)
+This is the face of a man very excited for the second *delicious* course of the meal, with an evening of Venetian Opera ahead! \(I'm pretty freakin' happy 😁)
 
 .
 

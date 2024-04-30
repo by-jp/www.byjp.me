@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Train bingo win\!
+Train bingo win!

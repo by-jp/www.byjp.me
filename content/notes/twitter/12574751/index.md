@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-loving the relaxation that comes from being a weekend backpacker\!
+loving the relaxation that comes from being a weekend backpacker!

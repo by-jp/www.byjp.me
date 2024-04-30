@@ -7,4 +7,4 @@ location:
   latitude: 51.50873578
   longitude: -0.09665608
 ---
-Filming a music video for "Happy" by Pharrell - because I'm HAPPY\! @ Bankside Pier [https://instagram.com/p/jWsS1qyIfC/](https://instagram.com/p/jWsS1qyIfC/)
+Filming a music video for "Happy" by Pharrell - because I'm HAPPY! @ Bankside Pier [https://instagram.com/p/jWsS1qyIfC/](https://instagram.com/p/jWsS1qyIfC/)

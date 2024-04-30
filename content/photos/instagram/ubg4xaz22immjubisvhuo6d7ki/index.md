@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-The horror, the horror\!
+The horror, the horror!

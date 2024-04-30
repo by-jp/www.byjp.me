@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Ha\! Apple have now realised the problem with calling the iPad 3 "The New iPad": The iPad mini is newer\!
+Ha! Apple have now realised the problem with calling the iPad 3 "The New iPad": The iPad mini is newer!

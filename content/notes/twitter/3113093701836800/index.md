@@ -7,4 +7,4 @@ location:
   latitude: 51.80878335
   longitude: -0.19940131
 ---
-WHAT?\! Excel 2010 has one undo history across windows?\! WHO WOULD DO THAT?
+WHAT?! Excel 2010 has one undo history across windows?! WHO WOULD DO THAT?

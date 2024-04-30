@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hello stackoverflow\! This tweet is geotagged.
+Hello stackoverflow! This tweet is geotagged.

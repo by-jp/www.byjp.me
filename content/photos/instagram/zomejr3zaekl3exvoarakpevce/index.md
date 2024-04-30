@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-What an excellent cover for this book\!
+What an excellent cover for this book!

@@ -10,4 +10,4 @@ tags:
 - imported
 - from-instagram
 ---
-And we’re off\! 👋🛫🇨🇴
+And we’re off! 👋🛫🇨🇴

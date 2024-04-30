@@ -4,7 +4,7 @@ tags:
 - imported
 - from-twitter
 ---
-1. Discover bug with \(pre-release\) vendor software.
+1. Discover bug with \(pre-release) vendor software.
 2. Check &amp; retest. Many times.
 3. Get vendor on phone &amp; demonstrate.
 4. Works perfectly.

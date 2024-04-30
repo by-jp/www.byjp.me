@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Beautiful shapes\! Gotta love Lindy Hop. [https://vimeo.com/155886548](https://vimeo.com/155886548)
+Beautiful shapes! Gotta love Lindy Hop. [https://vimeo.com/155886548](https://vimeo.com/155886548)

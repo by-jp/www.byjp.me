@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Challenge: A similie raising a single eyebrow - go\!
+Challenge: A similie raising a single eyebrow - go!

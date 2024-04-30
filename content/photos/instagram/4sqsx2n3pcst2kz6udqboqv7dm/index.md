@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Bestival sunset: what a beautiful setting for a festival\!
+Bestival sunset: what a beautiful setting for a festival!

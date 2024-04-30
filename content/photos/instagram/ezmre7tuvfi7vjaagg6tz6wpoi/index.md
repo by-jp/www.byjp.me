@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Found some sun in Palm Springs\!
+Found some sun in Palm Springs!

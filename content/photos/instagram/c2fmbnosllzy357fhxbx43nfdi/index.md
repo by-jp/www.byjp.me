@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-The Savoy Cup is full of awesome dancers and awesome people — performance competitions tonight & tomorrow, wish us luck\!
+The Savoy Cup is full of awesome dancers and awesome people — performance competitions tonight & tomorrow, wish us luck!

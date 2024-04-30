@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-in Melilla - finding the rapid language and pricing changes hard to cope with\!
+in Melilla - finding the rapid language and pricing changes hard to cope with!

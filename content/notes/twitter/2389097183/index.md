@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-BOO for beef sausages in pork casings\! \([@bayzantyn](/twitter/#/bayzantyn) doesn't eat pork :\(\)
+BOO for beef sausages in pork casings! \([@bayzantyn](/twitter/#/bayzantyn) doesn't eat pork :\()

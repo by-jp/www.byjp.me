@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-"Is that it then?\!" ... Maybe not
+"Is that it then?!" ... Maybe not

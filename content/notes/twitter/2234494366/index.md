@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Ya-ay. Up 'early' so I can go stand in a queue. Do Nottingham folk want iPhones? Lets go see\!
+Ya-ay. Up 'early' so I can go stand in a queue. Do Nottingham folk want iPhones? Lets go see!

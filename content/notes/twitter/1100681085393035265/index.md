@@ -7,7 +7,7 @@ tags:
 - NewWorldDisorders
 inReplyTo: /notes/twitter/1100513495924264960
 ---
-It's even more powerful with this glorious bombshell from [@byers90](/twitter/#/byers90) \(I paraphrase\):
+It's even more powerful with this glorious bombshell from [@byers90](/twitter/#/byers90) \(I paraphrase):
 
 "When you believe in your utopia enough to bring someone with with you, you are building another's dystopia."
 

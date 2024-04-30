@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Want a good reason to play foursquare? http://weeplaces.com/jp3/ \(be sure to zoom out\)
+Want a good reason to play foursquare? http://weeplaces.com/jp3/ \(be sure to zoom out)

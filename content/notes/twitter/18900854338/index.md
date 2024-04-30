@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Want to help my cousin make a 3-day reality TV show into an art exhibition? Contribute a couple of $ and kickstart it\! http://kck.st/c8TqcQ
+Want to help my cousin make a 3-day reality TV show into an art exhibition? Contribute a couple of $ and kickstart it! http://kck.st/c8TqcQ

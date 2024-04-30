@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Gonna watch Kung Fu Kid\! \(@ Cineworld\) https://4sq.com/76IfOs
+Gonna watch Kung Fu Kid! \(@ Cineworld) https://4sq.com/76IfOs

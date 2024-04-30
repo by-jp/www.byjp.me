@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hahaha\! {{< imgorvid src="ruz4l" >}}
+Hahaha! {{< imgorvid src="ruz4l" >}}

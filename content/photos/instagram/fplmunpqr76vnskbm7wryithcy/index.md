@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Filming a music video for "Happy" by Pharrell - because I'm HAPPY\!
+Filming a music video for "Happy" by Pharrell - because I'm HAPPY!

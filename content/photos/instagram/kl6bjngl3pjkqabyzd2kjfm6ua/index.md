@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Shuffleboard time\!
+Shuffleboard time!

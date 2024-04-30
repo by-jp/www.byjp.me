@@ -7,4 +7,4 @@ location:
   latitude: 51.53807605
   longitude: -0.14932009
 ---
-Licence to Ceilidh kicking ass, as usual. \(@ Cecil Sharp House\) [https://4sq.com/1gLvBfC](https://4sq.com/1gLvBfC)
+Licence to Ceilidh kicking ass, as usual. \(@ Cecil Sharp House) [https://4sq.com/1gLvBfC](https://4sq.com/1gLvBfC)

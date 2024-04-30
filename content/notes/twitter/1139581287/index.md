@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-JP is so totally doing ladies' night tonight. Join us\!
+JP is so totally doing ladies' night tonight. Join us!

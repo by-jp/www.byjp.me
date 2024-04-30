@@ -8,6 +8,6 @@ tags:
 - imported
 - from-instagram
 ---
-New thing Tuesday\! Bollywood casting call with some of my favourite swing dancers. 💃🕺 "We need to make you look as young as possible", they said. So bye bye beard, hello face\!
+New thing Tuesday! Bollywood casting call with some of my favourite swing dancers. 💃🕺 "We need to make you look as young as possible", they said. So bye bye beard, hello face!
 
 Also, apparently everyone gets the same, white people, makeup. 😳

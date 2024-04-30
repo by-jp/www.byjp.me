@@ -13,4 +13,4 @@ tags:
 - imported
 - from-instagram
 ---
-My Mum took me to London Terrariums for the workshop day she so kindly gifted me for making another solar circumnavigation — it's been wonderful\!
+My Mum took me to London Terrariums for the workshop day she so kindly gifted me for making another solar circumnavigation — it's been wonderful!

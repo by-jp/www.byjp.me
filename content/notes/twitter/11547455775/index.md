@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Return to form for Doctor Who\! I'm impressed\!
+Return to form for Doctor Who! I'm impressed!

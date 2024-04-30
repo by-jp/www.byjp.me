@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Islington definitely isn't the home of hip-hop, but *damn* did Krafty Kuts and Charli 2na make it feel like it tonight\!
+Islington definitely isn't the home of hip-hop, but *damn* did Krafty Kuts and Charli 2na make it feel like it tonight!

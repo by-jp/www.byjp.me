@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-The Greeks believed everything could e described in terms of the four elements - Fire:Red, Nature:Green, Water:Blue, Air:Colourless; RGBA\!
+The Greeks believed everything could e described in terms of the four elements - Fire:Red, Nature:Green, Water:Blue, Air:Colourless; RGBA!

@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - Trainyard
 ---
-Trainyard is epic\! [Trainyard](/tags/Trainyard) http://trainyard.ca/3kV2
+Trainyard is epic! [Trainyard](/tags/Trainyard) http://trainyard.ca/3kV2

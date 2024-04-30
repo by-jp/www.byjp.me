@@ -8,4 +8,4 @@ location:
   latitude: 51.58588916
   longitude: -0.11173176
 ---
-On my way to the [tibbr](/tags/tibbr) launch - the buzz looks good\!
+On my way to the [tibbr](/tags/tibbr) launch - the buzz looks good!

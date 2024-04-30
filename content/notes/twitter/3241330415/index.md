@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Kyoto\! Its freakin amazing\!
+Kyoto! Its freakin amazing!

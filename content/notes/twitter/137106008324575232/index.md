@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Having a unique name \(both parts\) means its really easy to hear it from across the office. To visit and be helpful but seem snoopy?
+Having a unique name \(both parts) means its really easy to hear it from across the office. To visit and be helpful but seem snoopy?

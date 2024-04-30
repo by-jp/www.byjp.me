@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Added new book purchase to Delicious Library, Amazon's 'current value' is more than what I paid for it :\) satisfaction
+Added new book purchase to Delicious Library, Amazon's 'current value' is more than what I paid for it :) satisfaction

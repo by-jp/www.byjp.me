@@ -9,7 +9,7 @@ tags:
 - from-instagram
 - NoMoreNormal
 ---
-Swindle\! So pumped — not seen him perform outside festivals and this stage looks set for an epic performance\!
+Swindle! So pumped — not seen him perform outside festivals and this stage looks set for an epic performance!
 
 
 

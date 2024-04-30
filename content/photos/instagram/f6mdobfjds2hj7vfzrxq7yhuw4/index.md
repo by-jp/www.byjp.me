@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - "6"
 ---
-Reading NoBrow [6](/tags/6) - loving the format & the stories\!
+Reading NoBrow [6](/tags/6) - loving the format & the stories!

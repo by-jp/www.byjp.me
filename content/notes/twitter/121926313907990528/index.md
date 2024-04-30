@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Watching green go by the window - can't tell you how much I've missed you Britain\!
+Watching green go by the window - can't tell you how much I've missed you Britain!

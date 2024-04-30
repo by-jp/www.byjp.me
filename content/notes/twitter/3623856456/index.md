@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-It's bloody freezing here\! Why bother coming back?\!
+It's bloody freezing here! Why bother coming back?!

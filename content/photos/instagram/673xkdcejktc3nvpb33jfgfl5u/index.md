@@ -8,7 +8,7 @@ tags:
 - imported
 - from-instagram
 ---
-Wandered into a comic store on a whim, being on holiday as I am, and asked for recommendations in the realm of one of my \(and every one else's\) favourites: Transmetropolitan, and it's loveable arsehole of a protagonist Spider Jerusalem.
+Wandered into a comic store on a whim, being on holiday as I am, and asked for recommendations in the realm of one of my \(and every one else's) favourites: Transmetropolitan, and it's loveable arsehole of a protagonist Spider Jerusalem.
 
 
 
@@ -16,4 +16,4 @@ Some chatter, recommendations and a delightful chat later I make my way out with
 
 
 
-Get you a copy of the first book, it's outstanding \(and features some of the greatest insults in modern writing\)
+Get you a copy of the first book, it's outstanding \(and features some of the greatest insults in modern writing)

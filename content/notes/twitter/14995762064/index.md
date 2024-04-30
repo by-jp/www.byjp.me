@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - eurovision
 ---
-ROBOT\! 7/10 [eurovision](/tags/eurovision)
+ROBOT! 7/10 [eurovision](/tags/eurovision)

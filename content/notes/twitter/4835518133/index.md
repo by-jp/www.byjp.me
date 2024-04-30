@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Oooh\! New tweetie is shiny\!
+Oooh! New tweetie is shiny!

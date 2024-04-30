@@ -7,4 +7,4 @@ location:
   latitude: 51.51892997
   longitude: -0.10093978
 ---
-Swing on a warm Sunday night, it doesn't get much better than this\! \(@ The Distillers\) [https://4sq.com/18ncepq](https://4sq.com/18ncepq)
+Swing on a warm Sunday night, it doesn't get much better than this! \(@ The Distillers) [https://4sq.com/18ncepq](https://4sq.com/18ncepq)

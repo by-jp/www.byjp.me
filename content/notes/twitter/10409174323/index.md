@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - MakerFaireUK
 ---
-*yawn* off to the [MakerFaireUK](/tags/makerfaireuk)—been a few years since I've been this awake this early\! \(Tho coxing would wake you up pretty fast…\)
+*yawn* off to the [MakerFaireUK](/tags/makerfaireuk)—been a few years since I've been this awake this early! \(Tho coxing would wake you up pretty fast…)

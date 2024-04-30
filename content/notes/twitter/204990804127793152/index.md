@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - lenny
 ---
-Who's in London and can get to Russell square within half an hour for an eve's entertainment? {{< friend "lenny" >}} has 2 tickets going spare\!
+Who's in London and can get to Russell square within half an hour for an eve's entertainment? {{< friend "lenny" >}} has 2 tickets going spare!

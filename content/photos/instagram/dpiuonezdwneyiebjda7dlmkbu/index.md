@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-So much snow\!
+So much snow!

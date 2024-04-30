@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Tiny bananas are tiny\!
+Tiny bananas are tiny!

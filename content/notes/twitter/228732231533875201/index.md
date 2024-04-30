@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Slept through the night for the first time since getting ill\! Fully on the mend - gotta love the NHS :\)
+Slept through the night for the first time since getting ill! Fully on the mend - gotta love the NHS :)

@@ -7,4 +7,4 @@ location:
   latitude: 51.50798789
   longitude: -0.12804866
 ---
-It's clobberin' time \(at the Trafalgar Square pillow fight\) \(@ Trafalgar Square w/ 40 others\) [https://4sq.com/QP4JEJ](https://4sq.com/QP4JEJ)
+It's clobberin' time \(at the Trafalgar Square pillow fight) \(@ Trafalgar Square w/ 40 others) [https://4sq.com/QP4JEJ](https://4sq.com/QP4JEJ)

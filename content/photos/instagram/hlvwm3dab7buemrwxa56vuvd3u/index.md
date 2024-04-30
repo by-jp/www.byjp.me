@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Swing dancing at the Love Supreme festival - beautiful people, beautiful weather, beautiful music\!
+Swing dancing at the Love Supreme festival - beautiful people, beautiful weather, beautiful music!

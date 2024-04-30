@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-OPINIONS\!
+OPINIONS!

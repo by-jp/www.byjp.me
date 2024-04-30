@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-People\! I need two random numbers between 1 and 11 inclusive - GO\!
+People! I need two random numbers between 1 and 11 inclusive - GO!

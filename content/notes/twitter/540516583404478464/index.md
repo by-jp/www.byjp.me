@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Things that make you a Scala developer #1: "Screw you Akka\!"
+Things that make you a Scala developer #1: "Screw you Akka!"

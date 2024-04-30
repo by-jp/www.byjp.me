@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I have a kaboodle wih list\! http://www.kaboodle.com/jaypizzle/jaypizzles-wish-list.html it's so cool :p
+I have a kaboodle wih list! http://www.kaboodle.com/jaypizzle/jaypizzles-wish-list.html it's so cool :p

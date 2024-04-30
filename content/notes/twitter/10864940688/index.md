@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-OH: "Nah, you minus it when it's a completely hot body and stuff." Prof. Bowley's thermodynamics/sex ed lectures no doubt\!
+OH: "Nah, you minus it when it's a completely hot body and stuff." Prof. Bowley's thermodynamics/sex ed lectures no doubt!

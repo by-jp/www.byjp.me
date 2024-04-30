@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - eurovision
 ---
-Germany gets my vote - even with the dodgey rhyming\! 9/10 [eurovision](/tags/eurovision)
+Germany gets my vote - even with the dodgey rhyming! 9/10 [eurovision](/tags/eurovision)

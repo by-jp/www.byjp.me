@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-I'm camping with a bunch of friends in Battle. It's peaceful here, and so sunny this morning\!
+I'm camping with a bunch of friends in Battle. It's peaceful here, and so sunny this morning!

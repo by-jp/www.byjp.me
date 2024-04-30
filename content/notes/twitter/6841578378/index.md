@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Avatar is no Shakespearean tale but it does the job, and with egrossing style\!
+Avatar is no Shakespearean tale but it does the job, and with egrossing style!

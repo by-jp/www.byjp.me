@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I want an interrobang on the iPhone and mac alt-keyboards—I'm beginning to like them\!
+I want an interrobang on the iPhone and mac alt-keyboards—I'm beginning to like them!

@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Christmas morning hike up Lion's Head - now that's how to start a day\!
+Christmas morning hike up Lion's Head - now that's how to start a day!

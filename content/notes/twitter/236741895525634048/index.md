@@ -7,4 +7,4 @@ location:
   latitude: 51.88956394
   longitude: 0.26088238
 ---
-Dov'è il bar? \(@ London Stansted Airport \(STN\) w/ 5 others\) [https://4sq.com/MDqPFP](https://4sq.com/MDqPFP)
+Dov'è il bar? \(@ London Stansted Airport \(STN) w/ 5 others) [https://4sq.com/MDqPFP](https://4sq.com/MDqPFP)

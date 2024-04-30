@@ -4,7 +4,7 @@ tags:
 - imported
 - from-twitter
 ---
-I wrote a hacky ruby library to make numbers dimensional\!
+I wrote a hacky ruby library to make numbers dimensional!
 
 ```ruby
 p Amount.new 42,(Meter + Kilogram - Second - Second)

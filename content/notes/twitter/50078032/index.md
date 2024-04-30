@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Solved lost.eu problem,received my new Powermac,watching Spiderman 3,remembered to get tapwater-got free popcorn\! Life is good.
+Solved lost.eu problem,received my new Powermac,watching Spiderman 3,remembered to get tapwater-got free popcorn! Life is good.

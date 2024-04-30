@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-leaving Madrid - on the train all the way to Algeceras\! Long-haul methinks. Joined up with Alex, Olive and one other group, we appear to hav
+leaving Madrid - on the train all the way to Algeceras! Long-haul methinks. Joined up with Alex, Olive and one other group, we appear to hav

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Free beer from Everards as part of a brewer's eve at the Jarms\!
+Free beer from Everards as part of a brewer's eve at the Jarms!

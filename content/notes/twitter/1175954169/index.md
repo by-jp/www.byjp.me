@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-JP has the lab results, at least one is good\! Also, he officially renounces Jen :P word of your SS skill travels fast..
+JP has the lab results, at least one is good! Also, he officially renounces Jen :P word of your SS skill travels fast..

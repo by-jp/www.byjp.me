@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Queue for H&amp;C, Metropolitan &amp; Central going East from King's Cross is 7 rows deep across the whole platform - avoid\!
+Queue for H&amp;C, Metropolitan &amp; Central going East from King's Cross is 7 rows deep across the whole platform - avoid!

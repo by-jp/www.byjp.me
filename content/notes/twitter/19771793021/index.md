@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-"They blew alotta shit up" - yes indeed, but it's the A-Team :P \(@ Savoy\) https://4sq.com/7ogYDm
+"They blew alotta shit up" - yes indeed, but it's the A-Team :P \(@ Savoy) https://4sq.com/7ogYDm

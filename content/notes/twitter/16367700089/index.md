@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Omg\! It's the cat from Transmetropolitan\! https://boingboing.net/2006/07/14/twofaced-kitty.html
+Omg! It's the cat from Transmetropolitan! https://boingboing.net/2006/07/14/twofaced-kitty.html

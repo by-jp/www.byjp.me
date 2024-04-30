@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-DIY Sunday\! Finally hung our *beautiful* headboard from [@o_wow_shop](https://instagram.com/o_wow_shop) — we'll be getting a few small plants to sit atop it next weekend 😍
+DIY Sunday! Finally hung our *beautiful* headboard from [@o_wow_shop](https://instagram.com/o_wow_shop) — we'll be getting a few small plants to sit atop it next weekend 😍

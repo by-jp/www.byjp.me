@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - lenny
 ---
-Housemate {{< friend "lenny" >}} wears Tam's panda hat and \(then\) pulls it off {{< imgorvid src="media-1.jpg" >}}
+Housemate {{< friend "lenny" >}} wears Tam's panda hat and \(then) pulls it off {{< imgorvid src="media-1.jpg" >}}

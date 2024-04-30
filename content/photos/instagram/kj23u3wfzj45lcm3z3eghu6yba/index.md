@@ -10,4 +10,4 @@ tags:
 - imported
 - from-instagram
 ---
-Holiday starts\! Nighttime in Tenerife is beautiful, even if Boris has us unexpectedly locking down when we get back now 😁
+Holiday starts! Nighttime in Tenerife is beautiful, even if Boris has us unexpectedly locking down when we get back now 😁

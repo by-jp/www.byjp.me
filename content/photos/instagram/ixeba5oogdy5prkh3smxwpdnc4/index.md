@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-For Science\!
+For Science!

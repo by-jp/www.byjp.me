@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Yvette showing off the Pan de Jamón she made \(with help from the ever-awesome Arepa & Co\)
+Yvette showing off the Pan de Jamón she made \(with help from the ever-awesome Arepa & Co)

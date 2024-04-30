@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Andoain,ES - in Spain\! All I had to do was hide behind the bags... No passports needed\!
+near Andoain,ES - in Spain! All I had to do was hide behind the bags... No passports needed!

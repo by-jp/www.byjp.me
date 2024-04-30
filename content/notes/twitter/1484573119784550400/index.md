@@ -13,4 +13,4 @@ tags:
 🟩🟩⬜🟩🟩\
 🟩🟩🟩🟩🟩
 
-Pretty chuffed with that for a first try\!
+Pretty chuffed with that for a first try!

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-can you guess what this represents?\! [{{< linkrot "yfrog.com/h0mroftej)" "an image" >}}
+can you guess what this represents?! [{{< linkrot "yfrog.com/h0mroftej)" "an image" >}}

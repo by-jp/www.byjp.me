@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - AllITDay
 ---
-Want to save [@alexkantor87](/twitter/#/alexkantor87) from being the only one tweeting about the [AllITDay](/tags/allitday) - conference times at Tesco\!
+Want to save [@alexkantor87](/twitter/#/alexkantor87) from being the only one tweeting about the [AllITDay](/tags/allitday) - conference times at Tesco!

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-iOS autocorrects the name of a local \(excellent\) Japanese/Korean restaurant, Dotori, to 'Doctorow'. [@doctorow](/twitter/#/doctorow) gets *everywere*\! :D
+iOS autocorrects the name of a local \(excellent) Japanese/Korean restaurant, Dotori, to 'Doctorow'. [@doctorow](/twitter/#/doctorow) gets *everywere*! :D

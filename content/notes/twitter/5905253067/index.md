@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Woohoo\! First ever powercut where I know where my wind up torch is\! iPhone battery at 4%… d'oh\!
+Woohoo! First ever powercut where I know where my wind up torch is! iPhone battery at 4%… d'oh!

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-"14.2 Professional political satirists and humorists are exempt from the ban on offensive or mean-spirited commentary" haha\!
+"14.2 Professional political satirists and humorists are exempt from the ban on offensive or mean-spirited commentary" haha!

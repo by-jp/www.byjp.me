@@ -5,4 +5,4 @@ media:
 date: "2014-04-08T19:54:05Z"
 draft: false
 ---
-{{< friend chris >}} cooks a mean trout. Literally; look at that face\!
+{{< friend chris >}} cooks a mean trout. Literally; look at that face!

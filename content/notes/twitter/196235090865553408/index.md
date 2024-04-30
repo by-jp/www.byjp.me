@@ -7,4 +7,4 @@ location:
   latitude: 51.46197544
   longitude: -0.13728619
 ---
-PORK\! \(@ Bodean's w/ 3 others\) [https://4sq.com/ILGTAp](https://4sq.com/ILGTAp)
+PORK! \(@ Bodean's w/ 3 others) [https://4sq.com/ILGTAp](https://4sq.com/ILGTAp)

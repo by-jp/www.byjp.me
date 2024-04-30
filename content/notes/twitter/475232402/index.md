@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-is very stupid. He just stabbed himself in the thumb. Straight on. Half a centimeter deep. On the end. FOOL\!
+is very stupid. He just stabbed himself in the thumb. Straight on. Half a centimeter deep. On the end. FOOL!

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Had forgotten how cool Transformers are\! Just watched number 1 again in HD
+Had forgotten how cool Transformers are! Just watched number 1 again in HD

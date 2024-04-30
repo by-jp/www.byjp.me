@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-WAVE\!
+WAVE!

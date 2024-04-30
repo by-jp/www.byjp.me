@@ -7,4 +7,4 @@ location:
   latitude: 51.670316
   longitude: -1.28130749
 ---
-They throw buns from the tower\! @ Abingdon Town Hall http://gowal.la/c/47rJP
+They throw buns from the tower! @ Abingdon Town Hall http://gowal.la/c/47rJP

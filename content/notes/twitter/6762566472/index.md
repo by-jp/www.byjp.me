@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Wow. First one into work. At midday. Also: snow\!
+Wow. First one into work. At midday. Also: snow!

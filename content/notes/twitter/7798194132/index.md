@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Awesome\! \!st person Tetris : http://www.firstpersontetris.com/
+Awesome! !st person Tetris : http://www.firstpersontetris.com/

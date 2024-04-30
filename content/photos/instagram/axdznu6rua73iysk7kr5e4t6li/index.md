@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-So Kew-te\!
+So Kew-te!

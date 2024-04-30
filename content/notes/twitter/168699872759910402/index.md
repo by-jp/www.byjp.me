@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Symbology geeks\! Does our symbol for infinity derive at all from the shape of the Möbius strip?
+Symbology geeks! Does our symbol for infinity derive at all from the shape of the Möbius strip?

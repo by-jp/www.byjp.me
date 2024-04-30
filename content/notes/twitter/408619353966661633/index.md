@@ -7,4 +7,4 @@ location:
   latitude: 51.52482391
   longitude: -0.08143306
 ---
-Company Christmas dinner with a brilliant talk from [@peterjamesuk](/twitter/#/peterjamesuk) who has a jacket lined with one of his novels\! {{< imgorvid src="media-1.jpg" >}}
+Company Christmas dinner with a brilliant talk from [@peterjamesuk](/twitter/#/peterjamesuk) who has a jacket lined with one of his novels! {{< imgorvid src="media-1.jpg" >}}

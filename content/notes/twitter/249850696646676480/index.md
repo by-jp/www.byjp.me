@@ -7,4 +7,4 @@ location:
   latitude: 51.50601106
   longitude: 0.01720017
 ---
-WET \(@ Wake Up Docklands\) \[pic\]: [https://4sq.com/SlJubN](https://4sq.com/SlJubN)
+WET \(@ Wake Up Docklands) \[pic\]: [https://4sq.com/SlJubN](https://4sq.com/SlJubN)

@@ -8,7 +8,7 @@ tags:
 - imported
 - from-instagram
 ---
-2-Methyl-5-\(1-methylethenyl\)-2-cyclohexenone
+2-Methyl-5-\(1-methylethenyl)-2-cyclohexenone
 
 
 

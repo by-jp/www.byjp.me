@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-in Kemble - not amused. The next bus into Ciren is in an hour. Screw this, I'm getting a taxi\!
+in Kemble - not amused. The next bus into Ciren is in an hour. Screw this, I'm getting a taxi!

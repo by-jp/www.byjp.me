@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Advice on a good rails tutorial built for people with programming knowledge \(and relatively versed in ruby already?\)
+Advice on a good rails tutorial built for people with programming knowledge \(and relatively versed in ruby already?)

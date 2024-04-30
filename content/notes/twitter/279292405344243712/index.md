@@ -7,4 +7,4 @@ location:
   latitude: 51.5384313
   longitude: -0.14086962
 ---
-Drinks\! \(@ BrewDog Camden\) [https://4sq.com/TXJm29](https://4sq.com/TXJm29)
+Drinks! \(@ BrewDog Camden) [https://4sq.com/TXJm29](https://4sq.com/TXJm29)

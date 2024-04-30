@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Made an impulse online purchase... \(impebuy?\)
+Made an impulse online purchase... \(impebuy?)

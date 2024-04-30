@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - Bandersnatch
 ---
-"We should have picked up the book, we're building a sociopath\!" [Bandersnatch](/tags/Bandersnatch)
+"We should have picked up the book, we're building a sociopath!" [Bandersnatch](/tags/Bandersnatch)

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-rejoicing\! I have finished my automated positioning device for my Morocco hitchhike\!
+rejoicing! I have finished my automated positioning device for my Morocco hitchhike!

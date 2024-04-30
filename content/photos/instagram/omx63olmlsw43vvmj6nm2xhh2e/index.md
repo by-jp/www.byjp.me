@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Rail travel in the UK is actually rather convenient. No whining any more\!
+Rail travel in the UK is actually rather convenient. No whining any more!

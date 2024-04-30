@@ -7,4 +7,4 @@ location:
   latitude: 51.80907971
   longitude: -0.19282282
 ---
-Hi future me\! \(now to bide my time\)
+Hi future me! \(now to bide my time)

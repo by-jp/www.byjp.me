@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Ever need to take a short break? Sometimes I record peaceful places so I can go back for 30 seconds. [https://30s.byjp.me/](https://30s.byjp.me/) \(sorry, 📱👎😔\)
+Ever need to take a short break? Sometimes I record peaceful places so I can go back for 30 seconds. [https://30s.byjp.me/](https://30s.byjp.me/) \(sorry, 📱👎😔)

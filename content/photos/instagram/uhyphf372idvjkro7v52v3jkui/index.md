@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-On my way to first day at work in India. In a tuktuk\!
+On my way to first day at work in India. In a tuktuk!

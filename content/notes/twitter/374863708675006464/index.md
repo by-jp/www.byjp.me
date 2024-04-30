@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - hungoverdrawn
 ---
-Hehe, these are good: [(twitter link)](/twitter/#/search?mode=media&q=%23geekbookcovers) ta {{< friend "hungoverdrawn" >}}\!
+Hehe, these are good: [(twitter link)](/twitter/#/search?mode=media&q=%23geekbookcovers) ta {{< friend "hungoverdrawn" >}}!

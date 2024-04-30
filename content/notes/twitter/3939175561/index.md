@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Recompiling all my ports for x86_64 - woooo, first 64 bit device\! Compiling doesn't take so long either
+Recompiling all my ports for x86_64 - woooo, first 64 bit device! Compiling doesn't take so long either

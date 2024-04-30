@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-This Heroku is pretty freakin' sweet\!
+This Heroku is pretty freakin' sweet!

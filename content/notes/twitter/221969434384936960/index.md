@@ -7,4 +7,4 @@ location:
   latitude: 51.57072825
   longitude: -0.11535108
 ---
-Building a Lego X-Wing fighter. With beer. \(@ The Stapleton Tavern\) \[pic\]: [https://4sq.com/Olzete](https://4sq.com/Olzete)
+Building a Lego X-Wing fighter. With beer. \(@ The Stapleton Tavern) \[pic\]: [https://4sq.com/Olzete](https://4sq.com/Olzete)

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I just earned the 'Playing the Field' badge on [@untappd](/twitter/#/untappd)\! [https://untp.it/UXZ666](https://untp.it/UXZ666)
+I just earned the 'Playing the Field' badge on [@untappd](/twitter/#/untappd)! [https://untp.it/UXZ666](https://untp.it/UXZ666)

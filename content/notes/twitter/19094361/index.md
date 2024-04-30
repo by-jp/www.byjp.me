@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Percy,FR - We be doing GOOD\!
+near Percy,FR - We be doing GOOD!

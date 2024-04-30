@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-alive\! Over 12 hours sleep - twice my previous 3 nights - I feel good\!
+alive! Over 12 hours sleep - twice my previous 3 nights - I feel good!

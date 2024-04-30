@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - FromTheArchives
 ---
-Chris & me hanging out with our Mum last year at Westonbirt Arboretum :\) [FromTheArchives](/tags/fromthearchives) /repost {{< friend "leanne" >}}
+Chris & me hanging out with our Mum last year at Westonbirt Arboretum :) [FromTheArchives](/tags/fromthearchives) /repost {{< friend "leanne" >}}

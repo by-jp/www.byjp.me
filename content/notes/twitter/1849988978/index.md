@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Enjoying the lack of Jonathan from Spotify for the day. Not enough to fork out \(ha\!\) again tho methinks
+Enjoying the lack of Jonathan from Spotify for the day. Not enough to fork out \(ha!) again tho methinks

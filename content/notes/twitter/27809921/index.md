@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-in Nador - thanking fuck 'Immodium' is the same en Francais\! Off to Melilla this afternoon and to Spain.
+in Nador - thanking fuck 'Immodium' is the same en Francais! Off to Melilla this afternoon and to Spain.

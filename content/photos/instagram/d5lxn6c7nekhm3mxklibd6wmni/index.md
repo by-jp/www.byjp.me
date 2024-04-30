@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - NoFilter
 ---
-Another one from Westonbirt; I never can get over these colours\! [NoFilter](/tags/nofilter)
+Another one from Westonbirt; I never can get over these colours! [NoFilter](/tags/nofilter)

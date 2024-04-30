@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Post-Correspondents happy faces; damn they're good\!
+Post-Correspondents happy faces; damn they're good!

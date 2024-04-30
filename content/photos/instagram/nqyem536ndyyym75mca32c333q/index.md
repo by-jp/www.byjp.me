@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Back at Savoy Cup so, of course, a visit to this glorious place is the first port of call\!
+Back at Savoy Cup so, of course, a visit to this glorious place is the first port of call!

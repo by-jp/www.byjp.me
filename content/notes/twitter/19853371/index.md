@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Saintes,FR - astonished\! The family we're travelling with has an international French golfer son\!
+near Saintes,FR - astonished! The family we're travelling with has an international French golfer son!

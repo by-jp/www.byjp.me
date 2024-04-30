@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hahahaha - Owen is an idiot. You can't allow your auto-reply bot to reply to twitter\! Heheheheheh
+Hahahaha - Owen is an idiot. You can't allow your auto-reply bot to reply to twitter! Heheheheheh

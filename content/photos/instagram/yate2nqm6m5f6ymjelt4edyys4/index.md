@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-A final shot of the Slide Rock state park in the Red Mountains as I make my way into the office after two weeks off — I'm really looking forward to it actually\!
+A final shot of the Slide Rock state park in the Red Mountains as I make my way into the office after two weeks off — I'm really looking forward to it actually!

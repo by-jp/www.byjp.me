@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-We're having an interesting debate as a breakout in our internship scheme: is the \(UK\) patent system inhibiting innovation?
+We're having an interesting debate as a breakout in our internship scheme: is the \(UK) patent system inhibiting innovation?

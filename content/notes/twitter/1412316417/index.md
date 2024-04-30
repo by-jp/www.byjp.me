@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - boatrace
 ---
-Tab cox is scared... DO IT Oxford\! [boatrace](/tags/boatrace)
+Tab cox is scared... DO IT Oxford! [boatrace](/tags/boatrace)

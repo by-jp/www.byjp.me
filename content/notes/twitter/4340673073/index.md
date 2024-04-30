@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Ha\! Spherical geometry in the first lecture back - shame I've been at it all week\!
+Ha! Spherical geometry in the first lecture back - shame I've been at it all week!

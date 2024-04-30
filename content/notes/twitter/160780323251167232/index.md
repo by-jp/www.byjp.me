@@ -5,6 +5,6 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes Star Wars - Binary Suns \(Coyote Kisses Remix\) by COYOTE KISSES
+likes Star Wars - Binary Suns \(Coyote Kisses Remix) by COYOTE KISSES
 
 {{< youtube "Zy00_VUgsCA" >}}

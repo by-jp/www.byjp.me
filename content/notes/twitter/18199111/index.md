@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-at home - almost ready to go... exciting\!
+at home - almost ready to go... exciting!

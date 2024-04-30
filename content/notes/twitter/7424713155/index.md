@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Sodium light reflecting between the clouded sky and the untouched snow laden countryside - I wish I could share this with you\!
+Sodium light reflecting between the clouded sky and the untouched snow laden countryside - I wish I could share this with you!

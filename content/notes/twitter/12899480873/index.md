@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Haha :P Awesome http://ow.ly/i/1g5M \(via [@mr_ceebs](/twitter/#/mr_ceebs)\)
+Haha :P Awesome http://ow.ly/i/1g5M \(via [@mr_ceebs](/twitter/#/mr_ceebs))

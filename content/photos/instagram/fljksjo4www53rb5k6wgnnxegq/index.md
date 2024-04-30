@@ -8,7 +8,7 @@ tags:
 - imported
 - from-instagram
 ---
-Chris took me to see many dead things in jars and it was *amazing*. Get yourself an NHM membership and get on this tour, it's outstanding\!
+Chris took me to see many dead things in jars and it was *amazing*. Get yourself an NHM membership and get on this tour, it's outstanding!
 
 
 

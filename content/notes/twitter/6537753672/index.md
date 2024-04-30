@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - WeGotThatBroll
 ---
-Epic\! http://www.youtube.com/watch?v=SItFvB0Upb8 [WeGotThatBroll](/tags/wegotthatbroll)
+Epic! http://www.youtube.com/watch?v=SItFvB0Upb8 [WeGotThatBroll](/tags/wegotthatbroll)

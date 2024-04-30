@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Dad tells me of the days working in the city when you'd have your collar \(seperate from your shirt\) starched and bleached every day. Weeeird
+Dad tells me of the days working in the city when you'd have your collar \(seperate from your shirt) starched and bleached every day. Weeeird

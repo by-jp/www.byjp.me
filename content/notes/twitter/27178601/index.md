@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-in Nador - so very hungry... and yet unable to eat\! Home soon tho.
+in Nador - so very hungry... and yet unable to eat! Home soon tho.

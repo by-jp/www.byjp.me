@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Balls. Got proof of ID, proof of residence \(term and home\) together ready to open 5 £1 bank accounts and the bank closed :\(
+Balls. Got proof of ID, proof of residence \(term and home) together ready to open 5 £1 bank accounts and the bank closed :\(

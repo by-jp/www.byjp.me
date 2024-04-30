@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-My friend's house is an old windmill and it's beautiful\!
+My friend's house is an old windmill and it's beautiful!

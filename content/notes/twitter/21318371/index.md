@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Ciudad Real - impressed trains are so good here\! It's also a beautiful day.
+near Ciudad Real - impressed trains are so good here! It's also a beautiful day.

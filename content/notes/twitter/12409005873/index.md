@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-D'oh. Can't spell Edinburgh. It's been a long day okay\!
+D'oh. Can't spell Edinburgh. It's been a long day okay!

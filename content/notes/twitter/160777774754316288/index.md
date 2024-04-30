@@ -8,6 +8,6 @@ tags:
 - SoundCloud
 - ThisIsMyJam
 ---
-likes Tetris \(dubstep\) by black scythe ♫ [ThisIsMyJam](/tags/thisismyjam)
+likes Tetris \(dubstep) by black scythe ♫ [ThisIsMyJam](/tags/thisismyjam)
 
 {{< soundcloud path="/tracks/19854835" artist="Blackscythe" title="Tetris" >}}

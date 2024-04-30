@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Portsmouth - Dan is a hero\!
+near Portsmouth - Dan is a hero!

@@ -9,8 +9,8 @@ tags:
 - from-instagram
 - yvette
 ---
-An amazing early birthday present from {{< friend yvette >}} — a tour of the disused parts of Charing Cross underground station\!
+An amazing early birthday present from {{< friend yvette >}} — a tour of the disused parts of Charing Cross underground station!
 
 
 
-This construction tunnel has an extremely unusual S-bend in it, because the engineers wanted to avoid the support structures of Nelson's Column\!
+This construction tunnel has an extremely unusual S-bend in it, because the engineers wanted to avoid the support structures of Nelson's Column!

@@ -7,4 +7,4 @@ location:
   latitude: 51.5295
   longitude: -0.055448
 ---
-Woo\! The performances went well\! \(@ York Hall\) [https://4sq.com/Rsw5fl](https://4sq.com/Rsw5fl)
+Woo! The performances went well! \(@ York Hall) [https://4sq.com/Rsw5fl](https://4sq.com/Rsw5fl)

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Chunnel times\! \(@ Euro Tunnel Folkestone\) https://4sq.com/9Dv974
+Chunnel times! \(@ Euro Tunnel Folkestone) https://4sq.com/9Dv974

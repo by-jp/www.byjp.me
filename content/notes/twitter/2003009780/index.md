@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-SICK\! It arrived :D
+SICK! It arrived :D

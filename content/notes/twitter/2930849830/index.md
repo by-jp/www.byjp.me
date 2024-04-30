@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - RailStrike
 ---
-Someone likes me\! Only NXEA service running is the one I need [RailStrike](/tags/railstrike)
+Someone likes me! Only NXEA service running is the one I need [RailStrike](/tags/railstrike)

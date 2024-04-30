@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-The bar we went to last night felt gloriously American, and the band—musicians rotating through anyone who brought an instrument along—was fantastic\!
+The bar we went to last night felt gloriously American, and the band—musicians rotating through anyone who brought an instrument along—was fantastic!

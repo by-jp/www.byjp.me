@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Now with added Windows 7 \(on MacBook\)
+Now with added Windows 7 \(on MacBook)

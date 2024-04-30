@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - leanne
 ---
-Another Albert Hall epic\! Was [Leanne](/tags/leanne)
+Another Albert Hall epic! Was [Leanne](/tags/leanne)

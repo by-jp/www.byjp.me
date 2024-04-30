@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Make more inapropriate comments not less James\!
+Make more inapropriate comments not less James!

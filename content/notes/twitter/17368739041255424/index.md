@@ -7,4 +7,4 @@ location:
   latitude: 51.72317349
   longitude: -1.97108638
 ---
-Chuffed that this talk on [@tuaw](/twitter/#/tuaw) about pushing any video format to ATV2 is possible due to work by dhop90 and myself :\) [http://bit.ly/fdUfWb](http://bit.ly/fdUfWb)
+Chuffed that this talk on [@tuaw](/twitter/#/tuaw) about pushing any video format to ATV2 is possible due to work by dhop90 and myself :) [http://bit.ly/fdUfWb](http://bit.ly/fdUfWb)

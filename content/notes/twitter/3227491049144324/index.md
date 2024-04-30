@@ -9,4 +9,4 @@ location:
 ---
 Me: "Highest mountain in England"\
 Wolfram Alpha: 'Highest mountain in UK'\
-What if I don't want Ben Nevis or Snowdon, Wolfram? WHAT THEN?\!
+What if I don't want Ben Nevis or Snowdon, Wolfram? WHAT THEN?!

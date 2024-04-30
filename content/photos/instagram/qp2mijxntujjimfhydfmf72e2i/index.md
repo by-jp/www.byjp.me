@@ -9,4 +9,4 @@ tags:
 - imported
 - from-instagram
 ---
-What a privilege to be a part of John & Jenny's beautiful day\!
+What a privilege to be a part of John & Jenny's beautiful day!

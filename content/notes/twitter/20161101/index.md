@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Pamplona - slightly worried, Easter means no lifts... This is the home of *the* bull run tho\!
+near Pamplona - slightly worried, Easter means no lifts... This is the home of *the* bull run tho!

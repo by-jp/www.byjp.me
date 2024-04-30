@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Only got today left to use it too\!
+Only got today left to use it too!

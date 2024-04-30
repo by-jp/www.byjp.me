@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Nearly completed Braid - hot damn I love indie gaming\!
+Nearly completed Braid - hot damn I love indie gaming!

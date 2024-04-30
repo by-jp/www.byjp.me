@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - chris
 ---
-Funky market street \(Alexander's decent\) - feet away from Bulgakov lived \(/cc {{< friend "chris" >}}\) http://360.io/j67BYM
+Funky market street \(Alexander's decent) - feet away from Bulgakov lived \(/cc {{< friend "chris" >}}) http://360.io/j67BYM

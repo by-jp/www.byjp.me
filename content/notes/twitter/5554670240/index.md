@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-So cool\! [http://hackaday.com/2009/11/04/knock-detecting-lock/](http://hackaday.com/2009/11/04/knock-detecting-lock/)
+So cool! [http://hackaday.com/2009/11/04/knock-detecting-lock/](http://hackaday.com/2009/11/04/knock-detecting-lock/)

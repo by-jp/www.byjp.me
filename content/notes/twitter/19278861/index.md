@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Nantes - Nathalie has let us stay at her house, we have all the luck in the world\! \(Touching wood...\)
+near Nantes - Nathalie has let us stay at her house, we have all the luck in the world! \(Touching wood...)

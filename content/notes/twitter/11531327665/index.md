@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - RidiculousSlogans
 ---
-Magnum Gold \(Icecream\) "As good as gold" [RidiculousSlogans](/tags/ridiculousslogans)
+Magnum Gold \(Icecream) "As good as gold" [RidiculousSlogans](/tags/ridiculousslogans)

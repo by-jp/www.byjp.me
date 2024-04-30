@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Ring of Fire - Alex plays Cash, very well\!
+Ring of Fire - Alex plays Cash, very well!

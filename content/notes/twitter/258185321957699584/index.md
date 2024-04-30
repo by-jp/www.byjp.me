@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Lunchtime hack win: touching my NFC enabled employee card to my mac now plays my spotify starred tracks - similarly with my colleagues :\)
+Lunchtime hack win: touching my NFC enabled employee card to my mac now plays my spotify starred tracks - similarly with my colleagues :)

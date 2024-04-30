@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Epic birthday present from Mum\! {{< imgorvid src="media-1.jpg" >}}
+Epic birthday present from Mum! {{< imgorvid src="media-1.jpg" >}}

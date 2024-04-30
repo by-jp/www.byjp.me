@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-HA\! Take THAT art masters\! It's only the first layer and it's already AWESOME. {{< imgorvid src="g313r" >}}
+HA! Take THAT art masters! It's only the first layer and it's already AWESOME. {{< imgorvid src="g313r" >}}

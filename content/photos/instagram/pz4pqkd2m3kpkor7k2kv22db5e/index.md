@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Team takeout: Hyderabad Biriani\!
+Team takeout: Hyderabad Biriani!

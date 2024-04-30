@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Finsbury Park underground station is closed due to flooding - overground seems to be okay though\!
+Finsbury Park underground station is closed due to flooding - overground seems to be okay though!

@@ -5,4 +5,4 @@ tags:
 - from-twitter
 inReplyTo: /notes/twitter/1049926763906785280
 ---
-We part ways a few minutes later, he offers some sage parting advice: "Don't have too many beers tonight yeh? I know what you're like ha\!" 4/5
+We part ways a few minutes later, he offers some sage parting advice: "Don't have too many beers tonight yeh? I know what you're like ha!" 4/5

@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Max Richter's new *re* recomposed Four Seasons was exceptional\! \(And Chelsea Hospital: what a stunning venue\!\)
+Max Richter's new *re* recomposed Four Seasons was exceptional! \(And Chelsea Hospital: what a stunning venue!)

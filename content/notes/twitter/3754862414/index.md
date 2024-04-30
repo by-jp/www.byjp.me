@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Wow. This USB stick is tiny\! {{< imgorvid src="gf1av" >}}
+Wow. This USB stick is tiny! {{< imgorvid src="gf1av" >}}

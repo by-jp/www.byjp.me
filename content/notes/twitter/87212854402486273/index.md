@@ -7,4 +7,4 @@ location:
   latitude: 51.56827525
   longitude: -0.10789178
 ---
-Dog, hair, etc. with Mum & Bro - good times\! @ The Faltering Fullback http://gowal.la/c/4wYUa
+Dog, hair, etc. with Mum & Bro - good times! @ The Faltering Fullback http://gowal.la/c/4wYUa

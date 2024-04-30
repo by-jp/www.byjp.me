@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - becky
 ---
-NIPPLE TASTIC\! With [Becky](/tags/becky) 😄
+NIPPLE TASTIC! With [Becky](/tags/becky) 😄

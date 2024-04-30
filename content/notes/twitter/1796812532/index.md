@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - WolframAlpha
 ---
-Fuck me, this is more than I expected\! http://www.wolframalpha.com/screencast/introducingwolframalpha.html [WolframAlpha](/tags/WolframAlpha)
+Fuck me, this is more than I expected! http://www.wolframalpha.com/screencast/introducingwolframalpha.html [WolframAlpha](/tags/WolframAlpha)

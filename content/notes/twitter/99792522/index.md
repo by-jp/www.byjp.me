@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Waiting for WWDC... WAITING\!
+Waiting for WWDC... WAITING!

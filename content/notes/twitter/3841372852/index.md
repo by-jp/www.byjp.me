@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I am the mighty tree slayer\!
+I am the mighty tree slayer!

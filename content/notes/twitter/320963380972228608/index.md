@@ -7,4 +7,4 @@ location:
   latitude: 51.520652
   longitude: -0.073568
 ---
-Swing pit\! \(@ Corbet Place\) [https://4sq.com/YEGEkx](https://4sq.com/YEGEkx)
+Swing pit! \(@ Corbet Place) [https://4sq.com/YEGEkx](https://4sq.com/YEGEkx)

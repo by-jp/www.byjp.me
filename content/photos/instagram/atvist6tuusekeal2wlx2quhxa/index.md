@@ -8,7 +8,7 @@ tags:
 - imported
 - from-instagram
 ---
-A postcard wall without postcards is a sad thing. But moving house means the next postcard wall can be BIGGER\!
+A postcard wall without postcards is a sad thing. But moving house means the next postcard wall can be BIGGER!
 
 
 

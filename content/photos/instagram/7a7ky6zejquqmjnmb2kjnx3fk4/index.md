@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-A rare piece of self-photography from the "Teatre Grec" overlooking South Barcelona and the Sea — we found some sun, and what a stunning place\! 😊
+A rare piece of self-photography from the "Teatre Grec" overlooking South Barcelona and the Sea — we found some sun, and what a stunning place! 😊

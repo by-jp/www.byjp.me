@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-I'm really glad I managed to see the exhibition before it closed\! Poignant and beautiful.
+I'm really glad I managed to see the exhibition before it closed! Poignant and beautiful.

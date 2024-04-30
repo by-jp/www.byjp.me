@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Been under this bridge a great many times, but never above— what a beautiful day to visit Clifton's Avon Gorge and see it, and the Observatory, properly\! Thanks {{< friend jono >}}\!
+Been under this bridge a great many times, but never above— what a beautiful day to visit Clifton's Avon Gorge and see it, and the Observatory, properly! Thanks {{< friend jono >}}!

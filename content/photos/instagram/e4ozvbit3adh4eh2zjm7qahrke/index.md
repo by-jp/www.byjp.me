@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-What's better than 9 hours of swing classes, 4 of circus training and 16 hours of social swing and blues over the bank holiday weekend? Yes\! Learning new aerials in your breaks\! 😄
+What's better than 9 hours of swing classes, 4 of circus training and 16 hours of social swing and blues over the bank holiday weekend? Yes! Learning new aerials in your breaks! 😄

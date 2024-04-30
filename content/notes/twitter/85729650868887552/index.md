@@ -6,4 +6,4 @@ tags:
 ---
 Train didn't stop at this station cos the signal box got fused by lightning.\
 \
-I need vaccinations and antimalarials\!
+I need vaccinations and antimalarials!

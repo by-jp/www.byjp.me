@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - leanne
 ---
-Went bowling with [Leanne](/tags/leanne) yesterday at Allstar Lanes. The table mat advice was suitably ignored, but I still only managed a draw\!
+Went bowling with [Leanne](/tags/leanne) yesterday at Allstar Lanes. The table mat advice was suitably ignored, but I still only managed a draw!

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-…and a steam train comes through Finsbury Park. Awesome\!
+…and a steam train comes through Finsbury Park. Awesome!

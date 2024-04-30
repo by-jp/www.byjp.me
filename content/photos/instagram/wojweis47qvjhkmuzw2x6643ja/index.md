@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Back with Brats 🎸 now it's 2018 I've been dancing with these glorious souls for three full years, time's fun when you fly with them\!
+Back with Brats 🎸 now it's 2018 I've been dancing with these glorious souls for three full years, time's fun when you fly with them!

@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Beautiful beaches, alcoves and caves Benagil beach — hooray for winter sun\!
+Beautiful beaches, alcoves and caves Benagil beach — hooray for winter sun!

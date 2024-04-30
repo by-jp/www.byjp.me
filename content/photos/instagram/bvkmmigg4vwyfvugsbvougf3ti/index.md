@@ -13,8 +13,8 @@ tags:
 ---
 I’ve not posted in a while cos travelling has been AMAZING, but one thing in particular has been outrageously awesome…
 
-At the top of an incredible hike Yvette gave me a gorgeous engraved compass, and asked me to marry her 😍 Nothing in the world would make me happier—so, once we’re home from our adventures, we’ll be planning our wedding\!
+At the top of an incredible hike Yvette gave me a gorgeous engraved compass, and asked me to marry her 😍 Nothing in the world would make me happier—so, once we’re home from our adventures, we’ll be planning our wedding!
 
-If you care for more detail \(about Yvette’s proposal or our trip\!\) check out my bio for our adventuring blog ☺️
+If you care for more detail \(about Yvette’s proposal or our trip!) check out my bio for our adventuring blog ☺️
 
-Yo te amo mucho mi amor\!
+Yo te amo mucho mi amor!

@@ -7,6 +7,6 @@ tags:
 - from-twitter
 - ThisIsMyJam
 ---
-“Some Kind of Nature \(featuring Lou Reed\)” by Gorillaz is my new jam. [♫](https://t.thisismyjam.com/jphastings/_1entcx5) [ThisIsMyJam](/tags/thisismyjam)
+“Some Kind of Nature \(featuring Lou Reed)” by Gorillaz is my new jam. [♫](https://t.thisismyjam.com/jphastings/_1entcx5) [ThisIsMyJam](/tags/thisismyjam)
 
 {{< spotify path="/track/4M88Wd7Aps5LGRWMOC7gSH" artist="Gorillaz" title="Some Kind of Mature" >}}

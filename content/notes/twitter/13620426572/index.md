@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Spent an hour building a facebook app to add a feature, finished it only to find the feature is already there… good job ruby dev is fast\!
+Spent an hour building a facebook app to add a feature, finished it only to find the feature is already there… good job ruby dev is fast!

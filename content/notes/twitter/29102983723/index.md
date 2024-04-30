@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Finished 4 weeks of Tesco store placement — tiring work\! Now to move house and return to being an IT manager for Monday.
+Finished 4 weeks of Tesco store placement — tiring work! Now to move house and return to being an IT manager for Monday.

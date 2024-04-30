@@ -10,4 +10,4 @@ tags:
 - imported
 - from-instagram
 ---
-Dancing in the Albert Hall; with such an amazing band, and two amazing performances\! What a privilege 😊
+Dancing in the Albert Hall; with such an amazing band, and two amazing performances! What a privilege 😊

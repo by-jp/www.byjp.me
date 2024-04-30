@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Anyone got a good tutorial for rake/jeweler? I know nothing\!
+Anyone got a good tutorial for rake/jeweler? I know nothing!

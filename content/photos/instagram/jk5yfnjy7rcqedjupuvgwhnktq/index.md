@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-What a beautiful day\!
+What a beautiful day!

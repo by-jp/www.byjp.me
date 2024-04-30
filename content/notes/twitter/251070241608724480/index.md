@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Coming half way in the quiz: free round - winners\!
+Coming half way in the quiz: free round - winners!

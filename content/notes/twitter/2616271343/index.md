@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Holy shit\! Nottingham is flooding\! {{< imgorvid src="a8fps" >}}
+Holy shit! Nottingham is flooding! {{< imgorvid src="a8fps" >}}

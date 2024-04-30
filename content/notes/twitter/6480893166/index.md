@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - mbed
 ---
-The [mbed](/tags/mbed) is now on the internets\! This is awesome :P
+The [mbed](/tags/mbed) is now on the internets! This is awesome :P

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-A mum shouts at a screaming toddler "God\! You're like a *child\!*"
+A mum shouts at a screaming toddler "God! You're like a *child!*"

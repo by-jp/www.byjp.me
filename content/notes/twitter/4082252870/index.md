@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Virgin Media lied\! My service was not connected within 2 hours. Or even 6\! Bah, and it would have been so good otherwise.
+Virgin Media lied! My service was not connected within 2 hours. Or even 6! Bah, and it would have been so good otherwise.

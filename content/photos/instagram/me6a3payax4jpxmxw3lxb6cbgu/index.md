@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-I found it\! And what a wonderful first dance when we listened to it too :\)
+I found it! And what a wonderful first dance when we listened to it too :)

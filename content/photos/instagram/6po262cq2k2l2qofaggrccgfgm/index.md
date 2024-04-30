@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - dave
 ---
-Best. Present. Ever. [Dave](/tags/dave) has given me a Tesco pen with an inbuilt compass\!
+Best. Present. Ever. [Dave](/tags/dave) has given me a Tesco pen with an inbuilt compass!

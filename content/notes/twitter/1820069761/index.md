@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - esc09
 ---
-Feckin' hell\! A vote this early?\! What kind of Eurovision Song Contest is this?\! [esc09](/tags/esc09)
+Feckin' hell! A vote this early?! What kind of Eurovision Song Contest is this?! [esc09](/tags/esc09)

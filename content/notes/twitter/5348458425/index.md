@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Just ate the greasiest roast chicken ever. My little stomach can barely cope\!
+Just ate the greasiest roast chicken ever. My little stomach can barely cope!

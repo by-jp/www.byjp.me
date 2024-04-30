@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - eurovision
 ---
-Legs\! Saxophonist\! Action violinist\! 10/10 [eurovision](/tags/eurovision)
+Legs! Saxophonist! Action violinist! 10/10 [eurovision](/tags/eurovision)

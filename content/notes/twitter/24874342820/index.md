@@ -7,4 +7,4 @@ location:
   latitude: 51.80589888
   longitude: -0.17213398
 ---
-Just made a donation to [@Nottinghack](/twitter/#/Nottinghack) - money well spent\!
+Just made a donation to [@Nottinghack](/twitter/#/Nottinghack) - money well spent!

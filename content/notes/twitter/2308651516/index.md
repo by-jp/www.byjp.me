@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - Japan
 ---
-Twitterers\! I'm going to [Japan](/tags/Japan) for three weeks \(Southern Honshuu - Tokyo to Osaka\) tweet if there's anything I should see\!
+Twitterers! I'm going to [Japan](/tags/Japan) for three weeks \(Southern Honshuu - Tokyo to Osaka) tweet if there's anything I should see!

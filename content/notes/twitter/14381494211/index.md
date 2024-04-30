@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Lovely little weekend-chillout-esque stay with [@jwheare](/twitter/#/jwheare) post JET tour - cheers buddy\!
+Lovely little weekend-chillout-esque stay with [@jwheare](/twitter/#/jwheare) post JET tour - cheers buddy!

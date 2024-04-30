@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Gotta love Japan, only place in the world you could get away with Capsule Hotels\!
+Gotta love Japan, only place in the world you could get away with Capsule Hotels!

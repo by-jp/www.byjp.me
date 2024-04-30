@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Nantes - sleepy. Simon the truck driver is so cool\!
+near Nantes - sleepy. Simon the truck driver is so cool!

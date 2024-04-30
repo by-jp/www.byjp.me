@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Argh. Curse of an awesome reference book - can't copy it\!
+Argh. Curse of an awesome reference book - can't copy it!

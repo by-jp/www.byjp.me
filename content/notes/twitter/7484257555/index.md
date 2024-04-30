@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Macbook fan is dead so browsing the internet is like the film Speed - Is that flash video I see? RUN AWAY\!
+Macbook fan is dead so browsing the internet is like the film Speed - Is that flash video I see? RUN AWAY!

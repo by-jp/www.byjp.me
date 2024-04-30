@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-View my DIY prowess in awe\! A reinforced washing line, *with tensioner*\! Mother would be proud. {{< imgorvid src="9vyqa" >}}
+View my DIY prowess in awe! A reinforced washing line, *with tensioner*! Mother would be proud. {{< imgorvid src="9vyqa" >}}

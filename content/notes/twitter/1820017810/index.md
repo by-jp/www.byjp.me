@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - esc09
 ---
-Want\! [esc09](/tags/esc09)
+Want! [esc09](/tags/esc09)

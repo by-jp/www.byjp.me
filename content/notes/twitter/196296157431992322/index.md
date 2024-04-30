@@ -7,4 +7,4 @@ location:
   latitude: 51.53812192
   longitude: -0.14921533
 ---
-Ceilidh\! \(@ Cecil Sharp House\) [https://4sq.com/JhT45k](https://4sq.com/JhT45k)
+Ceilidh! \(@ Cecil Sharp House) [https://4sq.com/JhT45k](https://4sq.com/JhT45k)

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Can I use my \(jailbroken\) iPhone as a webcam? That'd be neat.
+Can I use my \(jailbroken) iPhone as a webcam? That'd be neat.

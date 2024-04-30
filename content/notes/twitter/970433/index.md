@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-We had a big band at our Christmas dinner\!
+We had a big band at our Christmas dinner!

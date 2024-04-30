@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-And I still don't have my land legs, I can't walk to the toilet in a straight line\! Swear it's not been this bad before
+And I still don't have my land legs, I can't walk to the toilet in a straight line! Swear it's not been this bad before

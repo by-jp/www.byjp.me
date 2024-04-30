@@ -8,7 +8,7 @@ tags:
 - imported
 - from-instagram
 ---
-Like a kid at Universal Studios 😁 It's surprisingly awesome\!
+Like a kid at Universal Studios 😁 It's surprisingly awesome!
 
 
 

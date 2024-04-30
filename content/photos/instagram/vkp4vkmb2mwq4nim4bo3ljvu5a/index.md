@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Change at DOHA, one more leg to go :\)
+Change at DOHA, one more leg to go :)

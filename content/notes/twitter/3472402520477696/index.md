@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Achievement unlocked\! Furnished a house.
+Achievement unlocked! Furnished a house.

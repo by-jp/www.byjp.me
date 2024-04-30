@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-CAKE\! [https://vine.co/v/hLZ59X1FOj6](https://vine.co/v/hLZ59X1FOj6)
+CAKE! [https://vine.co/v/hLZ59X1FOj6](https://vine.co/v/hLZ59X1FOj6)

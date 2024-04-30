@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Scanning the family photo archives - enjoying the one touch scanner\! Guess who :P {{< linkrot "yfrog.com/3vookuj" "an image" >}}
+Scanning the family photo archives - enjoying the one touch scanner! Guess who :P {{< linkrot "yfrog.com/3vookuj" "an image" >}}

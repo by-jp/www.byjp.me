@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I'm not leaving here \(yet\), but come find me on the other place: [https://mastodon.social/@jphastings](https://mastodon.social/@jphastings)
+I'm not leaving here \(yet), but come find me on the other place: [https://mastodon.social/@jphastings](https://mastodon.social/@jphastings)

@@ -7,4 +7,4 @@ location:
   latitude: 51.564754
   longitude: -0.105951
 ---
-Jazz\! \(@ The Silver Bullet\) [https://4sq.com/wDNsAP](https://4sq.com/wDNsAP)
+Jazz! \(@ The Silver Bullet) [https://4sq.com/wDNsAP](https://4sq.com/wDNsAP)

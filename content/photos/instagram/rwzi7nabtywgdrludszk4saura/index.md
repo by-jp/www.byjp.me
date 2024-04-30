@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - BetterFridayThanYours
 ---
-Rummaging through childhood Lego box \([BetterFridayThanYours](/tags/betterfridaythanyours)\) and find a DINOSAUR TALON.
+Rummaging through childhood Lego box \([BetterFridayThanYours](/tags/betterfridaythanyours)) and find a DINOSAUR TALON.

@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - Portal2
 ---
-Goddamit Valve\! I have to go to work early today\! [Portal2](/tags/Portal2)
+Goddamit Valve! I have to go to work early today! [Portal2](/tags/Portal2)

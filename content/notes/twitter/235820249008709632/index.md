@@ -7,4 +7,4 @@ location:
   latitude: 51.54318572
   longitude: -0.15183449
 ---
-Poetry slam - it's amazing\! \(@ Roundhouse\) [https://4sq.com/NE1vih](https://4sq.com/NE1vih)
+Poetry slam - it's amazing! \(@ Roundhouse) [https://4sq.com/NE1vih](https://4sq.com/NE1vih)

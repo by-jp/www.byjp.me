@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-“@heroku: Introducing Celadon Cedar.  This is huge. [https://cot.ag/kuSXKU](https://cot.ag/kuSXKU)” This looks fantastic\!
+“@heroku: Introducing Celadon Cedar.  This is huge. [https://cot.ag/kuSXKU](https://cot.ag/kuSXKU)” This looks fantastic!

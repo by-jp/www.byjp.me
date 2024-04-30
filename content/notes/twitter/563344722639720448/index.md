@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-A friend of mine is competing in a "most RTs wins" share of research projects, RT her post if you like it\! [(twitter link)](/twitter/#/Tania_L_Read/status/563271456168345600)
+A friend of mine is competing in a "most RTs wins" share of research projects, RT her post if you like it! [(twitter link)](/twitter/#/Tania_L_Read/status/563271456168345600)

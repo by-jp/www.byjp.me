@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - makerfaire_uk
 ---
-Having a fantastic time at the [makerfaire_uk](/tags/makerfaire_uk) - Hexapods\! Digital spraypaint\! Good times
+Having a fantastic time at the [makerfaire_uk](/tags/makerfaire_uk) - Hexapods! Digital spraypaint! Good times

@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - NowPlaying
 ---
-You can twist the *day* away too\! ♫ Twistin' the Night Away – Sam Cooke [https://spoti.fi/KmRSUm](https://spoti.fi/KmRSUm) [NowPlaying](/tags/NowPlaying)
+You can twist the *day* away too! ♫ Twistin' the Night Away – Sam Cooke [https://spoti.fi/KmRSUm](https://spoti.fi/KmRSUm) [NowPlaying](/tags/NowPlaying)

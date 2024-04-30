@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Bravo [@germanwings](/twitter/#/germanwings), for being my first  inexpensive airliner to allow boarding without killing trees. Your app kicks ass. Will use again\!
+Bravo [@germanwings](/twitter/#/germanwings), for being my first  inexpensive airliner to allow boarding without killing trees. Your app kicks ass. Will use again!

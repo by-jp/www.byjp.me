@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near South Cerney. Listening to 'Duke' they rock\!
+near South Cerney. Listening to 'Duke' they rock!

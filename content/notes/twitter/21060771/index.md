@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Madrid - sleeping in the lobby of a hostel. Shh, no-one will notice\!
+near Madrid - sleeping in the lobby of a hostel. Shh, no-one will notice!

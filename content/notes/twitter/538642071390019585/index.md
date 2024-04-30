@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - LittleBigPlanet3
 ---
-Bloody hell [LittleBigPlanet3](/tags/LittleBigPlanet3), 90 minutes from disc-in to first gameplay because of all of the updates? I *pre-ordered* you\!
+Bloody hell [LittleBigPlanet3](/tags/LittleBigPlanet3), 90 minutes from disc-in to first gameplay because of all of the updates? I *pre-ordered* you!

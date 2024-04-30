@@ -7,4 +7,4 @@ location:
   latitude: 12.97290188
   longitude: 77.61115729
 ---
-HAHAHAHAHHA\! @ Hint [https://gowal.la/c/4SCbt](https://gowal.la/c/4SCbt)
+HAHAHAHAHHA! @ Hint [https://gowal.la/c/4SCbt](https://gowal.la/c/4SCbt)

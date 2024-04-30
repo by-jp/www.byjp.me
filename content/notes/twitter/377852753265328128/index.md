@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Claire made joke\! Is niice\! [https://instagram.com/p/eIRKxzSIWE/](https://instagram.com/p/eIRKxzSIWE/)
+Claire made joke! Is niice! [https://instagram.com/p/eIRKxzSIWE/](https://instagram.com/p/eIRKxzSIWE/)

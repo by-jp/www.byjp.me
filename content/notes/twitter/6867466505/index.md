@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-And the No. 1 position in the chart is… Sony BMG\! Merry Christmas\!
+And the No. 1 position in the chart is… Sony BMG! Merry Christmas!

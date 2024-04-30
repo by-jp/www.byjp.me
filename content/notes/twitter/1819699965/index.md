@@ -6,4 +6,4 @@ tags:
 - Eyetv
 - esc09
 ---
-Woop\! [Eyetv](/tags/Eyetv) working. [esc09](/tags/esc09) in Hi\(ish\)-def\!
+Woop! [Eyetv](/tags/Eyetv) working. [esc09](/tags/esc09) in Hi\(ish)-def!

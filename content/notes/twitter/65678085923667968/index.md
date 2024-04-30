@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hey Geeky twitter - when studying a UUID anyone know what information \(if any\) can be inferred about the system which made it?
+Hey Geeky twitter - when studying a UUID anyone know what information \(if any) can be inferred about the system which made it?

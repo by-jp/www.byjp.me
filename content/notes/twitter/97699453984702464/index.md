@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Dave's bum gun exploded. Water everywhere\!
+Dave's bum gun exploded. Water everywhere!

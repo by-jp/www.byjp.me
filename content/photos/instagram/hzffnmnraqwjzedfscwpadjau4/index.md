@@ -10,4 +10,4 @@ tags:
 - imported
 - from-instagram
 ---
-Success\! Dumplings from scratch together for Valentine's ☺️ \(To be fair, ain't much would have counted as "not success" 😁😘\)
+Success! Dumplings from scratch together for Valentine's ☺️ \(To be fair, ain't much would have counted as "not success" 😁😘)

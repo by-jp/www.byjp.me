@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Tube bingo win\!
+Tube bingo win!

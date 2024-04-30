@@ -11,4 +11,4 @@ location:
   latitude: 51.60736426
   longitude: -2.21759281
 ---
-Pretty trees at Westonbirt\!
+Pretty trees at Westonbirt!

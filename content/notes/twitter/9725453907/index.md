@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Round 1 \(Black\): Victory by 37.5\!
+Round 1 \(Black): Victory by 37.5!

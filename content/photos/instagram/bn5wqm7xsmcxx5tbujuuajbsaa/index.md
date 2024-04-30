@@ -8,7 +8,7 @@ tags:
 - imported
 - from-instagram
 ---
-My clock project is complete\! 🌈🕦
+My clock project is complete! 🌈🕦
 
 • It tells the time for any location on earth
 
@@ -18,4 +18,4 @@ My clock project is complete\! 🌈🕦
 
 
 
-Lots of fun building this\!
+Lots of fun building this!

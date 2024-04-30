@@ -10,7 +10,7 @@ tags:
 - AccidentalWesAnderson
 - NotSoAccidentalWesAnderson
 ---
-Packed and ready for two weeks of travel to the US\!
+Packed and ready for two weeks of travel to the US!
 
 
 

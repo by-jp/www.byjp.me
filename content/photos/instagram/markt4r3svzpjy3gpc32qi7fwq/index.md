@@ -10,4 +10,4 @@ tags:
 - from-instagram
 - becky
 ---
-Another glorious concert from [Becky](/tags/becky)'s Constanza Chorus - this time Vivaldi's Gloria and ALL of the Christmassy carols and pieces - so good\! 🎄 What a beautiful place\! ⛪
+Another glorious concert from [Becky](/tags/becky)'s Constanza Chorus - this time Vivaldi's Gloria and ALL of the Christmassy carols and pieces - so good! 🎄 What a beautiful place! ⛪

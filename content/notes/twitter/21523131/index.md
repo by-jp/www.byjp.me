@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Tangier - here\! Photos galore and sexy, sexy outfits.
+near Tangier - here! Photos galore and sexy, sexy outfits.

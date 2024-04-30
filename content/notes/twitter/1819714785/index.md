@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - esc09
 ---
-MORE fake strings?\! COME ON\! [esc09](/tags/esc09)
+MORE fake strings?! COME ON! [esc09](/tags/esc09)

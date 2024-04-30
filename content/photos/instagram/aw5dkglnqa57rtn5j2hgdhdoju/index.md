@@ -13,4 +13,4 @@ tags:
 - imported
 - from-instagram
 ---
-What an awesome night out at One Night Records\! 5 different stages and great music from a different age in each — we even bumped into some swing dancing friends\!
+What an awesome night out at One Night Records! 5 different stages and great music from a different age in each — we even bumped into some swing dancing friends!

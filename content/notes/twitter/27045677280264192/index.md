@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes Jurassic Park Theme \(1000% Slower\) by birdfeeder on [SoundCloud](/tags/SoundCloud) http://snd.sc/fr6PaR
+likes Jurassic Park Theme \(1000% Slower) by birdfeeder on [SoundCloud](/tags/SoundCloud) http://snd.sc/fr6PaR

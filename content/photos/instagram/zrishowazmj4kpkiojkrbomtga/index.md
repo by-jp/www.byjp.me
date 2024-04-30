@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Real cheese\! :D
+Real cheese! :D

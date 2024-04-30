@@ -13,11 +13,11 @@ tags:
 - imported
 - from-instagram
 ---
-Come on a journey around El Teide National Park with us\!
+Come on a journey around El Teide National Park with us!
 
 
 
-The climb up Volcano Teide was tricky and breath taking, in all the ways. Even though we started from the cable car getting the final 700m to 3,715m above sea level it was tough enough to keep Yvette from the peak — but that didn't stop our adventuring\!
+The climb up Volcano Teide was tricky and breath taking, in all the ways. Even though we started from the cable car getting the final 700m to 3,715m above sea level it was tough enough to keep Yvette from the peak — but that didn't stop our adventuring!
 
 
 

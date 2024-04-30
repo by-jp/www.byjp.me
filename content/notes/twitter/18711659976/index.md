@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Wine in plastic cups? We're only students for 2 more days, lets live while we can\!
+Wine in plastic cups? We're only students for 2 more days, lets live while we can!

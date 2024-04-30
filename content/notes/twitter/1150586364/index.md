@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-JP : EPIC\!
+JP : EPIC!

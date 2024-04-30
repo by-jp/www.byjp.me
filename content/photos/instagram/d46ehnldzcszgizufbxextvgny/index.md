@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Going out and making new friends for the first time in forever and it feels *good*\!
+Going out and making new friends for the first time in forever and it feels *good*!

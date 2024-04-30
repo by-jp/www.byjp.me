@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-It's only Tuesday? What?\!
+It's only Tuesday? What?!

@@ -12,4 +12,4 @@ I got a new hat and found the edge of the canyon.
 
 
 
-On to snowy Sedona tomorrow, but not before the outdoor activities Mecca that is Flagstaff\!
+On to snowy Sedona tomorrow, but not before the outdoor activities Mecca that is Flagstaff!

@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Freiburg ist wunderschön\!
+Freiburg ist wunderschön!

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Oh landlord. Did you not think we'd kick up a fuss at being woken at 7:30 every morning by building works in breach of contract?\!
+Oh landlord. Did you not think we'd kick up a fuss at being woken at 7:30 every morning by building works in breach of contract?!

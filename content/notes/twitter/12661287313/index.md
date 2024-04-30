@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Haha\! Interview with audience member on Sky News: "I think Gordon Brown was \[audio failure\] but Cameron…" Murdock didn't like the comment?
+Haha! Interview with audience member on Sky News: "I think Gordon Brown was \[audio failure\] but Cameron…" Murdock didn't like the comment?

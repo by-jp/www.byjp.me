@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hackers\! Looking for a really meaty & big push-to-make button—something like an emergency stop, but without the reset twist—where to find?
+Hackers! Looking for a really meaty & big push-to-make button—something like an emergency stop, but without the reset twist—where to find?

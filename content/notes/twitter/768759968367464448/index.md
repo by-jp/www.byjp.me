@@ -5,5 +5,5 @@ tags:
 - from-twitter
 ---
 The 2 foolproof options for dealing with troublesome tech:\
-1\) Try turning it off and on again\
-2\) If that doesn't work, just do the first bit
+1) Try turning it off and on again\
+2) If that doesn't work, just do the first bit

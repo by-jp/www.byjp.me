@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Wow. Such pub. Amaze\!
+Wow. Such pub. Amaze!

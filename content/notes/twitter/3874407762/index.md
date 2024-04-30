@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Yay for 4OD\! Derren's show was great :D
+Yay for 4OD! Derren's show was great :D

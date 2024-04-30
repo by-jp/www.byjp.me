@@ -6,6 +6,6 @@ tags:
 - from-twitter
 - SoundCloud
 ---
-likes: Naibu & Key - Over \(ABSCD006\) by [@Naibu](/twitter/#/Naibu)
+likes: Naibu & Key - Over \(ABSCD006) by [@Naibu](/twitter/#/Naibu)
 
 {{< spotify path="/track/6uZcBImymcSPklgZLTvrbY" artist="Naibu" title="Over" >}}

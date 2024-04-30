@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Oh no\! That was a load bearing branch\!
+Oh no! That was a load bearing branch!

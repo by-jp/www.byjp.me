@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Dead. Actually dead. 3 hours down and 5 to go. These guys aren't treating us lightly\!
+Dead. Actually dead. 3 hours down and 5 to go. These guys aren't treating us lightly!

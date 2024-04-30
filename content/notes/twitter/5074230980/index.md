@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Thunderbirds are GO\! in HD\!
+Thunderbirds are GO! in HD!

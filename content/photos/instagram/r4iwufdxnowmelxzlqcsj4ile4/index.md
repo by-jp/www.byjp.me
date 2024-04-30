@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-My bro poses. Lots. \(In general\)
+My bro poses. Lots. \(In general)

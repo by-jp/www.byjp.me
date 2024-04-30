@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Erlang bible arrived\! gonna get cosy with the Playdar source
+Erlang bible arrived! gonna get cosy with the Playdar source

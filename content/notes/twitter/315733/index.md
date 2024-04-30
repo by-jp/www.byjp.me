@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-SixtyForcing it up - I love N64 emulation\!
+SixtyForcing it up - I love N64 emulation!

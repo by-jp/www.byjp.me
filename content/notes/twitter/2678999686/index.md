@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Woooo\! Google Voice account\!
+Woooo! Google Voice account!

@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - DowntonAbbey
 ---
-YES LADY GRANTHAM\! [DowntonAbbey](/tags/DowntonAbbey)
+YES LADY GRANTHAM! [DowntonAbbey](/tags/DowntonAbbey)

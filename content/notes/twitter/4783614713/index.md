@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-An hour to wait for brunch?\! Warsaw cafe I loved you\!
+An hour to wait for brunch?! Warsaw cafe I loved you!

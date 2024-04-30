@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Your Mama's so stupid she lost a game of rock paper scissors to a mirror\!
+Your Mama's so stupid she lost a game of rock paper scissors to a mirror!

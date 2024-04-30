@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Bonus of being ill: I can actually visit my bank\!
+Bonus of being ill: I can actually visit my bank!

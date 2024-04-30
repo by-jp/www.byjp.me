@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Swinging out bullet-time style\!
+Swinging out bullet-time style!

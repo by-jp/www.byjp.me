@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-It's a beautiful day\!
+It's a beautiful day!

@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-A wonderfully reminiscent celebration of life for my Mum's partner Tony today; you just know that a man who can pull off this pose filled his life with amazing adventures and people\!
+A wonderfully reminiscent celebration of life for my Mum's partner Tony today; you just know that a man who can pull off this pose filled his life with amazing adventures and people!

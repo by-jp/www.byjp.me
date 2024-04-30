@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Madrid - alive and well\! But try and explain 'toilet' in sign. I nearly got arrested :p
+near Madrid - alive and well! But try and explain 'toilet' in sign. I nearly got arrested :p

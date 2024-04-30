@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-There's nothing quite like an impressive room filled with impressive dancers demonstrating their joie-de-vivre to an incredible live band\! 😊
+There's nothing quite like an impressive room filled with impressive dancers demonstrating their joie-de-vivre to an incredible live band! 😊

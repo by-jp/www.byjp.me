@@ -5,4 +5,4 @@ tags:
 - from-twitter
 inReplyTo: /notes/twitter/695521695696818177
 ---
-Truth be told, it was a very amicable ending, which made this even better\! :D
+Truth be told, it was a very amicable ending, which made this even better! :D

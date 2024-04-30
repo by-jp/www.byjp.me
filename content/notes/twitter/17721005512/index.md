@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Paul's International Triathlon championships - he did well\! \(@ Athlone Town Centre\) https://4sq.com/9Imnfi
+Paul's International Triathlon championships - he did well! \(@ Athlone Town Centre) https://4sq.com/9Imnfi

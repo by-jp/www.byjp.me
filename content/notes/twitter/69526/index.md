@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Woah. This thing has so many useless ways to update it\!
+Woah. This thing has so many useless ways to update it!

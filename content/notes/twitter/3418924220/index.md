@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Bye bye Japan. It's been sweet\!
+Bye bye Japan. It's been sweet!

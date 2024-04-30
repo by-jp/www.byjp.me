@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - JunkSale
 ---
-Woop\! First [JunkSale](/tags/junksale) item sold - Sky plus box gone\!
+Woop! First [JunkSale](/tags/junksale) item sold - Sky plus box gone!

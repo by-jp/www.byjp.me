@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - Screentest
 ---
-King Cone: http://vimeo.com/9060046 really great student made documentary \(nominated at [Screentest](/tags/Screentest)\)
+King Cone: http://vimeo.com/9060046 really great student made documentary \(nominated at [Screentest](/tags/Screentest))

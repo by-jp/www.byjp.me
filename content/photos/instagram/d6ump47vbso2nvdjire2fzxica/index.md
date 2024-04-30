@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Placemats made for the reunion of our trip to Africa\!
+Placemats made for the reunion of our trip to Africa!

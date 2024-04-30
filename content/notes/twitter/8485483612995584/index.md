@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Just been introduced to Folk Metal \(with Finntroll\). Imagine Abacabb with an accordion and a fiddle. Dancing around a bonfire. With beards.
+Just been introduced to Folk Metal \(with Finntroll). Imagine Abacabb with an accordion and a fiddle. Dancing around a bonfire. With beards.

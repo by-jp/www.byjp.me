@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-in Nador - shocked, we got turned away from one hotel 'cos we're not married\!
+in Nador - shocked, we got turned away from one hotel 'cos we're not married!

@@ -7,4 +7,4 @@ location:
   latitude: 51.88932556
   longitude: 0.26045322
 ---
-Ah ha\! Problem solved. \(@ The Windmill \(Wetherspoon\)\) [https://4sq.com/J70l9q](https://4sq.com/J70l9q)
+Ah ha! Problem solved. \(@ The Windmill \(Wetherspoon)) [https://4sq.com/J70l9q](https://4sq.com/J70l9q)

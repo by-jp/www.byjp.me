@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Oh noes\! I mentioned the third iteration of Jobs' tablet device and now there are SPAMBIRDS TWEETING ALL THE TIME.
+Oh noes! I mentioned the third iteration of Jobs' tablet device and now there are SPAMBIRDS TWEETING ALL THE TIME.

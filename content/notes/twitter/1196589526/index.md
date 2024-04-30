@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-JP is going to see Danny Byrd tonight\! Woop\!
+JP is going to see Danny Byrd tonight! Woop!

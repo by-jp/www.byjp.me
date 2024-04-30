@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-So totally just been sailing for a week. I'm still rocking... so cool\! 42 knot winds and broke everything on the boat\!
+So totally just been sailing for a week. I'm still rocking... so cool! 42 knot winds and broke everything on the boat!

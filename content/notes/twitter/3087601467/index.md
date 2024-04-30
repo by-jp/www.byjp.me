@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Knackered. Busy day in Tokyo - love this city\!
+Knackered. Busy day in Tokyo - love this city!

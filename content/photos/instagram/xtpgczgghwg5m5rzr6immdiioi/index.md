@@ -10,4 +10,4 @@ tags:
 - imported
 - from-instagram
 ---
-What an outrageously excellent weekend at Camp Wildfire\! Swing Patrol, I love you all 💚 Mi amor, when's por next festival‽ 🤩 Fil, you're my fave teacher\! 😁
+What an outrageously excellent weekend at Camp Wildfire! Swing Patrol, I love you all 💚 Mi amor, when's por next festival‽ 🤩 Fil, you're my fave teacher! 😁

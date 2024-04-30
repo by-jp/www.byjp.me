@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Impromptu Sweeney Todd outfit\! Will it work?\!
+Impromptu Sweeney Todd outfit! Will it work?!

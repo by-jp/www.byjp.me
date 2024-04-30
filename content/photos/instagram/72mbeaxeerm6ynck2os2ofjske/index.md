@@ -18,7 +18,7 @@ tags:
 ---
 I spent a while flicking through pictures of my trip this morning — at 4am, having been woken up by an enormous snowstorm — got thinking and started writing.
 
-I turned it into this little sequence when the sun came up \(and finally got to post it now Instagram's issues are fixed\!\) 😊
+I turned it into this little sequence when the sun came up \(and finally got to post it now Instagram's issues are fixed!) 😊
 
 [FOMO](/tags/fomo)
 
@@ -32,9 +32,9 @@ If you've looked at these photos and longed to be having an amazing time "like m
 
 When you get that feeling: go explore, see a friend, do something novel, travel—even just across town—write a postcard, a poem or have a dance.
 
-I do love this rollercoaster of a life but don't be mislead, you won't see pictures of my twisty, pukey bits on here\!
+I do love this rollercoaster of a life but don't be mislead, you won't see pictures of my twisty, pukey bits on here!
 
-So, JP, when you scroll through this later remember that these are the good times and, if they seem a long way away, it's time to plan another adventure\!
+So, JP, when you scroll through this later remember that these are the good times and, if they seem a long way away, it's time to plan another adventure!
 
 Love, JP
 

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Haha\! People who had their phone numbers leaked on snapchat are getting PPI cold calls. They're obviously enterprising folk, but seriously.
+Haha! People who had their phone numbers leaked on snapchat are getting PPI cold calls. They're obviously enterprising folk, but seriously.

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Portovenere has an exceptionally well placed church\! {{< linkrot "360.io/5L2QKr" "a 360 photo" >}}
+Portovenere has an exceptionally well placed church! {{< linkrot "360.io/5L2QKr" "a 360 photo" >}}

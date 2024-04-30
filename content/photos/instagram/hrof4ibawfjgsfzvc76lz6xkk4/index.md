@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Physics dinner midway break, course 7: Halloween limoncello\!
+Physics dinner midway break, course 7: Halloween limoncello!

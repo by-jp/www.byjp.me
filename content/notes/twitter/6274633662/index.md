@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Back at Capoeira for the first time in weeks\! Woop\!
+Back at Capoeira for the first time in weeks! Woop!

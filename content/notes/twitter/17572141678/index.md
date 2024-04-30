@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Lazyweb: good book for learning Obj-C and Cocoa \(+Touch\) coming from a strong scripting language background? \(php,ruby etc\)
+Lazyweb: good book for learning Obj-C and Cocoa \(+Touch) coming from a strong scripting language background? \(php,ruby etc)

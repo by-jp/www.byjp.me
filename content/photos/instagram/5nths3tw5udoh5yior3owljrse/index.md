@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - yvette
 ---
-Last night \(drunken\) creativity with {{< friend yvette >}} ☺️
+Last night \(drunken) creativity with {{< friend yvette >}} ☺️

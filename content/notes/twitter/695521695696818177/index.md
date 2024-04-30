@@ -4,7 +4,7 @@ tags:
 - imported
 - from-twitter
 ---
-1 Sort present from [@Mr_Bingo](/twitter/#/Mr_Bingo) for girlfriend \(she's a huge fan\)\
+1 Sort present from [@Mr_Bingo](/twitter/#/Mr_Bingo) for girlfriend \(she's a huge fan)\
 2 Relationship ends\
 3 Postcard arrives\
 4 PERFECTION {{< imgorvid src="media-1.jpg" >}}

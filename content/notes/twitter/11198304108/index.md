@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Looking for IPA dictionaries for various \(primarily English\) dialects — Ideas folks?
+Looking for IPA dictionaries for various \(primarily English) dialects — Ideas folks?

@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Chris found coloured candles for Leanne's birthday cake - so much win\!
+Chris found coloured candles for Leanne's birthday cake - so much win!

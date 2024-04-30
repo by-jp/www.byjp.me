@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Why am I fully clad, in a duvet and still cold when it's the middle of July\!?
+Why am I fully clad, in a duvet and still cold when it's the middle of July!?

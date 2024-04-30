@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - eurovision
 ---
-Not terrible\! 7/10 [eurovision](/tags/eurovision)
+Not terrible! 7/10 [eurovision](/tags/eurovision)

@@ -7,4 +7,4 @@ location:
   latitude: 51.562398
   longitude: -0.073878
 ---
-This place is great\! \(@ YumYum\) [https://4sq.com/M0KDO7](https://4sq.com/M0KDO7)
+This place is great! \(@ YumYum) [https://4sq.com/M0KDO7](https://4sq.com/M0KDO7)

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Rubyists\! I'm looking for a cheap RoR host that's little hassle for a \(very\!\) small webapp, any suggestions?
+Rubyists! I'm looking for a cheap RoR host that's little hassle for a \(very!) small webapp, any suggestions?

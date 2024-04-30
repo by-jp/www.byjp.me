@@ -11,4 +11,4 @@ tags:
 - imported
 - from-instagram
 ---
-Hiking up Black Mountain just north of Vancouver was so utterly wonderful it deserves its own little post here\! I could get used to this being 30 mins away from home\!
+Hiking up Black Mountain just north of Vancouver was so utterly wonderful it deserves its own little post here! I could get used to this being 30 mins away from home!

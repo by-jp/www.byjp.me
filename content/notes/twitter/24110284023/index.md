@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I just became the mayor of Boots on [@foursquare](/twitter/#/foursquare)\! https://4sq.com/cIuErD
+I just became the mayor of Boots on [@foursquare](/twitter/#/foursquare)! https://4sq.com/cIuErD

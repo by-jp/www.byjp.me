@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - mbed
 ---
-Lesson 1: [mbed](/tags/mbed) doesn't like USB hubs. Mac OS kernel crash\!
+Lesson 1: [mbed](/tags/mbed) doesn't like USB hubs. Mac OS kernel crash!

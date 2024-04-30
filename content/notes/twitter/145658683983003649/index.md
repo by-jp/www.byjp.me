@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-11 hours and 15 courses later, it may be time for a kip\!
+11 hours and 15 courses later, it may be time for a kip!

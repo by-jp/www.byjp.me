@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Since when do trains have video on demand in the back of their seats?\!
+Since when do trains have video on demand in the back of their seats?!

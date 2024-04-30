@@ -10,7 +10,7 @@ tags:
 - imported
 - from-instagram
 ---
-A weekend at Mum's \(check out her awesome new kitchen in the last photo\!\) for the wonderful autumn colours at Westonbirt Arboretum. The Acer Glade is one of my favourite places in the world.
+A weekend at Mum's \(check out her awesome new kitchen in the last photo!) for the wonderful autumn colours at Westonbirt Arboretum. The Acer Glade is one of my favourite places in the world.
 
 
 

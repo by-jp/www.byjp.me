@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-in Melilla - confused, I can´t type QWERTY I´ve been away so long\!
+in Melilla - confused, I can´t type QWERTY I´ve been away so long!

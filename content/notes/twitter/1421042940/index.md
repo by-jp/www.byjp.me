@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Boo\! I had the aperture set too wide.
+Boo! I had the aperture set too wide.

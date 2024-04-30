@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I AM T-PAIN\!
+I AM T-PAIN!

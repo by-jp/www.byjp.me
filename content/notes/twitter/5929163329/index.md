@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Playing Mario again - I truly love SNES games\!
+Playing Mario again - I truly love SNES games!

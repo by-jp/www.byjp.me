@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-\(Inbetweeners Trailer\) Lenny: "Wellies are no good if you're knee-deep anyway"
+\(Inbetweeners Trailer) Lenny: "Wellies are no good if you're knee-deep anyway"

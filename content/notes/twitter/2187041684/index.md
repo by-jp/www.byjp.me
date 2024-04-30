@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Ah hahaha\! Its light before I got home\! *That*s the way it should be :P
+Ah hahaha! Its light before I got home! *That*s the way it should be :P

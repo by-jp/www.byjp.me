@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - Spooks
 ---
-Oh noes\! [Spooks](/tags/Spooks)
+Oh noes! [Spooks](/tags/Spooks)

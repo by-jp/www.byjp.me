@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I appear to be spewing impractical \(if awesome\) ideas
+I appear to be spewing impractical \(if awesome) ideas

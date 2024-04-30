@@ -6,4 +6,4 @@ tags:
 - Ruby
 - Processing
 ---
-[Ruby](/tags/Ruby) and [Processing](/tags/Processing) working together as one. Its a beautiful thing\! [Posts](/tags/whereontheweb/).
+[Ruby](/tags/Ruby) and [Processing](/tags/Processing) working together as one. Its a beautiful thing! [Posts](/tags/whereontheweb/).

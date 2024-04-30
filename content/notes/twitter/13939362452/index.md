@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-oooh, cool\! http://githubissues.heroku.com/#mxcl/homebrew
+oooh, cool! http://githubissues.heroku.com/#mxcl/homebrew

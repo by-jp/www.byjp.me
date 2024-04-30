@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Hampi: rocks and temples - beautiful\!
+Hampi: rocks and temples - beautiful!

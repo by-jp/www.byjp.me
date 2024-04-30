@@ -7,4 +7,4 @@ location:
   latitude: 53.1329731
   longitude: -8.35460779
 ---
-Epic racing\! \(@ Pallas Karting\) [https://4sq.com/KCQKXs](https://4sq.com/KCQKXs)
+Epic racing! \(@ Pallas Karting) [https://4sq.com/KCQKXs](https://4sq.com/KCQKXs)

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-That was an awesome geocache\!
+That was an awesome geocache!

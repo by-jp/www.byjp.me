@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hey you\! I'm trying to compile a short "how good UI design looks" presentation/doc for folks with no background. What should I include?
+Hey you! I'm trying to compile a short "how good UI design looks" presentation/doc for folks with no background. What should I include?

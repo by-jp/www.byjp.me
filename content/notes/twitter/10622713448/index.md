@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Smell of flowers carried on te warm springtime air, I've missed this :\)
+Smell of flowers carried on te warm springtime air, I've missed this :)

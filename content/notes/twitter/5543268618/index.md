@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-ARGH\! Why is DAAP so completely undocumented?\! iTunes is refusing my response despite accepting a seemingly identical one from mt-daapd\!
+ARGH! Why is DAAP so completely undocumented?! iTunes is refusing my response despite accepting a seemingly identical one from mt-daapd!

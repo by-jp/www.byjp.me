@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - chris
 ---
-Not entirely sure as to either the 'oldschool' or 'hip-hop'ness of all these tracks, but they got beats\! /cc {{< friend "chris" >}}
+Not entirely sure as to either the 'oldschool' or 'hip-hop'ness of all these tracks, but they got beats! /cc {{< friend "chris" >}}

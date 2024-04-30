@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Heed the warning on the vinyl sleeve\! {{< imgorvid src="media-1.jpg" >}}
+Heed the warning on the vinyl sleeve! {{< imgorvid src="media-1.jpg" >}}

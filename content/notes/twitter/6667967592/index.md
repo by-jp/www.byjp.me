@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Lovely hour's nap :\)
+Lovely hour's nap :)

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-New Muse iTunes LP is on its way\! Goodie goodie\!
+New Muse iTunes LP is on its way! Goodie goodie!

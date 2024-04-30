@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hello Britain\! Nice to come back to some good weather, Ireland definitely has more rain\!
+Hello Britain! Nice to come back to some good weather, Ireland definitely has more rain!

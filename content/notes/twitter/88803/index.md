@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hmmm http://www.flickr.com/cameras/ indeed\!
+Hmmm http://www.flickr.com/cameras/ indeed!

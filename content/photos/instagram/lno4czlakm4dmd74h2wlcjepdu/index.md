@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Thank you NHS\! "Opinion: Normal intracranial appearances." 🧠
+Thank you NHS! "Opinion: Normal intracranial appearances." 🧠

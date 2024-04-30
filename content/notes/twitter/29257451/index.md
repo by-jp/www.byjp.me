@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-in Cardiff Airport - short wait for the 7 o'clock buses. Now with added nosebleed\!
+in Cardiff Airport - short wait for the 7 o'clock buses. Now with added nosebleed!

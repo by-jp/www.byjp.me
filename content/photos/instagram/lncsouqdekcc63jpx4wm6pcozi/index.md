@@ -15,6 +15,6 @@ tags:
 syndications:
 - https://www.instagram.com/p/CoscyoJvPtI9wJtAdE6fJJ1vY6AMB827jvAHUo0/
 ---
-Pão de Açucar was *beautiful*\!
+Pão de Açucar was *beautiful*!
 
 [NoFilter](/tags/nofilter)

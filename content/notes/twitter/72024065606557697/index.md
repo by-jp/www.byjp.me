@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - chris
 ---
-St. Sophia chapel - these Ukrainians love their gold played domes \(/cc {{< friend "chris" >}}\) http://360.io/FWBN5f
+St. Sophia chapel - these Ukrainians love their gold played domes \(/cc {{< friend "chris" >}}) http://360.io/FWBN5f

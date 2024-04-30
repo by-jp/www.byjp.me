@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Red Nose Day wedding\!
+Red Nose Day wedding!

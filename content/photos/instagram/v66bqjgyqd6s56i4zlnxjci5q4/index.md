@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-The Curious Incident of the Dog in the Night-Time: a *fantastic* show\!
+The Curious Incident of the Dog in the Night-Time: a *fantastic* show!

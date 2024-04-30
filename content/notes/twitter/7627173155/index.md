@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-LAME. Even tiny tooth-braces prevent you from being the subject of your own MRI experiments. To the dentist\!
+LAME. Even tiny tooth-braces prevent you from being the subject of your own MRI experiments. To the dentist!

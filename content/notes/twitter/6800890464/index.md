@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Care to take any online Briggs-Myers personality test and reply with how accurate you think it is re: [http://www.personalitypage.com/home.html](http://www.personalitypage.com/home.html) ? Interesting\!
+Care to take any online Briggs-Myers personality test and reply with how accurate you think it is re: [http://www.personalitypage.com/home.html](http://www.personalitypage.com/home.html) ? Interesting!

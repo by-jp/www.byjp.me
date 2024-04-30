@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Been waiting in the rain for an hour waiting for a bus, 50m from my house. Never comes on time. WTF Cirencester?\!
+Been waiting in the rain for an hour waiting for a bus, 50m from my house. Never comes on time. WTF Cirencester?!

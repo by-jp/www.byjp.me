@@ -7,4 +7,4 @@ location:
   latitude: 52.95545554
   longitude: -1.13478416
 ---
-The new space [@HSNOTTS](/twitter/#/HSNOTTS) is outrageously awesome\! [https://yfrog.us/5gqktz](https://yfrog.us/5gqktz)
+The new space [@HSNOTTS](/twitter/#/HSNOTTS) is outrageously awesome! [https://yfrog.us/5gqktz](https://yfrog.us/5gqktz)

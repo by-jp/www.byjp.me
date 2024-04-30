@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Angel tube station's thought for the day: "Don't grow up, it's a TRAP\!"
+Angel tube station's thought for the day: "Don't grow up, it's a TRAP!"

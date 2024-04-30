@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - FromTheArchives
 ---
-Excitement\! [FromTheArchives](/tags/fromthearchives)
+Excitement! [FromTheArchives](/tags/fromthearchives)

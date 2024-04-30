@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Claire made joke\! Is niice\!
+Claire made joke! Is niice!

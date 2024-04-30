@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - SCIENCE
 ---
-Which one smells of spearmint, and which one of fennel? [SCIENCE](/tags/SCIENCE)\! {{< imgorvid src="media-1.jpg" >}}
+Which one smells of spearmint, and which one of fennel? [SCIENCE](/tags/SCIENCE)! {{< imgorvid src="media-1.jpg" >}}

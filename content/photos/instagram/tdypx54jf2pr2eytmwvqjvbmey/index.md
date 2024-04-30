@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - andy
 ---
-"The Ship Shop is definitely not ship shape" \(so sayeth [Andy](/tags/andy)\)
+"The Ship Shop is definitely not ship shape" \(so sayeth [Andy](/tags/andy))

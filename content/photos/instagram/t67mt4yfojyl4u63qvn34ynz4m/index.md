@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Practicing our routines outside the Southbank Centre, January chill be damned\!
+Practicing our routines outside the Southbank Centre, January chill be damned!

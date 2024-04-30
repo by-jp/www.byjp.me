@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-241 - slow progress, but getting there :\)
+241 - slow progress, but getting there :)

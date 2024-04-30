@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Dear [@warrenellis](/twitter/#/warrenellis), Global Frequency Vol. 1 was great but did the freerunner have to be *that* cheesily British?\! :P
+Dear [@warrenellis](/twitter/#/warrenellis), Global Frequency Vol. 1 was great but did the freerunner have to be *that* cheesily British?! :P

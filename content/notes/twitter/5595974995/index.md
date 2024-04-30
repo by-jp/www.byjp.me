@@ -5,6 +5,6 @@ tags:
 - from-twitter
 ---
 
-Wooo\!
+Wooo!
 
 {{< youtube "-dadPWhEhVk" >}}

@@ -10,4 +10,4 @@ tags:
 - imported
 - from-instagram
 ---
-The beautiful landscapes of Joshua Tree — cold but oh so sunny\!
+The beautiful landscapes of Joshua Tree — cold but oh so sunny!

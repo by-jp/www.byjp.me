@@ -7,4 +7,4 @@ location:
   latitude: 51.50487501
   longitude: -0.11794845
 ---
-Swing dancing in the Spiegeltent - this band look like they're going to be amazing\! [https://4sq.com/1aerF88](https://4sq.com/1aerF88)
+Swing dancing in the Spiegeltent - this band look like they're going to be amazing! [https://4sq.com/1aerF88](https://4sq.com/1aerF88)

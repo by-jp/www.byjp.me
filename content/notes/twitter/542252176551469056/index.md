@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Just noticed that [@Spotify](/twitter/#/Spotify) now syncs your song &amp; position across devices. YES guys\! Top notch seemless improvement, thanks :\)
+Just noticed that [@Spotify](/twitter/#/Spotify) now syncs your song &amp; position across devices. YES guys! Top notch seemless improvement, thanks :)

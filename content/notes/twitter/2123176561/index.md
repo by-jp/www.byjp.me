@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - Caprica
 ---
-Oh SNAP\! [Caprica](/tags/Caprica) is freakin' A\!
+Oh SNAP! [Caprica](/tags/Caprica) is freakin' A!

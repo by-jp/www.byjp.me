@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-in Malaga - in the airport, 1 hour till check in - nearly home\!
+in Malaga - in the airport, 1 hour till check in - nearly home!

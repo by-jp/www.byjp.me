@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Freakin' A\! http://www.explosionsandboobs.com/
+Freakin' A! http://www.explosionsandboobs.com/

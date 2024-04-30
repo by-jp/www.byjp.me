@@ -7,4 +7,4 @@ location:
   latitude: 51.49726991
   longitude: -0.17507517
 ---
-For Science\! @ Science Museum [https://instagram.com/p/yabhe1yIRh/](https://instagram.com/p/yabhe1yIRh/)
+For Science! @ Science Museum [https://instagram.com/p/yabhe1yIRh/](https://instagram.com/p/yabhe1yIRh/)

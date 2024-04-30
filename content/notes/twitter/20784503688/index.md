@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Ugh. Need to backup. Away from home — my kingdom for 5GB of storage\!
+Ugh. Need to backup. Away from home — my kingdom for 5GB of storage!

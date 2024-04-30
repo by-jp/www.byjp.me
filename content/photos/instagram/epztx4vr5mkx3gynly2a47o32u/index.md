@@ -10,7 +10,7 @@ tags:
 - imported
 - from-instagram
 ---
-Doing a first \(holi\)day wonder about the city — it's extremely pretty\!
+Doing a first \(holi)day wonder about the city — it's extremely pretty!
 
 
 

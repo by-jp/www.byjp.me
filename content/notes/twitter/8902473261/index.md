@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - UKSnow
 ---
-Blue sky & [UKSnow](/tags/uksnow). Make up your mind Britain\!
+Blue sky & [UKSnow](/tags/uksnow). Make up your mind Britain!

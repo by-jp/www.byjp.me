@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Beers with [@nottinghack](/twitter/#/nottinghack) — meetup.com scores a bullseye\!
+Beers with [@nottinghack](/twitter/#/nottinghack) — meetup.com scores a bullseye!

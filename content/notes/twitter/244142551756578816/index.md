@@ -7,4 +7,4 @@ location:
   latitude: 51.50873578
   longitude: -0.09665608
 ---
-Men's evil manners live in brass; their virtues we write in water. \(@ Bankside Pier\) \[pic\]: [https://4sq.com/U0HH84](https://4sq.com/U0HH84)
+Men's evil manners live in brass; their virtues we write in water. \(@ Bankside Pier) \[pic\]: [https://4sq.com/U0HH84](https://4sq.com/U0HH84)

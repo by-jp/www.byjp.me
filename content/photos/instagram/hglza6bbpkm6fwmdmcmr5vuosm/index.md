@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Selfies always feel pretty awkward for me, but this place is delightfully relaxing — Bellagio, ti amo\! ❤️
+Selfies always feel pretty awkward for me, but this place is delightfully relaxing — Bellagio, ti amo! ❤️

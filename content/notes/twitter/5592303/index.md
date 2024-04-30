@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I'm going out to meet my new house mate\!
+I'm going out to meet my new house mate!

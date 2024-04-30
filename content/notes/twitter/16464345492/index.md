@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-WHAT?\! It's Raining? I know I missed a 1st by less than the Planck length, but I've never been one for pathetic fallacy\!
+WHAT?! It's Raining? I know I missed a 1st by less than the Planck length, but I've never been one for pathetic fallacy!

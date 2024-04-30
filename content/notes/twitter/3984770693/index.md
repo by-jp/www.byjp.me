@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Watching The Lost Room again - really quite enjoyable :\) [#tt0830361](https://imdb.com/title/tt0830361)
+Watching The Lost Room again - really quite enjoyable :) [#tt0830361](https://imdb.com/title/tt0830361)

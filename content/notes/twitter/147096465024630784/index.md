@@ -7,4 +7,4 @@ location:
   latitude: 51.57082746
   longitude: -0.11552063
 ---
-Just watched Black Mirror. Enjoying massively\!
+Just watched Black Mirror. Enjoying massively!

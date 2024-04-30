@@ -7,4 +7,4 @@ location:
   latitude: 51.80195397
   longitude: -0.18061435
 ---
-I freaking love the Internet \(see previous tweets\)
+I freaking love the Internet \(see previous tweets)

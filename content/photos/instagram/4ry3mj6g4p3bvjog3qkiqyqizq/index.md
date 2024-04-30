@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-It's madness, but this is the first time I've visited the British Library. It's *wonderful*\!
+It's madness, but this is the first time I've visited the British Library. It's *wonderful*!

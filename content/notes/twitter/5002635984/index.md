@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I rescind that, my brain just exploded - I will bend datastore keys to my will\!
+I rescind that, my brain just exploded - I will bend datastore keys to my will!

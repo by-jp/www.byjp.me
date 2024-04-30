@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Portsmouth - tired. Gunwarf Quay is cool, but 11 hours is hard to kill\!
+near Portsmouth - tired. Gunwarf Quay is cool, but 11 hours is hard to kill!

@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-It's more that Alan is a giant… but Thapa is still The Man\!
+It's more that Alan is a giant… but Thapa is still The Man!

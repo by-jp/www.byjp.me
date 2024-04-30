@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Tussle with friend over whether Wahaca was left or straight from Leicester Square. Answer: both\! Thanks Wahaca. Thahaca.
+Tussle with friend over whether Wahaca was left or straight from Leicester Square. Answer: both! Thanks Wahaca. Thahaca.

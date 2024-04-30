@@ -7,4 +7,4 @@ location:
   latitude: 51.52463048
   longitude: -0.08534582
 ---
-Turn up 'fashionably' late only to be the first to arrive - oops\! \(@ McQueen\) [https://4sq.com/IBF6zN](https://4sq.com/IBF6zN)
+Turn up 'fashionably' late only to be the first to arrive - oops! \(@ McQueen) [https://4sq.com/IBF6zN](https://4sq.com/IBF6zN)

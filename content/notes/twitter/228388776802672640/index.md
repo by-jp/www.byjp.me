@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Nothing like a bit of Grieg in the morning at the bus stop. Crowd calming technique? It's working :\)
+Nothing like a bit of Grieg in the morning at the bus stop. Crowd calming technique? It's working :)

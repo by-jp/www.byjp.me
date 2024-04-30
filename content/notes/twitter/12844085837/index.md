@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-GoDaddy has to have the worst domain control UI I've seen. Its simpler setting up BIND\!
+GoDaddy has to have the worst domain control UI I've seen. Its simpler setting up BIND!

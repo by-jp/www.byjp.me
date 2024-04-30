@@ -5,4 +5,4 @@ tags:
 - from-twitter
 inReplyTo: /notes/twitter/1049926693744455681
 ---
-"Ey, I seen dem gains\!", he says, as he moves to pulling fingers, cracking my knuckles as he goes, "Workin' at that computer'n everyfing. You're stronger than you look bruv\!" 3/5
+"Ey, I seen dem gains!", he says, as he moves to pulling fingers, cracking my knuckles as he goes, "Workin' at that computer'n everyfing. You're stronger than you look bruv!" 3/5

@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - becky
 ---
-Last weekend's momentary sneak into the Painted Hall with [Becky](/tags/becky) — we're hoping to do the roof tour while the scaffolding is still up\!
+Last weekend's momentary sneak into the Painted Hall with [Becky](/tags/becky) — we're hoping to do the roof tour while the scaffolding is still up!

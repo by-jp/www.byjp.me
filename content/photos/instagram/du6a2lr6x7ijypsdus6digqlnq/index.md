@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-What a view from the Sky Costanera, here in Santiago de Chile\!
+What a view from the Sky Costanera, here in Santiago de Chile!

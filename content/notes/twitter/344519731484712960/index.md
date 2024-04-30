@@ -7,4 +7,4 @@ location:
   latitude: -1.73136704
   longitude: 29.2665438
 ---
-BEAUTIFUL lake resort, perfectly happy with us camping on their beachfront lawn \(@ Palm Garden\) [https://4sq.com/11dCRs9](https://4sq.com/11dCRs9)
+BEAUTIFUL lake resort, perfectly happy with us camping on their beachfront lawn \(@ Palm Garden) [https://4sq.com/11dCRs9](https://4sq.com/11dCRs9)

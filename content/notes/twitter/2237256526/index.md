@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-iPhone\! Didn't think I'd miss having two lines so soon tho :S
+iPhone! Didn't think I'd miss having two lines so soon tho :S

@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Party Skills for the End of the World ❤️ \(Go before Saturday\!\)
+Party Skills for the End of the World ❤️ \(Go before Saturday!)

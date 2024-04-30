@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-.@domainmonster you guys have the best customer service I've ever had for domains. Thanks\!
+.@domainmonster you guys have the best customer service I've ever had for domains. Thanks!

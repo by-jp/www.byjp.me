@@ -5,7 +5,7 @@ tags:
 - from-twitter
 - fail
 ---
-Really Microsoft?\!
+Really Microsoft?!
 
 ```html
 <a href="javascript:this.href='#startNavigation';" href="javascript:;">etc</a>

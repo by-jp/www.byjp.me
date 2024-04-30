@@ -10,4 +10,4 @@ tags:
 - imported
 - from-instagram
 ---
-First \(half\) day around Chamonix — glorious\! It's been 12 years, so we took it slow, but I'm ready for more now — let's hope the snow tonight is decent\!
+First \(half) day around Chamonix — glorious! It's been 12 years, so we took it slow, but I'm ready for more now — let's hope the snow tonight is decent!

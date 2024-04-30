@@ -8,4 +8,4 @@ tags:
 [MyMail](/tags/MyMail)\
 Deliveries: 1\
 \
-So far this month mail to my house has been 75% useful. I was expecting to show that mail is useless\!
+So far this month mail to my house has been 75% useful. I was expecting to show that mail is useless!

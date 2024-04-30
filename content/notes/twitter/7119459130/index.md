@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-L4D2 has an easter egg: [@jonathancoulton](/twitter/#/jonathancoulton)'s 'Re:Your Brains'\! :P
+L4D2 has an easter egg: [@jonathancoulton](/twitter/#/jonathancoulton)'s 'Re:Your Brains'! :P

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I'm writing a ruby gem to extract RAR files. From scratch. Yay\!
+I'm writing a ruby gem to extract RAR files. From scratch. Yay!

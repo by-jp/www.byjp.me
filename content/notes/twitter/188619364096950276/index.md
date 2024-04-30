@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - BoatRace2012
 ---
-Belay that report - its a member of the public\! [BoatRace2012](/tags/boatrace2012)
+Belay that report - its a member of the public! [BoatRace2012](/tags/boatrace2012)

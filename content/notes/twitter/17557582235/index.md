@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-A friend from Uni has just launched his company getting adjustable optical lenses to the 3rd world - RT\! http://eyejusters.com
+A friend from Uni has just launched his company getting adjustable optical lenses to the 3rd world - RT! http://eyejusters.com

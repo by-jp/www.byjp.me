@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - GoogleVoice
 ---
-Booo\! US only :\( [GoogleVoice](/tags/googlevoice)
+Booo! US only :\( [GoogleVoice](/tags/googlevoice)

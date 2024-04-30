@@ -7,4 +7,4 @@ location:
   latitude: 51.51892359
   longitude: -0.07900584
 ---
-SWING DANCING - WOOOOOO\! {{< linkrot "360.io/dwsvyh" "a 360 photo" >}}
+SWING DANCING - WOOOOOO! {{< linkrot "360.io/dwsvyh" "a 360 photo" >}}

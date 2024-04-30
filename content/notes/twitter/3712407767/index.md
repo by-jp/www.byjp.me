@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Angels & Demons is literally hurting my physics brain. Stop dumbing things down\! [#tt0808151](https://imdb.com/title/tt0808151)
+Angels & Demons is literally hurting my physics brain. Stop dumbing things down! [#tt0808151](https://imdb.com/title/tt0808151)

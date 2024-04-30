@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - BoatRace
 ---
-Come on Dark Blue\! Thats what we want\! [BoatRace](/tags/boatrace)
+Come on Dark Blue! Thats what we want! [BoatRace](/tags/boatrace)

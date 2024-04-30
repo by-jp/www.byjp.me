@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - boatrace2012
 ---
-EJECTOR CRAB\! [boatrace2012](/tags/boatrace2012)
+EJECTOR CRAB! [boatrace2012](/tags/boatrace2012)

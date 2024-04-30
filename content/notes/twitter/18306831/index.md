@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-at Winchester - that was a very speedy hitch\!
+at Winchester - that was a very speedy hitch!

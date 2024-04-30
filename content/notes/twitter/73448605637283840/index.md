@@ -7,4 +7,4 @@ location:
   latitude: 51.49728898
   longitude: -0.17421484
 ---
-Lates\! @ The Science Museum http://gowal.la/c/4ihd3
+Lates! @ The Science Museum http://gowal.la/c/4ihd3

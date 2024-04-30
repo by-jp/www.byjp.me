@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Kuffing RyanAir. DON'T YOU WANT MY MONEY?\! How have you made your site SO BAD?
+Kuffing RyanAir. DON'T YOU WANT MY MONEY?! How have you made your site SO BAD?

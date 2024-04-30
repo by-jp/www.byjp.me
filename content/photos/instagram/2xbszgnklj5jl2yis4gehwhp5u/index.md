@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - yvette
 ---
-Enjoying a G&T on the balcony. Lovely ☺️ When are you getting home {{< friend yvette >}}? There's one waiting\! 😁
+Enjoying a G&T on the balcony. Lovely ☺️ When are you getting home {{< friend yvette >}}? There's one waiting! 😁

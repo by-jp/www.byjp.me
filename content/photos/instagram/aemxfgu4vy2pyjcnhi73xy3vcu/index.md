@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Saturday night was the BLITZ\!
+Saturday night was the BLITZ!

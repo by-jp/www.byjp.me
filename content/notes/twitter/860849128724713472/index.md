@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Why are country pub toilets always the coldest place in the building? And how on earth are they somehow colder than outside?\!
+Why are country pub toilets always the coldest place in the building? And how on earth are they somehow colder than outside?!

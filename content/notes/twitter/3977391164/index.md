@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Whaa?\! Undisclosed Desires sounds like a pop anthem at the start\! Its not bad though
+Whaa?! Undisclosed Desires sounds like a pop anthem at the start! Its not bad though

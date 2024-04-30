@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-If you use Safari and Facebook, this is very well designed & handy\! http://www.regisgaughan.com/projects/facebook_photo_zoom
+If you use Safari and Facebook, this is very well designed & handy! http://www.regisgaughan.com/projects/facebook_photo_zoom

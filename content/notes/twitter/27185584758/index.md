@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Life is good :\)
+Life is good :)

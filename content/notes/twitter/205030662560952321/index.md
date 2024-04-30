@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - SpokenNerd
 ---
-Festival of the [SpokenNerd](/tags/SpokenNerd) is good\! {{< imgorvid src="media-1.jpg" >}}
+Festival of the [SpokenNerd](/tags/SpokenNerd) is good! {{< imgorvid src="media-1.jpg" >}}

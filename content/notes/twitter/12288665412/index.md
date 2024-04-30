@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Bravo [@spotify](/twitter/#/spotify)\! Love the upgrades to the iPhone app
+Bravo [@spotify](/twitter/#/spotify)! Love the upgrades to the iPhone app

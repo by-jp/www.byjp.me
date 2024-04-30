@@ -10,6 +10,6 @@ tags:
 - DifferentPerspective
 - patterns
 ---
-An unusual shot of the bridge for sure, but the Fort underneath, run by the National Parks service, was surprisingly fun to walk around — and what views\!
+An unusual shot of the bridge for sure, but the Fort underneath, run by the National Parks service, was surprisingly fun to walk around — and what views!
 
 [DifferentPerspective](/tags/differentperspective) [patterns](/tags/patterns)

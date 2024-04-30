@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-is packing to go home. So irritating\!
+is packing to go home. So irritating!

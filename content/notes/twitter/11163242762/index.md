@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Awesome luxury supermarket shop: stawberries and blueberries \(for pancakes in the am\) pita, pate and humous for now ^__^
+Awesome luxury supermarket shop: stawberries and blueberries \(for pancakes in the am) pita, pate and humous for now ^__^

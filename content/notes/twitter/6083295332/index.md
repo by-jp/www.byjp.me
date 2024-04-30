@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Screw you "we're only obliged to change old money for our own customers" Lloyds\!
+Screw you "we're only obliged to change old money for our own customers" Lloyds!

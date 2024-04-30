@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-These still exist?\! [https://instagram.com/p/iwogwNSIQR/](https://instagram.com/p/iwogwNSIQR/)
+These still exist?! [https://instagram.com/p/iwogwNSIQR/](https://instagram.com/p/iwogwNSIQR/)

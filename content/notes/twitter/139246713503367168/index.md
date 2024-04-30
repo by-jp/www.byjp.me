@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - StartStrong
 ---
-CROUTES gives me 62 as the first play on a scrabble board \(well, [@wordfeud](/twitter/#/wordfeud)\) [StartStrong](/tags/startstrong)
+CROUTES gives me 62 as the first play on a scrabble board \(well, [@wordfeud](/twitter/#/wordfeud)) [StartStrong](/tags/startstrong)

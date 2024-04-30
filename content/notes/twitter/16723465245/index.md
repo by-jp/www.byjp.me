@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-The awesome AQA service tells us that [@TheJohnsonArms](/twitter/#/TheJohnsonArms) is the *only* pub called The Johnson Arms in the UK\! Are they wrong?
+The awesome AQA service tells us that [@TheJohnsonArms](/twitter/#/TheJohnsonArms) is the *only* pub called The Johnson Arms in the UK! Are they wrong?

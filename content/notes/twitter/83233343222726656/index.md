@@ -6,4 +6,4 @@ tags:
 ---
 Accidentally locked my girlfriend in the house today. Which, btw, has no phone reception. Or Internet.\
 \
-Best. Boyfriend. Ever\!
+Best. Boyfriend. Ever!

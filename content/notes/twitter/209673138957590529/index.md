@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-That time when the music you couldn't quite hear turns out to be the song you wanted to listen to and haven't heard in ages :\)
+That time when the music you couldn't quite hear turns out to be the song you wanted to listen to and haven't heard in ages :)

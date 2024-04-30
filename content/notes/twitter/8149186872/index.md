@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-HA\! My DAAPlaydar DAAP server now crashes iTunes whenever you try to access it. Bug much?
+HA! My DAAPlaydar DAAP server now crashes iTunes whenever you try to access it. Bug much?

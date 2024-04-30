@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - fail
 ---
-I use a couple of [@samsung](/twitter/#/samsung) TVs \(home, work\) and the only thing ever on the announcements bar is "End of service for \[XYZ app\]". [fail](/tags/fail)
+I use a couple of [@samsung](/twitter/#/samsung) TVs \(home, work) and the only thing ever on the announcements bar is "End of service for \[XYZ app\]". [fail](/tags/fail)

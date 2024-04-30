@@ -10,7 +10,7 @@ tags:
 - patterns
 - AccidentalWesAnderson
 ---
-Faro really loves its seafood \(and rightly so\), but these walls of <seafood>-in-oil remind me of Cloudy With a Chance of Meatballs 😁
+Faro really loves its seafood \(and rightly so), but these walls of <seafood>-in-oil remind me of Cloudy With a Chance of Meatballs 😁
 
 
 

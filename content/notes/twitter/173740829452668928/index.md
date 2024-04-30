@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I am on a train populated, it seems, almost entirely with Italians. Is there something going on in Cirencester?\!
+I am on a train populated, it seems, almost entirely with Italians. Is there something going on in Cirencester?!

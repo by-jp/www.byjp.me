@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Somerset Fire Brigade apparently have some old school engines\!
+Somerset Fire Brigade apparently have some old school engines!

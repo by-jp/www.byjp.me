@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I'm trying to learn how to cross-compile. How?\!?\!
+I'm trying to learn how to cross-compile. How?!?!

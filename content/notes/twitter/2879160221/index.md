@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - tt0289043
 ---
-28 Days Later is still a fantastic film\! [tt0289043](/tags/tt0289043)
+28 Days Later is still a fantastic film! [tt0289043](/tags/tt0289043)

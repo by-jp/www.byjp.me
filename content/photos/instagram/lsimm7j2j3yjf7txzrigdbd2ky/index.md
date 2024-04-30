@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Rose got us bunk beds\! Dave won the top bunk though :\(\(
+Rose got us bunk beds! Dave won the top bunk though :\(\(

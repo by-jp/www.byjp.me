@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-HA\! Its snowing again\!
+HA! Its snowing again!

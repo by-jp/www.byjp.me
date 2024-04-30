@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Is there a single question where he hadn't brought up cutting children tax credits?\! We've addressed that\! MOVE ON
+Is there a single question where he hadn't brought up cutting children tax credits?! We've addressed that! MOVE ON

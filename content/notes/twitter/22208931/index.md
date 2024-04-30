@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-off to Marrakech by overnight train soon - woop woop\! Email me your addresses if you want postcards :P
+off to Marrakech by overnight train soon - woop woop! Email me your addresses if you want postcards :P

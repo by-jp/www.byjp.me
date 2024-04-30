@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-OH on a snowy high street, mid snowball fight - "get the baddies\!"
+OH on a snowy high street, mid snowball fight - "get the baddies!"

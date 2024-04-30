@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Tuktuk drivers rarely understand where you've asked to go, but are more than happy to stop and ask ladders by. Indian passers by seem to be very helpful too\!
+Tuktuk drivers rarely understand where you've asked to go, but are more than happy to stop and ask ladders by. Indian passers by seem to be very helpful too!

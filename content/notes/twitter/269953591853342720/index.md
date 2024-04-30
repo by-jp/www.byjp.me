@@ -7,4 +7,4 @@ location:
   latitude: 51.47066683
   longitude: -0.11217023
 ---
-I'm at Jamm Brixton for Craig Charles' Funk, Craig Charles + more \(London, UK\) [https://4sq.com/SV0Loi](https://4sq.com/SV0Loi)
+I'm at Jamm Brixton for Craig Charles' Funk, Craig Charles + more \(London, UK) [https://4sq.com/SV0Loi](https://4sq.com/SV0Loi)

@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - FromTheArchives
 ---
-Riding in the best seat together: the day both brothers were in London for the first time\! [FromTheArchives](/tags/fromthearchives) /repost {{< friend "chris" >}}
+Riding in the best seat together: the day both brothers were in London for the first time! [FromTheArchives](/tags/fromthearchives) /repost {{< friend "chris" >}}

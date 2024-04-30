@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-near Tarifa - waiting... Waiting for the ferry to arrive\! So nearly there\!
+near Tarifa - waiting... Waiting for the ferry to arrive! So nearly there!

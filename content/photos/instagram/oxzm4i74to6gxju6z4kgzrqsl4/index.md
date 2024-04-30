@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Oops, breakfast ended up being at 1pm, but such is holiday\! It's beautiful and tasty here though, so well worth the wait\!
+Oops, breakfast ended up being at 1pm, but such is holiday! It's beautiful and tasty here though, so well worth the wait!

@@ -7,4 +7,4 @@ location:
   latitude: 51.72316664
   longitude: -1.97108823
 ---
-Just cut down a Tesco SIM only sim card for the iPhone 4. Works great\!
+Just cut down a Tesco SIM only sim card for the iPhone 4. Works great!

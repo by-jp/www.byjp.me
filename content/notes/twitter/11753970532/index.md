@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - debill
 ---
-Even Harris \(lib dem\): Only 2 hours, many amendments will not be reached. Digital Economy Bill complete farce. Why ram through? [debill](/tags/debill)
+Even Harris \(lib dem): Only 2 hours, many amendments will not be reached. Digital Economy Bill complete farce. Why ram through? [debill](/tags/debill)

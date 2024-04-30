@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-: Now with 100% less student\!
+: Now with 100% less student!

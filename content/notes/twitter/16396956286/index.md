@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Lets clarify: anyone know of a webservice for converting UPC codes into IMDB ids :\)
+Lets clarify: anyone know of a webservice for converting UPC codes into IMDB ids :)

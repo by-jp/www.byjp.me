@@ -7,4 +7,4 @@ location:
   latitude: 51.15608013
   longitude: -0.16250825
 ---
-To Chernobyl\! @ LGW South Terminal http://gowal.la/c/4g94b
+To Chernobyl! @ LGW South Terminal http://gowal.la/c/4g94b

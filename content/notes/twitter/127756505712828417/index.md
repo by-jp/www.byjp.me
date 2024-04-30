@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - awkward
 ---
-Security guard for my community asked for a tip \(festive season and all\). I definitely offended him with the amount. [awkward](/tags/awkward)
+Security guard for my community asked for a tip \(festive season and all). I definitely offended him with the amount. [awkward](/tags/awkward)

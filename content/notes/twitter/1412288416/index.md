@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - BoatRace
 ---
-GO OXFORD\! [BoatRace](/tags/boatrace)
+GO OXFORD! [BoatRace](/tags/boatrace)

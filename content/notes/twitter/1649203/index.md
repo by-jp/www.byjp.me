@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-w00t\! Merry Christmas\!
+w00t! Merry Christmas!

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Coco-tang \(bar\) was reasonable - good drinks, good company but undanceable music. Its all for singles or couples, not us one-of-a-pair peeps
+Coco-tang \(bar) was reasonable - good drinks, good company but undanceable music. Its all for singles or couples, not us one-of-a-pair peeps

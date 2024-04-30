@@ -7,6 +7,6 @@ tags:
 ---
 [MyMail](/tags/MyMail)\
 Deliveries: 2\
-Junk mail \(food\): 1\
+Junk mail \(food): 1\
 \
 So far, 'snail' mail appears to be quite useful.

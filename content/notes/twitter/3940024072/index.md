@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Programmer's day?\! Amazing\! And its tomorrow too - Russia, I'm behind you
+Programmer's day?! Amazing! And its tomorrow too - Russia, I'm behind you

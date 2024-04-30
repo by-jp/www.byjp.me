@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - joost
 ---
-It's a pretty damned tall tower\! Great shot of [Joost](/tags/joost) too\!
+It's a pretty damned tall tower! Great shot of [Joost](/tags/joost) too!

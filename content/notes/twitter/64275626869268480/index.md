@@ -7,4 +7,4 @@ location:
   latitude: 51.73096987
   longitude: -1.24127268
 ---
-What, no pimms?\! @ The Isis Tavern http://gowal.la/c/47LgY
+What, no pimms?! @ The Isis Tavern http://gowal.la/c/47LgY

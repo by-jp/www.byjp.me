@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - the brat pack
 ---
-A few weeks back [The Brat Pack](/tags/the brat pack) had a photoshoot with the incredibly talented [@suddenisland](https://instagram.com/suddenisland) and this was one of the many gems that came from it — dancing with this bunch of wonderous nutters is an eternal pleasure\!
+A few weeks back [The Brat Pack](/tags/the brat pack) had a photoshoot with the incredibly talented [@suddenisland](https://instagram.com/suddenisland) and this was one of the many gems that came from it — dancing with this bunch of wonderous nutters is an eternal pleasure!

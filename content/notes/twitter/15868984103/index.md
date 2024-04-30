@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Spamalot\! — at The Royal Centre http://gowal.la/r/4T9W
+Spamalot! — at The Royal Centre http://gowal.la/r/4T9W

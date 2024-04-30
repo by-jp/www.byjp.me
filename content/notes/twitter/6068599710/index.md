@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Got some google wave invites\! Any takers? \(no promises\!\)
+Got some google wave invites! Any takers? \(no promises!)

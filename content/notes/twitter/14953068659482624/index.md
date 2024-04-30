@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I still have not fulfilled my mandated Winterval consumerism quota. It gnaws at me. \(via [@threedaymonk](/twitter/#/threedaymonk)\)
+I still have not fulfilled my mandated Winterval consumerism quota. It gnaws at me. \(via [@threedaymonk](/twitter/#/threedaymonk))

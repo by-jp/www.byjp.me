@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Yay\! Dropbox supports Snow Leopard now\!
+Yay! Dropbox supports Snow Leopard now!

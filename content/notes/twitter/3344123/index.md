@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I feel like dancing: 2 down, 2 to go\!
+I feel like dancing: 2 down, 2 to go!

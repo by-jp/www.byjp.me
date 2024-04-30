@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - chris
 ---
-Sooo, Bro got the job\! As a web designer... That's my job\! But he gets a company mac\! Booooo\! Yeah, well done {{< friend "chris" >}}, love you bro
+Sooo, Bro got the job! As a web designer... That's my job! But he gets a company mac! Booooo! Yeah, well done {{< friend "chris" >}}, love you bro

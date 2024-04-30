@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - epicDad
 ---
-…the sun was directly overhead Bulawayo \(to within 18km of the golf course\) both latitudinally and longitudinally this year\! [epicDad](/tags/epicDad)
+…the sun was directly overhead Bulawayo \(to within 18km of the golf course) both latitudinally and longitudinally this year! [epicDad](/tags/epicDad)

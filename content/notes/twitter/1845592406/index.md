@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-\(tmi\) Is it wrong that I'm more worried about the amount of immodium I'm popping than the exam in 3 hours?
+\(tmi) Is it wrong that I'm more worried about the amount of immodium I'm popping than the exam in 3 hours?

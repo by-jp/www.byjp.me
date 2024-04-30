@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Went to the wrong Speigeltent, but there were pretty trees here :\)
+Went to the wrong Speigeltent, but there were pretty trees here :)

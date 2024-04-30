@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-For once I'm happy Britain is doing the weather wrong, this isn't winter\!
+For once I'm happy Britain is doing the weather wrong, this isn't winter!

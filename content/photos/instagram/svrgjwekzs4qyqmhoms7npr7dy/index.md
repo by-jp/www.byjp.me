@@ -9,7 +9,7 @@ tags:
 - from-instagram
 - free
 ---
-Yesterday we visited Alcatraz; it was extremely good, not at all the tourist trap I was somewhat expecting\!
+Yesterday we visited Alcatraz; it was extremely good, not at all the tourist trap I was somewhat expecting!
 
 
 

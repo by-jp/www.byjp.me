@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Well yes, technically it was already dead. But... TREE SLAYER\!
+Well yes, technically it was already dead. But... TREE SLAYER!

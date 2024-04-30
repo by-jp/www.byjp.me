@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Door to door Christians never answer my question straight on—there was an air of politician's avoidance throughout\!
+Door to door Christians never answer my question straight on—there was an air of politician's avoidance throughout!

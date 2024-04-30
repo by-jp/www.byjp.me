@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Breakfast with our cousins, over from the US ☺️ \(Charlie is adorable\!\)
+Breakfast with our cousins, over from the US ☺️ \(Charlie is adorable!)

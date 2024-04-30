@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Just in case you know them\!
+Just in case you know them!

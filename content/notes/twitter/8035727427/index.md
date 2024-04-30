@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-"fMRI alignment using 'Centre of Mass' translation detection \(sub-pixel correction\) & axis-independent rotation correlation minimisation."
+"fMRI alignment using 'Centre of Mass' translation detection \(sub-pixel correction) & axis-independent rotation correlation minimisation."

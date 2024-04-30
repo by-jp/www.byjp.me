@@ -4,6 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-"I'm go'n count to seven\!\
+"I'm go'n count to seven!\
 \
 And I'm startin' at four."

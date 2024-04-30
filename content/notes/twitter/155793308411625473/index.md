@@ -7,4 +7,4 @@ location:
   latitude: 51.56522641
   longitude: -0.10527134
 ---
-Epic - will do this again\! \(@ Rowans Leisure\) [https://4sq.com/wyXBwi](https://4sq.com/wyXBwi)
+Epic - will do this again! \(@ Rowans Leisure) [https://4sq.com/wyXBwi](https://4sq.com/wyXBwi)

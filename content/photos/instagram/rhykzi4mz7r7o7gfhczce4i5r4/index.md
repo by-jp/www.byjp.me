@@ -9,4 +9,4 @@ tags:
 - from-instagram
 - Westonbirt
 ---
-Found this one from last weekend, [Westonbirt](/tags/Westonbirt) is beautiful\!
+Found this one from last weekend, [Westonbirt](/tags/Westonbirt) is beautiful!

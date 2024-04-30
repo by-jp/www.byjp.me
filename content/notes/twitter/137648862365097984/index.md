@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hey [@graphicly](/twitter/#/graphicly), please find a way to let me buy a physical + digital combo pack\!
+Hey [@graphicly](/twitter/#/graphicly), please find a way to let me buy a physical + digital combo pack!

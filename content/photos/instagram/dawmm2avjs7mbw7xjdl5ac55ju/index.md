@@ -8,4 +8,4 @@ tags:
 - imported
 - from-instagram
 ---
-Thoroughly enjoying being taken to the theatre by Mum at home in Cirencester; this three person comedy staging of The Hound of the Baskervilles is fantastic\!
+Thoroughly enjoying being taken to the theatre by Mum at home in Cirencester; this three person comedy staging of The Hound of the Baskervilles is fantastic!

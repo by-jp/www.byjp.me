@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hammer on & pull off on a double bass?\! Serious skill on display
+Hammer on & pull off on a double bass?! Serious skill on display

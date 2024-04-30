@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-At my cousins' house for Jenny's birthday - beautiful house\! {{< imgorvid src="92h31" >}}
+At my cousins' house for Jenny's birthday - beautiful house! {{< imgorvid src="92h31" >}}

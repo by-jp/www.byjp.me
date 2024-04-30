@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-.@projectsugru hack 1:replacement magnetic backgammon piece\!Nothing special, but it works\! {{< linkrot "yfrog.com/3q7ygj" "an image" >}}
+.@projectsugru hack 1:replacement magnetic backgammon piece!Nothing special, but it works! {{< linkrot "yfrog.com/3q7ygj" "an image" >}}

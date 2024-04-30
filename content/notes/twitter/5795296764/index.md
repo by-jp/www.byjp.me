@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Tweeps\! I need quantitive aspects of people that you'd be prepared to share \(anonymously\) and that vary ~uniformly: eg. Age - ideas?
+Tweeps! I need quantitive aspects of people that you'd be prepared to share \(anonymously) and that vary ~uniformly: eg. Age - ideas?

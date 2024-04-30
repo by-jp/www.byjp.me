@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Interesting fact of the day: Rafiki \(the crazy monkey in the Lion King\) == Dr. Eli Vance \(Half-Life 2\) \!\!
+Interesting fact of the day: Rafiki \(the crazy monkey in the Lion King) == Dr. Eli Vance \(Half-Life 2) !!

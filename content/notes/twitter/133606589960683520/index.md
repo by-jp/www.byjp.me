@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Real Genius is likely the perfect sick-day movie. Science Comedy at its best\!
+Real Genius is likely the perfect sick-day movie. Science Comedy at its best!

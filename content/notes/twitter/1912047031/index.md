@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Cooool, *live* train map\! http://www.traintimes.org.uk/map/
+Cooool, *live* train map! http://www.traintimes.org.uk/map/

@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - DoctorWho
 ---
-Should not have watched late season SG-1 before [DoctorWho](/tags/doctorwho) - what's Lieutenant Mitchel doing here?\!
+Should not have watched late season SG-1 before [DoctorWho](/tags/doctorwho) - what's Lieutenant Mitchel doing here?!
