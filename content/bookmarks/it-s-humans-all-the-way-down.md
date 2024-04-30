@@ -1,6 +1,7 @@
 ---
 title: It’s Humans All the Way Down
 date: "2024-01-20T12:03:56Z"
+emoji: 👁️
 publishDate: "2024-01-09T19:00:00Z"
 bookmarkOf: https://blog.jim-nielsen.com/2024/humans-all-the-way-down/
 references:

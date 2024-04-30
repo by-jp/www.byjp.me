@@ -1,6 +1,7 @@
 ---
 title: Google as the commoditiser of the early web
 date: "2024-01-16T20:50:07Z"
+emoji: 💾
 publishDate: "2023-07-20T00:00:00Z"
 bookmarkOf: https://staltz.com/google-shattered-human-connection.html
 references:
@@ -12,7 +13,6 @@ references:
 tags:
 - tech
 ---
-
 
 An interesting take on why the internet can feel soulless, and some implied ways to counter that.
 

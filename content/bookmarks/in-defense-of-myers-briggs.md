@@ -1,6 +1,7 @@
 ---
 title: In defense of Myers-Briggs
 date: "2024-01-22T16:13:59Z"
+emoji: 👥
 publishDate: "2020-06-12T00:00:00Z"
 bookmarkOf: https://dynomight.net/in-defense-of-myers-briggs.html
 references:

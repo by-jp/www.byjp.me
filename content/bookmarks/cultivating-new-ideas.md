@@ -1,6 +1,7 @@
 ---
 title: Cultivating new ideas
 date: "2023-11-22T10:00:16Z"
+emoji: 💭
 publishDate: "2023-07-26T14:35:46Z"
 bookmarkOf: https://www.henrikkarlsson.xyz/p/good-ideas
 references:

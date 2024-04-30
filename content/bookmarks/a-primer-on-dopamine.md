@@ -1,6 +1,7 @@
 ---
 title: A primer on dopamine
 date: "2024-01-28T11:05:31Z"
+emoji: 🧠
 publishDate: "2024-01-22T12:54:04Z"
 bookmarkOf: https://invertedpassion.com/a-primer-on-dopamine/
 references:
