@@ -27,7 +27,7 @@ I'm getting older, and sites I've been creative on are dying or becoming marketi
 
 ## Art and Creativity
 
-* As I travel I like to take 30 second video clips of the peaceful places. I visit the 🧘‍♂️&nbsp;[site I made for them](https://30s.byjp.me/) when I want to relax for a moment.
+* As I travel I like to take 30 second video clips of the peaceful places. I visit the 🧘&nbsp;[site I made for them](https://30s.byjp.me/) when I want to relax for a moment.
 * My friend created a beautiful alphabet, I turned it into a font and 👨‍🎤&nbsp;[performance microsite](https://caspian.byjp.me). Read or listen to 📖&nbsp;[the story right here](/posts/the-beauty-of-type).
 * I once studied biomedical physics, so when I had an MRI of my head I jumped at the opportunity to extract a 3D model of my brain and 🧠&nbsp;[render it in WebGL online](https://brain.byjp.me/).
 * I built a clockface that counts 🕰&nbsp;[the seconds since I was born](https://tictoc.byjp.me/). In binary.
