@@ -7,4 +7,4 @@ tags:
 
 > \[They] flock, beckoned by adventure \[…] it calls to those who care more for living than for their lives.
 
-From {{< openlibrary "9781534430990" false >}}.
+From {{< book "9781534430990" false >}}.

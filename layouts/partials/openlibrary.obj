@@ -1,9 +1,10 @@
-{{- $path := .Page.Path -}}
+{{- $path := .path -}}
 {{- $isbn := "" -}}
 {{- $key := "" -}}
-{{- $showCover := ne (.Get 1) false -}}
+{{- $showCover := ne .showcover false -}}
+{{- $book := dict -}}
 
-{{- with .Get 0 -}}
+{{- with .id -}}
   {{- if eq (len .) 13 -}}
     {{- $isbn = . -}}
   {{- else -}}
@@ -23,7 +24,7 @@
       {{- end -}}
     {{- end -}}
   {{- else -}}
-    {{- warnf "Failed to fetch ISBN data from OpenLibrary: %s" $isbn -}}
+    {{- errorf "Failed to fetch ISBN data from OpenLibrary: %s" $isbn -}}
   {{- end -}}
 {{- end -}}
 
@@ -45,6 +46,8 @@
               {{- $authorObj := .Content | transform.Unmarshal -}}
               {{- if eq $authorObj.status "ok" -}}
                 {{- $authors = $authors | append (dict "name" $authorObj.result.name "url" (printf "https://openlibrary.org%s" $authorObj.result.key)) -}}
+              {{- else -}}
+                {{- errorf "OpenLibrary response was %s while fetching author data: %s" $authorObj.status .key -}}
               {{- end -}}
             {{- end -}}
           {{- else -}}
@@ -69,11 +72,13 @@
           {{- end -}}
         {{- end -}}
 
-        {{- $book := dict "title" $bookObj.result.title "authors" $authors "url" (printf "https://openlibrary.org%s" $key) "cover" $cover -}}
-        {{- partial "book.html" $book -}}
+        {{- $book = dict "title" $bookObj.result.title "authors" $authors "url" (printf "https://openlibrary.org%s" $key) "cover" $cover -}}       
+      {{- else -}}
+        {{- errorf "OpenLibrary response was %s while fetching: %s" $bookObj $key -}}
       {{- end -}}
     {{- end -}}
   {{- else -}}
-    {{- warnf "Failed to fetch Book data data from OpenLibrary: %s" $key -}}
+    {{- errorf "Failed to fetch Book data data from OpenLibrary: %s" $key -}}
   {{- end -}}
 {{- end -}}
+{{- return $book -}}

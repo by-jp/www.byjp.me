@@ -13,7 +13,7 @@ syndications:
 - https://www.goodreads.com/review/show/879236135
 ---
 
-{{< openlibrary "9781847670243" >}}
+{{< book "9781847670243" >}}
 
 {{% importnote 2023-07-27 %}}
 Back when I wrote Goodreads reviews, I tried to keep them short & sweet — which makes them seem a little out of place here on this blog!

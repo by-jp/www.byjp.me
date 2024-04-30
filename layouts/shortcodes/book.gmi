@@ -1,0 +1,8 @@
+{{- if ne (.Get 1) false -}}
+{{- $book := partial "openlibrary.obj" (dict "path" .Page.Path "id" (.Get 0)) -}}
+{{- with $book -}}
+{{- if .cover }}
+=> {{ .cover.RelPermalink }} 📖 {{ .title }}
+{{- end -}}
+{{- end -}}
+{{- end -}}

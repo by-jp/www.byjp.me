@@ -13,7 +13,7 @@ syndications:
 - https://www.goodreads.com/review/show/566131190
 ---
 
-{{< openlibrary "9781841499390" >}}
+{{< book "9781841499390" >}}
 
 {{% importnote 2023-07-27 %}}
 Back when I wrote Goodreads reviews, I tried to keep them short & sweet — which makes them seem a little out of place here on this blog!

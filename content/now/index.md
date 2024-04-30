@@ -30,7 +30,7 @@ sitemap:
 
 {{< emoji "📖" >}}I'm only a few pages into [Cheap Complex Devices](https://openlibrary.org/books/OL8797982M/Cheap_Complex_Devices) and already loving it. Even the foreword has me thinking meta: should I trust the editor of the book when he says "skip the rest of the foreword", given that the editor is a character?? It's definitely not a book for sleepy bedtime reading!
 
-{{< openlibrary "OL49368138M" >}}
+{{< book "/books/OL49368138M" >}}
 
 {{< emoji "🎧" >}}A few days ago I pulled out [Kitty Cat Kill Sat](https://openlibrary.org/works/OL36523390W/Kitty_Cat_Kill_Sat) on Audible as something relaxing to listen to with house chores and travel — what a win! It's fun, playful, _gripping_ and lighthearted without being frivolous. I'm absolutely steaming through it!
 

@@ -12,7 +12,10 @@
   {{- end -}}
 {{- end -}}
 
-{{- if .cover -}}
+{{- $showCover := ne (.Get 1) false -}}
+{{- $book := partial "openlibrary.obj" (dict "path" .Page.Path "id" (.Get 0)) -}}
+{{- with $book -}}
+{{- if and $showCover .cover -}}
   <figure class="book">
     <a href="{{ .url }}" target="_blank" title="Open book details">
       {{- $title := .title -}}
@@ -29,4 +32,5 @@
 {{- else -}}
   <a href="{{ .url }}" target="_blank" title="Open book details">{{ .title }}</a>
   {{- partial "partials/author-list.html" .authors -}}
+{{- end -}}
 {{- end -}}

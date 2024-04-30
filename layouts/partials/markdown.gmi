@@ -9,7 +9,7 @@
 
   {{/*  Swap out unsupported list types  */}}
   {{- $content := $content | replaceRE `\n- (.+?)` "\n* $1" -}}
-  {{- $content := $content | replaceRE `\n(\d+). (.+?)` "\n* $2" -}}
+  {{- $content := $content | replaceRE `\n(\d+)\. (.+?)` "\n* $2" -}}
   {{/*  Remove footnote references  */}}
   {{- $content := $content | replaceRE `\[\^(.+?)\]:?` "" -}}
   {{/*  Swap out forced newlines  */}}
