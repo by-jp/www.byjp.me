@@ -10,7 +10,7 @@
 Some of my recent (and more substantial) writing.
 {{ $posts := where .Site.RegularPages "Section" "in" (slice "posts" "bookmarks" "poetry") -}}
 {{- range ($posts.ByPublishDate.Reverse | first 6) }}
-=> {{.RelPermalink}} {{ with .Params.emoji }}{{.}} {{end}}{{- with .Title -}}{{ . }}{{ else }}{{ .Type | singularize | title }}{{ end -}}
+=> {{.RelPermalink}} {{ with .Params.emoji }}{{.}}{{ else }}🔗{{end}} {{ with .Title -}}{{ . }}{{ else }}{{ .Type | singularize | title }}{{ end -}}
 {{- end }}
 
 => /posts/ 📔 More posts (my longer articles)
