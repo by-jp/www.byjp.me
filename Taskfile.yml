@@ -4,6 +4,7 @@ version: '3'
 
 vars:
   domain: www.byjp.me
+  gmi_domain: byjp.cc
   puma_dev_tld: .test
 
 env:
@@ -54,14 +55,20 @@ tasks:
       - find -E ./public -regex  '.*\.(html|js|css|css\.map|webmanifest|xml|xsl|ico|opml)' -type f -delete
       # Remove specific unneeded files
       - rm -rf ./public/favicon*.png ./public/_redirects ./public/{apple,android,mstile}*.png ./public/safari-pinned-tab.svg ./public/robots.txt
-      # Remove specific unneeded direcctories
+      # Remove specific unneeded directories
       - rm -rf ./public/.well-known/ ./public/fonts/ ./public/standalone/project-prime/
       # Remove empty directories
       - find ./public -type d -empty -delete
 
   gemini-dev:
     desc: Builds the site & starts a gemini server (on the default port) for it.
-    deps: [ build ]
     cmds:
-      - agate --content public --lang en-GB --hostname "{{ .domain }}{{ .puma_dev_tld }}" --central-conf
+      - agate --content public --addr 0.0.0.0:1965 --ed25519 --only-tls13 --lang en-GB --hostname "{{ .gmi_domain }}{{ .puma_dev_tld }}" --central-conf
 
+  gemini-deploy:
+    desc: Builds, reduces, and deploys the gemini version of the site with fly.
+    deps:
+      - build
+      - gemini-reduce
+    cmds:
+      - fly deploy

@@ -1,0 +1,31 @@
+# fly.toml app configuration file generated for byjp-cc on 2024-04-30T15:16:09+01:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'byjp-cc'
+primary_region = 'lhr'
+
+[build]
+
+[[files]]
+  guest_path = "/var/agate/certificates/byjp.cc/cert.der"
+  secret_name = "AGATE_CERT"
+
+[[files]]
+  guest_path = "/var/agate/certificates/byjp.cc/key.der"
+  secret_name = "AGATE_KEY"
+
+[[services]]
+  internal_port = 1965
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+
+  [[services.ports]]
+    port = 1965
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
