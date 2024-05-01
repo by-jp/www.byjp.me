@@ -38,9 +38,11 @@ Get in touch if you'd like to go to these, or any other events⁺, together!
 
 => /calendar/ 🗓️ My events calendar
 {{ end }}
-## A recent note
 {{ $notePage := index (where .Site.RegularPages "Section" "eq" "notes") 0 -}}
-{{ with $notePage }}{{ partial "markdown.gmi" .Page.RenderShortcodes }}{{ end }}
+{{ with $notePage }}## A recent note
+📅 {{ .Page.Date.Format "January 2, 2006 — 15:04 (MST)" }}
+
+{{ trim (partial "markdown.gmi" .Page.RenderShortcodes) "\r\n " }}{{ end }}
 ## Me, elsewhere
 
 You can find me across the world wide web; here are a handful of ways to get in touch.
