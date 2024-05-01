@@ -8,4 +8,4 @@ COPY ./public/ /var/agate/content/
 
 EXPOSE 1965
 
-ENTRYPOINT ["/bin/agate", "--content", "/var/agate/content/", "--addr", "0.0.0.0:1965", "--only-tls13", "--central-conf", "--lang", "en-GB", "--certs", "/var/agate/certificates/", "--hostname", "byjp.cc"]
+ENTRYPOINT ["/bin/agate", "--content", "/var/agate/content/", "--addr", "0.0.0.0:1965", "--only-tls13", "--central-conf", "--certs", "/var/agate/certificates/", "--hostname", "byjp.cc"]

@@ -1,7 +1,5 @@
-# fly.toml app configuration file generated for byjp-cc on 2024-04-30T15:16:09+01:00
-#
-# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
-#
+# Important! This app needs a dedicated IP address to work properly
+# Run `fly ips allocate-v4` after first deploy to buy one, then remove the shared IP and continue.
 
 app = 'byjp-cc'
 primary_region = 'lhr'
@@ -18,9 +16,15 @@ primary_region = 'lhr'
 
 [[services]]
   internal_port = 1965
+  protocol = "tcp"
   auto_stop_machines = true
   auto_start_machines = true
   min_machines_running = 0
+
+  [services.concurrency]
+    hard_limit = 5000
+    soft_limit = 4000
+    type       = "connections"
 
   [[services.ports]]
     port = 1965
