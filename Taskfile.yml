@@ -63,7 +63,7 @@ tasks:
   gemini-dev:
     desc: Builds the site & starts a gemini server (on the default port) for it.
     cmds:
-      - agate --content public --addr 0.0.0.0:1965 --ed25519 --only-tls13 --lang en-GB --hostname "{{ .gmi_domain }}{{ .puma_dev_tld }}" --central-conf
+      - agate --content public --addr 0.0.0.0:1965 --ed25519 --only-tls13 --hostname "{{ .gmi_domain }}{{ .puma_dev_tld }}" --central-conf
 
   gemini-deploy:
     desc: Builds, reduces, and deploys the gemini version of the site with fly.

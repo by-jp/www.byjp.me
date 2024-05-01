@@ -9,10 +9,10 @@
 {{ range $bundledEvents -}}
   {{- $hour := .Date.Format "15" -}}
   {{- $duration := .Duration.Hours -}}
-  {{- $span := "eve" }}
-  {{- if and (gt $hour 9) (lt $hour 17) }}{{ $span = "day" }}{{ end -}}
+  {{- $span := "evening" }}
+  {{- if and (gt $hour 9) (lt $hour 17) }}{{ $span = "daytime" }}{{ end -}}
   {{- if ge $duration 24 }}{{ $span = "multi-day" }}{{ end -}}
-  => {{ .Page.RelPermalink }} {{ with .Page.Params.emoji }}{{ . }} {{ end }}{{.Page.Title}} ({{ .Date.Format "Jan 2"}}, {{ $span }})
+  => {{ .Page.RelPermalink }} {{ with .Page.Params.emoji }}{{ . }} {{ end }}{{ .Date.Format "2006-01-02"}} {{.Page.Title}} ({{ $span }})
 {{ end -}}
 {{- end -}}
 {{- end -}}
