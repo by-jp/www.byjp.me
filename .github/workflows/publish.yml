@@ -49,7 +49,7 @@ jobs:
         run: |
           wget -q -O ${{ runner.temp }}/restic.bz2 https://github.com/restic/restic/releases/download/v${RESTIC_VERSION}/restic_${RESTIC_VERSION}_linux_amd64.bz2 \
           && bunzip2 ${{ runner.temp }}/restic.bz2 \
-          && mv restic /usr/local/bin/restic
+          && mv ${{ runner.temp }}/restic /usr/local/bin/restic
       - name: Checkout
         uses: actions/checkout@v3
         with:
