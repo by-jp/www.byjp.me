@@ -65,6 +65,11 @@ func postize(e PostCheckinPhotoOrVideo, matches []string) (shared.Post, shared.M
 		return post, nil, true, nil
 	}
 
+	// Remove useless titles
+	if strings.HasPrefix(post.FrontMatter.Title, "JP Hastings-Spital ") {
+		post.FrontMatter.Title = ""
+	}
+
 	for _, attach := range e.Attachments {
 		linkURLs := attach.Data.GetSubstrings("external_context", "url")
 		for _, link := range linkURLs {
