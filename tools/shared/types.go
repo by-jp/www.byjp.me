@@ -15,6 +15,13 @@ type FrontMatter struct {
 	RepostOf   string      `yaml:"repostOf,omitempty"`
 	References []Reference `yaml:"references,omitempty"`
 	Type       string      `yaml:"type,omitempty"`
+	Location   Location    `yaml:"location,omitempty"`
+}
+
+type Location struct {
+	Name      string  `yaml:"name"`
+	Latitude  float64 `yaml:"latitude"`
+	Longitude float64 `yaml:"longitude"`
 }
 
 type Reference struct {

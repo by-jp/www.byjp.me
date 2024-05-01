@@ -122,6 +122,10 @@ func postize(e PostCheckinPhotoOrVideo, matches []string) (shared.Post, shared.M
 			post.Path = makePostPath("photo", postDate, postHash)
 			mm[path.Join(archiveRoot, mediaPath)] = path.Join(post.Path, mediaName)
 		}
+
+		if loc, ok := attach.Data.GetLocation(); ok {
+			post.FrontMatter.Location = loc
+		}
 	}
 
 	postFile, err := formatPostText(e.Data.GetString("post"), e.Tags)

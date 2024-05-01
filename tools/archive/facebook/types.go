@@ -1,6 +1,10 @@
 package main
 
-import "time"
+import (
+	"time"
+
+	"github.com/by-jp/www.byjp.me/tools/shared"
+)
 
 type PostCheckinPhotoOrVideo struct {
 	Title       string    `json:"title"`
@@ -81,4 +85,56 @@ func (ds DataSlice) GetSubstrings(key string, sub string) []string {
 	}
 
 	return substrs
+}
+
+func (ds DataSlice) GetLocation() (shared.Location, bool) {
+	for _, obj := range ds {
+		iface, ok := obj["place"]
+		if !ok {
+			continue
+		}
+
+		p, ok := iface.(map[string]interface{})
+		if !ok {
+			continue
+		}
+
+		nameI, nameOK := p["name"]
+		if !nameOK {
+			continue
+		}
+
+		name, ok := nameI.(string)
+		if !ok {
+			continue
+		}
+
+		coordsI, coordsOK := p["coordinate"]
+		if !coordsOK {
+			continue
+		}
+
+		coordsM, ok := coordsI.(map[string]interface{})
+		if !ok {
+			continue
+		}
+
+		lat, ok := coordsM["latitude"]
+		if !ok {
+			continue
+		}
+
+		lng, ok := coordsM["longitude"]
+		if !ok {
+			continue
+		}
+
+		return shared.Location{
+			Name:      name,
+			Latitude:  lat.(float64),
+			Longitude: lng.(float64),
+		}, true
+	}
+
+	return shared.Location{}, false
 }
