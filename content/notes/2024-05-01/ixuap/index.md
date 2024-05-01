@@ -5,6 +5,9 @@ category:
   - gemini
   - internet
   - tech
+syndications:
+  - https://hachyderm.io/@byjp/112367000780314099
+  - https://bsky.app/profile/byjp.me/post/3krgzadiejq2m
 ---
 
 🎉 My blog is now also published as a capsule over the [Gemini Protocol](https://geminiprotocol.net)!
