@@ -1,7 +1,7 @@
 ---
 title: Fancy math doesn't make simple math stop being true
 date: "2024-01-23T07:43:15Z"
-emoji: 🧑‍🏫
+emoji: "\U0001F9D1‍\U0001F3EB"
 publishDate: "2024-01-11T00:00:00Z"
 bookmarkOf: https://dynomight.net/fancy-math/
 references:

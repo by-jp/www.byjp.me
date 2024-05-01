@@ -1,7 +1,7 @@
 ---
 title: Cultivating new ideas
 date: "2023-11-22T10:00:16Z"
-emoji: 💭
+emoji: "\U0001F4AD"
 publishDate: "2023-07-26T14:35:46Z"
 bookmarkOf: https://www.henrikkarlsson.xyz/p/good-ideas
 references:
@@ -16,7 +16,6 @@ tags:
 - creativity
 - self-help
 ---
-
 
 I really enjoyed skimming this article! It’s too long for my distracted brain, but I’ve often thought of “becoming bored” as a part of my creative process. I think that’s part of isolating myself from expectations in much the same way as called out here.
 

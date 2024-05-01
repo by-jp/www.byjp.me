@@ -1,7 +1,7 @@
 ---
 title: 'The Looking Glass: The Year of Everyday Risks'
 date: "2024-01-20T07:57:15Z"
-emoji: 💓
+emoji: "\U0001F493"
 publishDate: "2024-01-17T16:15:36Z"
 bookmarkOf: https://joulee.medium.com/the-looking-glass-the-year-of-everyday-risks-c46a9f515d3b
 references:

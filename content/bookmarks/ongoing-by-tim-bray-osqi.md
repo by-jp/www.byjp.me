@@ -1,14 +1,14 @@
 ---
 title: Open Source Quality Institutes
 date: "2024-04-03T07:43:01Z"
-emoji: 📐
+emoji: "\U0001F4D0"
 publishDate: "2024-04-01T00:00:00Z"
 bookmarkOf: https://www.tbray.org/ongoing/When/202x/2024/04/01/OSQI
 references:
   bookmark:
     url: https://www.tbray.org/ongoing/When/202x/2024/04/01/OSQI
     type: entry
-    name: OSQI
+    name: ongoing by Tim Bray · OSQI
     summary: |-
       I propose the formation of one or more “Open Source Quality Institutes”. An OSQI is a public-sector organization that
           employs software engineers. Its mission would be to improve the quality, and especially safety, of popular

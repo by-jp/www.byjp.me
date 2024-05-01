@@ -1,7 +1,7 @@
 ---
 title: The Tyrany of Obviousness
 date: "2024-01-20T10:58:27Z"
-emoji: 🫠
+emoji: "\U0001FAE0"
 publishDate: "2023-12-24T20:51:49Z"
 bookmarkOf: https://mentalhellth.xyz/p/breaking-the-tyranny-of-obviousness
 references:
@@ -16,6 +16,7 @@ tags:
 - curious
 - grief
 ---
+
 
 A superb read, especially for me as I look for more depth in life.
 
