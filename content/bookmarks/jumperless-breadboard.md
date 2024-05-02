@@ -1,28 +1,12 @@
 ---
 date: 2024-05-02T07:34:44.823Z
 publishDate: 2024-05-02T07:34:44.823Z
+emoji: ⚡️
 title: Jumperless “breadboard”
 bookmarkOf: https://www.tindie.com/products/architeuthisflux/jumperless/
 references:
-  https://wwwTindieCom/products/architeuthisflux/jumperless/:
-    url: https://www.tindie.com/products/architeuthisflux/jumperless/
-    children:
-      - type: item
-      - type: item
-      - type: item
-      - type: item
-      - type: item
-      - type: item
-      - type: item
-      - type: item
-      - type: item
-      - type: item
-      - type: item
-      - type: item
-      - type: item
-      - type: item
-      - type: item
-      - type: item
+  - url: https://www.tindie.com/products/architeuthisflux/jumperless/
+    name: Jumperless
 ---
 
 I spend a good few days every couple of months building an electronics project of one variety or another, so I have _a lot_ of breadboard, veroboard, microcontroller boards, and ICs that do word and wonderful things floating about the place.
