@@ -7,6 +7,9 @@ bookmarkOf: https://www.tindie.com/products/architeuthisflux/jumperless/
 references:
   - url: https://www.tindie.com/products/architeuthisflux/jumperless/
     name: Jumperless
+    type: entry
+tags:
+- electronics
 ---
 
 I spend a good few days every couple of months building an electronics project of one variety or another, so I have _a lot_ of breadboard, veroboard, microcontroller boards, and ICs that do word and wonderful things floating about the place.
