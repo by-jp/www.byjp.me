@@ -7,7 +7,7 @@ bookmarkOf: https://www.tindie.com/products/architeuthisflux/jumperless/
 references:
   - url: https://www.tindie.com/products/architeuthisflux/jumperless/
     name: Jumperless
-    type: entry
+    type: product
 tags:
 - electronics
 ---
@@ -25,4 +25,3 @@ The returns policy is utterly superb too:
 > If you don't love it for whatever reason, I accept returns indefinitely, even if you got a kit and built it yourself, or sawed it in half and lit both halves on fire. Just send it back and I'll issue a full refund.
 
 If I weren’t on a career break with cash only flowing out I would be thinking very hard about buying this, it’s incredible!
-
