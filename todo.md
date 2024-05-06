@@ -12,19 +12,14 @@ Things I might work on within my personal blog's software.
 
 - [ ] Show (internal) replies to this note
 - [ ] Import from Omnivore daily  
-- [ ] Record new webmentions on publish
 - [ ] Record & display cross-links within site?
 - [ ] Customise IndieKit
   - [ ] Add tags from #hashtags
   - [ ] Add links to memex from §refs
 - [ ] Switch Memex to single file (easier to post to)
 - [ ] Remove http://gowal.la & https://4sq.com links and/or posts that are useless without them
-- [ ] Gemini?!
-  - [x] Tags pages
-  - [x] Calendar page
-  - [x] Include link, location, date on event page
-  - [ ] Handle `<details>` in posts (example: ChefGPT)
-  - [ ] Actually serve it up
+- [ ] Automate Gemini deploy
+- [ ] Fix `mention-of` imports tools/import/webmentionio/main.go:172
 
 ### Working
 
@@ -52,3 +47,11 @@ Things I might work on within my personal blog's software.
 - [x] Add calendar to front page
 - [x] Facebook import tooling
 - [x] Claps!
+- [x] Gemini?!
+  - [x] Tags pages
+  - [x] Calendar page
+  - [x] Include link, location, date on event page
+  - [x] Handle `<details>` in posts (example: ChefGPT)
+  - [x] Actually serve it up
+- [x] Record new webmentions on publish
+  - Done via EchoFeed!
