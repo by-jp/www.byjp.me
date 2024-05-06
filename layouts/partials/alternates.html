@@ -2,7 +2,7 @@
 {{ $page := .}}
 <nav>
   <ul class="feedlinks">
-  {{ range $page.OutputFormats }}
+  {{ range $page.AlternativeOutputFormats }}
     {{ if ne .Rel "alternate" }}{{ continue }}{{ end }}
     {{ $link := ($page.OutputFormats.Get .Name).RelPermalink }}
     <li><a href="{{ $link | safeURL }}" title="{{ partial "alternatename.txt" .Name }}">{{ partial "svg.html" (dict "name" .Name) }} {{ partial "alternatename.txt" .Name }}</a></li>
