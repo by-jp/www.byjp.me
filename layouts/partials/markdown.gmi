@@ -35,7 +35,7 @@
   {{- $content | safeHTML -}}
   {{- if gt (len $refs) 0 -}}
     {{- "\n" -}}
-    {{- range $refs -}}
+    {{- range ($refs | uniq) -}}
       {{- $parts := split . "](" -}}
       {{- $title := substr (index $parts 0) 1 | strings.FirstUpper -}}
       {{- $link := partial "noindex.gmi" (substr (index $parts 1) 0 (sub (len (index $parts 1)) 1)) -}}

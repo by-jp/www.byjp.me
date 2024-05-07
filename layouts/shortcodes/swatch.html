@@ -1,0 +1,12 @@
+{{- $parts := split (.Get 0) "," -}}
+{{- $r := index $parts 0 | int -}}
+{{- $g := index $parts 1 | int -}}
+{{- $b := index $parts 2 | int -}}
+{{- $a := mul ((index $parts 3 | default "1") | float) 100 -}}
+{{- $showOpacity := ge (len $parts) 4 -}}
+
+{{- $rgba := printf "rgba(%d %d %d / %.0f%%)" $r $g $b $a -}}
+{{- $human := printf "#%02x%02x%02x" $r $g $b -}}
+{{- if $showOpacity }}{{ $human = printf "%d,%d,%d (%0.f%%)" $r $g $b $a }}{{ end -}}
+{{- if eq $a 0.0 }}{{ $human = "transparent" }}{{ end -}}
+<div class="swatch" {{ printf `style="--color: %s"` $rgba | safeHTMLAttr }} >{{ $human }}</div>
