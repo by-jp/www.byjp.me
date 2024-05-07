@@ -572,12 +572,12 @@ details {
     height: 1em;
     background-color: var(--color);
     content: '';
-    border: 1px solid #000;
+    border: 1px solid $light-color;
     vertical-align: text-top;
     margin-right: 0.5em;
 
     @media (prefers-color-scheme: dark) {
-      border: 1px solid #fff;
+      border: 1px solid $dark-color;
     }
   }
 }
