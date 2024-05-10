@@ -7,4 +7,4 @@ location:
   latitude: 51.49809716
   longitude: -0.17636061
 ---
-Yay for Matt and Imperial! @ Imperial College London http://gowal.la/c/4ikzo
+Yay for {{< friend matt >}} and Imperial! @ Imperial College London http://gowal.la/c/4ikzo

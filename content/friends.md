@@ -10,7 +10,7 @@ In lovely, nostalgic web 1.0 style, here are some links to the websites of frien
 
 ## Family
 
-* {{< friend yvette >}} — My fiancé and cohabitor; playful Venezuelan, fellow foodie, and successful Agile coach.
+* {{< friend yvette >}} — My fiancé and cohabiter; playful Venezuelan, fellow foodie, and successful Agile coach.
 * {{< friend chris >}} — My awesome not-so-little brother; a secret nerd and top-notch product designer who lives in Vancouver.
 
 ## Friends
@@ -18,3 +18,4 @@ In lovely, nostalgic web 1.0 style, here are some links to the websites of frien
 * {{< friend av >}} — a superlative senior staff engineer at Deliveroo with me, exploring front-end technologies outside of our work remit.
 * {{< friend ap >}} — a good friend and excellent (pseudonymous) blog author. Go and read his thoughts on… pretty much everything‽
 * {{< friend jvt >}} — another superb once-upon-a-Deliveroo engineer, his keen attention to the IndieWeb movement inspired many of the changes to this site.
+* {{< friend matt >}} — a friend of more than half a lifetime, a fellow physicist at university & an entrepreneur today.

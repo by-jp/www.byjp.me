@@ -6,4 +6,4 @@ tags:
 - lottolab
 - smlates
 ---
-Matt can't figure out where the insults are coming from! [lottolab](/tags/lottolab) at [smlates](/tags/smlates) {{< imgorvid src="media-1.jpg" >}}
+{{< friend matt >}} can't figure out where the insults are coming from! [lottolab](/tags/lottolab) at [smlates](/tags/smlates) {{< imgorvid src="media-1.jpg" >}}
