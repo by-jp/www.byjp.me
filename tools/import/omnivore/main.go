@@ -85,7 +85,9 @@ func isDir(pathStr string) bool {
 var hashtags = regexp.MustCompile(`#\w+`)
 
 func outputArticle(article Article, outputDir string) error {
-	slug := kebab(article.Title)
+	artEmoji, artTitle := shared.ExtractLeadingEmoji(article.Title)
+
+	slug := kebab(artTitle)
 	articlePath := path.Join(outputDir, fmt.Sprintf("%s.md", slug))
 
 	fm, _ := loadFrontmatter(articlePath)
@@ -102,14 +104,9 @@ func outputArticle(article Article, outputDir string) error {
 	article.Annotation = strings.TrimSpace(article.Annotation)
 
 	if len(fm.Title) == 0 {
-		if strings.HasPrefix(article.Annotation, "# ") {
-			parts := strings.SplitAfterN(article.Annotation, "\n", 2)
-			article.Annotation = strings.TrimSpace(parts[1])
-			fm.Emoji, fm.Title = shared.ExtractLeadingEmoji(parts[0][2:])
-		} else {
-			fm.Title = article.Title
-		}
+		fm.Emoji, fm.Title = artEmoji, artTitle
 	}
+
 	fm.BookmarkOf = article.OriginalURL
 	fm.Tags = removeDupes(append(fm.Tags, article.Tags...))
 

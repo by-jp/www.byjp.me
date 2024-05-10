@@ -3,7 +3,6 @@ package shared
 import (
 	"bufio"
 	"embed"
-	"fmt"
 	"math/big"
 	"strings"
 )
@@ -69,7 +68,6 @@ func ExtractLeadingEmoji(str string) (string, string) {
 
 	for _, c := range parts[0] {
 		if _, ok := emojiCodePoints[c]; !ok {
-			fmt.Printf("%c: %d\n", c, c)
 			return "", str
 		}
 	}

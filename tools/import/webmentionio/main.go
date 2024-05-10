@@ -207,7 +207,7 @@ func retrieveMentions(c Config) (Mentions, error) {
 
 	if res.StatusCode != http.StatusOK {
 		body, _ := io.ReadAll(res.Body)
-		return Mentions{}, fmt.Errorf("Non 200 response code: %v\n%s", res.StatusCode, body)
+		return Mentions{}, fmt.Errorf("non 200 response code: %v\n%s", res.StatusCode, body)
 	}
 
 	var m Mentions
