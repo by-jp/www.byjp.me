@@ -13,7 +13,6 @@ references:
 tags:
 - tech
 ---
-
 An interesting take on why the internet can feel soulless, and some implied ways to counter that.
 
 Slightly strong on the “back in the good old days” vibes, but a valid critique of search engines as a remover of mystery. Taking things for granted (“the advert to any question is at my finger tips”) has definitely removed the humanness of information for me.

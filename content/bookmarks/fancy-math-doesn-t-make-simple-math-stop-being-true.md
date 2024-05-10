@@ -14,7 +14,6 @@ references:
 tags:
 - measurement
 ---
-
 As ever, a great read from DynoMight! I particularly enjoy the assertion on the burden of proof being on the expert to show the flaw in a simpler proof (that disagrees?) with their own more complex one.
 
 ### Highlights

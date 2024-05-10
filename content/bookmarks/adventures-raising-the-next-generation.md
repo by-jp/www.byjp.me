@@ -16,7 +16,6 @@ references:
 tags:
 - parenthood
 ---
-
 What a wonderful read! I’m not a parent (yet?) but I found myself eagerly reading every section here, despite this article’s length!
 
 {{< friend "ap" >}} (the author of this article), his partner, and their child are all good friends, and I’ve been lucky enough to see slivers of this journey they’ve been on—I can tell they’re all loving it (even the crappy days!)

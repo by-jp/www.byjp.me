@@ -14,7 +14,6 @@ references:
     author: Lily Scherlis
 tags: []
 ---
-
 An extremely interesting article that helped me realise how different my definition of what “boundaries” are seems to differ from what contemporary usage is!
 
 For me, a personal boundary is a pre-negotiated _promise_, not a _demand_. “These things hurt me, so if you end up doing them/I end up in that position (irrespective of intent or blame) then I will probably take these actions to protect myself.”

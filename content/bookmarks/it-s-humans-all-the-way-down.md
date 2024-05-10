@@ -15,7 +15,6 @@ references:
 tags:
 - ai
 ---
-
 Strong agree here. Until we are able to feel “seen” by something non-human we’ll always need colleagues and peers in jobs, or the humans will burn out, leave that job, and take their tribal knowledge with them.
 
 There will still be many companies that do this anyway; the number of “news” sites that have already replaced writing staff with LLMs is evidence enough. Hopefully the human connections people reformed through/after the pandemic lockdowns will give the disenfranchised a direction that brings the next pendulum swing a bit nearer though.

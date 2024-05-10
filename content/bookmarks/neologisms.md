@@ -12,7 +12,6 @@ references:
 tags:
 - words
 ---
-
 I love creating or finding words for niche (or expanding) concepts and areas. These highlighted ones are particularly great!
 
 ### Highlights

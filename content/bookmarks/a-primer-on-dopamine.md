@@ -30,7 +30,6 @@ tags:
 - biology
 - curious
 ---
-
 I really enjoyed reading about dopamine, desire and pleasure here! It’s worth a read, even if it slightly veers into the “how to abuse this knowledge for personal gain with your new product” space.
 
 I’ve been (ha!) pleasantly surprised by how this article pulls lots of different concepts — half-understood by me — together. I’ll be using it to try and provide motivation for myself while doing things that won’t pay off for a while (hello 2023/24 tax return).

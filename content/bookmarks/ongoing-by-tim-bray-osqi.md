@@ -17,7 +17,6 @@ references:
 tags:
 - tech
 ---
-
 This is an inspiring (and well thought through) approach to a problem on a lot of folks’ minds after the XZ attack.
 
 I wonder how this would _actually_ come into reality though. It’s easy to justify “accept 0.1% of revenue”, but I think that’d get very challenging when looking internationally. The UK (should) care about Open Source maintainability enough to start an institute like this, but which companies could they squeeze to get the funding? Almost all large tech companies are (legally) based elsewhere.

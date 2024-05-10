@@ -13,5 +13,4 @@ references:
 tags:
 - color
 ---
-
 An excellent explanation of colourspaces and their uses today.

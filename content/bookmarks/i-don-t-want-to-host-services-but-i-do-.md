@@ -17,13 +17,11 @@ tags:
 - homelab
 - tech
 ---
-
 A concise and smart article talking to those of us interested in offering hobby networked services to others.
 
 I’m still in the mindset that a form of fully decentralised systems could overcome many of the issues mentioned here. My current bet would be on client-side web applications (or just websites) served from content addressed stores (like §IPFS), storing data primarily on local machines (think [fission.codes](https://fission.codes) and the §LocalFirst movement),  is going to be a fruitful route.
 
 I’ll be looking forward to the next article on the challenges with end-to-end encryption (E2EE)!
-
 
 ### Highlights
 

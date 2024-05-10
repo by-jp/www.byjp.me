@@ -15,7 +15,6 @@ tags:
 - comedy
 - communication
 ---
-
 I love this approach to replying to someone whose message you’d rather not handle directly!
 
 It sits very closely to the advice I gave a lot to aspiring staff engineers: ask a question that assumes the outcome you’d like, and see what happens 😁

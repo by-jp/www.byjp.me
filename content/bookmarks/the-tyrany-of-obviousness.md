@@ -16,8 +16,6 @@ tags:
 - curious
 - grief
 ---
-
-
 A superb read, especially for me as I look for more depth in life.
 
 I think I've certainly trained myself for a frictionless existence, and have (up until the last few years) tended to avoid difficult thoughts — but I feel so much richer for embracing them!

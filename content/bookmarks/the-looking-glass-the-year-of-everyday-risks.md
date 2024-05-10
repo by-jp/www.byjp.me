@@ -15,7 +15,6 @@ references:
     author: Julie Zhuo
 tags: []
 ---
-
 I enjoyed this article’s passion for _being alive_, I think there’s a lot of similarity to a previous article’s [obviousness](/tags/obviousness), and putting ourselves in emotionally challenging positions sometimes.
 
 I plan on taking some every day risks this year & always.

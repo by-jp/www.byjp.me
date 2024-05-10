@@ -16,7 +16,6 @@ tags:
 - creativity
 - self-help
 ---
-
 I really enjoyed skimming this article! It’s too long for my distracted brain, but I’ve often thought of “becoming bored” as a part of my creative process. I think that’s part of isolating myself from expectations in much the same way as called out here.
 
 This has also put me to thinking about raising kids; how to ensure there’s always *some* time without peer/social pressure (ie. the absence of consumption devices, like phones with apps)

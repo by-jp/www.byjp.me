@@ -125,8 +125,8 @@ func outputArticle(article Article, outputDir string) error {
 		return err
 	}
 
-	fmt.Fprint(hugoPost, "---\n\n")
-	fmt.Fprintln(hugoPost, linkHashtags(article.Annonation, fm.Tags))
+	fmt.Fprint(hugoPost, "---\n")
+	fmt.Fprintln(hugoPost, linkHashtags(strings.TrimSpace(article.Annotation), fm.Tags))
 
 	if len(article.Highlights) > 0 {
 		fmt.Fprint(hugoPost, "\n### Highlights\n")
@@ -206,7 +206,7 @@ type Article struct {
 	OriginalURL     string
 	OriginalSummary string
 	OriginalAuthor  string
-	Annonation      string
+	Annotation      string
 	Highlights      []ArticleHighlight
 	Tags            []string
 }
@@ -396,7 +396,7 @@ func parseResponse(body []byte) ([]Article, string, error) {
 			BookmarkDate:    bookmarked,
 			PublishDate:     published,
 			Highlights:      highlights,
-			Annonation:      annotation,
+			Annotation:      annotation,
 		}
 
 		for _, label := range sr.Labels {
