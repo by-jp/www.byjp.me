@@ -13,7 +13,8 @@
     "shortener",
     "shorteners",
     "shortlink",
-    "shortlinks"
+    "shortlinks",
+    "Webmention"
   ],
   "cSpell.language": "en-GB"
 }

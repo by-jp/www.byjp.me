@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"os"
 	"path"
+	"slices"
 	"sort"
 	"strings"
 	"time"
@@ -19,6 +20,10 @@ import (
 
 const webmentions = "https://webmention.io/api/mentions.jf2?domain=%s&token=%s"
 const siteTarget = "https://www.byjp.me/"
+
+var myURLs = []string{
+	"https://bsky.app/profile/byjp.me",
+}
 
 type Config struct {
 	Domain string
@@ -39,7 +44,7 @@ func main() {
 		switch err {
 		case nil:
 			// Proceed
-		case ErrNoEntry, ErrIsPrivate, ErrIncorrectTarget:
+		case ErrNoEntry, ErrIsPrivate, ErrIncorrectTarget, ErrIsMine:
 			// Skip
 			continue
 		default:
@@ -89,6 +94,14 @@ func addInteraction(jsonPath string, newIn synd.Interaction) error {
 	added := false
 	for idx, in := range inf.Interactions {
 		if in.GUID == newIn.GUID {
+			// A hack because webmentions.io can't process emoji properly currently
+			if strings.Contains(newIn.Author.Name, "????") {
+				newIn.Author.Name = in.Author.Name
+			}
+			if strings.Contains(newIn.Comment, "????") {
+				newIn.Comment = in.Comment
+			}
+
 			inf.Interactions[idx] = newIn
 			added = true
 		}
@@ -115,6 +128,7 @@ func addInteraction(jsonPath string, newIn synd.Interaction) error {
 var ErrNoEntry = errors.New("JF2 item isn't an entry")
 var ErrIsPrivate = errors.New("JF2 item is set to private")
 var ErrIncorrectTarget = errors.New("JF2 item describes a different target site")
+var ErrIsMine = errors.New("JF2 item was created by the author")
 
 func parseJF2(m Mention, isValidPath func(string) bool) (string, synd.Interaction, error) {
 	if m.Type != "entry" {
@@ -133,6 +147,14 @@ func parseJF2(m Mention, isValidPath func(string) bool) (string, synd.Interactio
 	sitePath := strings.TrimRight(m.WebmentionTarget[len(siteTarget):], "/")
 	if !isValidPath(sitePath) {
 		return "", synd.Interaction{}, ErrIncorrectTarget
+	}
+
+	if len(sitePath) == 0 {
+		return "", synd.Interaction{}, ErrIncorrectTarget
+	}
+
+	if slices.Contains(myURLs, m.Author.URL) {
+		return "", synd.Interaction{}, ErrIsMine
 	}
 
 	i := synd.Interaction{
@@ -169,7 +191,6 @@ func parseJF2(m Mention, isValidPath func(string) bool) (string, synd.Interactio
 	case "in-reply-to":
 		i.Emoji = "💬"
 	case "mention-of":
-		i.Comment = "_A wibble_"
 		i.Emoji = "🗣️"
 	}
 
