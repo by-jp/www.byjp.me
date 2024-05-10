@@ -15,6 +15,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/by-jp/www.byjp.me/tools/shared"
 	"github.com/joho/godotenv"
 	"gopkg.in/yaml.v2"
 )
@@ -98,8 +99,16 @@ func outputArticle(article Article, outputDir string) error {
 		fm.Date = article.BookmarkDate.Format(time.RFC3339)
 	}
 
+	article.Annotation = strings.TrimSpace(article.Annotation)
+
 	if len(fm.Title) == 0 {
-		fm.Title = article.Title
+		if strings.HasPrefix(article.Annotation, "# ") {
+			parts := strings.SplitAfterN(article.Annotation, "\n", 2)
+			article.Annotation = strings.TrimSpace(parts[1])
+			fm.Emoji, fm.Title = shared.ExtractLeadingEmoji(parts[0][2:])
+		} else {
+			fm.Title = article.Title
+		}
 	}
 	fm.BookmarkOf = article.OriginalURL
 	fm.Tags = removeDupes(append(fm.Tags, article.Tags...))
@@ -126,7 +135,7 @@ func outputArticle(article Article, outputDir string) error {
 	}
 
 	fmt.Fprint(hugoPost, "---\n")
-	fmt.Fprintln(hugoPost, linkHashtags(strings.TrimSpace(article.Annotation), fm.Tags))
+	fmt.Fprintln(hugoPost, linkHashtags(article.Annotation, fm.Tags))
 
 	if len(article.Highlights) > 0 {
 		fmt.Fprint(hugoPost, "\n### Highlights\n")

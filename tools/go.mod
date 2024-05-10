@@ -16,6 +16,7 @@ require (
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/mattn/go-mastodon v0.0.6
 	github.com/mmcdole/gofeed v1.3.0
+	github.com/stretchr/testify v1.8.2
 	golang.org/x/image v0.15.0
 	golang.org/x/net v0.21.0
 	golang.org/x/text v0.14.0
@@ -82,7 +83,6 @@ require (
 	github.com/smartystreets/assertions v1.2.0 // indirect
 	github.com/smartystreets/goconvey v1.7.2 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
-	github.com/stretchr/testify v1.8.2 // indirect
 	github.com/tomnomnom/linkheader v0.0.0-20180905144013-02ca5825eb80 // indirect
 	github.com/warpfork/go-wish v0.0.0-20220906213052-39a1cc7a02d0 // indirect
 	github.com/whyrusleeping/cbor-gen v0.0.0-20230331140348-1f892b517e70 // indirect
