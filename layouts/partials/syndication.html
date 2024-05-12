@@ -20,6 +20,8 @@
     {{ partial "syndication-ref.html" (dict "type" "medium" "link" .) }}  
   {{ else if hasPrefix . "https://soundcloud.com/" }}
     {{ partial "syndication-ref.html" (dict "type" "soundcloud" "link" .) }}
+  {{ else if hasPrefix . "https://vimeo.com/" }}
+    {{ partial "syndication-ref.html" (dict "type" "video" "link" .) }}
   {{ else if hasPrefix . "https://deliveroo.engineering/" }}
     {{ partial "syndication-ref.html" (dict "type" "deliveroo" "link" .) }}
   {{ else }}
