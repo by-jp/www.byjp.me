@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <main class="post h-entry"{{ if eq .Type "site-infra" }} data-pagefind-ignore="all"{{ end }}>
+  <main class="post h-entry {{ if eq .Type "review" }}h-review{{ end }}"{{ if eq .Type "site-infra" }} data-pagefind-ignore="all"{{ end }}>
 
     <div class="post-info">
       {{ $dateType := "published" }}

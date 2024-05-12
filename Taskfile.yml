@@ -28,7 +28,7 @@ tasks:
     cmds: 
       - |
         [ -d "$HOME/.puma-dev/" ] && (echo {{ .port }} > $HOME/.puma-dev/{{ .domain }}) || echo "Puma dev not installed, https://{{ .domain }}{{ .puma_dev_tld }} will not work"
-      - hugo server -p {{ .port }} --minify --printUnusedTemplates -D --baseURL "https://{{ .domain }}{{ .puma_dev_tld }}" --appendPort=false
+      - hugo server --port {{ .port }} --minify --printUnusedTemplates --buildDrafts --baseURL "https://{{ .domain }}{{ .puma_dev_tld }}" --appendPort=false
 
   build:
     desc: Builds the production-ready site in ./public/
