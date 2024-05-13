@@ -1,0 +1,68 @@
+{{ define "main" }}
+  <main class="post h-entry" data-pagefind-ignore="all">
+
+    {{- $ref := partial "reference.obj" (dict "url" .Params.likeOf "references" .Params.references) -}}
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        Liked on {{ partial "year-relative-date.html" .Date }}
+      </p>
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-compass">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+        </svg>
+        Back to <a href="{{ .Page.Parent.RelPermalink }}">{{ .Page.Parent.Title }}</a>
+      </p>
+      <p class="author h-card hidden" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        <a href="{{ .Site.BaseURL | absURL }}" rel="author" class="p-author u-url">{{ .Site.Author.name }}</a>
+      </p>
+    </div>
+
+    <article>
+      <hgroup class="post-title">
+        <h1 class="p-name">
+          <a href="{{ $ref.url }}" class="noaccent u-url">{{ $ref.name }}</a>
+        </h1>
+      </hgroup>
+
+      <div class="post-content e-content">
+        <p class="reference-to">
+          {{ partial "reference-to.html" (dict "url" .Params.likeOf "references" .Params.references "svg" "heart" "phrase" "Like of" "mf2" "u-like-of") }}
+        </p>
+
+        <p>This is a page stub recording that I liked something I found online. There's nothing interesting here — so <a href="{{ $ref.url }}" target="_blank">see what I liked</a>!</p>
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+
+      {{ partial "tags.html" .Params.tags }}
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        <date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" class="dt-published" title="published on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}">
+          {{ if .Site.Params.dateformNumTime }}
+            {{ dateFormat .Site.Params.dateformNumTime .Date }}
+          {{ else }}
+            {{ dateFormat "2006-01-02 15:04" .Date }}
+          {{ end }}
+        </date>
+      </p>
+
+      {{ partial "pagination-single.html" . }}
+    </div>
+  </main>
+{{ end }}

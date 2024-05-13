@@ -1,0 +1,30 @@
+{{ define "main" }}
+    {{ $paginator := .Paginate .Pages }}
+    
+    <main class="posts" {{ if eq .Kind "taxonomy" }}data-pagefind-ignore{{ end }}>
+        {{ partial "generic-list-header.html" . }}
+
+        <hgroup class="post-title">
+            <h1 class="p-name">
+                {{ with .Params.emoji }}<span data-emoji="{{.}}"></span>{{end}}
+                <a href="{{ .RelPermalink }}" class="noaccent u-url">{{ title (replace .Title "-" " ") }}</a>
+            </h1>
+            {{ partial "alternates.html" . }}
+        </hgroup>
+
+        {{ if .Content }}
+            <div class="content" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">{{ .Content }}</div>
+        {{ end }}
+
+        {{ range $paginator.Pages.GroupByDate "Jan 2006" }}
+            <div class="posts-group">
+                <div class="post-year">{{ .Key }}</div>
+
+                {{ range $i, $page := .Pages }}
+                  <a href="{{$page.Params.likeOf}}" target="_blank">{{ partial "page-title.txt" $page }}</a>{{ if lt $i (sub (len .Pages) 1) }}, {{ end }}
+                {{ end }}
+            </div>
+        {{ end }}
+    {{ partial "pagination-list.html" . }}
+    </main>
+{{ end }}

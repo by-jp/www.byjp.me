@@ -33,8 +33,8 @@ export default {
       "like": {
         "name": "Like",
         "post": {
-          "path": "content/notes/{yyyy}-{MM}-{dd}/{slug}/index.md",
-          "url": "notes/{yyyy}-{MM}-{dd}/{slug}/"
+          "path": "content/likes/{yyyy}-{MM}-{dd}/{slug}/index.md",
+          "url": "likes/{yyyy}-{MM}-{dd}/{slug}/"
         }
       },
       "note": {

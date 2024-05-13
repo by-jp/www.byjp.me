@@ -10,6 +10,13 @@
   {{- else -}}
     {{- partial "partials/fallback-title.txt" . -}}
   {{- end -}}
+{{- else if .Params.likeOf -}}
+  {{- $ref := partial "reference.obj" (dict "url" .Params.likeOf "references" .Params.references) -}}
+  {{- if $ref -}}
+    {{ $ref.name }}
+  {{- else -}}
+    {{- partial "partials/fallback-title.txt" . -}}
+  {{- end -}}
 {{- else -}}
   {{- partial "partials/fallback-title.txt" . -}}
 {{- end -}}
