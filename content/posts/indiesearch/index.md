@@ -41,7 +41,7 @@ Any time they visit the IndieSearch homepage (a page served from their browser e
 - The search index is entirely static! No need for a special server; just some odd-looking files in a directory of your site. (This is me just boasting Pagefind's best feature.)
 - IndieSearch doesn't have many moving parts (awesome!), and its _very_ simple to [add Pagefind support to a site](https://pagefind.app/docs/), so adoption has fewer obstacles.
 - [PageFindUI](https://pagefind.app/docs/ui-usage/)'s is powerful, pre-built, and has loads of great features that work out-of-the-box (like search facets).
-- Index configuration is almost entirely done by the indexer (ie. the site owner), with presentation configurable by the UI (within IndieSearch's code) — this is entirely down to [CloudCannon](https://cloudcannon.com/)'s awesome work with Pagefind — have a raved enough about it yet?
+- Index configuration is almost entirely done by the indexer (ie. the site owner), with presentation configurable by the UI (within IndieSearch's code) — this is entirely down to [CloudCannon](https://cloudcannon.com/)'s awesome work with Pagefind — have I raved enough about it yet?
 
 ## What's difficult
 
