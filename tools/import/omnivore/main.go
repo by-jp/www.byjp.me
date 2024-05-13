@@ -229,7 +229,8 @@ type FrontMatter struct {
 	PublishDate string `yaml:"publishDate,omitempty"`
 	BookmarkOf  string `yaml:"bookmarkOf"`
 	References  map[string]Ref
-	Tags        []string
+	Summary     string   `yaml:"summary,omitempty"`
+	Tags        []string `yaml:"tags,omitempty"`
 }
 
 type Ref struct {
