@@ -16,10 +16,10 @@ references:
     author: estretton
 summary: Apparently I'm getting old enough to complain at the lost "good old days" of the internet…
 tags:
-- web
-- internet
-- capitalism
 - advertising
+- capitalism
+- internet
+- web
 ---
 I’m painfully aware that I’m now beyond the 35 year old cutoff that Douglas Adams pointed out[^1] makes me see new things as “against the natural order of things”, but I can’t help but connect with this article that so heartbreakingly accurately depicts the experience of using the internet today (compared to my first experiences in the 90s).
 
