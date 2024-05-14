@@ -5,7 +5,6 @@ likeOf: https://sli.dev/
 references:
   https://sliDev/:
     url: https://sli.dev/
-    children:
-      - type: item
-      - type: item
+    name: Slidev
+    summary: Presentation Slides for Developers
 ---

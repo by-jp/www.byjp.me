@@ -20,9 +20,12 @@
             <div class="posts-group">
                 <div class="post-year">{{ .Key }}</div>
 
-                {{ range $i, $page := .Pages }}
-                  <a href="{{$page.Params.likeOf}}" target="_blank">{{ partial "page-title.txt" $page }}</a>{{ if lt $i (sub (len .Pages) 1) }}, {{ end }}
-                {{ end }}
+                <p>
+                    {{- $pages := .Pages -}}
+                    {{ range $i, $page := $pages }}
+                    <a href="{{$page.Params.likeOf}}" target="_blank">{{ partial "page-title.txt" $page }}</a>{{ if lt $i (sub (len $pages) 1) }}, {{ end }}
+                    {{ end }}
+                </p>
             </div>
         {{ end }}
     {{ partial "pagination-list.html" . }}
