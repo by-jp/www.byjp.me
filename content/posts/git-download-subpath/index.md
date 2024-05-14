@@ -11,9 +11,9 @@ syndications:
 - https://gist.github.com/jphastings/6560bb173399fc3a155913b33e5f0f0c
 ---
 
-My blog has ~250MB of [photos](/photos) in it (as I [archived my Instagram here](/posts/archiving-instagram-posts/) — _a decade_ of photos) which means that every time I want some files from [my blog's repo](https://github.com/by-jp/www.byjp.me) I've needed to pull down all that data to get at the files I want.
+My blog has ~250MB of [photos](/photos) in it (as I [archived my Instagram here](/posts/archiving-instagram-posts/) — _a decade_ of photos) which means that every time I want some files from [my blog's repo](https://github.com/by-jp/www.byjp.me) I've needed to pull down all that data to get at the few files I want.
 
-This isn't a problem on my laptop where I work on my blog (as it's already cloned), but I also keep my [IndieKit](https://getindiekit.com) config in there, and I don't want to have to clone an increasingly large repo every time.
+This isn't a problem on my laptop where I work on my blog (as it's already cloned), but I also keep my [IndieKit](https://getindiekit.com) config in there, which I need to copy to the server it runs from. I don't want to have to download hundreds of MB (and growing!) of photo data every time I want to update it.
 
 So I built `git-download-subpath`, which is a bash script around [git's partial clone](https://git-scm.com/docs/partial-clone) functionality.
 
