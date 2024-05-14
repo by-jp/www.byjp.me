@@ -15,7 +15,7 @@ syndications:
 - https://vimeo.com/manage/videos/945570914
 ---
 
-I've been exploring what totally decentralised and local-first compatible search might look like for the web. Here's a quick video demo of a prototype I've built called _IndieSearch_, powered by the (awesome) client-side search tool called [Pagefind][pagefind] (or read on, if videos aren't your thing).
+I've been exploring what totally decentralised and local-first compatible search might look like for the web. Here's a quick video demo of a prototype I've built called _IndieSearch_, powered by the (awesome) client-side search tool called [Pagefind](https://pagefind.app) (or read on, if videos aren't your thing).
 
 {{< vimeo 945570914 >}}
 
@@ -27,7 +27,7 @@ IndieSearch works as a browser extension (in my video I'm using [Arc](/posts/arc
 <link rel="search" type="application/pagefind" href="/search" title="byJP">
 ```
 
-The `href` attribute is the location of the site's [Pagefind][pagefind] index, and the `title` is what we'll show to the person searching when they're managing their sites. There they can sort through supported sites they've visited, seeing the new ones, and flagging them to be included or excluded in future searches.
+The `href` attribute is the location of the site's [Pagefind](https://pagefind.app) index, and the `title` is what we'll show to the person searching when they're managing their sites. There they can sort through supported sites they've visited, seeing the new ones, and flagging them to be included or excluded in future searches.
 
 {{< figure src="config-popup.webp" alt="The IndieSearch config page, showing a newly visited site, three sites to be included in search results, and one excluded" height="600" >}}
 
@@ -66,5 +66,3 @@ It's tangentially related, but I'm still desperate to see the [IPFS](/tags/ipfs)
 I can dream 😁
 
 Let me know your thoughts too — my Webmentions, [Mastodon](https://hachyderm.io/@byjp), [Bluesky](https://bsky.app/profile/byjp.me), and [email](/standing-invitation) are always open 😊
-
-[pagefind]: https://pagefind.app "The Pagefind homepage & developer docs"
