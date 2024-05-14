@@ -4,7 +4,7 @@ module.exports = {
   apps : [
       {
         name: "indiekit",
-        script: "npx indiekit serve --port 8088",
+        script: "npm run serve serve --port 8088",
         watch: false,
         env,
       }
