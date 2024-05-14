@@ -17,7 +17,9 @@
   {{ else if hasPrefix . "https://trakt.tv/" }}
     {{ partial "syndication-ref.html" (dict "type" "trakt" "link" .) }}
   {{ else if hasPrefix . "https://medium.com/" }}
-    {{ partial "syndication-ref.html" (dict "type" "medium" "link" .) }}  
+    {{ partial "syndication-ref.html" (dict "type" "medium" "link" .) }}
+  {{ else if hasPrefix . "https://gist.github.com/" }}
+    {{ partial "syndication-ref.html" (dict "type" "github" "link" .) }} 
   {{ else if hasPrefix . "https://soundcloud.com/" }}
     {{ partial "syndication-ref.html" (dict "type" "soundcloud" "link" .) }}
   {{ else if hasPrefix . "https://vimeo.com/" }}
