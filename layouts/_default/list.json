@@ -1,0 +1,5 @@
+{{- $.Scratch.Add "index" slice -}}
+{{- range $index, $element := .Data.Pages.ByTitle -}}
+    {{- $.Scratch.Add "index" $element.Name -}}
+{{- end -}}
+{{- $.Scratch.Get "index" | jsonify -}}

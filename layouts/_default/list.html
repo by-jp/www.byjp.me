@@ -23,7 +23,7 @@
                 <ul class="posts-list">
                     {{ range .Pages }}
                         <li class="post-item">
-                            <a href="{{.RelPermalink}}">
+                            <a href="{{.RelPermalink}}{{ if hasPrefix .RelPermalink "/tags/" }}#{{ end }}">
                                 {{ if .Params.emoji }}<span class="post-emoji">{{ .Params.emoji }}</span>{{ end }}
                                 <span class="post-title">{{ partial "page-title.txt" . }}</span>
                                 <span class="post-day">
