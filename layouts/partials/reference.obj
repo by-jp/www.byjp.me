@@ -2,7 +2,7 @@
 {{- $references := .references -}}
 {{- $reference := dict -}}
 {{- range $references -}}
-  {{- if eq .url $url -}}
+  {{- if eq (strings.TrimSuffix .url "/") (strings.TrimSuffix $url "/") -}}
     {{- $reference = . -}}
   {{- end }}
 {{- end -}}
