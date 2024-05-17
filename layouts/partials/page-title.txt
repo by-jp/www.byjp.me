@@ -13,7 +13,7 @@
 {{- else if .Params.likeOf -}}
   {{- $ref := partial "reference.obj" (dict "url" .Params.likeOf "references" .Params.references) -}}
   {{- if $ref -}}
-    {{ $ref.name }}
+    {{ index (split $ref.name "|" | first 1) 0 }}
   {{- else -}}
     {{- partial "partials/fallback-title.txt" . -}}
   {{- end -}}
