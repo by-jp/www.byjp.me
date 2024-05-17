@@ -1,0 +1,12 @@
+{{ $topics := .Params.topics }}
+{{ if gt (len $topics) 0 }}{{ with $topics }}
+  <p>
+    {{ partial "svg.html" (dict "name" "topic") }}
+    
+    <span class="topics">
+      {{ range $i, $topic := . }}
+        <a href="/topics/{{ $topic | urlize }}/">{{$topic}}</a>{{ if lt $i (sub (len $topics) 1) }}, {{ end }}
+      {{ end }}
+    </span>
+  </p>
+{{ end }}{{ end }}
