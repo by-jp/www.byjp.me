@@ -16,7 +16,7 @@
             <div class="content" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">{{ .Content }}</div>
         {{ end }}
 
-        {{ range $paginator.Pages.GroupByDate "2006" }}
+        {{ range $paginator.Pages.GroupByPublishDate "2006" }}
             <div class="posts-group">
                 <div class="post-year">{{ .Key }}</div>
 
