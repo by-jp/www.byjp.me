@@ -1,5 +1,5 @@
 {{ $topics := .Params.topics }}
-{{ if gt (len $topics) 0 }}{{ with $topics }}
+{{ with $topics }}{{ if gt (len $topics) 0 }}
   <p>
     {{ partial "svg.html" (dict "name" "topic") }}
     
