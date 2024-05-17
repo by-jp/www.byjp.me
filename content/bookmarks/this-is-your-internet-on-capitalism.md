@@ -14,7 +14,8 @@ references:
       and menu on the app are different to what you saw in the window. When you download
       a second app the prices are different again. You ring
     author: estretton
-summary: Apparently I'm getting old enough to complain at the lost "good old days" of the internet…
+summary: Apparently I'm getting old enough to complain at the lost "good old days"
+  of the internet…
 tags:
 - advertising
 - capitalism
