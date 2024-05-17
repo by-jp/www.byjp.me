@@ -5,7 +5,8 @@ summary: My review of the book 'Accelerando (Singularity)' by Charles Stross
 type: review
 date: "2013-05-01T00:00:00Z"
 emoji: "\U0001F4D6"
-draft: false
+topics:
+- Reflections
 tags:
 - imported
 - from-goodreads

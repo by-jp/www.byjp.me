@@ -4,6 +4,8 @@ emoji: 🧠
 date: 2023-12-28T10:43:41Z
 draft: true
 summary: How the mental work a person does to import concepts demands communication style changes in large organisations.
+topics:
+- Work
 tags:
 ---
 

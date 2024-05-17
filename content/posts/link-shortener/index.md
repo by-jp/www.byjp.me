@@ -10,6 +10,9 @@ tags:
   - shortlinks
   - val.town
   - indieweb
+topics:
+- IndieWeb
+- Technology
 summary: Using IPFS to build a trivial link shortener that doesn't hide & hoard the destination from the world.
 syndications:
 - https://bsky.app/profile/byjp.me/post/3jzz5ksqk342f

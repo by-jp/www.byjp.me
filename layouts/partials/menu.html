@@ -1,7 +1,8 @@
 <nav class="menu">
     <ul class="menu__inner">
+        {{- $page := .Page -}}
         {{ range .Site.Menus.main -}}
-            <li class="micro"><a href="{{ .URL | relLangURL }}">{{ slicestr .Name 0 1 }}<span> {{ slicestr .Name 2 }}</span></a></li>
+            <li class="micro{{ if hasPrefix $page.RelPermalink .URL }} active{{ end }}"><a href="{{ .URL }}" title="{{ .Name }}">{{ partial "svg.html" (dict "name" (index site.Params.defaultSVG .Identifier)) }}<span> {{ .Name }}</span></a></li>
         {{- end }}
     </ul>
 </nav>

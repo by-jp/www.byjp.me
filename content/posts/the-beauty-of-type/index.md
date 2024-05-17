@@ -8,6 +8,8 @@ tags:
   - typography
   - postcards
   - project
+topics:
+- Creativity
 summary: I created a font from a piece of art made for me by a friend.
 references:
   - url: https://www.youtube.com/watch?v=tMYjozPtJ-8

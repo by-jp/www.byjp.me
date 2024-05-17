@@ -5,6 +5,8 @@ type: review
 date: 2024-03-15T07:03:40.884Z
 inReplyTo: /calendar/one-off/2024-03/barb-jungr-feeling-good/
 summary: I went to Barb Jungr's performance in London Bridge, and it was delightful!
+topics:
+- Reflections
 location:
   name: The Guy's Chapel
   latitude: 51.50448455718357

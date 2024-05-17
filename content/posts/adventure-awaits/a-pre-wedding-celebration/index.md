@@ -7,6 +7,9 @@ syndications:
 - https://adventure.awaits.us/pre-wedding-celebration/
 series:
 - Adventure Awaits
+topics:
+- Travel
+- Myself
 ---
 
 {{< figure alt="JP and Yvette look lovingly at each other, in white attire, in front of a vista across Caracas." src="header.webp" class="big">}}

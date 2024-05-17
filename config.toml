@@ -35,6 +35,7 @@ date = ["date", "publishDate", "lastmod", ":git"]
 [taxonomies]
   series = 'series'
   tag = 'tags'
+  topic = 'topics'
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -62,17 +63,6 @@ date = ["date", "publishDate", "lastmod", ":git"]
     msapplication = "#252627"
     theme = "#252627"
   
-  [params.defaultEmoji]
-    posts = "📔"
-    bookmarks = "🔖"
-    notes = "💬"
-    photos = "📸"
-    calendar = "🗓️"
-    curiosities = "🤩"
-    memex = "🧠"
-    review = "📝"
-    poetry = "🥁"
-  
   [params.defaultSVG]
     post = "document"
     bookmarks = "bookmark"
@@ -84,6 +74,11 @@ date = ["date", "publishDate", "lastmod", ":git"]
     calendar = "calendar"
     review = "review"
     poetry = "feather"
+    contact = "email"
+    curiosities = "star"
+    memex = "brain"
+    photos = "camera"
+    reading-lists = "book"
 
 [languages]
   [languages.en]
@@ -125,55 +120,50 @@ date = ["date", "publishDate", "lastmod", ":git"]
   # You can create a language based menu
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "mail"
-        name = "📮 Contact me"
+        identifier = "contact"
+        name = "Contact me"
         url = "/standing-invitation"
         weight = 1
       [[languages.en.menu.main]]
         identifier = "curiosities"
-        name = "🤩 Curiosities"
+        name = "Curiosities"
         url = "/curiosities"
         weight = 2
       [[languages.en.menu.main]]
         identifier = "calendar"
-        name = "🗓️ Calendar"
+        name = "Calendar"
         url = "/calendar"
         weight = 3
       [[languages.en.menu.main]]
         identifier = "bookmarks"
-        name = "🔖 Bookmarks"
+        name = "Bookmarks"
         url = "/bookmarks"
         weight = 4
       [[languages.en.menu.main]]
         identifier = "memex"
-        name = "🧠 Memex"
+        name = "Memex"
         url = "/memex"
         weight = 5
       [[languages.en.menu.main]]
         identifier = "photos"
-        name = "📸 Photos"
+        name = "Photos"
         url = "/photos"
         weight = 6
       [[languages.en.menu.main]]
         identifier = "notes"
-        name = "💬 Notes"
+        name = "Notes"
         url = "/notes"
         weight = 7
       [[languages.en.menu.main]]
         identifier = "reading-lists"
-        name = "📚 Reading lists"
+        name = "Reading lists"
         url = "/reading-lists"
         weight = 8
       [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "📔 Posts"
+        identifier = "post"
+        name = "Posts"
         url = "/posts"
         weight = 9
-      [[languages.en.menu.main]]
-        identifier = "now"
-        name = "👇 Now"
-        url = "/now"
-        weight = 10
 
 [sitemap]
   filename = 'sitemap.xml'
@@ -201,6 +191,14 @@ date = ["date", "publishDate", "lastmod", ":git"]
     protocol = 'gemini://'
     permalinkable = true
     noUgly = true
+    notAlternative = true
+  [outputFormats.api]
+    name = 'JSON API'
+    isPlainText = true
+    isHTML = false
+    mediaType = 'application/json'
+    permalinkable = false
+    noUgly = false
     notAlternative = true
 
 [outputs]

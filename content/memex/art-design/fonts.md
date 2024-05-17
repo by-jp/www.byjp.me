@@ -4,8 +4,8 @@ emoji: 🔡
 summary: Instructions for how to turn streams of data into legible writing.
 draft: false
 tags:
-- ttf
-- zwj
+- TTF
+- ZWJ
 - emoji
 - fonts
 references:

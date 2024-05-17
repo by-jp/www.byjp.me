@@ -8,6 +8,8 @@ tags:
 - ValTown
 - ProgressiveEnhancement
 - IndieWeb
+topics:
+- IndieWeb
 syndications:
 - https://hachyderm.io/@byjp/112229385641236069
 - https://bsky.app/profile/byjp.me/post/3kpjvofkuah2f

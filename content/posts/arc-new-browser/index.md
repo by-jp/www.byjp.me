@@ -8,6 +8,8 @@ tags:
   - web
   - browser
   - 90s
+topics:
+- Myself
 summary: A new web-browser that really is helping me fall in love with the internet again.
 ---
 

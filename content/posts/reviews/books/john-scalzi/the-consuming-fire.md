@@ -5,7 +5,8 @@ summary: My review of the book 'The Consuming Fire' by John Scalzi
 type: review
 date: "2018-10-20T00:00:00Z"
 emoji: "\U0001F4D6"
-draft: false
+topics:
+- Reflections
 tags:
 - imported
 - from-goodreads

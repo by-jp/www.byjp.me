@@ -9,6 +9,9 @@ tags:
 - mela
 - LLMs
 - "AI"
+topics:
+- Creativity
+- Cooking
 syndications:
 - https://hachyderm.io/@byjp/112102305952063134
 - https://bsky.app/profile/byjp.me/post/3knrhqsj6ac23

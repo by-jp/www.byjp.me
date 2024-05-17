@@ -6,7 +6,10 @@ timings:
   - starts: 2024-04-04T19:00:00+0100
     duration: PT4H
     attending: true
-link: https://www.eventbrite.co.uk/e/enm-fam-social-april-2024-tickets-861381263547
+  - starts: 2024-06-06T19:00:00+0100
+    duration: PT4H
+    attending: true
+link: https://linktr.ee/ENMfam
 location:
   name: Fox & Firkin
   latitude: 51.45683800105681

@@ -4,7 +4,7 @@ emoji: 🛠️
 summary: Tools for developing websites
 draft: false
 tags:
-- www
+- WWW
 - web
 - webdesign
 ---

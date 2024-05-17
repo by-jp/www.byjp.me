@@ -7,6 +7,10 @@ syndications:
 - https://adventure.awaits.us/a-patagonian-love-story/
 series:
 - Adventure Awaits
+topics:
+- Travel
+- Myself
+- Romance
 ---
 
 {{< figure title="Torres del Paine" alt="The three stunning spires of Torres del Paine,standing in front of the lagoon on top of the mountain." src="header.webp" class="big">}}

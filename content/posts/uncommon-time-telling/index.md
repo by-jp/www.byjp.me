@@ -7,8 +7,10 @@ tags:
 - date
 - calendar
 - human-era
-- ifc
+- InternationalFixedCalendar
 - beat
+topics:
+- Curiosity
 summary: "The Human Era, International Fixed Calendar, and .beat time: Weird and wonderful ways of telling time that I adore."
 ---
 

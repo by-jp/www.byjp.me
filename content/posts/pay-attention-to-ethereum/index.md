@@ -8,6 +8,8 @@ tags:
   - ethereum
   - money
 summary: A brief explanation of cryptocurrencies and why they're useful I wrote for my non-techie friends.
+topics:
+- Technology
 syndications:
 - https://medium.com/@jphastings/why-you-should-pay-attention-to-ethereum-96766a2c89a4
 ---

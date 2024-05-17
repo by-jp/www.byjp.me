@@ -4,7 +4,8 @@ summary: A delightful Saturday walk out of London, from Ockley to Dorking.
 type: GPX
 emoji: 🥾
 date: 2023-08-14T07:14:19+01:00
-draft: false
+topics:
+- Myself
 tags:
 ---
 

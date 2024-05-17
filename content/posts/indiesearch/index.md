@@ -9,6 +9,8 @@ tags:
 - decentralised
 - demo
 - IPFS
+topics:
+- IndieWeb
 syndications:
 - https://hachyderm.io/@byjp/112430316826482911
 - https://bsky.app/profile/byjp.me/post/3ksd4xxfks62v

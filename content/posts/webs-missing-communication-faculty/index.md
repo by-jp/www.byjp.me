@@ -7,6 +7,8 @@ tags:
   - trust
   - credence
   - web
+topics:
+- Technology
 summary: "Credence: A new way to assess online information using the reputation and context of those who consume it."
 syndications:
 - https://medium.com/@jphastings/the-web-s-missing-communication-faculty-e2f910b908fa

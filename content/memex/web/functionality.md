@@ -4,7 +4,7 @@ emoji: ⚙️
 summary: Features of websites that are interesting or useful.
 draft: false
 tags:
-- www
+- WWW
 - web
 - webdesign
 - interactivity

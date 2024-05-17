@@ -5,6 +5,8 @@ date: 2023-10-16T20:01:24+01:00
 tags:
   - mum
   - death
+topics:
+- Myself
 summary: My Mum passed away; my brother & I wrote a few words to let our friends and family know.
 syndications:
 - https://www.facebook.com/chrismhs/posts/pfbid02VuHgpqAC2LPFdkqvWySGQ5w1Wp7eEH8SSne6wnSA6P9b1pQkNQ9HK4DsKYXBg6rdl

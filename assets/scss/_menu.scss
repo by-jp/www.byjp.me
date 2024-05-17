@@ -43,7 +43,6 @@
     }
 
     li.micro a {
-      filter: grayscale(1);
       span {
         display: none;
       }
@@ -55,7 +54,6 @@
 
       &:hover {
         text-decoration: none;
-        filter: none;
       }
     }
 

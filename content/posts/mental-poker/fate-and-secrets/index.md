@@ -11,6 +11,9 @@ tags:
   - protocol
   - cryptography
 summary: How could you play a game of cards by post without any cheating?
+topics:
+- Technology
+- Maths
 series:
 - Mental poker
 ---

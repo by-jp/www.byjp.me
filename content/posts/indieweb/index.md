@@ -9,6 +9,8 @@ tags:
   - web
   - indieweb
   - fediverse
+topics:
+- IndieWeb
 summary: Embracing the indieweb, an internet run by humans not corporations.
 ---
 

@@ -5,7 +5,8 @@ summary: "My review of the book \"QED: The Strange Theory of Light and Matter\" 
 type: review
 date: "2011-10-15T00:00:00Z"
 emoji: "\U0001F4D6"
-draft: false
+topics:
+- Reflections
 tags:
 - imported
 - from-goodreads

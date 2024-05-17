@@ -10,6 +10,9 @@ tags:
   - games
   - protocol
 summary: How can people play (board/card) games without a trusted third party, and without cheating?
+topics:
+- Technology
+- Maths
 series:
 - Mental poker
 ---

@@ -8,6 +8,9 @@ tags:
   - engineering
   - team
   - deliveroo
+topics:
+- Work
+- Communication
 summary: "Communication, shared context, pride, and responsibility are key factors for Deliveroo's Engineering culture."
 syndications:
 - https://deliveroo.engineering/2016/12/22/what-makes-a-good-tech-team-great.html

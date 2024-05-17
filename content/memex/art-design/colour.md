@@ -4,8 +4,8 @@ emoji: 🌈
 summary: The different frequencies in the human visible spectrum used for fun, communication, art and more.
 draft: false
 tags:
-- css
-- lch
+- CSS
+- LCH
 - vision
 - deliveroo
 - colour

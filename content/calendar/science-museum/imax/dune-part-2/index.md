@@ -13,7 +13,7 @@ location:
   longitude: -0.17413157055317363
 summary: Friday night exploration of the Science Museum and the theme of Love, with drinks, lectures & installations!
 tags:
-- imax
+- IMAX
 - film
 - Dune
 ---

@@ -7,6 +7,8 @@ images:
 tags:
   - instagram
   - social
+topics:
+- IndieWeb
 summary: Archiving my Instagram account, and releasing the code that imported it to this Hugo-driven site.
 ---
 

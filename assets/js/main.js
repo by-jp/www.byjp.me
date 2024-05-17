@@ -5,6 +5,7 @@ function updateAccentColor() {
   let start = new Date(now)
   const hue = (now - start.setHours(0,0,0,0)) / 240000
   document.documentElement.style.setProperty('--accent', `lch(60% 120 ${hue})`);
+  document.documentElement.style.setProperty('--accentAlt', `lch(60% 120 ${(hue + 120) % 360})`);
   document.documentElement.style.setProperty('--accentHue', hue);
 }
 setInterval(updateAccentColor, 15000)

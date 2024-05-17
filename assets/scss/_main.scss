@@ -1023,3 +1023,25 @@ mark {
   50% { opacity: 1; }
   100% { opacity: 0.5; }
 }
+
+nav {
+  .active svg {
+    color: var(--accentAlt);
+  }
+
+  svg {
+    display: inline-block;
+    height: 1em;
+    vertical-align: -0.125em;
+    width: 1em;
+    height: 1em;
+
+    transition-property: color;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+
+    &:hover {
+      color: var(--accent);
+    }
+  }
+}

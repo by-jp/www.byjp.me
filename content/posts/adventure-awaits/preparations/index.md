@@ -7,6 +7,9 @@ syndications:
 - https://adventure.awaits.us/preparations/
 series:
 - Adventure Awaits
+topics:
+- Travel
+- Myself
 ---
 
 {{< figure alt="" src="header.webp" class="big" >}}

@@ -10,6 +10,13 @@
     {{ partial "year-relative-date.html" .Lastmod }}
   </p>
   <p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-compass">
+      <circle cx="12" cy="12" r="10"></circle>
+      <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+    </svg>
+    Back {{ if eq .Page.Parent.RelPermalink "/" }}<a href="/">Home</a>{{ else }}to <a href="{{ .Page.Parent.RelPermalink }}">{{ .Page.Parent.Title }}{{ end }}</a>
+  </p>
+  <p>
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-hash">
           <line x1="4" y1="9" x2="20" y2="9"></line>
           <line x1="4" y1="15" x2="20" y2="15"></line>

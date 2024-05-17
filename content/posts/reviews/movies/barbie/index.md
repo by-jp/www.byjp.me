@@ -3,6 +3,8 @@ title: Barbie
 type: review
 date: 2023-07-29T07:51:48+01:00
 emoji: 🍿
+topics:
+- Reflections
 summary: I went to see Barbie; it was superb!
 syndications:
 - https://bsky.app/profile/byjp.me/post/3k3nnlam35u2p

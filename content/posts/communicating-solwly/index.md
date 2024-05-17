@@ -6,6 +6,9 @@ draft: false
 emoji: 🐌
 tags:
 - microsite
+topics:
+- Creativity
+- Communication
 summary: "Setting kind expectations in busy times: slow.fyi"
 ---
 

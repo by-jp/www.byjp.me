@@ -5,14 +5,16 @@ emoji: 💾
 date: 2023-08-13T15:44:14+01:00
 draft: false
 tags:
-- ipfs
-- indieweb
+- IPFS
+- IndieWeb
 - hosting
 - static-site
-- web
+- WWW
 - HomeLab
 - admarus
 - offer
+topics:
+- IndieWeb
 syndications:
 ---
 

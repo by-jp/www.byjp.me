@@ -3,7 +3,9 @@ title: "The Fujifilm Repair Centre"
 emoji: 📷
 date: 2022-10-29T11:22:11+01:00
 audio: index.mp3
-draft: false
+type: review
+topics:
+- Reflections
 images:
 tags:
   - review

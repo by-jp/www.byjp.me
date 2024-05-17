@@ -5,7 +5,7 @@ tags:
 - computing
 - optimisation
 - lines
-- svg
+- SVG
 references:
   line-simplification:
     url: https://bost.ocks.org/mike/simplify/

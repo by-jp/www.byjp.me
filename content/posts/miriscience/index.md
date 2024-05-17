@@ -8,6 +8,9 @@ images:
 tags:
   - words
   - miriscient
+topics:
+- Curiosity
+- Creativity
 summary: Why I created the word "miriscience", and why it's been so important to me.
 syndications:
 - https://medium.com/miriscient/miriscience-5e342ff198f5

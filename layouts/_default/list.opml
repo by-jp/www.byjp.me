@@ -1,0 +1,13 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<opml version="2.0">
+  <head>
+    <title>{{ .Title }} (reading lists byJP)</title>
+    <dateModified>{{ .Lastmod.Format "02 Jan 2006 15:04 MST" }}</dateModified>
+    <ownerId>https://www.byjp.me</ownerId>
+  </head>
+  <body>
+    {{ range .Pages -}}
+    <outline {{ if .Date }}created="{{ .Date.Format "02 Jan 2006 15:04 MST" }}" {{ end }}title="{{ .Title }}" text="{{ .Title }}" type="rss" xmlUrl="{{ (.OutputFormats.Get "rss").Permalink }}" htmlUrl="{{ .Permalink }}" description="{{ .Summary }}"/>
+    {{ end -}}
+  </body>
+</opml>

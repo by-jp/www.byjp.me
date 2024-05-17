@@ -11,6 +11,9 @@ tags:
   - protocol
   - randomness
 summary: How can people in different places trust the other's dice-rolls?
+topics:
+- Technology
+- Maths
 series:
 - Mental poker
 ---

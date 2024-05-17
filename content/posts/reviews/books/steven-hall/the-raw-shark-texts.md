@@ -5,7 +5,8 @@ summary: My review of the book 'The Raw Shark Texts' by Steven Hall
 type: review
 date: "2014-04-02T00:00:00Z"
 emoji: "\U0001F4D6"
-draft: false
+topics:
+- Reflections
 tags:
 - imported
 - from-goodreads

@@ -7,6 +7,8 @@ tags:
 - git
 - computers
 - tools
+topics:
+- Technology
 syndications:
 - https://gist.github.com/jphastings/6560bb173399fc3a155913b33e5f0f0c
 ---

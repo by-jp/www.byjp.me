@@ -11,6 +11,8 @@ tags:
 - go
 - code
 - CosyWeb
+topics:
+- IndieWeb
 syndications:
 - https://hachyderm.io/@byjp/111793793066838551
 - https://bsky.app/profile/byjp.me/post/3kjihigmapz2a
