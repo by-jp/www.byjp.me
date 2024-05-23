@@ -1,0 +1,7 @@
+{{- if and (hasPrefix .Destination "/tags/") (not (strings.HasSuffix .Destination "#")) -}}
+  #{{.Text}}
+{{- else if or (eq .Text "") (eq .Text .Destination)  -}}
+  {{ .Destination }}
+{{- else -}}
+  {{ partial "rich-link.html" (dict "Text" .Text "url" .Destination "Title" .Title "references" .Page.Params.references) }}
+{{- end -}}

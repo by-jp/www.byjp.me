@@ -24,7 +24,7 @@
     {{- with .OutputFormats.Get "RSS" -}}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" (.Permalink | absURL) .MediaType | safeHTML }}
     {{- end -}}
-    {{ range $pages }}{{ $page := . }}
+    {{ range $i, $page := $pages }}
     <item>
       <title>{{ .Title | default (delimit (slice "An untitled" (.Date.Format "January") (.Type | singularize)) " ") }}</title>
       <link>{{ .Permalink | absURL }}</link>
@@ -36,7 +36,7 @@
           {{- $reference := partial "reference.obj" (dict "url" .Params.bookmarkOf "page" .) -}}
           Thoughts on a bookmarked article{{ with $reference.name }}: {{.}}{{ end }}.
         {{ else }}
-          {{ .Summary }}
+          {{ index (split .Summary "\n") 0 }}
         {{ end }}
       </description>
       <content:encoded>
