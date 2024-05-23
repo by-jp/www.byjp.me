@@ -10,6 +10,9 @@ tags:
 - firmware
 - EMFCamp
 - solarpunk
+syndications:
+- https://hachyderm.io/@byjp/112490995961316162
+- https://bsky.app/profile/byjp.me/post/3kt62fglm3c2k
 ---
 
 I just installed a [Sensor Watch](https://sensorwatch.net) movement in my old Casio watch! (It's the green board on the right there.)
