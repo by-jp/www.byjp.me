@@ -36,19 +36,16 @@
 {{- end }}
 
 {{- with partial "_funcs/get-page-images" . }}
+  <!-- Images -->
+  {{ . }}
+  <!-- /Images -->
   {{- range . | first 6 }}
     <meta property="og:image" content="{{ .Permalink }}">
   {{- end }}
 {{- end }}
 
 {{- with .Params.audio }}
-  <meta property="og:audio" content="{{ . | absURL }}">
-{{- end }}
-
-{{- with .Params.videos }}
-  {{- range . | first 6 }}
-    <meta property="og:video" content="{{ . | absURL }}">
-  {{- end }}
+  <meta property="og:audio" content="{{ page.Permalink }}{{ . }}">
 {{- end }}
 
 {{- range .GetTerms "series" }}

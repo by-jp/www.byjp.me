@@ -76,10 +76,10 @@
         <hr />
       {{- end }}
 
-      {{ if .Params.Audio }}
+      {{ with .Params.Audio }}
         <div class="post-audio">
           <audio controls>
-            <source src="{{ .Params.Audio }}">
+            <source src="{{ . }}">
           </audio>
         </div>
       {{ end }}
