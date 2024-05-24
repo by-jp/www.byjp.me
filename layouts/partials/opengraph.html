@@ -36,9 +36,6 @@
 {{- end }}
 
 {{- with partial "_funcs/get-page-images" . }}
-  <!-- Images -->
-  {{ . }}
-  <!-- /Images -->
   {{- range . | first 6 }}
     <meta property="og:image" content="{{ .Permalink }}">
   {{- end }}
