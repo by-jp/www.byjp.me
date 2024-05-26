@@ -7,7 +7,7 @@
     {{ block "body" . }}
         <body class="{{ with .Page.Params.stylescope }}{{ . }}{{ end }}">
     {{ end }}
-    
+        
         <div class="container">
             {{ partial "header.html" . }}
 
@@ -20,6 +20,7 @@
             {{ end }}
         </div>
 
+        <div id="drops"></div>
         {{ partial "javascript.html" . }}
     </body>
 </html>

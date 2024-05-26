@@ -107,3 +107,104 @@ document.addEventListener("DOMContentLoaded", () => {
       .catch(console.error)
   })
 })
+
+/* drops */
+
+const dropsContainer = document.getElementById('drops');
+let drops = [];
+const dropLength = 0.5; // s
+const fps = 60;
+const dropIncrement = 1/(fps*dropLength);
+function createDrop(posX, posY) {
+  startDropCounter();
+
+  const el = document.createElement('div');
+  let size = 0;
+
+  el.style.setProperty('--dropSize', size);
+  el.style.setProperty('top', posY);
+  el.style.setProperty('left', posX);
+  drops.push({ el, size });
+  dropsContainer.appendChild(el);
+  playDroplet();
+}
+
+let dropCounterInterval;
+function startDropCounter() {
+  if (dropCounterInterval) {
+    return;
+  }
+  dropCounterInterval = setInterval(updateDropCounter, 1000/fps);
+}
+
+function updateDropCounter() {
+  for (const [i, drop] of drops.entries()) {
+    if (drop.size > 1) {
+      dropsContainer.removeChild(drop.el);
+      drops.splice(i, 1);
+      continue;
+    }
+
+    drop.size += dropIncrement;
+    drop.el.style.setProperty('--dropSize', `${drop.size}`);
+  }
+
+  if (drops.length == 0) {
+    clearInterval(dropCounterInterval);
+    dropCounterInterval = false;
+  }
+}
+
+const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+function playDroplet() {
+  const playLength = dropLength * 2 / 3;
+  const startFreq = 98 + gRand(12);
+  const endFreq = 220 + gRand(12);
+  
+  const oscillator = audioContext.createOscillator();
+  oscillator.type = 'sine'
+  oscillator.frequency.setValueAtTime(startFreq, audioContext.currentTime);
+  oscillator.frequency.exponentialRampToValueAtTime(endFreq, audioContext.currentTime + playLength);
+  
+  const gainNode = audioContext.createGain();
+  gainNode.gain.setValueAtTime(0.2, audioContext.currentTime);
+  gainNode.gain.linearRampToValueAtTime(0, audioContext.currentTime + playLength);
+
+  oscillator.connect(gainNode);
+  gainNode.connect(audioContext.destination);
+
+  oscillator.start();
+  oscillator.stop(audioContext.currentTime + playLength);
+}
+
+let raining = false;
+document.body.addEventListener('click', (e) => {
+  raining = false;
+  switch(e.target.tagName) {
+    case 'A':
+    case 'BUTTON':
+      return true;
+    default:
+  }
+
+  createDrop(`${e.pageX}px`, `${e.pageY}px`);
+  return true;
+});
+
+function gRand(scale = 1) {
+  return scale * Math.sqrt(-2 * Math.log(1 - Math.random())) * Math.cos(2 * Math.PI * Math.random())
+}
+
+function doRain() {
+  if (!raining) {
+    return
+  }
+
+  createDrop(`${Math.random() * document.body.scrollWidth}px`, `${Math.random() * document.body.scrollHeight}px`);
+  setTimeout(doRain, 250+gRand(250));
+}
+
+function rain() {
+  raining = true;
+  doRain();
+}
