@@ -80,6 +80,19 @@ date = ["date", "publishDate", "lastmod", ":git"]
     photos = "camera"
     reading-lists = "book"
 
+  [params.defaultEmoji]
+    posts = "📔"
+    bookmarks = "🔖"
+    notes = "💬"
+    photos = "📸"
+    calendar = "🗓️"
+    curiosities = "🤩"
+    memex = "🧠"
+    review = "📝"
+    poetry = "🥁"
+    reading-lists = "📚"
+    contact-me = "📮"
+
 [languages]
   [languages.en]
     title = "byJP"

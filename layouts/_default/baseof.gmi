@@ -34,7 +34,7 @@ You may also want to visit:
 
 => / 🏡 Home
 {{ range .Site.Menus.main -}}
-  => {{ partial "noindex.gmi" (.URL | relURL) }} {{ .Name }}
+  => {{ partial "noindex.gmi" (.URL | relURL) }} {{ index site.Params.defaultEmoji (.Name | urls.Anchorize) }} {{ .Name }}
 {{ end }}
 
 {{ with getenv "HUGO_LAST_UPDATE_HASH" }}=> https://github.com/by-jp/www.byjp.me/tree/{{.}} {{end}}{{ trim (partial "site-last-update.html" | plainify) "\r\n " }}
