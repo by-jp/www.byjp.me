@@ -1,2 +1,2 @@
-{{- $args := dict "src" (.Get "src") -}}
+{{- $args := dict "src" (.Get "src") "alt" (.Get "alt") -}}
 {{- partial "image.gmi" $args -}}
