@@ -71,4 +71,4 @@ tasks:
       - build
       - gemini-reduce
     cmds:
-      - fly deploy
+      - fly deploy --remote-only
