@@ -67,6 +67,7 @@ date = ["date", "publishDate", "lastmod", ":git"]
     post = "document"
     bookmarks = "bookmark"
     article-bookmark = "bookmark"
+    game-bookmark = "game"
     video-bookmark = "video"
     product-bookmark = "package"
     notes = "message"
