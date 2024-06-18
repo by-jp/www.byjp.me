@@ -7,6 +7,9 @@ topics:
 - Reflections
 summary: Max barely features, but it's gloriously mad. Explosions and brutality galore, but a moving central plot that made me stay for the story.
 syndications:
+- https://trakt.tv/comments/685347
+- https://hachyderm.io/@byjp/112636298861095286
+- https://bsky.app/profile/byjp.me/post/3kv6m2uq6uc2y
 ---
 
 {{< film "Furiosa: A Mad Max Saga" "2024" "https://www.themoviedb.org/movie/786892-furiosa-a-mad-max-saga" "poster.webp" >}}
