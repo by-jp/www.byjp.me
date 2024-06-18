@@ -25,7 +25,7 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" (.Permalink | absURL) .MediaType | safeHTML }}
     {{- end -}}
     {{- range $i, $page := $pages -}}
-    {{- if .params.inReplyTo -}}{{ continue }}{{- end -}}
+    {{- if $page.Params.inReplyTo -}}{{ continue }}{{- end -}}
     <item>
       <title>{{ .Title | default (delimit (slice "An untitled" (.Date.Format "January") (.Type | singularize)) " ") }}</title>
       <link>{{ .Permalink | absURL }}</link>
