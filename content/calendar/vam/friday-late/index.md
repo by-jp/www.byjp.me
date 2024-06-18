@@ -11,8 +11,6 @@ timings:
     duration: PT3H30M
   - starts: 2024-04-26T18:30:00+01:00
     duration: PT3H30M
-  - starts: 2024-06-28T18:30:00+01:00
-    duration: PT3H30M
   - starts: 2024-07-26T18:30:00+01:00
     duration: PT3H30M
   - starts: 2024-08-30T18:30:00+01:00
