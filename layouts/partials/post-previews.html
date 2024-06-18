@@ -68,7 +68,16 @@
       </div>
     {{- end -}}
 
-    {{- $notePage := index (where .Site.RegularPages "Section" "eq" "notes") 0 -}}
+    {{- $notePages := where .Site.RegularPages "Section" "eq" "notes" -}}
+    {{- $notePage := index $notePages 0 -}}
+    {{- if $notePage.Params.inReplyTo -}}
+      {{- range $notePages -}}
+        {{- if not .Params.inReplyTo -}}
+          {{- $notePage = . -}}
+          {{- break -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
     {{- with $notePage -}}
       <div class="note">
         <div class="context">{{ partial "svg.html" (dict "name" "message") }} <a href="{{ .RelPermalink }}"><date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">

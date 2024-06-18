@@ -9,7 +9,7 @@ Things I might work on within my personal blog's software.
 - [ ] Micropub Replies look weird in a bunch of places
   - [ ] When posted via Echofeed: They include the "in reply to" initial stuff; this is too cumbersome
   - [ ] When posted via Echofeed: They should probably be "Quiet public", or ideally posted as replies to a fedi post, if there's one referenced in the source as a syncidcation
-  - [ ] They get posted on the homepage, when they shouldn't
+  - [x] They get posted on the homepage, when they shouldn't
 - [ ] Spoiler open styling has regressed!
 
 ### Ideas
