@@ -5,5 +5,8 @@ likeOf: https://micropolisweb.com/
 references:
   https://micropoliswebCom/:
     url: https://micropolisweb.com/
+    type: game
+    name: Micropolis
+    summary: This is Micropolis in WebAssembly! Based on the original SimCity Classic from Maxis, designed by Will Wright, ported by Don Hopkins. This is just an unfinished evolving scrappy fiddle.
 slug: fg0hu
 ---
