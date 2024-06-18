@@ -6,7 +6,10 @@ Things I might work on within my personal blog's software.
 
 - [ ] Fix val.town donations link ([deprecation notice](https://docs.val.town/api/run/))
 - [ ] Now page isn't current
-- [ ] Videos in "photos" don't have a thumbnail, and don't work in the list.
+- [ ] Micropub Replies look weird in a bunch of places
+  - [ ] When posted via Echofeed: They include the "in reply to" initial stuff; this is too cumbersome
+  - [ ] When posted via Echofeed: They should probably be "Quiet public", or ideally posted as replies to a fedi post, if there's one referenced in the source as a syncidcation
+  - [ ] They get posted on the homepage, when they shouldn't
 
 ### Ideas
 
@@ -55,3 +58,4 @@ Things I might work on within my personal blog's software.
   - [x] Actually serve it up
 - [x] Record new webmentions on publish
   - Done via EchoFeed!
+- [x] Videos in "photos" don't have a thumbnail, and don't work in the list.
