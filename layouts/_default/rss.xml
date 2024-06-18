@@ -24,7 +24,8 @@
     {{- with .OutputFormats.Get "RSS" -}}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" (.Permalink | absURL) .MediaType | safeHTML }}
     {{- end -}}
-    {{ range $i, $page := $pages }}
+    {{- range $i, $page := $pages -}}
+    {{- if .params.inReplyTo -}}{{ continue }}{{- end -}}
     <item>
       <title>{{ .Title | default (delimit (slice "An untitled" (.Date.Format "January") (.Type | singularize)) " ") }}</title>
       <link>{{ .Permalink | absURL }}</link>
@@ -32,12 +33,13 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ .Permalink | absURL }}</guid>
       <description>
-        {{ if .Params.bookmarkOf }}
+        {{- if .Params.bookmarkOf -}}
           {{- $reference := partial "reference.obj" (dict "url" .Params.bookmarkOf "page" .) -}}
           Thoughts on a bookmarked article{{ with $reference.name }}: {{.}}{{ end }}.
-        {{ else }}
-          {{ index (split .Summary "\n") 0 }}
-        {{ end }}
+        {{- else -}}
+          {{- if eq .Section "calendar" -}}(An event I may be going to.) {{ end -}}
+          {{- index (split .Summary "\n") 0 -}}
+        {{- end -}}
       </description>
       <content:encoded>
         {{- range $i, $src := .Params.Media }}
@@ -52,15 +54,15 @@
             {{ end -}}
           {{ end -}}
           {{ if $timing  }}
-            &lt;p style="font-style:italic;font-size:small"&gt;I'm planning on going to this event on 
+            &lt;p&gt;&lt;i&gt;&lt;small&gt;I'm planning on going to this event on 
             {{ partial "year-relative-date.txt" (time.AsTime $timing.starts) }}.
-            See the bottom of &lt;a href="{{ .Permalink | absURL }}#post-info"&gt;the post&lt;/a&gt; for more information, and get in touch if you'd like to go together!&lt;/p&gt;
+            See the bottom of &lt;a href="{{ .Permalink | absURL }}#post-info"&gt;the post&lt;/a&gt; for more information, and get in touch if you'd like to go together!&lt;/small&gt;&lt;/i&gt;&lt;/p&gt;
           {{ end }}
         {{- end -}}
         {{ if .Params.bookmarkOf }}
-        &lt;p&gt;&lt;i&gt;{{ partial "bookmark-of.html" . | html }}&lt;/i&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;i&gt;&lt;small&gt;{{ partial "bookmark-of.html" . | html }}&lt;/small&gt;&lt;/i&gt;&lt;/p&gt;
         {{ else if .Params.inReplyTo }}
-        &lt;p&gt;&lt;i&gt;{{ partial "in-reply-to.html" . | html }}&lt;/i&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;i&gt;&lt;small&gt;{{ partial "in-reply-to.html" . | html }}&lt;/small&gt;&lt;/i&gt;&lt;/p&gt;
         {{ end }}
         {{ .Content | html }}
       </content:encoded>
