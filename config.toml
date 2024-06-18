@@ -184,7 +184,7 @@ date = ["date", "publishDate", "lastmod", ":git"]
 
 [mediaTypes]
   [mediaTypes.'text/opml']
-    suffixes = ['opml']
+    suffixes = ['opml.xml']
   [mediaTypes.'text/gemini']
     suffixes = ['gmi']
 [outputFormats]

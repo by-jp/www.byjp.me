@@ -1,4 +1,5 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{- printf "<?xml-stylesheet href=\"/opml.xsl\" type=\"text/xsl\"?>" | safeHTML }}
 <opml version="2.0">
   <head>
     <title>{{ .Title }} (reading lists byJP)</title>

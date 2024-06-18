@@ -1,7 +1,9 @@
+{{- $isReadingListRoot := eq (path.Dir (path.Dir .RelPermalink)) "/" -}}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{- printf "<?xml-stylesheet href=\"/opml.xsl\" type=\"text/xsl\"?>" | safeHTML }}
 <opml version="2.0">
   <head>
-    <title>{{ .Title }} (reading lists byJP)</title>
+    <title>{{ .Title }}{{- if not $isReadingListRoot }} (reading lists byJP){{ end }}</title>
     <dateModified>{{ .Lastmod.Format "02 Jan 2006 15:04 MST" }}</dateModified>
     <ownerId>https://www.byjp.me</ownerId>
   </head>
@@ -12,7 +14,7 @@
       {{ end -}}
 
       {{- if gt (len .Pages) 0 }}
-      <outline {{ if .Date }}created="{{ .Date.Format "02 Jan 2006 15:04 MST" }}" {{ end }}title="{{ .Title }}" text="{{ .Title }}">
+      <outline {{ if .Date }}created="{{ .Date.Format "02 Jan 2006 15:04 MST" }}" {{ end }}title="{{ .Title }}" text="{{ .Title }}" type="html" htmlUrl="{{ .Permalink }}" description="{{ .Summary }}">
         {{ range .Pages -}}
         {{ if .Params.feed -}}
         <outline {{ if .Date }}created="{{ .Date.Format "02 Jan 2006 15:04 MST" }}" {{ end }}title="{{ .Title }}" text="{{ .Title }}" type="rss" xmlUrl="{{ .Params.feed.rss }}" htmlUrl="{{ .Params.feed.url }}" description="{{ .Summary }}"/>

@@ -4,7 +4,7 @@
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
       <head>
-        <title><xsl:value-of select="/rss/channel/title"/> RSS Feed</title>
+        <title><xsl:value-of select="/opml/head/title"/></title>
         <meta charset="UTF-8" />
         <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" />
         <meta http-equiv="content-language" content="en_US" />
@@ -50,42 +50,45 @@
         <div class="container">
           <div class="item">
             <header>
-              <h1>RSS Feed</h1>
-              <h2>
-                <xsl:value-of select="/rss/channel/title"/>
-              </h2>
-              <p>
-                <xsl:value-of select="/rss/channel/description"/>
-              </p>
+              <hgroup>
+                <h1><xsl:value-of select="/opml/head/title"/></h1>
+                <p>A collection of feeds from elsewhere on the internet that you may enjoy. Many feed readers will accept OPML feeds (like this one) as sources, allowing you to subscribe to the feeds below <em>and</em> any I add in the future.</p>
+              </hgroup>
               <a hreflang="en" target="_blank">
-                <xsl:attribute name="href">
-                  <xsl:value-of select="/rss/channel/link"/>
-                </xsl:attribute>
-                Visit this page on my site &#x2192;
+                <xsl:attribute name="href">./</xsl:attribute>
+                Visit this page on my site for more information &#x2192;
               </a>
             </header>
             <main>
-              <h2>Recent Posts</h2>
-              <xsl:for-each select="/rss/channel/item">
-                <article>
+              <xsl:for-each select="/opml/body/outline">
+                <section>
                   <hgroup>
-                    <h3>
+                    <h2>
                       <a hreflang="en" target="_blank">
                         <xsl:attribute name="href">
-                          <xsl:value-of select="link"/>
+                          <xsl:value-of select="@htmlUrl"/>
                         </xsl:attribute>
-                        <xsl:value-of select="title"/>
+                        <xsl:value-of select="@title"/>
                       </a>
-                    </h3>
-                    <time>
-                      <xsl:attribute name="datetime">
-                        <xsl:value-of select="pubDate" /> 
-                      </xsl:attribute>
-                      <xsl:value-of select="substring(pubDate, 0, 17)" />
-                    </time>
+                    </h2>
                   </hgroup>
-                  <p><xsl:value-of select="description"/></p>
-                </article>
+                  <p>
+                    <xsl:value-of select="@description"/>
+                  </p>
+
+                  <ul>
+                    <xsl:for-each select="outline">
+                      <li>
+                        <a hreflang="en" target="_blank">
+                          <xsl:attribute name="href">
+                            <xsl:value-of select="@htmlUrl"/>
+                          </xsl:attribute>
+                          <xsl:value-of select="@title"/>
+                        </a> — <xsl:value-of select="@description"/>
+                      </li>
+                    </xsl:for-each>
+                  </ul>
+                </section>
               </xsl:for-each>
             </main>
           </div>
