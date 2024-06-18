@@ -10,6 +10,7 @@ syndications:
 - https://trakt.tv/comments/685347
 - https://hachyderm.io/@byjp/112636298861095286
 - https://bsky.app/profile/byjp.me/post/3kv6m2uq6uc2y
+- https://www.themoviedb.org/review/66713279deffc650e983ca1a
 ---
 
 {{< film "Furiosa: A Mad Max Saga" "2024" "https://www.themoviedb.org/movie/786892-furiosa-a-mad-max-saga" "poster.webp" >}}
