@@ -1,3 +1,4 @@
+{{- "" -}}
 <details class="spoiler" data-spoiled-thing="{{ .Get 0 }}">
   <summary>
     <span class="closed">Click to show this spoiler</span>
@@ -5,4 +6,4 @@
   </summary>
   <p data-pagefind-ignore>{{ .Inner | markdownify }}</p>
 </details>
-{{ .Page.Store.Set "hasSpoilers" true }}
+{{- .Page.Store.Set "hasSpoilers" true -}}

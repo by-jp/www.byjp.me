@@ -2,7 +2,7 @@
   {{ partial "intro.html" }}
 
   <ol class="small-post-list">
-    {{- $posts := where .Site.RegularPages "Section" "in" (slice "posts" "bookmarks" "poetry") -}}
+    {{- $posts := where .Site.RegularPages "Section" "in" (slice "posts" "bookmarks" "poetry" "reviews") -}}
     {{- range $posts.ByDate.Reverse | first 6 -}}
       {{- $postType := partial "post-type.txt" . -}}
       {{- $typeSVG := index .Site.Params.defaultSVG ( partial "kebab.txt" $postType) -}}
