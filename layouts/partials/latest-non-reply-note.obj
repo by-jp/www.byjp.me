@@ -1,0 +1,11 @@
+{{- $notePages := where .Site.RegularPages "Section" "eq" "notes" -}}
+{{- $notePage := index $notePages 0 -}}
+{{- if $notePage.Params.inReplyTo -}}
+  {{- range $notePages -}}
+    {{- if not .Params.inReplyTo -}}
+      {{- $notePage = . -}}
+      {{- break -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $notePage -}}

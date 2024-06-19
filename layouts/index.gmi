@@ -38,8 +38,7 @@ Get in touch if you'd like to go to these, or any other events⁺, together!
 
 => /calendar/ 🗓️ My events calendar
 {{ end }}
-{{ $notePage := index (where .Site.RegularPages "Section" "eq" "notes") 0 -}}
-{{ with $notePage }}## A recent note
+{{ with (partial "latest-non-reply-note.obj") }}## A recent note
 📅 {{ .Page.Date.Format "January 2, 2006 — 15:04 (MST)" }}
 
 {{ trim (partial "markdown.gmi" .Page.RenderShortcodes) "\r\n " }}{{ end }}
