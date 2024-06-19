@@ -183,13 +183,13 @@ date = ["date", "publishDate", "lastmod", ":git"]
   filename = 'sitemap.xml'
 
 [mediaTypes]
-  [mediaTypes.'text/opml']
+  [mediaTypes.'text/x-opml']
     suffixes = ['opml.xml']
   [mediaTypes.'text/gemini']
     suffixes = ['gmi']
 [outputFormats]
   [outputFormats.opml]
-    mediaType = 'text/opml'
+    mediaType = 'text/x-opml'
     baseName = 'feeds'
   [outputFormats.calendar]
     baseName = 'events'
