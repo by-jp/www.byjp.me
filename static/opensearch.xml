@@ -1,6 +1,6 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
   <ShortName>byJP</ShortName>
-  <Description>[Search engine full name and summary]</Description>
+  <Description>A simple (and mostly useful) search index of everything I write on my blog. Driven on the client side by the software from https://pagefind.app, it uses the smallest bandwidth possible to deliver search results.</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">/favicon.ico</Image>
   <Image width="32" height="32" type="image/png">/favicon-32x32.png</Image>
