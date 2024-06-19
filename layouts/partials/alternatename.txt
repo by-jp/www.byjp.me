@@ -1,5 +1,6 @@
 {{- if eq . "calendar"}}iCal
 {{- else if eq . "rss"}}RSS
 {{- else if eq . "opml" }}OPML Feed
+{{- else if eq . "gemini" }}Gemini
 {{- else }}Alternate
 {{- end -}}

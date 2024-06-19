@@ -205,7 +205,6 @@ date = ["date", "publishDate", "lastmod", ":git"]
     protocol = 'gemini://'
     permalinkable = true
     noUgly = true
-    notAlternative = true
   [outputFormats.api]
     name = 'JSON API'
     isPlainText = true

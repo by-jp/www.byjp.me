@@ -2,11 +2,13 @@
 {{ $page := .}}
 <nav>
   <ul class="feedlinks">
-  {{ range $page.AlternativeOutputFormats }}
-    {{ if ne .Rel "alternate" }}{{ continue }}{{ end }}
-    {{ $link := ($page.OutputFormats.Get .Name).RelPermalink }}
-    <li><a href="{{ $link | safeURL }}" title="{{ partial "alternatename.txt" .Name }}">{{ partial "svg.html" (dict "name" .Name) }} {{ partial "alternatename.txt" .Name }}</a></li>
-  {{ end }}
+  {{- range $page.AlternativeOutputFormats -}}
+    {{- if ne .Rel "alternate" }}{{ continue }}{{ end -}}
+    {{- $target := $page.OutputFormats.Get .Name -}}
+    {{- $link := $target.RelPermalink -}}
+    {{- if not (hasPrefix $target.Permalink "http") }}{{ $link = (partial "noindex.gmi" $target.Permalink) }}{{ end -}}
+    <li><a href="{{ $link | safeURL }}" title="{{ partial "alternatename.txt" .Name }}">{{ partial "svg.html" (dict "name" .Name) }}{{ partial "alternatename.txt" .Name }}</a></li>
+  {{- end }}
   </ul>
 </nav>
 {{ end }}
