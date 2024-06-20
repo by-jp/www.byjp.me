@@ -12,7 +12,7 @@ references:
       this: Watching in real time as “slop” becomes a term of art. the way that “spam”
       …'
 tags:
-- ai
+- AI
 - words
 ---
 I will be using this word from here on! Unreviewed AI-generated drivel is now “slop”.

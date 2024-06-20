@@ -8,7 +8,7 @@ references:
   bookmark:
     url: https://link.springer.com/article/10.1007/s10676-024-09775-5
     type: entry
-    name: ChatGPT is Bullshit (from Ethics and Information Technology)
+    name: Ethics and Information Technology
     summary: 'Ethics and Information Technology - Recently, there has been considerable
       interest in large language models: machine learning systems which produce human-like
       text and dialogue. Applications of...'

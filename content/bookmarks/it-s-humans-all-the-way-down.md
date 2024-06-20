@@ -13,7 +13,7 @@ references:
       wide web.
     author: Jim Nielsen
 tags:
-- ai
+- AI
 ---
 Strong agree here. Until we are able to feel “seen” by something non-human we’ll always need colleagues and peers in jobs, or the humans will burn out, leave that job, and take their tribal knowledge with them.
 
