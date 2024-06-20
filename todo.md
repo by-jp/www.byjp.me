@@ -10,7 +10,6 @@ Things I might work on within my personal blog's software.
   - [ ] When posted via Echofeed: They include the "in reply to" initial stuff; this is too cumbersome
   - [ ] When posted via Echofeed: They should probably be "Quiet public", or ideally posted as replies to a fedi post, if there's one referenced in the source as a syncidcation
   - [x] They get posted on the homepage, when they shouldn't
-- [ ] Spoiler open styling has regressed!
 
 ### Ideas
 
@@ -61,3 +60,4 @@ Things I might work on within my personal blog's software.
   - Done via EchoFeed!
 - [x] Videos in "photos" don't have a thumbnail, and don't work in the list.
 - [x] Reviews don't appear on homepage?
+- [x] Spoiler open styling has regressed!
