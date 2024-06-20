@@ -5,7 +5,6 @@ tags:
 - Holst
 - SimAnt
 ---
-
 ## Holst's Planets Suite
 
 Partly because my Dad played it often, partly because Holst grew up near where I did, partly because it kicked off my teenage education in music, I will always have a special place in my heart for [The Planets](https://en.wikipedia.org/wiki/The_Planets).

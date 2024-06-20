@@ -6,7 +6,6 @@ tags:
   - japan
   - japan-with-jk
 ---
-
 Premium Economy Baby!
 
 ![A mains power socket in an airplane seat](167385452_0.jpg)

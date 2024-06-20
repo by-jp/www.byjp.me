@@ -11,7 +11,6 @@ summary: My Mum passed away; my brother & I wrote a few words to let our friends
 syndications:
 - https://www.facebook.com/chrismhs/posts/pfbid02VuHgpqAC2LPFdkqvWySGQ5w1Wp7eEH8SSne6wnSA6P9b1pQkNQ9HK4DsKYXBg6rdl
 ---
-
 > My brother and I wrote these few words last week as a way to let friends and family know of my Mum's passing. We've all been progressively more absent from the rest of our lives these last few weeks, and the kind words friends and family have sent us in response have been overwhelmingly lovely.
 >
 > Of the very few people who read this blog I doubt any knew my Mum, and this blog's theme to date has been more towards my tech & creative side than my personal life, but this is important enough to me that I want to include this message here too.

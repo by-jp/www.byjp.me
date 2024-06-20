@@ -2,7 +2,6 @@
 date: 2024-02-22T08:13:10.058Z
 publishDate: 2024-02-22T08:13:10.058Z
 ---
-
 Using [Mona](https://apps.apple.com/gb/app/mona-for-mastodon/id1659154653?uo=4) for mac & want to redirect web links? This kludge may work for you!
 
 1. Install [Redirector](https://chromewebstore.google.com/detail/redirector/pajiegeliagebegjdhebejdlknciafen)

@@ -8,7 +8,6 @@ summary: An alphabet designed to fit the English language's phonemes more closel
 links:
   wikipedia: https://en.wikipedia.org/wiki/Shavian_alphabet
 ---
-
 I've really enjoyed learning the Shavian alphabet! 𐑲'𐑝 𐑮𐑽𐑤𐑰 𐑧𐑯𐑡𐑶𐑛 𐑤𐑻𐑯𐑦𐑙 𐑞 𐑖𐑱𐑝𐑰𐑩𐑯 𐑨𐑤𐑓𐑩𐑚𐑧𐑑!
 
 Because it does away with all the dipthongs and tripthongs of English in the latin [alphabet](/tags/alphabet) it's much shorter (which… is a plus, I guess?) and surprisingly easy to read (once you can recognise the characters).

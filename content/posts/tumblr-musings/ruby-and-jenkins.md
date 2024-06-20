@@ -10,7 +10,6 @@ tags:
   - ruby
   - from-tumblr
 ---
-
 I was trying to integrate my Cucumber and RSpec tests with Jenkins earlier this week and came across a bunch of character encoding errors.
 
 It took me a while to figure out the problem, essentially Jenkins loads a session without all your usual environment variables, so your `PATH` and `LANG` won't be set to the same as a terminal window, making the outcomes different.

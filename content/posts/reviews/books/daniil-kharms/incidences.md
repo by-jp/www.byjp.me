@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/111896935
 ---
-
 {{< book "9781852424800" >}}
 
 {{% importnote 2023-07-27 %}}

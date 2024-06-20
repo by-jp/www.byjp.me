@@ -8,7 +8,6 @@ tags:
 - from-facebook
 - project
 ---
-
 {{% importnote 2024-04-05 %}}
 This being an import of a Facebook post, I also wrote a slightly longer post about this project [here on this blog](/posts/the-beauty-of-type/).
 {{%/ importnote %}}

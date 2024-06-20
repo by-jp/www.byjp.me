@@ -7,7 +7,6 @@ date: 2009-05-16T18:44:00+01:00
 draft: false
 align: left
 ---
-
 **definetry** /dɛfɪnɛtʃʰɹi/\
 &nbsp;&nbsp;&nbsp;&nbsp;The art of defining\
 &nbsp;&nbsp;&nbsp;&nbsp;A word without rhyming.\

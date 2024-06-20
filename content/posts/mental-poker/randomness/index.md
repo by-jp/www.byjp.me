@@ -17,7 +17,6 @@ topics:
 series:
 - Mental poker
 ---
-
 Last week I wrote about what a distributed game protocol is, and why they're useful: for playing games (cards, board games, etc.) with someone who isn't physically present with you. I covered "[open games](../open-games/)", those which only need the players and the board (like Chess), and omit randomness, fate, and secrecy. If you haven't read that post, you should! It covers some context you'll need for this one.
 
 Keep reading if you're interested in how we can design a protocol that allows us to play a game remotely where you can trust that your opponent isn't cheating with their dice rolls!

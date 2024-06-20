@@ -10,7 +10,6 @@ tags:
   - xspf
   - from-tumblr
 ---
-
 > I had an idea last night, I'm going to sketch it out here it may turn into more than an idea at some point!
 
 If you're a hobby podcaster or webradio DJ then you may find yourself limited to the songs you can use without having to hunt down a licence or permission. Despite the fact that its [easier all the time](https://web.archive.org/web/20090930082731/http://www.ukpa.info:80/2008/08/22/the-new-mcps-prs-podcast-license/) it could be time consuming enough to make it not worth while.

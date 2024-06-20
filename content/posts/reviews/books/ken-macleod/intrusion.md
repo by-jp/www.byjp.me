@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/566131190
 ---
-
 {{< book "9781841499390" >}}
 
 {{% importnote 2023-07-27 %}}

@@ -9,7 +9,6 @@ tags:
 title: "てのゆ おんせん"
 location: 35.245028,139.057335
 ---
-
 I'm writing from the 'tenoyu onsen' (see title) which is a **very** nice onsen, or Japanese public bath/spa, in Miyashita. For a reasonable 1600¥ (~£10) your given your towel, flannel, a toothbrush set and a razor and ushered into the spa area. Onsen can feel a little daunting to begin with, you're never exactly sure what the custom is (the signs are in Japanese Kanji and sometimes, if you're lucky, 'Engrish') but once you've been a couple of times, as we now have, it's blissful.
 
 The first step is probably the weirdest for us; strip naked. Naturally men & women have separate spa sections but you take nothing into the baths but your birthday suit! You then squat on a tiny plastic stool (that's a very comfortable fit!) and shower very extensively. Full body soaping, using your flannel to scrub your back, your feet, between your toes - essentially the exfoliating wash your Mum always told you to have.

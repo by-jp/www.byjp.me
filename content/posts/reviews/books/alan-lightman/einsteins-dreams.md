@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/610034736
 ---
-
 {{< book "9781400077809" >}}
 
 {{% importnote 2023-07-27 %}}

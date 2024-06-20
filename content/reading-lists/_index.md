@@ -11,7 +11,6 @@ sitemap:
   changefreq: monthly
   priority: 0.3
 ---
-
 A while ago I spotted a [fediverse post](https://social.masto.land/@dave/111273568591273761) from [Dave Winer](http://scripting.com/?tab=about) that talked about _reading lists_.
 
 > **What is a reading list?**

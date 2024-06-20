@@ -11,5 +11,4 @@ syndications:
 - https://bsky.app/profile/byjp.me/post/3kbwxsa6esm2b
 - https://pixelfed.social/p/jphastings/619856573800023125
 ---
-
 Mum's garden today 🌱 I miss her. 🖤

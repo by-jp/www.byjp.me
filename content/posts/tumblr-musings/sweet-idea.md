@@ -8,7 +8,6 @@ tags:
   - idea
   - from-tumblr
 ---
-
 > Thinking about making a url-‘shortener’ which shortens urls if pronounced eg http://foo.bar/guid -> http://nowsay.it/waterwingflapjack
 >
 > - [benosteen](https://www.tumblr.com/benosteen/465782940) on tumblr

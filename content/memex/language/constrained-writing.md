@@ -9,7 +9,6 @@ summary: Artificial limitations applied to a language to open up new ways to use
 links:
   wikipedia: https://en.wikipedia.org/wiki/Constrained_writing
 ---
-
 ## oulipo.social
 
 A fascinating restricted writing [mastodon](/tags/mastodon) instance, where all accounts' posts are filtered automatically (and later moderated) to conform to the restriction — not using the letter E. [oulipo.social](https://oulipo.social)

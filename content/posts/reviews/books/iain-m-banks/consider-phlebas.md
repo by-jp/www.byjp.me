@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/316204375
 ---
-
 {{< book "9781857231380" >}}
 
 {{% importnote 2023-07-27 %}}

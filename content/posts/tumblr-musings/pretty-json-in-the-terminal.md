@@ -8,7 +8,6 @@ tags:
   - tools
   - from-tumblr
 ---
-
 [kaspertidemann.com](https://web.archive.org/web/20141024021149/http://www.kaspertidemann.com/pretty-printing-json-in-the-terminal/)
 
 This was _exactly_ what I was looking for.

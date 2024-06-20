@@ -4,7 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-
 ```javascript
 while(VictoriasSecretFashionShow()) { --productivity(); }
 ```

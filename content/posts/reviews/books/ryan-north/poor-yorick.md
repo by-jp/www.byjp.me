@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/808640102
 ---
-
 {{< book "/books/OL49208407M" >}}
 
 {{% importnote 2023-07-27 %}}

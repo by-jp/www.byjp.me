@@ -10,7 +10,6 @@ tags:
 - interactivity
 - design
 ---
-
 ## Asterisk Magazine
 
 I love the design of [this magazine](https://asteriskmag.com/), the simple colours & design (as well as their ethos), but one little feature particularly is super intriguing!

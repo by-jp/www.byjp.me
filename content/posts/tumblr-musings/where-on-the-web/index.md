@@ -14,7 +14,6 @@ tags:
   - whereontheweb
   - from-tumblr
 ---
-
 {{< figure src="where-on-the-web.jpg" alt="A terrain map of the earth over the Atlantic, showing red dots moving between the UK and other places on earth" >}}
 
 Where On The Web is aliiiiive!

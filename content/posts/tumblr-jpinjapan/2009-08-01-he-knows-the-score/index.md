@@ -6,7 +6,6 @@ tags:
   - japan
   - japan-with-jk
 ---
-
 > **PA:** The doors to the left will open in just a moment.
 >
 > **JP:** What? But we’re going that way, no they won’t!

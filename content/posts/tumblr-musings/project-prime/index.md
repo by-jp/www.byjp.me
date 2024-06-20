@@ -11,7 +11,6 @@ tags:
   - cy densham
   - from-tumblr
 ---
-
 ![A web-based questionaire describing this project/poem, asking people their age, and what they think of the poetry.](questionaire.jpg)
 
 In its final days now, [Project Prime](/standalone/project-prime)[^1] is my attempt at combining art, poetry and maths in a funky little collaborative weave.

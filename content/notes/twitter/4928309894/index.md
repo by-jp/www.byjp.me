@@ -4,7 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-
 (via [@RichardJJ](/twitter/#/RichardJJ))
 
 {{< youtube zSgiXGELjbc >}}

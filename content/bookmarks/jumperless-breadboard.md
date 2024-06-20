@@ -11,7 +11,6 @@ references:
 tags:
 - electronics
 ---
-
 I spend a good few days every couple of months building an electronics project of one variety or another, so I have _a lot_ of breadboard, veroboard, microcontroller boards, and ICs that do word and wonderful things floating about the place.
 
 I have never seen anything **so awesome** as the Jumperless “breadboard”.

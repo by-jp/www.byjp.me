@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/202287308
 ---
-
 {{< book "9780307887436" >}}
 
 {{% importnote 2023-07-27 %}}

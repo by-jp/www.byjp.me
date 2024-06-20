@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/111897239
 ---
-
 {{< book "9780451162335" >}}
 
 {{% importnote 2023-07-27 %}}

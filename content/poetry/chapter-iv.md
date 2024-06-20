@@ -8,7 +8,6 @@ draft: false
 align: center
 prev: chapter-iii
 ---
-
 Shadows in the fading blue -\
 Serenity, for a while, is yours\
 But her depth is still beyond…

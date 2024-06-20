@@ -12,7 +12,6 @@ tags:
   - screen scraping
   - from-tumblr
 ---
-
 I get really frustrated when websites don't have APIs. I know its kinda mean to screen scrape, and potentially prevented by ToCs etc, but I built this anyway. I have finals exams to revise for and not enough to procrastinate with!
 
 So, what is all this SlyPI nonsense about then?

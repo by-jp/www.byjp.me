@@ -7,7 +7,6 @@ tags:
   - japan
   - japan-with-jk
 ---
-
 Hi all this is JK writing.
 
 We had an amazing day, unfortunately we started off slowly as we had to leave the amazing ryokan that we were staying in the night before, due to the price, and move to a different place.  The whole process started off very slowly because we ended up with a rail pass not a bus pass and kyoto only has two railway tracks and 50 odd bus routes, bummer! Then we got the hang of where we were going and what we were doing and ended up in the right vicinity, after a couple of pleas for help we found that we were staying in the grounds of the local temple "Daitojoku" (The name needs to be clarified).  When I found this out I was over joyed, I don`t know about JP, and when we found it, it was a small quaint place run by one woman called Mrs Tani.  For those who have heard of her she is a little like The Pink Lady from Cannes, as in, she speaks close to perfect English but refuses to speak any at all if she thinks she can get more money out of you! Once we had arrived we sorted our selves out and headed down to the place of the 10,000 (_Ichi man_) Torii.

@@ -16,7 +16,6 @@ references:
     summary: A playable quote is a durable, delimited reference to a specific moment in a game along with a reference recording of how that moment can play out.
     featured: https://cdn.glitch.me/80f5a65b-f7e3-4b40-b639-8e2c014de0ca%2Frecording-quote.png
 ---
-
 This research team has built a method of reducing a Gameboy ROM to only the subset of its data needed to play a certain recorded section of a mini-playthrough.
 
 This means you can insert a _playable_ of a game into your site, without encroaching on copyright! Plus you can upload the (same) ROM and continue playing from that point in the game too. This is extremely cool!

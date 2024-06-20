@@ -16,7 +16,6 @@ tags:
 - stories
 - cocktails
 ---
-
 This theatre is in my local pub, and it sucks how little I've been to their events! 2024's a good year to change this.
 
 > Tall Tales & Cocktails at The Rosemary Branch. Join us for an evening of captivating stories and delightful cocktails.

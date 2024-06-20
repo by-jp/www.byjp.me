@@ -8,7 +8,6 @@ tags:
   - from-tumblr
   - via-twitter
 ---
-
 > Try another pleasure, such as putting your underwear in the fridge when the weather is hot.
 >
 > Rich Jackson _on Twitter_

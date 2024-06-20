@@ -11,7 +11,6 @@ topics:
 - Travel
 - Myself
 ---
-
 {{< figure alt="" src="header.webp" class="big" >}}
 
 I've just finished my ninth-last day at work before our sabbatical begins. Nine isn't a special number, and nor was today unique except, for the first time, our travels are starting to feel *real*.

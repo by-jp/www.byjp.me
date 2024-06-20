@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/687343274
 ---
-
 {{< book "9780812993295" >}}
 
 {{% importnote 2023-07-27 %}}

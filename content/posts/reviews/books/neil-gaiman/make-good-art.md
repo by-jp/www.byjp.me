@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/808658340
 ---
-
 {{< book "9780062266767" >}}
 
 {{% importnote 2023-07-27 %}}

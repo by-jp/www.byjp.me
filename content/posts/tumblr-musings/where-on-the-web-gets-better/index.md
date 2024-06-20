@@ -11,7 +11,6 @@ tags:
   - geo
   - from-tumblr
 ---
-
 ![A terrain map of the earth over the Atlantic, showing different sized red dots moving between the UK and other places on earth](./screencap.jpg)
 
 I improved Where On The Web? with an OpenGL twist (making it a lot faster - tho antialiasing is broken) and by varying the size of the ‘packets’ as they travel around the globe, you can now see roughly how much data is winging its way around the web.

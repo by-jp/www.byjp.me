@@ -12,7 +12,6 @@ tags:
 - web
 draft: true
 ---
-
 Hello friends, I miss you! I'm barely on the giant social media sites any more, which means I don't get to interact with so many of you in the ways I used to. It sucks.
 
 So I have a proposition for you: if you're feeling a little creative, if you'd like to _be_ the change bringing more personality and creativity to the internet, then **I'll help you get there**.

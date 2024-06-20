@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/879236135
 ---
-
 {{< book "9781847670243" >}}
 
 {{% importnote 2023-07-27 %}}

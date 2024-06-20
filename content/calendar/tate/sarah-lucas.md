@@ -16,7 +16,6 @@ tags:
 - art
 - exhibition
 ---
-
 A last minute afternoon visit with Karol.
 
 > **A British artist's brash and tender exploration of what makes us human**

@@ -16,7 +16,6 @@ syndications:
 - https://medium.com/miriscient/miriscience-5e342ff198f5
 - https://soundcloud.com/miriscient/miriscience
 ---
-
 It was early March, 2018 when I realised I’d found the answer to a question that had been niggling at me for decades. That answer itself took only three years of pondering, but the question took what felt like all of my then 29 rotations to clearly define.
 
 The moment of clarity came during a swing dance festival camp in Herräng, Sweden. I’d met a person who, like all unforgettable people, was the distillation of a personality trait I adored: she was forever in awe of the world around her. I found myself in need of defining that state of knowing wonder, to better understand that part of myself, and to look for it in others.

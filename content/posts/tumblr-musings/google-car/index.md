@@ -9,7 +9,6 @@ tags:
   - street map
   - from-tumblr
 ---
-
 ![A screenshot of Google StreetView zoomed in to show a (blurry-faced) JP standing at a zebra crossing.](screenshot.jpg)
 
 Yeah. I saw the Google car. And yes, I'm wearing my [awesome retro comedy t-shirt](https://www.thatawesomeshirt.com/shirt/2516/blow-me/)[^1]. Tho I have short hair, which looks very weird now...

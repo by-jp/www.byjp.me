@@ -10,7 +10,6 @@ tags:
   - code
   - from-tumblr
 ---
-
 ![The visual element of Project Prime: a slightly chaotic stained-glass window of different coloured polygons of colour in a rectangular web browser page.](voronoi.jpg)
 
 I finally got round to [completing project prime](/standalone/project-prime/), it's a collaborative artwork based on four of [my poems](https://www.byJP.me/poetry), Chapters [I](https://www.byJP.me/poetry/chapter-i), [II](https://www.byJP.me/poetry/chapter-ii), [III](https://www.byJP.me/poetry/chapter-iii) and [IV](https://www.byJP.me/poetry/chapter-iv).

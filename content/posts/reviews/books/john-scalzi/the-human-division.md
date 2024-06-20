@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/604255023
 ---
-
 {{< book "9780765333513" >}}
 
 {{% importnote 2023-07-27 %}}

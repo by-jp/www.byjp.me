@@ -8,7 +8,6 @@ tags:
   - computing
   - from-tumblr
 ---
-
 After a quick support request from the Plex team I [mentioned](http://www.exquisitetweets.com/tweets?ids=27961963239.27962240192.27962528580.27962628615) how much I'd like a linux version of the Plex Media Server so I could look to getting it working on a [Drobo FS](http://www.drobo.com/products/drobo-fs.php).
 
 As the anonymous Plexian noted, the major issue with this would be the lack of power in Drobo's CPU for transcoding — you just wouldn't be able to live-stream videos to mobile devices from PMS running on embedded systems.

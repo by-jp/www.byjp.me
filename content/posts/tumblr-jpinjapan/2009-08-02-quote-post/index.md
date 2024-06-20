@@ -6,7 +6,6 @@ tags:
   - japan
   - japan-with-jk
 ---
-
 > Wouldn't you love to be in a wheelchair right now?
 >
 > - JK (At the top of one of the many slopes in the Imperial Gardens)

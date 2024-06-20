@@ -6,7 +6,6 @@ emoji: 🔗
 tags:
   - from-tumblr
 ---
-
 A long time ago [benosteen wrote](http://benosteen.tumblr.com/post/465782940/thinking-about-making-a-url-shortener-which) that he'd link to make a URL shortener that creates speakable URLs.
 
 Looking back over this (hideously unkempt) blog I realised I finished building exactly this a few weeks back. Take a peek at [Iconic.im](http://iconic.im)[^1].

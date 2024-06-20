@@ -7,7 +7,6 @@ references: {}
 tags:
 - ThisIsMyJam
 ---
-
 This is my jam!
 
 {{< spotify path="/track/5cGZN0P1QnSfhCFBCHtp2N" title="Peach" artist="salute" url="https://songwhip.com/salute2/peach" >}}

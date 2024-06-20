@@ -4,7 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-
 ```ruby
 a = 1.0 Newton
 b = 2.1 Newtons

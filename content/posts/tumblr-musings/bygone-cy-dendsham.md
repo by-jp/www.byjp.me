@@ -9,7 +9,6 @@ tags:
   - language
   - from-tumblr
 ---
-
 [bygone](/poetry/bygone)[^1] by Cy Densham
 
 I continue to write small chunks of poetry, under my pen name _Cyrus Densham_. I’ve not really had any literary training (wooh, English GCSE) so they really are just what I think sounds nice. Still, feel free to deconstruct and criticise, but they’re genuinely not written to impress anyone (isn’t that the point?).

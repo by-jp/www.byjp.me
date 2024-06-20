@@ -7,5 +7,4 @@ tags:
 - wedding
 - travel
 ---
-
 We spent this weekend at our wedding venue outside Bordeaux, making sure everything is set up for July. It's idyllic! We're so happy, even if there's a lot of work to do 😅

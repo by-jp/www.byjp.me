@@ -6,7 +6,6 @@ date: 2018-12-17T09:30:48Z
 publishDate: 2024-03-31T19:51:59.781Z
 align: left
 ---
-
 Morning always brought about a sigh of resignation for me.\
 A feeling of incompatibility\
 Between the world inside my dreaming head\

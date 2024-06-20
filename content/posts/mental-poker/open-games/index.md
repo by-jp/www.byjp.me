@@ -16,7 +16,6 @@ topics:
 series:
 - Mental poker
 ---
-
 Yesterday I wrote a behemoth of a blog post about why I'm excited about distributed protocols, with not-really-that-short descriptions of 4 different projects that are gently ticking over in my head. It was a mess 😂
 
 I've decided to split it apart into a mini-series on distributed game protocols (and probably another post on my favourite distributed microblogging protocol, ATProto, and why I think it's so interesting).

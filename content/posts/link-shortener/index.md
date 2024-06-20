@@ -18,7 +18,6 @@ syndications:
 - https://bsky.app/profile/byjp.me/post/3jzz5ksqk342f
 - https://hachyderm.io/@byjp/110678606565568698
 ---
-
 Link shorteners are superbly useful, but _really bad_ for the longevity of the world wide web. Every time you use tinyurl.com, bit.ly, or similar you are taking something open and direct (the web address of the think you're pointing people to) and hiding it within the black box that is the company behind that site. We can improve this dire situation with the InterPlanetary FileSystem!
 
 If tinyurl.com closes its doors, or if bit.ly is bought by a billionaire who charges people to see the long link behind the short one, part of the interlinking fabric that holds the web together is lost. This is the way the web "rots"; by the removal of the content that holds it together.

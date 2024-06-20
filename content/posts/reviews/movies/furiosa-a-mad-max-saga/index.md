@@ -12,7 +12,6 @@ syndications:
 - https://bsky.app/profile/byjp.me/post/3kv6m2uq6uc2y
 - https://www.themoviedb.org/review/66713279deffc650e983ca1a
 ---
-
 {{< film "Furiosa: A Mad Max Saga" "2024" "https://www.themoviedb.org/movie/786892-furiosa-a-mad-max-saga" "poster.webp" >}}
 
 I really enjoyed this film! It is _a lot_ of explosions and brutality, but it was continually compelling — even as I questioned why I was so invested. At 2h20m it definitely made me feel my sleepy age (I saw it yesterday evening, on my 39th birthday, and I was squinting and yawning by the end!) but I felt more impressed that a relatively slow paced film gripped me for so long.

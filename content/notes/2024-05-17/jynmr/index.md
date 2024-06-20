@@ -8,7 +8,6 @@ tags:
 - crowdfunding
 - Kenya
 ---
-
 My friend and his hundred year old cũcũ (granny) are [crowdfunding](/tags/crowdfunding) to build a cultural archive of the language and stories from their family home in Embu, [Kenya](/tags/kenya). They're also helping fund the tenth episode of an animated children's show exploring African nursery rhymes!
 
 https://www.kickstarter.com/projects/njeru/uli-and-tatas-african-nursery-rhymes-embu-special

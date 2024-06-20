@@ -7,7 +7,6 @@ date: 2010-03-14
 draft: false
 align: left
 ---
-
 grains of sand rolling,\
 waves re-tumbling again\
 jazz plays softly

@@ -7,7 +7,6 @@ date: 2010-01-03T23:34:00+00:00
 draft: false
 align: left
 ---
-
 Laborious motion,\
 Double beat pattern.
 

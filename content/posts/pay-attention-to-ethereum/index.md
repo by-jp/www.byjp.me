@@ -13,7 +13,6 @@ topics:
 syndications:
 - https://medium.com/@jphastings/why-you-should-pay-attention-to-ethereum-96766a2c89a4
 ---
-
 [Cryptocurrencies](https://en.wikipedia.org/wiki/Cryptocurrency) are [stealing](https://www.forbes.com/sites/laurashin/2017/05/20/as-cryptocurrency-markets-reach-new-highs-the-ethereal-summit-paints-a-rich-future) [the](https://fortune.com/2017/05/20/ethereum-ico-blockchain-token/) [limelight](https://www.ft.com/content/61cdc5c8-370e-11e7-bce4-9023f8c0fd2e) in the world of finance at the moment. They definitely deserve your attention but I wanted to voice some interesting implications of their success that bear levels of consideration that only getting thoughts down in words can provide!
 
 The first section below goes through the basic concepts of digital currencies assuming as little prior knowledge as possible, and beneath is a more editorial look at why I think the complexities of systems like this are useful and bound for success.

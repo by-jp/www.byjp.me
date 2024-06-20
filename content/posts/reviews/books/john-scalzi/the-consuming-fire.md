@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/2569740480
 ---
-
 {{< book "9781509835171" >}}
 
 {{% importnote 2023-07-27 %}}

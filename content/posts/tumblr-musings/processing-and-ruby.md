@@ -12,7 +12,6 @@ tags:
   - geo
   - from-tumblr
 ---
-
 I got stuck into [processing](https://processing.org) this weekend - I’ve been meaning to try it out for some time, but I also found a fantastic little project called [ruby-processing](https://github.com/jashkenas/ruby-processing/wiki). Yes, its exactly what it sounds like geeks, its the visual control of the processing language, in Ruby!
 
 I instantly set about making a cool little toy, and I’ve got something pretty nifty almost ready for a release. Using the [carnivore](https://wiki.github.com/jashkenas/ruby-processing/r-s-g.org/carnivore/) library to watch the internet traffic going through your computer, and the fabulous free [hostip.info](https://hostip.info), I plot the global locations of the other computers your computer is talking to, in real time!

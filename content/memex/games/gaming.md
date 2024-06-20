@@ -13,7 +13,6 @@ references:
     name: The Puzzmo Manifesto
     rel: +agree
 ---
-
 ## Puzzmo manifesto
 
 The [Puzzmo manifesto](https://www.puzzmo.com/public-manifesto) is all a good read, but the section play being health resonates with me!

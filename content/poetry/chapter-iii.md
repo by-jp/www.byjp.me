@@ -9,7 +9,6 @@ align: center
 prev: chapter-ii
 next: chapter-iv
 ---
-
 Trapped within the blues\
 A four cycle symphony\
 Repeats; such music!

@@ -32,5 +32,4 @@ tags:
 - art
 - inspire
 ---
-
 > The original contemporary late night event. Friday Late celebrates all aspects of contemporary visual culture and design in society, bringing audiences together with leading and emerging artists and designers through live performance, film, installation, debate, DJs and more.

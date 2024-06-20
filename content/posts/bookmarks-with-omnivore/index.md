@@ -17,7 +17,6 @@ syndications:
 - https://hachyderm.io/@byjp/111793793066838551
 - https://bsky.app/profile/byjp.me/post/3kjihigmapz2a
 ---
-
 Yesterday, recovering from a nasty (thankfully non-Covid) cold, I decided to build an import tool for pulling articles I've read & enjoyed in [Omnivore](https://omnivore.app) into this blog as [bookmarks](/booksmarks) (in the [IndieWeb style](https://indieweb.org/bookmark)).
 
 Check out an example here with my bookmark of [The Tyrany of Obviousness](/bookmarks/the-tyrany-of-obviousness) by P.E. Moskowitz.

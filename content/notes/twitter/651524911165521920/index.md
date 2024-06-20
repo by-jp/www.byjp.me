@@ -5,7 +5,6 @@ tags:
 - from-twitter
 - WelcomeToNightvale
 ---
-
 1. Separate your lips
 2. Use facial muscles to pull back corners of mouth
 3. Widen your eyes

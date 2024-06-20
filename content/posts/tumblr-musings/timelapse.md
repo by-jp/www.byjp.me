@@ -6,7 +6,6 @@ emoji: 📼
 tags:
   - from-tumblr
 ---
-
 {{< vimeo 3938435 >}}
 
 Not perfect, but a fine start I’d say!

@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/224218792
 ---
-
 {{< book "9780140125054" >}}
 
 {{% importnote 2023-07-27 %}}

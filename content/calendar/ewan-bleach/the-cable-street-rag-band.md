@@ -16,7 +16,6 @@ tags:
 - jazz
 - swing
 ---
-
 > The Cable Street Rag Band’s Thursday night residency at Jamboree. 1920s and ’30s jazz and swing all night long with a jam session from 11:30 - 12:30.
 >
 > [Get your tickets here](https://www.wegottickets.com/event/598828/)

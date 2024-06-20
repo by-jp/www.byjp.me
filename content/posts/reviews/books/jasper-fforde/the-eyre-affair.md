@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/687343966
 ---
-
 {{< book "9780142001806" >}}
 
 {{% importnote 2023-07-27 %}}

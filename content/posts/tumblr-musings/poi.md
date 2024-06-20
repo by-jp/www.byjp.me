@@ -10,7 +10,6 @@ tags:
   - poi
   - from-tumblr
 ---
-
 {{< vimeo 4162724 >}}
 
 A short one, while I figure out the best ways to deal with fire long exposures. There’s a longer one in the works at the moment.

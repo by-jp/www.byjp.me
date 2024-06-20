@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/698555776
 ---
-
 {{< book "9781782391210" >}}
 
 {{% importnote 2023-07-27 %}}

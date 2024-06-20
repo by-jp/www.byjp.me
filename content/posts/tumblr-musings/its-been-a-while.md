@@ -16,7 +16,6 @@ tags:
   - gem
   - from-tumblr
 ---
-
 Well, its been a few months since I posted last - the genuine joy of interesting/difficult work in my final year as a Physics undergrad - but there's a fair amount I should probably put up here for posterity:
 
 - I've become very interested in [Playdar](https://playdar.org) - an old friend of mine, [James Wheare](http://james.wheare.org/), is a ket developer - and the possibilities music resolution has to offer. As a consequence I released quite a few libraries and a program that helps some of playdar's features become a little more tangible.

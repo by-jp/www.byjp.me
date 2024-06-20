@@ -9,7 +9,6 @@ align: center
 prev: chapter-i
 next: chapter-iii
 ---
-
 Sphere so hot\
 Burning like the sun\
 Expanding

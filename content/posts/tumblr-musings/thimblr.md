@@ -10,7 +10,6 @@ tags:
   - tumblr
   - from-tumblr
 ---
-
 {{< vimeo 10866898 >}}
 
 I've released [Thimblr](https://github.com/jphastings/thimblr) — a tool to speed up your Tumblr theme development. Its a Ruby gem, so it's very simple to install, with `gem install Thimblr`, once that's done you just need to run `thimblr`, as a binary is installed for you with the gem.

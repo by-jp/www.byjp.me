@@ -12,7 +12,6 @@ location:
   longitude: -0.055544872008334335
 summary: Comedy night with Alan Davies, Tim Key, Bridget Christie, Fatiha El-Ghorri, and Lou Sanders
 ---
-
 > London’s biggest comedy night returns with a mega line-up this April, headlined by the much-loved QI, Jonathan Creek and As Yet Untitled star Alan Davies!
 >
 > Alan is joined by some of the finest comics in the land: the masterful Tim Key, the multi award-winning Bridget Christie, Hackney’s very own rising star Fatiha El-Ghorri, and Taskmaster champ turned queen of the ice, Lou Sanders hosts.

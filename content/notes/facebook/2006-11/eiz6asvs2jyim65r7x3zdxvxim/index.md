@@ -13,7 +13,6 @@ references:
   author: Ze Frank
   date: 2024-04-04T17:12:20.848753+01:00
 ---
-
 {{% importnote 2024-04-04 %}}
 Sadly the original website for this has gone; but a [wikipedia article](https://en.wikipedia.org/wiki/The_show_with_zefrank) and are [all available here on Youtube](https://www.youtube.com/playlist?list=PLMs_JcuNozJa7tg80N_kITisZjHHeE3uo) for now at least!
 {{%/ importnote %}}

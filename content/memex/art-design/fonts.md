@@ -18,7 +18,6 @@ references:
     name: TrueType Reference Manual
     rel: +accurate
 ---
-
 ## TTF Fonts
 
 I've a niggling mini-project to write code to insert new emoji into my mac's system emoji font file. For no good reason than to say that I can, I'm wondering whether I can (for example) show `🍝` + the [zero-width-joiner](#zero-width-joiner) + `🚲` as a newly inserted glyph of [Deliveroo's](https://deliveroo.co.uk) logo. Naturally this wouldn't be useful to anyone except myself (as no-one else would have this glyph), but I'm using it as a way to learn how TrueType Fonts are put together.

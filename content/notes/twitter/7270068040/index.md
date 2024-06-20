@@ -5,7 +5,6 @@ tags:
 - from-twitter
 - nyResolution
 ---
-
 ```c
 #nyResolution() { verbalBandwidth.compression++ }
 ```

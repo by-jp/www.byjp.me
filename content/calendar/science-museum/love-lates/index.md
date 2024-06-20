@@ -17,7 +17,6 @@ tags:
 - love
 - lates
 ---
-
 I've always enjoyed the Science Museum, and their lates particularly! I'll definitely be going, and maybe I'll see you there!
 
 > This March, join us at Lates for a journey to unravel the essence of love.

@@ -5,7 +5,6 @@ tags:
 - adam-neely
 - bossa-nova
 ---
-
 ## The Girl from Ipanema
 
 Adam Neely is always brilliant to listen to, but [this video](https://www.youtube.com/watch?v=OFWCbGzxofU) about "the second most recorded song in human history", The Girl from Ipanema, is incredibly interesting! Dive in and see what you think!

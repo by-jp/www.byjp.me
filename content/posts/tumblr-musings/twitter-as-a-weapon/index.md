@@ -10,7 +10,6 @@ tags:
   - customer-service
   - from-tumblr
 ---
-
 My brother just showed me to "[an interesting news story](https://bbc.co.uk/news/technology-23943480)" - it really is.
 
 Mr. Syed won't be the first person to use advertising space to get eyeballs on a private grievance (though you can argue this one has public appeal too), but before the dawn of promoted messages on social media this method of being heard cost _serious_ money; I think the decreasing cost and general availability of releasing weighty negative advertisements is a serious potential problem.

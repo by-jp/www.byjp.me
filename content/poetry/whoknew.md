@@ -8,7 +8,6 @@ date: 2008-01-01
 draft: false
 align: left
 ---
-
 Shattered panes of understanding\
 This is not how things should be!\
 Self comprehension denied at once\

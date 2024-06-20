@@ -16,7 +16,6 @@ tags:
 - neurodivergence
 - creativity
 ---
-
 If I can find some time away from work this afternoon I'd love to attend this lecture!
 
 > Join us for a fascinating and inspiring conversation with Kristjana Williams, a renowned artist and designer who has overcome dyslexia to create stunning artworks that have been exhibited and commissioned worldwide. Kristjana will share her personal and professional journey, from her childhood in Iceland to her studies at Central Saint Martins, and how she has embraced her neurodiversity as a source of creativity and innovation.

@@ -13,7 +13,6 @@ tags:
 syndications:
 - https://www.goodreads.com/review/show/604252422
 ---
-
 {{< book "9780441014156" >}}
 
 {{% importnote 2023-07-27 %}}

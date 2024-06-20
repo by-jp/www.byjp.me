@@ -10,7 +10,6 @@ tags:
   - ruby
   - from-tumblr
 ---
-
 I had some time to kill on a lazy summer's day and I noticed that splendid chap [Max](https://mxcl.dev/), had posed a question to the lazy web:
 
 > Is there a tool for measuring profanity in code-bases? If not, can someone write it and call it "pottymouth"? Ta.

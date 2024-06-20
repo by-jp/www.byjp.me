@@ -8,7 +8,6 @@ tags:
   - japan-with-jk
   - voice-note
 ---
-
 さようなら！ Sayounara! Goodbye Japan!
 
 I'm in Narita Tokyo Airport at this very moment. Our flight's gonna leave in half an hour. And… this is it! It's a great shame, it's been an amazing trip. But I hope to come back soon. See you soon!

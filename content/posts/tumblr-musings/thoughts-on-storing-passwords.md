@@ -10,7 +10,6 @@ tags:
   - database
   - from-tumblr
 ---
-
 Yesterday at work I was discussing the design of password databases with my boss. I don't claim to have any deep knowledge in the area, but we came out with the following structure which seems to have good inherent security as well as the possibility to improve that as technology improves.
 
 ## Password

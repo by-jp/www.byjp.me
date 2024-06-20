@@ -17,7 +17,6 @@ tags:
 - film
 - Dune
 ---
-
 I remember finishing the last installation and thinking how much closer to 40 I'd be by the time the next one came out — I feel old now, but I can't _wait_ to see how this story I've enjoyed so much in every form translates to the big screen again!
 
 {{< film "Dune" "2024" "https://www.themoviedb.org/movie/693134-dune-part-two" "poster.webp" >}}

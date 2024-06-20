@@ -11,7 +11,6 @@ tags:
 - us
 - ImmersiveTheatre
 ---
-
 Earlier today a friend offered us some tickets to Gingerline's [The Grand Expedition](https://www.gingerline.co.uk/) they couldn't use, which — apart from being _insanely_ kind — was exactly the break the two of us needed from a busy week!
 
 The food was wonderful, the theatrical antics fun & inspiring, and the people we got to chat with were just lovely. What a night!

@@ -11,7 +11,6 @@ topics:
 - Myself
 - IndieWeb
 ---
-
 I'm pretty fed up of Facebook and Instagram. I barely use them, but when I do I _binge_, and end up feeling terrible afterwards. I'm familiar with how sites like these use data analytics to group humans into buckets according to the best ways to maximise dopamine release, and the _percent of our day_ we spent on their sites/apps, and it makes me itch.
 
 I don't want my attention to be milked. I don't want to feel _more_ distant from my friends on the platforms that claim to connect me with them. Six advertisements and four rose-tinted travel "influencer" posts between anything relating to my friends' lives isn't useful or good for me. It's clearly time to leave.

@@ -10,7 +10,6 @@ tags:
   - senjo-ji
   - capoeira
 ---
-
 Wow! Today has been another amazingly busy day, I really don't know how we're going to top this!
 
 An early start, in order to clear out of the ryokan (luxury I'm sure we'll miss!), but still 8:30 so hardly bad! A quick metro ride to kamata to store our bags for the day (500¥ = £3.25 for the whole day for 2 backpacks - beat that London!) - and straight to tsukiji to try and catch the end of the fish Market...

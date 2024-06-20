@@ -8,7 +8,6 @@ tags:
 - designers
 - dieter-rams
 ---
-
 ## Dieter Rams Palette
 
 _Colours taken from Dieter Rams legendary product collection for Braun._ [via [present and correct](https://www.presentandcorrect.com/blogs/blog/rams-palette)]

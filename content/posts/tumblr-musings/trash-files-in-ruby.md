@@ -10,7 +10,6 @@ tags:
   - github
   - from-tumblr
 ---
-
 [github.com](https://github.com/jphastings/trash)
 
 I’ve written a ruby `File` class extension - `File.trash( filename )` - which allows you to send files to the Trash or Recycle bin (depending on your OS).

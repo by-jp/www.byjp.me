@@ -12,7 +12,6 @@ tags:
   - geo
   - from-tumblr
 ---
-
 {{< vimeo 4252126 >}}
 
 Oooooh, a screencast? About my latest app? How exciting!

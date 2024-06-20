@@ -12,7 +12,6 @@ topics:
 - Myself
 - Romance
 ---
-
 {{< figure title="Torres del Paine" alt="The three stunning spires of Torres del Paine,standing in front of the lagoon on top of the mountain." src="header.webp" class="big">}}
 
 A day or two before arriving in Patagonia I started looking at reviews of the “W” circuit hike that is one of the star attractions of the region. It’s a 70km hike with two 1km high viewpoints to reach, that we were planning to complete over 5 days (and 4 nights staying in well tended hostels, or _refugios_), so getting some advice from those before us seemed prudent at the least!

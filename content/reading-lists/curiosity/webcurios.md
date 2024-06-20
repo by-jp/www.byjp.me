@@ -5,5 +5,4 @@ feed:
   rss: https://webcurios.co.uk/feed/
   url: https://webcurios.co.uk
 ---
-
 I _love_ this feed! So much interesting web-related joy — creativity, web art, little online digital gardens.

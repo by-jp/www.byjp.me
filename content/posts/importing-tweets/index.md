@@ -12,7 +12,6 @@ tags:
 topics:
 - IndieWeb
 ---
-
 It wasn't until I started writing this post that I realised how long I was a user of Twitter. For 2 days shy of 13 years (from Nov 16, 2009 to Nov Nov 14, 2022) I posted [random thoughts](/notes/twitter/860849128724713472), experimented (with [geotagging](/notes/twitter/22679551), [OAuth](/notes/twitter/78268982) and more), and watched it change the internet with the invention of [hashtags](/notes/twitter/1412088964), retweets ([before](/notes/twitter/2460448329/) it was "via"), `@`tags ([before](/notes/twitter/74694)—while watching Ze Frank's The Show, [after](/notes/twitter/113686952)—when my friends all had handles that were just their names).
 
 I even used it during its SMS-powered phase, where the 140 charcter limit came from; a tweet starting with your username ([as they did](/notes/twitter/70903) back then) allowed for 20 characters of username and 140 characters of thought was the 160 limit of SMS.

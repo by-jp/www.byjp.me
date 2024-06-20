@@ -8,8 +8,6 @@ author: Cy Densham
 draft: false
 align: left
 ---
-
-
 do what you do and\
 say what you say, but\
 &nbsp;&nbsp;&nbsp;know I'll act\

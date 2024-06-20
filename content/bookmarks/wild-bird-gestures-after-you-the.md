@@ -12,7 +12,6 @@ references:
     featured: https://www.u-tokyo.ac.jp/content/400234406.gif
     publication: The University of Tokyo
 ---
-
 More and more I get the feeling that we, as a species, will be (poorly) debating the rights of non-human sentience from the animal kingdom well before we get anywhere near general "AI".
 
 ### Highlights

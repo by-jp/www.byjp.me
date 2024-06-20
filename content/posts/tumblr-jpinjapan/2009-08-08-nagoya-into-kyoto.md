@@ -6,7 +6,6 @@ tags:
   - japan
   - japan-with-jk
 ---
-
 Ha ha! So, the chef at our restaurant (the same from last night) told us the 'well-be' capsule hotel we're staying at is 'homo'. No that's not Japanese... I'm not sure how much of that is rumour (it's men only and the guy sitting next to me is reading a very boob-oriented porn mag :P) but it's still hilarious to be told that by the chef at a local restaurant!
 
 So, what did we get up to today? It's been quite a slow day, the sleep debt from the fuji climb is still taking it's toll so we took a stroll around town, saw the TV station (it's actually a national heretage broadcasting tower), tried to find the Robot Museum (which unfortunately has now closed), ahopped in an amazing manga bookstore and went to the Nagoya Donjon - the Palace.

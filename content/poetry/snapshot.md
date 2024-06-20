@@ -7,6 +7,5 @@ date: 2009-11-26
 draft: false
 align: center
 ---
-
 Toes curled, open eyes\
 Happy smile -- (you are mine)

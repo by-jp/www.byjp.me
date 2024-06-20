@@ -11,5 +11,4 @@ references:
     featured: https://harryli0088.github.io/hamming-code/hammingcode.png
 slug: 60kxk
 ---
-
 What a lovely little interactive tool! They always bring an idea to life for me.

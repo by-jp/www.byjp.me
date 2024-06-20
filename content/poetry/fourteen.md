@@ -7,7 +7,6 @@ date: 2009-12-29T03:12:00+00:00
 draft: false
 align: left
 ---
-
 She opened her eyes and looked from the jumpsuit down her arm to the soft skin at her wrist and the ink pushed under the surface there.
 
 C7E0014

@@ -12,7 +12,6 @@ tags:
   - dlc
   - from-tumblr
 ---
-
 [github.com](https://github.com/jphastings/ruby-DLC)
 
 Ruby-DLC is now available on github, and consequently as a gem! You can install with[^1]:

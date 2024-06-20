@@ -19,7 +19,6 @@ syndications:
 - https://medium.com/miriscient/the-beauty-of-type-29ab1000e9e4
 - https://soundcloud.com/miriscient/the-beauty-of-type
 ---
-
 Back in July, while recovering from a nasty cold, I received a beautiful postcard from my friend [Richard](https://www.facebook.com/richardjj). It displayed an alphabet he created, each letter inspired by a different writing system of the world.
 
 {{< figure src="typeface-postcard.webp" title="Richard's wonderful alphabet, on the front of a postcard I received from him." class="center" >}}

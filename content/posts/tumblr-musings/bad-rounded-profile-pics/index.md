@@ -11,7 +11,6 @@ tags:
   - filter
   - from-tumblr
 ---
-
 ![A screenshot of a Facebook wall-post with JP "really hates the roundy-edged square profile pics. Feck off!". Comment 1 from Bayan says "Mark is clearly trying to be more twitter- like :/". Comment 2 from JP says "I fixed it! I made a thingie for macs that prevents the roundy corner bits :P will post how-to soon"](facebook-rounded-profile.png)
 
 Are you pissed off with the rounded profile pics that Facebook has decided to use? If so, just install this glimmer blocker filter and they'll be gone the next time you force-refresh your pages - forever!

@@ -10,7 +10,6 @@ tags:
   - facebook
   - from-tumblr
 ---
-
 ![A screenshot of the Facebook homepage. Instead of the newsfeed there is text saying "You've got blinkers on. Now… get back to work JP!](facebook-with-blinkers.jpg)
 
 I built [Blinkers](https://github.com/jphastings/blinkers), a little greasemonkey script/Firefox extension that will prevent you from seeing your own Facebook news feed. Why? Because we all know it _eats time_ and poops procrastination guilt.

@@ -8,7 +8,6 @@ sitemap:
   changefreq: weekly
   priority: 0.8
 ---
-
 I'm a thoroughly [miriscient](https://www.miriscient.org) chap, and this often ends up in me creating toys, trinkets, projects and other artistic things. I've listed some out below.
 
 ## It's all here

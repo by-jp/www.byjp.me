@@ -8,5 +8,4 @@ location:
   latitude: 51.51123725790954
   longitude: -0.0835468917859838
 ---
-
 We visited the Sky garden as part of the long weekend celebrating {{< friend yvette >}}'s birthday. Twirling on the steps without falling off was surprisingly difficult 😂

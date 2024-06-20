@@ -9,7 +9,6 @@ tags:
   - cy densham
   - from-tumblr
 ---
-
 [Helix](https://helix.byjp.me/)
 
 My literary counterpart, Cy Densham, posted an interesting new poem/artwork today. Let me know what you think!

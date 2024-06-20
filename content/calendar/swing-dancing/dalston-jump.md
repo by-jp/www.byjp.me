@@ -16,7 +16,6 @@ tags:
 - swing
 - music
 ---
-
 First swing outs of 2024! Roanne and I will see you there ☺️
 
 > Dance away the post-holiday blues at Dalston Jump, with all bangers no clangers from Steve Jam Blues & Dom 'Hand Solo' Eagleton 🔊🎷🎵

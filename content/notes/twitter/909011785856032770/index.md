@@ -4,7 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-
 ```ruby
 def Hash.forever
   new { |h, k| h[k] = forever }

@@ -10,7 +10,6 @@ references:
   - url: https://go.dev/
     name: The Go Programming Language
 ---
-
 ## Generating IPFS hashes
 
 For some reason I often find myself wanting to generate the CID that IPFS would generate in [Go](https://go.dev/), but without having to run an entire node. I found [this repo](https://github.com/twdragon/ipfs-cid-local) from which I've extracted and tweaked the following code to generate Blake3 CIDs from arbitrary bytes.

@@ -13,7 +13,6 @@ references:
     name: A chiral aperiodic monotile
     rel: +accurate
 ---
-
 ## Aperiodic monotiles
 
 {{< figure src="../spectre.webp" caption="The spectre aperiodic monotile, with \"odd\" tiles shaded." >}}

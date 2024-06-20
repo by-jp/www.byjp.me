@@ -6,5 +6,4 @@ tags:
 - imported
 - from-facebook
 ---
-
 (with {{< friend "Becky Hewitson" >}}, {{< friend "Erica Buckett" >}}, {{< friend "Dave Compton" >}})

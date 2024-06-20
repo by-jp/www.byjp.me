@@ -14,7 +14,6 @@ tags:
 - IPFS
 - web
 ---
-
 It's not a complete solution by any means (it would only work for static sites) but I'm leaning hard into the use of the peer-to-peer [IPFS](/tags/ipfs) to take the teeth out of DDoS attacks.
 
 Though today most IPFS sites are served from IPFS↔HTTP gateways (which will fall to a sufficient DDoS attack, like any other server), using the p2p IPFS protocol itself would mean an attacker could only ever take out specific peers. Though that's still unpleasant, the aim (taking down a given site) is unachievable, so it disincentivises site-specific attacks.

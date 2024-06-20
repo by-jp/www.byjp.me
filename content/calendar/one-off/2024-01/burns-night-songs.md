@@ -17,7 +17,6 @@ tags:
 - stories
 - scotland
 ---
-
 > 🎵 This Burns Night is like no other. For the first time, we invite you to a sit-down concert where you can enjoy an hour of enchanting Burns songs by the award-winning singer, Ainsley Hamill. 🎤🎻
 >
 > 📖 Ainsley is not just a singer, but a fab storyteller too. She’ll bring the life and stories of Burns to the forefront, leaving you with a newfound appreciation for his music and the man behind it. 📜✨

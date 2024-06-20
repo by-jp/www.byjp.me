@@ -15,7 +15,6 @@ location:
   latitude: 51.52945433303787
   longitude: -0.10592580089437353
 ---
-
 _Wow_. This was an absolute joy to watch — what a stunning display of rhythm and colour and movement! I really can't recommend seeing this performance enough.
 
 As an almost complete neophyte to Spanish dance I’m making the assumption that the first half was the more traditional dances (Ballet and Bolero, would be my guess), and the second half infused with more recent influences — the contemporary dance and the Flamenco. I found the first half harder to anchor myself into; I could see the skill, the precision, and the grace of movement (and the _incredible_ intricacy of the dancers' castanets) but it didn't immerse me anywhere near as much as the second set of two performances!

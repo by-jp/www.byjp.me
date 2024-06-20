@@ -6,7 +6,6 @@ tags:
   - japan
   - japan-with-jk
 ---
-
 As I previously wrote, the 5th ended with us a couple of thousand meters up the side of Mt. Fuji, leaving us with a lot more to do before we could get some sleep! It turns out it was even more than we'd imagined...
 
 Having left Chris at Goten-ba station we sleepily discovered we needed to make a short walk to the Goten-ba IC (intercity) bus station in order to catch our long awaited 4 hour bus ride to Nagoya, where we could finally get some long sought after sleep. The bus arrived late (apparently they're just as prone to delays as British buses, unlike their trains) and took 5 and a half hours to arrive, rather than 4, but we weren't complaining a comfy seat and time to sleep is what it is!

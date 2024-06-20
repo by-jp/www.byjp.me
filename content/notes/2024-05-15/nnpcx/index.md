@@ -10,5 +10,4 @@ references:
     featured: https://pointerpointer.com/like3.jpg
 slug: nnpcx
 ---
-
 https://pointerpointer.com/ is never not brilliant.

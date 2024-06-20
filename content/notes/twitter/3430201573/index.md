@@ -5,7 +5,6 @@ tags:
 - from-twitter
 - SongsInCode
 ---
-
 ```python
 if (blame = (!sunshine && !moonlight && !goodtimes && boogie)) { self.feet.control = false }
 ```

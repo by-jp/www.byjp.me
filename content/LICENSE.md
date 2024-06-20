@@ -4,7 +4,6 @@ type: timeless
 _build:
   list: never
 ---
-
 > Though the code that produces this blog [is available](https://github.com/by-jp/www.byjp.me) under the [MIT license](https://github.com/by-jp/www.byjp.me/blob/main/LICENSE.md), the content, as visible on this website, is available under the [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/), unless otherwise specified.
 
 # Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
