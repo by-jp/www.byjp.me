@@ -1,0 +1,8 @@
+{{- $interactionIndex := (split .Path "/") | after 1 -}}
+{{- $interactionCount := 0 -}}
+{{- if gt (len $interactionIndex) 1 -}}
+  {{- with (index site.Data.interactions $interactionIndex) -}}
+    {{- $interactionCount = len .interactions -}}
+  {{- end -}}
+{{- end -}}
+{{- return $interactionCount -}}

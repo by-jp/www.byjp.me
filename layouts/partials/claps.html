@@ -1,7 +1,8 @@
 {{- $relperma := .url -}}
 {{- $style := .style | default "clap" -}}
+{{- $interactionCount := partial "interaction-count.obj" page -}}
 <form class="claps" action="https://{{ site.Params.clapsHost }}{{ $relperma }}" method="post">
-  <button type="submit" title="Show appreciation for the post on this page">
+  <button type="submit" title="Show appreciation for the post on this page" data-interactions="{{ $interactionCount }}">
     {{- partial "svg.html" (dict "name" $style) -}}
     {{- $url := printf "https://%s" site.Params.clapsHost -}}
     {{- $cacheKey := print $url (now.Format "-2006-01-02-15") -}}
@@ -10,7 +11,8 @@
         {{- errorf "%s" . -}}
       {{- else -}}
         {{- $data := .Content | transform.Unmarshal -}}
-        {{- with (index $data $relperma) }}<span>{{ . }}</span>{{ end -}}
+        {{- $clapCount := add $interactionCount ((index $data $relperma) | default 0) -}}
+        {{- with $clapCount }}<span>{{ . }}</span>{{ end -}}
       {{- end -}}
     {{- else -}}
       {{- errorf "Unable to get all clap counts" -}}

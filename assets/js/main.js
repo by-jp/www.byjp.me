@@ -33,9 +33,10 @@ const performClap = (e) => {
       return data;
     })
     .then(data => {
-      localStorage.setItem(clapKey(btn.parentElement.action), data.claps);
+      const clapCount = addInteractions(btn, data.claps);
+      localStorage.setItem(clapKey(btn.parentElement.action), clapCount);
       forEveryClapButton((btn) => {
-        setClapCount(btn, data.claps);
+        setClapCount(btn, clapCount);
       }, btn.parentElement.action)
       btn.parentElement.classList.add('clapped')
       btn.disabled = false;
@@ -53,6 +54,8 @@ const performClap = (e) => {
 }
 
 const clapKey = (action) => `clap:${(new URL(action)).pathname}`;
+
+const addInteractions = (btn, claps) => (claps + (btn.dataset.interactions || 0));
 
 const setClapCount = (btn, clapCount) => {
   if (clapCount === 0) {
@@ -100,8 +103,9 @@ document.addEventListener("DOMContentLoaded", () => {
         return res.json() 
       })
       .then(data => {
+        const clapCount = addInteractions(btn, data.claps);
         forEveryClapButton((btn) => {
-          setClapCount(btn, data.claps);
+          setClapCount(btn, clapCount);
         }, action)
       })
       .catch(console.error)

@@ -8,7 +8,8 @@
     {{- $data := .Content | transform.Unmarshal -}}
     {{- $claps := slice -}}
     {{- range $path, $count := $data -}}
-      {{ $claps = $claps | append (dict "path" $path "count" $count) }}
+      {{- $interactionCount := partial "interaction-count.obj" (site.GetPage $path) -}}
+      {{ $claps = $claps | append (dict "path" $path "count" (add $interactionCount $count)) }}
     {{- end -}}
     {{- range (sort $claps "count" "desc" | first $count) -}}
       {{- $count := .count -}}

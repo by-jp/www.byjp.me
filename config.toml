@@ -65,12 +65,12 @@ date = ["date", "publishDate", "lastmod", ":git"]
   
   [params.defaultSVG]
     post = "document"
-    bookmarks = "bookmark"
+    bookmark = "bookmark"
     article-bookmark = "bookmark"
     game-bookmark = "game"
     video-bookmark = "video"
     product-bookmark = "package"
-    notes = "message"
+    note = "message"
     photo = "camera"
     calendar = "calendar"
     review = "review"
@@ -78,8 +78,7 @@ date = ["date", "publishDate", "lastmod", ":git"]
     contact = "email"
     curiosities = "star"
     memex = "brain"
-    photos = "camera"
-    reading-lists = "book"
+    reading-list = "book"
 
   [params.defaultEmoji]
     posts = "📔"

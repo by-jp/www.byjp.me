@@ -5,7 +5,7 @@
     {{- $posts := where .Site.RegularPages "Section" "in" (slice "posts" "bookmarks" "poetry" "reviews") -}}
     {{- range $posts.ByDate.Reverse | first 6 -}}
       {{- $postType := partial "post-type.txt" . -}}
-      {{- $typeSVG := index .Site.Params.defaultSVG ( partial "kebab.txt" $postType) -}}
+      {{- $typeSVG := index .Site.Params.defaultSVG ( partial "kebab.txt" ($postType | singularize)) -}}
       <li>
         {{ partial "svg.html" (dict "name" $typeSVG) }}
         <a href="{{.RelPermalink}}">
