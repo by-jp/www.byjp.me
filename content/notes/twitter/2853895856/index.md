@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Master of The Ursa Constellations. {{< imgorvid src="bpcsy" >}}
+Master of The Ursa Constellations. {{< imgorvid src="bpcsy.jpg" >}}

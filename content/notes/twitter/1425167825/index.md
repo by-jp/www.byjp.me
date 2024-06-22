@@ -6,4 +6,4 @@ tags:
 - microsoft
 - twitter
 ---
-{{< imgorvid src="2n5ak" >}} - Is [microsoft](/tags/microsoft) using [twitter](/tags/twitter)'s brand name to advertise??
+{{< imgorvid src="2n5ak.jpg" >}} - Is [microsoft](/tags/microsoft) using [twitter](/tags/twitter)'s brand name to advertise??

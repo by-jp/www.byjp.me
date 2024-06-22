@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-O RLY? {{< imgorvid src="lvc22" >}}
+O RLY? {{< imgorvid src="lvc22.jpg" >}}

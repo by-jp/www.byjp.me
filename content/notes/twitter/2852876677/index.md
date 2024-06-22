@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Still proud [ouübc](/tags/ouubc) {{< imgorvid src="bp3zk" >}}
+Still proud [ouübc](/tags/ouubc) {{< imgorvid src="bp3zk.jpg" >}}

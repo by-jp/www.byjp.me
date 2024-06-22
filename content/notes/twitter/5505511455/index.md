@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Spot the odd one out - in the physics flat {{< imgorvid src="oluvz" >}}
+Spot the odd one out - in the physics flat {{< imgorvid src="oluvz.jpg" >}}

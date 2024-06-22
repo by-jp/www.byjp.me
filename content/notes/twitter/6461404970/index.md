@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - mbed
 ---
-My [mbed](/tags/mbed) has arrived!  {{< imgorvid src="snlii" >}}
+My [mbed](/tags/mbed) has arrived!  {{< imgorvid src="snlii.jpg" >}}

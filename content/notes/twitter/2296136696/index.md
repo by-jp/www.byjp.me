@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-{{< imgorvid src="86zps" >}} why does the QMC seem so mediteranean?
+{{< imgorvid src="86zps.jpg" >}} why does the QMC seem so mediteranean?

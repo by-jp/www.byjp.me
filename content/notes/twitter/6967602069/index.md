@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Breathing holes incase the turkey needs air on the way home.  {{< imgorvid src="usy1l" >}}
+Breathing holes incase the turkey needs air on the way home.  {{< imgorvid src="usy1l.jpg" >}}

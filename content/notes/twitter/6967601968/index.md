@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Countryside beats city any day {{< imgorvid src="usy1m" >}}
+Countryside beats city any day {{< imgorvid src="usy1m.jpg" >}}

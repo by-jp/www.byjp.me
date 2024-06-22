@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Small room, awesome contents  {{< imgorvid src="tlrmq" >}}
+Small room, awesome contents  {{< imgorvid src="tlrmq.jpg" >}}

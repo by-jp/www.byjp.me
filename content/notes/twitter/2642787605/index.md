@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-It's been a great year {{< imgorvid src="ady7x" >}}
+It's been a great year {{< imgorvid src="ady7x.jpg" >}}

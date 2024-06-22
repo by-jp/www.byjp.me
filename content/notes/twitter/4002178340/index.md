@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-My new garden! Awesome! {{< imgorvid src="ht3qk" >}}
+My new garden! Awesome! {{< imgorvid src="ht3qk.jpg" >}}

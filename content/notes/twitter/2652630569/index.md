@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hahaha, I don't have too much stuff! It's 2 years' worth! {{< imgorvid src="afrgm" >}}
+Hahaha, I don't have too much stuff! It's 2 years' worth! {{< imgorvid src="afrgm.jpg" >}}

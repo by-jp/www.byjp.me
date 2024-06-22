@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Hold on?  {{< imgorvid src="skgts" >}}
+Hold on?  {{< imgorvid src="skgts.jpg" >}}

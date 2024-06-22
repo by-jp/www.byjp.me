@@ -4,6 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-{{< imgorvid src="84xoq8" >}}
+{{< imgorvid src="84xoq8.jpg" >}}
 
 This CAPTCHA makes me giggle - do you think they accept LATEX?

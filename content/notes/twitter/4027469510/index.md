@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Management obviously felt some people don't know what to call some of the green things {{< imgorvid src="hx92a" >}}
+Management obviously felt some people don't know what to call some of the green things {{< imgorvid src="hx92a.jpg" >}}

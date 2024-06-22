@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - ChristmasTree
 ---
-The minimalist tree? [ChristmasTree](/tags/christmastree) {{< imgorvid src="usdwj" >}}
+The minimalist tree? [ChristmasTree](/tags/christmastree) {{< imgorvid src="usdwj.jpg" >}}

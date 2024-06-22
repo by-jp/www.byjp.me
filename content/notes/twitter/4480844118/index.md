@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-You gotta love Polaroid! {{< imgorvid src="jn8np" >}}
+You gotta love Polaroid! {{< imgorvid src="jn8np.jpg" >}}

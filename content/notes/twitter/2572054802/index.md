@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Winstone's Raspberry Ripple and real raspberries! Heaven {{< imgorvid src="9wuhz" >}}
+Winstone's Raspberry Ripple and real raspberries! Heaven {{< imgorvid src="9wuhz.jpg" >}}

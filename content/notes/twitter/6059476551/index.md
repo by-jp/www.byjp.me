@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Left hand: research. Right hand: Chip box. &lt;3 {{< imgorvid src="qwntw" >}} {{< imgorvid src="qwntp" >}}
+Left hand: research. Right hand: Chip box. &lt;3 {{< imgorvid src="qwntw.jpg" >}} {{< imgorvid src="qwntp.jpg" >}}

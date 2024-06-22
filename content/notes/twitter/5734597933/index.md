@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - fail
 ---
-Design [fail](/tags/fail) of the day: two buttons on a machine; their descriptions should be as distinct as possible… {{< imgorvid src="pmc64" >}}
+Design [fail](/tags/fail) of the day: two buttons on a machine; their descriptions should be as distinct as possible… {{< imgorvid src="pmc64.jpg" >}}

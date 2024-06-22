@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-{{< imgorvid src="802ip" >}} Hmmm, eternal debate, where to sit... [http://bit.ly/BgpLc](http://bit.ly/BgpLc)
+{{< imgorvid src="802ip.jpg" >}} Hmmm, eternal debate, where to sit... [http://bit.ly/BgpLc](http://bit.ly/BgpLc)

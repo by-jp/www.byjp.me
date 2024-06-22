@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Extermineeren! {{< imgorvid src="afm8n" >}}
+Extermineeren! {{< imgorvid src="afm8n.jpg" >}}

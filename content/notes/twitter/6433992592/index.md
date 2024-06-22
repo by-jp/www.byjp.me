@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-What electronics lab would be complete without an empty box of Abbot Ale? {{< imgorvid src="sjjxq" >}}
+What electronics lab would be complete without an empty box of Abbot Ale? {{< imgorvid src="sjjxq.jpg" >}}

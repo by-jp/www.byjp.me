@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-{{< imgorvid src="8m61c" >}} homemade pizza with bay! Mango,pineapple,peppers,nandos peri peri chicken... If it was more sexual it'd be illegal
+{{< imgorvid src="8m61c.jpg" >}} homemade pizza with bay! Mango,pineapple,peppers,nandos peri peri chicken... If it was more sexual it'd be illegal

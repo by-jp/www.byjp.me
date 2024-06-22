@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-{{< imgorvid src="8k5jk" >}} - Planned??
+{{< imgorvid src="8k5jk.jpg" >}} - Planned??

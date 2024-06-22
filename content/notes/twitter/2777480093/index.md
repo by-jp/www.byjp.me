@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Still find the skeletons of buildings amazing {{< imgorvid src="b7lw1" >}}
+Still find the skeletons of buildings amazing {{< imgorvid src="b7lw1.jpg" >}}

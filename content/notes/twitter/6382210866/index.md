@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-In the Johnson Arms, wearing slippers. This is the pub we all home. {{< imgorvid src="sb315" >}}
+In the Johnson Arms, wearing slippers. This is the pub we all home. {{< imgorvid src="sb315.jpg" >}}

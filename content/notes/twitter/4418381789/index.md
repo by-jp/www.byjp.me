@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Carnivorous shopping {{< imgorvid src="jd3uc" >}}
+Carnivorous shopping {{< imgorvid src="jd3uc.jpg" >}}

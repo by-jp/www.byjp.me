@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Jack Wills fashion {{< imgorvid src="b0ejm" >}}
+Jack Wills fashion {{< imgorvid src="b0ejm.jpg" >}}

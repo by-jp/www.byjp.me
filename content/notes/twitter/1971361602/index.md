@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I'm a dreamer: {{< imgorvid src="697od" >}}
+I'm a dreamer: {{< imgorvid src="697od.jpg" >}}

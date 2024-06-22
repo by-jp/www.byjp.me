@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Party prep going well, got me a bounce-balloon thing! {{< imgorvid src="99v65" >}}
+Party prep going well, got me a bounce-balloon thing! {{< imgorvid src="99v65.jpg" >}}

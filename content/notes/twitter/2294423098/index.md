@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Aaand one of my pillows exploded in the dryer. Fluff everywhere. {{< imgorvid src="86oym" >}}
+Aaand one of my pillows exploded in the dryer. Fluff everywhere. {{< imgorvid src="86oym.jpg" >}}
