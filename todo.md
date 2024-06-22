@@ -23,6 +23,7 @@ Things I might work on within my personal blog's software.
 - [ ] Remove http://gowal.la & https://4sq.com links and/or posts that are useless without them
 - [ ] Automate Gemini deploy
 - [ ] Fix `mention-of` imports tools/import/webmentionio/main.go:172
+- [ ] Move to referenced SVGs in header, rather than inline — they take up 4kb on every ~16-20kb page 😱
 
 ### Working
 

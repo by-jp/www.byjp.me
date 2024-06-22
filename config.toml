@@ -19,6 +19,9 @@ date = ["date", "publishDate", "lastmod", ":git"]
   [markup.goldmark]
     [markup.goldmark.extensions]
       typographer = false
+      # Changing this to false isn't the easy fix I want it to be
+      # Ideally autolinking _wouldn't_ happen inside linkrot tags
+      linkify = true
 
       [markup.goldmark.extensions.passthrough]
           enable = true
