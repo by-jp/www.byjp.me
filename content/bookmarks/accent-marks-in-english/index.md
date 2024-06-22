@@ -6,8 +6,7 @@ title: Accėnt mārks in E̱nglish
 audio: index.mp3
 bookmarkOf: https://www.youtube.com/watch?v=0Fok5AQ2WRo
 references:
-  https://wwwYoutubeCom/watch?v=0Fok5Aq2wRo:
-    url: https://www.youtube.com/watch?v=0Fok5AQ2WRo
+  - url: https://www.youtube.com/watch?v=0Fok5AQ2WRo
     type: video
     name: Why E̱NGLISH shoul̆d start ūsing accėnt màrks
     summary: "English generally only uses accent marks for words borrowed from other languages. However, using them more widely could solve many of the spelling and pronunciation problems with our language. In this video, I recommend six accents - or diacritical marks - that we should adopt."

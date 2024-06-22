@@ -5,8 +5,7 @@ title: Stickyfoot!
 emoji: 🪙
 bookmarkOf: https://eggnog.itch.io/stickyfoot
 references:
-  https://eggnogItchIo/stickyfoot:
-    url: https://eggnog.itch.io/stickyfoot
+  - url: https://eggnog.itch.io/stickyfoot
     type: game
     name: Stickyfoot by eggnog
     summary: Zip through 56 mazes to escape to the surface!

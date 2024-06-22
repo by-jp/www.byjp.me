@@ -3,8 +3,7 @@ date: 2024-06-18T06:49:39.132+01:00
 publishDate: 2024-06-18T06:49:39.132+01:00
 inReplyTo: https://www.macchaffee.com/blog/2024/ddos-attacks/
 references:
-  https://wwwMacchaffeeCom/blog/2024/ddosAttacks/:
-    url: https://www.macchaffee.com/blog/2024/ddos-attacks/
+  - url: https://www.macchaffee.com/blog/2024/ddos-attacks/
     type: entry
     name: DDoS attacks can threaten the independent Internet
     summary: Mac's Tech Blog

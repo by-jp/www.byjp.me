@@ -3,8 +3,7 @@ date: 2024-05-26T07:00:36.534+01:00
 publishDate: 2024-05-26T07:00:36.534+01:00
 likeOf: https://tracydurnell.com/2024/05/17/indieweb-next-stage/
 references:
-  https://tracydurnellCom/2024/05/17/indiewebNextStage/:
-    url: https://tracydurnell.com/2024/05/17/indieweb-next-stage/
+  - url: https://tracydurnell.com/2024/05/17/indieweb-next-stage/
     type: entry
     name: The IndieWeb’s next stage?
     published: 2024-05-17T23:58:43-07:00

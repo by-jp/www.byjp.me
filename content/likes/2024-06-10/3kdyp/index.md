@@ -3,8 +3,7 @@ date: 2024-06-10T15:01:38.546+01:00
 publishDate: 2024-06-10T15:01:38.546+01:00
 likeOf: https://rscottjones.com/analytics-for-the-personal-web/
 references:
-  https://rscottjonesCom/analyticsForThePersonalWeb/:
-    url: https://rscottjones.com/analytics-for-the-personal-web/
+  - url: https://rscottjones.com/analytics-for-the-personal-web/
     type: feed
     children:
       - type: entry

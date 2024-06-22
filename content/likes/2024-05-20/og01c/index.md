@@ -3,8 +3,7 @@ date: 2024-05-20T19:12:08.626+01:00
 publishDate: 2024-05-20T19:12:08.626+01:00
 likeOf: https://gabrielsieben.tech/2024/05/17/thinking-out-loud-2nd-gen-email/
 references:
-  https://gabrielsiebenTech/2024/05/17/thinkingOutLoud2NdGenEmail/:
-    url: https://gabrielsieben.tech/2024/05/17/thinking-out-loud-2nd-gen-email/
+  - url: https://gabrielsieben.tech/2024/05/17/thinking-out-loud-2nd-gen-email/
     children:
       - type: entry
         name: Thinking out loud about 2nd-gen Email
