@@ -5,4 +5,4 @@ tags:
 - from-twitter
 ---
 I'm wearing a jumper and I'm still cold! It's been a month without this shit, I miss travelling! \
-[http://maps.google.com/?q=51.6753%2C-2.2311](http://maps.google.com/?q=51.6753%2C-2.2311)
+[Near Nailsworth](https://maps.google.com/?q=51.6753%2C-2.2311)
