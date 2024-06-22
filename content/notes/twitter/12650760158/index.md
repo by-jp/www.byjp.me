@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Who would want to keep newspapers alive? Hurry up and die! {{< imgorvid src="1he6lp" >}} \(via [@threedaymonk](/twitter/#/threedaymonk))
+Who would want to keep newspapers alive? Hurry up and die! {{< imgorvid src="1he6lp.jpg" >}} \(via [@threedaymonk](/twitter/#/threedaymonk))

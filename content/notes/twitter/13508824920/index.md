@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-{{< imgorvid src="1lljux" >}}  Election video :P
+{{< imgorvid src="1lljux.jpg" >}}  Election video :P
