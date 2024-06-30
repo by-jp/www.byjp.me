@@ -1,6 +1,6 @@
 ⚠️ The next paragraph(s) contain spoilers!
 
-{{ .Inner | markdownify }}
+{{ .Inner }}
 
 🛟 Spoilers over!
 
