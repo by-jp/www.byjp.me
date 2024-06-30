@@ -1,0 +1,7 @@
+⚠️ The next paragraph(s) contain spoilers!
+
+{{ .Inner | markdownify }}
+
+🛟 Spoilers over!
+
+{{ .Page.Store.Set "hasSpoilers" true -}}
