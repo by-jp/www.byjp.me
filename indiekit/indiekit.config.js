@@ -78,10 +78,6 @@ export default {
     repo: "www.byjp.me",
     branch: "main"
   },
-  "@indiekit/syndicator-mastodon": {
-    url: "https://hachyderm.io",
-    user: "byjp"
-  },
   "@indiekit/post-type-bookmark": {
     name: "Bookmark"
   },
