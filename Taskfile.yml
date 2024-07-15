@@ -8,7 +8,7 @@ vars:
   puma_dev_tld: .test
 
 env:
-  HUGO_INDIEKIT_URL: https://indiekit.byjp.me{{.DOMAIN_SUFFIX}}
+  HUGO_INDIEKIT_URL: https://indiekit.last.pub{{.DOMAIN_SUFFIX}}
   HUGO_LAST_UPDATE_TIME:
     sh: git log -1 --format=%cI
   HUGO_LAST_UPDATE_HASH:
