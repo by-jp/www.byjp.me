@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: by-jp/indiekit.byjp.me
+          images: by-jp/www.byjp.me
       - name: Build and push Docker image
         id: push
         uses: docker/build-push-action@v6
@@ -47,5 +47,5 @@ jobs:
           context: ./indiekit
           file: ./indiekit/Dockerfile
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: indiekit
           labels: ${{ steps.meta.outputs.labels }}
