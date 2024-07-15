@@ -9,13 +9,8 @@ on:
 
   workflow_dispatch:
 
-permissions:
-  contents: read
-  packages: write
-  id-token: write
-
 concurrency:
-  group: "docker"
+  group: "indiekit"
   cancel-in-progress: true
 
 defaults:
@@ -25,18 +20,23 @@ defaults:
 jobs:
   image-releaser:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+      id-token: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Authenticate with Github Container Repository
+      - name: Log into GHCR
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: ${{ github.repository_owner }}
+          username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - name: Extract metadata (tags, labels) for Docker
+      - name: Extract metadata for Docker
         id: meta
         uses: docker/metadata-action@v5
         with:
@@ -53,6 +53,6 @@ jobs:
       - name: Generate artifact attestation
         uses: actions/attest-build-provenance@v1
         with:
-          subject-name: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME}}
+          subject-name: ghcr.io/${{ env.IMAGE_NAME}}
           subject-digest: ${{ steps.push.outputs.digest }}
           push-to-registry: true
