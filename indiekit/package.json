@@ -5,8 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "indiekit serve",
-    "dotenv": "dotenv-run-script .env --"
+    "start": "indiekit serve"
   },
   "keywords": [
     "indiekit",

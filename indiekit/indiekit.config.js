@@ -1,5 +1,8 @@
-import dotenv from 'dotenv';
-const env = dotenv.config().parsed || {};
+const env = (await (
+  import('dotenv')
+    .then(dotenv => dotenv.config().parsed)
+    .catch(() => process.env)
+)) || {};
 
 export default {
   application: {

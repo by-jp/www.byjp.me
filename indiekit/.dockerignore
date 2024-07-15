@@ -1,0 +1,14 @@
+# Docker
+.docker
+.dockerignore
+
+# Environment
+.env
+
+# Git
+.git
+.gitignore
+
+# Node - as they may not be the same architecture
+node_modules
+npm-debug.log
