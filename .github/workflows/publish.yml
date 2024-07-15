@@ -3,6 +3,10 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches: ["main"]
+    paths-ignore:
+      - indiekit/**
+      - .github/workflows/indiekit-docker.yml
+      - tools/**
   schedule:
     # Rebuild every day, to update 'year relative' dates, change now page & calendar
     - cron: '0 0 * * *'
