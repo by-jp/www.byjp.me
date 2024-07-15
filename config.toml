@@ -32,7 +32,7 @@ date = ["date", "publishDate", "lastmod", ":git"]
       unsafe = true
 
 [author]
-  name = "JP Hastings-Spital"
+  name = "JP Hastings-Edrei"
   email = "hello@byjp.me"
 
 [taxonomies]
