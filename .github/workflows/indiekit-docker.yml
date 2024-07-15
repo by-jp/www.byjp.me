@@ -35,12 +35,12 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.GHCR_PUBLISH_PAT }}
+          password: ${{ secrets.GITHUB_TOKEN }}
       - name: Extract metadata for Docker
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: by-jp/www.byjp.me
+          images: ghcr.io/by-jp/www.byjp.me
       - name: Build and push Docker image
         id: push
         uses: docker/build-push-action@v6
