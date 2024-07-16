@@ -1,0 +1,5 @@
+{{ range .Site.RegularPages }}
+  {{- if .Permalink -}}
+    {{- printf "/%s %s 301\n" (partial "shortlink.txt" .) .Permalink -}}
+  {{- end -}}
+{{- end -}}

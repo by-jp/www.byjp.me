@@ -189,6 +189,8 @@ date = ["date", "publishDate", "lastmod", ":git"]
     suffixes = ['opml.xml']
   [mediaTypes.'text/gemini']
     suffixes = ['gmi']
+  [mediaTypes.'text/plain+redirects']
+    suffixes = ['redirects']
 [outputFormats]
   [outputFormats.opml]
     mediaType = 'text/x-opml'
@@ -215,9 +217,17 @@ date = ["date", "publishDate", "lastmod", ":git"]
     permalinkable = false
     noUgly = false
     notAlternative = true
+  [outputFormats.redirects]
+    name = 'Redirects File'
+    isPlainText = true
+    isHTML = false
+    mediaType = 'text/plain+redirects'
+    permalinkable = false
+    noUgly = false
+    notAlternative = true
 
 [outputs]
-  home = ["html", "rss", "gemini"]
+  home = ["html", "rss", "gemini", "redirects"]
   page = ["html", "gemini"]
   rss = ["rss"]
   section = ["html", "rss", "gemini"]

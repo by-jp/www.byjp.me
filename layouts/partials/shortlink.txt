@@ -1,0 +1,6 @@
+{{- $shortlink := .Params.shortlink -}}
+{{- if not $shortlink -}}
+  {{/* TODO: Could convert to base36 to reduce size by 2 chars */}}
+  {{- $shortlink = printf "b/%s" (substr (.RelPermalink | crypto.MD5 ) 0 10) -}}
+{{- end -}}
+{{- $shortlink -}}

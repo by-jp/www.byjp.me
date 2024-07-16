@@ -29,6 +29,14 @@ Things I might work on within my personal blog's software.
 
 - [ ] Remove lychee failing links
 - [ ] Import Facebook posts
+- [ ] Shortlinks
+  - [x] All posts have an auto-generated unqiue shortlink
+  - [x] Allow for customisation of shortlinks
+  - [x] Create suitable `_redirects` files
+  - [ ] Import pre-existing shortlinks
+  - [ ] Add shortlink as `<link rel="shortlink">` on all relevant pages
+  - [ ] Upload new redirects to byjp.fyi repo
+  - [ ] Add additional logic to _combine_ the redirects files as needed
 
 ### Done ✓
 
