@@ -13,6 +13,7 @@ topics:
 syndications:
 - https://hachyderm.io/@byjp/112229385641236069
 - https://bsky.app/profile/byjp.me/post/3kpjvofkuah2f
+shortlink: claps
 ---
 Here in my little career break I'm spending a lot of time thinking about _community_. This blog hasn't had much of a need for community (there's such an ecclectic mix of stuff here that people stumble upon it rather than frequent it) but as I've been building in tools like [webmentions](https://indieweb.org/Webmention), and pulling comments from other sites (like [on this post](/posts/chef-gpt/#interactions)), I've noticed the absence of an easy "I appreciate this" mechanism for passers-through.
 
