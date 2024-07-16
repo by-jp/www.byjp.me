@@ -18,6 +18,8 @@ mv public/_redirects public/_redirects.previous
 find public -type f -iname "_redirects" -delete
 
 # Create local _redirects files
+echo "Sorting shortlinks into different directory _redirects files…"
+
 while IFS=$'\n' read -r line
 do
   # Extract the absolute file path
@@ -29,9 +31,11 @@ do
   else
     echo $line  >> "public/_redirects"
   fi
-done < "${1:-/dev/stdin}"
+done < /dev/stdin
 
 # Combine new (root) _redirects and _redirects.previous
+echo "Merging with existing links…"
+
 start_line=$(awk '/^# From blog/{print NR; exit}' public/_redirects.previous)
 end_line=$(awk 'NR > '"$start_line"' && /^#/{print NR; exit}' public/_redirects.previous)
 
@@ -42,3 +46,15 @@ awk 'NR=='"$((start_line + 1))"'{system("cat public/_redirects")} 1' old_removed
 mv public/_redirects.new public/_redirects
 rm public/_redirects.previous
 rm old_removed.txt
+
+# Push changes
+echo "Pushing to github…"
+
+git add -A
+git commit -m "Update blog shortlinks"
+git push -q
+
+# Clean up
+rm -r ${workdir}
+
+echo "All files cleaned up; update complete!"

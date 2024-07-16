@@ -57,6 +57,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
+          path: ./www.byjp.me
           submodules: recursive
       - name: Setup Pages
         id: pages
@@ -69,19 +70,35 @@ jobs:
           path: /tmp/hugo
           key: ${{ env.cache-name }}
       - name: Build site
-        run: task build
+        working-directory: ./www.byjp.me
+        run: |
+          task build
+          mv ./public/index.redirects ../new_redirects
+
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v1
         with:
           name: site
-          path: ./public
+          path: ./www.byjp.me/public
+      
+      - name: Checkout byjp.fyi
+        uses: actions/checkout@v4
+        with:
+          repository: by-jp/byjp.fyi
+          path: ./byjp.fyi
+          token: ${{ secrets.GITHUB_PAT }}
+      - name: Update blog shortlinks
+        working-directory: ./byjp.fyi
+        run: cat ../new_redirects | tools/redirects/update-shortlinks.bash
+      
       - name: Build Gemini capsule
+        working-directory: ./www.byjp.me
         run: task gemini-reduce
       - name: Upload capsule artifact
         uses: actions/upload-pages-artifact@v1
         with:
           name: capsule
-          path: ./public
+          path: ./www.byjp.me/public
       
 
   # Deployment job
