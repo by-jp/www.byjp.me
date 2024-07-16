@@ -15,6 +15,7 @@ summary: Why I created the word "miriscience", and why it's been so important to
 syndications:
 - https://medium.com/miriscient/miriscience-5e342ff198f5
 - https://soundcloud.com/miriscient/miriscience
+shortlink: miriscient
 ---
 It was early March, 2018 when I realised I’d found the answer to a question that had been niggling at me for decades. That answer itself took only three years of pondering, but the question took what felt like all of my then 29 rotations to clearly define.
 

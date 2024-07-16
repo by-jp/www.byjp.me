@@ -16,6 +16,7 @@ tags:
 topics:
 - IndieWeb
 syndications:
+shortlink: indieweb-ipfs
 ---
 
 If you're hosting a static IndieWeb site and (want to) keep an up-to-date copy on [IPFS](https://ipfs.io), I'm offering to pin a replica of your site on my energy efficient [HomeLab](/tags/homelab) in London (in the UK), making it more highly available, as well as being searchable with [Admarus](https://admarus.net/).
