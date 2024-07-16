@@ -86,7 +86,7 @@ jobs:
         with:
           repository: by-jp/byjp.fyi
           path: ./byjp.fyi
-          token: ${{ secrets.GITHUB_PAT }}
+          token: ${{ secrets.SHORTLINK_REPO_PAT }}
       - name: Update blog shortlinks
         working-directory: ./byjp.fyi
         run: cat ../new_redirects | tools/redirects/update-shortlinks.bash
