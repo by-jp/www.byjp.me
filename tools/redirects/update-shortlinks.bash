@@ -18,28 +18,13 @@ cd $gitRoot
 mv public/_redirects public/_redirects.previous
 find public -type f -iname "_redirects" -delete
 
-# Create local _redirects files
-echo "Sorting shortlinks into different directory _redirects files…"
-
-while IFS=$'\n' read -r line
-do
-  # Extract the absolute file path
-  outdir=$(dirname $(echo "$line" | cut -d " " -f1) | cut -d "/" -f2)
-
-  if [[ -n "$outdir" ]]; then
-    [[ ! -d $outdir ]] && mkdir -p "public/$outdir"
-    echo $line | cut -c $((${#outdir}+2))- >> "public/$outdir/_redirects"
-  else
-    echo $line  >> "public/_redirects"
-  fi
-done < /dev/stdin
-
 # Combine new (root) _redirects and _redirects.previous
 echo "Merging with existing links…"
 
 start_line=$(awk '/^# From blog/{print NR; exit}' public/_redirects.previous)
 end_line=$(awk 'NR > '"$start_line"' && /^#/{print NR; exit}' public/_redirects.previous)
 
+cp /dev/stdin  public/_redirects
 sed "$((start_line + 1)),$((end_line - 2))d" public/_redirects.previous > old_removed.txt
 awk 'NR=='"$((start_line + 1))"'{system("cat public/_redirects")} 1' old_removed.txt > public/_redirects.new
 
