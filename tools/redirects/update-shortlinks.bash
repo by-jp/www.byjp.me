@@ -9,6 +9,7 @@
 gitRoot=$(git rev-parse --show-toplevel) || { echo "Please run inside the byjp.fyi git repo"; exit 1; }
 if [[ "$(git remote get-url origin)" != "https://github.com/by-jp/byjp.fyi.git" ]]; then
   echo "This repo doesn't have the byjp.fyi repo as the origin"
+  git remote -v
   exit 2
 fi
 cd $gitRoot
