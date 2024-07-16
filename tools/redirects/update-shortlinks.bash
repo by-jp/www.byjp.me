@@ -55,7 +55,4 @@ git add -A
 git commit -m "Update blog shortlinks"
 git push -q
 
-# Clean up
-rm -r ${workdir}
-
 echo "All files cleaned up; update complete!"
