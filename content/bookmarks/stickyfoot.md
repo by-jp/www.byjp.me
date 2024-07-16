@@ -14,3 +14,5 @@ references:
 slug: stickyfoot
 ---
 What a lovely treat to start a lazy birthday! Eggnog Games has released Stickyfoot, a wonderful little Pico-8 game that’s already had me hooked for a good few minutes — I highly recommend it!
+
+<iframe frameborder="0" allowfullscreen="true" src="https://html-classic.itch.zone/html/10831493/index.html" scrolling="no" allowtransparency="true" webkitallowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true" allow="autoplay; fullscreen *; gamepad; cross-origin-isolated; web-share" class="pico-8"></iframe>

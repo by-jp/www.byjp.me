@@ -581,3 +581,12 @@ details {
     }
   }
 }
+
+.pico-8 {
+  width: 100%;
+  max-width: 610px;
+  aspect-ratio: 1/1;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
