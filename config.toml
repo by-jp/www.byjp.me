@@ -48,7 +48,7 @@ date = ["date", "publishDate", "lastmod", ":git"]
   dateformHTML    = "2006-01-02T15:04:05-0700"
 
   # Metadata mostly used in document's head
-  description = "JP Hastings-Spital: Software Engineer"
+  description = "JP Hastings-Edrei: Software Engineer"
   keywords    = "homepage, blog, science, software, miriscient, programming, indieweb, memex"
   images      = [""]
   customJS    = ["/js/postcards-html.js"]
