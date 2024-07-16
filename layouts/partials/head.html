@@ -11,6 +11,9 @@
 {{- if .IsHome }}{{ with getenv "HUGO_LAST_UPDATE_TIME" }}{{ $modified = time . }}{{ end }}{{ end -}}
 <meta property="dcterms.modified" content="{{ $modified.Format "2006-01-02T15:04:05Z07:00"}}"/>
 <link rel="canonical" href="{{ .Permalink }}" class="u-url"/>
+{{ with partial "shortlink.txt" . -}}
+    <link rel="shortlink" href="https://{{ site.Params.shortlinkhost }}/{{ . }}" class="u-url" />
+{{- end }}
 <link rel="schema.dcterms" href="http://purl.org/dc/terms/"/>
 <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="{{ .Site.Title }}"/>
 <link rel="search" type="application/pagefind" href="/search" title="{{ .Site.Title }}"/>

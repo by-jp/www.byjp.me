@@ -60,6 +60,7 @@ date = ["date", "publishDate", "lastmod", ":git"]
   themeColor = "#252627"
 
   clapshost = "byjp-claps.web.val.run"
+  shortlinkhost = "byjp.fyi"
   
   [params.favicon.color]
     mask = "#252627"

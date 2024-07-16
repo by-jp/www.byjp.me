@@ -34,7 +34,7 @@ Things I might work on within my personal blog's software.
   - [x] Allow for customisation of shortlinks
   - [x] Create suitable `_redirects` files
   - [x] Import pre-existing shortlinks
-  - [ ] Add shortlink as `<link rel="shortlink">` on all relevant pages
+  - [x] Add shortlink as `<link rel="shortlink">` on all relevant pages
   - [ ] Upload new redirects to byjp.fyi repo
   - [ ] Add additional logic to _combine_ the redirects files as needed
 
