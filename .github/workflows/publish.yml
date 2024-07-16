@@ -89,7 +89,10 @@ jobs:
           token: ${{ secrets.SHORTLINK_REPO_PAT }}
       - name: Update blog shortlinks
         working-directory: ./byjp.fyi
-        run: cat ../new_redirects | ../www.byjp.me/tools/redirects/update-shortlinks.bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cat ../new_redirects | ../www.byjp.me/tools/redirects/update-shortlinks.bash
       
       - name: Build Gemini capsule
         working-directory: ./www.byjp.me
