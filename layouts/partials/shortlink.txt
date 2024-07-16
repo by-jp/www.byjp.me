@@ -2,7 +2,7 @@
 {{- $chars := split "123456789bcdfghjkmnpqrstuvwxyz" "" -}}{{/* Omit vowels and confusing characters to prevent accidental spelling of words */}}
 {{- $base := len $chars -}}
 {{- $size := 8 -}}{{/* 8 chars with 30 possibilities means 0.0091% chance of collision with 10k posts; I currently have 3,213 */}}
-{{- if and (not $shortlink) true -}}{{/* .IsPage Don't make dynamic shortlinks for list taxonomy/list/non-regular pages */}}
+{{- if and (not $shortlink) .IsPage -}}{{/* Don't make dynamic shortlinks for list taxonomy/list/non-regular pages */}}
   {{- $hex := .RelPermalink | crypto.MD5 -}}
 
   {{- $idx := 0 -}}
