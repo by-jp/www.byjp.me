@@ -12,6 +12,7 @@ location:
 syndications:
 - https://pixelfed.social/i/web/post/718533212396307939
 - https://bsky.app/profile/byjp.me/post/3kxdnm4po3s2n
+- https://www.instagram.com/p/C9eR5unoUNGEuZDpuADqK7i0VnCCgSXvTK86nY0/
 ---
 
 It's been just over a week since Yvette and I were married 🥰 We're now back home after our honeymoon, and still floating high on the food and drink and dancing and love of our friends and family!
