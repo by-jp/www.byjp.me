@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-Hehe, Christmassy silent monks http://www.youtube.com/watch?v=ZCFCeJTEzNU
+Hehe, Christmassy silent monks
+
+{{< youtube ZCFCeJTEzNU >}}

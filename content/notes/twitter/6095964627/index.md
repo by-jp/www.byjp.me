@@ -5,4 +5,6 @@ tags:
 - from-twitter
 - DigitalEconomyBill
 ---
-hehe: http://www.youtube.com/watch?v=6_P4lJD_OPI [DigitalEconomyBill](/tags/digitaleconomybill)
+hehe [DigitalEconomyBill](/tags/digitaleconomybill)
+
+{{< youtube 6_P4lJD_OPI >}}
