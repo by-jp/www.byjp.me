@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Open Mac .webloc URL files in windows? I made an app for that: [http://github.com/jphastings/WinWebloc](http://github.com/jphastings/WinWebloc) Any windows ppl know how to build installers etc?
+Open Mac .webloc URL files in windows? I made an app for that: [https://github.com/jphastings/WinWebloc](https://github.com/jphastings/WinWebloc) Any windows ppl know how to build installers etc?

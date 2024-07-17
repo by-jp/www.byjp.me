@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-BTW I rule: http://github.com/jphastings/slypi/ - local web apis for sites that don't have them! = unionized scraping \(I'm not evil really!)
+BTW I rule: https://github.com/jphastings/slypi/ - local web apis for sites that don't have them! = unionized scraping \(I'm not evil really!)

@@ -21,7 +21,7 @@ So if you feel like listening to music from XFM, Radio 1, Kerrang! or NME then y
 
 * Go and visit your favourite radio playlist or musical listing and hit 'Grub'!
 
-The number of services currently supported is still limited, so if there's a site you've found that lists songs you'd like to be able to grub then please let us know! Hopefully Playgrub will have a request feature soon, but in the meanwhile leave a comment here or [have a look at the code behind them](http://github.com/toby/playgrub/tree/master/scrapers/) - if you know any Javascript at all you'll be able to write one yourself in no time!
+The number of services currently supported is still limited, so if there's a site you've found that lists songs you'd like to be able to grub then please let us know! Hopefully Playgrub will have a request feature soon, but in the meanwhile leave a comment here or [have a look at the code behind them](https://github.com/toby/playgrub/tree/master/scrapers/) - if you know any Javascript at all you'll be able to write one yourself in no time!
 
 Finally, if you're interested, stay tuned to the [playgrub blog](https://web.archive.org/web/20100824050755/http://playgrub.posterous.com/new-supported-sites)[^1] - playdar will only get more popular in the coming months[^3] and playgrub is bound to be at the forefront.
 

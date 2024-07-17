@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Made a ruby gem for the Tesco Groceries API. [http://github.com/jphastings/TescoGroceries](http://github.com/jphastings/TescoGroceries) Basic for now as Tesco are updating their API soon.
+Made a ruby gem for the Tesco Groceries API. [https://github.com/jphastings/TescoGroceries](https://github.com/jphastings/TescoGroceries) Basic for now as Tesco are updating their API soon.
