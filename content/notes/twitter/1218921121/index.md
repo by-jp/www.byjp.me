@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I've thrown some more of my photos up, proud of some of these: http://flickr.com/photos/jphastings/
+I've thrown some more of my photos up, proud of some of these: [flickr.com/photos/jphastings/](https://flickr.com/photos/jphastings/)

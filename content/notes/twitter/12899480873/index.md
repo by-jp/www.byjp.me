@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-Haha :P Awesome http://ow.ly/i/1g5M \(via [@mr_ceebs](/twitter/#/mr_ceebs))
+Haha :P Awesome (via [@mr_ceebs](/twitter/#/mr_ceebs))
+
+![David Cameron in front of a Peacocks store with the "Pea" hidden by balloons, and the logo's "O"s becoming a speech bubble directly above his head: "💭 cocks"](1g5M.jpg)

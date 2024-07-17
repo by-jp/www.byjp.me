@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-JP has been researching: [http://en.wikipedia.org/wiki/Cox-Zucker_machine](http://en.wikipedia.org/wiki/Cox-Zucker_machine).
+JP has been researching: [wikipedia.org/wiki/Cox-Zucker_machine](https://en.wikipedia.org/wiki/Cox-Zucker_machine).

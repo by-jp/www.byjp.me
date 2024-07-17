@@ -28,7 +28,6 @@ Things I might work on within my personal blog's software.
 
 - [ ] Remove lychee failing links
 - [ ] Import Facebook posts
-- [ ] Remove http://gowal.la & https://4sq.com links and/or posts that are useless without them
 
 ### Done ✓
 
@@ -71,3 +70,4 @@ Things I might work on within my personal blog's software.
   - [x] Add additional logic to _combine_ the redirects files as needed
   - [x] Upload new redirects to byjp.fyi repo
   - [x] Remove automation 😭 as IPFS can't handle large redirects files
+- [x] Remove http://gowal.la & https://4sq.com links and/or posts that are useless without them
