@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-The oldies are the best. DoodleJump rules. [https://bit.ly/DoodleJump-App](https://bit.ly/DoodleJump-App) {{< imgorvid src="media-1.jpg" >}}
+The oldies are the best. DoodleJump rules. {{< imgorvid src="media-1.jpg" >}}

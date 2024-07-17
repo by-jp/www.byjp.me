@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Pay with a tweet? Nice idea — one song please! \(Ghosted by [@DataRomance](/twitter/#/DataRomance)) [http://bit.ly/aLxrf7](http://bit.ly/aLxrf7)
+Pay with a tweet? Nice idea — one song please! \(Ghosted by [@DataRomance](/twitter/#/DataRomance)) {{% linkrot "bit.ly/aLxrf7" }}

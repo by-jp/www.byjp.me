@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-I've been getting quality book recommendations from [@BookVibe](/twitter/#/BookVibe). Recommend signing up: [https://bit.ly/19VfD1t](https://bit.ly/19VfD1t)
+I've been getting quality book recommendations from [@BookVibe](/twitter/#/BookVibe). Recommend signing up: [bookvibe.com/join](https://bookvibe.com/join)
