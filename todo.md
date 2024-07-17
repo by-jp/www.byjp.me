@@ -20,7 +20,6 @@ Things I might work on within my personal blog's software.
   - [ ] Add tags from #hashtags
   - [ ] Add links to memex from §refs
 - [ ] Switch Memex to single file (easier to post to)
-- [ ] Remove http://gowal.la & https://4sq.com links and/or posts that are useless without them
 - [ ] Automate Gemini deploy
 - [ ] Fix `mention-of` imports tools/import/webmentionio/main.go:172
 - [ ] Move to referenced SVGs in header, rather than inline — they take up 4kb on every ~16-20kb page 😱
@@ -29,6 +28,7 @@ Things I might work on within my personal blog's software.
 
 - [ ] Remove lychee failing links
 - [ ] Import Facebook posts
+- [ ] Remove http://gowal.la & https://4sq.com links and/or posts that are useless without them
 
 ### Done ✓
 
