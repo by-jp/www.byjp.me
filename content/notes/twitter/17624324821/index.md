@@ -3,5 +3,6 @@ date: "2010-07-03T04:16:45Z"
 tags:
 - imported
 - from-twitter
+- from-foursquare
 ---
-Off to Ireland! \(@ Putney Railway Station) https://4sq.com/7acEp3
+Off to Ireland! \(@ Putney Railway Station)
