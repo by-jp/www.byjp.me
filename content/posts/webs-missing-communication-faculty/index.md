@@ -82,7 +82,7 @@ A protocol like Credence can only hope be the infrastructure upon which more use
 
 Credence is just a prototype (and a brief experiment in writing in a new software language for me), but I believe this principle of distributed credence is an important one for the future of mass-communication and I’d be interested in hearing thoughts on, and references to research around, this and related topics.
 
-You can see how my work on it progresses at [http://getcredence.net](http://getcredence.net).
+You can see how my work on it progresses at {{% linkrot "http://getcredence.net" %}}.
 
 ---
 
