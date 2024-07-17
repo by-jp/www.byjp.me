@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Wooh shiny http://www.metalabdesign.com/ - I'm jealous of their skills
+Wooh shiny [metalabdesign.com](https://web.archive.org/web/20090726032223/http://www.metalabdesign.com/) - I'm jealous of their skills

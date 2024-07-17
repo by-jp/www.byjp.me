@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-View from The Grove pub - credit to Notts council, it drained away rapidly! http://twitvid.com/FB7DE
+View from The Grove pub - credit to Notts council, it drained away rapidly! {{% linkrot "http://twitvid.com/FB7DE" %}}

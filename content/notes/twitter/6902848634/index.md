@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-This is what all datasheets should look like! [http://neonnixie.com/in-12/datasheet-1.jpg](http://neonnixie.com/in-12/datasheet-1.jpg)
+This is what all datasheets should look like!
+
+![A very old cyrillic data sheet for an IN-12 Nixie tube, looking like an architectural drawing.](datasheet-1.jpg)
