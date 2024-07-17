@@ -4,5 +4,6 @@ tags:
 - imported
 - from-twitter
 - SoundCloud
+- music
 ---
 likes Shamoun - Bitch Please \(die original) by Minister Shamoun on [SoundCloud](/tags/SoundCloud) [http://soundcloud.com/minister-shamoun/shamoun-bitch-please-die-original](http://soundcloud.com/minister-shamoun/shamoun-bitch-please-die-original)

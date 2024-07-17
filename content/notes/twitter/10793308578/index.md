@@ -4,5 +4,6 @@ tags:
 - imported
 - from-twitter
 - SoundCloud
+- music
 ---
 likes The Eternals by Roobux on [SoundCloud](/tags/SoundCloud) {{ linkrot "soundcloud.com/roobux/the-eternals" "a track" >}}

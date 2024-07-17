@@ -3,6 +3,7 @@ date: "2009-11-25T00:31:03Z"
 tags:
 - imported
 - from-twitter
+- music
 ---
 [e-603.com/E-603/TORNUP.html](https://web.archive.org/web/20180510220039/https://www.tornup.net/)[^1] I'd totally pay $200 if I had it
 

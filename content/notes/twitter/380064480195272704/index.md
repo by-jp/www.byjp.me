@@ -6,6 +6,7 @@ tags:
 - imported
 - from-twitter
 - ThisIsMyJam
+- music
 ---
 Chilled & tuneful. Pity there aren't so many warm nights to match it! [♫](https://t.thisismyjam.com/jphastings/_6rgva69) [ThisIsMyJam](/tags/thisismyjam)
 

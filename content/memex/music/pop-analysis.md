@@ -4,6 +4,7 @@ summary: Breaking apart pop music to find out what makes great tracks tick.
 tags:
 - adam-neely
 - bossa-nova
+- music
 ---
 ## The Girl from Ipanema
 

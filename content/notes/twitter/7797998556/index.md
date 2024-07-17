@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-{{< youtube 6TW9HGuWMJo >}}
+[Jesse Brown: Does the Internet Make You Dumber?](https://web.archive.org/web/20140430160322/https://www.youtube.com/watch?v=6TW9HGuWMJo)

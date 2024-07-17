@@ -6,6 +6,7 @@ tags:
 - imported
 - from-twitter
 - ThisIsMyJam
+- music
 ---
 “Some Kind of Nature \(featuring Lou Reed)” by Gorillaz is my new jam. [♫](https://t.thisismyjam.com/jphastings/_1entcx5) [ThisIsMyJam](/tags/thisismyjam)
 

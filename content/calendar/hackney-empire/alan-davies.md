@@ -5,7 +5,7 @@ date: 2024-04-01T12:54:26.902+01:00
 timings:
   - starts: 2024-04-26T20:00:00.000+01:00
     duration: PT3H
-link: https://www.hackneyempire.co.uk/events/live-at-the-empire-with-alan-davies
+link: https://web.archive.org/web/20240226040753/https://www.hackneyempire.co.uk/events/live-at-the-empire-with-alan-davies
 location:
   name: Hackney Empire
   latitude: 51.54554219904259

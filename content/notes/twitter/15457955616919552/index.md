@@ -5,6 +5,7 @@ tags:
 - imported
 - from-twitter
 - SoundCloud
+- music
 ---
 likes Every Breath You Take \(swing version) by TeeJay {{< linkrot "snd.sc/fYlFHm" >}}[^1]
 

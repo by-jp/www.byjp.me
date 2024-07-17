@@ -4,5 +4,6 @@ tags:
 - imported
 - from-twitter
 - SoundCloud
+- music
 ---
 likes If I were rich... by Roobux on [SoundCloud](/tags/SoundCloud) http://soundcloud.com/roobux/if-i-were-rich

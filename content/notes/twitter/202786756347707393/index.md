@@ -6,6 +6,7 @@ tags:
 - imported
 - from-twitter
 - ThisIsMyJam
+- music
 ---
 “Maniac” by Michael Sembello is my new jam. [♫](https://t.thisismyjam.com/jphastings/_1n5x4mo) [ThisIsMyJam](/tags/thisismyjam)
 

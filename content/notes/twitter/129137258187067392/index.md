@@ -5,5 +5,6 @@ tags:
 - imported
 - from-twitter
 - SoundCloud
+- music
 ---
 likes: Suonho - Speaking Of Happiness + And I Love You \[Editorial #2\] by suonho {{< linkrot "snd.sc/uzt9nb" "a track" >}}

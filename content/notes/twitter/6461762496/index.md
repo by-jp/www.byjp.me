@@ -4,5 +4,6 @@ tags:
 - imported
 - from-twitter
 - SoundCloud
+- music
 ---
 likes Bop 'Enjoy The Moment' \(Thinnen Remix) \[Remix Competition Winner\] by Med School Music on [SoundCloud](/tags/SoundCloud) [http://soundcloud.com/medschoolmusic/bop-enjoy-the-moment-thinnen-remix-competition-winner](http://soundcloud.com/medschoolmusic/bop-enjoy-the-moment-thinnen-remix-competition-winner)

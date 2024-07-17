@@ -4,5 +4,6 @@ tags:
 - imported
 - from-twitter
 - SoundCloud
+- music
 ---
 likes crazy girl funky party by Michael Bartlett on [SoundCloud](/tags/SoundCloud) http://soundcloud.com/michael-bartlett/crazy-girl-funky-party

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Having issues with scope in my meta-ruby, anyone care to have a peek at this explanation? http://gist.github.com/475642
+Having issues with scope in my meta-ruby, anyone care to have a peek at this explanation? https://gist.github.com/475642

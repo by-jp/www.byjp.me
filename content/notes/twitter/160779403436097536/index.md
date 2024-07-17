@@ -5,6 +5,7 @@ tags:
 - imported
 - from-twitter
 - SoundCloud
+- music
 ---
 likes Moullinex feat Peaches - Maniac by [@moullinex](/twitter/#/moullinex)
 

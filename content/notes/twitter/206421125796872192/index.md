@@ -6,6 +6,7 @@ tags:
 - imported
 - from-twitter
 - ThisIsMyJam
+- music
 ---
 “She Doesn't Mind” by Cosmo Jarvis is my new jam. [♫](https://t.thisismyjam.com/jphastings/_1s479aa) [ThisIsMyJam](/tags/thisismyjam)
 

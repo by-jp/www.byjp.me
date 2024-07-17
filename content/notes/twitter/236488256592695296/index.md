@@ -6,6 +6,7 @@ tags:
 - imported
 - from-twitter
 - ThisIsMyJam
+- music
 ---
 “Fineshrine” by Purity Ring is my new jam. [♫](https://t.thisismyjam.com/jphastings/_2svwlop) [ThisIsMyJam](/tags/thisismyjam)
 

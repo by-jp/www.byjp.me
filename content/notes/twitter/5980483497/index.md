@@ -4,5 +4,6 @@ tags:
 - imported
 - from-twitter
 - SoundCloud
+- music
 ---
 likes Spontaneous Devotion by random on [SoundCloud](/tags/SoundCloud) http://soundcloud.com/random/spontaneous-devotion

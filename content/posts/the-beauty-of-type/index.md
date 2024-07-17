@@ -8,6 +8,7 @@ tags:
   - typography
   - postcards
   - project
+  - music
 topics:
 - Creativity
 summary: I created a font from a piece of art made for me by a friend.

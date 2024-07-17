@@ -6,6 +6,7 @@ tags:
 - imported
 - from-twitter
 - ThisIsMyJam
+- music
 ---
 This song. Is. My. Jam. [♫](https://t.thisismyjam.com/jphastings/_9rna1ln) [ThisIsMyJam](/tags/thisismyjam)
 

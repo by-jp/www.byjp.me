@@ -6,6 +6,7 @@ tags:
 - imported
 - from-twitter
 - ThisIsMyJam
+- music
 ---
 “My Baby Just Cares for Me” by [@NinaSimoneMusic](/twitter/#/NinaSimoneMusic) is my new jam. [♫](https://t.thisismyjam.com/jphastings/_49ewnkp) [ThisIsMyJam](/tags/thisismyjam)
 

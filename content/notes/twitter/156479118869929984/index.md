@@ -6,6 +6,7 @@ tags:
 - imported
 - from-twitter
 - ThisIsMyJam
+- music
 ---
 "D.A.N.C.E." by Justice is my new jam. ♫ [ThisIsMyJam](/tags/thisismyjam)
 
