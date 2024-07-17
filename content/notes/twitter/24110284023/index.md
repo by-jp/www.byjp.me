@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - from-foursquare
 ---
-I just became the mayor of Boots on [@foursquare](/twitter/#/foursquare)!
+I just became the mayor of Boots on Foursquare!

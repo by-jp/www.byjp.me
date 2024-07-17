@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - from-foursquare
 ---
-I just ousted Jon H. as the mayor of 144 Bath Rd on [@foursquare](/twitter/#/foursquare)!
+I just ousted Jon H. as the mayor of 144 Bath Rd on Foursquare!

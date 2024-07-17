@@ -5,4 +5,4 @@ tags:
 - from-twitter
 - from-foursquare
 ---
-I just ousted Jon H. as the mayor of Hog's Head on [@foursquare](/twitter/#/foursquare)!
+I just ousted Jon H. as the mayor of Hog's Head on Foursquare!
