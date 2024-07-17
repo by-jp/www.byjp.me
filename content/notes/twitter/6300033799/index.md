@@ -6,4 +6,4 @@ tags:
 - SoundCloud
 - music
 ---
-likes Mode 7 by hamsteralliance on [SoundCloud](/tags/SoundCloud) http://soundcloud.com/hamsteralliance/mode-7
+likes Mode 7 by hamsteralliance on [SoundCloud](/tags/SoundCloud) {{< linkrot "soundcloud.com/hamsteralliance/mode-7" >}}

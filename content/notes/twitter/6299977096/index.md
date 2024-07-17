@@ -6,4 +6,4 @@ tags:
 - SoundCloud
 - music
 ---
-likes crazy girl funky party by Michael Bartlett on [SoundCloud](/tags/SoundCloud) http://soundcloud.com/michael-bartlett/crazy-girl-funky-party
+likes crazy girl funky party by Michael Bartlett on [SoundCloud](/tags/SoundCloud) {{< linkrot "soundcloud.com/michael-bartlett/crazy-girl-funky-party" >}}

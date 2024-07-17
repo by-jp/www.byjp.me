@@ -6,4 +6,6 @@ tags:
 - SoundCloud
 - music
 ---
-likes Bop 'Enjoy The Moment' \(Thinnen Remix) \[Remix Competition Winner\] by Med School Music on [SoundCloud](/tags/SoundCloud) [http://soundcloud.com/medschoolmusic/bop-enjoy-the-moment-thinnen-remix-competition-winner](http://soundcloud.com/medschoolmusic/bop-enjoy-the-moment-thinnen-remix-competition-winner)
+likes Bop 'Enjoy The Moment' (Thinnen Remix) [Remix Competition Winner] by Med School Music
+
+{{< soundcloud path="/tracks/986177" artist="Med School Music" title="Bop 'Enjoy The Moment'" url="https://songwhip.com/medschoolmusic/bop-enjoy-the-moment-remix-competition-winner">}}

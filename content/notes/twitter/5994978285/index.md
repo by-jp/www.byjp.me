@@ -6,4 +6,6 @@ tags:
 - SoundCloud
 - music
 ---
-likes Olive by Robert Popper on [SoundCloud](/tags/SoundCloud) http://soundcloud.com/robert-popper/olive-2
+likes Olive by Robert Popper
+
+{{< soundcloud path="/tracks/545640" artist="Robert Popper" title="Olive" url="https://songwhip.com/robertpopper/olive">}}
