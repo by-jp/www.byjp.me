@@ -29,14 +29,6 @@ Things I might work on within my personal blog's software.
 
 - [ ] Remove lychee failing links
 - [ ] Import Facebook posts
-- [ ] Shortlinks
-  - [x] All posts have an auto-generated unqiue shortlink
-  - [x] Allow for customisation of shortlinks
-  - [x] Create suitable `_redirects` files
-  - [x] Import pre-existing shortlinks
-  - [x] Add shortlink as `<link rel="shortlink">` on all relevant pages
-  - [x] Add additional logic to _combine_ the redirects files as needed
-  - [ ] Upload new redirects to byjp.fyi repo
 
 ### Done ✓
 
@@ -70,3 +62,12 @@ Things I might work on within my personal blog's software.
 - [x] Videos in "photos" don't have a thumbnail, and don't work in the list.
 - [x] Reviews don't appear on homepage?
 - [x] Spoiler open styling has regressed!
+- [x] Shortlinks
+  - [x] All posts have an auto-generated unqiue shortlink
+  - [x] Allow for customisation of shortlinks
+  - [x] Create suitable `_redirects` files
+  - [x] Import pre-existing shortlinks
+  - [x] Add shortlink as `<link rel="shortlink">` on all relevant pages
+  - [x] Add additional logic to _combine_ the redirects files as needed
+  - [x] Upload new redirects to byjp.fyi repo
+  - [x] Remove automation 😭 as IPFS can't handle large redirects files
