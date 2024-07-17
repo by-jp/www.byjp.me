@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Check it out: http://poetry.kedakai.co.uk/helix \(be patient)
+Check it out: [helix.byjp.me/](https://helix.byjp.me/) (be patient)
