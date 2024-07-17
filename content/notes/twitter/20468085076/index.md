@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Oh, and if you want to see what I've been watching: {{% linkrot "http://videoscrobbler.heroku.com/users/jphastings" %}} (warning: definitely not tested in IE)
+Oh, and if you want to see what I've been watching: {{% linkrot "videoscrobbler.heroku.com/users/jphastings" %}} (warning: definitely not tested in IE)

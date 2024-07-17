@@ -14,4 +14,4 @@ references:
 ---
 Hugo Shelly, you are the man.
 
-Please tell everyone about the awesome game of Lost and Hugo's newfound fame! {{< linkrot "http://lost.eu" >}}
+Please tell everyone about the awesome game of Lost and Hugo's newfound fame! {{< linkrot "lost.eu" >}}

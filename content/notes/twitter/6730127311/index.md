@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-Very cool indeed: [http://www.sitasingstheblues.com/watch.html](http://www.sitasingstheblues.com/watch.html) an excellent film, entirely CC! [#tt1172203](https://imdb.com/title/tt1172203)
+{{< film "Sita Sings the Blues" "2008" "https://www.themoviedb.org/movie/20529-sita-sings-the-blues" "poster.webp" >}}
+
+Very cool indeed: [sitasingstheblues.com](https://www.sitasingstheblues.com/watch.html) an excellent film, entirely Creative Commons!

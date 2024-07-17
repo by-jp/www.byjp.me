@@ -4,5 +4,5 @@ tags:
 - imported
 - from-twitter
 ---
-Cut out the needless bulk of conversation: {{< linkrot "https://justyo.co/JPHASTINGS" >}}
+Cut out the needless bulk of conversation: {{< linkrot "justyo.co/JPHASTINGS" >}}
 {{< imgorvid src="media-1.jpg" >}}

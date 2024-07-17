@@ -4,8 +4,8 @@ tags:
 - imported
 - from-twitter
 ---
-I made this a while ago, but it needed polishing. Close enough now:\
-\
-Short URLs you can speak: [https://iconic.im/](https://iconic.im/)\
-\
+I made this a while ago, but it needed polishing. Close enough now:
+
+Short URLs you can speak: {{% linkrot "iconic.im" "my site for visual shortlinks" %}}
+
 Thoughts?

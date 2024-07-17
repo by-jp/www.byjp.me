@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-This flavors.me thing is quite fun! {{ linkrot "https://flavors.me/jphastings" "a site" >}}
+This flavors.me thing is quite fun! {{< linkrot "flavors.me/jphastings" "a site" >}}
