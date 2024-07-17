@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-Turns out that one of my favourite humans-I've-never-met, [@SimoneGiertz](/twitter/#/SimoneGiertz), is deeply inspirational on even the worst of days too. 🖖 [https://youtu.be/tpa4kp4lK60](https://youtu.be/tpa4kp4lK60)
+Turns out that one of my favourite humans-I've-never-met, [@SimoneGiertz](/twitter/#/SimoneGiertz), is deeply inspirational on even the worst of days too. 🖖 
+
+{{< youtube tpa4kp4lK60 >}}

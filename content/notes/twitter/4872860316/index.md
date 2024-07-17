@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-Wow. Want so bad! [http://www.youtube.com/watch?v=lex53AY7Fmo](http://www.youtube.com/watch?v=lex53AY7Fmo) This guy is my new hero
+Wow. Want so bad! This guy is my new hero
+
+{{< youtube lex53AY7Fmo >}}

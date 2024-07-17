@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-JP : WHAT DON'T YOU F\*ING UNDERSTAND, I'LL F\*ING KICK YOUR F\*ING ASS \([https://www.youtube.com/watch?v=YTihsJQHt48](https://www.youtube.com/watch?v=YTihsJQHt48)).
+JP : WHAT DON'T YOU F\*ING UNDERSTAND, I'LL F\*ING KICK YOUR F\*ING ASS.
+
+{{< youtube YTihsJQHt48 >}}

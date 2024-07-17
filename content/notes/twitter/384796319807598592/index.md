@@ -5,4 +5,6 @@ tags:
 - from-twitter
 - DearJJAbrams
 ---
-[DearJJAbrams](/tags/DearJJAbrams), let's make Star Wars great again. [https://youtu.be/_joDNOpeWWo](https://youtu.be/_joDNOpeWWo)
+[DearJJAbrams](/tags/DearJJAbrams), let's make Star Wars great again.
+
+{{< youtube _joDNOpeWWo >}}

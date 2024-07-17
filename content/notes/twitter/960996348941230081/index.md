@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-So this is a thing: [https://youtu.be/aBr2kKAHN6M](https://youtu.be/aBr2kKAHN6M)
+So this is a thing: 
+
+{{< youtube aBr2kKAHN6M >}}
