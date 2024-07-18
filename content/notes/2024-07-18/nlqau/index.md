@@ -1,7 +1,9 @@
 ---
 date: 2024-07-18T16:58:47.933+01:00
 publishDate: 2024-07-18T16:58:47.933+01:00
-slug: nlqau
+tags:
+- postcards
+- devlog
 ---
 
 First [devlog](/tags/devlog)! Today I made some plans toward a full restart of my postcards CLI tool & its fileformat. Together they make archiving & displaying [postcards](/tags/postcards) easy and fun!
@@ -13,4 +15,3 @@ Check out:
 - [The .postcard custom element](https://dotpostcard.github.io/postcards-html)
 - [CSS-only postcard viewing](https://shutup.jp)
 - [My love of postcards](https://www.byjp.me/posts/thoughts-on-postcards/)
-
