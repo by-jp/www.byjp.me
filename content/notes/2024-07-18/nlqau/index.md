@@ -4,6 +4,9 @@ publishDate: 2024-07-18T16:58:47.933+01:00
 tags:
 - postcards
 - devlog
+syndications:
+- https://hachyderm.io/@byjp/112808331189356899
+- https://bsky.app/profile/byjp.me/post/3kxkytzjy7u23
 ---
 
 First [devlog](/tags/devlog)! Today I made some plans toward a full restart of my postcards CLI tool & its fileformat. Together they make archiving & displaying [postcards](/tags/postcards) easy and fun!

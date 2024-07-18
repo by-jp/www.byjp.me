@@ -3,6 +3,9 @@ date: 2024-07-16T11:13:04.908+01:00
 publishDate: 2024-07-16T11:13:04.908+01:00
 tags:
 - book
+syndications:
+- https://hachyderm.io/@byjp/112795682286154143
+- https://bsky.app/profile/byjp.me/post/3kxff3r7kmz2m
 ---
 
 Are any of you familiar with “Pebs”, the signifier of mutual benefit in a community from Becky Chambers’ “A Prayer for the Crown-Shy”?
