@@ -11,7 +11,7 @@ tags:
 ---
 Well, I'm back from Japan and while I was there I kept an online journal (Tumblr, you rock) to let everyone at home know what was going on. To make things even cooler I vowed to keep the posts tagged with where I was while I was writing them, of course tumblr has no functionality for this so I hacked up a geotagging solution using javascript.
 
-After making a [formal request for geotagging features](http://web.archive.org/web/20090819092856/http://getsatisfaction.com:80/tumblr/topics/geotagging_of_individual_posts)[^1] on their GetSatisfaction pages, someone asked me how I got it done, so I created a (very sloppy) [tutorial as a github gist](https://gist.github.com/jphastings/178487). If you feel like getting some rather hacky geotagging features in your tumblog, this is one way to do it with google maps and plenty of time!
+After making a [formal request for geotagging features](https://web.archive.org/web/20090819092856/http://getsatisfaction.com:80/tumblr/topics/geotagging_of_individual_posts)[^1] on their GetSatisfaction pages, someone asked me how I got it done, so I created a (very sloppy) [tutorial as a github gist](https://gist.github.com/jphastings/178487). If you feel like getting some rather hacky geotagging features in your tumblog, this is one way to do it with google maps and plenty of time!
 
 The Cons:
 

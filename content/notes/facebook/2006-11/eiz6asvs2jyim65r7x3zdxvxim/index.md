@@ -8,6 +8,7 @@ tags:
 repostOf: https://www.zefrank.com/theshow/
 references:
 - url: https://www.zefrank.com/theshow/
+  archiveURL: https://web.archive.org/web/20060826221002/https://www.zefrank.com/theshow/
   type: podcast
   name: the show with zefrank
   author: Ze Frank
