@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-SEO 2.0: Top 7 Ways To Crash Internet Explorer http://bt.io/1Nj
+SEO 2.0: Top 7 Ways To Crash Internet Explorer [Link](https://web.archive.org/web/20101112083931/http://seo2.0.onreact.com/top-7-ways-to-crash-internet-explorer)

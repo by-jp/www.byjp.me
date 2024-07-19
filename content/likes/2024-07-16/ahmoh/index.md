@@ -3,8 +3,7 @@ date: 2024-07-16T23:58:20.870+01:00
 publishDate: 2024-07-16T23:58:20.870+01:00
 likeOf: https://coryd.dev/posts/2024/its-not-just-a-blog/
 references:
-  https://corydDev/posts/2024/itsNotJustABlog/:
-    url: https://coryd.dev/posts/2024/its-not-just-a-blog/
+  - url: https://coryd.dev/posts/2024/its-not-just-a-blog/
     type: entry
     published: ""
     name: It's not just a blog

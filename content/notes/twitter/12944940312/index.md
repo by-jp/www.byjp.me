@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Those of you that create digital stuff, have you seen http://flattr.com ? What do you think? Interested in opinions.
+Those of you that create digital stuff, have you seen {{% linkrot "flattr.com" %}} ? What do you think? Interested in opinions.

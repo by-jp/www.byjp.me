@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-Worst. Pout. Ever. http://newsimg.bbc.co.uk/media/images/42333000/jpg/_42333974_afghanistan_blair203.jpg 
+Worst. Pout. Ever.
+
+![An army officer caught mid-mouth movement in conversation with Tony Blair, looking like he's pouting at the Prime Minister](./afghanistan_blair203.jpg)

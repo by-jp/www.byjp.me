@@ -4,9 +4,9 @@ tags:
 - imported
 - from-twitter
 type: repost
-repostOf: http://homepage.ntlworld.com/keir.clarke/nsfw.htm
+repostOf: https://homepage.ntlworld.com/keir.clarke/nsfw.htm
 references:
-  - url: http://homepage.ntlworld.com/keir.clarke/nsfw.htm
+  - url: https://homepage.ntlworld.com/keir.clarke/nsfw.htm
     archiveURL: https://web.archive.org/web/20090715070455/https://homepage.ntlworld.com/keir.clarke/nsfw.htm
     name: NSFW Map
     date: 2009-07-15

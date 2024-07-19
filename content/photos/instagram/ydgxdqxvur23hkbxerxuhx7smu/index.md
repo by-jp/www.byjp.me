@@ -12,6 +12,6 @@ I started my own postal service…
 
 If you find me, I'll deliver a postcard for you anywhere on earth. Some will arrive quickly, some will take years, so why not post one somewhere unusual and send me on an adventure?
 
-[justpostcards.co.uk](http://web.archive.org/web/20161015062435/http://www.justpostcards.co.uk/)[^1]
+[justpostcards.co.uk](https://web.archive.org/web/20161015062435/http://www.justpostcards.co.uk/)[^1]
 
 [^1]: I've since given up this domain, but the link points to a copy on the wayback machine!

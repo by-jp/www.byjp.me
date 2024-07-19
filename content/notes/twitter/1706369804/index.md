@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Finished my ruby-DLC mini-project http://projects.kedakai.co.uk/rubydlc/ also on github https://github.com/jphastings/ruby-DLC
+Finished my ruby-DLC mini-project {{% linkrot "projects.kedakai.co.uk/rubydlc" %}} also on github https://github.com/jphastings/ruby-DLC
