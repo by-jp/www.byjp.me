@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Our garden is pretty sweet… http://360.io/dCpSHw
+Our garden is pretty sweet… {{% linkrot "360.io/dCpSHw" %}}

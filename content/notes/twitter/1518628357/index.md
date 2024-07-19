@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Ho hum: [http://www.techbelly.com/2009/04/13/more-on-journalistic-imbalance/](http://www.techbelly.com/2009/04/13/more-on-journalistic-imbalance/)
+Ho hum: [More on journalistic imbalance](https://web.archive.org/web/20090621060306/http://www.techbelly.com/2009/04/13/more-on-journalistic-imbalance/)

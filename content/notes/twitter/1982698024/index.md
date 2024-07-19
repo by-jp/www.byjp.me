@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-http://poetry.kedakai.co.uk/helix#82 seems quite appropriate considering my upcoming *final ever exam*
+[Helix poem 82](https://helix.byjp.me/#82) seems quite appropriate considering my upcoming *final ever exam*

@@ -7,4 +7,4 @@ location:
   latitude: 12.96572368
   longitude: 77.71805778
 ---
-Bar + cricket nets = awesome http://360.io/j5uMXA
+Bar + cricket nets = awesome {{% linkrot "360.io/j5uMXA" %}}

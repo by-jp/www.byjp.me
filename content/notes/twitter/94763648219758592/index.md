@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-http://360.io/JChaBQ
+{{% linkrot "360.io/JChaBQ" %}}
