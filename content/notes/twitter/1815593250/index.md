@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-http://poetry.kedakai.co.uk/
+{{% linkrot "poetry.kedakai.co.uk" %}}[^1]
+
+[^1]: Now on this blog in the [poetry section](/poetry).

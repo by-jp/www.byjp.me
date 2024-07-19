@@ -4,4 +4,6 @@ tags:
 - imported
 - from-twitter
 ---
-[http://www.flickr.com/photos/15879902@N00/2954975518](http://www.flickr.com/photos/15879902@N00/2954975518) A new dawn rises
+A new dawn rises
+
+![An artistically framed photograph photograph; in almost darkness a path rises up in front of us and curves into the sun just as it crests into the horizon](./dawn.jpg)

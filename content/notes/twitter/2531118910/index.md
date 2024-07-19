@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-http://ernestmarples.com/ are my new heroes \(via [@threedaymonk](/twitter/#/threedaymonk)) - seconded!
+https://ernestmarples.com/ are my new heroes (via [@threedaymonk](/twitter/#/threedaymonk)) - seconded!
