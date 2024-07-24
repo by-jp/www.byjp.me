@@ -51,7 +51,6 @@ date = ["date", "publishDate", "lastmod", ":git"]
   description = "JP Hastings-Edrei: Software Engineer"
   keywords    = "homepage, blog, science, software, miriscient, programming, indieweb, memex"
   images      = [""]
-  customJS    = ["/js/postcards-html.js"]
 
   justifyContent = true
   contentTypeName = "posts"

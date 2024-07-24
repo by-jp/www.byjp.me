@@ -1,1 +1,13 @@
-<postcard-display class="{{ default "center" (.Get "class") }}" src="{{ .Get "src" }}"{{with .Get "show"}} show="{{ . }}"{{end}}></postcard-display>
+{{- $name := .Get 0 -}}
+{{- $meta := printf "%s-meta.json" $name -}}
+{{- $relPath := .Page.RelPermalink -}}
+{{- with .Page.Resources.Get $meta -}}{{- with .Content | transform.Unmarshal -}}
+<input type="checkbox" id="postcard-{{ $name }}">
+<label for="postcard-{{ $name }}">
+	<div class="postcard flip-{{ .flip }} {{ if gt .physical.frontDimensions.pxHeight .physical.frontDimensions.pxWidth }}portrait{{ else }}landscape{{ end }}" style="--postcard: url('{{ $relPath }}{{ $name }}.webp'); --aspect-ratio: {{ .physical.frontSize.pxW }} / {{ .physical.frontSize.pxH }}">
+		<img src="{{ $name }}.webp" loading="lazy" alt="{{ .front.description }}" width="500px">
+		<div class="shadow"></div>
+	</div>
+</label> 
+{{- else -}}{{ errorf "Couldn't parse Postcard metadata for %s" $name }}{{- end -}}
+{{- else -}}{{ errorf "Missing Postcard metadata for %s" $name }}{{- end -}}

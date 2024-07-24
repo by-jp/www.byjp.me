@@ -16,6 +16,6 @@ Art is, in my humble opinion, at its greatest when limitlessly exploring a limit
 
 Even now I'm slowly building a microsite gallery for the postcards my friend Claire sends me whenever she travels. Every one of them contains just one message: "Shut up, JP" in the local language. I love them.
 
-{{< postcard src="shutup-singapore.postcard" show="back front" >}}
+{{< postcard shutup-singapore >}}
 
 I honestly think I'll always enjoy playing with postcards, in one form or another. If you'd ever like to tell me about your appreciation of them, a postcard you've seen or enjoyed receiving or sending, do reach out by email (I have a [standing invitation](/standing-invitation))! …and if you'd like to send me a postcard you only need write me an email and ask for my address.

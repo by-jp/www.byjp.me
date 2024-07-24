@@ -238,7 +238,14 @@ article, section {
   }
 }
 
-img, postcard-display {
+.postcard {
+  max-width: 60%;
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
   display: block;
   max-width: 100%;
 
