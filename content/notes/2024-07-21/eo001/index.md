@@ -6,7 +6,8 @@ location:
   name: 51° 31′ 48.97″ N 0° 8′ 7.55″ W
   latitude: 51.53027
   longitude: -0.13543
-slug: eo001
+tags:
+- devlog
 ---
 
-I’m on a long train to a friend’s BBQ so I’m writing a little more of my postcards tool. I’m hoping to have the skeleton done by the time I arrive — maybe I’ll even get a chance to dive into the #USD #3D format! #devlog
+I’m on a long train to a friend’s BBQ so I’m writing a little more of my postcards tool. I’m hoping to have the skeleton done by the time I arrive — maybe I’ll even get a chance to dive into the #USD #3D format! [devlog](/tags/devlog)
