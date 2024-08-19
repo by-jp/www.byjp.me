@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Finished my first Facebook app. It rules. http://apps.facebook.com/feelinglost/
+Finished my first Facebook app. It rules. {{< linkrot "http://apps.facebook.com/feelinglost/" >}}

@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Wrote a script to word count my essay regularly till the deadline & google chart the result. Terrifyingly motivating. [http://dl.dropbox.com/u/1355384/Essay.png](http://dl.dropbox.com/u/1355384/Essay.png)
+Wrote a script to word count my essay regularly till the deadline & google chart the result. Terrifyingly motivating. {{< linkrot "https://dl.dropbox.com/u/1355384/Essay.png" >}}

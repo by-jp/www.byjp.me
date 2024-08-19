@@ -3,8 +3,7 @@ date: 2024-07-28T13:31:27.943+01:00
 publishDate: 2024-07-28T13:31:27.943+01:00
 likeOf: https://calcgpt.io/
 references:
-  https://calcgptIo/:
-    url: https://CalcGPT.io
+  - url: https://CalcGPT.io
     type: entry
     name: CalcGPT.io
     summary: A silly calculator unnecessarily powered by GPT

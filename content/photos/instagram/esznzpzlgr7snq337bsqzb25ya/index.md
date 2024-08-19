@@ -16,4 +16,4 @@ Jake's Dinner
 
 
 
-Betty was preparing food in the kitchen. Jake approached and asked, "what is the point of existence, if all that we attain is doomed to crumble?" Betty placed a sewing kit in Jake's bowl and said, "here is your dinner." http://lucy.byjp.me/cards/jake-s-dinner
+Betty was preparing food in the kitchen. Jake approached and asked, "what is the point of existence, if all that we attain is doomed to crumble?" Betty placed a sewing kit in Jake's bowl and said, "here is your dinner." https://lucy.byjp.me/cards/jake-s-dinner

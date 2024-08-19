@@ -21,7 +21,7 @@ We spent a couple of hours there before heading home.  On our way back we stopp
 
 We both really hoped that it was the second one.  We stayed and stressed that we didn`t understand until she brought us food -- and the food we wanted, to say the least it was delicious.  While we were eating people started appearing that either lived with her or were local friends because the place turned into her front room, with what looked like her son (walking around in a heavy metal T-shirt) looking completely out of place.  The whole experience made it feel like we were eating in her living room.
 
-Finally we made it home, fed and content.  JP got on the internet and [uploaded the photos](http://flickr.com/photos/jphastings) while we sat and chatted to the other residents of this quaint little hovel...  The opinon of it was we were all looking for a good time but didn't have that much cash!!!  The solution was to go to a bar that sold drinks for 200yen each, what we didn't realise was that there was a service charge of 400yen, and consumption tax at 5%!
+Finally we made it home, fed and content.  JP got on the internet and [uploaded the photos](https://flickr.com/photos/jphastings) while we sat and chatted to the other residents of this quaint little hovel...  The opinon of it was we were all looking for a good time but didn't have that much cash!!!  The solution was to go to a bar that sold drinks for 200yen each, what we didn't realise was that there was a service charge of 400yen, and consumption tax at 5%!
 
 Having got over that we went to the local super market and bought a 2 litre bottle of Sake!!  I feel the rest is explained the two Americans and the Dutch girl are in bed and the English are still up.  GOOD TIMES.
 

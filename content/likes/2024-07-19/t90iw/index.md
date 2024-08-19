@@ -3,8 +3,7 @@ date: 2024-07-19T10:04:33.945+01:00
 publishDate: 2024-07-19T10:04:33.945+01:00
 likeOf: https://shademap.app/
 references:
-  https://shademapApp/:
-    url: https://shademap.app
+  - url: https://shademap.app
     type: entry
     name: Simulate sun shadows
     summary: Every mountain, building and tree shadow in the world simulated for any date and time

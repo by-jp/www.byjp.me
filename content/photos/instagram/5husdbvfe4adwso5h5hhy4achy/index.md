@@ -20,4 +20,4 @@ She gently cupped Julie's cheek
 
 and asked, of no-one in particular,
 
-"How does someone even make a you?" http://lucy.byjp.me/cards/curious-soul
+"How does someone even make a you?" https://lucy.byjp.me/cards/curious-soul

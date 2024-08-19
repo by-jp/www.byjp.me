@@ -39,7 +39,7 @@ Credence allows you to make assertions like this:
 
 > [This website](/twitter/#/RealFakeFacts/status/409062831355486208) states that: “The longest consecutive crowd wave occurred in 2002 at a Denver broncos game. The wave circled the stadium 492 times and lasted over 3 hrs.”
 >
-> At this time, I believe this to be **false** and I cite [this website as proof](http://www.guinnessworldrecords.com/world-records/longest-mexican-wave-%28timed%29). Signed, JP
+> At this time, I believe this to be **false** and I cite [this website as proof](https://www.guinnessworldrecords.com/world-records/longest-mexican-wave-%28timed%29). Signed, JP
 
 There are a number of components to these sentences. I shan’t go into the technical details of the (nascent) Credence protocol, suffice to say that these components are compiled into a single sharable nugget that I call a _Cred_ which is published and shared with as many other Credence users as possible, so that it is universally accessible. Those components are:
 
@@ -78,7 +78,7 @@ A browser extension can interact with the Credence server and highlight statemen
 
 ---
 
-A protocol like Credence can only hope be the infrastructure upon which more useful tools are built, but I hope I’ve managed to outline how a system like this might work and the benefits it could offer. I find the decentralised nature of the reputation users can generate using a system like this very interesting as it removes the chance for unquestioning acceptance of facts based on general reputation alone; eg. an incorrect Wikipedia article which is cited by a newspaper, which is in turn used as proof that the Wikipedia article is correct, like [this poor German minister](http://tech.slashdot.org/story/09/02/10/2211220/false-fact-on-wikipedia-proves-itself) whose name was misquoted.
+A protocol like Credence can only hope be the infrastructure upon which more useful tools are built, but I hope I’ve managed to outline how a system like this might work and the benefits it could offer. I find the decentralised nature of the reputation users can generate using a system like this very interesting as it removes the chance for unquestioning acceptance of facts based on general reputation alone; eg. an incorrect Wikipedia article which is cited by a newspaper, which is in turn used as proof that the Wikipedia article is correct, like [this poor German minister](https://tech.slashdot.org/story/09/02/10/2211220/false-fact-on-wikipedia-proves-itself) whose name was misquoted.
 
 Credence is just a prototype (and a brief experiment in writing in a new software language for me), but I believe this principle of distributed credence is an important one for the future of mass-communication and I’d be interested in hearing thoughts on, and references to research around, this and related topics.
 
@@ -90,7 +90,7 @@ _Some early questions about Credence centred around the fact that it would enabl
 
 One key principle in Credence’s design has been that it should not be opinionated; it will not try to tell you that something is incorrect unless the body of people you trust holds that view. This does allow groups of people to express widely disproved opinions as fact, just as is feasible in non-digital communities, but the important difference is that Credence will continue to check for counter-evidence.
 
-In non-digital interaction if you accept a fringe opinion as truth, the only time you’re likely to reassess that opinion is if you have to act upon it with some level of risk. If the opinion carries little risk in belief, or is rarely tested by the believers then it can [continue unchecked for generations](http://www.informationisbeautiful.net/visualizations/common-mythconceptions/) — for example, [Einstein wasn’t bad at maths](http://www.todayifoundout.com/index.php/2011/12/albert-einstein-did-not-fail-at-mathematics-in-school/).
+In non-digital interaction if you accept a fringe opinion as truth, the only time you’re likely to reassess that opinion is if you have to act upon it with some level of risk. If the opinion carries little risk in belief, or is rarely tested by the believers then it can [continue unchecked for generations](https://www.informationisbeautiful.net/visualizations/common-mythconceptions/) — for example, [Einstein wasn’t bad at maths](https://www.todayifoundout.com/index.php/2011/12/albert-einstein-did-not-fail-at-mathematics-in-school/).
 
 Credence however continues to check viewpoints as they shift, so if _one_ trusted user in a community proclaims that “Einstein was bad at maths” is _false_, it could detect this and prompt you saying “the believability of this statement has shifted recently, would you like to look at the newly stated evidence?”.
 

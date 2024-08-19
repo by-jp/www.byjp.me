@@ -17,8 +17,8 @@ Are you pissed off with the rounded profile pics that Facebook has decided to us
 
 ## The catches
 
-* **You need a [Mac](http://apple.com/getamac/ads/).** I might build a firefox greasemonkey script sometime soon tho.
-* **You need [GlimmerBlocker](http://glimmerblocker.org/).** I'd highly recommend it, its essentially a proxy that removes all the irritating ads on websites for you automatically :) It'll work with every application you use, and you can even make your own rules as to what gets blocked (like this...)
+* **You need a [Mac](https://apple.com/getamac/ads/).** I might build a firefox greasemonkey script sometime soon tho.
+* **You need [GlimmerBlocker](https://glimmerblocker.org/).** I'd highly recommend it, its essentially a proxy that removes all the irritating ads on websites for you automatically :) It'll work with every application you use, and you can even make your own rules as to what gets blocked (like this...)
 
 ## How to install
 

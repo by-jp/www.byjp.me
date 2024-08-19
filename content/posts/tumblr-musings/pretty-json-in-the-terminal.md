@@ -16,7 +16,7 @@ If you're investingating JSON returned from a web service, get the control you n
 
 ```sh
 brew install jsonpp
-curl -u username:password http://awesome.com/stuff.json | jsonpp 
+curl -u username:password https://awesome.com/stuff.json | jsonpp 
 ```
 
 BOOM. As they say.

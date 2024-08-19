@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Sleep eludes me. http://yfrog.us/2pldbz
+Sleep eludes me. {{< linkrot "http://yfrog.us/2pldbz" >}}
