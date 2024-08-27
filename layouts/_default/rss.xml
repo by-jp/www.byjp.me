@@ -39,7 +39,9 @@
           Thoughts on a bookmarked article{{ with $reference.name }}: {{.}}{{ end }}.
         {{- else -}}
           {{- if eq .Section "calendar" -}}(An event I may be going to.) {{ end -}}
-          {{- index (split .Summary "\n") 0 -}}
+          {{- $desc := (index (split .Summary "\n") 0) | safeHTML -}}
+          {{- $desc -}}
+          {{- range .Params.tags }} #{{.}}{{ end -}}
         {{- end -}}
       </description>
       <content:encoded>
