@@ -1,6 +1,6 @@
 {{- $timings := slice -}}
 {{- range . -}}
-  {{- if (time.AsTime .starts).After time.Now -}}
+  {{- if and ((time.AsTime .starts).After time.Now) (not (eq .attending false)) -}}
     {{- $timings = $timings | append . -}}
   {{- end -}}
 {{- end -}}

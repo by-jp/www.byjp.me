@@ -3,7 +3,7 @@ title: "Hep to the Hive 2024"
 emoji: 🕺
 date: 2024-08-27T15:20:15.522Z
 timings:
-  - starts: 2024-08-30T19:30:00Z
+  - starts: 2024-08-30T20:30:00+01:00
     duration: P2DT30M
     attending: true
 link: https://swingnorth.org.uk/event/hep-to-the-hive-manchester-swing-dance-weekend/
