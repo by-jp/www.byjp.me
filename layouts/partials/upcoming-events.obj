@@ -1,0 +1,12 @@
+{{- $allEvents := where site.RegularPages "Section" "calendar" -}}
+{{- $upcomingEvents := slice }}
+{{- range $eventPage := $allEvents -}}
+  {{ range $eventPage.Params.timings }}
+    {{ $event := dict "Title" $eventPage.Title "Page" $eventPage.Page "Date" (time.AsTime .starts) "Duration" (partial "iso8601.duration" .duration) }}
+    {{ if $event.Date.Before time.Now }}{{ continue }}{{ end }}
+    {{ if eq .attending false }}{{ continue }}{{ end }}
+    {{ $upcomingEvents = sort ($upcomingEvents | append $event) "Date" "asc" }}
+    {{ break }}{{/* Only show the first on the list */}}
+  {{ end }}
+{{- end -}}
+{{- return $upcomingEvents -}}
