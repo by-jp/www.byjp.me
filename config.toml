@@ -118,7 +118,7 @@ date = ["date", "publishDate", "lastmod", ":git"]
 
     [[languages.en.params.social]]
       name = "signal"
-      url  = "https://signal.me/#eu/IXpZjHz0782uKsD27aCw87_-PJXB1ZgzG58sVgiF8g2s5ThVioJIJ5WhFHSXQN8q"
+      url  = "https://signal.me/#eu/092dSvsDjSYGU_6W2Z4fvXJfktdozKIidYs91EA9I3kukc-3xOtB_aAg3QxUOznZ"
 
     [[languages.en.params.social]]
       name = "github"
