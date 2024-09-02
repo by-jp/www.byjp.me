@@ -27,7 +27,10 @@ Get in touch if you'd like to go to these, or any other events⁺, together!
 => {{ partial "noindex.gmi" (index $upcomingEvents 1).Page.RelPermalink }} {{ (index $upcomingEvents 1).Title }}
 
 => /calendar/ 🗓️ My events calendar
-{{ end }}
+{{- else }}
+Looks like I've not added any events to my blog recently — I'm sure I'd appreciate a recommendation from you!
+{{- end }}
+
 {{ with (partial "latest-non-reply-note.obj") }}## A recent note
 📅 {{ .Page.Date.Format "January 2, 2006 — 15:04 (MST)" }}
 

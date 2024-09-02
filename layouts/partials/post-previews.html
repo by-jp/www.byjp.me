@@ -28,7 +28,6 @@
   <p class="post-content">{{ partial "svg.html" (dict "name" "document") }} Check out <a href="/posts">all my longer posts</a>, or read through my <a href="/bookmarks">thoughts on others' writing</a>.</p>
 
   {{- $upcomingEvents := partial "upcoming-events.obj" }}
-  {{ $upcomingEvents }}
   {{ if ge (len $upcomingEvents) 2 }}
   <hr class="mini" />
   <p class="post-content">
