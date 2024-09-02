@@ -1,5 +1,6 @@
 ---
 date: 2024-08-23T11:49:51.517+01:00
+emoji: 🥸
 publishDate: 2024-08-23T11:49:51.517+01:00
 title: How I Learned to Have Uncomfortable Conversations
 bookmarkOf: https://humanparts.medium.com/finding-my-fighting-words-how-i-learned-to-have-uncomfortable-conversations-9c0bb09c50c
