@@ -1,13 +1,20 @@
 ---
 title: Shaping the future
-emoji: 🚀
 date: "2024-09-02T10:54:02Z"
+emoji: "\U0001F680"
 bookmarkOf: https://www.antipope.org/charlie/blog-static/2007/05/shaping-the-future.html
 references:
   bookmark:
     url: https://www.antipope.org/charlie/blog-static/2007/05/shaping-the-future.html
     type: entry
     name: Shaping the future
+    summary: (One of the things that goes with being an SF writer is that people expect
+      you to talk about, well, the future. Last week, engineering consultancy TNG
+      Technology Consulting invited me to Munich to address one of their technology
+      open days. Here's a transcript of my talk, which discusses certain under-considered
+      side effects of some technologies that you're probably already becoming familiar
+      with. Note that this is a long blog entry — even by my verbose standards — so
+      you'll need to hit on the "continue reading" link to see the whole thing.)
 ---
 What does the future of technology hold, to a predictive thinker in the year 2007?
 
