@@ -12,6 +12,7 @@ references:
     summary: Despite its designers’ hopes that it might beckon in a new era of more
       nuanced political discourse, the political compass has largely been reduced
       to meme-fodder. This popularised version of …
+summary: A friend explores some changes and additions to their favourite political compass.
 ---
 A friend explores some changes and additions to their favourite political compass. Changes I _really_ like! I certainly plan on spending some time thinking about a 3D version that popped itself into my head as I was reading. (Because everyone needs their own version of the political compass 😅)
 
