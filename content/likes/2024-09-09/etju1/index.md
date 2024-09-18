@@ -7,7 +7,6 @@ references:
     url: https://www.miniatua.com/?ref=hiro.report
     type: entry
     name:
-      - Miniatua Limited Edition | Home
-      - "\n\n"
+      - Miniatua Limited Edition
     summary: Highly Detailed Collectibles And Handcrafted Miniature Scale Models
 ---
