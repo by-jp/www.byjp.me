@@ -14,7 +14,9 @@ references:
       to meme-fodder. This popularised version of …
 summary: A friend explores some changes and additions to their favourite political compass.
 ---
-A friend explores some changes and additions to their favourite political compass. Changes I _really_ like! I certainly plan on spending some time thinking about a 3D version that popped itself into my head as I was reading. (Because everyone needs their own version of the political compass 😅)
+A friend explores some changes and additions to their favourite political compass. Changes I _really_ like! I particularly appreciate that it shows (what I see as) real and understandable motivation for each of the directions and places upon it; it's relatable to consider someone operating in both a "thriving" or "surviving" mindset, similarly I can understand an "obliged" mindset as much as I can an "atomised" one. I firmly believe that _good_ political outcomes derive from being able to _understand_ those who disagree with you, and this helps!
+
+I certainly plan on spending some time thinking about a 3D version that popped itself into my head as I was reading. (Because everyone needs their own version of the political compass 😅)
 
 ### Highlights
 
@@ -46,7 +48,7 @@ This seems like an excellent choice.
 
 > My take on the political compass therefore looks like this:
 
-{{< figure alt="A square balanced on its border with four quadrants separated again into three rings from centre outwards. Centrist sits at the centre, with Nationalist above, and Fascist at the upward extreme. To the right beyond centrist is Corporatist then Feudalist. Downwards has Liberal then Anarchist. Finally leftward is Socialist then Communist." caption="Atlas Pragmatica’s political compass (CC BY-SA 4.0)" src="./atlas-pragmatica-inward-compass.png" >}}
+{{< figure alt="A square balanced on its border with four quadrants separated again into three rings from centre outwards. Centrist sits at the centre, with Nationalist above, and Fascist at the upward extreme. To the right beyond centrist is Corporatist then Feudalist. Downwards has Liberal then Anarchist. Finally leftward is Socialist then Communist." caption="My own (SVG) replica of Atlas Pragmatica’s “inward” political compass. Yes, it works in both dark and light modes and yes, it took much longer to make than I'd care to admit… (CC BY-SA 4.0)" src="./atlas-pragmatica-inward-compass.svg" >}}
 
 ---
 

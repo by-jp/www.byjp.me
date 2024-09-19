@@ -2,13 +2,17 @@
   {{- if .Get "link" -}}
       <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
   {{- end }}
-  <img src="{{ path.Join $.Page.RelPermalink (.Get "src") }}"
-       {{- if or (.Get "alt") (.Get "caption") }}
-       alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
-       {{- end -}}
-       {{- with .Get "width" }} width="{{ . }}"{{ end -}}
-       {{- with .Get "height" }} height="{{ . }}"{{ end -}}
-  /> <!-- Closing img tag -->
+  {{ if eq (path.Ext (.Get "src")) ".svg" }}
+    {{ readFile (path.Join $.Page.File.Dir (.Get "src")) | safeHTML }}
+  {{ else }}
+    <img src="{{ path.Join $.Page.RelPermalink (.Get "src") }}"
+        {{- if or (.Get "alt") (.Get "caption") }}
+        alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
+        {{- end -}}
+        {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+        {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+    />
+  {{ end }}
   {{- if .Get "link" }}</a>{{ end -}}
   {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
       <figcaption>

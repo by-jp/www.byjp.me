@@ -232,9 +232,12 @@ article, section {
       max-width: 100%;
     }
   }
-  video, img {
+  video, img, svg {
     max-width: 100%;
     max-height: 50vh;
+  }
+  svg {
+    width: 100%;
   }
 }
 
