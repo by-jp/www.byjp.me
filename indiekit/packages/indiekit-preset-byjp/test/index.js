@@ -1,10 +1,10 @@
 import { strict as assert } from "node:assert";
 import { describe, it } from "node:test";
 import { Indiekit } from "@indiekit/indiekit";
-import HugoPreset from "../index.js";
+import ByJPPreset from "../index.js";
 
-describe("preset-hugo", async () => {
-  const hugo = new HugoPreset();
+describe("preset-byjp", async () => {
+  const hugo = new ByJPPreset();
   const indiekit = await Indiekit.initialize({
     config: {
       publication: {
@@ -22,12 +22,12 @@ describe("preset-hugo", async () => {
   hugo.init(bootstrappedConfig);
 
   it("Initiates plug-in", async () => {
-    assert.equal(indiekit.publication.preset.info.name, "Hugo");
+    assert.equal(indiekit.publication.preset.info.name, "byJP");
   });
 
   it("Gets plug-in info", () => {
-    assert.equal(hugo.name, "Hugo preset");
-    assert.equal(hugo.info.name, "Hugo");
+    assert.equal(hugo.name, "byJP preset");
+    assert.equal(hugo.info.name, "byJP");
   });
 
   it("Gets plug-in installation prompts", () => {

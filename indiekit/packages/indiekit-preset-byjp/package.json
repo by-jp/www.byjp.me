@@ -1,18 +1,21 @@
 {
   "name": "indiekit-preset-byjp",
-  "version": "1.0.0-beta.10",
+  "version": "1.0.0-beta.10-jp1",
   "description": "Hugo publication preset for Indiekit",
   "keywords": [
     "indiekit",
     "indiekit-plugin",
     "indieweb",
     "micropub",
-    "jekyll"
+    "hugo"
   ],
-  "homepage": "https://getindiekit.com",
+  "scripts": {
+    "test": "node --test --test-reporter=spec"
+  },
+  "homepage": "https://www.byjp.me",
   "author": {
-    "name": "Paul Robert Lloyd",
-    "url": "https://paulrobertlloyd.com"
+    "name": "JP Hastings-Edrei",
+    "url": "https://www.byjp.me"
   },
   "license": "MIT",
   "engines": {
@@ -26,16 +29,17 @@
     "index.js"
   ],
   "bugs": {
-    "url": "https://github.com/getindiekit/indiekit/issues"
+    "url": "https://github.com/by-jp/www.byjp.me/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/getindiekit/indiekit.git",
-    "directory": "packages/preset-hugo"
+    "url": "https://github.com/by-jp/www.byjp.me.git",
+    "directory": "indiekit/packages/indiekit-preset-byjp"
   },
   "dependencies": {
     "@iarna/toml": "^2.2.5",
     "camelcase-keys": "^9.0.0",
+    "@indiekit-test/fixtures": "file:../../helpers/fixtures",
     "plur": "^5.1.0",
     "yaml": "^2.4.0"
   },

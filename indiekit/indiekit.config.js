@@ -1,14 +1,8 @@
-const env = (await (
-  import('dotenv')
-    .then(dotenv => dotenv.config().parsed)
-    .catch(() => process.env)
-)) || {};
-
 export default {
   application: {
     name: "IndieKit byJP",
-    mongodbUrl: env.MONGO_URL,
-    port: env.PORT ?? 8088,
+    mongodbUrl: process.env.MONGO_URL,
+    port: process.env.PORT ?? 8808,
     timeZone: 'Europe/London',
   },
   plugins: [
@@ -29,7 +23,7 @@ export default {
     "@indiekit/post-type-reply"
   ],
   publication: {
-    me: env.SITE,
+    me: process.env.SITE,
     enrichPostData: true,
     postTypes: {
       event: {

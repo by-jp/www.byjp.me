@@ -5,7 +5,7 @@ const defaults = {
   frontMatterFormat: "yaml",
 };
 
-export default class HugoPreset {
+export default class ByJPPreset {
   constructor(options = {}) {
     this.name = "byJP preset";
     this.options = { ...defaults, ...options };
