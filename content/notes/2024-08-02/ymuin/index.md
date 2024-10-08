@@ -6,7 +6,8 @@ location:
   name: 49° 16′ 10.88″ N 123° 9′ 20.48″ W
   latitude: 49.26969
   longitude: -123.15569
-slug: ymuin
+tags:
+- Vancouver
 ---
 
-Why hello #Vancouver, and don’t you look pretty this evening!
+Why hello [Vancouver](/tags/vancouver), and don’t you look pretty this evening!
