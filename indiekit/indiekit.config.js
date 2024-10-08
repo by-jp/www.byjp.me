@@ -12,7 +12,7 @@ export default {
     timeZone: 'Europe/London',
   },
   plugins: [
-    "@indiekit/preset-hugo",
+    "indiekit-preset-byjp",
     "@indiekit/store-github",
     "@indiekit/syndicator-mastodon",
     "@indiekit/endpoint-files",
@@ -72,7 +72,7 @@ export default {
       }
     }
   },
-  "@indiekit/preset-hugo": {},
+  "jphastings/indiekit-preset-byjp": {},
   "@indiekit/store-github": {
     user: "by-jp",
     repo: "www.byjp.me",
