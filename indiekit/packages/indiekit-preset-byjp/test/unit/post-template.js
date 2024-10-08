@@ -235,4 +235,22 @@ tags:
 `,
     );
   });
+
+  it("Renders posts with people tags correctly", () => {
+    const result = getPostTemplate({
+      published: "2024-10-02",
+      content: "Sometimes I reference @People, but [@fedi@example.com](https://example.com/@fedi) links and email@example.com shouldn't be changed.",
+    });
+
+    assert.equal(
+      result,
+      `---
+date: 2024-10-02
+publishDate: 2024-10-02
+---
+
+Sometimes I reference {{< friend "people" >}}, but [@fedi@example.com](https://example.com/@fedi) links and email@example.com shouldn't be changed.
+`,
+    );
+  });
 });

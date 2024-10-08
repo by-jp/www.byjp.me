@@ -103,7 +103,8 @@ export const getPostTemplate = (properties, frontMatterFormat = "yaml") => {
   return frontMatter + content;
 };
 
-const tagFinder = /(?<=\s|^)#[a-z0-9]+\b/ig;
+const hashtagFinder = /(?<=\s|^)#[a-z0-9]+\b/ig;
+const peopletagFinder = /(?<=\s|^)@[a-z]+\b/ig;
 
 /**
  * Replaces all #HashTags with [HashTags](/tags/hashtags) and returns a compact array of the tags used
@@ -112,10 +113,12 @@ const tagFinder = /(?<=\s|^)#[a-z0-9]+\b/ig;
  */
 const replaceTags = (content) => {
   let tags = [];
-  content = content.replace(tagFinder, (tag) => {
+  content = content.replace(hashtagFinder, (tag) => {
     tag = tag.substring(1);
     tags.push(tag);
     return `[${tag}](/tags/${tag.toLowerCase()})`;
+  }).replace(peopletagFinder, (tag) => {
+    return `{{< friend "${tag.substring(1).toLowerCase()}" >}}`;
   });
 
   return { content, tags }
