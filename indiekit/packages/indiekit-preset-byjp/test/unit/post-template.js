@@ -213,4 +213,26 @@ I ate a [cheese](https://en.wikipedia.org/wiki/Cheese) sandwich, which was nice.
 `,
     );
   });
+
+  it("Renders posts with hashtags correctly", () => {
+    const result = getPostTemplate({
+      published: "2024-10-02",
+      content: "#some posts might have #hashtags, even #MultiCasedOnes but [fragment URLs](#heading) must be left alone.",
+    });
+
+    assert.equal(
+      result,
+      `---
+date: 2024-10-02
+publishDate: 2024-10-02
+tags:
+  - some
+  - hashtags
+  - MultiCasedOnes
+---
+
+[some](/tags/some) posts might have [hashtags](/tags/hashtags), even [MultiCasedOnes](/tags/multicasedones) but [fragment URLs](#heading) must be left alone.
+`,
+    );
+  });
 });

@@ -52,6 +52,7 @@ const getFrontMatter = (properties, frontMatterFormat) => {
     }),
     ...properties,
   };
+  // TODO: move photos
 
   delete properties.content; // Shown below front matter
   delete properties.deleted; // Use `expiryDate`
@@ -93,8 +94,29 @@ const getFrontMatter = (properties, frontMatterFormat) => {
  * @returns {string} Rendered template
  */
 export const getPostTemplate = (properties, frontMatterFormat = "yaml") => {
-  const content = getContent(properties);
+  const { content, tags } = replaceTags(getContent(properties));
+  if (tags.length > 0) {
+    properties.tags = tags;
+  }
   const frontMatter = getFrontMatter(properties, frontMatterFormat);
 
   return frontMatter + content;
 };
+
+const tagFinder = /(?<=\s|^)#[a-z0-9]+\b/ig;
+
+/**
+ * Replaces all #HashTags with [HashTags](/tags/hashtags) and returns a compact array of the tags used
+ * @param {string} content - Post content
+ * @returns {{content: string, tags: Array<string>}} The replaced content, and found tags
+ */
+const replaceTags = (content) => {
+  let tags = [];
+  content = content.replace(tagFinder, (tag) => {
+    tag = tag.substring(1);
+    tags.push(tag);
+    return `[${tag}](/tags/${tag.toLowerCase()})`;
+  });
+
+  return { content, tags }
+}
