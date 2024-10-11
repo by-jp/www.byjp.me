@@ -1,5 +1,6 @@
 ---
-title: ♟️Playing Chess in PostScript
+title: Playing Chess in PostScript
+emoji: ♟️
 date: "2024-10-02T05:20:01Z"
 bookmarkOf: https://seriot.ch/projects/pschess.html
 references:
