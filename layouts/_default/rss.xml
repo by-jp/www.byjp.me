@@ -25,7 +25,7 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" (.Permalink | absURL) .MediaType | safeHTML }}
     {{- end -}}
     {{ printf "<atom:link href=\"/opensearch.xml\" rel=\"search\" type=\"application/opensearchdescription+xml\" />" }}
-    {{- range $i, $page := $pages -}}
+    {{- range $i, $page := (first 42 $pages) -}}
     {{- if $page.Params.inReplyTo -}}{{ continue }}{{- end -}}
     <item>
       <title>{{ .Title | default (delimit (slice "An untitled" (.Date.Format "January") (.Type | singularize)) " ") }}</title>
