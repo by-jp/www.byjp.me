@@ -36,26 +36,6 @@ I’ve been (ha!) pleasantly surprised by how this article pulls lots of differe
 
 ### Highlights
 
-> The more interesting part is that dopamine (and hence desire) is intensified when we get positively surprised.
-
----
-
-> our brain is constantly betting: which choice can lead to the highest gain for the minimum investment.
-
----
-
-> [Games are problems people pay to solve.](https://invertedpassion.com/games-are-problems-people-pay-to-solve/)
-
----
-
-> You can imagine dopamine as signalling the [value of work](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4696912/).
-
----
-
-> all classic high-dopamine activities are low-effort, high-reward situations
-
----
-
 > It’s easy to confuse “liking” and “wanting”
 
 ---
@@ -72,6 +52,10 @@ I’ve been (ha!) pleasantly surprised by how this article pulls lots of differe
 
 ---
 
+> The more interesting part is that dopamine (and hence desire) is intensified when we get positively surprised.
+
+---
+
 > even in the absence of perfect information, we have to take actions.
 
 ---
@@ -80,7 +64,7 @@ I’ve been (ha!) pleasantly surprised by how this article pulls lots of differe
 
 ---
 
-> The gap in knowledge about the reward generating process is intensely motivating
+> our brain is constantly betting: which choice can lead to the highest gain for the minimum investment.
 
 ---
 
@@ -116,6 +100,18 @@ I’ve been (ha!) pleasantly surprised by how this article pulls lots of differe
 
 ---
 
+> The gap in knowledge about the reward generating process is intensely motivating
+
+---
+
+> You can imagine dopamine as signalling the [value of work](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4696912/).
+
+---
+
+> all classic high-dopamine activities are low-effort, high-reward situations
+
+---
+
 > we actively seek high-dopamine producing situations
 
 ---
@@ -129,6 +125,10 @@ I’ve been (ha!) pleasantly surprised by how this article pulls lots of differe
 ---
 
 > Fun is pleasure with surprises.
+
+---
+
+> [Games are problems people pay to solve.](https://invertedpassion.com/games-are-problems-people-pay-to-solve/)
 
 ---
 

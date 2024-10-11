@@ -16,11 +16,15 @@ I love creating or finding words for niche (or expanding) concepts and areas. Th
 
 ### Highlights
 
-> #### Neofeudalism
+> #### Epistemic Peer
 > 
-> The new Feudalist system we all rely upon for online security. No single person or company can defend themselves against hackers, attackers and trolls without aligning themselves with one of the monolithic fortresses (Apple, Facebook, Google, or Microsoft). We hide behind their enormous cybersecurity teams. We're required to live within their walls and tolerate whatever surveillance suits their business model. It's feudalism, with likes.
+> People who have demonstrated clear cognitive overlap with you. You trust their thinking enough that if they feel strongly about a topic you haven't researched, you're willing to defer to their judgement. If they disagree with you, you take it seriously. Even if you don't change your mind, you consider their viewpoint valid.
+> 
+> You earn epistemic peerhood by doing your research on topics you choose to write about, presenting compelling evidence, and making creative arguments that help reframe existing debates in more interesting ways.
 
-I feel like Cory Doctorow is good at giving catchy names to concepts we don’t entirely think about, but probably should. (“Enshitification” will live the lifetime of capitalism because of him!)
+I love this concept! It feels like we’re missing it a lot on the web (see [the web’s missing communication faculty](/posts/webs-missing-communication-faculty/)), I fully intend to seek out and recognise people who can be my _epistemic peers_.
+
+(Though I think declaring who they are might be a security risk?)
 
 ---
 
@@ -44,6 +48,14 @@ Is this a neologism‽ I thought this was a pre-information age expression!
 
 ---
 
+> #### Neofeudalism
+> 
+> The new Feudalist system we all rely upon for online security. No single person or company can defend themselves against hackers, attackers and trolls without aligning themselves with one of the monolithic fortresses (Apple, Facebook, Google, or Microsoft). We hide behind their enormous cybersecurity teams. We're required to live within their walls and tolerate whatever surveillance suits their business model. It's feudalism, with likes.
+
+I feel like Cory Doctorow is good at giving catchy names to concepts we don’t entirely think about, but probably should. (“Enshitification” will live the lifetime of capitalism because of him!)
+
+---
+
 > #### Theoretical Graffitiability
 > 
 > The degree to which an academic theory can be captured in graffiti in public space. I coined this one after someone posted a photo of the [futures cone](https://sjef.nu/theory-of-change-and-the-futures-cone/) in spray paint.
@@ -57,15 +69,3 @@ Is this a neologism‽ I thought this was a pre-information age expression!
 > You set out to fix a broken image in your code, which leads to refactoring the image rendering function, which requires updating your npm packages, but first you need to plan this all out in Jira, and then install the latest version of Adobe Flash, and on and on in seemingly logical sequence until you find yourself in a zoo... shaving a yak.
 
 I love the origins of this phrase; a Ren and Stimpy cartoon where Ren (?) has to shave a yak to get fluff for his pillow so he can get some sleep 😁
-
----
-
-> #### Epistemic Peer
-> 
-> People who have demonstrated clear cognitive overlap with you. You trust their thinking enough that if they feel strongly about a topic you haven't researched, you're willing to defer to their judgement. If they disagree with you, you take it seriously. Even if you don't change your mind, you consider their viewpoint valid.
-> 
-> You earn epistemic peerhood by doing your research on topics you choose to write about, presenting compelling evidence, and making creative arguments that help reframe existing debates in more interesting ways.
-
-I love this concept! It feels like we’re missing it a lot on the web (see [the web’s missing communication faculty](/posts/webs-missing-communication-faculty/)), I fully intend to seek out and recognise people who can be my _epistemic peers_.
-
-(Though I think declaring who they are might be a security risk?)

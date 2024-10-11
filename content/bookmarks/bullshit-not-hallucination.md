@@ -25,22 +25,6 @@ In short: if bullshit is delivering information without concern for its truth th
 
 ### Highlights
 
-> at minimum, the outputs of LLMs like ChatGPT are soft bullshit:
-
-I am fully convinced by the arguments for this put forward in this paper; so I’ll be referring to erroneous LLM output as ~hallucination~ bullshit from now on.
-
----
-
-> ChatGPT is a bullshit machine
-
----
-
-> The very same process occurs when its outputs happen to be true.
-
-An excellent point; if an inaccuracy in an LLMs output is called a hallucination then why is an accuracy anything different?
-
----
-
 > these are often called “AI hallucinations”. We argue that these falsehoods, and the overall activity of large language models, is better understood as _bullshit_ in the sense explored by Frankfurt (On Bullshit, Princeton, 2005):
 
 ---
@@ -63,11 +47,17 @@ Neither of these words really describes what’s going on inside an LLM when a f
 
 ---
 
-> we call bullshit on ChatGPT.
+> at minimum, the outputs of LLMs like ChatGPT are soft bullshit:
+
+I am fully convinced by the arguments for this put forward in this paper; so I’ll be referring to erroneous LLM output as ~hallucination~ bullshit from now on.
 
 ---
 
 > ChatGPT may indeed produce hard bullshit: if we view it as having intentions (for example, in virtue of how it is designed), then the fact that it is designed to give the impression of concern for truth qualifies it as attempting to mislead the audience about its aims, goals, or agenda.
+
+---
+
+> we call bullshit on ChatGPT.
 
 ---
 
@@ -103,7 +93,17 @@ I love that the authors worked this superb Dad joke into this paper 😂
 
 ---
 
+> ChatGPT is a bullshit machine
+
+---
+
 > if something is bullshit to start with, then its repetition “is bullshit as he \[or it\] repeats it, insofar as it was originated by someone who was unconcerned with whether what he was saying is true or false”
+
+---
+
+> The very same process occurs when its outputs happen to be true.
+
+An excellent point; if an inaccuracy in an LLMs output is called a hallucination then why is an accuracy anything different?
 
 ---
 

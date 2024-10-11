@@ -28,7 +28,7 @@ I plan on taking some every day risks this year & always.
 
 ---
 
-> Everyday risks are not about the action in of itself; they are about the _feeling_.
+> Aliveness is risk, not comfort.
 
 ---
 
@@ -36,4 +36,4 @@ I plan on taking some every day risks this year & always.
 
 ---
 
-> Aliveness is risk, not comfort.
+> Everyday risks are not about the action in of itself; they are about the _feeling_.
