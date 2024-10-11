@@ -89,6 +89,11 @@ func outputArticle(article Article, outputDir string) error {
 
 	slug := kebab(artTitle)
 	articlePath := path.Join(outputDir, fmt.Sprintf("%s.md", slug))
+	dirArticlePath := path.Join(outputDir, slug, "index.md")
+
+	if _, err := os.Stat(dirArticlePath); os.IsNotExist(err) {
+		articlePath = dirArticlePath
+	}
 
 	fm, _ := loadFrontmatter(articlePath)
 
