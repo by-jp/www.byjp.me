@@ -91,7 +91,7 @@ func outputArticle(article Article, outputDir string) error {
 	articlePath := path.Join(outputDir, fmt.Sprintf("%s.md", slug))
 	dirArticlePath := path.Join(outputDir, slug, "index.md")
 
-	if _, err := os.Stat(dirArticlePath); os.IsNotExist(err) {
+	if _, err := os.Stat(dirArticlePath); err == nil {
 		articlePath = dirArticlePath
 	}
 
