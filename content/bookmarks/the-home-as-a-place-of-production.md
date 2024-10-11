@@ -16,10 +16,6 @@ Bringing more creation into our homes as a way to feel connected to our surround
 
 ### Highlights
 
-> Connectivity and the distraction it enables should be contained.
-
----
-
 > Everything is optimised for convenience, comfort and safety for the consumer (and surveillance/value extraction for the corporations providing it).
 > 
 > This vision doesn’t sound very smart to me. Not only is it incredibly dull, it’s also totally disempowering.
@@ -31,6 +27,10 @@ Bringing more creation into our homes as a way to feel connected to our surround
 ---
 
 > This home of the future is one of reduced complexity, a place filled with fewer things, but things we know how to care for and repair.
+
+---
+
+> Connectivity and the distraction it enables should be contained.
 
 ---
 

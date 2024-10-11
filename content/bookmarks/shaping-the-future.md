@@ -70,11 +70,11 @@ An excellent read from Charlie Stross, made all the more interesting because the
 
 ---
 
-> we're going to be laying down memories in diamond that will outlast our bones, and our civilizations, and our languages.
+> This century we're going to learn a lesson about what it means to be unable to forget anything.
 
 ---
 
-> This century we're going to learn a lesson about what it means to be unable to forget anything.
+> we're going to be laying down memories in diamond that will outlast our bones, and our civilizations, and our languages.
 
 ---
 

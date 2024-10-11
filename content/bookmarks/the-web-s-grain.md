@@ -16,7 +16,7 @@ A wonderful presentation on the limitations of the web, and how to adapt to them
 
 ### Highlights
 
-> the less you have to do, the less say you have.
+> The size of what we’re making is unknown until we know what we’re putting there.
 
 ---
 
@@ -28,7 +28,7 @@ A wonderful presentation on the limitations of the web, and how to adapt to them
 
 ---
 
-> The size of what we’re making is unknown until we know what we’re putting there.
+> the less you have to do, the less say you have.
 
 ---
 
