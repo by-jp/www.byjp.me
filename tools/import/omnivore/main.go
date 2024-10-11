@@ -12,6 +12,7 @@ import (
 	"path"
 	"regexp"
 	"slices"
+	"sort"
 	"strings"
 	"time"
 
@@ -223,8 +224,9 @@ type Article struct {
 }
 
 type ArticleHighlight struct {
-	Quote   string
-	Comment string
+	Quote    string
+	Comment  string
+	Position float64
 }
 
 type FrontMatter struct {
@@ -362,11 +364,14 @@ func parseResponse(body []byte) ([]Article, string, error) {
 				annotation = highlight.Annotation
 			} else {
 				highlights = append(highlights, ArticleHighlight{
-					Quote:   highlight.Quote,
-					Comment: highlight.Annotation,
+					Quote:    highlight.Quote,
+					Comment:  highlight.Annotation,
+					Position: highlight.Position,
 				})
 			}
 		}
+
+		sort.Sort(ByPosition(highlights))
 
 		if len(annotation) == 0 {
 			continue
@@ -447,3 +452,9 @@ func stripMarketing(rawURL string) string {
 
 	return u.String()
 }
+
+type ByPosition []ArticleHighlight
+
+func (p ByPosition) Len() int           { return len(p) }
+func (p ByPosition) Less(i, j int) bool { return p[i].Position < p[j].Position }
+func (p ByPosition) Swap(i, j int)      { p[i], p[j] = p[j], p[i] }
