@@ -18,11 +18,11 @@
           {{- $postType := partial "post-type.txt" . -}}
           {{- $typeSVG := index site.Params.defaultSVG (partial "kebab.txt" ($postType | singularize)) -}}
           <li>
-            {{ partial "svg.html" (dict "name" $typeSVG) }}
+            {{ partialCached "svg.html" (dict "name" $typeSVG) $typeSVG }}
             <a href="{{.RelPermalink}}">
               {{- with .Title -}}{{ . }}{{ else }}{{ .Type | singularize | title }}{{ end -}}
             </a>
-            <small style="opacity: 0.6">{{ partial "svg.html" (dict "name" "clap") }} {{ $count }}</small>
+            <small style="opacity: 0.6">{{ partialCached "svg.html" (dict "name" "clap") "clap" }} {{ $count }}</small>
           </li>
         {{- end -}}
       {{- end }}

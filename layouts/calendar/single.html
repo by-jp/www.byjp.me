@@ -29,7 +29,7 @@
       <div class="post-content p-description" data-pagefind-body data-pagefind-filter="type:{{.Type | title}}">
         {{ if not $event.isPast }}
           <p class="next-visit">
-            {{ partial "svg.html" (dict "name" "calendar") }} I'm planning on going to this event on {{ partial "year-relative-date.html" (slice (time.AsTime $event.timing.starts) "dt-start") }}.
+            {{ partialCached "svg.html" (dict "name" "calendar") "calendar" }} I'm planning on going to this event on {{ partial "year-relative-date.html" (slice (time.AsTime $event.timing.starts) "dt-start") }}.
             See the bottom of the post for more information.
           </p>
         {{ end }}
@@ -75,7 +75,7 @@
 
       {{ if $event.timing.attending }}
       <p class="attending">
-        {{ partial "svg.html" (dict "name" "attending") }}
+        {{ partialCached "svg.html" (dict "name" "attending") }}
         {{ if eq $event.timing.attending true }}{{ partial "friend.html" "jp.no-emoji" }} is going
         {{ else if eq (len $event.timing.attending) 1 }}
           {{ partial "friend.html" (printf "%s.no-emoji" (index $event.timing.attending 0)) }} is going

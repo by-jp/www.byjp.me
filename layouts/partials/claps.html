@@ -3,7 +3,7 @@
 {{- $interactionCount := partial "interaction-count.obj" page -}}
 <form class="claps" action="https://{{ site.Params.clapsHost }}{{ $relperma }}" method="post">
   <button type="submit" title="Show appreciation for the post on this page" data-interactions="{{ $interactionCount }}">
-    {{- partial "svg.html" (dict "name" $style) -}}
+    {{- partialCached "svg.html" (dict "name" $style) $style -}}
     {{- $url := printf "https://%s" site.Params.clapsHost -}}
     {{- $cacheKey := print $url (now.Format "-2006-01-02-15") -}}
     {{- with resources.GetRemote $url (dict "key" $cacheKey) -}}

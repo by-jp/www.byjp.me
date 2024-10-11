@@ -1,7 +1,7 @@
 {{ $topics := .Params.topics }}
 {{ with $topics }}{{ if gt (len $topics) 0 }}
   <p>
-    {{ partial "svg.html" (dict "name" "topic") }}
+    {{ partialCached "svg.html" (dict "name" "topic") "topic" }}
     
     <span class="topics">
       {{ range $i, $topic := . }}

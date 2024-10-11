@@ -23,5 +23,5 @@
             {{ partial "post-previews.html" .}}
         </section>
     </main>
-    {{ partial "site-last-update.html" }}
+    {{ partialCached "site-last-update.html" . }}
 {{ end }}

@@ -7,7 +7,7 @@
       {{- $postType := partial "post-type.txt" . -}}
       {{- $typeSVG := index .Site.Params.defaultSVG ( partial "kebab.txt" ($postType | singularize)) -}}
       <li>
-        {{ partial "svg.html" (dict "name" $typeSVG) }}
+        {{ partialCached "svg.html" (dict "name" $typeSVG) $typeSVG }}
         <a href="{{.RelPermalink}}">
           {{- with .Title -}}{{ . }}{{ else }}{{ .Type | singularize | title }}{{ end -}}
         </a>
@@ -25,13 +25,13 @@
     {{- end -}}
   </ol>
 
-  <p class="post-content">{{ partial "svg.html" (dict "name" "document") }} Check out <a href="/posts">all my longer posts</a>, or read through my <a href="/bookmarks">thoughts on others' writing</a>.</p>
+  <p class="post-content">{{ partialCached "svg.html" (dict "name" "document") "document" }} Check out <a href="/posts">all my longer posts</a>, or read through my <a href="/bookmarks">thoughts on others' writing</a>.</p>
 
   {{- $upcomingEvents := partial "upcoming-events.obj" }}
   {{ if ge (len $upcomingEvents) 2 }}
   <hr class="mini" />
   <p class="post-content">
-    {{ partial "svg.html" (dict "name" "calendar") }}
+    {{ partialCached "svg.html" (dict "name" "calendar") "calendar" }}
     Maybe you'll see me at
     <a href="{{ (index $upcomingEvents 0).Page.RelPermalink }}">{{ (index $upcomingEvents 0).Title }}</a> on {{ partial "year-relative-date.html" (index $upcomingEvents 0).Date }}, or
     <a href="{{ (index $upcomingEvents 1).Page.RelPermalink }}">{{ (index $upcomingEvents 1).Title }}</a> on {{ partial "year-relative-date.html" (index $upcomingEvents 1).Date }}.
@@ -45,7 +45,7 @@
     {{- $picPage := index (where .Site.RegularPages "Section" "eq" "photos") 0 -}}
     {{- with $picPage -}}
       <div class="photo">
-        <div class="context">{{ partial "svg.html" (dict "name" "camera") }} <a href="{{ .RelPermalink }}"><date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">{{ partial "year-relative-date.html" .Date }}</date></a></div>
+        <div class="context">{{ partialCached "svg.html" (dict "name" "camera") "camera" }} <a href="{{ .RelPermalink }}"><date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">{{ partial "year-relative-date.html" .Date }}</date></a></div>
         <figure>
           
           {{- $src := index $picPage.Params.Media 0 -}}
@@ -60,7 +60,7 @@
 
     {{- with (partial "latest-non-reply-note.obj") -}}
       <div class="note">
-        <div class="context">{{ partial "svg.html" (dict "name" "message") }} <a href="{{ .RelPermalink }}"><date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">
+        <div class="context">{{ partialCached "svg.html" (dict "name" "message") "message" }} <a href="{{ .RelPermalink }}"><date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">
           {{ partial "year-relative-date.html" .Date }}</date></a>
         </div>
 

@@ -2,7 +2,7 @@
     <ul class="menu__inner">
         {{- $page := .Page -}}
         {{ range .Site.Menus.main -}}
-            <li class="micro{{ if hasPrefix $page.RelPermalink .URL }} active{{ end }}"><a href="{{ .URL }}" title="{{ .Name }}">{{ partial "svg.html" (dict "name" (index site.Params.defaultSVG (.Identifier | singularize))) }}<span> {{ .Name }}</span></a></li>
+            <li class="micro{{ if hasPrefix $page.RelPermalink .URL }} active{{ end }}"><a href="{{ .URL }}" title="{{ .Name }}">{{ partialCached "svg.html" (dict "name" (index site.Params.defaultSVG (.Identifier | singularize))) .Identifier }}<span> {{ .Name }}</span></a></li>
         {{- end }}
     </ul>
 </nav>

@@ -1,5 +1,8 @@
 {{- $title := $.Site.Title -}}
 {{- if not .IsHome -}}{{ $title = printf "%s, %s" (partial "page-title.txt" .) $.Site.Title }}{{ end -}}
+{{- $modified := .Lastmod -}}
+{{- if .IsHome }}{{ with getenv "HUGO_LAST_UPDATE_TIME" }}{{ $modified = time . }}{{ end }}{{ end -}}
+
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -7,8 +10,6 @@
 <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.homeSubtitle }}{{ else }}{{ if .Params.Description }}{{ .Params.Description }}{{ else }}{{ .Summary | plainify }}{{ end }}{{ end }}" class="p-summary"/>
 <meta name="keywords" content="{{ .Site.Params.keywords }}{{ if .Params.tags }}{{ range .Params.tags }}, {{ . }}{{ end }}{{ end }}"/>
 <meta name="theme-color" content="{{ .Site.Params.themeColor }}"/>
-{{- $modified := .Lastmod -}}
-{{- if .IsHome }}{{ with getenv "HUGO_LAST_UPDATE_TIME" }}{{ $modified = time . }}{{ end }}{{ end -}}
 <meta property="dcterms.modified" content="{{ $modified.Format "2006-01-02T15:04:05Z07:00"}}"/>
 <link rel="canonical" href="{{ .Permalink }}" class="u-url"/>
 {{ with partial "shortlink.txt" . -}}
@@ -37,17 +38,13 @@
         {{- end -}}
     </title>
 {{- end }}
-
 <link href="/css/postcards.css" rel="stylesheet" type="text/css">
-
-{{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-{{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | resources.Fingerprint }}
+{{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) -}}
+{{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | resources.Fingerprint -}}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-
-{{ range $val := $.Site.Params.customCSS }}
-    {{ if gt (len $val) 0 }}
-        <link rel="stylesheet" type="text/css" href="{{ $val }}">
-    {{ end }}
+{{ range $val := $.Site.Params.customCSS -}}
+    {{ if le (len $val) 0 }}{{ continue }}{{ end -}}
+    <link rel="stylesheet" type="text/css" href="{{ $val }}">
 {{ end }}
 
 <!-- Icons -->
@@ -71,4 +68,3 @@
 {{- if templates.Exists "partials/extra-head.html" -}}
     {{ partial "extra-head.html" . }}
 {{- end }}
-

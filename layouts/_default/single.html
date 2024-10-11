@@ -86,7 +86,7 @@
 
       {{ if .Page.Store.Get "hasSpoilers" }}
         <blockquote class="spoiler-explainer">
-          {{ partial "svg.html" (dict "name" "hidden") }} This post contains spoilers, but they're hidden by default.
+          {{ partialCached "svg.html" (dict "name" "hidden") "hidden" }} This post contains spoilers, but they're hidden by default.
         </blockquote>
       {{ end }}
 
@@ -110,17 +110,17 @@
 
         {{ if in .Params.tags "from-twitter" }}
           <p>
-            {{ partial "svg.html" (dict "name" "twitter") }}
+            {{ partialCached "svg.html" (dict "name" "twitter") "twitter" }}
             From <a href="/posts/importing-tweets">twitter archive</a>
           </p>
         {{ else if in .Params.tags "from-facebook" }}
           <p>
-              {{ partial "svg.html" (dict "name" "facebook") }}
+              {{ partialCached "svg.html" (dict "name" "facebook") "facebook" }}
               From <a href="/notes/facebook/">facebook archive</a>
           </p>
         {{ else if in .Params.tags "from-goodreads" }}
             <p>
-                {{ partial "svg.html" (dict "name" "goodreads") }}
+                {{ partialCached "svg.html" (dict "name" "goodreads") "goodreads" }}
                 From <a href="/tags/from-goodreads/#">goodreads archive</a>
             </p>
         {{ end }}

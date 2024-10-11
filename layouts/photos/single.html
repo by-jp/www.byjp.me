@@ -24,12 +24,12 @@
             {{ partial "claps.html" (dict "url" .RelPermalink "style" "heart") }}
             {{ if in .Params.tags "from-instagram" }}
                 <p>
-                    {{ partial "svg.html" (dict "name" "instagram") }}
+                    {{ partialCached "svg.html" (dict "name" "instagram") "instagram" }}
                     From <a href="/posts/archiving-instagram-posts/">instagram archive</a>
                 </p>
             {{ else if in .Params.tags "from-facebook" }}
                 <p>
-                    {{ partial "svg.html" (dict "name" "facebook") }}
+                    {{ partialCached "svg.html" (dict "name" "facebook") "facebook" }}
                     From <a href="/notes/facebook/">facebook archive</a>
                 </p>
             {{ end }}

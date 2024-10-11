@@ -7,7 +7,7 @@
     {{- $target := $page.OutputFormats.Get .Name -}}
     {{- $link := $target.RelPermalink -}}
     {{- if not (hasPrefix $target.Permalink "http") }}{{ $link = (partial "noindex.gmi" $target.Permalink) }}{{ end -}}
-    <li><a href="{{ $link | safeURL }}" title="{{ partial "alternatename.txt" .Name }}">{{ partial "svg.html" (dict "name" .Name) }}{{ partial "alternatename.txt" .Name }}</a></li>
+    <li><a href="{{ $link | safeURL }}" title="{{ partial "alternatename.txt" .Name }}">{{ partialCached "svg.html" (dict "name" .Name) .Name }}{{ partial "alternatename.txt" .Name }}</a></li>
   {{- end }}
   </ul>
 </nav>

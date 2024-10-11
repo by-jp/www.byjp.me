@@ -25,7 +25,7 @@
               {{ .Content }}
               <footer>
                 <a href="{{.RelPermalink}}">{{ partial "year-relative-date.html" .Date }}</a>
-                {{ if collections.In .Params.tags "from-twitter" }}{{ partial "svg.html" (dict "name" "twitter") }}{{ end }}
+                {{ if collections.In .Params.tags "from-twitter" }}{{ partialCached "svg.html" (dict "name" "twitter") "twitter" }}{{ end }}
               </footer>
             </article>
           {{ end }}

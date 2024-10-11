@@ -11,7 +11,7 @@
     {{- $reference = dict "name" (partial "page-title.txt" $other.Page) "type" $other.Page.Type "internal" true -}}
   {{- end -}}
 {{- end -}}
-{{ partial "svg.html" (dict "name" .svg) }} {{ .phrase }}{{" "}}
+{{ partialCached "svg.html" (dict "name" .svg) .svg }} {{ .phrase }}{{" "}}
 {{- with $reference.name -}}
   {{- if $reference.internal -}}my{{else}}the{{end}} {{ partial "article-type.txt" (default "article" $reference.type) }} {{ partial "rich-link.html" (dict "Class" (printf "%s h-cite" $mf2) "url" $url "Text" . "references" $references) }}.
 {{- else -}}

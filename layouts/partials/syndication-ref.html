@@ -5,7 +5,7 @@
 <a rel="syndication" class="{{ if ne .type "email" }}u-syndication {{ end }}resp-syndication__link" href="{{ .link }}" target="_blank" rel="noopener" title="{{ $title }}">
   <div class="resp-syndication resp-syndication--small">
     <div aria-hidden="true" class="resp-syndication__icon resp-syndication__icon--solid">
-      {{ partial "svg.html" (dict "name" .type) }}
+      {{ partialCached "svg.html" (dict "name" .type) .type }}
     </div>
   </div>
 </a>
