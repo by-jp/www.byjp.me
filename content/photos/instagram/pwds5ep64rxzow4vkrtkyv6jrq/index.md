@@ -7,5 +7,8 @@ draft: false
 tags:
 - imported
 - from-instagram
+location:
+  latitude: 51.532222
+  longitude: -0.156667
 ---
 This is how the Brat Pack says "hello"

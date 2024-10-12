@@ -7,13 +7,14 @@ draft: false
 tags:
 - imported
 - from-instagram
+location:
+  latitude: 51.52052019
+  longitude: -0.10783988
 ---
-I have awesome colleagues. "Dear Mo,
+I have awesome colleagues.
 
-
-
-I have baked a cake for you.
-
-
-
+"Dear Mo,\
+\
+I have baked a cake for you.\
+\
 Love, Peach xxx"

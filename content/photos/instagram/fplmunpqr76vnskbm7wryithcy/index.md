@@ -7,5 +7,8 @@ draft: false
 tags:
 - imported
 - from-instagram
+location:
+  latitude: 51.50873578
+  longitude: -0.09665608
 ---
 Filming a music video for "Happy" by Pharrell - because I'm HAPPY!

@@ -7,5 +7,8 @@ draft: false
 tags:
 - imported
 - from-instagram
+location:
+  latitude: 51.51935365
+  longitude: -0.11273677
 ---
 blinkbox summer party times.
