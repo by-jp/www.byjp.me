@@ -8,6 +8,6 @@ tags:
 - ThisIsMyJam
 - music
 ---
-“Fineshrine” by Purity Ring is my new jam. [♫](https://t.thisismyjam.com/jphastings/_2svwlop) [ThisIsMyJam](/tags/thisismyjam)
+“Fineshrine” by Purity Ring is my new jam.
 
 {{< spotify path="/track/5aJmSzmuhLI6fr1Rm0EnkS" artist="Purity Ring" title="Fineshrine" >}}

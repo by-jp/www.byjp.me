@@ -8,6 +8,6 @@ tags:
 - ThisIsMyJam
 - music
 ---
-Can't get this guy out of my head. Not a problem. [♫](https://t.thisismyjam.com/jphastings/_6wjd4oo) [ThisIsMyJam](/tags/thisismyjam)
+Can't get this guy out of my head. Not a problem.
 
 {{< spotify path="/track/5P11rW6aJErF37MTfRZS31" artist="Ray Charles" title="Hallelujah, I Love Her So" >}}

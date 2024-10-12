@@ -8,6 +8,6 @@ tags:
 - ThisIsMyJam
 - music
 ---
-“River of Brakelights” by Julian Casablancas is my new jam. [♫](https://t.thisismyjam.com/jphastings/_1cna0d5) [ThisIsMyJam](/tags/thisismyjam)
+“River of Brakelights” by Julian Casablancas is my new jam.
 
 {{< spotify path="/track/5u2K9LQijJl7FRgPXBBGhk" artist="Julian Casablancas" title="River of Brakelights" >}}

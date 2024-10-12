@@ -8,6 +8,6 @@ tags:
 - ThisIsMyJam
 - music
 ---
-This song. Is. My. Jam. [♫](https://t.thisismyjam.com/jphastings/_9rna1ln) [ThisIsMyJam](/tags/thisismyjam)
+This song. Is. My. Jam.
 
 {{< spotify path="/track/1HfzAHrRix1ZNmUnVoy3T8" artist="Umami" title="Sunny" >}}

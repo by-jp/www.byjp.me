@@ -9,6 +9,6 @@ tags:
 - music
 - music
 ---
-Great little chillout tune. “Rescue Song (RAC Remix)” by Mr. Little Jeans is my new jam. [♫](https://t.thisismyjam.com/jphastings/_6sxhvi1) [ThisIsMyJam](/tags/thisismyjam)
+Great little chillout tune. “Rescue Song (RAC Remix)” by Mr. Little Jeans is my new jam.
 
 {{< youtube "a4SYslBI_9U" >}}

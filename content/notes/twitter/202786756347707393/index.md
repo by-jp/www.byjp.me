@@ -8,6 +8,6 @@ tags:
 - ThisIsMyJam
 - music
 ---
-“Maniac” by Michael Sembello is my new jam. [♫](https://t.thisismyjam.com/jphastings/_1n5x4mo) [ThisIsMyJam](/tags/thisismyjam)
+“Maniac” by Michael Sembello is my new jam.
 
 {{< spotify path="/track/0QKfiqpEU4h9ycPSzIFwYe" artist="Michael Sembello" title="Maniac" >}}

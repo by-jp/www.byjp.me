@@ -8,6 +8,6 @@ tags:
 - ThisIsMyJam
 - music
 ---
-“Lovely Day” by Bill Withers is my new jam. [♫](https://t.thisismyjam.com/jphastings/_1ql2cp7) [ThisIsMyJam](/tags/thisismyjam)
+“Lovely Day” by Bill Withers is my new jam.
 
 {{< spotify path="/track/0ACACkoHUwgfgY5CxVIL4N" artist="Bill Withers" title="Lovely Day" >}}
