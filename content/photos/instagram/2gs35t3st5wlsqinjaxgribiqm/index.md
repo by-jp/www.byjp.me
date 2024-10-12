@@ -7,5 +7,8 @@ draft: false
 tags:
 - imported
 - from-instagram
+location:
+  latitude: 51.57136175
+  longitude: -0.08984327
 ---
 For once I'm happy Britain is doing the weather wrong, this isn't winter!
