@@ -3,8 +3,7 @@ date: 2024-09-27T07:51:49.376+01:00
 publishDate: 2024-09-27T07:51:49.376+01:00
 likeOf: https://turso.tech/
 references:
-  https://tursoTech/:
-    url: https://turso.tech/
+  - url: https://turso.tech/
     children:
       - type: full
         name: background

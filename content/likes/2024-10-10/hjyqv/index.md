@@ -3,8 +3,7 @@ date: 2024-10-10T13:28:29.002+01:00
 publishDate: 2024-10-10T13:28:29.002+01:00
 likeOf: https://shkspr.mobi/blog/2024/10/is-ipa-furigana-a-bad-idea/
 references:
-  https://shksprMobi/blog/2024/10/isIpaFuriganaABadIdea/:
-    url: https://shkspr.mobi/blog/2024/10/is-ipa-furigana-a-bad-idea/
+  - url: https://shkspr.mobi/blog/2024/10/is-ipa-furigana-a-bad-idea/
     children:
       - type: entry
         updated: 2024-10-10

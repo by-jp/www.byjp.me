@@ -3,8 +3,7 @@ date: 2024-09-12T08:26:13.122+01:00
 publishDate: 2024-09-12T08:26:13.122+01:00
 likeOf: https://kvetnidiagram.8u.cz/odiagramech_en.php
 references:
-  https://kvetnidiagram8UCz/odiagramechEnPhp:
-    url: https://kvetnidiagram.8u.cz/odiagramech_en.php
+  - url: https://kvetnidiagram.8u.cz/odiagramech_en.php
     type: entry
     name: Floral diagrams and formulae • Floral diagram generator
 ---

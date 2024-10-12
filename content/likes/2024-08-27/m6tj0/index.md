@@ -3,8 +3,7 @@ date: 2024-08-27T23:19:02.826+01:00
 publishDate: 2024-08-27T23:19:02.826+01:00
 likeOf: https://www.inscho.org/2024/08/26/death-to-the.html
 references:
-  https://wwwInschoOrg/2024/08/26/deathToTheHtml:
-    url: https://www.inscho.org/2024/08/26/death-to-the.html
+  - url: https://www.inscho.org/2024/08/26/death-to-the.html
     children:
       - type: card
         photo:

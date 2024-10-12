@@ -8,8 +8,7 @@ category:
   - IPFS
   - web
 references:
-  https://humanpartsMediumCom/findingMyFightingWordsHowILearnedToHaveUncomfortableConversations9C0Bb09C50C:
-    url: https://humanparts.medium.com/finding-my-fighting-words-how-i-learned-to-have-uncomfortable-conversations-9c0bb09c50c
+  - url: https://humanparts.medium.com/finding-my-fighting-words-how-i-learned-to-have-uncomfortable-conversations-9c0bb09c50c
     type: entry
     name: How I Learned to Have Uncomfortable Conversations
     summary: I had 50 painfully uncomfortable conversations with strangers in NYC to practice being assertive under pressure. Here’s what I learned.

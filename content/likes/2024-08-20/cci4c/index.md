@@ -3,7 +3,6 @@ date: 2024-08-20T15:48:36.820+01:00
 publishDate: 2024-08-20T15:48:36.820+01:00
 likeOf: https://shermansplanet.com/gallifreyan/guide.pdf
 references:
-  https://shermansplanetCom/gallifreyan/guidePdf:
-    url: https://shermansplanet.com/gallifreyan/guide.pdf
+  - url: https://shermansplanet.com/gallifreyan/guide.pdf
 slug: cci4c
 ---

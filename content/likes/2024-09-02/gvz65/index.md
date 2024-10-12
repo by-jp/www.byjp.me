@@ -3,8 +3,7 @@ date: 2024-09-02T10:28:25.079+01:00
 publishDate: 2024-09-02T10:28:25.079+01:00
 likeOf: https://www.italdesign.it/project/quintessenza/
 references:
-  https://wwwItaldesignIt/project/quintessenza/:
-    url: https://www.italdesign.it/project/quintessenza/
+  - url: https://www.italdesign.it/project/quintessenza/
     type: entry
     name: "Project: Quintessenza® - 2024 - Italdesign"
     summary: Quintessenza embodies human-nature connection, blending GT performance with pickup utility. Its design and interface prioritize human experience, customization, and seamless integration with nature.

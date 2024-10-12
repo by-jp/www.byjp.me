@@ -3,8 +3,7 @@ date: 2024-08-28T10:43:52.189+01:00
 publishDate: 2024-08-28T10:43:52.189+01:00
 likeOf: https://www.rijksmuseum.nl/en/stories/operation-night-watch/story/ultra-high-resolution-photo
 references:
-  https://wwwRijksmuseumNl/en/stories/operationNightWatch/story/ultraHighResolutionPhoto:
-    url: https://www.rijksmuseum.nl/en/stories/operation-night-watch/story/ultra-high-resolution-photo
+  - url: https://www.rijksmuseum.nl/en/stories/operation-night-watch/story/ultra-high-resolution-photo
     type: entry
     name: Ultra high resolution photo
     summary: The Rijksmuseum published the largest and most detailed ever photograph of The Night Watch on its website, making it possible to zoom in on individual brushstrokes and even particles of pigment in the painting.
