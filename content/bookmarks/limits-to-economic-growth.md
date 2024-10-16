@@ -10,6 +10,8 @@ references:
     name: Limits to economic growth
     summary: Nature Physics, doi:10.1038/s41567-022-01652-6
     author: Thomas W. Murphy
+summary: A fascinating (and relatively short) read on why economic growth has multiple
+  factors limiting it entire before the end of the century.
 tags:
 - economics
 - learn

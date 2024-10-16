@@ -9,6 +9,8 @@ references:
     type: entry
     name: Neologisms
     summary: A collection of interesting words that have recently been coined
+summary: I love creating or finding words for niche (or expanding) concepts and areas.
+  These highlighted ones are particularly great!
 tags:
 - words
 ---

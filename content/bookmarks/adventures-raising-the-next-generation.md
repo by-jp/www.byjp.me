@@ -13,6 +13,8 @@ references:
     summary: It has been some time since I posted on this blog.  Writing posts that
       are good enough for me to consider posting takes a reasonable amount of effort,
       and since my last post I embarked upon a …
+summary: What a wonderful read! I’m not a parent (yet?) but I found myself eagerly
+  reading every section here, despite this article’s length!
 tags:
 - parenthood
 ---

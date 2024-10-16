@@ -12,6 +12,8 @@ references:
     summary: examines claims that the big five personality traits is more scientifically
       valid than the myers briggs personality indicator
     author: dynomight
+summary: examines claims that the big five personality traits is more scientifically
+  valid than the myers briggs personality indicator
 ---
 I fit the eNxP model by this article's assertions, and it feels representative enough to be useful. I like the idea of these tools to label & understand yourself _particularly_ because you can figure out where you _don't_ fit the model/where the label _isn't_ useful.
 

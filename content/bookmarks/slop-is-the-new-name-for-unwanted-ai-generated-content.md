@@ -11,6 +11,8 @@ references:
     summary: 'I saw this tweet yesterday from @deepfates, and I am very on board with
       this: Watching in real time as “slop” becomes a term of art. the way that “spam”
       …'
+summary: I will be using this word from here on! Unreviewed AI-generated drivel is
+  now “slop”.
 tags:
 - AI
 - words

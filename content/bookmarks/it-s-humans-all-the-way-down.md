@@ -12,6 +12,8 @@ references:
     summary: Writing about the big beautiful mess that is making things for the world
       wide web.
     author: Jim Nielsen
+summary: Writing about the big beautiful mess that is making things for the world
+  wide web.
 tags:
 - AI
 ---

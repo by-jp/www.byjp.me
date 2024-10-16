@@ -107,7 +107,10 @@ func outputArticle(article Article, outputDir string) error {
 		fm.Date = article.BookmarkDate.Format(time.RFC3339)
 	}
 
-	article.Annotation = strings.TrimSpace(article.Annotation)
+	summary, body := shared.ExtractSummary(article.OriginalSummary, strings.TrimSpace(article.Annotation))
+	if fm.Summary == "" {
+		fm.Summary = summary
+	}
 
 	if len(fm.Title) == 0 {
 		fm.Emoji, fm.Title = artEmoji, artTitle
@@ -138,7 +141,7 @@ func outputArticle(article Article, outputDir string) error {
 	}
 
 	fmt.Fprint(hugoPost, "---\n")
-	fmt.Fprintln(hugoPost, linkHashtags(article.Annotation, fm.Tags))
+	fmt.Fprintln(hugoPost, linkHashtags(body, fm.Tags))
 
 	if len(article.Highlights) > 0 {
 		fmt.Fprint(hugoPost, "\n### Highlights\n")

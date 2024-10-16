@@ -12,6 +12,8 @@ references:
     summary: I'm not a fan of the popular Political Compass. Here I explain why, list
       what makes a good 2-by-2 and rederive the meaning of the political left and
       right. Read more (10 min, 3300 words).
+summary: I _really_ like the framing of this political compass & how it provides more
+  insight into where people exist on it.
 ---
 I _really_ like the framing of this political compass & how it provides more insight into where people exist on it.
 

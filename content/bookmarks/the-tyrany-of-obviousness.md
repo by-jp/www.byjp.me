@@ -11,6 +11,7 @@ references:
     name: Breaking the Tyranny of Obviousness
     summary: We are stuck in a hell of frictionlessness.
     author: P.E. Moskowitz
+summary: A superb read, especially for me as I look for more depth in life.
 tags:
 - Miriscient
 - curious

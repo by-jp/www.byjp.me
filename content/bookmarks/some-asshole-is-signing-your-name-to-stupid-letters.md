@@ -11,6 +11,8 @@ references:
     name: Some asshole is signing your name to stupid letters
     summary: A legal letter of note
     author: Shaun Usher
+summary: I love this approach to replying to someone whose message you’d rather not
+  handle directly!
 tags:
 - comedy
 - communication

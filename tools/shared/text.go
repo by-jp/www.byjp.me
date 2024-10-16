@@ -74,3 +74,21 @@ func ExtractLeadingEmoji(str string) (string, string) {
 
 	return parts[0], strings.TrimSpace(parts[1])
 }
+
+const maxSummaryLength = 140
+
+func ExtractSummary(inSummary, inBody string) (outSummary, outBody string) {
+	outBody = inBody
+	if len(inSummary) <= maxSummaryLength {
+		outSummary = inSummary
+	}
+
+	parts := strings.SplitN(inBody, "\n\n", 2)
+	if len(parts[0]) <= maxSummaryLength {
+		outSummary = parts[0]
+		parts = append(parts, parts[0])
+		outBody = parts[1]
+	}
+
+	return outSummary, outBody
+}

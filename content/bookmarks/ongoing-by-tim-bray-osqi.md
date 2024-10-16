@@ -14,6 +14,8 @@ references:
           employs software engineers. Its mission would be to improve the quality, and especially safety, of popular
           Open-Source software.
     author: Tim Bray
+summary: This is an inspiring (and well thought through) approach to a problem on
+  a lot of folks’ minds after the XZ attack.
 tags:
 - tech
 ---

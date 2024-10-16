@@ -13,6 +13,8 @@ references:
       interest in large language models: machine learning systems which produce human-like
       text and dialogue. Applications of...'
     author: Slater, Joe
+summary: A well reasoned paper on why AI-generated falsehoods should be called bullshit,
+  not hallucinations.
 tags:
 - AI
 - Philosophy

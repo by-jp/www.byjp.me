@@ -12,12 +12,12 @@ references:
     summary: The magazine of the science fiction, fantasy, and horror field with news,
       reviews, and author interviews
     author: locusmag
+summary: Cory Doctorow describes why money feels so _necessary_, and why cryptocurrencies
+  don’t.
 tags:
 - economics
 - politics
 ---
-Cory Doctorow describes why money feels so _necessary_, and why cryptocurrencies don’t.
-
 A very interesting read indeed! I’ve not looked into the origins of money before, but Cory’s explanation of the ideas behind _Debt: The First 5,000 Years_ is extremely thought provoking. It certainly explains why money can feel so… oppressive.
 
 ### Highlights

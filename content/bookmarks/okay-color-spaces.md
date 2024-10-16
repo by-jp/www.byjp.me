@@ -11,6 +11,7 @@ references:
     name: Okay, Color Spaces
     summary: What is a “color space?”
     author: Eric Portis
+summary: An excellent explanation of colourspaces and their uses today.
 tags:
 - color
 ---

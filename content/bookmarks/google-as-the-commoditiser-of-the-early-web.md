@@ -10,6 +10,8 @@ references:
     type: entry
     name: Google shattered human connection
     summary: Open Source Freelancer
+summary: An interesting take on why the internet can feel soulless, and some implied
+  ways to counter that.
 tags:
 - tech
 ---

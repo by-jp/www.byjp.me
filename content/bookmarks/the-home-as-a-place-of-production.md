@@ -11,6 +11,7 @@ references:
     name: The home as a place of production
     summary: Diverse work and the joy of making
     author: Karen Rosenkranz
+summary: Diverse work and the joy of making
 ---
 Bringing more creation into our homes as a way to feel connected to our surroundings and communities. I couldn't appreciate this article more!
 

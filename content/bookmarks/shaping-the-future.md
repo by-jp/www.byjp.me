@@ -15,6 +15,8 @@ references:
       side effects of some technologies that you're probably already becoming familiar
       with. Note that this is a long blog entry — even by my verbose standards — so
       you'll need to hit on the "continue reading" link to see the whole thing.)
+summary: What does the future of technology hold, to a predictive thinker in the year
+  2007?
 ---
 What does the future of technology hold, to a predictive thinker in the year 2007?
 

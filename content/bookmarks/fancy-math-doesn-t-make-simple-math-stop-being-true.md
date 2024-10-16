@@ -11,6 +11,7 @@ references:
     name: Fancy math doesn't make simple math stop being true
     summary: on butts and instrumental variables
     author: dynomight
+summary: on butts and instrumental variables
 tags:
 - measurement
 ---

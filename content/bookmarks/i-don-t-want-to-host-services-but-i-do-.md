@@ -13,6 +13,8 @@ references:
       shouldn’t host services for others. Yet, I am self-hosting services and I even
       teach people how to do it.'
     author: Thibault Martin
+summary: A concise and smart article talking to those of us interested in offering
+  hobby networked services to others.
 tags:
 - homelab
 - tech

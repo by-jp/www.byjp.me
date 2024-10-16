@@ -11,8 +11,10 @@ references:
     name: Frank Chimero · The Web’s Grain
     summary: Frank Chimero’s Personal Website
     author: Frank Chimero
+summary: A wonderful presentation on the limitations of the web, and how to adapt
+  to them and foster our joy in the web as a medium. I love it!
 ---
-A wonderful presentation on the limitations of the web, and how to adapt to them and foster our joy in the web as a medium. I love it!
+
 
 ### Highlights
 

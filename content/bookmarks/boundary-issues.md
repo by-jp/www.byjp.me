@@ -12,6 +12,7 @@ references:
     summary: How boundaries became the rules for mental health—and explain everything    Lily
       Scherlis
     author: Lily Scherlis
+summary: How boundaries became the rules for mental health—and explain everything
 ---
 An extremely interesting article that helped me realise how different my definition of what “boundaries” are seems to differ from what contemporary usage is!
 
