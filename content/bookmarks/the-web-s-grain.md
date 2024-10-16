@@ -14,7 +14,7 @@ references:
 summary: A wonderful presentation on the limitations of the web, and how to adapt
   to them and foster our joy in the web as a medium. I love it!
 ---
-
+A wonderful presentation on the limitations of the web, and how to adapt to them and foster our joy in the web as a medium. I love it!
 
 ### Highlights
 

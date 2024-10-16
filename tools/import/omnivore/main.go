@@ -96,7 +96,7 @@ func outputArticle(article Article, outputDir string) error {
 		articlePath = dirArticlePath
 	}
 
-	fm, _ := loadFrontmatter(articlePath)
+	fm, body, _ := loadFrontmatter(articlePath)
 
 	hugoPost, err := os.Create(articlePath)
 	if err != nil {
@@ -107,8 +107,13 @@ func outputArticle(article Article, outputDir string) error {
 		fm.Date = article.BookmarkDate.Format(time.RFC3339)
 	}
 
-	summary, body := shared.ExtractSummary(article.OriginalSummary, strings.TrimSpace(article.Annotation))
+	if body == "" {
+		body = strings.TrimSpace(article.Annotation)
+	}
+
 	if fm.Summary == "" {
+		var summary string
+		summary, body = shared.ExtractSummary(article.OriginalSummary, body)
 		fm.Summary = summary
 	}
 
@@ -175,20 +180,21 @@ func trimQuote(quote string) string {
 	return allBold.ReplaceAllString(noTrail, "$1$2")
 }
 
-func loadFrontmatter(path string) (FrontMatter, error) {
+func loadFrontmatter(path string) (FrontMatter, string, error) {
 	f, err := os.Open(path)
 	if err != nil {
-		return FrontMatter{}, err
+		return FrontMatter{}, "", err
 	}
 	defer f.Close()
 
 	decoder := yaml.NewDecoder(f)
 	var fm FrontMatter
 	if err := decoder.Decode(&fm); err != nil {
-		return FrontMatter{}, err
+		return FrontMatter{}, "", err
 	}
 
-	return fm, nil
+	rest, err := io.ReadAll(f)
+	return fm, string(rest), err
 }
 
 func linkHashtags(text string, tags []string) string {
