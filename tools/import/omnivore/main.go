@@ -96,7 +96,7 @@ func outputArticle(article Article, outputDir string) error {
 		articlePath = dirArticlePath
 	}
 
-	fm, body, _ := loadFrontmatter(articlePath)
+	fm, _, _ := loadFrontmatter(articlePath)
 
 	hugoPost, err := os.Create(articlePath)
 	if err != nil {
@@ -107,9 +107,7 @@ func outputArticle(article Article, outputDir string) error {
 		fm.Date = article.BookmarkDate.Format(time.RFC3339)
 	}
 
-	if body == "" {
-		body = strings.TrimSpace(article.Annotation)
-	}
+	body := strings.TrimSpace(article.Annotation)
 
 	if fm.Summary == "" {
 		var summary string
