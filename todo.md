@@ -10,7 +10,6 @@ Things I might work on within my personal blog's software.
   - [ ] When posted via Echofeed: They include the "in reply to" initial stuff; this is too cumbersome
   - [ ] When posted via Echofeed: They should probably be "Quiet public", or ideally posted as replies to a fedi post, if there's one referenced in the source as a syncidcation
   - [x] They get posted on the homepage, when they shouldn't
-- [ ] Songwhip is dead 😭 replace with something else
 
 ### Ideas
 
@@ -29,6 +28,8 @@ Things I might work on within my personal blog's software.
 
 - [ ] Remove lychee failing links
 - [ ] Import Facebook posts
+- [ ] Songwhip is dead 😭 replace with something else
+  - Musicbrainz will be good eg. [using release IDs](https://musicbrainz.org/ws/2/recording/013efa85-b7f5-4f95-809b-ff47c53726a9?inc=artist-credits%20url-rels&fmt=json) — but doesn't appear to have composer info (eg. [here](https://musicbrainz.org/ws/2/recording/bfbd2167-db3a-469a-a0a3-3fdeacbd4344?inc=artist-credits%20url-rels&fmt=json)) 
 
 ### Done ✓
 

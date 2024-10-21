@@ -10,4 +10,4 @@ tags:
 ---
 This is my jam!
 
-{{< spotify path="/track/5cGZN0P1QnSfhCFBCHtp2N" title="Peach" artist="salute" url="https://songwhip.com/salute2/peach" >}}
+{{< music "31387690-27f2-4966-95e3-eaf83192378e" >}}

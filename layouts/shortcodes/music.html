@@ -1,0 +1,18 @@
+{{- $data := (index site.Data.music.musicbrainz (.Get 0)) -}}
+{{- with $data -}}
+  {{- $displayArtist := .composer | default .artist -}}
+  {{- $displayTitle := .title | default .album -}}
+  {{- $musicbrainz := .musicbrainz -}}
+  {{- with .spotify -}}
+    {{- $u := urls.Parse . -}}
+    <figure class="embed audio spotify">
+      <iframe src="https://open.spotify.com/embed{{ $u.Path }}" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <figcaption>
+        🎶 {{ $displayArtist }}{{ with $displayTitle }}{{ if $displayArtist }}: {{ end }}<em>{{ . }}</em>{{ end }}<br/>
+        {{ with $musicbrainz }}<a href="{{ . }}" target="_blank" style="font-style:italic;">Listen elsewhere</a>{{ end }}
+      </figcaption>
+    </figure>
+  {{- end -}}
+{{- else -}}
+  {{ errorf "Missing musicbrainz data for %s" (.Get 0) }}
+{{- end -}}
