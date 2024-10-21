@@ -47,7 +47,6 @@
       <div class="photo">
         <div class="context">{{ partialCached "svg.html" (dict "name" "camera") "camera" }} <a href="{{ .RelPermalink }}"><date datetime="{{ dateFormat "2006-01-02T15:04:05-0700" .Date }}" title="Posted on {{ dateFormat "Monday Jan 2 2006 at 03:04 MST" .Date }}" data-pagefind-sort="date">{{ partial "year-relative-date.html" .Date }}</date></a></div>
         <figure>
-          
           {{- $src := index $picPage.Params.Media 0 -}}
           <a href="{{ .RelPermalink }}"><img src="{{ path.Join .RelPermalink $src.url }}" {{ with $src.alt }}alt="{{ . }}" {{ end }} /></a>
           <figcaption>
