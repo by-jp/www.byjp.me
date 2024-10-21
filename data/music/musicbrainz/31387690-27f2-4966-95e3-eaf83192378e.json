@@ -2,7 +2,9 @@
   "title": "Peach",
   "artist": "salute",
   "musicbrainz": "https://musicbrainz.org/recording/31387690-27f2-4966-95e3-eaf83192378e",
-  "spotify": "https://open.spotify.com/track/5cGZN0P1QnSfhCFBCHtp2N",
-  "applemusic": "https://music.apple.com/gb/album/peach/1676610854?i=1676611187",
-  "youtubemusic": "https://music.youtube.com/watch?v=4SOeAzErjxM"
+  "links": [
+    "https://open.spotify.com/track/5cGZN0P1QnSfhCFBCHtp2N",
+    "https://music.apple.com/gb/album/peach/1676610854?i=1676611187",
+    "https://music.youtube.com/watch?v=4SOeAzErjxM"
+  ]
 }

@@ -3,7 +3,9 @@
   "artist": "Borodin Quartet",
   "composer": "Alexander Borodin",
   "musicbrainz": "https://musicbrainz.org/recording/bfbd2167-db3a-469a-a0a3-3fdeacbd4344",
-  "spotify": "https://open.spotify.com/track/7Hi4r3EULEJfLrwli8iw5Q",
-  "applemusic": "https://music.apple.com/gb/album/string-quartet-no-2-in-d-major-iii-nocturne-andante/1452699105?i=1452699113",
-  "youtubemusic": "https://music.youtube.com/watch?v=T1aZdvRWEcc&si=HVI4SivmbVCa9Jev"
+  "links": [
+    "https://open.spotify.com/track/7Hi4r3EULEJfLrwli8iw5Q",
+    "https://music.apple.com/gb/album/string-quartet-no-2-in-d-major-iii-nocturne-andante/1452699105?i=1452699113",
+    "https://music.youtube.com/watch?v=T1aZdvRWEcc"
+  ]
 }

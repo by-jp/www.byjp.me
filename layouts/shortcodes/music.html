@@ -3,16 +3,38 @@
   {{- $displayArtist := .composer | default .artist -}}
   {{- $displayTitle := .title | default .album -}}
   {{- $musicbrainz := .musicbrainz -}}
-  {{- with .spotify -}}
+  {{- $klass := "" -}}
+  {{- $embed := "" -}}
+
+  {{- range .links -}}
     {{- $u := urls.Parse . -}}
-    <figure class="embed audio spotify">
-      <iframe src="https://open.spotify.com/embed{{ $u.Path }}" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      <figcaption>
-        🎶 {{ $displayArtist }}{{ with $displayTitle }}{{ if $displayArtist }}: {{ end }}<em>{{ . }}</em>{{ end }}<br/>
-        {{ with $musicbrainz }}<a href="{{ . }}" target="_blank" style="font-style:italic;">Listen elsewhere</a>{{ end }}
-      </figcaption>
-    </figure>
+
+    {{- if eq $u.Hostname "sopen.spotify.com" -}}
+      {{- $klass = "spotify" -}}
+      {{- $embed = printf "<iframe src='https://open.spotify.com/embed%s' height='80' frameBorder='0' allowfullscreen=' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>" $u.Path -}}
+      {{- break -}}
+
+    {{- else if eq $u.Hostname "smusic.apple.com" -}}
+      {{- $klass = "apple-music" -}}
+      {{- $embed = printf "<iframe allow='autoplay *; encrypted-media *; fullscreen *; clipboard-write' frameborder='0' height='160' style='width:100%%;max-width:660px;overflow:hidden;border-radius:10px;' sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation' src='https://embed.music.apple.com%s'></iframe>" $u.Path -}}
+      {{- break -}}
+
+    {{- else if and (eq $u.Hostname "soundcloud.com") (isset $data "soundcloudtrackid") -}}
+      {{- $klass = "soundcloud" -}}
+      {{- $embed = printf "<iframe src='https://w.soundcloud.com/player/?url=https%%3A//api.soundcloud.com/tracks/%s&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false' loading='lazy' scrolling='no' frameborder='no' allow='autoplay'></iframe>" $data.soundcloudtrackid -}}
+      {{- break -}}
+
+    {{- end -}}
+
   {{- end -}}
+
+  <figure class="embed audio {{$klass}}">
+    {{ $embed | safeHTML }}
+    <figcaption>
+      🎶 {{ $displayArtist }}{{ with $displayTitle }}{{ if $displayArtist }}: {{ end }}<em>{{ . }}</em>{{ end }}<br/>
+      {{ with $musicbrainz }}<a href="{{ . }}" target="_blank" style="font-style:italic;">Listen elsewhere</a>{{ end }}
+    </figcaption>
+  </figure>
 {{- else -}}
   {{ errorf "Missing musicbrainz data for %s" (.Get 0) }}
 {{- end -}}

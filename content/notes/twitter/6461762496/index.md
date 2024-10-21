@@ -8,4 +8,4 @@ tags:
 ---
 likes Bop 'Enjoy The Moment' (Thinnen Remix) [Remix Competition Winner] by Med School Music
 
-{{< soundcloud path="/tracks/986177" artist="Med School Music" title="Bop 'Enjoy The Moment'" url="https://songwhip.com/medschoolmusic/bop-enjoy-the-moment-remix-competition-winner">}}
+{{< music "66a4bf39-d0f4-4006-b649-21808845b3bf" >}}

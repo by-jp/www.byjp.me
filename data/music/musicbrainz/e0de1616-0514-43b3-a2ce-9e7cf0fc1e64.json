@@ -2,7 +2,9 @@
   "album": "Kaleidoscope",
   "artist": "Kelis",
   "musicbrainz": "https://musicbrainz.org/release/e0de1616-0514-43b3-a2ce-9e7cf0fc1e64",
-  "spotify": "https://open.spotify.com/album/33viW1sFm3sCCmzs7FZ9MI",
-  "applemusic": "https://music.apple.com/gb/album/kaleidoscope-expanded-edition/1712490712",
-  "youtubemusic": "https://music.youtube.com/playlist?list=OLAK5uy_kkW-cvsQIeox0qb4BREdvllFVaIZy9A30"
+  "links": [
+    "https://open.spotify.com/album/33viW1sFm3sCCmzs7FZ9MI",
+    "https://music.apple.com/gb/album/kaleidoscope-expanded-edition/1712490712",
+    "https://music.youtube.com/playlist?list=OLAK5uy_kkW-cvsQIeox0qb4BREdvllFVaIZy9A30"
+  ]
 }

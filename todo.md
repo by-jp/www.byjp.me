@@ -29,7 +29,13 @@ Things I might work on within my personal blog's software.
 - [ ] Remove lychee failing links
 - [ ] Import Facebook posts
 - [ ] Songwhip is dead 😭 replace with something else
-  - Musicbrainz will be good eg. [using release IDs](https://musicbrainz.org/ws/2/recording/013efa85-b7f5-4f95-809b-ff47c53726a9?inc=artist-credits%20url-rels&fmt=json) — but doesn't appear to have composer info (eg. [here](https://musicbrainz.org/ws/2/recording/bfbd2167-db3a-469a-a0a3-3fdeacbd4344?inc=artist-credits%20url-rels&fmt=json)) 
+  - [x] Approach complete. Use Musicbrainz
+  - Annoyingly soundcloud URLs don't include the data needed to create an embed, so have to add that manually
+  - [ ] Auto-import from UUID [using release IDs](https://musicbrainz.org/ws/2/recording/013efa85-b7f5-4f95-809b-ff47c53726a9?inc=artist-credits%20artist-rels%20url-rels&fmt=json) — more complex to get composer info (eg. [here](https://musicbrainz.org/ws/2/recording/bfbd2167-db3a-469a-a0a3-3fdeacbd4344?inc=artist-credits%20artist-rels%20url-rels%20work-rels%20work-level-rels&fmt=json))
+  - `composer: .relations[type=performance].work.relations[type=composer].name`
+  - `title:    .title` (Or album, if path is `/release` not `/recording`)
+  - `artist:   .artist-credit.name`
+  - `links:    .relations[type="free streaming"|"streaming"].url.resource`
 
 ### Done ✓
 
