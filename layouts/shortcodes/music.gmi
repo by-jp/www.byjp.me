@@ -1,0 +1,7 @@
+{{- $data := (index site.Data.music.musicbrainz (.Get 0)) -}}
+{{- with $data -}}
+{{- $displayArtist := .composer | default .artist -}}
+{{- $displayTitle := .title | default .album -}}
+
+=> {{ .musicbrainz }} 🎵 {{ $displayArtist }}{{ with $displayTitle }}{{ if $displayArtist }}: {{ end }}{{ . }}{{ end }}
+{{ end -}}
