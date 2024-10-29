@@ -38,11 +38,11 @@ To collaborate on anything we need _some_ level of agreed methodology for accomp
 - **the board**: the 'state' of the game, a record of the outcomes of the decisions, randomness, and fated changes up to this point.
 - **secrets**: the cards or tiles in your hand that your opponent can't see.
 
-When you're in the real world these things are all very simple to bring about — you and your friend(s) are sitting together, the dice are fair, you can see cheating peaks at the cards, there is only one shared board, and you can (mostly) keep your cards secret from your neighbour.
+When you're in the real world these things are all very simple to bring about — you and your friend(s) are sitting together, the dice are fair, you can see cheating peeks at the cards, there is only one shared board, and you can (mostly) keep your cards secret from your neighbour.
 
 What happens when you want to play a game like this when you're not in the same place? We have the internet — messaging apps, email and everything else — so communicating our decisions is easy enough, but after this things get tricky.
 
-You _claim_ you rolled a six with your fair dice; how can I know you didn't cheat? You claim you didn't know the next card in the deck was going to be in your favour, but how do I know you didn't peak? We both _think_ we've kept track of the board in the same way, but what happens if one of us made a mistake, and we're actually playing two different games? How do I draw a card from the deck and keep it secret from you, while also being able to prove I did draw that one?
+You _claim_ you rolled a six with your fair dice; how can I know you didn't cheat? You claim you didn't know the next card in the deck was going to be in your favour, but how do I know you didn't peek? We both _think_ we've kept track of the board in the same way, but what happens if one of us made a mistake, and we're actually playing two different games? How do I draw a card from the deck and keep it secret from you, while also being able to prove I did draw that one?
 
 _These_ are the problems that distributed game protocols address, and I'll cover the simplest of these in this blog post: the players and the board.
 
@@ -50,7 +50,7 @@ _These_ are the problems that distributed game protocols address, and I'll cover
 
 I call the set of games that has no chance, fate, or secrecy "open" because literally all parts of it are open and visible at all times. The difficulty of the game is in the breadth of possible choices by the players, and the (un)predictability of the effect those choices have.
 
-Games like [Chess](https://en.wikipedia.org/wiki/Chess) and [Go](https://en.wikipedia.org/wiki/Go_(game)) are great examples here, and playing them with a distributed protocol is far older than the internet. Game geeks have a [long history](https://en.wikipedia.org/wiki/History_of_chess) of playing chess remotely, using a [standard notation](https://en.wikipedia.org/wiki/Chess_notation) of some kind to communicate moves to each other — [correspondance chess](https://en.wikipedia.org/wiki/Correspondence_chess), as it's still called.
+Games like [Chess](https://en.wikipedia.org/wiki/Chess) and [Go](https://en.wikipedia.org/wiki/Go_(game)) are great examples here, and playing them with a distributed protocol is far older than the internet. Game geeks have a [long history](https://en.wikipedia.org/wiki/History_of_chess) of playing chess remotely, using a [standard notation](https://en.wikipedia.org/wiki/Chess_notation) of some kind to communicate moves to each other — [correspondence chess](https://en.wikipedia.org/wiki/Correspondence_chess), as it's still called.
 
 Below is a sequence diagram I've put together to show how simple a game of remote chess can be played. It's so simple it feels a little strange to spend time documenting and diagramming it!
 
@@ -80,11 +80,11 @@ sequenceDiagram
 
 The only place a protocol like this can sometimes go wrong is if there is an error in one of the messages sent between players, a piece accidentally moved to the wrong square, or an over enthusiastic cat near the chessboard.
 
-In the case of _noticable_ incorrectness (bad kitty!) a player can request a description of the board from the other, but how might we detect a subtle error?
+In the case of _noticeable_ incorrectness (bad kitty, you knocked the pieces off the board!) a player can request a description of the board from the other. But how might we detect a subtle error?
 
 ### Consistent hashing algorithms
 
-Naturally, a very simple way of detecting errors here would be to scribble down the full layout of the new chessboard on the postcard containing your move as you make your correspondance chess play; but for more complex games, or where the amount of space you have for transmitting your move is small, we'd need something more sophisticated.
+Naturally, a very simple way of detecting errors here would be to scribble down the full layout of the new chessboard on the postcard containing your move as you make your correspondence chess play; but for more complex games, or where the amount of space you have for transmitting your move is small, we'd need something more sophisticated.
 
 In computing, [error detection and correction codes](https://en.wikipedia.org/wiki/Error_detection_and_correction) are used _literally everywhere_ to be able to detect (and optionally correct) exactly these kinds of otherwise invisible errors. In modern digital systems the components that store the 1s and 0s at the foundation of your machine are so small that an errant particle from the sun can (and do!) flip a zero to a one, or vice versa, at any moment — error correction codes are how we get around this.
 
@@ -92,7 +92,7 @@ A distributed game protocol can use similar techniques to protect your game from
 
 You probably have a perfect example of this close at hand: your credit card number. The last digit of that long number on your card _isn't a part of your card number_, it's a "check digit". If you type one of your digits incorrectly, the check digit will be off, and a computer can know to ask you to check your typing.
 
-They use the [Luhn alogorithm](https://en.wikipedia.org/wiki/Luhn_algorithm), and you can check your credit card number is correct right now:
+They use the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm), and you can check your credit card number is correct right now:
 
 1. Write your credit card number out on a piece of paper, with some space between each digit (a piece you can destroy afterwards!)
 2. Double every other digit
