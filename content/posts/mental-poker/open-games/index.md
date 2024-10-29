@@ -30,7 +30,7 @@ This post series:
 
 ## What and why?
 
-To collaborate on anything we need _some_ level of agreed methodology for accomplishing our desired outcome — a _protocol_. When you're playing a game with someone — [Yaniv](https://en.wikipedia.org/wiki/Yaniv_(card_game)), [Chess](https://en.wikipedia.org/wiki/Chess), [Scrabble](https://en.wikipedia.org/wiki/Scrabble), or perhaps even [Pandemic](https://en.wikipedia.org/wiki/Pandemic_(board_game)) — the game's protocol (the rules) usually fall into 5 categories:
+To collaborate on anything we need _some_ level of agreed methodology for accomplishing our desired outcome — a _protocol_. When you're playing a game with someone — [Yaniv](https://en.wikipedia.org/wiki/Yaniv_(card_game)), [Chess](https://en.wikipedia.org/wiki/Chess), [Scrabble](https://en.wikipedia.org/wiki/Scrabble), or perhaps even [Pandemic](https://en.wikipedia.org/wiki/Pandemic_(board_game)) — the game's protocols (the rules) usually fall into 5 categories:
 
 - **you** and **your opponent(s)**: the players/agents in the game, independent and often identical in terms of role, those who make decisions.
 - **random chance**: the dice you roll, to bring a little chaos to the game.
@@ -86,7 +86,7 @@ In the case of _noticeable_ incorrectness (bad kitty, you knocked the pieces off
 
 Naturally, a very simple way of detecting errors here would be to scribble down the full layout of the new chessboard on the postcard containing your move as you make your correspondence chess play; but for more complex games, or where the amount of space you have for transmitting your move is small, we'd need something more sophisticated.
 
-In computing, [error detection and correction codes](https://en.wikipedia.org/wiki/Error_detection_and_correction) are used _literally everywhere_ to be able to detect (and optionally correct) exactly these kinds of otherwise invisible errors. In modern digital systems the components that store the 1s and 0s at the foundation of your machine are so small that an errant particle from the sun can (and do!) flip a zero to a one, or vice versa, at any moment — error correction codes are how we get around this.
+In computing, [error detection and correction codes](https://en.wikipedia.org/wiki/Error_detection_and_correction) are used _literally everywhere_ to be able to detect (and optionally correct) exactly these kinds of otherwise invisible errors. In modern digital systems the components that store the 1s and 0s at the foundation of your machine are so small that an errant particle from the sun can (and does!) flip a zero to a one, or vice versa, at any moment — error correction codes are how we get around this.
 
 A distributed game protocol can use similar techniques to protect your game from subtle errors too. The one method I want to introduce before the next post is [hashing algorithms](https://en.wikipedia.org/wiki/Hash_function). These are processes for turning an arbitrarily large amount of data into a small(ish) number that changes a lot, even when the data changes only a little.
 
