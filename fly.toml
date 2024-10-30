@@ -30,6 +30,6 @@ primary_region = 'lhr'
     port = 1965
 
 [[vm]]
-  memory = '1gb'
+  memory = '512mb'
   cpu_kind = 'shared'
   cpus = 1
