@@ -20,8 +20,6 @@ timings:
     duration: PT3H30M
   - starts: 2024-10-25T18:30:00+01:00
     duration: PT3H30M
-  - starts: 2024-11-29T18:30:00Z
-    duration: PT3H30M
 link: https://www.vam.ac.uk/info/friday-late
 location:
   name: V&A Museum
