@@ -15,7 +15,7 @@ references:
 ---
 ## Aperiodic monotiles
 
-{{< figure src="../spectre.webp" caption="The spectre aperiodic monotile, with \"odd\" tiles shaded." >}}
+{{< figure src="spectre.webp" caption="The spectre aperiodic monotile, with \"odd\" tiles shaded." >}}
 
 2023 was a good year for tiling! The Einstein hat and Sprectre aperiodic monotiles were discovered and [documented](https://cs.uwaterloo.ca/~csk/spectre/). These are special because they've been proven to _never repeat_. There's something really quite wonderful about that!
 
@@ -27,7 +27,7 @@ I wrote a little code a few weekends ago to try and figure out if I could make a
 
 Though there are some lines that close (you can see some here) I have a _hunch_ that there may be provably non-zero many that never close. I have no idea how to go about proving that though!
 
-{{< figure src="../spectre.svg" title="My spectre & tantrix crossover tiling, each one with a #colour chosen for its angle of rotation." alt="A computer-generated tiling of 20 identical 14-sided irregular shapes. They vary in light pastel colours. Each of the 14 sides inside each shape is connected with a different side by a white line, making a big but pretty knot of white lines connected through each of the shapes.">}}
+{{< figure src="spectre.svg" title="My spectre & tantrix crossover tiling, each one with a #colour chosen for its angle of rotation." alt="A computer-generated tiling of 20 identical 14-sided irregular shapes. They vary in light pastel colours. Each of the 14 sides inside each shape is connected with a different side by a white line, making a big but pretty knot of white lines connected through each of the shapes.">}}
 
 The code for making this is below; but it's definitely not polished!
 
