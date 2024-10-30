@@ -10,7 +10,7 @@ I just threw together a script for easily attaching a debugger to any of your [o
 
 I'm using it for attaching to my [rails](/tags/rails) processes, as I don't like how `overmind connect web` echoes _everything_ the web process outputs.
 
-```sh bin/debug
+```bash bin/debug
 #!/usr/bin/env sh
 
 if [[ "$1" == "--help" ]]; then

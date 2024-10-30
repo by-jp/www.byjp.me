@@ -16,7 +16,7 @@ It took me a while to figure out the problem, essentially Jenkins loads a sessio
 
 My Jenkins executed shell script now looks like this, note the PATH and LANG exports!
 
-```sh
+```bash
 export LANG=en_GB.UTF-8
 export PATH=/Users/admin/.rvm/gems/ruby-1.9.3-p385/bin:/Users/admin/.rvm/gems/ruby-1.9.3-p385@global/bin:/Users/admin/.rvm/rubies/ruby-1.9.3-p385/bin:/Users/admin/.rvm/bin:/usr/local/bin:$PATH
 rvm use 1.9.3 --install --binary --fuzzy
@@ -26,3 +26,4 @@ gem --version
 rake spec
 rake features
 ```
+

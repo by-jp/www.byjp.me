@@ -24,7 +24,7 @@ I’ve uploaded a snapshot[^1] of the whole window for you to ogle at too.
 
 If you want to play with the code, get ruby installed and then just do:
 
-```sh
+```bash
 gem install ruby-processing
 ```
 
@@ -32,7 +32,7 @@ or follow [the advice here](https://github.com/jashkenas/ruby-processing/wiki/ge
 
 Then download the code from [the gist](https://gist.github.com/98878), find an equirectangular map of the earth, call it `map.jpg` and then run:
 
-```sh
+```bash
 rp5 run whereOnTheWeb.rb
 ```
 

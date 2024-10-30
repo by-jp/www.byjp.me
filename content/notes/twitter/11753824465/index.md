@@ -8,6 +8,6 @@ I've released Thimblr: [toys.byJP.me/thimblr](https://github.com/jphastings/thim
 
 A tool to help you make tumblr themes.
 
-```sh
+```bash
 gem install Thimblr
 ```

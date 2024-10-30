@@ -14,7 +14,7 @@ This was _exactly_ what I was looking for.
 
 If you're investingating JSON returned from a web service, get the control you need with the terminal and [jsonpp](https://github.com/jmhodges/jsonpp):
 
-```sh
+```bash
 brew install jsonpp
 curl -u username:password https://awesome.com/stuff.json | jsonpp 
 ```

@@ -1,378 +1,247 @@
-/* PrismJS 1.23.0
-https://prismjs.com/download.html#themes=prism-twilight&languages=markup+css+clike+javascript+ada+apacheconf+bash+batch+c+csharp+cpp+coffeescript+css-extras+dart+django+dns-zone-file+docker+elixir+etlua+erlang+git+go+graphql+groovy+haml+handlebars+haskell+http+hpkp+hsts+ini+java+javadoc+javadoclike+jsdoc+js-extras+json+json5+jsonp+julia+kotlin+latex+less+lisp+lua+markup-templating+matlab+nginx+objectivec+perl+php+phpdoc+php-extras+powershell+promql+protobuf+puppet+purescript+python+r+jsx+tsx+regex+rest+ruby+rust+sass+scss+shell-session+sql+stylus+swift+toml+twig+typescript+typoscript+verilog+vhdl+vim+visual-basic+wasm+xml-doc+yaml&plugins=line-highlight+line-numbers+show-language+toolbar */
-/**
- * prism.js Twilight theme
- * Based (more or less) on the Twilight theme originally of Textmate fame.
- * @author Remy Bach
- */
+// https://codepen.io/2kool2/pen/MEbeEg
+
+pre[class*="language-"] {
+  overflow: auto;
+  margin: 0;
+  background-color: transparent;
+  
+  /* Allow space for an overflow ellipsis */
+  padding-right: 0.5rem;
+  
+  /* Allow space for SVG "tear off strip" */
+  background-origin: border-box;
+  border-left: 1.25rem solid transparent;
+  background-size: auto 2.926rem;
+  /* Single line does not sit on stripes */
+  background-position: top 2.1rem left 0;
+  
+  /* Allow horizontal resizing - could be adjusted to allow vertical resizing too */
+  position: relative;
+  resize: horizontal;
+  min-width: calc(100% - 3.5rem);
+	width: calc(100% + 2.5rem);
+	left: -2.5rem;
+  
+  transition: box-shadow .3s ease-out;
+}
+
+code[class*="language-"] {
+  font-family: monospace, monospace;
+  text-shadow: 0 1px var(--textShadow);
+  letter-spacing: 0.01em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+
+  /* Safari requirement for contenteditable */
+  word-wrap: normal;
+  line-height: 1.54;
+  tab-size: 2;
+  hyphens: none;
+}
+
+pre > code[class*="language-"],
+pre[class*="language-"] > code {
+  display: block;
+  padding: 0;
+
+  /* Use an ellipsis to indicate code is wider than the display area */
+  text-overflow: ellipsis;
+  overflow-x: scroll;
+}
+pre:hover > code[class*="language-"],
+pre:focus-within > code[class*="language-"] {
+  outline: none;
+  text-overflow: inherit;
+}
+
+/* Inline code only */
+:not(pre) > code[class*="language-"] {
+  font-size: inherit;
+  background-position: top right;
+  background-size: auto 4rem;
+  padding: 0.125em 0.25em;
+  white-space: normal;
+  word-wrap: nowrap;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
+.token.entity {
+  cursor: help;
+}
+.namespace {
+  opacity: 0.7;
+}
+
+/* Default colors (Light mode) */
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  --color: #33a;
+  --textShadow: #fff;
+  --comment: #6e6e6e;
+  --punctuation: #4e4e4e;
+  --property: #905;
+  --operator: #70b;
+  --selector: #487b00;
+  --url: #8d6640;
+  --urlBg: hsla(0, 0%, 100%, .5);
+  --boolean: #905;
+  --atrule: #0075a8;
+  --keyword: #0075a8;
+  --function: #c93654;
+  --regex: #860;
+  --boxShadow: hsla(0,0%,0%,.3);
+  --focusOutline: hsla(214, 100%, 85%, 1);
+  
+  --codeBgImg: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 64'%3E%3Ccircle stroke='rgba(0,64,0,.3)' stroke-width='2' fill='none' cx='20' cy='49' r='12'/%3E%3Cpath fill='%23fcfcfa' fill-rule='evenodd' d='M1920 64H0V0h1920v64zM20 36a11 11 0 110 22 11 11 0 010-22z'/%3E%3Cpath stroke='%23edf3ed' stroke-width='2' d='M0 1h1920M0 5h1920M0 9h1920M0 13h1920M0 17h1920M0 21h1920M0 25h1920M0 29h1920'/%3E%3Cpath stroke='%23e4ede4' stroke-dasharray='2 6 2 6' stroke-width='2' d='M40 2v60'/%3E%3C/svg%3E");
+}
+
+
+/* If the OS has dark mode set then... */
+/* Change dark to light to test */
+
+@media (prefers-color-scheme: dark) {
+  body:not([data-lightMode="light"]) code[class*="language-"]:not([contenteditable]),
+  body:not([data-lightMode="light"]) pre[class*="language-"] {
+    --color: #6ae;
+    --textShadow: #000;
+
+    --comment: #9ab;
+    --punctuation: #ccc;
+    --property: #e70;
+    --operator: #d7f;
+    --selector: #8b2;
+    --url: #cde;
+    --urlBg: rgba(0,0,0,.5);
+    --boolean: #a8f;
+    --atrule: #ffb;
+    --keyword: #fe6;
+    --function: #f55;
+    --regex: #f91;
+
+    --boxShadow: #000;
+    --focusOutline: hsla(214, 100%, 85%, .6);
+  
+    --codeBgImg: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 64'%3E%3Ccircle stroke='rgba(0,0,0,.7)' stroke-width='2' fill='none' cx='20' cy='49' r='12'/%3E%3Cpath fill='%23101610' fill-rule='evenodd' d='M1920 64H0V0h1920v64zM20 36a11 11 0 110 22 11 11 0 010-22z'/%3E%3Cpath stroke='%23121' stroke-width='2' d='M0 1h1920M0 5h1920M0 9h1920M0 13h1920M0 17h1920M0 21h1920M0 25h1920M0 29h1920'/%3E%3Cpath stroke='%23131' stroke-dasharray='2 6 2 6' stroke-width='2' d='M40 2v60'/%3E%3C/svg%3E");
+  }
+}
+
+/* Manual switch mode - where implemented */
+body[data-lightMode="dark"] code[class*="language-"]:not([contenteditable]),
+body[data-lightMode="dark"] pre[class*="language-"] {
+
+  /* Exactly the same as prefers-color-scheme: dark */
+  --color: #6ae;
+  --textShadow: #000;
+
+  --comment: #9ab;
+  --punctuation: #ccc;
+  --property: #e70;
+  --operator: #d7f;
+  --selector: #8b2;
+  --url: #cde;
+  --urlBg: rgba(0,0,0,.5);
+  --boolean: #8af;
+  --atrule: #ffb;
+  --keyword: #fe6;
+  --function: #f55;
+  --regex: #f91;
+
+  --boxShadow: #000;
+  --focusOutline: hsla(214, 100%, 85%, .6);
+  
+  --codeBgImg: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 64'%3E%3Ccircle stroke='rgba(0,0,0,.7)' stroke-width='2' fill='none' cx='20' cy='49' r='12'/%3E%3Cpath fill='%23101610' fill-rule='evenodd' d='M1920 64H0V0h1920v64zM20 36a11 11 0 110 22 11 11 0 010-22z'/%3E%3Cpath stroke='%23121' stroke-width='2' d='M0 1h1920M0 5h1920M0 9h1920M0 13h1920M0 17h1920M0 21h1920M0 25h1920M0 29h1920'/%3E%3Cpath stroke='%23131' stroke-dasharray='2 6 2 6' stroke-width='2' d='M40 2v60'/%3E%3C/svg%3E");
+}
+
+
+
 code[class*="language-"],
 pre[class*="language-"] {
-	color: white;
-	background: none;
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 1em;
-	text-align: left;
-	text-shadow: 0 -.1em .2em black;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	word-wrap: normal;
-	line-height: 1.5;
-
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
-
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
+  color: var(--color);
+  text-shadow: 0 1px var(--textShadow);
 }
 
-pre[class*="language-"],
-:not(pre) > code[class*="language-"] {
-	background: hsl(0, 0%, 8%); /* #141414 */
-}
-
-/* Code blocks */
+/* Background image is applied to the pre element on blocks, mainly because it is cropped when applied to the code element. */
+:not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	border-radius: .5em;
-	border: .3em solid hsl(0, 0%, 33%); /* #282A2B */
-	box-shadow: 1px 1px .5em black inset;
-	margin: .5em 0;
-	overflow: auto;
-	padding: 1em;
+  background-image: var(--codeBgImg);
 }
-
-pre[class*="language-"]::-moz-selection {
-	/* Firefox */
-	background: hsl(200, 4%, 16%); /* #282A2B */
+pre[class*="language-"]:hover,
+pre[class*="language-"]:focus-within {
+  box-shadow: 0 .25rem .25rem var(--boxShadow);
 }
-
-pre[class*="language-"]::selection {
-	/* Safari */
-	background: hsl(200, 4%, 16%); /* #282A2B */
-}
-
-/* Text Selection colour */
-pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
-code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
-	text-shadow: none;
-	background: hsla(0, 0%, 93%, 0.15); /* #EDEDED */
-}
-
-pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
-code[class*="language-"]::selection, code[class*="language-"] ::selection {
-	text-shadow: none;
-	background: hsla(0, 0%, 93%, 0.15); /* #EDEDED */
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-	border-radius: .3em;
-	border: .13em solid hsl(0, 0%, 33%); /* #545454 */
-	box-shadow: 1px 1px .3em -.1em black inset;
-	padding: .15em .2em .05em;
-	white-space: normal;
+pre[class*="language-"]:focus-within {
+  outline-offset: calc(-0.25rem - 1px);
+  outline: var(--focusOutline) solid 0.25rem;
+  z-index: 5;
 }
 
 .token.comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: hsl(0, 0%, 47%); /* #777777 */
+  color: var(--comment);
 }
-
 .token.punctuation {
-	opacity: .7;
+  color: var(--punctuation);
 }
-
-.token.namespace {
-	opacity: .7;
-}
-
-.token.tag,
-.token.boolean,
-.token.number,
-.token.deleted {
-	color: hsl(14, 58%, 55%); /* #CF6A4C */
-}
-
-.token.keyword,
 .token.property,
-.token.selector,
-.token.constant,
 .token.symbol,
-.token.builtin {
-	color: hsl(53, 89%, 79%); /* #F9EE98 */
+.token.tag,
+.token.constant,
+.token.deleted {
+  color: var(--property);
 }
-
+.token.boolean,
+.token.number {
+  color: var(--boolean);
+}
+.token.selector,
 .token.attr-name,
-.token.attr-value,
 .token.string,
 .token.char,
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string,
-.token.variable,
+.token.builtin,
 .token.inserted {
-	color: hsl(76, 21%, 52%); /* #8F9D6A */
+  color: var(--selector);
 }
-
-.token.atrule {
-	color: hsl(218, 22%, 55%); /* #7587A6 */
+.token.operator {
+  color: var(--operator);
 }
-
+.token.url,
+.token.entity,
+.language-css .token.string,
+.style .token.string {
+  color: var(--url);
+  background-color: var(--urlBg);
+}
+.token.atrule,
+.token.attr-value {
+  color: var(--atrule);
+}
+.token.keyword {
+  color: var(--keyword);
+}
+.token.function {
+  color: var(--function);
+}
 .token.regex,
-.token.important {
-	color: hsl(42, 75%, 65%); /* #E9C062 */
-}
-
 .token.important,
-.token.bold {
-	font-weight: bold;
-}
-.token.italic {
-	font-style: italic;
+.token.variable {
+  color: var(--regex);
 }
 
-.token.entity {
-	cursor: help;
-}
 
-pre[data-line] {
-	padding: 1em 0 1em 3em;
-	position: relative;
-}
-
-/* Markup */
-.language-markup .token.tag,
-.language-markup .token.attr-name,
-.language-markup .token.punctuation {
-	color: hsl(33, 33%, 52%); /* #AC885B */
-}
-
-/* Make the tokens sit above the line highlight so the colours don't look faded. */
-.token {
-	position: relative;
-	z-index: 1;
-}
-
-.line-highlight {
-	background: hsla(0, 0%, 33%, 0.25); /* #545454 */
-	background: linear-gradient(to right, hsla(0, 0%, 33%, .1) 70%, hsla(0, 0%, 33%, 0)); /* #545454 */
-	border-bottom: 1px dashed hsl(0, 0%, 33%); /* #545454 */
-	border-top: 1px dashed hsl(0, 0%, 33%); /* #545454 */
-	left: 0;
-	line-height: inherit;
-	margin-top: 0.75em; /* Same as .prism’s padding-top */
-	padding: inherit 0;
-	pointer-events: none;
-	position: absolute;
-	right: 0;
-	white-space: pre;
-	z-index: 0;
-}
-
-.line-highlight:before,
-.line-highlight[data-end]:after {
-	background-color: hsl(215, 15%, 59%); /* #8794A6 */
-	border-radius: 999px;
-	box-shadow: 0 1px white;
-	color: hsl(24, 20%, 95%); /* #F5F2F0 */
-	content: attr(data-start);
-	font: bold 65%/1.5 sans-serif;
-	left: .6em;
-	min-width: 1em;
-	padding: 0 .5em;
-	position: absolute;
-	text-align: center;
-	text-shadow: none;
-	top: .4em;
-	vertical-align: .3em;
-}
-
-.line-highlight[data-end]:after {
-	bottom: .4em;
-	content: attr(data-end);
-	top: auto;
-}
-
-pre[data-line] {
-	position: relative;
-	padding: 1em 0 1em 3em;
-}
-
-.line-highlight {
-	position: absolute;
-	left: 0;
-	right: 0;
-	padding: inherit 0;
-	margin-top: 1em; /* Same as .prism’s padding-top */
-
-	background: hsla(24, 20%, 50%,.08);
-	background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
-
-	pointer-events: none;
-
-	line-height: inherit;
-	white-space: pre;
-}
 
 @media print {
-	.line-highlight {
-		/*
-		 * This will prevent browsers from replacing the background color with white.
-		 * It's necessary because the element is layered on top of the displayed code.
-		 */
-		-webkit-print-color-adjust: exact;
-		color-adjust: exact;
-	}
-}
-
-	.line-highlight:before,
-	.line-highlight[data-end]:after {
-		content: attr(data-start);
-		position: absolute;
-		top: .4em;
-		left: .6em;
-		min-width: 1em;
-		padding: 0 .5em;
-		background-color: hsla(24, 20%, 50%,.4);
-		color: hsl(24, 20%, 95%);
-		font: bold 65%/1.5 sans-serif;
-		text-align: center;
-		vertical-align: .3em;
-		border-radius: 999px;
-		text-shadow: none;
-		box-shadow: 0 1px white;
-	}
-
-	.line-highlight[data-end]:after {
-		content: attr(data-end);
-		top: auto;
-		bottom: .4em;
-	}
-
-.line-numbers .line-highlight:before,
-.line-numbers .line-highlight:after {
-	content: none;
-}
-
-pre[id].linkable-line-numbers span.line-numbers-rows {
-	pointer-events: all;
-}
-pre[id].linkable-line-numbers span.line-numbers-rows > span:before {
-	cursor: pointer;
-}
-pre[id].linkable-line-numbers span.line-numbers-rows > span:hover:before {
-	background-color: rgba(128, 128, 128, .2);
-}
-
-pre[class*="language-"].line-numbers {
-	position: relative;
-	padding-left: 3.8em;
-	counter-reset: linenumber;
-}
-
-pre[class*="language-"].line-numbers > code {
-	position: relative;
-	white-space: inherit;
-}
-
-.line-numbers .line-numbers-rows {
-	position: absolute;
-	pointer-events: none;
-	top: 0;
-	font-size: 100%;
-	left: -3.8em;
-	width: 3em; /* works for line-numbers below 1000 lines */
-	letter-spacing: -1px;
-	border-right: 1px solid #999;
-
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-
-}
-
-	.line-numbers-rows > span {
-		display: block;
-		counter-increment: linenumber;
-	}
-
-		.line-numbers-rows > span:before {
-			content: counter(linenumber);
-			color: #999;
-			display: block;
-			padding-right: 0.8em;
-			text-align: right;
-		}
-
-div.code-toolbar {
-	position: relative;
-}
-
-div.code-toolbar > .toolbar {
-	position: absolute;
-	top: .3em;
-	right: .2em;
-	transition: opacity 0.3s ease-in-out;
-	opacity: 0;
-}
-
-div.code-toolbar:hover > .toolbar {
-	opacity: 1;
-}
-
-/* Separate line b/c rules are thrown out if selector is invalid.
-   IE11 and old Edge versions don't support :focus-within. */
-div.code-toolbar:focus-within > .toolbar {
-	opacity: 1;
-}
-
-div.code-toolbar > .toolbar .toolbar-item {
-	display: inline-block;
-}
-
-div.code-toolbar > .toolbar a {
-	cursor: pointer;
-}
-
-div.code-toolbar > .toolbar button {
-	background: none;
-	border: 0;
-	color: inherit;
-	font: inherit;
-	line-height: normal;
-	overflow: visible;
-	padding: 0;
-	-webkit-user-select: none; /* for button */
-	-moz-user-select: none;
-	-ms-user-select: none;
-}
-
-div.code-toolbar > .toolbar a,
-div.code-toolbar > .toolbar button,
-div.code-toolbar > .toolbar span {
-	color: #bbb;
-	font-size: .8em;
-	padding: 0 .5em;
-	background: #f5f2f0;
-	background: rgba(224, 224, 224, 0.2);
-	box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
-	border-radius: .5em;
-}
-
-div.code-toolbar > .toolbar a:hover,
-div.code-toolbar > .toolbar a:focus,
-div.code-toolbar > .toolbar button:hover,
-div.code-toolbar > .toolbar button:focus,
-div.code-toolbar > .toolbar span:hover,
-div.code-toolbar > .toolbar span:focus {
-	color: inherit;
-	text-decoration: none;
+  code[class*="language-"],
+  pre[class*="language-"] {
+    text-shadow: none;
+  }
 }

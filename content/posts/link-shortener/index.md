@@ -93,7 +93,7 @@ If you'd also like an API to add a new shortlink, you'll need a [val.town](https
 3. And another again with `export const shortlink_repo = 'yourghname/your.tld'` in it, referring to your github repo.
 4. You can now send a query like below to have a new shortlink added to your repo!
 
-    ```sh
+    ```bash
     curl "https://yourvtname-addshortlink.express.val.run/example?to=http://example.com" \
          -H 'Authorization: Bearer abc123
     ```

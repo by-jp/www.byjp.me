@@ -2,7 +2,7 @@
 
 This tool will take an [Instagram data archive](https://help.instagram.com/181231772500920) and turn it into a series of timestamped posts for your Hugo blog.
 
-```sh
+```bash
 go run . <path/to/archive/username_yyyymmdd.zip> <path/to/hugo/root/>
 ```
 

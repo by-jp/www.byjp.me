@@ -2,7 +2,7 @@
 
 This tool will take a Twitter archive (I'd link to how to get there, but I don't have an account any more, so can't!) and turn it into a series of timestamped notes for your Hugo blog.
 
-```sh
+```bash
 go run . <path/to/archive.zip> <path/to/hugo/root/>
 ```
 

@@ -16,7 +16,7 @@ tags:
 
 Ruby-DLC is now available on github, and consequently as a gem! You can install with[^1]:
 
-```sh
+```bash
 gem sources -a https://gems.github.com
 sudo gem install jphastings-dlc
 ```
