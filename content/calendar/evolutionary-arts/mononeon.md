@@ -5,6 +5,7 @@ date: 2024-10-30T10:03:50.774Z
 timings:
   - starts: 2024-11-24T19:30:00Z
     duration: PT3H30M
+    attending: true
 link: https://earthackney.co.uk/events/mononeon-24th-nov-earth-london-tickets-v3pm7l/
 location:
   name: EartH

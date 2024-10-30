@@ -5,13 +5,15 @@ date: 2024-10-30T09:37:44.032Z
 timings:
   - starts: 2024-11-06T19:00:00Z
     duration: PT1H
-    attending: true
+    attending: [jp, yvette]
   - starts: 2024-11-13T19:00:00Z
     duration: PT1H
-    attending: true
+    attending: [jp, yvette]
   - starts: 2024-11-20T19:00:00Z
     duration: PT1H
-    attending: true
+    attending: [jp, yvette]
+  - starts: 2024-11-27T19:00:00Z
+    duration: PT1H
 link: https://www.swingpatrol.co.uk/classes/bermondsey/
 location:
   name: Cherry Garden Hall
