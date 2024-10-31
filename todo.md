@@ -36,6 +36,7 @@ Things I might work on within my personal blog's software.
   - `title:    .title` (Or album, if path is `/release` not `/recording`)
   - `artist:   .artist-credit.name`
   - `links:    .relations[type="free streaming"|"streaming"].url.resource`
+- [ ] Fix header im ages that are skewed to the left at wide screen sizes (see Adventure Awaits posts)
 
 ### Done ✓
 
