@@ -19,7 +19,7 @@
             </date>
           </div>
           
-          {{- index (split .Summary "\n") 0 | htmlUnescape -}}
+          {{- index (split .Summary "\n") 0 | safeHTML -}}
         </div>
       </li>
     {{- end -}}
