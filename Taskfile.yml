@@ -52,7 +52,7 @@ tasks:
       # Gemini has no Javascript (no client-side interactivity at all), so search is useless
       - rm -rf ./public/search
       # Remove www-specific files
-      - find ./public -regex '.*\.(html|js|css|css\.map|webmanifest|xml|xsl|ico|opml)' -type f -delete
+      - find ./public -regextype posix-egrep -regex '.*\.(html|js|css|css\.map|webmanifest|xml|xsl|ico|opml)' -type f -delete
       # Remove specific unneeded files
       - rm -rf ./public/favicon*.png ./public/_redirects ./public/{apple,android,mstile}*.png ./public/safari-pinned-tab.svg ./public/robots.txt
       # Remove specific unneeded directories
