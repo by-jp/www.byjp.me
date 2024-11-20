@@ -1,0 +1,18 @@
+on:
+  push:
+    branches: ["main"]
+    paths-ignore:
+      - indiekit/**
+      - .github/workflows/indiekit-docker.yml
+      - tools/**
+  schedule:
+    # Rebuild every day, to update 'year relative' dates, change now page & calendar
+    - cron: '0 0 * * *'
+
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: docker
+    steps:
+    - run: echo "All good"

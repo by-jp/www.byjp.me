@@ -49,11 +49,6 @@ jobs:
           wget -q -O ${{ runner.temp }}/task.tar.gz https://github.com/go-task/task/releases/download/v${TASK_VERSION}/task_linux_amd64.tar.gz \
           && tar -xpf ${{ runner.temp }}/task.tar.gz task \
           && mv task /usr/local/bin/task
-      - name: Install Restic CLI
-        run: |
-          wget -q -O ${{ runner.temp }}/restic.bz2 https://github.com/restic/restic/releases/download/v${RESTIC_VERSION}/restic_${RESTIC_VERSION}_linux_amd64.bz2 \
-          && bunzip2 ${{ runner.temp }}/restic.bz2 \
-          && mv ${{ runner.temp }}/restic /usr/local/bin/restic
       - name: Checkout
         uses: actions/checkout@v3
         with:
