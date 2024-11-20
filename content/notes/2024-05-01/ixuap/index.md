@@ -11,6 +11,6 @@ syndications:
 ---
 🎉 My blog is now also published as a capsule over the [Gemini Protocol](https://geminiprotocol.net)!
 
-I'm sure this'll only be interesting only to the nerdiest of us, but should you want to see what it looks like, check out [gemini://byjp.cc](gemini://byjp.cc).
+I'm sure this'll only be interesting only to the nerdiest of us, but should you want to see what it looks like, check out [gemini://byjp.cc](gemini://byjp.me).
 
 (I've found [Lagrange](https://gmi.skyjake.fi/lagrange/) to be an _excellent_ Gemini browser, if you need one!)

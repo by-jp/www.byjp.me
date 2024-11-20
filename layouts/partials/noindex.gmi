@@ -3,6 +3,6 @@
   {{- $url = strings.TrimSuffix "index.gmi" $url -}}
 {{- end -}}
 {{- if hasPrefix $url "gemini://www.byjp.me" -}}
-  {{- $url = strings.Replace $url "gemini://www.byjp.me" "gemini://byjp.cc" -}}
+  {{- $url = strings.Replace $url "gemini://www.byjp.me" "gemini://byjp.me" -}}
 {{- end -}}
 {{- return $url -}}
