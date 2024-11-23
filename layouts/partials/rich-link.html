@@ -1,6 +1,6 @@
 {{- $url := .url -}}
 {{- $title := .Title -}}
-{{- $isExternal := strings.HasPrefix $url "http" -}}
+{{- $isExternal := or (strings.HasPrefix $url "https://") (strings.HasPrefix $url "http://") -}}
 {{- $text := .Text | default $url -}}
 {{/* It pains me that Hugo doesn't have a urls.IsValid method, and has no error catching to allow me to try urls.Parse and catch failures */}}
 {{- if gt (len (strings.FindRE `^https?:\/\/[A-z0-9_-]*?[:]?[A-z0-9_-]*?[@]?[A-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$` $text)) 0 -}}
