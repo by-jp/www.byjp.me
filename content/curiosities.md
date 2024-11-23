@@ -32,12 +32,12 @@ I'm getting older, and sites I've been creative on are dying or becoming marketi
 * I once studied biomedical physics, so when I had an MRI of my head I jumped at the opportunity to extract a 3D model of my brain and 🧠&nbsp;[render it in WebGL online](https://brain.byjp.me/).
 * I built a clockface that counts 🕰&nbsp;[the seconds since I was born](https://tictoc.byjp.me/). In binary.
 * I helped by friend learn about website infrastructure by building a microsite of her favourite moment in film… 🐶&nbsp;[wanna hear the most annoying sound in the world?](https://ipfs.io/ipfs/Qmf7mJpFapCBC15c7yGRd89ysgoTYB3h3ahCLMyJ8vB2Vo/).
-* Maybe you'll like this little guy 🐙&nbsp;[called tako](https://bafybeihwkqswvfggjqhh4fgeioq7xapzxolkb7ptmir22kovahnlzjmnfm.ipfs.dweb.link/).
+* Maybe you'll like this little guy 🐙&nbsp;[called tako](https://tako.byjp.me/).
 
 ## Postcards
 
 * I write short fiction on postcards my Grandmother collected as she travelled Europe. You can 📮&nbsp;[read them on their site](https://lucy.byjp.me/) or 🌍&nbsp;[as an artsy animated thingie](https://lucy.byjp.me/globe#diving), if you're in a fancy browser.
-* My friend likes telling me to 🤫&nbsp;[shut up by post](https://www.instagram.com/p/BqZR3qjAkMC/). If I need it I have a 😏&nbsp;[speedier retort to hand](https://shutupclaire.byjp.me/).
+* My friend likes telling me to 🤫&nbsp;[shut up by post](https://shutup.jp/). If I need it I have a 😏&nbsp;[speedier retort to hand](https://shutupclaire.byjp.me/).
 * I once left 15 self-addressed postcards dotted around London, suggesting that people doodle on them and send them back. 🐪&nbsp;[Only one returned](https://postcarddoodles.byjp.me/), but I like that I'll never know who sent it to me, or drew it.
 * In 2013 I tried to send a postcard every day for the whole year. I sent about 200, and 📫&nbsp;[uploaded 92 of them](https://postcards.byjp.me/) to an odd site that never really knew what it was.
 * Have you noticed that I really like postcards? See some favourites on 📸&nbsp;[postcards.jpg](https://instagram.com/postcards.jpg).
