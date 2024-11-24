@@ -1,6 +1,7 @@
 ---
 title: AI "Slop"
 date: "2024-05-09T16:03:02Z"
+publishDate: 2024-05-08
 emoji: "\U0001F4A9"
 bookmarkOf: https://simonwillison.net/2024/May/8/slop/
 references:

@@ -1,6 +1,7 @@
 ---
 title: Shaping the future
 date: "2024-09-02T10:54:02Z"
+publishDate: "2007-05-13T22:44:00+0100"
 emoji: "\U0001F680"
 bookmarkOf: https://www.antipope.org/charlie/blog-static/2007/05/shaping-the-future.html
 references:
