@@ -16,12 +16,13 @@ jobs:
     runs-on: docker
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: code.forgejo.org/actions/checkout@v4
         with:
           submodules: recursive
       - name: Cache Hugo persistent info
-        uses: actions/cache@v4
+        uses: code.forgejo.org/actions/cache@v4
         env:
+          key: www.byjp.me-hugo-persistent-info
           cache-name: hugo-persistent-cache
         with:
           path: /tmp/hugo
