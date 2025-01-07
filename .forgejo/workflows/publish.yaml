@@ -22,10 +22,10 @@ jobs:
       - name: Cache Hugo persistent info
         uses: https://code.forgejo.org/actions/cache@v4
         env:
-          key: www.byjp.me-hugo-persistent-info
           cache-name: hugo-persistent-cache
         with:
           path: /tmp/hugo
+          key: www.byjp.me-hugo-persistent-info
       - name: Build site
         uses: https://git.byjp.me/jp/hugo-tasks@v0.1.0
 
