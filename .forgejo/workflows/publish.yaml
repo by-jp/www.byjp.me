@@ -26,12 +26,12 @@ jobs:
         with:
           path: /tmp/hugo
       - name: Build site
-        uses: jphastings/hugo-tasks@v0.1.0
+        uses: jp/hugo-tasks@v0.1.0
 
       # TODO: Move site
       
       - name: Build Gemini capsule
-        uses: jphastings/hugo-tasks@v0.1.0
+        uses: jp/hugo-tasks@v0.1.0
         with:
           tasks: gemini-reduce
 
