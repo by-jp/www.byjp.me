@@ -27,12 +27,12 @@ jobs:
           path: /tmp/hugo
           key: www.byjp.me-hugo-persistent-info
       - name: Build site
-        uses: https://git.byjp.me/jp/hugo-tasks@v0.1.0
+        uses: https://git.byjp.me/jp/hugo-tasks@v0.1
 
       # TODO: Move site
       
       - name: Build Gemini capsule
-        uses: https://git.byjp.me/jp/hugo-tasks@v0.1.0
+        uses: https://git.byjp.me/jp/hugo-tasks@v0.1
         with:
           tasks: gemini-reduce
 
