@@ -33,7 +33,6 @@ jobs:
       HUGO_VERSION: 0.125.4
       PAGEFIND_VERSION: 1.1.0
       TASK_VERSION: 3.36.0
-      RESTIC_VERSION: 0.16.4
     steps:
       - name: Install Hugo CLI
         run: |
