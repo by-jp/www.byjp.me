@@ -17,8 +17,8 @@ jobs:
     container:
       image: git.byjp.me/jp/hugo-tasks:latest
       volumes:
-        - /pages/www.byjp.me/:/pages/www.byjp.me/
-        - /gemini/www.byjp.me/:/gemini/www.byjp.me/
+        - /pages:/pages
+        - /gemini:/gemini
     steps:
       - name: Checkout
         uses: https://code.forgejo.org/actions/checkout@v4
