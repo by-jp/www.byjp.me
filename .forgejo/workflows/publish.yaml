@@ -31,8 +31,8 @@ jobs:
 
       - name: Publish website
         run: |
-          rm -r /sites/www.byjp.me/* /sites/www.byjp.me/.*
-          cp -r ./public/. /sites/www.byjp.me
+          rm -r /pages/www.byjp.me/* /pages/www.byjp.me/.*
+          cp -r ./public/. /pages/www.byjp.me
       
       - name: Build Gemini capsule
         uses: https://git.byjp.me/jp/hugo-tasks@v0.1
