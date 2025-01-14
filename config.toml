@@ -10,8 +10,9 @@ enableGitInfo   = true
 enableEmoji     = true
 disableRSS      = false
 
+[pagination]
 # Why 97? Cos. Cos it's a prime number?
-paginate = 97
+pageSize = 97
 
 [frontmatter]
 date = ["date", "publishDate", "lastmod", ":git"]

@@ -1,7 +1,7 @@
 ---
 title: Reading lists
 emoji: 📚
-date: 2023-10-24 08:08:08 BST
+date: "2023-10-24T08:08:08+0100"
 summary: The collection of RSS feeds I subscribe to, parcelled up so you can subscribe easily too.
 outputs:
 - html
