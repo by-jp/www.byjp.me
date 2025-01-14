@@ -29,11 +29,15 @@ jobs:
       - name: Build site
         uses: https://git.byjp.me/jp/hugo-tasks@v0.1
 
-      # TODO: Move site
+      - name: Publish website
+        run: |
+          rsync -a --delete ./public /sites/www.byjp.me
       
       - name: Build Gemini capsule
         uses: https://git.byjp.me/jp/hugo-tasks@v0.1
         with:
           tasks: gemini-reduce
 
-      # TODO: Move gemini
+      - name: Publish Gemini capsule
+        run: |
+          rsync -a --delete ./public /gemini/www.byjp.me
