@@ -14,6 +14,11 @@ on:
 jobs:
   build:
     runs-on: docker
+    container:
+      image: git.byjp.me/jp/hugo-tasks:latest
+      volumes:
+        - /pages/www.byjp.me/:/pages/www.byjp.me/
+        - /gemini/www.byjp.me/:/gemini/www.byjp.me/
     steps:
       - name: Checkout
         uses: https://code.forgejo.org/actions/checkout@v4
@@ -26,20 +31,10 @@ jobs:
         with:
           path: /tmp/hugo
           key: www.byjp.me-hugo-persistent-info
-      - name: Build site
-        uses: https://git.byjp.me/jp/hugo-tasks@v0.1
 
-      - name: Publish website
+      - name: Build + publish web site + gemini capsule
         run: |
-          rm -r /pages/www.byjp.me/* /pages/www.byjp.me/.*
-          cp -r ./public/. /pages/www.byjp.me
-      
-      - name: Build Gemini capsule
-        uses: https://git.byjp.me/jp/hugo-tasks@v0.1
-        with:
-          tasks: gemini-reduce
-
-      - name: Publish Gemini capsule
-        run: |
-          rm -r /gemini/www.byjp.me/* /gemini/www.byjp.me/.*
-          cp -r ./public/. /gemini/www.byjp.me
+          task build
+          rsync -a --delete ./public/. /pages/www.byjp.me
+          task gemini-reduce
+          rsync -a --delete ./public/. /gemini/www.byjp.me

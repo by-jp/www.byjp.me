@@ -36,7 +36,7 @@ tasks:
       cache: /tmp/hugo/cache
     cmds:
       - hugo --cacheDir {{ .cache }} --gc --minify --baseURL "https://{{ .domain }}"
-      - pagefind
+      - pagefind --silent
 
   import:
     desc: Pulls information from various other sites/silos into this repo. Expects `./tools/.env` to be populated.
