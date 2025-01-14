@@ -34,7 +34,9 @@ jobs:
 
       - name: Build + publish web site + gemini capsule
         run: |
+          ls /
+          # Show what's mounted
           task build
-          rsync -a --delete ./public/. /pages/www.byjp.me
+          rsync -a --delete ./public/ /pages/www.byjp.me/
           task gemini-reduce
-          rsync -a --delete ./public/. /gemini/www.byjp.me
+          rsync -a --delete ./public/ /gemini/www.byjp.me/

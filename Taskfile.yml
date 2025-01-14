@@ -35,7 +35,7 @@ tasks:
     vars:
       cache: /tmp/hugo/cache
     cmds:
-      - hugo --cacheDir {{ .cache }} --gc --minify --baseURL "https://{{ .domain }}"
+      - hugo --cacheDir {{ .cache }} --gc --minify --baseURL "https://{{ .domain }}" --quiet
       - pagefind --silent
 
   import:
