@@ -31,7 +31,8 @@ jobs:
 
       - name: Publish website
         run: |
-          rsync -a --delete ./public /sites/www.byjp.me
+          rm -r /sites/www.byjp.me/* /sites/www.byjp.me/.*
+          cp -r ./public/. /sites/www.byjp.me
       
       - name: Build Gemini capsule
         uses: https://git.byjp.me/jp/hugo-tasks@v0.1
@@ -40,4 +41,5 @@ jobs:
 
       - name: Publish Gemini capsule
         run: |
-          rsync -a --delete ./public /gemini/www.byjp.me
+          rm -r /gemini/www.byjp.me/* /gemini/www.byjp.me/.*
+          cp -r ./public/. /gemini/www.byjp.me
