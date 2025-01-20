@@ -24,7 +24,7 @@
     {{- with .OutputFormats.Get "RSS" -}}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" (.Permalink | absURL) .MediaType | safeHTML }}
     {{- end -}}
-    {{ printf "<atom:link href=\"/opensearch.xml\" rel=\"search\" type=\"application/opensearchdescription+xml\" />" | safeHTML }}
+    {{ printf "<atom:link href=%q rel=\"search\" type=\"application/opensearchdescription+xml\" />" ("/opensearch.xml" | absURL) | safeHTML }}
     {{- range $i, $page := (first 42 $pages) -}}
     {{- if $page.Params.inReplyTo -}}{{ continue }}{{- end -}}
     <item>
