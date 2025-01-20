@@ -50,8 +50,8 @@
           {{- $src := index $picPage.Params.Media 0 -}}
           <a href="{{ .RelPermalink }}"><img src="{{ path.Join .RelPermalink $src.url }}" {{ with $src.alt }}alt="{{ . }}" {{ end }} /></a>
           <figcaption>
-            {{- $shortSummary := index (split .Summary "\n") 0  -}}
-            {{- $shortSummary | htmlUnescape }}{{ if gt (len .Summary) (len $shortSummary) }}&nbsp;<a href="{{ .RelPermalink }}">→</a>{{ end -}}
+            {{- $shortSummary := index (split .Summary "</p>") 0 -}}
+            {{- $shortSummary | plainify | htmlUnescape | strings.TrimSpace }}&nbsp;<a href="{{ .RelPermalink }}">→</a>
           </figcaption>
         </figure>
       </div>
