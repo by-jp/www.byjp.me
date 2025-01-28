@@ -18,5 +18,5 @@
   {{- end -}}
 {{- end -}}
 {{- $ref := partial "reference.obj" (dict "url" $url "references" .references) -}}
-{{- $url = $ref.archiveURL | default $url }}
+{{- $url = $ref.archiveURL | default $url -}}
 <a href="{{ $url | safeURL }}"{{ with .Class }} class="{{ . }}"{{ end }}{{ with $title }} title="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank"{{ end }}{{ with $ref.rel }} rel="{{ . }}"{{ end }}>{{ $text | safeHTML }}</a>
