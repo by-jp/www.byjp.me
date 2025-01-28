@@ -55,7 +55,7 @@ const performClap = (e) => {
 
 const clapKey = (action) => `clap:${(new URL(action)).pathname}`;
 
-const addInteractions = (btn, claps) => (claps + (btn.dataset.interactions || 0));
+const addInteractions = (btn, claps) => (claps + (Number(btn.dataset.interactions) || 0))
 
 const setClapCount = (btn, clapCount) => {
   if (clapCount === 0) {
@@ -91,10 +91,10 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.parentElement.classList.add('clapped')
       setClapCount(btn, lastClappedTo)
     }
-    toCheck.push(action)
+    toCheck.push([action, btn])
   })
 
-  toCheck.forEach((action) => {
+  toCheck.forEach(([action, btn]) => {
     fetch(action, { method: 'GET', headers: new Headers({ 'Accept': 'application/json' }) })
       .then(res => {
         if (res.status !== 200) {

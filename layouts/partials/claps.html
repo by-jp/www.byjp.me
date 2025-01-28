@@ -11,8 +11,9 @@
         {{- errorf "%s" . -}}
       {{- else -}}
         {{- $data := .Content | transform.Unmarshal -}}
-        {{- $clapCount := add $interactionCount ((index $data $relperma) | default 0) -}}
-        {{- with $clapCount }}<span>{{ . }}</span>{{ end -}}
+        {{- $clapCount := (index $data $relperma) | default 0 -}}
+        {{- $totalCount := add (int $interactionCount) (int $clapCount) -}}
+        {{- with $totalCount }}<span>{{ . }}</span>{{ end -}}
       {{- end -}}
     {{- else -}}
       {{- errorf "Unable to get all clap counts" -}}
