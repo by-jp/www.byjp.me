@@ -280,6 +280,10 @@ figure {
   max-width: 100%;
   margin: 25px 0;
 
+  figcaption {
+    margin: 0.4rem 0;
+  }
+
   &.left {
     margin-right: auto;
   }
