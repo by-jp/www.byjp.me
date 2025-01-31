@@ -33,42 +33,8 @@
       {{ if .Page.Params.Audio }}<enclosure url="{{ .Permalink  | absURL }}{{ .Page.Params.Audio }}" length="{{ (os.Stat (path.Join .File.Dir .Page.Params.Audio)).Size }}" type="audio/mpeg" />{{end}}
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid>{{ .Permalink | absURL }}</guid>
-      <description>
-        {{- if .Params.bookmarkOf -}}
-          {{- $reference := partial "reference.obj" (dict "url" .Params.bookmarkOf "page" .) -}}
-          Thoughts on a bookmarked article{{ with $reference.name }}: {{.}}{{ end }}.
-        {{- else -}}
-          {{- if eq .Section "calendar" -}}(An event I may be going to.) {{ end -}}
-          {{- $desc := (index (split .Summary "\n") 0) | plainify | safeHTML -}}
-          {{- $desc -}}
-          {{- range .Params.tags }} #{{.}}{{ end -}}
-        {{- end -}}
-      </description>
-      <content:encoded>
-        {{- range $i, $src := .Params.Media }}
-        &lt;img src="{{ path.Join $page.RelPermalink $src.url | absURL }}" {{ with $src.alt }}alt="{{ . }}" {{ end }}/&gt;&lt;br/&gt;
-        {{- end }}
-        {{- if eq .Section "calendar" -}}
-          {{ $timing := dict -}}
-          {{ range .Params.timings -}}
-            {{ if (time.AsTime .starts).After time.Now -}}
-              {{ $timing = . -}}
-              {{ break -}}
-            {{ end -}}
-          {{ end -}}
-          {{ if $timing  }}
-            &lt;p&gt;&lt;i&gt;&lt;small&gt;I'm planning on going to this event on 
-            {{ partial "year-relative-date.txt" (time.AsTime $timing.starts) }}.
-            See the bottom of &lt;a href="{{ .Permalink | absURL }}#post-info"&gt;the post&lt;/a&gt; for more information, and get in touch if you'd like to go together!&lt;/small&gt;&lt;/i&gt;&lt;/p&gt;
-          {{ end }}
-        {{- end -}}
-        {{ if .Params.bookmarkOf }}
-        &lt;p&gt;&lt;i&gt;&lt;small&gt;{{ partial "bookmark-of.html" . | html }}&lt;/small&gt;&lt;/i&gt;&lt;/p&gt;
-        {{ else if .Params.inReplyTo }}
-        &lt;p&gt;&lt;i&gt;&lt;small&gt;{{ partial "in-reply-to.html" . | html }}&lt;/small&gt;&lt;/i&gt;&lt;/p&gt;
-        {{ end }}
-        {{ .Content | html }}
-      </content:encoded>
+      <description>{{- partial "description.txt" . -}}</description>
+      <content:encoded>{{- partial "feedpost.html" . | html -}}</content:encoded>
       {{- range .Params.syndications}}
       <dc:relation>{{ . }}</dc:relation>
       {{- end }}

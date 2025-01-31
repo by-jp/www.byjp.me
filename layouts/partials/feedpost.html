@@ -1,0 +1,24 @@
+{{- $page := . -}}
+{{- range $i, $src := .Params.Media -}}
+  <img src="{{ path.Join $page.RelPermalink $src.url | absURL }}" {{ with $src.alt }}alt="{{ . }}" {{ end }}/><br/>
+{{- end }}
+{{- if eq .Section "calendar" -}}
+  {{ $timing := dict -}}
+  {{ range .Params.timings -}}
+    {{ if (time.AsTime .starts).After time.Now -}}
+      {{ $timing = . -}}
+      {{ break -}}
+    {{ end -}}
+  {{ end -}}
+  {{ if $timing  }}
+    <p><i><small>I'm planning on going to this event on 
+    {{ partial "year-relative-date.txt" (time.AsTime $timing.starts) }}.
+    See the bottom of <a href="{{ .Permalink | absURL }}#post-info">the post</a> for more information, and get in touch if you'd like to go together!</small></i></p>
+  {{ end }}
+{{- end -}}
+{{ if .Params.bookmarkOf }}
+  <p><i><small>{{ partial "bookmark-of.html" . | html }}</small></i></p>
+{{- else if .Params.inReplyTo -}}
+  <p><i><small>{{ partial "in-reply-to.html" . | html }}</small></i></p>
+{{ end }}
+{{ .Content }}
