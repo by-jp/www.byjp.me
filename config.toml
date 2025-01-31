@@ -98,42 +98,57 @@ date = ["date", "publishDate", "lastmod", ":git"]
     reading-lists = "📚"
     contact-me = "📮"
 
+  [params.logo]
+    logoHomeLink = "/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:hello@byjp.me"
+    category = "chat"
+  
+  [[params.social]]
+    name = "signal"
+    url  = "https://signal.me/#eu/092dSvsDjSYGU_6W2Z4fvXJfktdozKIidYs91EA9I3kukc-3xOtB_aAg3QxUOznZ"
+    category = "chat"
+
+
+  [[params.social]]
+    name = "bluesky"
+    url  = "https://bsky.app/profile/byjp.me"
+    category = "follow"
+
+  [[params.social]]
+    name = "pixelfed"
+    url  = "https://pixelfed.social/@jphastings"
+    category = "follow"
+
+  [[params.social]]
+    name = "mastodon"
+    url  = "https://hachyderm.io/@byjp"
+    category = "follow"
+
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/jphastings"
+    category = "geek out"
+
+
+  [[params.social]]
+    name = "keyoxide"
+    url  = "https://id.byjp.me"
+    category = "geek out"
+  
+  [[params.social]]
+    name = "gpg"
+    url  = "https://openpgpkey.byjp.me/.well-known/openpgpkey/byjp.me/hu/im4cc8qhazwkfsi65a8us1bc5gzk1o4p"
+    rel  = "pgpkey authn"
+    category = "geek out"
+
 [languages]
   [languages.en]
     title = "byJP"
     copyright = "CC BY-NC-SA 4.0"
-
-    [languages.en.params.logo]
-      logoHomeLink = "/"
-
-    [[languages.en.params.social]]
-      name = "email"
-      url  = "mailto:hello@byjp.me"
-
-    [[languages.en.params.social]]
-      name = "bluesky"
-      url  = "https://bsky.app/profile/byjp.me"
-
-    [[languages.en.params.social]]
-      name = "mastodon"
-      url  = "https://hachyderm.io/@byjp"
-
-    [[languages.en.params.social]]
-      name = "signal"
-      url  = "https://signal.me/#eu/092dSvsDjSYGU_6W2Z4fvXJfktdozKIidYs91EA9I3kukc-3xOtB_aAg3QxUOznZ"
-
-    [[languages.en.params.social]]
-      name = "github"
-      url  = "https://github.com/jphastings"
-
-    [[languages.en.params.social]]
-      name = "keyoxide"
-      url  = "https://id.byjp.me"
-    
-    [[languages.en.params.social]]
-      name = "gpg"
-      url  = "https://openpgpkey.byjp.me/.well-known/openpgpkey/byjp.me/hu/im4cc8qhazwkfsi65a8us1bc5gzk1o4p"
-      rel  = "pgpkey authn"
 
   # You can create a language based menu
     [languages.en.menu]

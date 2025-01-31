@@ -1,3 +1,10 @@
+{{- $cat := "" -}}
 {{ range . -}}
-    &nbsp; <a href="{{ .url }}" target="_blank" rel="{{ if .rel }}{{ .rel }}{{ else }}me noopener{{ end }}" title="{{ .name | humanize }}">{{ partialCached "svg.html" . . }}</a> &nbsp;
+    {{- if ne $cat .category -}}
+        {{- if ne $cat "" -}}<label>{{ $cat }}</label></li>{{- end -}}
+        {{- $cat = .category -}}
+        <li>
+    {{- end -}}
+    <a href="{{ .url }}" target="_blank" rel="{{ if .rel }}{{ .rel }}{{ else }}me noopener{{ end }}" title="{{ .name | humanize }}">{{- partialCached "svg.html" . . -}}</a>
 {{- end -}}
+<label>{{ $cat }}</label></li>{{- "" -}}

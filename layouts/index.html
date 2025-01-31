@@ -10,9 +10,9 @@
             {{ partial "subtitle.html" . }}
 
             {{- with .Site.Params.social }}
-                <div class="social">
+                <ul class="social">
                     {{ partial "social-icons.html" . }}
-                </div>
+                </ul>
             {{- end }}
         </div>
         <br />

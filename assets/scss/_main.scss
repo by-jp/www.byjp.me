@@ -1056,3 +1056,43 @@ nav {
     }
   }
 }
+
+main ul.social {
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin: 0 0.6rem;
+    position: relative;
+
+    a {
+      margin: 0.3rem;
+    }
+
+    label {
+      position: absolute;
+      border-top: 1px solid $light-color-secondary;
+      top: 2rem;
+      left: 0;
+      right: 0;
+      width: 100%;
+      text-align: center;
+      font-size: small;
+      color: $light-color-secondary;
+
+      @media (prefers-color-scheme: dark) {
+        border-top: 1px solid $light-color-dim;
+        color: $dark-color-dim;
+      }
+    }
+
+    &:hover label {
+      border-color: var(--accent);
+      color: $light-color;
+
+      @media (prefers-color-scheme: dark) {
+        color: $dark-color;
+      }
+    }
+  }
+}
