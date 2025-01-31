@@ -9,7 +9,7 @@
     {{ end }}
         
         <div class="container">
-            {{ partialCached "header.html" . }}
+            {{ partial "header.html" . }}
 
             <div class="content">
                 {{ block "main" . }}{{ end }}
