@@ -4,4 +4,4 @@ tags:
 - imported
 - from-twitter
 ---
-Blinker your face… book newsfeed! Facebook becomes boring and you can do work http://toys.byjp.me/blinkers/
+Blinker your face… book newsfeed! Facebook becomes boring and you can do work {{% linkrot "http://toys.byjp.me/blinkers/" %}}
