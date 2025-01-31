@@ -218,6 +218,10 @@ date = ["date", "publishDate", "lastmod", ":git"]
   [outputFormats.rss]
     baseName = 'index'
     name = 'rss'
+  [outputFormats.podcast]
+    baseName = 'podcast'
+    mediaType = 'application/rss+xml'
+    isHTML = false
   [outputFormats.gemini]
     name = 'Gemini'
     isPlainText = true
@@ -244,14 +248,18 @@ date = ["date", "publishDate", "lastmod", ":git"]
     notAlternative = true
 
 [outputs]
-  home = ["html", "rss", "gemini", "redirects"]
+  home = ["html", "rss", "podcast", "gemini", "redirects"]
   page = ["html", "gemini"]
-  rss = ["rss"]
-  section = ["html", "rss", "gemini"]
-  taxonomy = ["html", "rss", "gemini"]
-  term = ["html", "rss", "gemini"]
+  rss = ["rss", "podcast"]
+  section = ["html", "rss", "podcast", "gemini"]
+  taxonomy = ["html", "rss", "podcast", "gemini"]
+  term = ["html", "rss", "podcast", "gemini"]
 
 [minify]
   [minify.tdewolff]
     [minify.tdewolff.html]
       keepQuotes = true
+
+[services]
+  [services.rss]
+    limit = 42
