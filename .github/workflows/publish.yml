@@ -74,29 +74,6 @@ jobs:
         with:
           name: site
           path: ./www.byjp.me/public
-      
-      - name: Checkout byjp.fyi
-        uses: actions/checkout@v4
-        with:
-          repository: by-jp/byjp.fyi
-          path: ./byjp.fyi
-          token: ${{ secrets.SHORTLINK_REPO_PAT }}
-      - name: Update blog shortlinks
-        working-directory: ./byjp.fyi
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          cat ../new_redirects | ../www.byjp.me/tools/redirects/update-shortlinks.bash
-      
-      - name: Build Gemini capsule
-        working-directory: ./www.byjp.me
-        run: task gemini-reduce
-      - name: Upload capsule artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: capsule
-          path: ./www.byjp.me/public
-      
 
   # Deployment job
   deploy:
@@ -108,35 +85,6 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
         with:
           artifact_name: site
-
-  ipfs-publish:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - uses: actions/download-artifact@v3
-        with:
-          name: site
-          path: ./public
-      - name: Extract Github Pages artifact
-        working-directory: ./public
-        run: tar -xf ./artifact.tar
-      - name: Publish to IPFS
-        id: Publish
-        uses: aquiladev/ipfs-action@master
-        with:
-          path: ./public
-          service: filebase
-          pinName: ${{ github.event.repository.name }}
-          filebaseBucket: microsites
-          filebaseKey: ${{ secrets.FILEBASE_KEY }}
-          filebaseSecret: ${{ secrets.FILEBASE_SECRET }}
-      - name: Update DNS record
-        uses: XueMoMo/actions-coudflare-dns@v1.0.1
-        with:
-          name: ${{ github.event.repository.name }}
-          cid: ${{ steps.Publish.outputs.cid }}
-          token: ${{ secrets.CLOUDFLARE_TOKEN }}
-          zone: ${{ secrets.CLOUDFLARE_ZONE_ID }}
