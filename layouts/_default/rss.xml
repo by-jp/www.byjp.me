@@ -25,10 +25,10 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" (.Permalink | absURL) .MediaType | safeHTML }}
     {{- end -}}
     {{ printf "<atom:link href=%q rel=\"search\" type=\"application/opensearchdescription+xml\" />" ("/opensearch.xml" | absURL) | safeHTML }}
-    {{- range $i, $page := (first 42 $pages) -}}
+    {{- range $i, $page := $pages -}}
     {{- if $page.Params.inReplyTo -}}{{ continue }}{{- end -}}
-    <item>
-      <title>{{ .Title | default (delimit (slice "An untitled" (.Date.Format "January") (.Type | singularize)) " ") }}</title>
+    <item>{{ with .Title }}
+      <title>{{ . }}</title>{{ else }}<title></title>{{ end }}
       <link>{{ .Permalink | absURL }}</link>
       {{ if .Page.Params.Audio }}<enclosure url="{{ .Permalink  | absURL }}{{ .Page.Params.Audio }}" length="{{ (os.Stat (path.Join .File.Dir .Page.Params.Audio)).Size }}" type="audio/mpeg" />{{end}}
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>

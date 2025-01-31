@@ -34,6 +34,9 @@
           .item {
             max-width: 768px;
           }
+          p {
+            position: relative;
+          }
           a {
             color: #4166f5;
             text-decoration: none;
@@ -43,6 +46,19 @@
           }
           a:hover {
             text-decoration: underline;
+          }
+          a:has(time) {
+            display: block;
+            text-align: right;
+          }
+          article:not(:first-of-type):not(:has(hgroup)) p::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -1.4em;
+            left: calc(50% - 1.5em);
+            width: 3em;
+            border-top: 1px solid rgba(128,128,128,0.5);
           }
         </style>
       </head>
@@ -68,23 +84,39 @@
               <h2>Recent Posts</h2>
               <xsl:for-each select="/rss/channel/item">
                 <article>
-                  <hgroup>
-                    <h3>
-                      <a hreflang="en" target="_blank">
-                        <xsl:attribute name="href">
-                          <xsl:value-of select="link"/>
+                  <xsl:if test="title != ''">
+                    <hgroup>
+                      <h3>
+                        <a hreflang="en" target="_blank">
+                          <xsl:attribute name="href">
+                            <xsl:value-of select="link"/>
+                          </xsl:attribute>
+                          <xsl:value-of select="title"/>
+                        </a>
+                      </h3>
+                      <time>
+                        <xsl:attribute name="datetime">
+                          <xsl:value-of select="pubDate" /> 
                         </xsl:attribute>
-                        <xsl:value-of select="title"/>
-                      </a>
-                    </h3>
-                    <time>
-                      <xsl:attribute name="datetime">
-                        <xsl:value-of select="pubDate" /> 
-                      </xsl:attribute>
-                      <xsl:value-of select="substring(pubDate, 0, 17)" />
-                    </time>
-                  </hgroup>
+                        <xsl:value-of select="substring(pubDate, 0, 17)" />
+                      </time>
+                    </hgroup>
+                  </xsl:if>
                   <p><xsl:value-of select="description"/></p>
+                  <xsl:if test="title = ''">
+                    <a hreflang="en" target="_blank">
+                      <xsl:attribute name="href">
+                        <xsl:value-of select="link"/>
+                      </xsl:attribute>
+
+                      <time>
+                        <xsl:attribute name="datetime">
+                          <xsl:value-of select="pubDate" /> 
+                        </xsl:attribute>
+                        <xsl:value-of select="substring(pubDate, 0, 17)" />
+                      </time>
+                    </a>
+                  </xsl:if>
                 </article>
               </xsl:for-each>
             </main>
