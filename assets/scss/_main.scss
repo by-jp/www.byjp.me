@@ -1096,3 +1096,21 @@ main ul.social {
     }
   }
 }
+
+.podcast-player {
+  width: 90%;
+  margin: 2em auto 1em;
+  border: 1px solid $light-background-secondary;
+  .shk {
+    --color-button: var(--accent);
+    --color-handle: var(--accent);
+    --color-bar-played: var(--accent);
+    --color-spinner: var(--accent);
+    --color-live-symbol: var(--accent);
+    --color-live-text: var(--accent);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    border-color: $dark-background-secondary;
+  }
+}

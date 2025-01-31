@@ -187,6 +187,7 @@ document.body.addEventListener('click', (e) => {
   switch(e.target.tagName) {
     case 'A':
     case 'BUTTON':
+    case 'svg':
       return true;
     default:
   }

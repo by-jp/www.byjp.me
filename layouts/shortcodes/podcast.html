@@ -1,0 +1,59 @@
+<div class="podcast-player" data-feed="{{ .Get 0 | absURL}}"><p>This box should hold a Javascript-based Podcast listener, but it's not loading on your browser. Add <em>{{ .Get 0 | absURL}}</em> to your podcast player to listen instead.</p></div>
+<script type="text/javascript">
+  const playerElement = document.currentScript.previousElementSibling
+  const feedURL = playerElement.dataset.feed
+
+  const show = fetch(feedURL).then((res) => res.text()).then((feed) => {
+    const parser = new DOMParser()
+    const xmlDoc = parser.parseFromString(feed, "application/xml")
+    const title = xmlDoc.querySelector('channel title')?.textContent
+    const link = xmlDoc.querySelector('channel link')?.textContent
+    const description = xmlDoc.querySelector('channel description')?.textContent
+    const tracks = [...xmlDoc.querySelectorAll('channel item')].map((item) => ({
+      title: item.querySelector('title')?.textContent,
+      link: item.querySelector('link')?.textContent,
+      artist: title,
+      src: item.querySelector('enclosure[type^="audio/"]')?.getAttribute('url'),
+    })).filter((track) => !!track.src)
+
+    return {
+      title,
+      link,
+      description,
+      tracks,
+    }
+  })
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    const { Player } = window.Shikwasa;
+    const tracks = (await show).tracks
+
+    const player = new Player({
+      container: () => playerElement,
+      audio: tracks[0],
+      download: true,
+    })
+
+    const playlist = document.createElement('ul')
+    tracks.forEach((track) => {
+      const a = document.createElement('a')
+      a.href = track.link
+      a.onclick = () => {
+        player.update(track)
+        player.play()
+        return false
+      }
+      a.innerText = track.title
+
+      const li = document.createElement('li')
+      li.appendChild(a)
+
+      playlist.appendChild(li)
+    })
+    playerElement.after(playlist)
+    
+    const label = document.createElement('p')
+    label.innerText = "Tracks:"
+    playerElement.after(label)
+  })
+</script>
