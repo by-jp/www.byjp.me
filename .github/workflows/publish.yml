@@ -70,7 +70,7 @@ jobs:
           mv ./public/index.redirects ../new_redirects
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           name: site
           path: ./www.byjp.me/public
@@ -92,7 +92,7 @@ jobs:
         working-directory: ./www.byjp.me
         run: task gemini-reduce
       - name: Upload capsule artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
           name: capsule
           path: ./www.byjp.me/public
