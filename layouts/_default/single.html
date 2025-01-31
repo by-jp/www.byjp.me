@@ -60,9 +60,7 @@
         {{ end }}
       </hgroup>
 
-      {{ with .Summary }}
-        <div class="post-summary p-summary" aria-hidden="true">{{ . }}</div>
-      {{ end }}
+      <div class="post-summary p-summary" aria-hidden="true">{{ partialCached "description.txt" . }}</div>
 
       {{ if .Params.Cover }}
         <figure class="post-cover">
