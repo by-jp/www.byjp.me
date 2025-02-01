@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
   <xsl:template match="/">
     <xsl:variable name="pageTitle">
@@ -79,12 +79,33 @@
               <p>
                 <xsl:value-of select="/rss/channel/description"/>
               </p>
-              <a hreflang="en" target="_blank">
-                <xsl:attribute name="href">
-                  <xsl:value-of select="/rss/channel/link"/>
-                </xsl:attribute>
-                Visit this page on my site &#x2192;
-              </a>
+              <ul class="open-in">
+                <xsl:if test="/rss/channel/itunes:image">
+                  <li>Use <a hreflang="en" target="_blank">
+                    <xsl:attribute name="href">
+                      <xsl:value-of select="concat('podcast:', /rss/channel/atom:link[@rel='self']/@href)" />
+                    </xsl:attribute>
+                    Apple Podcasts &#x2192;
+                  </a></li>
+                </xsl:if>
+                <xsl:if test="not(/rss/channel/itunes:image)">
+                  <li>Use <a hreflang="en" target="_blank">
+                    <xsl:attribute name="href">
+                      <xsl:value-of select="concat('feed:', /rss/channel/atom:link[@rel='self']/@href)" />
+                    </xsl:attribute>
+                    Your feed reader &#x2192;
+                  </a></li>
+                </xsl:if>
+                <li>
+                  Visit these posts 
+                  <a hreflang="en" target="_blank">
+                    <xsl:attribute name="href">
+                      <xsl:value-of select="/rss/channel/link"/>
+                    </xsl:attribute>
+                    on my site instead &#x2192;
+                  </a>
+                </li>
+              </ul>
             </header>
             <main>
               <h2>Recent Posts</h2>

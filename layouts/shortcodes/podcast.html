@@ -9,11 +9,13 @@
     const title = xmlDoc.querySelector('channel title')?.textContent
     const link = xmlDoc.querySelector('channel link')?.textContent
     const description = xmlDoc.querySelector('channel description')?.textContent
+    const image = xmlDoc.querySelector('channel image')?.textContent
     const tracks = [...xmlDoc.querySelectorAll('channel item')].map((item) => ({
       title: item.querySelector('title')?.textContent,
       link: item.querySelector('link')?.textContent,
       artist: title,
       src: item.querySelector('enclosure[type^="audio/"]')?.getAttribute('url'),
+      cover: image,
     })).filter((track) => !!track.src)
 
     return {
