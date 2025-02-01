@@ -1,0 +1,13 @@
+{{- $medium := .Get 0 -}}
+{{- $details := dict -}}
+{{- range site.Params.social -}}
+  {{- if eq .name $medium -}}
+    {{- $details = . -}}
+    {{- break -}}
+  {{- end -}}
+{{- end -}}
+{{- with $details -}}
+  <a href="{{ .url }}" target="_blank" rel="{{ if .rel }}{{ .rel }}{{ else }}me noopener{{ end }}" title="{{ .name | humanize }}">{{ .name }}</a>
+{{- else -}}
+  {{ errorf "Unknown social: %s" $medium }}
+{{- end -}}

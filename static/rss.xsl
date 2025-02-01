@@ -2,9 +2,15 @@
 <xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
   <xsl:template match="/">
+    <xsl:variable name="pageTitle">
+      <xsl:choose>
+          <xsl:when test="/rss/channel/itunes:image">Podcast</xsl:when>
+          <xsl:otherwise>RSS feed</xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
       <head>
-        <title><xsl:value-of select="/rss/channel/title"/> RSS Feed</title>
+        <title><xsl:value-of select="/rss/channel/title"/>: <xsl:value-of select="$pageTitle"/></title>
         <meta charset="UTF-8" />
         <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" />
         <meta http-equiv="content-language" content="en_US" />
@@ -66,7 +72,7 @@
         <div class="container">
           <div class="item">
             <header>
-              <h1>RSS Feed</h1>
+              <h1><xsl:value-of select="$pageTitle"/></h1>
               <h2>
                 <xsl:value-of select="/rss/channel/title"/>
               </h2>

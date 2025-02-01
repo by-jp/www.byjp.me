@@ -220,6 +220,7 @@ date = ["date", "publishDate", "lastmod", ":git"]
     name = 'rss'
   [outputFormats.podcast]
     baseName = 'podcast'
+    name = 'Podcast'
     mediaType = 'application/rss+xml'
     isHTML = false
   [outputFormats.gemini]

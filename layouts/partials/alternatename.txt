@@ -2,5 +2,6 @@
 {{- else if eq . "rss"}}RSS
 {{- else if eq . "opml" }}OPML Feed
 {{- else if eq . "gemini" }}Gemini
+{{- else if eq . "podcast" }}Audiocast
 {{- else }}Alternate
 {{- end -}}

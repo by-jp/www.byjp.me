@@ -1,9 +1,14 @@
-{{- if .Params.bookmarkOf -}}
-  {{- $reference := partial "reference.obj" (dict "url" .Params.bookmarkOf "page" .) -}}
-  Thoughts on a bookmarked article{{ with $reference.name }}: {{.}}{{ end }}.
+{{- if or (strings.Contains .Summary "\n") (eq (len .Summary) 0) -}}
+  {{- if .Params.bookmarkOf -}}
+    {{- $reference := partial "reference.obj" (dict "url" .Params.bookmarkOf "page" .) -}}
+    Thoughts on a bookmarked article{{ with $reference.name }}: {{.}}{{ end }}.
+  {{- else -}}
+    {{- if eq .Section "calendar" -}}(An event I may be going to.) {{ end -}}
+    {{- $desc := (index (split .Summary "\n") 0) | plainify | safeHTML -}}
+    {{- $desc -}}
+    {{- range .Params.tags }} #{{.}}{{ end -}}
+  {{- end -}}
 {{- else -}}
-  {{- if eq .Section "calendar" -}}(An event I may be going to.) {{ end -}}
-  {{- $desc := (index (split .Summary "\n") 0) | plainify | safeHTML -}}
-  {{- $desc -}}
+  {{- .Summary -}}
   {{- range .Params.tags }} #{{.}}{{ end -}}
 {{- end -}}
