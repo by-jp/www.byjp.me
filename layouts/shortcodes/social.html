@@ -7,7 +7,7 @@
   {{- end -}}
 {{- end -}}
 {{- with $details -}}
-  <a href="{{ .url }}" target="_blank" rel="{{ if .rel }}{{ .rel }}{{ else }}me noopener{{ end }}" title="{{ .name | humanize }}">{{ .name }}</a>
+  <a href="{{ .url }}" target="_blank" rel="{{ if .rel }}{{ .rel }}{{ else }}me noopener{{ end }}" title="{{ .name | humanize }}">{{ .name | humanize }}</a>
 {{- else -}}
   {{ errorf "Unknown social: %s" $medium }}
 {{- end -}}
