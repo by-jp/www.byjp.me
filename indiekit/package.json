@@ -19,6 +19,7 @@
   "dependencies": {
     "@indiekit/endpoint-files": "^1.0.0-beta.15",
     "@indiekit/endpoint-image": "^1.0.0-beta.10",
+    "@indiekit/endpoint-media": "^1.0.0-beta.19",
     "@indiekit/endpoint-micropub": "^1.0.0-beta.18",
     "@indiekit/endpoint-posts": "^1.0.0-beta.18",
     "@indiekit/endpoint-share": "^1.0.0-beta.15",
@@ -30,6 +31,7 @@
     "@indiekit/post-type-note": "^1.0.0-beta.8",
     "@indiekit/post-type-photo": "^1.0.0-beta.15",
     "@indiekit/post-type-reply": "^1.0.0-beta.18",
+    "@indiekit/store-file-system": "^1.0.0-beta.19",
     "@indiekit/store-github": "^1.0.0-beta.18",
     "@indiekit/syndicator-mastodon": "^1.0.0-beta.18",
     "indiekit-preset-byjp": "file:./packages/indiekit-preset-byjp"

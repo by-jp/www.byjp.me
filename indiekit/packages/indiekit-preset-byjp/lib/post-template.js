@@ -48,11 +48,13 @@ const getFrontMatter = (properties, frontMatterFormat) => {
     ...(properties.deleted && { expiryDate: properties.deleted }),
     ...(properties.name && { title: properties.name }),
     ...(properties.photo && {
-      images: properties.photo.map((image) => image.url),
-    }),
+      media: properties.photo.map(({url, alt}) => ({
+        url: `/${url}`,
+        alt,
+      })),
+     }),
     ...properties,
   };
-  // TODO: move photos
 
   delete properties.content; // Shown below front matter
   delete properties.deleted; // Use `expiryDate`
@@ -63,6 +65,7 @@ const getFrontMatter = (properties, frontMatterFormat) => {
   delete properties.type; // Not required
   delete properties.updated; // Use `lastmod`
   delete properties.url; // Not required
+  delete properties.photo; // Was moved to media
 
   switch (frontMatterFormat) {
     case "json": {

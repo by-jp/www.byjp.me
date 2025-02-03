@@ -8,7 +8,7 @@ vars:
   puma_dev_tld: .test
 
 env:
-  HUGO_INDIEKIT_URL: https://indiekit.last.pub{{.DOMAIN_SUFFIX}}
+  HUGO_INDIEKIT_URL: https://indiekit.last.pub
   HUGO_LAST_UPDATE_TIME:
     sh: git log -1 --format=%cI
   HUGO_LAST_UPDATE_HASH:
@@ -25,10 +25,20 @@ tasks:
     silent: true
     vars:
       port: 1313
+    env:
+      HUGO_INDIEKIT_URL: https://indiekit.last.pub.test
     cmds: 
       - |
         [ -d "$HOME/.puma-dev/" ] && (echo {{ .port }} > $HOME/.puma-dev/{{ .domain }}) || echo "Puma dev not installed, https://{{ .domain }}{{ .puma_dev_tld }} will not work"
       - hugo server --bind "0.0.0.0" --port {{ .port }} --minify --printUnusedTemplates --buildDrafts --baseURL "https://{{ .domain }}{{ .puma_dev_tld }}" --appendPort=false
+
+  dev-indiekit:
+    desc: Run a local Indiekit server for testing local packages
+    silent: true
+    dir: indiekit
+    dotenv: ['.env']
+    cmds: 
+      - npm run start
 
   build:
     desc: Builds the production-ready site in ./public/

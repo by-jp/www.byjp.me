@@ -1,3 +1,5 @@
+const store = process.env.GITHUB_TOKEN ? "@indiekit/store-github" : "@indiekit/store-file-system"
+
 export default {
   application: {
     name: "IndieKit byJP",
@@ -6,8 +8,8 @@ export default {
     timeZone: 'Europe/London',
   },
   plugins: [
+    store,
     "indiekit-preset-byjp",
-    "@indiekit/store-github",
     "@indiekit/syndicator-mastodon",
     "@indiekit/endpoint-files",
     "@indiekit/endpoint-image",
@@ -61,7 +63,8 @@ export default {
           url: "photos/{yyyy}-{MM}-{dd}/{slug}/"
         },
         media: {
-          path: "content/photos/{yyyy}-{MM}-{dd}/{slug}/{filename}"
+          path: "content/photos/{yyyy}-{MM}-{dd}/{filename}",
+          url: "photos/{yyyy}-{MM}-{dd}/{filename}"
         }
       }
     }
@@ -93,5 +96,19 @@ export default {
   "@indiekit/endpoint-micropub": {},
   "@indiekit/endpoint-share": {},
   "@indiekit/endpoint-files": {},
-  "@indiekit/endpoint-posts": {}
+  "@indiekit/endpoint-media": {
+    "imageProcessing": {
+      "resize": {
+        "width": 1280,
+        "height": 1280,
+        "options": {
+          "fit": "contain",
+        },
+      },
+    }
+  },
+  "@indiekit/endpoint-posts": {},
+  "@indiekit/store-file-system": {
+    "directory": ".."
+  }
 }
