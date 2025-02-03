@@ -53,7 +53,7 @@
               {{ continue }}
             {{ end }}
             <li>
-              <a href="{{.author.url}}">{{ .author.name }}</a>: {{ .comment }}
+              <a href="{{.author.url}}">{{ .author.name | replaceRE `(\?\x{200D}?){2,}` "" | strings.TrimSpace }}</a>: {{ .comment }}
               <span class="muted">(<a href="{{.url }}" target="_blank">{{ partial "rel-date.html" (dict "time" .timestamp "rel" $.Page.PublishDate) }}</a>)</span>
             </li>
           {{ end }}
@@ -65,7 +65,7 @@
             <li>
               {{ partial "partials/reactionsvg.html" (dict "emoji" $thisEm "name" true) -}}
               {{- range $i, $in := $items -}}
-                <a href="{{ $in.url | default $in.author.url }}" target="_blank">{{ $in.author.name }}</a>
+                <a href="{{ $in.url | default $in.author.url }}" target="_blank">{{ $in.author.name | replaceRE `(\?\x{200D}?){2,}` "" | strings.TrimSpace }}</a>
                 {{- if ne $i (sub (len $items) 1) }}, {{ end -}}
               {{- end -}}
             </li>
