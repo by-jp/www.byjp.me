@@ -4,7 +4,7 @@ version: '3'
 
 vars:
   domain: www.byjp.me
-  gmi_domain: byjp.me
+  gmi_domain: gemini.byjp.me
   puma_dev_tld: .test
 
 env:

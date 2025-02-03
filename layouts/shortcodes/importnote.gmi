@@ -1,0 +1,2 @@
+{{ $date := .Get 0 | time -}}
+(Some context, from {{ sub $date.Year .Page.Date.Year }} years later</date>: {{ .Inner }})
