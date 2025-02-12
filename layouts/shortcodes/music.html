@@ -9,14 +9,14 @@
   {{- range .links -}}
     {{- $u := urls.Parse . -}}
 
-    {{- if eq $u.Hostname "sopen.spotify.com" -}}
+    {{- if eq $u.Hostname "open.spotify.com" -}}
       {{- $klass = "spotify" -}}
-      {{- $embed = printf "<iframe src='https://open.spotify.com/embed%s' height='80' frameBorder='0' allowfullscreen=' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>" $u.Path -}}
+      {{- $embed = printf "<iframe src='https://open.spotify.com/embed%s' height='80' frameBorder='0' allowfullscreen allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>" $u.Path -}}
       {{- break -}}
 
-    {{- else if eq $u.Hostname "smusic.apple.com" -}}
+    {{- else if eq $u.Hostname "music.apple.com" -}}
       {{- $klass = "apple-music" -}}
-      {{- $embed = printf "<iframe allow='autoplay *; encrypted-media *; fullscreen *; clipboard-write' frameborder='0' height='160' style='width:100%%;max-width:660px;overflow:hidden;border-radius:10px;' sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation' src='https://embed.music.apple.com%s'></iframe>" $u.Path -}}
+      {{- $embed = printf "<iframe allow='autoplay *; encrypted-media *; fullscreen *; clipboard-write' frameborder='0' height='160' style='width:100%;max-width:660px;overflow:hidden;border-radius:10px;' sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation' src='https://embed.music.apple.com%s'></iframe>" $u.Path -}}
       {{- break -}}
 
     {{- else if and (eq $u.Hostname "soundcloud.com") (isset $data "soundcloudtrackid") -}}
@@ -28,11 +28,11 @@
 
   {{- end -}}
 
-  <figure class="embed audio {{$klass}}">
+  <figure class="embed audio {{$klass}}" itemscope itemtype="https://schema.org/MusicRecording">
     {{ $embed | safeHTML }}
     <figcaption>
-      🎶 {{ $displayArtist }}{{ with $displayTitle }}{{ if $displayArtist }}: {{ end }}<em>{{ . }}</em>{{ end }}<br/>
-      {{ with $musicbrainz }}<a href="{{ . }}" target="_blank" style="font-style:italic;">Listen elsewhere</a>{{ end }}
+      🎶 <span itemprop="byArtist" itemscope itemtype="https://schema.org/MusicGroup"><span itemprop="name">{{ $displayArtist }}</span></span>{{ with $displayTitle }}{{ if $displayArtist }}: {{ end }}<em itemprop="name">{{ . }}</em>{{ end }}<br/>
+      {{ with $musicbrainz }}<a href="{{ . }}" target="_blank" style="font-style:italic;" itemprop="url">Listen elsewhere</a>{{ end }}
     </figcaption>
   </figure>
 {{- else -}}

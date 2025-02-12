@@ -1,6 +1,3 @@
-{{/* Return empty object while OpenLibrary is down. I need something more robust here! */}}
-{{ return dict }}
-{{/*
 {{- $path := .path -}}
 {{- $isbn := "" -}}
 {{- $key := "" -}}
@@ -85,4 +82,3 @@
   {{- end -}}
 {{- end -}}
 {{- return $book -}}
-*/}}

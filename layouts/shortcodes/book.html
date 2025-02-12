@@ -1,11 +1,11 @@
 {{- define "partials/author-list.html" -}}
   {{- $authors := . -}}
   {{- if and (ne $authors nil) (gt (len $authors) 0) -}}
-  <span class="authors list">
+  <span class="authors list" itemprop="author" itemscope itemtype="https://schema.org/Person">
     {{- " by " -}}
     {{- range $i, $a := $authors -}}
       {{- if and (ne $i 0) (eq (add $i 1) (len $authors)) -}}and {{ end -}}
-      <a href="{{ $a.url }}" target="_blank">{{ $a.name }}</a>
+      <a href="{{ $a.url }}" target="_blank" itemprop="url"><span itemprop="name">{{ $a.name }}</span></a>
       {{- if ne (add $i 1) (len $authors) -}}, {{ end -}}
     {{- end -}}
   </span>
@@ -16,21 +16,21 @@
 {{- $book := partial "openlibrary.obj" (dict "path" .Page.Path "id" (.Get 0)) -}}
 {{- with $book -}}
 {{- if and $showCover .cover -}}
-  <figure class="book">
-    <a href="{{ .url }}" target="_blank" title="Open book details">
+  <figure class="book" itemscope itemtype="https://schema.org/Book">
+    <a href="{{ .url }}" target="_blank" title="Open book details" itemprop="url">
       {{- $title := .title -}}
       {{- with .cover -}}
-        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="The cover of the book {{ $title }}">
+        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="The cover of the book {{ $title }}" itemprop="image">
       {{- end -}}
     </a>
 
     <figcaption>
-      <cite><a href="{{ .url }}" target="_blank" title="Open book details">{{ .title }}</a></cite>
+      <cite><a href="{{ .url }}" target="_blank" title="Open book details" itemprop="url"><span itemprop="name">{{ .title }}</span></a></cite>
       {{- partial "partials/author-list.html" .authors -}}
     </figcaption>
   </figure>
 {{- else -}}
-  <cite><a href="{{ .url }}" target="_blank" title="Open book details">{{ .title }}</a></cite>
+  <cite><a href="{{ .url }}" target="_blank" title="Open book details" itemprop="name">{{ .title }}</a></cite>
   {{- partial "partials/author-list.html" .authors -}}
 {{- end -}}
 {{- end -}}
