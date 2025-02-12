@@ -102,17 +102,6 @@ date = ["date", "publishDate", "lastmod", ":git"]
     logoHomeLink = "/"
 
   [[params.social]]
-    name = "email"
-    url  = "mailto:hello@byjp.me"
-    category = "chat"
-  
-  [[params.social]]
-    name = "signal"
-    url  = "https://signal.me/#eu/092dSvsDjSYGU_6W2Z4fvXJfktdozKIidYs91EA9I3kukc-3xOtB_aAg3QxUOznZ"
-    category = "chat"
-
-
-  [[params.social]]
     name = "bluesky"
     url  = "https://bsky.app/profile/byjp.me"
     category = "follow"
@@ -126,6 +115,17 @@ date = ["date", "publishDate", "lastmod", ":git"]
     name = "mastodon"
     url  = "https://hachyderm.io/@byjp"
     category = "follow"
+
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:hello@byjp.me"
+    category = "chat"
+  
+  [[params.social]]
+    name = "signal"
+    url  = "https://signal.me/#eu/092dSvsDjSYGU_6W2Z4fvXJfktdozKIidYs91EA9I3kukc-3xOtB_aAg3QxUOznZ"
+    category = "chat"
 
 
   [[params.social]]
