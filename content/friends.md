@@ -10,7 +10,7 @@ In lovely, nostalgic web 1.0 style, here are some links to the websites of frien
 
 ## Family
 
-* {{< friend yvette >}} — My fiancé and cohabiter; playful Venezuelan, fellow foodie, and successful Agile coach.
+* {{< friend yvette >}} — My wife and cohabiter; playful Venezuelan, fellow foodie, and successful Agile coach.
 * {{< friend chris >}} — My awesome not-so-little brother; a secret nerd and top-notch product designer who lives in Vancouver.
 
 ## Friends
