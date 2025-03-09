@@ -52,7 +52,7 @@ tasks:
     desc: Pulls information from various other sites/silos into this repo. Expects `./tools/.env` to be populated.
     dir: tools/
     cmds:
-      - go run ./import/omnivore ../
+      # - go run ./import/omnivore ../
       - go run ./import/webmentionio
 
   gemini-reduce:
