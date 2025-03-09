@@ -12,7 +12,7 @@ disableRSS      = false
 
 [pagination]
 # Why 97? Cos. Cos it's a prime number?
-pageSize = 97
+pagerSize = 97
 
 [frontmatter]
 date = ["date", "publishDate", "lastmod", ":git"]
