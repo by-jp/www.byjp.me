@@ -891,6 +891,17 @@ mark {
 
     .posts {
       text-align: center;
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: inherit;
+
+        li::before, li::after {
+          content: '•';
+          margin: 0.25em;
+        }
+      }
     }
   }
 
