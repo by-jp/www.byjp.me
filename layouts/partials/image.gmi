@@ -1,7 +1,13 @@
 {{- $src := path.Join (path.Dir .Page.RelPermalink) .src -}}
 {{- $emoji := "🖼️" -}}
 {{- $title := "Linked image" -}}
-{{- if hasSuffix $src ".mp4" }}{{ $title = "Linked video" }}{{- $emoji = "📼" -}}{{ end -}}
+{{- if hasSuffix $src ".mp4" }}
+  {{ $title = "Video thumbnail" -}}
+  {{- $emoji = "📼" -}}
+  {{- $src = printf "%s.dither.png" $src -}}
+{{- else if not (hasSuffix $src ".dither.png") -}}
+  {{- $src = printf "%s.dither.png" (strings.TrimSuffix (path.Ext $src) $src) -}}
+{{- end -}}
 {{- $caption := .caption -}}
 {{- $captionChunks := split $caption "." -}}
 {{- $shortCap := index $captionChunks 0 }}
