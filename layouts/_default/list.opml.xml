@@ -8,7 +8,7 @@
   </head>
   <body>
     {{ range .Pages -}}
-    <outline {{ if .Date }}created="{{ .Date.Format "02 Jan 2006 15:04 MST" }}" {{ end }}title="{{ .Title }}" text="{{ .Title }}" type="rss" xmlUrl="{{ (.OutputFormats.Get "rss").Permalink }}" htmlUrl="{{ .Permalink }}" description="{{ .Summary }}"/>
+    <outline {{ if .Date }}created="{{ .Date.Format "02 Jan 2006 15:04 MST" }}" {{ end }}title="{{ .Title }}" text="{{ .Title }}" type="rss"{{ with .OutputFormats.Get "rss"}} xmlUrl="{{ .Permalink }}"{{ end }} htmlUrl="{{ .Permalink }}" description="{{ .Summary }}"/>
     {{ end -}}
   </body>
 </opml>

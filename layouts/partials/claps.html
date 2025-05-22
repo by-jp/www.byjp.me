@@ -6,14 +6,16 @@
     {{- partialCached "svg.html" (dict "name" $style) $style -}}
     {{- $url := printf "https://%s" site.Params.clapsHost -}}
     {{- $cacheKey := print $url (now.Format "-2006-01-02-15") -}}
-    {{- with resources.GetRemote $url (dict "key" $cacheKey) -}}
+    {{- with try (resources.GetRemote $url (dict "key" $cacheKey)) -}}
       {{- with .Err -}}
         {{- errorf "%s" . -}}
-      {{- else -}}
+      {{ else with .Value }}
         {{- $data := .Content | transform.Unmarshal -}}
         {{- $clapCount := (index $data $relperma) | default 0 -}}
         {{- $totalCount := add (int $interactionCount) (int $clapCount) -}}
         {{- with $totalCount }}<span>{{ . }}</span>{{ end -}}
+      {{ else }}
+        {{ errorf "Unable to get remote resource %q" $url }}
       {{- end -}}
     {{- else -}}
       {{- errorf "Unable to get all clap counts" -}}

@@ -14,14 +14,16 @@
 
 {{- if not $key -}}
   {{- $query := (dict "type" "/type/edition" "isbn_13" $isbn) | jsonify -}}
-  {{- with resources.GetRemote (printf "https://openlibrary.org/api/things?query=%s" ($query)) -}}
+  {{- with try (resources.GetRemote (printf "https://openlibrary.org/api/things?query=%s" ($query))) -}}
     {{- with .Err -}}
       {{- errorf "Error grabbing Thing from OpenLibrary: %v" . -}}
-    {{- else -}}
+    {{- else with .Value -}}
       {{- $thing := .Content | transform.Unmarshal -}}
       {{- if and (eq $thing.status "ok") (ge (len $thing.result) 1) -}}
         {{- $key = index $thing.result 0 -}}
       {{- end -}}
+    {{- else -}}
+      {{- errorf "Error grabbing Thing from OpenLibrary" -}}
     {{- end -}}
   {{- else -}}
     {{- errorf "Failed to fetch ISBN data from OpenLibrary: %s" $isbn -}}
@@ -29,26 +31,28 @@
 {{- end -}}
 
 {{- if $key -}}
-  {{- with resources.GetRemote (printf "https://openlibrary.org/api/get?key=%s" $key) -}}
+  {{- with try (resources.GetRemote (printf "https://openlibrary.org/api/get?key=%s" $key)) -}}
     {{- with .Err -}}
       {{- errorf "Error grabbing Book data from OpenLibrary: %v" . -}}
-    {{- else -}}
+    {{- else with .Value -}}
       {{- $bookObj := .Content | transform.Unmarshal -}}
       {{- if eq $bookObj.status "ok" -}}
         {{- $isbn = index $bookObj.result.isbn_13 0 -}}
 
         {{- $authors := slice -}}
         {{- range $bookObj.result.authors -}}
-          {{- with resources.GetRemote (printf "https://openlibrary.org/api/get?key=%s" .key) -}}
+          {{- with try (resources.GetRemote (printf "https://openlibrary.org/api/get?key=%s" .key)) -}}
             {{- with .Err -}}
               {{- errorf "Error grabbing Author data from OpenLibrary: %v" . -}}
-            {{- else -}}
+            {{- else with .Value -}}
               {{- $authorObj := .Content | transform.Unmarshal -}}
               {{- if eq $authorObj.status "ok" -}}
                 {{- $authors = $authors | append (dict "name" $authorObj.result.name "url" (printf "https://openlibrary.org%s" $authorObj.result.key)) -}}
               {{- else -}}
                 {{- errorf "OpenLibrary response was %s while fetching author data: %s" $authorObj.status .key -}}
               {{- end -}}
+            {{- else -}}
+              {{- errorf "Error grabbing Author data from OpenLibrary" -}}
             {{- end -}}
           {{- else -}}
             {{- warnf "Failed to fetch Author data from OpenLibrary: %s" .key -}}
@@ -64,9 +68,9 @@
 
           {{- $bookFilename := replaceRE `[^a-z]+` "-" (lower $bookObj.result.title) -}}
           {{- $coverPath := replaceRE `(\.md)?$` (printf "/%s.jpg" $bookFilename) $path -}}
-          {{- with resources.GetRemote $coverURL -}}
+          {{- with try (resources.GetRemote $coverURL) -}}
             {{- with .Err -}}
-            {{- else -}}
+            {{- else with .Value -}}
               {{- $cover = .Content | resources.FromString $coverPath -}}
             {{- end -}}
           {{- end -}}
@@ -76,6 +80,8 @@
       {{- else -}}
         {{- errorf "OpenLibrary response was %s while fetching: %s" $bookObj $key -}}
       {{- end -}}
+    {{- else -}}
+      {{- errorf "Error grabbing Book data from OpenLibrary" -}}
     {{- end -}}
   {{- else -}}
     {{- errorf "Failed to fetch Book data data from OpenLibrary: %s" $key -}}

@@ -26,11 +26,11 @@
 
     <figcaption>
       <cite><a href="{{ .url }}" target="_blank" title="Open book details" itemprop="url"><span itemprop="name">{{ .title }}</span></a></cite>
-      {{- partial "partials/author-list.html" .authors -}}
+      {{- template "partials/author-list.html" .authors -}}
     </figcaption>
   </figure>
 {{- else -}}
   <cite><a href="{{ .url }}" target="_blank" title="Open book details" itemprop="name">{{ .title }}</a></cite>
-  {{- partial "partials/author-list.html" .authors -}}
+  {{- template "partials/author-list.html" .authors -}}
 {{- end -}}
 {{- end -}}

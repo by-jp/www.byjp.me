@@ -40,7 +40,7 @@
           {{- $count := len $items -}}
           {{- if gt $count 0 -}}
           <li>
-            {{ partial "partials/reactionsvg.html" (dict "emoji" $thisEm) }}
+            {{ template "partials/reactionsvg.html" (dict "emoji" $thisEm) }}
             {{ $count }}
           </li>
           {{ end }}
@@ -63,7 +63,7 @@
           {{- range $thisEm, $items := $interactionMap -}}
             {{- if ne $thisEm "💬" -}}
             <li>
-              {{ partial "partials/reactionsvg.html" (dict "emoji" $thisEm "name" true) -}}
+              {{ template "partials/reactionsvg.html" (dict "emoji" $thisEm "name" true) -}}
               {{- range $i, $in := $items -}}
                 <a href="{{ $in.url | default $in.author.url }}" target="_blank">{{ $in.author.name | replaceRE `(\?\x{200D}?){2,}` "" | strings.TrimSpace }}</a>
                 {{- if ne $i (sub (len $items) 1) }}, {{ end -}}
