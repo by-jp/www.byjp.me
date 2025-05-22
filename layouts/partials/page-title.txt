@@ -14,7 +14,7 @@
   {{- $ref := partial "reference.obj" (dict "url" .Params.likeOf "references" .Params.references) -}}
   {{- if $ref -}}
     {{- with index (split $ref.name "|" | first 1) 0 -}}
-      {{- . -}}
+      {{- trim . "  " -}}
     {{- else -}}
       {{- template "partials/fallback-title.txt" . -}}
     {{- end -}}

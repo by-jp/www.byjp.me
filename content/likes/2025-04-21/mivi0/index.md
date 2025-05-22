@@ -5,4 +5,5 @@ likeOf: https://d-lab.mit.edu/sites/default/files/inline-files/D-Lab_Learn-It_Ad
 references:
   https://dLabMitEdu/sites/default/files/inlineFiles/dLabLearnItAdhesivesJul13Pdf:
     url: https://d-lab.mit.edu/sites/default/files/inline-files/D-Lab_Learn-It_Adhesives_Jul13.pdf
+    name: "Learn-it: Adhesives"
 ---
