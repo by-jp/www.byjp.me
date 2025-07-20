@@ -2,6 +2,9 @@
 title: "What awesomeness is this‽"
 emoji: 🌐
 date: 2025-07-17T15:40:50.740Z
+media:
+  - url: the-puzzle.jpg
+    alt: A circular brass puzzle box, roughly 10cm in diameter. It has what looks like the projection of lines of latitude and longitude on the front surface, and 5 glass covered holes through the middle, spread across an oscillating line of metal set into the middle.
 draft: false
 tags:
   - puzzle
