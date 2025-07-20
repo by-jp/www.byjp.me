@@ -105,6 +105,23 @@
         {{- end }}
         {{ .Content }}
       </div>
+
+      {{ with .Params.series }}
+        {{- $seriesName := index . 0 -}}
+        {{- $pages := where site.RegularPages "Params.series" "intersect" (slice $seriesName) -}}
+
+        {{ if gt (len $pages) 1 -}}
+          <p>Others in the series…</p>
+          <ol>
+            {{ range $pages }}
+              <li>
+                {{- if eq .RelPermalink $.RelPermalink }}{{ .Title }} <small>(this page)</small>
+                {{- else }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{- end }}
+              </li>
+            {{ end }}
+          </ol>
+        {{ end }}
+      {{ end }}
     </article>
 
     <hr />

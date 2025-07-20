@@ -1,0 +1,9 @@
+{{- $font := .Get 0 -}}
+<link rel="stylesheet" href="/css/{{ $font }}.css">
+{{- if strings.Contains .Inner "\n" }}
+  <div class="{{ $font }}">
+    {{ .Inner }}
+  </div>
+{{- else -}}
+  <span class="{{ $font }}">{{ .Inner }}</span>
+{{- end -}}

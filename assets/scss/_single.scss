@@ -598,3 +598,10 @@ footer svg {
   width: 1em;
   height: 1em;
 }
+
+.alert {
+  .alert-heading {
+    font-weight: bold;
+    color: var(--accent);
+  }
+}
