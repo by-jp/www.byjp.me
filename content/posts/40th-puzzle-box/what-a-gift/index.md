@@ -83,7 +83,7 @@ Holy crap _images_. It's a tiny slide projector!
 
 ## The projector
 
-There's only a few millimetres for each "slide" in these holes, so the photos are blurry at best, but here they are, on my wall, as I moved the light between them. (I've laid them out here in the same order as the photo of the puzzle box above, you can click on a bump up top, and it'll scroll to and highlight the relevant image here.)
+There's only a few millimetres for each "slide" in these holes, so the photos are blurry at best, but here they are, on my wall, as I moved the light between them. (I've laid them out here in the same order as the photo of the puzzle box above. You can click on a bump up top, and it'll scroll to and highlight the relevant image here.)
 
 <div class="circle-images">
   <img alt="a blurry picture of a mountain with three sharp peaks next to each other" id="bump-1" src="./bump-1.jpg">
