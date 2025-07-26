@@ -1,13 +1,10 @@
 {{- $displayArtist := (.Get "composer") | default (.Get "artist") -}}
 {{- $displayTitle := (.Get "title") | default (.Get "album") -}}
-{{- $songwhip := .Get "url" -}}
-{{- if $displayArtist -}}
-  {{- $songwhip = printf "https://songwhip.com/%s/%s" (partial "kebab.txt" (.Get "artist")) (partial "kebab.txt" $displayTitle) }}
-{{- end -}}
+{{- $url := partial "songlink.url" (printf "https://open.spotify.com%s" (.Get "path")) -}}
 <figure class="embed audio spotify">
   <iframe src="https://open.spotify.com/embed{{ .Get "path" }}" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   <figcaption>
     🎶 {{ $displayArtist }}{{ with $displayTitle }}{{ if $displayArtist }}: {{ end }}<em>{{ . }}</em>{{ end }}<br/>
-    {{ with $songwhip }}<a href="{{ . }}" target="_blank" style="font-style:italic;">Listen elsewhere</a>{{ end }}
+    {{ with $url }}<a href="{{ . }}" target="_blank" style="font-style:italic;">Listen elsewhere</a>{{ end }}
   </figcaption> 
 </figure>

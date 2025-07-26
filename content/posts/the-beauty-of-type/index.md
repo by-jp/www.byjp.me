@@ -34,7 +34,7 @@ Just as the evening started to draw in, I completed this font I call Caspian. I 
 
 <h3 class="caspian" style="font-size: 75px; margin: 2.5rem 0; text-align: center; display:block;">A script named Caspian</h3>
 
-I decided to build [a microsite](https://caspian.byjp.me/) that would try and recreate the weirdness of its inception, referencing Bowie's album [Hunky Dory](https://songwhip.com/album/david-bowie/hunky-dory), which was playing almost solidly while I tweaked and moulded those letters. I made a website which plays the songs I listened to while in bed, typing the lyrics as they're sung, in the pretty font that is Caspian.
+I decided to build [a microsite](https://caspian.byjp.me/) that would try and recreate the weirdness of its inception, referencing Bowie's album [Hunky Dory](https://album.link/s/6fQElzBNTiEMGdIeY0hy5l), which was playing almost solidly while I tweaked and moulded those letters. I made a website which plays the songs I listened to while in bed, typing the lyrics as they're sung, in the pretty font that is Caspian.
 
 Thanks Richard, for the diversion while I was ill, the beautiful postcard, and the opportunity to make something eerie and beautiful.
 

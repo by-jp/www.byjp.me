@@ -1,0 +1,15 @@
+{{ $out := "" }}
+{{ if hasPrefix . "https://open.spotify.com/track/" }}
+  {{ $out = (printf "https://song.link/s/%s" (substr . 31)) }}
+{{ else if hasPrefix . "https://open.spotify.com/album/" }}
+  {{ $out = (printf "https://song.link/s/%s" (substr . 31)) }}
+{{ else if hasPrefix . "https://open.spotify.com/" }}
+  {{/* Spotify artists, users & playlists *must* go to spotify */}}
+  {{ $out = . }}
+{{else if hasPrefix . "soundcloud:/tracks/"}}
+  {{ $out = (printf "https://song.link/sc/%s" (substr . 19)) }}
+{{ else }}
+  {{ errorf "Unknown music link: %s" . }}
+{{ end }}
+
+{{ return $out }}

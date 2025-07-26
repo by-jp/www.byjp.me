@@ -8,4 +8,4 @@ tags:
 ---
 likes Olive by Robert Popper
 
-{{< soundcloud path="/tracks/545640" artist="Robert Popper" title="Olive" url="https://songwhip.com/robertpopper/olive">}}
+{{< soundcloud path="/tracks/545640" artist="Robert Popper" title="Olive">}}

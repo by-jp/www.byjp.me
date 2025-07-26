@@ -8,4 +8,4 @@ tags:
 ---
 likes Mint Violet by Robert Popper
 
-{{< soundcloud path="/tracks/826156" artist="Robert Popper" title="Mint Violet" url="https://songwhip.com/robertpopper/mint-violet">}}
+{{< soundcloud path="/tracks/826156" artist="Robert Popper" title="Mint Violet">}}

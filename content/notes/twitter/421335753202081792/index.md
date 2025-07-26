@@ -8,4 +8,4 @@ tags:
 ---
 Oh my god. This was released as a single?!
 
-{{< spotify path="/track/15Utufj8CAUBWUhmSGE9pa" artist="The Cat" title="Tongue Tied" url="https://songwhip.com/thecat/tongue-tied" >}}
+{{< spotify path="/track/15Utufj8CAUBWUhmSGE9pa" artist="The Cat" title="Tongue Tied" >}}

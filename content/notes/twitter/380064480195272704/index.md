@@ -10,4 +10,4 @@ tags:
 ---
 Chilled & tuneful. Pity there aren't so many warm nights to match it!
 
-{{< spotify path="/track/44CZRkOxv7UItaAUmh8PgN" artist="Cherub" title="Doses and Mimosas" url="https://songwhip.com/cherub-2/doses-and-mimosas" >}}
+{{< spotify path="/track/44CZRkOxv7UItaAUmh8PgN" artist="Cherub" title="Doses and Mimosas" >}}

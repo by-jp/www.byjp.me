@@ -5,4 +5,5 @@ tags:
 - from-twitter
 ---
 "To teach if we are called upon, to learn if we are fortunate"\
-[https://songwhip.com/song/kurt-waldheim/greetings-from-the-secretary-general-of-the-un](https://songwhip.com/song/kurt-waldheim/greetings-from-the-secretary-general-of-the-un)
+
+{{< spotify path="/track/2Io2ySVQFJiVGKKwI5oBrm" title="Greeting from Kurt Waldheim, Secretary-General of the United Nations" >}}

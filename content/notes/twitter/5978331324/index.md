@@ -8,4 +8,4 @@ tags:
 ---
 likes WIldness by Knowa on [SoundCloud](/tags/SoundCloud)
 
-{{< soundcloud path="/tracks/177178" artist="Knowa" title="WIldness" url="https://songwhip.com/knowaknowoneandknowalusion/wildness" >}}
+{{< soundcloud path="/tracks/177178" artist="Knowa" title="WIldness" >}}

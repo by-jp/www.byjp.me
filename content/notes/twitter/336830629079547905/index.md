@@ -10,4 +10,4 @@ tags:
 ---
 Legendary
 
-{{< spotify path="/track/7M3E3patpaJZ5nwOtn9WPy" artist="Zedd" title="The Legend of Zelda" url="https://songwhip.com/zedd/the-legend-of-zelda-club-mix" >}}
+{{< spotify path="/track/7M3E3patpaJZ5nwOtn9WPy" artist="Zedd" title="The Legend of Zelda" >}}
