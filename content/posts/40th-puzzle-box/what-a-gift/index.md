@@ -48,9 +48,9 @@ I won't go down too much of a tangent, but this tiny language was constructed in
 I _think_ the glyphs around the outside of my puzzle box make three sentences:
 
 {{% font "tokipona" %}}
-sewipinenasulilitawaesitelenlonsinpin::<br/>
-Nenapilinseloepanawasolajeloanpautalapimejajouta..<br/>
-MΓunasaalealeolinwanselo..
+sewi pi nena suli li tawa e sitelen lon sinpin::<br/>
+nena pilin selo e pana waso la jelo anpa uta la pimeja jo uta..<br/>
+mute nasa ale ale olin wan selo..
 {{%/ font %}}
 
 You can try and translate it yourself with an [online toki pona dictionary](https://nimi.li/) if you like! Here's what I made of the first sentence. (I'll translate the others here next time!)
@@ -120,15 +120,15 @@ I initially thought the first one showed the [Torres del Paine](https://en.wikip
 
 So here are my guesses at positions for each of the bumps, using their position on the puzzle box, and looking for tall mountains in the area that look similar!
 
-| #   | Location       | My best guess                                                              |
-| --- | -------------- | -------------------------------------------------------------------------- |
-| 1   | 30ºN, 112ºW ?  | ~~[Picacho del Diablo](https://en.wikipedia.org/wiki/Picacho_del_Diablo)~~ |
-| 2   | 26ºS, 68ºW ?   | [Nevado Tres Cruces](https://en.wikipedia.org/wiki/Nevado_Tres_Cruces)?    |
-| 3   | 45.5ºN, 7.5ºE  | [Matterhorn](https://en.wikipedia.org/wiki/Matterhorn)                     |
-| 4   | 3.1ºS, 37.4ºE  | [Kilimanjaro](https://en.wikipedia.org/wiki/Mount_Kilimanjaro)             |
-| 5   | 27.6ºN, 86.6ºE | [Everest](https://en.wikipedia.org/wiki/Mount_Everest)                     |
+| #   | Location        | My best guess                                                           |
+| --- | --------------- | ----------------------------------------------------------------------- |
+| 1   | 36.6ºN, 118.3ºW | [Mount Whitney](https://en.wikipedia.org/wiki/Mount_Whitney)            |
+| 2   | 26ºS, 68ºW ?    | [Nevado Tres Cruces](https://en.wikipedia.org/wiki/Nevado_Tres_Cruces)? |
+| 3   | 45.5ºN, 7.5ºE   | [Matterhorn](https://en.wikipedia.org/wiki/Matterhorn)                  |
+| 4   | 3.1ºS, 37.4ºE   | [Kilimanjaro](https://en.wikipedia.org/wiki/Mount_Kilimanjaro)          |
+| 5   | 27.6ºN, 86.6ºE  | [Everest](https://en.wikipedia.org/wiki/Mount_Everest)                  |
 
-The first two of these I'm much less certain of; Picacho del Diablo doesn't have anything like the same silhouette as what I'm seeing in the projection (but it's very close position wise, with nothing of the same shape I can find nearby). Nevado Tres Cruces doesn't _quite_ look the same either. I'm going to have to do some more exploring!
+~~The first two of these I'm much less certain of~~. The first is Mount Whitney—those peaks are unmistakable! Nevado Tres Cruces doesn't _quite_ look the same though. I'm going to have to do some more exploring!
 
 ## The adventure continues!
 
