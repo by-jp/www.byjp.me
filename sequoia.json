@@ -1,0 +1,19 @@
+{
+  "siteUrl": "https://www.byjp.me",
+  "contentDir": "./content/posts",
+  "publicDir": "./static",
+  "outputDir": "./public",
+  "publicationUri": "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.publication/3mdogbputbg2m",
+  "pdsUrl": "https://enoki.us-east.host.bsky.network",
+  "frontmatter": {
+    "description": "summary",
+    "publishDate": "publishDate,date"
+  },
+  "slugSource": "path",
+  "removeIndexFromSlug": true,
+  "ignore": [
+    "mental-poker/fate-and-secrets/index.md",
+    "**/_index.md",
+    "_index.md"
+  ]
+}

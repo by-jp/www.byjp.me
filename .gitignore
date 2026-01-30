@@ -5,3 +5,5 @@
 .env
 # Ignore Agate gemini server's files
 /.certificates
+
+.sequoia-state.json
