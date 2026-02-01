@@ -11,6 +11,7 @@ tags:
 - offer
 - web
 draft: true
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqm2xn22y"
 ---
 Hello friends, I miss you! I'm barely on the giant social media sites any more, which means I don't get to interact with so many of you in the ways I used to. It sucks.
 

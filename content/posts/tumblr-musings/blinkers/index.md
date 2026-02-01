@@ -9,6 +9,7 @@ tags:
   - ruby
   - facebook
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqu2w7l2a"
 ---
 ![A screenshot of the Facebook homepage. Instead of the newsfeed there is text saying "You've got blinkers on. Now… get back to work JP!](facebook-with-blinkers.jpg)
 

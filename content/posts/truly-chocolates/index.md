@@ -9,6 +9,7 @@ tags:
 summary: "I judge these Christmassy chocolates Not Quality Enough (most of the time)"
 topics:
 - Reflections
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqlhyuh2t"
 ---
 Here I am, two weeks into 2025, and I've reached the _Quality Street Watershed_. I've nibbled my way through all the "good" ones, those remaining after we were given one at our Christmassy gathering, and now each colourful chocolate I unwrap is just the _slightest_ bit disappointing.
 

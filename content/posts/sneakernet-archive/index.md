@@ -12,6 +12,7 @@ topics:
 - Technology
 - Community
 draft: true
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqloecc25"
 ---
 I've been slowly working on, and advocating for, changes to bits of software (including my favourite, [IPFS](/tags/ipfs), the InterPlanetary File System) to make it suitable for communities without (good) internet access to share and keep cultural artefacts in a way that'll last the ages. I realised I've been slowly doing this for _years_ now, but I've never written about it — so it's time to share!
 

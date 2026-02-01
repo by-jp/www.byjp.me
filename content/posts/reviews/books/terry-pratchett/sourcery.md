@@ -12,6 +12,7 @@ tags:
 - from-goodreads
 syndications:
 - https://www.goodreads.com/review/show/111897239
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqtun7u2s"
 ---
 {{< book "9780451162335" >}}
 

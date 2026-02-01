@@ -5,6 +5,7 @@ tags:
   - from-tumblr
   - japan
   - japan-with-jk
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqyx6rx24"
 ---
 > **PA:** The doors to the left will open in just a moment.
 >

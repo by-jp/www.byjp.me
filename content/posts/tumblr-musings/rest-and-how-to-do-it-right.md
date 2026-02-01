@@ -7,6 +7,7 @@ tags:
   - code
   - rest
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqskwb42s"
 ---
 [gregbeech.com](https://www.gregbeech.com/2013/05/21/restful-api-design-the-fundamentals/)
 

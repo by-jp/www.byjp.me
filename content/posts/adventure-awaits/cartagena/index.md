@@ -10,6 +10,7 @@ series:
 topics:
 - Travel
 - Myself
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqpwxno2o"
 ---
 {{< figure alt="" src="feature.jpg" class="big" >}}
 ¡Guao, que tan gloriosa es Colombia! We've had an absolutely stunning start to our backpacking holiday — so good, in fact, that you'd be hard pressed to call it anything but luxurious!

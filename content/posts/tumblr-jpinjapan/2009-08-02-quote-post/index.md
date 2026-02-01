@@ -5,6 +5,7 @@ tags:
   - from-tumblr
   - japan
   - japan-with-jk
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqyjsdc2y"
 ---
 > Wouldn't you love to be in a wheelchair right now?
 >

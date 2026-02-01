@@ -12,6 +12,7 @@ tags:
 - from-goodreads
 syndications:
 - https://www.goodreads.com/review/show/879236135
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqr5a632a"
 ---
 {{< book "9781847670243" >}}
 

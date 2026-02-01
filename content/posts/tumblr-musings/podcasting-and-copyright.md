@@ -9,6 +9,7 @@ tags:
   - playdar
   - xspf
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryquonrs2m"
 ---
 > I had an idea last night, I'm going to sketch it out here it may turn into more than an idea at some point!
 

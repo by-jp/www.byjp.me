@@ -8,6 +8,7 @@ tags:
   - playdar
   - playgrub
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqul7b323"
 ---
 [Playdar](https://playdar.org) is really starting to gain some momentum as great services like [playgrub](https://web.archive.org/web/20100824050755/http://playgrub.posterous.com/new-supported-sites)[^1] build on it's strong foundations.
 

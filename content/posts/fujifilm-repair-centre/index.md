@@ -11,6 +11,7 @@ tags:
   - review
   - photography
 summary: I've been extremely impressed with Fujifilm's Service Centre!
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqqafqa2r"
 ---
 
 I've been pleasantly astounded by the quality of [Fujifilm's Service Centre](https://repairs.fujifilm.eu/en/fujifilm-repair-centre/?zr=uk) here in the UK. Honestly, it's likely to keep me using Fujifilm cameras at least until they change it.

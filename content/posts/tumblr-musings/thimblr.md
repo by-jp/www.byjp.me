@@ -9,6 +9,7 @@ tags:
   - ruby
   - tumblr
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqu5zll2g"
 ---
 {{< vimeo 10866898 >}}
 

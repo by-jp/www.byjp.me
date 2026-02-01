@@ -14,6 +14,7 @@ location:
   name: Sadler's Wells Theatre
   latitude: 51.52945433303787
   longitude: -0.10592580089437353
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqlxue42s"
 ---
 _Wow_. This was an absolute joy to watch — what a stunning display of rhythm and colour and movement! I really can't recommend seeing this performance enough.
 

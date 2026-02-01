@@ -15,6 +15,7 @@ tags:
 summary: This custom made, almost kilogram brass curio is infuriatingly WONDERFUL. I *will* break into it… eventually.
 series:
 - Puzzle box
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryql5xau2s"
 ---
 It is extremely hard to be speechless on a blog. There's a certain amount of _telling people what's going on_ needed. Let me try and get over my awe-struck amazement enough to tell you about the puzzle box my friends {{< friend Hugo >}} and {{< friend Margot >}} **made** 🤯 and gave me at my recent 40th birthday party.
 

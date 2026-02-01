@@ -10,6 +10,7 @@ tags:
   - facebook
   - filter
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr2fkgs2y"
 ---
 ![A screenshot of a Facebook wall-post with JP "really hates the roundy-edged square profile pics. Feck off!". Comment 1 from Bayan says "Mark is clearly trying to be more twitter- like :/". Comment 2 from JP says "I fixed it! I made a thingie for macs that prevents the roundy corner bits :P will post how-to soon"](facebook-rounded-profile.png)
 

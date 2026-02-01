@@ -12,6 +12,7 @@ tags:
 - from-goodreads
 syndications:
 - https://www.goodreads.com/review/show/566131190
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqsbd6c2m"
 ---
 {{< book "9781841499390" >}}
 

@@ -15,6 +15,7 @@ syndications:
 - https://hachyderm.io/@byjp/112430316826482911
 - https://bsky.app/profile/byjp.me/post/3ksd4xxfks62v
 - https://vimeo.com/manage/videos/945570914
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqmbhms25"
 ---
 I've been exploring what totally decentralised and local-first compatible search might look like for the web. Here's a quick video demo of a prototype I've built called _IndieSearch_, powered by the (awesome) client-side search tool called [Pagefind](https://pagefind.app) (or read on, if videos aren't your thing).
 

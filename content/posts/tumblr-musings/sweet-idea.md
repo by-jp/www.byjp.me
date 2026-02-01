@@ -7,6 +7,7 @@ images:
 tags:
   - idea
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqueluw2o"
 ---
 > Thinking about making a url-‘shortener’ which shortens urls if pronounced eg https://foo.bar/guid -> https://nowsay.it/waterwingflapjack
 >

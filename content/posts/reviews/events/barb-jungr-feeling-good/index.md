@@ -11,6 +11,7 @@ location:
   name: The Guy's Chapel
   latitude: 51.50448455718357
   longitude: -0.0881963644105807
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqmr7zr2z"
 ---
 What a lovely event! Barb's singing was rich and exciting, with Jenny's delightful and expressive piano accompaniment was all the more impressive when we learned it was almost entirely improvised.
 

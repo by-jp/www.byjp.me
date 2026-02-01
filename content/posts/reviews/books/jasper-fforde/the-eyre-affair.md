@@ -12,6 +12,7 @@ tags:
 - from-goodreads
 syndications:
 - https://www.goodreads.com/review/show/687343966
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqrpx4z2z"
 ---
 {{< book "9780142001806" >}}
 

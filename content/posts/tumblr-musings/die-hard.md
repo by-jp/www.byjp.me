@@ -10,6 +10,7 @@ tags:
   - imdb:tt1606378
   - terrible
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqt2xic2m"
 ---
 {{% importnote 2023-05-27 %}}
 I don't normally prefix my very old and imported blog posts like this (I quite like them to stand alone as an artifact of my past) but I find this review I wrote particulaly hard to read! I know my sense of pacing has had a chance to improve specifically because of writing a lot while I was younger, but I feel like my disgust for this film brings a new layer of difficulty to reading this! Good luck…

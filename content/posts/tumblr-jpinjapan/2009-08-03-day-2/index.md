@@ -9,6 +9,7 @@ tags:
   - ueno
   - senjo-ji
   - capoeira
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqybnhs2m"
 ---
 Wow! Today has been another amazingly busy day, I really don't know how we're going to top this!
 

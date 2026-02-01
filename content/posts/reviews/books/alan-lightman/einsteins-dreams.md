@@ -12,6 +12,7 @@ tags:
 - from-goodreads
 syndications:
 - https://www.goodreads.com/review/show/610034736
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqrxook25"
 ---
 {{< book "9781400077809" >}}
 

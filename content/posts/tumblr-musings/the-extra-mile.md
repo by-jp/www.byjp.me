@@ -7,6 +7,7 @@ emoji: 🤓
 tags:
   - humans
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqshlq62o"
 ---
 I'm not sure whether it was the company or the lovely lady who looked after me (or both), but Optical Express have surprised me this afternoon with a personal touch uncharacteristic of busy London shops.
 

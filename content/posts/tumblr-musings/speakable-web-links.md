@@ -5,6 +5,7 @@ draft: false
 emoji: 🔗
 tags:
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqtbcut2a"
 ---
 A long time ago [benosteen wrote](https://benosteen.tumblr.com/post/465782940/thinking-about-making-a-url-shortener-which) that he'd link to make a URL shortener that creates speakable URLs.
 

@@ -9,6 +9,7 @@ tags:
   - Tokyo
   - arrival
 location: 35.5731,139.6922
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqytn272b"
 ---
 やった！ We've arrived!
 

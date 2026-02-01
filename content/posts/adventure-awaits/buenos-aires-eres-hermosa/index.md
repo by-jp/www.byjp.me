@@ -10,6 +10,7 @@ series:
 topics:
 - Travel
 - Myself
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqpdk322o"
 ---
 {{< figure alt="" src="feature.jpg" class="big" >}}
 It’s about time I publish this post about our time in Buenos Aires! I’m getting quite delayed in tidying & posting my notes (we left on the 4th of Feb, and it’s now the 23rd…), mainly because of how much we’re fitting into our Brazilian days! As much as I want to be present and explore everything possible, I also want to write about what its been like for future us; after all, we become the stories we tell ourselves — adventure awaits!

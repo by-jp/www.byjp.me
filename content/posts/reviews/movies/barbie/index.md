@@ -12,6 +12,7 @@ syndications:
 - https://trakt.tv/comments/585047
 - https://www.themoviedb.org/review/64c4e33dcadb6b01066cb4b9
 shortlink: barbie
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqntsq22o"
 ---
 {{< film "Barbie" "2023" "https://www.themoviedb.org/movie/346698-barbie" "poster.webp" >}}
 

@@ -9,6 +9,7 @@ tags:
   - poetry
   - code
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqubbtp2t"
 ---
 ![The visual element of Project Prime: a slightly chaotic stained-glass window of different coloured polygons of colour in a rectangular web browser page.](voronoi.jpg)
 

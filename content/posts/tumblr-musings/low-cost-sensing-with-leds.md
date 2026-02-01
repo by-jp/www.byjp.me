@@ -5,6 +5,7 @@ draft: false
 emoji: 💡
 tags:
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr3slyl2a"
 ---
 [hackaday.com](https://hackaday.com/2006/02/21/low-cost-sensing-and-communication-with-an-led/)
 

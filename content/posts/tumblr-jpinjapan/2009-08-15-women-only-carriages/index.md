@@ -5,6 +5,7 @@ tags:
   - from-tumblr
   - japan
   - japan-with-jk
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqw2qcg2o"
 ---
 ![The door of a subway carriage saying "women only" in Japanese and English](../img/34fa17833aa86b622cad248265eabf93e395e5cf5daecb3c4aee6bc686de8e30.jpg)
 

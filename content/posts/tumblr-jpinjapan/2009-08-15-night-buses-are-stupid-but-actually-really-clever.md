@@ -6,6 +6,7 @@ tags:
   - japan-with-jk
   - night bus
 title: "Night Buses Are Stupid (but actually really clever)"
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqvxlci2v"
 ---
 
 You see, the big problem is that while the seats are amazingly comfy and recline with leg rests and so on, the buses are usually only 6 or 7 hours long and at least 2 hours of that is the small stops at th start and the end!

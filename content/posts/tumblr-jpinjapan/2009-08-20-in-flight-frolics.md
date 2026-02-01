@@ -8,5 +8,6 @@ tags:
   - japan-with-jk
   - japan
   - japan-with-jk-airlines
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqvcfi724"
 ---
 I'd like to think the meals here are this tasty because of our upgrade to premium economy, but the truth is they were just as good on the way out! Japan AirLines - you rock.

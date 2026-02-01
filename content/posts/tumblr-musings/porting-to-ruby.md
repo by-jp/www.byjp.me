@@ -8,6 +8,7 @@ tags:
   - code
   - dlc
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr33m3i2r"
 ---
 I had some time to kill today, so I rewrote the [DLC api](https://www.jdownloader.org/news/blog/x20090501-002-dlcapi-oop) in Ruby.
 

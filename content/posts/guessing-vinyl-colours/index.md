@@ -13,6 +13,7 @@ topics:
 - Creativity
 - Maths
 math: true
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqmempj2z"
 ---
 I've been getting a lot more use from my [Silhouette Cameo 4](https://www.silhouetteamerica.com/featured-product/cameo) plotter/cutter recently, and I've been using a couple of different vinyls to make things. I found it annoying that I couldn't get a good read on what the colour was before I purchased them, so here's the readings I've taken for the vinyls I bought & where I bought them in case any one else finds them useful!
 

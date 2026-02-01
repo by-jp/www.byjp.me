@@ -9,6 +9,7 @@ tags:
   - xfbml
   - code
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqzavhs2m"
 ---
 I like Facebook (despite its recent frustrating changes that make walls confusing) but I have a niggle as a developer using their APIs. If you choose to use Facebook's XFBML to put a commenting system on your blog (like I do here) then anyone posting that page inside facebook has a separate comments list. Try posting this page on facebook[^1], if you comment on that post in your feed the comments won't appear on this page and things you write here won't appear there.
 

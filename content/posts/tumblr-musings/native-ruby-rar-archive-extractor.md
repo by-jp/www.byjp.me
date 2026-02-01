@@ -10,6 +10,7 @@ tags:
   - github
   - rar
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr44bnw2o"
 ---
 [github.com](https://github.com/jphastings/unrar/)
 

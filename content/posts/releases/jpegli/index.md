@@ -7,6 +7,7 @@ tags:
 - JPEGli
 - CLI
 - code
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqll5zg2o"
 ---
 I've not written anything substantial here in _some time_, and sadly that's not going to change today!
 

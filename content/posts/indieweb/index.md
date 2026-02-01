@@ -12,6 +12,7 @@ tags:
 topics:
 - IndieWeb
 summary: Embracing the indieweb, an internet run by humans not corporations.
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqpafkq2v"
 ---
 
 In December I killed my Twitter account. I was minorly proud of how long I'd been around there (ID 15751: palindromic _and_ an early adopter; living that nerd life), even if I was mostly a lurker, however Musk's layoffs affected friends I trust, and Twitter's security & ethics teams — two teams I wanted to be at full strength.

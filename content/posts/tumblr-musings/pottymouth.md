@@ -9,6 +9,7 @@ tags:
   - pottymouth
   - ruby
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqtxsru2s"
 ---
 I had some time to kill on a lazy summer's day and I noticed that splendid chap [Max](https://mxcl.dev/), had posed a question to the lazy web:
 

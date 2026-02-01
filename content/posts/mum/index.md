@@ -10,6 +10,7 @@ topics:
 summary: My Mum passed away; my brother & I wrote a few words to let our friends and family know.
 syndications:
 - https://www.facebook.com/chrismhs/posts/pfbid02VuHgpqAC2LPFdkqvWySGQ5w1Wp7eEH8SSne6wnSA6P9b1pQkNQ9HK4DsKYXBg6rdl
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqnhdfa2v"
 ---
 > My brother and I wrote these few words last week as a way to let friends and family know of my Mum's passing. We've all been progressively more absent from the rest of our lives these last few weeks, and the kind words friends and family have sent us in response have been overwhelmingly lovely.
 >

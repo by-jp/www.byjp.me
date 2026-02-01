@@ -6,6 +6,7 @@ tags:
   - from-tumblr
   - japan
   - japan-with-jk
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqwnza225"
 ---
 Hi all this is JK writing.
 

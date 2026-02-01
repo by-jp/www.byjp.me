@@ -10,6 +10,7 @@ series:
 topics:
 - Travel
 - Myself
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqp56rq2r"
 ---
 {{< figure alt="" src="feature.jpg" class="big" >}}
 We’ve been so busy recently, here in the middle of the Atacama desert, that I’ve not had time to write a post for you all! However I’ve been sneaky and (perhaps somewhat unexpectedly) well prepared, and put together an interlude post for a quiet moment while we were in Buenos Aires!

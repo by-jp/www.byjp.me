@@ -5,6 +5,7 @@ tags:
   - from-tumblr
   - japan
   - japan-with-jk
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqyf6ms2o"
 ---
 Oh. My. God.
 

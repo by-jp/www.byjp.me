@@ -13,6 +13,7 @@ tags:
   - ruby
   - whereontheweb
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr3ismx2b"
 ---
 {{< figure src="where-on-the-web.jpg" alt="A terrain map of the earth over the Atlantic, showing red dots moving between the UK and other places on earth" >}}
 

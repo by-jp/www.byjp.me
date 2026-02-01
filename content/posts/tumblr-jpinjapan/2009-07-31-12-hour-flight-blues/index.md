@@ -6,6 +6,7 @@ tags:
   - japan-with-jk
 location: 51.7296,0.4761
 title: "12 Hour Flight Blues"
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqz2jn32a"
 ---
 Got the 12 hour flight blues,\
 Half a day on a plane.\

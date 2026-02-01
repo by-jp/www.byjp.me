@@ -8,6 +8,7 @@ tags:
   - google
   - street map
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr2cftk25"
 ---
 ![A screenshot of Google StreetView zoomed in to show a (blurry-faced) JP standing at a zebra crossing.](screenshot.jpg)
 

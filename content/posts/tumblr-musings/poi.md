@@ -9,6 +9,7 @@ tags:
   - fire
   - poi
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr3phzs2t"
 ---
 {{< vimeo 4162724 >}}
 

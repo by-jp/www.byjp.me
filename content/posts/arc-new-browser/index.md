@@ -11,6 +11,7 @@ tags:
 topics:
 - Myself
 summary: A new web-browser that really is helping me fall in love with the internet again.
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqojffk2y"
 ---
 
 It seems to me like new browsers are very popular at the moment. I love that this means a _Change_ is probably coming, it's about time.

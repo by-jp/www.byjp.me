@@ -7,6 +7,7 @@ date: 2023-08-14T07:14:19+01:00
 topics:
 - Myself
 tags:
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqnkq7p2b"
 ---
 
 {{< hike gpx="leith-hill-tower" length="15km" elevation="283m" time="3h43 + 45m lunch" >}}

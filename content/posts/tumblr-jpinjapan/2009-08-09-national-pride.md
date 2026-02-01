@@ -5,5 +5,6 @@ tags:
   - from-tumblr
   - japan
   - japan-with-jk
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqwr7lc2t"
 ---
 Beat both the (two) Americans and the Dutch at drinking Sake - despite the Dutch girl telling us that 'the Britsh can't drink' - score one for the Brits! Lots more happened besides today, hold on for the full scoop when I've sobered up. x

@@ -8,6 +8,7 @@ tags:
   - currency
   - preparation
 location: 51.716806,-1.968162
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqze3i42s"
 ---
 ![One side of a Japanese 5,000 yen note](../img/76198a31d99cd4b696b4c6b65c212e897972d7fa2864b4b1358c7a63c12e228e.jpg)
 

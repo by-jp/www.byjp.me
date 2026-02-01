@@ -14,6 +14,7 @@ tags:
 - environment
 - audiobooks
 syndications:
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqlrlms2t"
 ---
 
 {{< book "9780316578974" >}}

@@ -10,6 +10,7 @@ topics:
 - Creativity
 - Communication
 summary: "Setting kind expectations in busy times: slow.fyi"
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqqgvd32a"
 ---
 
 I've built a microsite called [slow.fyi](https://slow.fyi). It is a single-purpose, small, and simple page designed as a shorthand anyone can use to declare that receiving a reply would be _appreciated_ (rather than being expected).

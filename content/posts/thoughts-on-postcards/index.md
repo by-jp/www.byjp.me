@@ -9,6 +9,7 @@ tags:
 summary: A love-postcard to postcards.
 topics:
 - Creativity
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqqdpek2o"
 ---
 I've long admired and played with [postcards](/tags/postcards). For me there's an art to every aspect of creating and sending them — designing, choosing, writing, drawing, doodling, stamping — each of which could stand books' worth of elaboration.
 

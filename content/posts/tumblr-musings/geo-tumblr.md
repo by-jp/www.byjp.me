@@ -8,6 +8,7 @@ tags:
   - code
   - geo
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqv6gbz2z"
 ---
 Well, I'm back from Japan and while I was there I kept an online journal (Tumblr, you rock) to let everyone at home know what was going on. To make things even cooler I vowed to keep the posts tagged with where I was while I was writing them, of course tumblr has no functionality for this so I hacked up a geotagging solution using javascript.
 

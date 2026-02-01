@@ -9,6 +9,7 @@ tags:
   - poetry
   - Project Prime
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryquxrkx2t"
 ---
 [Cy Densham](/poetry)[^1], my literary counterpart, is in the process of releasing a haiku in four parts.
 

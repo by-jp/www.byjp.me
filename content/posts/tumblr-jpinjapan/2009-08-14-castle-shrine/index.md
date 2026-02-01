@@ -6,6 +6,7 @@ tags:
   - japan
   - japan-with-jk
   - hiroshima
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqwayle2s"
 ---
 ![A sillhouette of a large torii in front of a distant shrine with some lights on, as dusk approaches.](../img/3d1fef940827bf1b6a9d1148c757d7162ba9fc9ac5b83b1fb032240d75df72f3.jpg)
 

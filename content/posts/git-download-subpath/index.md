@@ -11,6 +11,7 @@ topics:
 - Technology
 syndications:
 - https://gist.github.com/jphastings/6560bb173399fc3a155913b33e5f0f0c
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqm6aeo2o"
 ---
 My blog has ~250MB of [photos](/photos) in it (as I [archived my Instagram here](/posts/archiving-instagram-posts/) — _a decade_ of photos) which means that every time I want some files from [my blog's repo](https://github.com/by-jp/www.byjp.me) I've needed to pull down all that data to get at the few files I want.
 

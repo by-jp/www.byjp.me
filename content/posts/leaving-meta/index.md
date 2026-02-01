@@ -6,6 +6,7 @@ summary: I'm leaving Instagram & Facebook. I want less corporation in my human c
 tags:
 - internet
 - social
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqlbr5d2a"
 ---
 
 I'm leaving Meta's platforms wherever I can. Soon that'll be Facebook and Instagram, and one day (I hope) WhatsApp too.

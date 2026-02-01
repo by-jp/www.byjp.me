@@ -10,6 +10,7 @@ tags:
   - map
   - geo
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr3chl42s"
 ---
 ![A terrain map of the earth over the Atlantic, showing different sized red dots moving between the UK and other places on earth](./screencap.jpg)
 

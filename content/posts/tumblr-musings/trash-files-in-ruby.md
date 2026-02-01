@@ -9,6 +9,7 @@ tags:
   - code
   - github
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr47gib2z"
 ---
 [github.com](https://github.com/jphastings/trash)
 

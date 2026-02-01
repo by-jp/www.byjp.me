@@ -8,6 +8,7 @@ tags:
   - public bath
 title: "てのゆ おんせん"
 location: 35.245028,139.057335
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqxrqok2m"
 ---
 I'm writing from the 'tenoyu onsen' (see title) which is a **very** nice onsen, or Japanese public bath/spa, in Miyashita. For a reasonable 1600¥ (~£10) your given your towel, flannel, a toothbrush set and a razor and ushered into the spa area. Onsen can feel a little daunting to begin with, you're never exactly sure what the custom is (the signs are in Japanese Kanji and sometimes, if you're lucky, 'Engrish') but once you've been a couple of times, as we now have, it's blissful.
 

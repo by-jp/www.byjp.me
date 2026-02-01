@@ -5,6 +5,7 @@ draft: false
 emoji: 📼
 tags:
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr3vsbc2m"
 ---
 {{< vimeo 3938435 >}}
 

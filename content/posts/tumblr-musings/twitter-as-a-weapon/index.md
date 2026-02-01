@@ -9,6 +9,7 @@ tags:
   - twitter
   - customer-service
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqrgdvc2m"
 ---
 My brother just showed me to "[an interesting news story](https://bbc.co.uk/news/technology-23943480)" - it really is.
 

@@ -5,6 +5,7 @@ tags:
   - from-tumblr
   - japan
   - japan-with-jk
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqx2orp2b"
 ---
 Some snaps from the capsule hotel: the luxury communist styling of the regimented clothing (modelled by yours truely), the tv lounge, the bathroom flipflops (everyone swaps shoes when try go to the loo), the capsule dormitory (two 'rooms' high) and the (free!) traditional Japanese breakfast.
 

@@ -7,6 +7,7 @@ tags:
   - idea
   - computing
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqtrcrm2s"
 ---
 After a quick support request from the Plex team I mentioned how much I'd like a linux version of the Plex Media Server so I could look to getting it working on a [Drobo FS](https://web.archive.org/web/20101012030603/http://www.drobo.com/products/drobo-fs.php).
 

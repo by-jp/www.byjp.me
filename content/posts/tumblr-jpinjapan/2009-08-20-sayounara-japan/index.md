@@ -7,6 +7,7 @@ tags:
   - japan
   - japan-with-jk
   - voice-note
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqvkl2a2r"
 ---
 さようなら！ Sayounara! Goodbye Japan!
 

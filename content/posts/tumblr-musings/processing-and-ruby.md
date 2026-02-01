@@ -11,6 +11,7 @@ tags:
   - map
   - geo
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr3m5rk25"
 ---
 I got stuck into [processing](https://processing.org) this weekend - I’ve been meaning to try it out for some time, but I also found a fantastic little project called [ruby-processing](https://github.com/jashkenas/ruby-processing/wiki). Yes, its exactly what it sounds like geeks, its the visual control of the processing language, in Ruby!
 

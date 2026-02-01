@@ -6,6 +6,7 @@ emoji: 🕰️
 images:
 tags:
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqzx7p62o"
 ---
 > I just realized; this is my last exam and I still don't know what to put in the 'year' box.
 >

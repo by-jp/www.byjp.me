@@ -16,6 +16,7 @@ topics:
 - Maths
 series:
 - Mental poker
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqnzopo2o"
 ---
 Last week I wrote about what a distributed game protocol is, and why they're useful: for playing games (cards, board games, etc.) with someone who isn't physically present with you. I covered "[open games](../open-games/)", those which only need the players and the board (like Chess), and omit randomness, fate, and secrecy. If you haven't read that post, you should! It covers some context you'll need for this one.
 

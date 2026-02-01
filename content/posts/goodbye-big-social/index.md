@@ -10,6 +10,7 @@ summary: Why I'm leaving 'big' social media.
 topics:
 - Myself
 - IndieWeb
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqoq4xp24"
 ---
 I'm pretty fed up of Facebook and Instagram. I barely use them, but when I do I _binge_, and end up feeling terrible afterwards. I'm familiar with how sites like these use data analytics to group humans into buckets according to the best ways to maximise dopamine release, and the _percent of our day_ we spent on their sites/apps, and it makes me itch.
 

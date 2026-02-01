@@ -5,6 +5,7 @@ tags:
   - from-tumblr
   - japan
   - japan-with-jk
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqwkkm323"
 ---
 ![A white towel with the "Holiday Inn" logo built into the fabric](../img/df07ddf0694ee7951f31dc33f72234e9fd4601e782cd12b6cca87c6264a5b9e4.jpg)
 

@@ -15,6 +15,7 @@ topics:
 - Maths
 series:
 - Mental poker
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqo4vxs25"
 ---
 Yesterday I wrote a behemoth of a blog post about why I'm excited about distributed protocols, with not-really-that-short descriptions of 4 different projects that are gently ticking over in my head. It was a mess 😂
 

@@ -11,6 +11,7 @@ tags:
   - ruby-dlc
   - dlc
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr2yiae2s"
 ---
 [github.com](https://github.com/jphastings/ruby-DLC)
 

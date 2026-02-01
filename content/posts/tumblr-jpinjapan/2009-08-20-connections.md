@@ -6,6 +6,7 @@ tags:
   - japan-with-jk
 location: 34.791336,135.440902
 title: "Connections"
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqvnqox2t"
 ---
 
 It's 04:45 and I'm lying curled up on a bench in the smoking area just outside Osaka Itami domestic airport. A predictable situation, but who wants to spend good money on accomodation when you'll be leaving halfway through the night anyways! I think it might be this particular night, but I've already put a jumper on and my 3/4 length jeans are leaving my shins a bit chilly - this isn't England chilly, this is the kind of cold you get back home when bits of you are under different numbers of duvets :P

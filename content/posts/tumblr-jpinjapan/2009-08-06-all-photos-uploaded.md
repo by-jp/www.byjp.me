@@ -5,6 +5,7 @@ tags:
   - from-tumblr
   - japan
   - japan-with-jk
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqxbg3s2o"
 ---
 [flickr.com](https://flickr.com/photos/jphastings)
 

@@ -9,6 +9,7 @@ tags:
   - code
   - ruby
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqsuxke2s"
 ---
 I was trying to integrate my Cucumber and RSpec tests with Jenkins earlier this week and came across a bunch of character encoding errors.
 

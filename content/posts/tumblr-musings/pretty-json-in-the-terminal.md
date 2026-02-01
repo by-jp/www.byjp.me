@@ -7,6 +7,7 @@ tags:
   - terminal
   - tools
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqso2dy2v"
 ---
 [kaspertidemann.com](https://web.archive.org/web/20141024021149/http://www.kaspertidemann.com/pretty-printing-json-in-the-terminal/)
 

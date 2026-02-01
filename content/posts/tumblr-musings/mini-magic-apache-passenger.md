@@ -12,6 +12,7 @@ tags:
   - imagemagick
   - homebrew
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqt646s2y"
 ---
 A note out there to anyone else having the same problem as me:
 

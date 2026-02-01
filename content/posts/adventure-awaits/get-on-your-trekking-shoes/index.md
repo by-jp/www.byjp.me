@@ -11,6 +11,7 @@ series:
 topics:
 - Travel
 - Myself
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryqpgtrc25"
 ---
 {{< figure alt="" src="feature.jpg" class="big" >}}
 So, Patagonia! What can I tell you? Everything you’ve heard about it is absolutely true: it is stunning, you’ll do loads of awesome trekking, you’ll taste delicious food and wine, and you’ll meet incredible people on every corner. There are, however, some special things you’ll only be able to discover when you get here. In this post I will try to share with you all the discoveries I made, as well as some memories that I will definitely cherish for the rest of my life (bear with me, I promise I’m not exaggerating!).

@@ -15,6 +15,7 @@ tags:
   - Songbird
   - gem
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryquuk4p24"
 ---
 Well, its been a few months since I posted last - the genuine joy of interesting/difficult work in my final year as a Physics undergrad - but there's a fair amount I should probably put up here for posterity:
 

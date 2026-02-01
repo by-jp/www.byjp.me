@@ -9,6 +9,7 @@ tags:
   - Twitter
   - campusbot
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr36zrt2g"
 ---
 I’m building a twitterbot to answer questions about things happening on my university campus. Should be fun, I’ve decided to use Ruby and Active Record as a foundation :)
 

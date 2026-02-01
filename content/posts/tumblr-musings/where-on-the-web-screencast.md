@@ -11,6 +11,7 @@ tags:
   - map
   - geo
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr3fn2x2b"
 ---
 {{< vimeo 4252126 >}}
 

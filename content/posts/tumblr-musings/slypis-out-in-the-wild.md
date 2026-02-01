@@ -11,6 +11,7 @@ tags:
   - gem
   - screen scraping
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr2iv4w2o"
 ---
 I get really frustrated when websites don't have APIs. I know its kinda mean to screen scrape, and potentially prevented by ToCs etc, but I built this anyway. I have finals exams to revise for and not enough to procrastinate with!
 

@@ -5,6 +5,7 @@ draft: false
 emoji: 🎥
 tags:
   - from-tumblr
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3mdryr3z4lk2o"
 ---
 I’ve set about trying to come up with some interesting ideas for some video snippets - flickr style, short and (dare I use the phrase?) ‘artistic’ type rather than YouTube style meme style stuff.
 
