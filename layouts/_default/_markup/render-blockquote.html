@@ -19,7 +19,7 @@
     {{ .Text }}
   </blockquote>
 {{ else }}
-  <blockquote>
+  <blockquote {{- with .Page.Params.bookmarkOf }} cite="{{ . }}"{{- end -}}>
     {{ .Text }}
   </blockquote>
 {{ end }}
