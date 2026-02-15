@@ -15,5 +15,8 @@
     "mental-poker/fate-and-secrets/index.md",
     "**/_index.md",
     "_index.md"
-  ]
+  ],
+  "bluesky": {
+    "enabled": true
+  }
 }

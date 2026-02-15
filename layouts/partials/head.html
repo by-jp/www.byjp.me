@@ -18,7 +18,7 @@
 <link rel="schema.dcterms" href="http://purl.org/dc/terms/"/>
 <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="{{ .Site.Title }}"/>
 <link rel="search" type="application/pagefind" href="/search" title="{{ .Site.Title }}"/>
-{{ with .Params.atUri }}<link rel="site.standard.document" href="{{ . }}">{{ end }}
+{{ with .Params.atUri }}<link rel="site.standard.document" href="{{ . | safeURL }}">{{ end }}
 {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type (partial "noindex.gmi" .Permalink) (printf "%s (%s)" $title (partial "alternatename.txt" .Name)) | safeHTML }}
 {{ end }}
