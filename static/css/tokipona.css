@@ -1,17 +1,15 @@
 @font-face {
   font-family: 'Fairfax Pona HD';
   src: local('Fairfax Pona HD'), local('FairfaxPonaHD'),
-      url('FairfaxPonaHD.woff2') format('woff2'),
-      url('FairfaxPonaHD.woff') format('woff');
+      url('/fonts/FairfaxPonaHD.woff2') format('woff2'),
+      url('/fonts/FairfaxPonaHD.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
-
 .tokipona {
   font-family: 'Fairfax Pona HD';
   font-size: 1.5em;
   text-align: center;
-  letter-spacing: -0.2em
 }
