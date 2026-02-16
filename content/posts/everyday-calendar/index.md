@@ -11,6 +11,7 @@ tags:
 - making
 - project
 - calendar
+atUri: "at://did:plc:ephkzpinhaqcabtkugtbzrwu/site.standard.document/3meyzzdn5tm24"
 ---
 
 > You can skip ahead to [making your own](#get-making), if you like!
