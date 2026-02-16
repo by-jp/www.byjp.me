@@ -24,6 +24,8 @@ My one reservation though, was that it missed an online component — I wanted i
 
 This weekend, _gloriously_ timed with Sri's fresh improvements to [goals.garden](https://goals.garden), I finally put together all the pieces I needed to internet-enable my Every Day Calendar! It ended up being simple enough that [I bet you could do it too](#get-making).
 
+{{< figure alt="Me updating my Every Day Calendar from goals.garden on my phone, and vice-versa." src="./my-calendar.jpg" >}}
+
 ## Building on ATProto
 
 Building in the ATProto ecosystem is _fun_. You entirely own your own data, so there are no developer accounts with large companies to register for, or API limits or restrictions on what you can do. Sri built the [goals.garden](https://goals.garden) site on ATProto, so it stores [little data records](https://pdsls.dev/at://did:plc:ephkzpinhaqcabtkugtbzrwu/garden.goals.completion/3meq4efcirstr) on the account _I own_ to track my daily completions. I can edit those records directly, delete them, add to them however I like, and goals.garden displays what it finds — **instant interoperability**.
