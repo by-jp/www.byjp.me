@@ -3,10 +3,10 @@ title: Cognative bias in space exploration
 date: "2024-10-16T06:50:02Z"
 emoji: "\U0001F680"
 publishDate: 2024-10-13T16:19:00+0100
-bookmarkOf: http://www.antipope.org/charlie/blog-static/2024/10/conceptual-models-of-space-col.html
+bookmarkOf: https://www.antipope.org/charlie/blog-static/2024/10/conceptual-models-of-space-col.html
 references:
   bookmark:
-    url: http://www.antipope.org/charlie/blog-static/2024/10/conceptual-models-of-space-col.html
+    url: https://www.antipope.org/charlie/blog-static/2024/10/conceptual-models-of-space-col.html
     type: entry
     name: Conceptual models of space colonization
     summary: 'I''m thinking morose thoughts about the practical prospects for space
