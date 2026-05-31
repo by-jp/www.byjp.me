@@ -208,6 +208,8 @@ date = ["date", "publishDate", "lastmod", ":git"]
     suffixes = ['gmi']
   [mediaTypes.'text/plain+redirects']
     suffixes = ['redirects']
+  [mediaTypes.'text/markdown']
+    suffixes = ['md']
 [outputFormats]
   [outputFormats.opml]
     mediaType = 'text/x-opml'
@@ -231,6 +233,20 @@ date = ["date", "publishDate", "lastmod", ":git"]
     protocol = 'gemini://'
     permalinkable = true
     noUgly = true
+  # Raw markdown with shortcodes/includes expanded — for atproto site.standard.document records
+  [outputFormats.markdown]
+    name = 'markdown'
+    # isHTML (not isPlainText) so shortcodes resolve to their .html templates
+    # rather than the gemini (.gmi) ones — markdown allows inline HTML, so
+    # media shortcodes (figure, imgorvid, …) degrade to HTML rather than
+    # gemini link-syntax. The include shortcode resolves to its replacement.
+    isHTML = true
+    isPlainText = false
+    mediaType = 'text/markdown'
+    # false → .Permalink/asset URLs inside shortcodes resolve to the canonical
+    # (html) page, not the .md file, so relative asset paths stay correct.
+    permalinkable = false
+    noUgly = true
   [outputFormats.api]
     name = 'JSON API'
     isPlainText = true
@@ -250,7 +266,7 @@ date = ["date", "publishDate", "lastmod", ":git"]
 
 [outputs]
   home = ["html", "rss", "podcast", "gemini", "redirects"]
-  page = ["html", "gemini"]
+  page = ["html", "gemini", "markdown"]
   rss = ["rss", "podcast"]
   section = ["html", "rss", "podcast", "gemini"]
   taxonomy = ["html", "rss", "podcast", "gemini"]
